@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="corea_corpus.xsl" type="text/xsl"?>
+<toplevel>
+  <sentence alpsent="WR-P-P-H-0000000004.p.1.s.1.xml"><markable head="vilamoura" id="markable_1">VILAMOURA</markable> -</sentence>
+  <sentence alpsent="WR-P-P-H-0000000004.p.1.s.2.xml"><markable head="carolijn brouwer" id="markable_2">Zeilster Carolijn Brouwer</markable> is sterk gestart bij <markable head="europe" id="markable_3">het WK Europe in <markable head="vilamoura" id="markable_4" level="reference" mod="no" ref="markable_1" time="none" type="ident">Vilamoura</markable></markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000004.p.1.s.3.xml">In <markable head="omstandigheden" id="markable_5">lichte omstandigheden</markable> won <markable head="wereldkampioene" id="markable_6" level="reference" mod="no" ref="markable_2" time="none" type="ident">de tweevoudige wereldkampioene</markable> <markable head="race" id="markable_7" level="reference" mod="no" ref="markable_3" time="none" type="bridge">de eerste race</markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000004.p.1.s.4.xml">In <markable head="race" id="markable_8" level="reference" mod="no" ref="markable_3" time="none" type="bridge">de tweede race</markable> eindigde <markable head="kandidate" id="markable_9" level="reference" mod="no" ref="markable_6" time="none" type="ident">de olympische kandidate</markable> als <markable head="tweede" id="markable_10">tweede</markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000004.p.1.s.5.xml"><markable head="min de zille" id="markable_11">Min de Zille uit <markable head="belgië" id="markable_12">België</markable></markable> zette , omgekeerd , <markable head="prestaties" id="markable_13">dezelfde prestaties</markable> neer .</sentence>
+</toplevel>

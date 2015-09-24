@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="corea_corpus.xsl" type="text/xsl"?>
+<toplevel>
+  <sentence alpsent="WR-P-P-H-0000000029.p.1.s.1.xml"><markable head="duisburg" id="markable_1">DUISBURG</markable> -</sentence>
+  <sentence alpsent="WR-P-P-H-0000000029.p.1.s.2.xml"><markable head="jean paul de bruijn" id="markable_2">Jean Paul de Bruijn</markable> is <markable head="kampioen" id="markable_3" level="reference" mod="no" ref="markable_2" time="none" type="pred">de nieuwe Europese kampioen bandstoten</markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000029.p.1.s.3.xml"><markable head="biljarter" id="markable_4" level="reference" mod="no" ref="markable_2" time="none" type="ident">De Zeeuwse biljarter</markable> versloeg in <markable head="finale" id="markable_5">de finale</markable> in <markable head="duisburg" id="markable_6" level="reference" mod="no" ref="markable_1" time="none" type="ident">Duisburg</markable> <markable head="fabian blondeel" id="markable_7">de Duitser Fabian Blondeel</markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000029.p.1.s.4.xml"><markable head="bruijn" id="markable_8" level="reference" mod="no" ref="markable_4" time="none" type="ident">De Bruijn</markable> tikte <markable head="caramboles" id="markable_9">de 150 caramboles</markable> in <markable head="beurten" id="markable_10">26 beurten</markable> bijeen ( <markable head="moyenne" id="markable_11">moyenne <markable head="5,77" id="markable_12">5,77</markable></markable> ) .</sentence>
+</toplevel>

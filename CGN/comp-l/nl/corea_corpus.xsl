@@ -1,0 +1,1 @@
+../../../Scripts/corea_corpus.xsl

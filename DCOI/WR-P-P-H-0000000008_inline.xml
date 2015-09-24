@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="corea_corpus.xsl" type="text/xsl"?>
+<toplevel>
+  <sentence alpsent="WR-P-P-H-0000000008.p.1.s.1.xml"><markable head="tenerife" id="markable_1">TENERIFE</markable> -</sentence>
+  <sentence alpsent="WR-P-P-H-0000000008.p.1.s.2.xml"><markable head="bridgers" id="markable_2">De Italiaanse bridgers</markable> hebben op <markable head="tenerife" id="markable_3" level="reference" mod="no" ref="markable_1" time="none" type="ident">Tenerife</markable> <markable head="titel" id="markable_4">de Europese titel in <markable head="klasse" id="markable_5">de open klasse</markable></markable> veroverd .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000008.p.1.s.3.xml">In <markable head="slotronde" id="markable_6">de slotronde</markable> wonnen <markable head="italianen" id="markable_7" level="reference" mod="no" ref="markable_2" time="none" type="ident">de Italianen</markable> met 16 - 14 van <markable head="turkije" id="markable_8">Turkije</markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000008.p.1.s.4.xml"><markable head="noorwegen" id="markable_9">Noorwegen , dat <markable head="ijsland" id="markable_10">IJsland</markable> met 24 - 6 versloeg</markable> , pakte <markable head="zilver" id="markable_11">het zilver</markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000008.p.1.s.5.xml"><markable head="brons" id="markable_12">Brons</markable> was voor <markable head="polen" id="markable_13">Polen</markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000008.p.1.s.6.xml"><markable head="nederland" id="markable_14">Nederland</markable> sloot <markable head="evenement" id="markable_15">het evenement</markable> als <markable head="negende" id="markable_16">negende</markable> af en plaatste <markable head="zich" id="markable_17">zich</markable> niet voor <markable head="wk" id="markable_18">het WK</markable> .</sentence>
+</toplevel>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="corea_corpus.xsl" type="text/xsl"?>
+<toplevel>
+  <sentence alpsent="WR-P-P-H-0000000106.p.1.s.1.xml"><markable head="ALMELO" id="markable_1">ALMELO</markable> -</sentence>
+  <sentence alpsent="WR-P-P-H-0000000106.p.1.s.2.xml"><markable head="brand" id="markable_2">Een grote brand</markable> heeft in <markable head="nacht" id="markable_3">de nacht van <markable head="zaterdag" id="markable_4">zaterdag</markable> op <markable head="zondag" id="markable_5">zondag</markable></markable> <markable head="miljoenenschade" id="markable_6">een miljoenenschade</markable> veroorzaakt bij <markable head="5MCompany" id="markable_7">het bedrijf 5MCompany in <markable head="Almelo" id="markable_8">Almelo</markable></markable> .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000106.p.1.s.3.xml"><markable head="derde" id="markable_9">Een derde van <markable head="bedrijfspand" id="markable_10">het <markable head="hectare" id="markable_11">ongeveer één hectare</markable> grote bedrijfspand , waar <markable head="fotobenodigdheden" id="markable_12">fotobenodigdheden</markable> werden gefabriceerd</markable></markable> , werd verwoest .</sentence>
+  <sentence alpsent="WR-P-P-H-0000000106.p.1.s.4.xml"><markable head="bewoners" id="markable_13">De bewoners van <markable head="huizen" id="markable_14">zes huizen in <markable head="omgeving" id="markable_15">de omgeving</markable></markable></markable> moesten op last van <markable head="autoriteiten" id="markable_16">de autoriteiten</markable> <markable head="woningen" id="markable_17"><markable head="hun" id="markable_18">hun</markable> woningen</markable> verlaten .</sentence>
+</toplevel>
