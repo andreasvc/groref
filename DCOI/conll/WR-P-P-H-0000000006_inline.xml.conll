@@ -1,0 +1,329 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000006_inline.xml	1	1	1	1	1	LONDEN	(1)
+WR-P-P-H-0000000006_inline.xml	1	1	1	2	2	-	
+
+WR-P-P-H-0000000006_inline.xml	1	2	2	1	3	Yevgeny	(2
+WR-P-P-H-0000000006_inline.xml	1	2	2	2	4	Kafelnikov	2)
+WR-P-P-H-0000000006_inline.xml	1	2	2	3	5	wist	
+WR-P-P-H-0000000006_inline.xml	1	2	2	4	6	dat	
+WR-P-P-H-0000000006_inline.xml	1	2	2	5	7	hij	(2)
+WR-P-P-H-0000000006_inline.xml	1	2	2	6	8	de	(2)
+WR-P-P-H-0000000006_inline.xml	1	2	2	7	9	favoriet	(2)
+WR-P-P-H-0000000006_inline.xml	1	2	2	8	10	was	
+WR-P-P-H-0000000006_inline.xml	1	2	2	9	11	,	
+WR-P-P-H-0000000006_inline.xml	1	2	2	10	12	in	
+WR-P-P-H-0000000006_inline.xml	1	2	2	11	13	de	(5
+WR-P-P-H-0000000006_inline.xml	1	2	2	12	14	derde-rondepartij	5
+WR-P-P-H-0000000006_inline.xml	1	2	2	13	15	tegen	5
+WR-P-P-H-0000000006_inline.xml	1	2	2	14	16	de	5|(6
+WR-P-P-H-0000000006_inline.xml	1	2	2	15	17	Argentijn	5|6
+WR-P-P-H-0000000006_inline.xml	1	2	2	16	18	Guillermo	5|6
+WR-P-P-H-0000000006_inline.xml	1	2	2	17	19	Canas	5)|6)
+WR-P-P-H-0000000006_inline.xml	1	2	2	18	20	.	
+
+WR-P-P-H-0000000006_inline.xml	1	3	3	1	21	Die	(7
+WR-P-P-H-0000000006_inline.xml	1	3	3	2	22	wetenschap	7)
+WR-P-P-H-0000000006_inline.xml	1	3	3	3	23	deed	
+WR-P-P-H-0000000006_inline.xml	1	3	3	4	24	hem	(2)
+WR-P-P-H-0000000006_inline.xml	1	3	3	5	25	verstijven	
+WR-P-P-H-0000000006_inline.xml	1	3	3	6	26	.	
+
+WR-P-P-H-0000000006_inline.xml	1	4	4	1	27	Top-tienspeler	(9|(10)
+WR-P-P-H-0000000006_inline.xml	1	4	4	2	28	of	9
+WR-P-P-H-0000000006_inline.xml	1	4	4	3	29	niet	9)
+WR-P-P-H-0000000006_inline.xml	1	4	4	4	30	;	
+WR-P-P-H-0000000006_inline.xml	1	4	4	5	31	hoe	
+WR-P-P-H-0000000006_inline.xml	1	4	4	6	32	makkelijker	
+WR-P-P-H-0000000006_inline.xml	1	4	4	7	33	iets	(11)
+WR-P-P-H-0000000006_inline.xml	1	4	4	8	34	lijkt	
+WR-P-P-H-0000000006_inline.xml	1	4	4	9	35	,	
+WR-P-P-H-0000000006_inline.xml	1	4	4	10	36	hoe	
+WR-P-P-H-0000000006_inline.xml	1	4	4	11	37	moeilijker	
+WR-P-P-H-0000000006_inline.xml	1	4	4	12	38	het	(12)
+WR-P-P-H-0000000006_inline.xml	1	4	4	13	39	vaak	
+WR-P-P-H-0000000006_inline.xml	1	4	4	14	40	is	
+WR-P-P-H-0000000006_inline.xml	1	4	4	15	41	.	
+
+WR-P-P-H-0000000006_inline.xml	1	5	5	1	42	,,	
+WR-P-P-H-0000000006_inline.xml	1	5	5	2	43	Ik	(2)
+WR-P-P-H-0000000006_inline.xml	1	5	5	3	44	wist	
+WR-P-P-H-0000000006_inline.xml	1	5	5	4	45	dat	
+WR-P-P-H-0000000006_inline.xml	1	5	5	5	46	mijn	(14|(2)
+WR-P-P-H-0000000006_inline.xml	1	5	5	6	47	helft	14
+WR-P-P-H-0000000006_inline.xml	1	5	5	7	48	van	14
+WR-P-P-H-0000000006_inline.xml	1	5	5	8	49	het	14|(16
+WR-P-P-H-0000000006_inline.xml	1	5	5	9	50	schema	14)|16)
+WR-P-P-H-0000000006_inline.xml	1	5	5	10	51	open	
+WR-P-P-H-0000000006_inline.xml	1	5	5	11	52	ligt	
+WR-P-P-H-0000000006_inline.xml	1	5	5	12	53	.	
+
+WR-P-P-H-0000000006_inline.xml	1	6	6	1	54	Die	(17
+WR-P-P-H-0000000006_inline.xml	1	6	6	2	55	wetenschap	17)
+WR-P-P-H-0000000006_inline.xml	1	6	6	3	56	deed	
+WR-P-P-H-0000000006_inline.xml	1	6	6	4	57	me	(2)
+WR-P-P-H-0000000006_inline.xml	1	6	6	5	58	verliezen	
+WR-P-P-H-0000000006_inline.xml	1	6	6	6	59	.	
+WR-P-P-H-0000000006_inline.xml	1	6	6	7	60	''	
+
+WR-P-P-H-0000000006_inline.xml	2	1	7	1	61	De	(19
+WR-P-P-H-0000000006_inline.xml	2	1	7	2	62	uitschakeling	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	3	63	van	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	4	64	de	19|(2)
+WR-P-P-H-0000000006_inline.xml	2	1	7	5	65	nummer	19|(2)
+WR-P-P-H-0000000006_inline.xml	2	1	7	6	66	zeven	19|(2)|(21)
+WR-P-P-H-0000000006_inline.xml	2	1	7	7	67	van	19|(2)
+WR-P-P-H-0000000006_inline.xml	2	1	7	8	68	de	19|(2)|(22
+WR-P-P-H-0000000006_inline.xml	2	1	7	9	69	plaatsingslijst	19|(2)|22)
+WR-P-P-H-0000000006_inline.xml	2	1	7	10	70	(	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	11	71	3	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	12	72	-	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	13	73	6	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	14	74	6	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	15	75	-	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	16	76	1	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	17	77	6	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	18	78	-	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	19	79	3	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	20	80	7	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	21	81	-	19
+WR-P-P-H-0000000006_inline.xml	2	1	7	22	82	6	19)
+WR-P-P-H-0000000006_inline.xml	2	1	7	23	83	)	
+WR-P-P-H-0000000006_inline.xml	2	1	7	24	84	was	
+WR-P-P-H-0000000006_inline.xml	2	1	7	25	85	de	(23
+WR-P-P-H-0000000006_inline.xml	2	1	7	26	86	grootste	23
+WR-P-P-H-0000000006_inline.xml	2	1	7	27	87	verrassing	23
+WR-P-P-H-0000000006_inline.xml	2	1	7	28	88	bij	23
+WR-P-P-H-0000000006_inline.xml	2	1	7	29	89	de	23|(24
+WR-P-P-H-0000000006_inline.xml	2	1	7	30	90	mannen	23)|24)
+WR-P-P-H-0000000006_inline.xml	2	1	7	31	91	dit	(25
+WR-P-P-H-0000000006_inline.xml	2	1	7	32	92	weekeinde	25)
+WR-P-P-H-0000000006_inline.xml	2	1	7	33	93	op	
+WR-P-P-H-0000000006_inline.xml	2	1	7	34	94	Wimbledon	(26)
+WR-P-P-H-0000000006_inline.xml	2	1	7	35	95	.	
+
+WR-P-P-H-0000000006_inline.xml	2	2	8	1	96	In	
+WR-P-P-H-0000000006_inline.xml	2	2	8	2	97	het	(27
+WR-P-P-H-0000000006_inline.xml	2	2	8	3	98	vrouwentoernooi	27)
+WR-P-P-H-0000000006_inline.xml	2	2	8	4	99	struikelde	
+WR-P-P-H-0000000006_inline.xml	2	2	8	5	100	de	(28
+WR-P-P-H-0000000006_inline.xml	2	2	8	6	101	Franse	28
+WR-P-P-H-0000000006_inline.xml	2	2	8	7	102	krachtpatser	28
+WR-P-P-H-0000000006_inline.xml	2	2	8	8	103	Amelie	28
+WR-P-P-H-0000000006_inline.xml	2	2	8	9	104	Mauresmo	28)
+WR-P-P-H-0000000006_inline.xml	2	2	8	10	105	onverwacht	
+WR-P-P-H-0000000006_inline.xml	2	2	8	11	106	over	
+WR-P-P-H-0000000006_inline.xml	2	2	8	12	107	de	(29
+WR-P-P-H-0000000006_inline.xml	2	2	8	13	108	Thaise	29
+WR-P-P-H-0000000006_inline.xml	2	2	8	14	109	Tanasugarn	29)
+WR-P-P-H-0000000006_inline.xml	2	2	8	15	110	.	
+
+WR-P-P-H-0000000006_inline.xml	3	1	9	1	111	Voor	
+WR-P-P-H-0000000006_inline.xml	3	1	9	2	112	Canas	(6)
+WR-P-P-H-0000000006_inline.xml	3	1	9	3	113	betekende	
+WR-P-P-H-0000000006_inline.xml	3	1	9	4	114	de	(31
+WR-P-P-H-0000000006_inline.xml	3	1	9	5	115	zege	31
+WR-P-P-H-0000000006_inline.xml	3	1	9	6	116	op	31
+WR-P-P-H-0000000006_inline.xml	3	1	9	7	117	de	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	8	118	mentaal	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	9	119	onevenwichtige	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	10	120	Rus	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	11	121	,	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	12	122	die	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	13	123	in	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	14	124	Londen	31|(2)|(1)
+WR-P-P-H-0000000006_inline.xml	3	1	9	15	125	nooit	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	16	126	verder	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	17	127	dan	31|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	18	128	de	31|(2)|(34
+WR-P-P-H-0000000006_inline.xml	3	1	9	19	129	kwartfinales	31|(2)|34)
+WR-P-P-H-0000000006_inline.xml	3	1	9	20	130	reikte	31)|(2)
+WR-P-P-H-0000000006_inline.xml	3	1	9	21	131	,	
+WR-P-P-H-0000000006_inline.xml	3	1	9	22	132	een	(35
+WR-P-P-H-0000000006_inline.xml	3	1	9	23	133	mooie	35
+WR-P-P-H-0000000006_inline.xml	3	1	9	24	134	meevaller	35)
+WR-P-P-H-0000000006_inline.xml	3	1	9	25	135	.	
+
+WR-P-P-H-0000000006_inline.xml	3	2	10	1	136	Voor	
+WR-P-P-H-0000000006_inline.xml	3	2	10	2	137	het	
+WR-P-P-H-0000000006_inline.xml	3	2	10	3	138	eerst	
+WR-P-P-H-0000000006_inline.xml	3	2	10	4	139	in	
+WR-P-P-H-0000000006_inline.xml	3	2	10	5	140	22	(36
+WR-P-P-H-0000000006_inline.xml	3	2	10	6	141	jaar	36)
+WR-P-P-H-0000000006_inline.xml	3	2	10	7	142	bereikte	
+WR-P-P-H-0000000006_inline.xml	3	2	10	8	143	een	(37
+WR-P-P-H-0000000006_inline.xml	3	2	10	9	144	Argentijn	37)
+WR-P-P-H-0000000006_inline.xml	3	2	10	10	145	de	(38
+WR-P-P-H-0000000006_inline.xml	3	2	10	11	146	vierde	38
+WR-P-P-H-0000000006_inline.xml	3	2	10	12	147	ronde	38
+WR-P-P-H-0000000006_inline.xml	3	2	10	13	148	van	38
+WR-P-P-H-0000000006_inline.xml	3	2	10	14	149	Wimbledon	38)|(26)
+WR-P-P-H-0000000006_inline.xml	3	2	10	15	150	.	
+
+WR-P-P-H-0000000006_inline.xml	3	3	11	1	151	Met	
+WR-P-P-H-0000000006_inline.xml	3	3	11	2	152	een	(40
+WR-P-P-H-0000000006_inline.xml	3	3	11	3	153	knipoog	40
+WR-P-P-H-0000000006_inline.xml	3	3	11	4	154	naar	40
+WR-P-P-H-0000000006_inline.xml	3	3	11	5	155	het	40|(41
+WR-P-P-H-0000000006_inline.xml	3	3	11	6	156	gravel	40)|41)
+WR-P-P-H-0000000006_inline.xml	3	3	11	7	157	:	
+WR-P-P-H-0000000006_inline.xml	3	3	11	8	158	,,	
+WR-P-P-H-0000000006_inline.xml	3	3	11	9	159	Dat	(42)
+WR-P-P-H-0000000006_inline.xml	3	3	11	10	160	hoort	
+WR-P-P-H-0000000006_inline.xml	3	3	11	11	161	natuurlijk	
+WR-P-P-H-0000000006_inline.xml	3	3	11	12	162	eigenlijk	
+WR-P-P-H-0000000006_inline.xml	3	3	11	13	163	niet	
+WR-P-P-H-0000000006_inline.xml	3	3	11	14	164	,	
+WR-P-P-H-0000000006_inline.xml	3	3	11	15	165	een	(43
+WR-P-P-H-0000000006_inline.xml	3	3	11	16	166	Zuid-Amerikaan	43)
+WR-P-P-H-0000000006_inline.xml	3	3	11	17	167	zover	
+WR-P-P-H-0000000006_inline.xml	3	3	11	18	168	op	
+WR-P-P-H-0000000006_inline.xml	3	3	11	19	169	gras	(44)
+WR-P-P-H-0000000006_inline.xml	3	3	11	20	170	''	
+
+WR-P-P-H-0000000006_inline.xml	4	1	12	1	171	De	(6)
+WR-P-P-H-0000000006_inline.xml	4	1	12	2	172	baseliner	(6)
+WR-P-P-H-0000000006_inline.xml	4	1	12	3	173	speelde	
+WR-P-P-H-0000000006_inline.xml	4	1	12	4	174	ter	
+WR-P-P-H-0000000006_inline.xml	4	1	12	5	175	voorbereiding	
+WR-P-P-H-0000000006_inline.xml	4	1	12	6	176	op	
+WR-P-P-H-0000000006_inline.xml	4	1	12	7	177	het	(26)
+WR-P-P-H-0000000006_inline.xml	4	1	12	8	178	Grand	(26)
+WR-P-P-H-0000000006_inline.xml	4	1	12	9	179	Slam	(26)
+WR-P-P-H-0000000006_inline.xml	4	1	12	10	180	één	(47
+WR-P-P-H-0000000006_inline.xml	4	1	12	11	181	grastoernooi	47)
+WR-P-P-H-0000000006_inline.xml	4	1	12	12	182	.	
+
+WR-P-P-H-0000000006_inline.xml	4	2	13	1	183	In	
+WR-P-P-H-0000000006_inline.xml	4	2	13	2	184	Rosmalen	(48)
+WR-P-P-H-0000000006_inline.xml	4	2	13	3	185	verloor	
+WR-P-P-H-0000000006_inline.xml	4	2	13	4	186	hij	(6)
+WR-P-P-H-0000000006_inline.xml	4	2	13	5	187	pas	
+WR-P-P-H-0000000006_inline.xml	4	2	13	6	188	in	
+WR-P-P-H-0000000006_inline.xml	4	2	13	7	189	de	(50
+WR-P-P-H-0000000006_inline.xml	4	2	13	8	190	finale	50)
+WR-P-P-H-0000000006_inline.xml	4	2	13	9	191	van	
+WR-P-P-H-0000000006_inline.xml	4	2	13	10	192	Hewitt	(51)
+WR-P-P-H-0000000006_inline.xml	4	2	13	11	193	.	
+
+WR-P-P-H-0000000006_inline.xml	4	3	14	1	194	Van	
+WR-P-P-H-0000000006_inline.xml	4	3	14	2	195	meer	(52
+WR-P-P-H-0000000006_inline.xml	4	3	14	3	196	dan	52
+WR-P-P-H-0000000006_inline.xml	4	3	14	4	197	twee	52|(53)
+WR-P-P-H-0000000006_inline.xml	4	3	14	5	198	grastoernooien	52
+WR-P-P-H-0000000006_inline.xml	4	3	14	6	199	op	52
+WR-P-P-H-0000000006_inline.xml	4	3	14	7	200	rij	52)|(54)
+WR-P-P-H-0000000006_inline.xml	4	3	14	8	201	wordt	
+WR-P-P-H-0000000006_inline.xml	4	3	14	9	202	hij	(6)
+WR-P-P-H-0000000006_inline.xml	4	3	14	10	203	te	
+WR-P-P-H-0000000006_inline.xml	4	3	14	11	204	moe	
+WR-P-P-H-0000000006_inline.xml	4	3	14	12	205	.	
+
+WR-P-P-H-0000000006_inline.xml	4	4	15	1	206	Het	(56
+WR-P-P-H-0000000006_inline.xml	4	4	15	2	207	openingsstatement	56
+WR-P-P-H-0000000006_inline.xml	4	4	15	3	208	van	56
+WR-P-P-H-0000000006_inline.xml	4	4	15	4	209	zijn	56|(57|(6)
+WR-P-P-H-0000000006_inline.xml	4	4	15	5	210	persconferentie	56)|57)
+WR-P-P-H-0000000006_inline.xml	4	4	15	6	211	was	
+WR-P-P-H-0000000006_inline.xml	4	4	15	7	212	geen	(59
+WR-P-P-H-0000000006_inline.xml	4	4	15	8	213	grap	59)
+WR-P-P-H-0000000006_inline.xml	4	4	15	9	214	.	
+
+WR-P-P-H-0000000006_inline.xml	4	5	16	1	215	Gravelbijters	(60)
+WR-P-P-H-0000000006_inline.xml	4	5	16	2	216	kennen	
+WR-P-P-H-0000000006_inline.xml	4	5	16	3	217	hun	(61|(60)
+WR-P-P-H-0000000006_inline.xml	4	5	16	4	218	eigen	61
+WR-P-P-H-0000000006_inline.xml	4	5	16	5	219	logica	61)
+WR-P-P-H-0000000006_inline.xml	4	5	16	6	220	.	
+
+WR-P-P-H-0000000006_inline.xml	5	1	17	1	221	De	(6)
+WR-P-P-H-0000000006_inline.xml	5	1	17	2	222	24-jarige	(6)
+WR-P-P-H-0000000006_inline.xml	5	1	17	3	223	Canas	(6)
+WR-P-P-H-0000000006_inline.xml	5	1	17	4	224	kent	
+WR-P-P-H-0000000006_inline.xml	5	1	17	5	225	een	(64
+WR-P-P-H-0000000006_inline.xml	5	1	17	6	226	succesvol	64
+WR-P-P-H-0000000006_inline.xml	5	1	17	7	227	jaar	64)
+WR-P-P-H-0000000006_inline.xml	5	1	17	8	228	.	
+
+WR-P-P-H-0000000006_inline.xml	5	2	18	1	229	De	(6)
+WR-P-P-H-0000000006_inline.xml	5	2	18	2	230	rechtshander	(6)
+WR-P-P-H-0000000006_inline.xml	5	2	18	3	231	uit	(6)
+WR-P-P-H-0000000006_inline.xml	5	2	18	4	232	Buenos	(6)|(66
+WR-P-P-H-0000000006_inline.xml	5	2	18	5	233	Aires	(6)|66)
+WR-P-P-H-0000000006_inline.xml	5	2	18	6	234	klom	
+WR-P-P-H-0000000006_inline.xml	5	2	18	7	235	sinds	
+WR-P-P-H-0000000006_inline.xml	5	2	18	8	236	januari	(67)
+WR-P-P-H-0000000006_inline.xml	5	2	18	9	237	178	(68
+WR-P-P-H-0000000006_inline.xml	5	2	18	10	238	plaatsen	68)
+WR-P-P-H-0000000006_inline.xml	5	2	18	11	239	naar	
+WR-P-P-H-0000000006_inline.xml	5	2	18	12	240	de	(69
+WR-P-P-H-0000000006_inline.xml	5	2	18	13	241	49ste	69
+WR-P-P-H-0000000006_inline.xml	5	2	18	14	242	positie	69
+WR-P-P-H-0000000006_inline.xml	5	2	18	15	243	op	69
+WR-P-P-H-0000000006_inline.xml	5	2	18	16	244	de	69|(70
+WR-P-P-H-0000000006_inline.xml	5	2	18	17	245	wereldranglijst	69)|70)
+WR-P-P-H-0000000006_inline.xml	5	2	18	18	246	.	
+
+WR-P-P-H-0000000006_inline.xml	6	1	19	1	247	,,	
+WR-P-P-H-0000000006_inline.xml	6	1	19	2	248	Vorig	(72
+WR-P-P-H-0000000006_inline.xml	6	1	19	3	249	jaar	72)
+WR-P-P-H-0000000006_inline.xml	6	1	19	4	250	ben	
+WR-P-P-H-0000000006_inline.xml	6	1	19	5	251	ik	(6)
+WR-P-P-H-0000000006_inline.xml	6	1	19	6	252	voor	
+WR-P-P-H-0000000006_inline.xml	6	1	19	7	253	het	
+WR-P-P-H-0000000006_inline.xml	6	1	19	8	254	eerst	
+WR-P-P-H-0000000006_inline.xml	6	1	19	9	255	geopereerd	
+WR-P-P-H-0000000006_inline.xml	6	1	19	10	256	,	
+WR-P-P-H-0000000006_inline.xml	6	1	19	11	257	aan	
+WR-P-P-H-0000000006_inline.xml	6	1	19	12	258	mijn	(73|(6)
+WR-P-P-H-0000000006_inline.xml	6	1	19	13	259	linkerpols	73)
+WR-P-P-H-0000000006_inline.xml	6	1	19	14	260	.	
+
+WR-P-P-H-0000000006_inline.xml	6	2	20	1	261	Dat	(75)
+WR-P-P-H-0000000006_inline.xml	6	2	20	2	262	gaf	
+WR-P-P-H-0000000006_inline.xml	6	2	20	3	263	me	(6)
+WR-P-P-H-0000000006_inline.xml	6	2	20	4	264	de	
+WR-P-P-H-0000000006_inline.xml	6	2	20	5	265	tijd	
+WR-P-P-H-0000000006_inline.xml	6	2	20	6	266	om	
+WR-P-P-H-0000000006_inline.xml	6	2	20	7	267	eens	
+WR-P-P-H-0000000006_inline.xml	6	2	20	8	268	na	
+WR-P-P-H-0000000006_inline.xml	6	2	20	9	269	te	
+WR-P-P-H-0000000006_inline.xml	6	2	20	10	270	denken	
+WR-P-P-H-0000000006_inline.xml	6	2	20	11	271	over	
+WR-P-P-H-0000000006_inline.xml	6	2	20	12	272	mijn	(77|(6)
+WR-P-P-H-0000000006_inline.xml	6	2	20	13	273	instelling	77)
+WR-P-P-H-0000000006_inline.xml	6	2	20	14	274	.	
+
+WR-P-P-H-0000000006_inline.xml	6	3	21	1	275	Ik	(6)
+WR-P-P-H-0000000006_inline.xml	6	3	21	2	276	besloot	
+WR-P-P-H-0000000006_inline.xml	6	3	21	3	277	serieuzer	
+WR-P-P-H-0000000006_inline.xml	6	3	21	4	278	te	
+WR-P-P-H-0000000006_inline.xml	6	3	21	5	279	werk	
+WR-P-P-H-0000000006_inline.xml	6	3	21	6	280	te	
+WR-P-P-H-0000000006_inline.xml	6	3	21	7	281	gaan	
+WR-P-P-H-0000000006_inline.xml	6	3	21	8	282	.	
+
+WR-P-P-H-0000000006_inline.xml	6	4	22	1	283	Met	
+WR-P-P-H-0000000006_inline.xml	6	4	22	2	284	iedere	(80
+WR-P-P-H-0000000006_inline.xml	6	4	22	3	285	winst	80)
+WR-P-P-H-0000000006_inline.xml	6	4	22	4	286	groeide	
+WR-P-P-H-0000000006_inline.xml	6	4	22	5	287	het	(81
+WR-P-P-H-0000000006_inline.xml	6	4	22	6	288	vertrouwen	81)
+WR-P-P-H-0000000006_inline.xml	6	4	22	7	289	.	
+
+WR-P-P-H-0000000006_inline.xml	6	5	23	1	290	Ik	(6)
+WR-P-P-H-0000000006_inline.xml	6	5	23	2	291	ben	
+WR-P-P-H-0000000006_inline.xml	6	5	23	3	292	nu	
+WR-P-P-H-0000000006_inline.xml	6	5	23	4	293	zo	
+WR-P-P-H-0000000006_inline.xml	6	5	23	5	294	ver	
+WR-P-P-H-0000000006_inline.xml	6	5	23	6	295	dat	
+WR-P-P-H-0000000006_inline.xml	6	5	23	7	296	ik	(6)
+WR-P-P-H-0000000006_inline.xml	6	5	23	8	297	weet	
+WR-P-P-H-0000000006_inline.xml	6	5	23	9	298	dat	
+WR-P-P-H-0000000006_inline.xml	6	5	23	10	299	ik	(6)
+WR-P-P-H-0000000006_inline.xml	6	5	23	11	300	van	
+WR-P-P-H-0000000006_inline.xml	6	5	23	12	301	iedereen	(85)
+WR-P-P-H-0000000006_inline.xml	6	5	23	13	302	kan	
+WR-P-P-H-0000000006_inline.xml	6	5	23	14	303	winnen	
+WR-P-P-H-0000000006_inline.xml	6	5	23	15	304	.	
+WR-P-P-H-0000000006_inline.xml	6	5	23	16	305	''	
+

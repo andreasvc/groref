@@ -1,0 +1,302 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000003_inline.xml	1	1	1	1	1	Na	
+WR-P-P-H-0000000003_inline.xml	1	1	1	2	2	een	(1
+WR-P-P-H-0000000003_inline.xml	1	1	1	3	3	slappe	1
+WR-P-P-H-0000000003_inline.xml	1	1	1	4	4	morgen	1)
+WR-P-P-H-0000000003_inline.xml	1	1	1	5	5	kwam	
+WR-P-P-H-0000000003_inline.xml	1	1	1	6	6	gisteren	
+WR-P-P-H-0000000003_inline.xml	1	1	1	7	7	de	(2
+WR-P-P-H-0000000003_inline.xml	1	1	1	8	8	effectenbeurs	2
+WR-P-P-H-0000000003_inline.xml	1	1	1	9	9	van	2
+WR-P-P-H-0000000003_inline.xml	1	1	1	10	10	Amsterdam	2)|(3)
+WR-P-P-H-0000000003_inline.xml	1	1	1	11	11	pas	
+WR-P-P-H-0000000003_inline.xml	1	1	1	12	12	in	
+WR-P-P-H-0000000003_inline.xml	1	1	1	13	13	de	(4
+WR-P-P-H-0000000003_inline.xml	1	1	1	14	14	late	4
+WR-P-P-H-0000000003_inline.xml	1	1	1	15	15	middag	4)
+WR-P-P-H-0000000003_inline.xml	1	1	1	16	16	tot	
+WR-P-P-H-0000000003_inline.xml	1	1	1	17	17	leven	
+WR-P-P-H-0000000003_inline.xml	1	1	1	18	18	.	
+
+WR-P-P-H-0000000003_inline.xml	1	2	2	1	19	Onder	
+WR-P-P-H-0000000003_inline.xml	1	2	2	2	20	invloed	
+WR-P-P-H-0000000003_inline.xml	1	2	2	3	21	van	
+WR-P-P-H-0000000003_inline.xml	1	2	2	4	22	vooral	(5
+WR-P-P-H-0000000003_inline.xml	1	2	2	5	23	Wall	5
+WR-P-P-H-0000000003_inline.xml	1	2	2	6	24	Street	5)
+WR-P-P-H-0000000003_inline.xml	1	2	2	7	25	trokken	
+WR-P-P-H-0000000003_inline.xml	1	2	2	8	26	de	(6
+WR-P-P-H-0000000003_inline.xml	1	2	2	9	27	aandelenkoersen	6)
+WR-P-P-H-0000000003_inline.xml	1	2	2	10	28	duidelijk	
+WR-P-P-H-0000000003_inline.xml	1	2	2	11	29	aan	
+WR-P-P-H-0000000003_inline.xml	1	2	2	12	30	.	
+
+WR-P-P-H-0000000003_inline.xml	1	3	3	1	31	De	(7
+WR-P-P-H-0000000003_inline.xml	1	3	3	2	32	belangrijkste	7
+WR-P-P-H-0000000003_inline.xml	1	3	3	3	33	graadmeter	7
+WR-P-P-H-0000000003_inline.xml	1	3	3	4	34	,	7
+WR-P-P-H-0000000003_inline.xml	1	3	3	5	35	de	7|(8
+WR-P-P-H-0000000003_inline.xml	1	3	3	6	36	AEX-index	7)|8)
+WR-P-P-H-0000000003_inline.xml	1	3	3	7	37	,	
+WR-P-P-H-0000000003_inline.xml	1	3	3	8	38	sloot	
+WR-P-P-H-0000000003_inline.xml	1	3	3	9	39	10,55	(9
+WR-P-P-H-0000000003_inline.xml	1	3	3	10	40	punten	9)
+WR-P-P-H-0000000003_inline.xml	1	3	3	11	41	hoger	
+WR-P-P-H-0000000003_inline.xml	1	3	3	12	42	op	
+WR-P-P-H-0000000003_inline.xml	1	3	3	13	43	573,50	(10)
+WR-P-P-H-0000000003_inline.xml	1	3	3	14	44	.	
+
+WR-P-P-H-0000000003_inline.xml	1	4	4	1	45	Dat	(11)
+WR-P-P-H-0000000003_inline.xml	1	4	4	2	46	kwam	
+WR-P-P-H-0000000003_inline.xml	1	4	4	3	47	neer	
+WR-P-P-H-0000000003_inline.xml	1	4	4	4	48	op	
+WR-P-P-H-0000000003_inline.xml	1	4	4	5	49	een	(11
+WR-P-P-H-0000000003_inline.xml	1	4	4	6	50	stijging	11
+WR-P-P-H-0000000003_inline.xml	1	4	4	7	51	van	11
+WR-P-P-H-0000000003_inline.xml	1	4	4	8	52	1,87	11|(13
+WR-P-P-H-0000000003_inline.xml	1	4	4	9	53	procent	11)|13)
+WR-P-P-H-0000000003_inline.xml	1	4	4	10	54	.	
+
+WR-P-P-H-0000000003_inline.xml	2	1	5	1	55	Op	
+WR-P-P-H-0000000003_inline.xml	2	1	5	2	56	de	(14
+WR-P-P-H-0000000003_inline.xml	2	1	5	3	57	laatste	14
+WR-P-P-H-0000000003_inline.xml	2	1	5	4	58	handelsdag	14
+WR-P-P-H-0000000003_inline.xml	2	1	5	5	59	van	14
+WR-P-P-H-0000000003_inline.xml	2	1	5	6	60	het	14|(15
+WR-P-P-H-0000000003_inline.xml	2	1	5	7	61	kwartaal	14)|15)
+WR-P-P-H-0000000003_inline.xml	2	1	5	8	62	waren	
+WR-P-P-H-0000000003_inline.xml	2	1	5	9	63	hoofdzakelijk	
+WR-P-P-H-0000000003_inline.xml	2	1	5	10	64	de	(16|(18|(17
+WR-P-P-H-0000000003_inline.xml	2	1	5	11	65	pensioenfondsen	16|18|17)
+WR-P-P-H-0000000003_inline.xml	2	1	5	12	66	en	16|18
+WR-P-P-H-0000000003_inline.xml	2	1	5	13	67	verzekeraars	16)|18)
+WR-P-P-H-0000000003_inline.xml	2	1	5	14	68	actief	
+WR-P-P-H-0000000003_inline.xml	2	1	5	15	69	.	
+
+WR-P-P-H-0000000003_inline.xml	2	2	6	1	70	Zij	(16)
+WR-P-P-H-0000000003_inline.xml	2	2	6	2	71	wilden	
+WR-P-P-H-0000000003_inline.xml	2	2	6	3	72	graag	
+WR-P-P-H-0000000003_inline.xml	2	2	6	4	73	hun	(20|(16)
+WR-P-P-H-0000000003_inline.xml	2	2	6	5	74	beleggingsfondsen	20)
+WR-P-P-H-0000000003_inline.xml	2	2	6	6	75	nog	
+WR-P-P-H-0000000003_inline.xml	2	2	6	7	76	even	
+WR-P-P-H-0000000003_inline.xml	2	2	6	8	77	oppoetsen	
+WR-P-P-H-0000000003_inline.xml	2	2	6	9	78	.	
+
+WR-P-P-H-0000000003_inline.xml	2	3	7	1	79	De	(22
+WR-P-P-H-0000000003_inline.xml	2	3	7	2	80	slotkoersen	22
+WR-P-P-H-0000000003_inline.xml	2	3	7	3	81	van	22
+WR-P-P-H-0000000003_inline.xml	2	3	7	4	82	de	22|(23
+WR-P-P-H-0000000003_inline.xml	2	3	7	5	83	tweede	22|23
+WR-P-P-H-0000000003_inline.xml	2	3	7	6	84	driemaandsperiode	22)|23)
+WR-P-P-H-0000000003_inline.xml	2	3	7	7	85	gelden	
+WR-P-P-H-0000000003_inline.xml	2	3	7	8	86	immers	
+WR-P-P-H-0000000003_inline.xml	2	3	7	9	87	als	
+WR-P-P-H-0000000003_inline.xml	2	3	7	10	88	peildatum	(24)
+WR-P-P-H-0000000003_inline.xml	2	3	7	11	89	.	
+
+WR-P-P-H-0000000003_inline.xml	2	4	8	1	90	Dat	(25)
+WR-P-P-H-0000000003_inline.xml	2	4	8	2	91	leidde	
+WR-P-P-H-0000000003_inline.xml	2	4	8	3	92	ertoe	
+WR-P-P-H-0000000003_inline.xml	2	4	8	4	93	dat	
+WR-P-P-H-0000000003_inline.xml	2	4	8	5	94	slechts	(26
+WR-P-P-H-0000000003_inline.xml	2	4	8	6	95	twee	26
+WR-P-P-H-0000000003_inline.xml	2	4	8	7	96	van	26
+WR-P-P-H-0000000003_inline.xml	2	4	8	8	97	de	26|(27
+WR-P-P-H-0000000003_inline.xml	2	4	8	9	98	hoofdfondsen	26)|27)
+WR-P-P-H-0000000003_inline.xml	2	4	8	10	99	met	
+WR-P-P-H-0000000003_inline.xml	2	4	8	11	100	een	(28
+WR-P-P-H-0000000003_inline.xml	2	4	8	12	101	koersverlies	28)
+WR-P-P-H-0000000003_inline.xml	2	4	8	13	102	eindigden	
+WR-P-P-H-0000000003_inline.xml	2	4	8	14	103	:	
+WR-P-P-H-0000000003_inline.xml	2	4	8	15	104	Gucci	(26|(30)
+WR-P-P-H-0000000003_inline.xml	2	4	8	16	105	en	26
+WR-P-P-H-0000000003_inline.xml	2	4	8	17	106	Hagemeyer	26)|(31)
+WR-P-P-H-0000000003_inline.xml	2	4	8	18	107	.	
+
+WR-P-P-H-0000000003_inline.xml	3	1	9	1	108	De	(32
+WR-P-P-H-0000000003_inline.xml	3	1	9	2	109	brede	32
+WR-P-P-H-0000000003_inline.xml	3	1	9	3	110	opleving	32)
+WR-P-P-H-0000000003_inline.xml	3	1	9	4	111	werd	
+WR-P-P-H-0000000003_inline.xml	3	1	9	5	112	gedragen	
+WR-P-P-H-0000000003_inline.xml	3	1	9	6	113	door	
+WR-P-P-H-0000000003_inline.xml	3	1	9	7	114	de	(33
+WR-P-P-H-0000000003_inline.xml	3	1	9	8	115	technologiefondsen	33)
+WR-P-P-H-0000000003_inline.xml	3	1	9	9	116	.	
+
+WR-P-P-H-0000000003_inline.xml	3	2	10	1	117	Winnaar	(36
+WR-P-P-H-0000000003_inline.xml	3	2	10	2	118	onder	36
+WR-P-P-H-0000000003_inline.xml	3	2	10	3	119	de	36|(35
+WR-P-P-H-0000000003_inline.xml	3	2	10	4	120	hoofdfondsen	36)|35)
+WR-P-P-H-0000000003_inline.xml	3	2	10	5	121	was	
+WR-P-P-H-0000000003_inline.xml	3	2	10	6	122	KPNQwest	(36
+WR-P-P-H-0000000003_inline.xml	3	2	10	7	123	dat	36
+WR-P-P-H-0000000003_inline.xml	3	2	10	8	124	12,5	36|(37
+WR-P-P-H-0000000003_inline.xml	3	2	10	9	125	procent	36|37
+WR-P-P-H-0000000003_inline.xml	3	2	10	10	126	koerswinst	36|37)|(38)
+WR-P-P-H-0000000003_inline.xml	3	2	10	11	127	noteerde	36)
+WR-P-P-H-0000000003_inline.xml	3	2	10	12	128	.	
+
+WR-P-P-H-0000000003_inline.xml	3	3	11	1	129	"	
+WR-P-P-H-0000000003_inline.xml	3	3	11	2	130	Dit	(36)
+WR-P-P-H-0000000003_inline.xml	3	3	11	3	131	vind	
+WR-P-P-H-0000000003_inline.xml	3	3	11	4	132	ik	(40)
+WR-P-P-H-0000000003_inline.xml	3	3	11	5	133	een	(36)
+WR-P-P-H-0000000003_inline.xml	3	3	11	6	134	van	(36)
+WR-P-P-H-0000000003_inline.xml	3	3	11	7	135	de	(36)|(42
+WR-P-P-H-0000000003_inline.xml	3	3	11	8	136	meest	(36)|42
+WR-P-P-H-0000000003_inline.xml	3	3	11	9	137	ondergewaardeerde	(36)|42
+WR-P-P-H-0000000003_inline.xml	3	3	11	10	138	fondsen	(36)|42)
+WR-P-P-H-0000000003_inline.xml	3	3	11	11	139	.	
+
+WR-P-P-H-0000000003_inline.xml	3	4	12	1	140	Daar	
+WR-P-P-H-0000000003_inline.xml	3	4	12	2	141	lopen	
+WR-P-P-H-0000000003_inline.xml	3	4	12	3	142	de	(43
+WR-P-P-H-0000000003_inline.xml	3	4	12	4	143	zaken	43)
+WR-P-P-H-0000000003_inline.xml	3	4	12	5	144	voorspoedig	
+WR-P-P-H-0000000003_inline.xml	3	4	12	6	145	"	
+WR-P-P-H-0000000003_inline.xml	3	4	12	7	146	,	
+WR-P-P-H-0000000003_inline.xml	3	4	12	8	147	meende	
+WR-P-P-H-0000000003_inline.xml	3	4	12	9	148	een	(40
+WR-P-P-H-0000000003_inline.xml	3	4	12	10	149	handelaar	40)
+WR-P-P-H-0000000003_inline.xml	3	4	12	11	150	.	
+
+WR-P-P-H-0000000003_inline.xml	4	1	13	1	151	Andere	(45
+WR-P-P-H-0000000003_inline.xml	4	1	13	2	152	technologiefondsen	45
+WR-P-P-H-0000000003_inline.xml	4	1	13	3	153	die	45
+WR-P-P-H-0000000003_inline.xml	4	1	13	4	154	goede	45|(46
+WR-P-P-H-0000000003_inline.xml	4	1	13	5	155	koerswinsten	45|46)
+WR-P-P-H-0000000003_inline.xml	4	1	13	6	156	pakten	45)
+WR-P-P-H-0000000003_inline.xml	4	1	13	7	157	waren	
+WR-P-P-H-0000000003_inline.xml	4	1	13	8	158	UPC	(45|(48)
+WR-P-P-H-0000000003_inline.xml	4	1	13	9	159	,	45
+WR-P-P-H-0000000003_inline.xml	4	1	13	10	160	Philips	45|(49)
+WR-P-P-H-0000000003_inline.xml	4	1	13	11	161	en	45
+WR-P-P-H-0000000003_inline.xml	4	1	13	12	162	KPN	45)|(50)
+WR-P-P-H-0000000003_inline.xml	4	1	13	13	163	.	
+
+WR-P-P-H-0000000003_inline.xml	4	2	14	1	164	Het	(48
+WR-P-P-H-0000000003_inline.xml	4	2	14	2	165	kabelbedrijf	48)
+WR-P-P-H-0000000003_inline.xml	4	2	14	3	166	steeg	
+WR-P-P-H-0000000003_inline.xml	4	2	14	4	167	10,7	(52
+WR-P-P-H-0000000003_inline.xml	4	2	14	5	168	procent	52)
+WR-P-P-H-0000000003_inline.xml	4	2	14	6	169	op	
+WR-P-P-H-0000000003_inline.xml	4	2	14	7	170	3	(53
+WR-P-P-H-0000000003_inline.xml	4	2	14	8	171	euro	53)
+WR-P-P-H-0000000003_inline.xml	4	2	14	9	172	,	
+WR-P-P-H-0000000003_inline.xml	4	2	14	10	173	het	(49
+WR-P-P-H-0000000003_inline.xml	4	2	14	11	174	elektronicaconcern	49)
+WR-P-P-H-0000000003_inline.xml	4	2	14	12	175	werd	
+WR-P-P-H-0000000003_inline.xml	4	2	14	13	176	4	(55
+WR-P-P-H-0000000003_inline.xml	4	2	14	14	177	procent	55)
+WR-P-P-H-0000000003_inline.xml	4	2	14	15	178	duurder	
+WR-P-P-H-0000000003_inline.xml	4	2	14	16	179	op	
+WR-P-P-H-0000000003_inline.xml	4	2	14	17	180	31,31	(56
+WR-P-P-H-0000000003_inline.xml	4	2	14	18	181	euro	56)
+WR-P-P-H-0000000003_inline.xml	4	2	14	19	182	.	
+
+WR-P-P-H-0000000003_inline.xml	4	3	15	1	183	KPN	(50)
+WR-P-P-H-0000000003_inline.xml	4	3	15	2	184	klom	
+WR-P-P-H-0000000003_inline.xml	4	3	15	3	185	3,9	(58
+WR-P-P-H-0000000003_inline.xml	4	3	15	4	186	procent	58)
+WR-P-P-H-0000000003_inline.xml	4	3	15	5	187	tot	
+WR-P-P-H-0000000003_inline.xml	4	3	15	6	188	6,70	(59
+WR-P-P-H-0000000003_inline.xml	4	3	15	7	189	euro	59)
+WR-P-P-H-0000000003_inline.xml	4	3	15	8	190	.	
+
+WR-P-P-H-0000000003_inline.xml	5	1	16	1	191	Bij	
+WR-P-P-H-0000000003_inline.xml	5	1	16	2	192	de	(60
+WR-P-P-H-0000000003_inline.xml	5	1	16	3	193	Midkap-fondsen	60)
+WR-P-P-H-0000000003_inline.xml	5	1	16	4	194	veerde	
+WR-P-P-H-0000000003_inline.xml	5	1	16	5	195	CMG	(61)
+WR-P-P-H-0000000003_inline.xml	5	1	16	6	196	6,9	(62
+WR-P-P-H-0000000003_inline.xml	5	1	16	7	197	procent	62)
+WR-P-P-H-0000000003_inline.xml	5	1	16	8	198	op	
+WR-P-P-H-0000000003_inline.xml	5	1	16	9	199	tot	
+WR-P-P-H-0000000003_inline.xml	5	1	16	10	200	5,40	(63
+WR-P-P-H-0000000003_inline.xml	5	1	16	11	201	euro	63)
+WR-P-P-H-0000000003_inline.xml	5	1	16	12	202	.	
+
+WR-P-P-H-0000000003_inline.xml	5	2	17	1	203	Sneller	
+WR-P-P-H-0000000003_inline.xml	5	2	17	2	204	nog	
+WR-P-P-H-0000000003_inline.xml	5	2	17	3	205	dan	
+WR-P-P-H-0000000003_inline.xml	5	2	17	4	206	deze	(61
+WR-P-P-H-0000000003_inline.xml	5	2	17	5	207	automatiseerder	61)
+WR-P-P-H-0000000003_inline.xml	5	2	17	6	208	steeg	
+WR-P-P-H-0000000003_inline.xml	5	2	17	7	209	Draka	(65)
+WR-P-P-H-0000000003_inline.xml	5	2	17	8	210	.	
+
+WR-P-P-H-0000000003_inline.xml	5	3	18	1	211	De	(66
+WR-P-P-H-0000000003_inline.xml	5	3	18	2	212	prijs	66)
+WR-P-P-H-0000000003_inline.xml	5	3	18	3	213	schoot	
+WR-P-P-H-0000000003_inline.xml	5	3	18	4	214	17,1	(67
+WR-P-P-H-0000000003_inline.xml	5	3	18	5	215	procent	67)
+WR-P-P-H-0000000003_inline.xml	5	3	18	6	216	omhoog	
+WR-P-P-H-0000000003_inline.xml	5	3	18	7	217	nadat	
+WR-P-P-H-0000000003_inline.xml	5	3	18	8	218	de	(65
+WR-P-P-H-0000000003_inline.xml	5	3	18	9	219	kabelfabrikant	65)
+WR-P-P-H-0000000003_inline.xml	5	3	18	10	220	een	(69
+WR-P-P-H-0000000003_inline.xml	5	3	18	11	221	verdubbeling	69
+WR-P-P-H-0000000003_inline.xml	5	3	18	12	222	van	69
+WR-P-P-H-0000000003_inline.xml	5	3	18	13	223	de	69|(70
+WR-P-P-H-0000000003_inline.xml	5	3	18	14	224	winstverwachting	69)|70)
+WR-P-P-H-0000000003_inline.xml	5	3	18	15	225	had	
+WR-P-P-H-0000000003_inline.xml	5	3	18	16	226	aangekondigd	
+WR-P-P-H-0000000003_inline.xml	5	3	18	17	227	.	
+
+WR-P-P-H-0000000003_inline.xml	6	1	19	1	228	Daarentegen	
+WR-P-P-H-0000000003_inline.xml	6	1	19	2	229	moest	
+WR-P-P-H-0000000003_inline.xml	6	1	19	3	230	Amsterdam	(71
+WR-P-P-H-0000000003_inline.xml	6	1	19	4	231	Option	71
+WR-P-P-H-0000000003_inline.xml	6	1	19	5	232	Traders	71)
+WR-P-P-H-0000000003_inline.xml	6	1	19	6	233	7,2	(72
+WR-P-P-H-0000000003_inline.xml	6	1	19	7	234	procent	72)
+WR-P-P-H-0000000003_inline.xml	6	1	19	8	235	achteruit	
+WR-P-P-H-0000000003_inline.xml	6	1	19	9	236	.	
+
+WR-P-P-H-0000000003_inline.xml	6	2	20	1	237	AOT	(71)
+WR-P-P-H-0000000003_inline.xml	6	2	20	2	238	had	
+WR-P-P-H-0000000003_inline.xml	6	2	20	3	239	verklaard	
+WR-P-P-H-0000000003_inline.xml	6	2	20	4	240	dat	
+WR-P-P-H-0000000003_inline.xml	6	2	20	5	241	in	
+WR-P-P-H-0000000003_inline.xml	6	2	20	6	242	het	(75
+WR-P-P-H-0000000003_inline.xml	6	2	20	7	243	tweede	75
+WR-P-P-H-0000000003_inline.xml	6	2	20	8	244	kwartaal	75)
+WR-P-P-H-0000000003_inline.xml	6	2	20	9	245	het	(74
+WR-P-P-H-0000000003_inline.xml	6	2	20	10	246	resultaat	74)
+WR-P-P-H-0000000003_inline.xml	6	2	20	11	247	fors	
+WR-P-P-H-0000000003_inline.xml	6	2	20	12	248	lager	
+WR-P-P-H-0000000003_inline.xml	6	2	20	13	249	zal	
+WR-P-P-H-0000000003_inline.xml	6	2	20	14	250	zijn	
+WR-P-P-H-0000000003_inline.xml	6	2	20	15	251	.	
+
+WR-P-P-H-0000000003_inline.xml	7	1	21	1	252	*	
+WR-P-P-H-0000000003_inline.xml	7	1	21	2	253	hoger	
+WR-P-P-H-0000000003_inline.xml	7	1	21	3	254	:	
+WR-P-P-H-0000000003_inline.xml	7	1	21	4	255	734	(76
+WR-P-P-H-0000000003_inline.xml	7	1	21	5	256	fondsen	76
+WR-P-P-H-0000000003_inline.xml	7	1	21	6	257	(	76
+WR-P-P-H-0000000003_inline.xml	7	1	21	7	258	48,5	76|(77
+WR-P-P-H-0000000003_inline.xml	7	1	21	8	259	%	76)|77)
+WR-P-P-H-0000000003_inline.xml	7	1	21	9	260	)	
+
+WR-P-P-H-0000000003_inline.xml	8	1	22	1	261	*	
+WR-P-P-H-0000000003_inline.xml	8	1	22	2	262	gelijk	
+WR-P-P-H-0000000003_inline.xml	8	1	22	3	263	:	
+WR-P-P-H-0000000003_inline.xml	8	1	22	4	264	513	(78
+WR-P-P-H-0000000003_inline.xml	8	1	22	5	265	fondsen	78
+WR-P-P-H-0000000003_inline.xml	8	1	22	6	266	(	78
+WR-P-P-H-0000000003_inline.xml	8	1	22	7	267	33,9	78|(79
+WR-P-P-H-0000000003_inline.xml	8	1	22	8	268	%	78)|79)
+WR-P-P-H-0000000003_inline.xml	8	1	22	9	269	)	
+
+WR-P-P-H-0000000003_inline.xml	9	1	23	1	270	*	
+WR-P-P-H-0000000003_inline.xml	9	1	23	2	271	lager	
+WR-P-P-H-0000000003_inline.xml	9	1	23	3	272	:	
+WR-P-P-H-0000000003_inline.xml	9	1	23	4	273	264	(80
+WR-P-P-H-0000000003_inline.xml	9	1	23	5	274	fondsen	80
+WR-P-P-H-0000000003_inline.xml	9	1	23	6	275	(	80
+WR-P-P-H-0000000003_inline.xml	9	1	23	7	276	17,4	80|(81
+WR-P-P-H-0000000003_inline.xml	9	1	23	8	277	%	80)|81)
+WR-P-P-H-0000000003_inline.xml	9	1	23	9	278	)	
+

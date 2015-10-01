@@ -1,0 +1,265 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000070_inline.xml	1	1	1	1	1	DEN	(1
+WR-P-P-H-0000000070_inline.xml	1	1	1	2	2	HAAG	1)
+WR-P-P-H-0000000070_inline.xml	1	1	1	3	3	-	
+
+WR-P-P-H-0000000070_inline.xml	1	2	2	1	4	De	(2
+WR-P-P-H-0000000070_inline.xml	1	2	2	2	5	lichamen	2
+WR-P-P-H-0000000070_inline.xml	1	2	2	3	6	van	2
+WR-P-P-H-0000000070_inline.xml	1	2	2	4	7	drie	2|(3|(70
+WR-P-P-H-0000000070_inline.xml	1	2	2	5	8	Nederlandse	2|3|70
+WR-P-P-H-0000000070_inline.xml	1	2	2	6	9	mariniers	2|3|70)
+WR-P-P-H-0000000070_inline.xml	1	2	2	7	10	die	2|3
+WR-P-P-H-0000000070_inline.xml	1	2	2	8	11	afgelopen	2|3|(4
+WR-P-P-H-0000000070_inline.xml	1	2	2	9	12	weekeinde	2|3|4)
+WR-P-P-H-0000000070_inline.xml	1	2	2	10	13	bij	2|3
+WR-P-P-H-0000000070_inline.xml	1	2	2	11	14	een	2|3|(5
+WR-P-P-H-0000000070_inline.xml	1	2	2	12	15	verkeersongeval	2|3|5
+WR-P-P-H-0000000070_inline.xml	1	2	2	13	16	in	2|3|5
+WR-P-P-H-0000000070_inline.xml	1	2	2	14	17	de	2|3|5|(6
+WR-P-P-H-0000000070_inline.xml	1	2	2	15	18	Verenigde	2|3|5|6
+WR-P-P-H-0000000070_inline.xml	1	2	2	16	19	Staten	2|3|5)|6)
+WR-P-P-H-0000000070_inline.xml	1	2	2	17	20	om	2|3
+WR-P-P-H-0000000070_inline.xml	1	2	2	18	21	het	2|3
+WR-P-P-H-0000000070_inline.xml	1	2	2	19	22	leven	2|3
+WR-P-P-H-0000000070_inline.xml	1	2	2	20	23	zijn	2|3
+WR-P-P-H-0000000070_inline.xml	1	2	2	21	24	gekomen	2)|3)
+WR-P-P-H-0000000070_inline.xml	1	2	2	22	25	,	
+WR-P-P-H-0000000070_inline.xml	1	2	2	23	26	worden	
+WR-P-P-H-0000000070_inline.xml	1	2	2	24	27	waarschijnlijk	
+WR-P-P-H-0000000070_inline.xml	1	2	2	25	28	dinsdag	(7)
+WR-P-P-H-0000000070_inline.xml	1	2	2	26	29	gerepatrieerd	
+WR-P-P-H-0000000070_inline.xml	1	2	2	27	30	.	
+
+WR-P-P-H-0000000070_inline.xml	1	3	3	1	31	Een	(8
+WR-P-P-H-0000000070_inline.xml	1	3	3	2	32	woordvoerder	8
+WR-P-P-H-0000000070_inline.xml	1	3	3	3	33	van	8
+WR-P-P-H-0000000070_inline.xml	1	3	3	4	34	de	8|(9|(55
+WR-P-P-H-0000000070_inline.xml	1	3	3	5	35	marine	8)|9)|55)
+WR-P-P-H-0000000070_inline.xml	1	3	3	6	36	maakte	
+WR-P-P-H-0000000070_inline.xml	1	3	3	7	37	dat	(10)
+WR-P-P-H-0000000070_inline.xml	1	3	3	8	38	gisteren	
+WR-P-P-H-0000000070_inline.xml	1	3	3	9	39	bekend	
+WR-P-P-H-0000000070_inline.xml	1	3	3	10	40	.	
+
+WR-P-P-H-0000000070_inline.xml	2	1	4	1	41	De	(3
+WR-P-P-H-0000000070_inline.xml	2	1	4	2	42	Nederlandse	3
+WR-P-P-H-0000000070_inline.xml	2	1	4	3	43	mariniers	3)
+WR-P-P-H-0000000070_inline.xml	2	1	4	4	44	kwamen	
+WR-P-P-H-0000000070_inline.xml	2	1	4	5	45	van	
+WR-P-P-H-0000000070_inline.xml	2	1	4	6	46	Aruba	(12)
+WR-P-P-H-0000000070_inline.xml	2	1	4	7	47	en	
+WR-P-P-H-0000000070_inline.xml	2	1	4	8	48	hoorden	
+WR-P-P-H-0000000070_inline.xml	2	1	4	9	49	bij	
+WR-P-P-H-0000000070_inline.xml	2	1	4	10	50	een	(13
+WR-P-P-H-0000000070_inline.xml	2	1	4	11	51	eenheid	13
+WR-P-P-H-0000000070_inline.xml	2	1	4	12	52	die	13
+WR-P-P-H-0000000070_inline.xml	2	1	4	13	53	een	13|(14
+WR-P-P-H-0000000070_inline.xml	2	1	4	14	54	training	13|14)
+WR-P-P-H-0000000070_inline.xml	2	1	4	15	55	bij	13
+WR-P-P-H-0000000070_inline.xml	2	1	4	16	56	het	13|(15|(74|(55
+WR-P-P-H-0000000070_inline.xml	2	1	4	17	57	Amerikaanse	13|15|74|55
+WR-P-P-H-0000000070_inline.xml	2	1	4	18	58	Korps	13|15|74|55
+WR-P-P-H-0000000070_inline.xml	2	1	4	19	59	Mariniers	13|15)|74)|55)
+WR-P-P-H-0000000070_inline.xml	2	1	4	20	60	volgde	13)
+WR-P-P-H-0000000070_inline.xml	2	1	4	21	61	.	
+
+WR-P-P-H-0000000070_inline.xml	3	1	5	1	62	Zij	(3)
+WR-P-P-H-0000000070_inline.xml	3	1	5	2	63	bevonden	
+WR-P-P-H-0000000070_inline.xml	3	1	5	3	64	zich	(3)
+WR-P-P-H-0000000070_inline.xml	3	1	5	4	65	samen	
+WR-P-P-H-0000000070_inline.xml	3	1	5	5	66	met	
+WR-P-P-H-0000000070_inline.xml	3	1	5	6	67	een	(20|(18|(19
+WR-P-P-H-0000000070_inline.xml	3	1	5	7	68	Amerikaanse	20|18|19
+WR-P-P-H-0000000070_inline.xml	3	1	5	8	69	chauffeur	20|18|19)
+WR-P-P-H-0000000070_inline.xml	3	1	5	9	70	en	20|18
+WR-P-P-H-0000000070_inline.xml	3	1	5	10	71	bijrijder	20)|18)|(71)
+WR-P-P-H-0000000070_inline.xml	3	1	5	11	72	in	
+WR-P-P-H-0000000070_inline.xml	3	1	5	12	73	een	(21
+WR-P-P-H-0000000070_inline.xml	3	1	5	13	74	busje	21
+WR-P-P-H-0000000070_inline.xml	3	1	5	14	75	dat	21
+WR-P-P-H-0000000070_inline.xml	3	1	5	15	76	in	21
+WR-P-P-H-0000000070_inline.xml	3	1	5	16	77	een	21|(22
+WR-P-P-H-0000000070_inline.xml	3	1	5	17	78	slip	21|22)
+WR-P-P-H-0000000070_inline.xml	3	1	5	18	79	raakte	21
+WR-P-P-H-0000000070_inline.xml	3	1	5	19	80	en	21
+WR-P-P-H-0000000070_inline.xml	3	1	5	20	81	over	21
+WR-P-P-H-0000000070_inline.xml	3	1	5	21	82	de	21|(23
+WR-P-P-H-0000000070_inline.xml	3	1	5	22	83	kop	21|23)
+WR-P-P-H-0000000070_inline.xml	3	1	5	23	84	rolde	21)
+WR-P-P-H-0000000070_inline.xml	3	1	5	24	85	.	
+
+WR-P-P-H-0000000070_inline.xml	3	2	6	1	86	Een	(24
+WR-P-P-H-0000000070_inline.xml	3	2	6	2	87	van	24
+WR-P-P-H-0000000070_inline.xml	3	2	6	3	88	de	24|(3)
+WR-P-P-H-0000000070_inline.xml	3	2	6	4	89	mannen	24)|(3)
+WR-P-P-H-0000000070_inline.xml	3	2	6	5	90	raakte	
+WR-P-P-H-0000000070_inline.xml	3	2	6	6	91	bekneld	
+WR-P-P-H-0000000070_inline.xml	3	2	6	7	92	onder	
+WR-P-P-H-0000000070_inline.xml	3	2	6	8	93	het	(21
+WR-P-P-H-0000000070_inline.xml	3	2	6	9	94	busje	21)
+WR-P-P-H-0000000070_inline.xml	3	2	6	10	95	,	
+WR-P-P-H-0000000070_inline.xml	3	2	6	11	96	twee	(27
+WR-P-P-H-0000000070_inline.xml	3	2	6	12	97	anderen	27)
+WR-P-P-H-0000000070_inline.xml	3	2	6	13	98	kwamen	
+WR-P-P-H-0000000070_inline.xml	3	2	6	14	99	binnenin	
+WR-P-P-H-0000000070_inline.xml	3	2	6	15	100	om	
+WR-P-P-H-0000000070_inline.xml	3	2	6	16	101	het	
+WR-P-P-H-0000000070_inline.xml	3	2	6	17	102	leven	
+WR-P-P-H-0000000070_inline.xml	3	2	6	18	103	.	
+
+WR-P-P-H-0000000070_inline.xml	3	3	7	1	104	De	(28|(19
+WR-P-P-H-0000000070_inline.xml	3	3	7	2	105	chauffeur	28|19)
+WR-P-P-H-0000000070_inline.xml	3	3	7	3	106	,	28
+WR-P-P-H-0000000070_inline.xml	3	3	7	4	107	zijn	28|(71|(19)
+WR-P-P-H-0000000070_inline.xml	3	3	7	5	108	bijrijder	28|71)
+WR-P-P-H-0000000070_inline.xml	3	3	7	6	109	en	28
+WR-P-P-H-0000000070_inline.xml	3	3	7	7	110	zes	28|(32
+WR-P-P-H-0000000070_inline.xml	3	3	7	8	111	andere	28|32
+WR-P-P-H-0000000070_inline.xml	3	3	7	9	112	Nederlandse	28|32
+WR-P-P-H-0000000070_inline.xml	3	3	7	10	113	mariniers	28)|32)
+WR-P-P-H-0000000070_inline.xml	3	3	7	11	114	raakten	
+WR-P-P-H-0000000070_inline.xml	3	3	7	12	115	gewond	
+WR-P-P-H-0000000070_inline.xml	3	3	7	13	116	.	
+
+WR-P-P-H-0000000070_inline.xml	3	4	8	1	117	Zij	(28)
+WR-P-P-H-0000000070_inline.xml	3	4	8	2	118	zijn	
+WR-P-P-H-0000000070_inline.xml	3	4	8	3	119	inmiddels	
+WR-P-P-H-0000000070_inline.xml	3	4	8	4	120	uit	
+WR-P-P-H-0000000070_inline.xml	3	4	8	5	121	het	(34
+WR-P-P-H-0000000070_inline.xml	3	4	8	6	122	ziekenhuis	34)
+WR-P-P-H-0000000070_inline.xml	3	4	8	7	123	ontslagen	
+WR-P-P-H-0000000070_inline.xml	3	4	8	8	124	.	
+
+WR-P-P-H-0000000070_inline.xml	4	1	9	1	125	Volgens	
+WR-P-P-H-0000000070_inline.xml	4	1	9	2	126	de	(9
+WR-P-P-H-0000000070_inline.xml	4	1	9	3	127	marinewoordvoerder	9)
+WR-P-P-H-0000000070_inline.xml	4	1	9	4	128	lopen	
+WR-P-P-H-0000000070_inline.xml	4	1	9	5	129	er	
+WR-P-P-H-0000000070_inline.xml	4	1	9	6	130	diverse	(72|(36
+WR-P-P-H-0000000070_inline.xml	4	1	9	7	131	onderzoeken	72|36)
+WR-P-P-H-0000000070_inline.xml	4	1	9	8	132	naar	72
+WR-P-P-H-0000000070_inline.xml	4	1	9	9	133	de	72|(37
+WR-P-P-H-0000000070_inline.xml	4	1	9	10	134	precieze	72|37
+WR-P-P-H-0000000070_inline.xml	4	1	9	11	135	toedracht	72|37
+WR-P-P-H-0000000070_inline.xml	4	1	9	12	136	van	72|37
+WR-P-P-H-0000000070_inline.xml	4	1	9	13	137	het	72|37|(5
+WR-P-P-H-0000000070_inline.xml	4	1	9	14	138	ongeval	72)|37)|5)
+WR-P-P-H-0000000070_inline.xml	4	1	9	15	139	.	
+
+WR-P-P-H-0000000070_inline.xml	4	2	10	1	140	Mogelijk	
+WR-P-P-H-0000000070_inline.xml	4	2	10	2	141	worden	
+WR-P-P-H-0000000070_inline.xml	4	2	10	3	142	de	(39
+WR-P-P-H-0000000070_inline.xml	4	2	10	4	143	Amerikaanse	39
+WR-P-P-H-0000000070_inline.xml	4	2	10	5	144	onderzoekers	39)
+WR-P-P-H-0000000070_inline.xml	4	2	10	6	145	de	(40
+WR-P-P-H-0000000070_inline.xml	4	2	10	7	146	komende	40
+WR-P-P-H-0000000070_inline.xml	4	2	10	8	147	dagen	40)
+WR-P-P-H-0000000070_inline.xml	4	2	10	9	148	bijgestaan	
+WR-P-P-H-0000000070_inline.xml	4	2	10	10	149	door	
+WR-P-P-H-0000000070_inline.xml	4	2	10	11	150	Nederlandse	(41
+WR-P-P-H-0000000070_inline.xml	4	2	10	12	151	marechaussee	41
+WR-P-P-H-0000000070_inline.xml	4	2	10	13	152	van	41
+WR-P-P-H-0000000070_inline.xml	4	2	10	14	153	de	41|(42
+WR-P-P-H-0000000070_inline.xml	4	2	10	15	154	basis	41|42
+WR-P-P-H-0000000070_inline.xml	4	2	10	16	155	op	41|42
+WR-P-P-H-0000000070_inline.xml	4	2	10	17	156	Aruba	41)|42)|(12)
+WR-P-P-H-0000000070_inline.xml	4	2	10	18	157	.	
+
+WR-P-P-H-0000000070_inline.xml	5	1	11	1	158	Het	(21
+WR-P-P-H-0000000070_inline.xml	5	1	11	2	159	busje	21)
+WR-P-P-H-0000000070_inline.xml	5	1	11	3	160	was	
+WR-P-P-H-0000000070_inline.xml	5	1	11	4	161	het	(21)
+WR-P-P-H-0000000070_inline.xml	5	1	11	5	162	laatste	(21)
+WR-P-P-H-0000000070_inline.xml	5	1	11	6	163	van	(21)
+WR-P-P-H-0000000070_inline.xml	5	1	11	7	164	drie	(21)|(46
+WR-P-P-H-0000000070_inline.xml	5	1	11	8	165	militaire	(21)|46
+WR-P-P-H-0000000070_inline.xml	5	1	11	9	166	voertuigen	(21)|46
+WR-P-P-H-0000000070_inline.xml	5	1	11	10	167	die	(21)|46
+WR-P-P-H-0000000070_inline.xml	5	1	11	11	168	terugreden	(21)|46
+WR-P-P-H-0000000070_inline.xml	5	1	11	12	169	van	(21)|46
+WR-P-P-H-0000000070_inline.xml	5	1	11	13	170	de	(21)|46|(47
+WR-P-P-H-0000000070_inline.xml	5	1	11	14	171	mariniersbasis	(21)|46|47
+WR-P-P-H-0000000070_inline.xml	5	1	11	15	172	Quantico	(21)|46|47
+WR-P-P-H-0000000070_inline.xml	5	1	11	16	173	in	(21)|46|47
+WR-P-P-H-0000000070_inline.xml	5	1	11	17	174	de	(21)|46|47|(48
+WR-P-P-H-0000000070_inline.xml	5	1	11	18	175	staat	(21)|46|47|48
+WR-P-P-H-0000000070_inline.xml	5	1	11	19	176	Virginia	(21)|46|47)|48)
+WR-P-P-H-0000000070_inline.xml	5	1	11	20	177	naar	(21)|46
+WR-P-P-H-0000000070_inline.xml	5	1	11	21	178	de	(21)|46|(49
+WR-P-P-H-0000000070_inline.xml	5	1	11	22	179	mariniersbasis	(21)|46|49
+WR-P-P-H-0000000070_inline.xml	5	1	11	23	180	Camp	(21)|46|49
+WR-P-P-H-0000000070_inline.xml	5	1	11	24	181	Lejeune	(21)|46|49
+WR-P-P-H-0000000070_inline.xml	5	1	11	25	182	in	(21)|46|49
+WR-P-P-H-0000000070_inline.xml	5	1	11	26	183	de	(21)|46|49|(50
+WR-P-P-H-0000000070_inline.xml	5	1	11	27	184	staat	(21)|46|49|50
+WR-P-P-H-0000000070_inline.xml	5	1	11	28	185	North	(21)|46|49|50
+WR-P-P-H-0000000070_inline.xml	5	1	11	29	186	Carolina	(21)|46)|49)|50)
+WR-P-P-H-0000000070_inline.xml	5	1	11	30	187	.	
+
+WR-P-P-H-0000000070_inline.xml	5	2	12	1	188	De	(3)
+WR-P-P-H-0000000070_inline.xml	5	2	12	2	189	mariniers	(3)
+WR-P-P-H-0000000070_inline.xml	5	2	12	3	190	keerden	
+WR-P-P-H-0000000070_inline.xml	5	2	12	4	191	terug	
+WR-P-P-H-0000000070_inline.xml	5	2	12	5	192	van	
+WR-P-P-H-0000000070_inline.xml	5	2	12	6	193	een	(52
+WR-P-P-H-0000000070_inline.xml	5	2	12	7	194	bijeenkomst	52
+WR-P-P-H-0000000070_inline.xml	5	2	12	8	195	in	52
+WR-P-P-H-0000000070_inline.xml	5	2	12	9	196	Quantico	52)|(47)
+WR-P-P-H-0000000070_inline.xml	5	2	12	10	197	in	
+WR-P-P-H-0000000070_inline.xml	5	2	12	11	198	het	
+WR-P-P-H-0000000070_inline.xml	5	2	12	12	199	kader	
+WR-P-P-H-0000000070_inline.xml	5	2	12	13	200	van	
+WR-P-P-H-0000000070_inline.xml	5	2	12	14	201	de	(54
+WR-P-P-H-0000000070_inline.xml	5	2	12	15	202	samenwerking	54
+WR-P-P-H-0000000070_inline.xml	5	2	12	16	203	tussen	54
+WR-P-P-H-0000000070_inline.xml	5	2	12	17	204	de	54|(55
+WR-P-P-H-0000000070_inline.xml	5	2	12	18	205	korpsen	54)|55)
+WR-P-P-H-0000000070_inline.xml	5	2	12	19	206	.	
+
+WR-P-P-H-0000000070_inline.xml	6	1	13	1	207	De	(3)
+WR-P-P-H-0000000070_inline.xml	6	1	13	2	208	omgekomen	(3)
+WR-P-P-H-0000000070_inline.xml	6	1	13	3	209	militairen	(3)
+WR-P-P-H-0000000070_inline.xml	6	1	13	4	210	zijn	
+WR-P-P-H-0000000070_inline.xml	6	1	13	5	211	een	(3)|(58
+WR-P-P-H-0000000070_inline.xml	6	1	13	6	212	19-jarige	(3)|58
+WR-P-P-H-0000000070_inline.xml	6	1	13	7	213	marinier	(3)|58
+WR-P-P-H-0000000070_inline.xml	6	1	13	8	214	uit	(3)|58
+WR-P-P-H-0000000070_inline.xml	6	1	13	9	215	Enschede	(3)|58)|(59)
+WR-P-P-H-0000000070_inline.xml	6	1	13	10	216	,	(3)
+WR-P-P-H-0000000070_inline.xml	6	1	13	11	217	een	(3)|(60
+WR-P-P-H-0000000070_inline.xml	6	1	13	12	218	20-jarige	(3)|60
+WR-P-P-H-0000000070_inline.xml	6	1	13	13	219	marinier	(3)|60
+WR-P-P-H-0000000070_inline.xml	6	1	13	14	220	uit	(3)|60
+WR-P-P-H-0000000070_inline.xml	6	1	13	15	221	Slagharen	(3)|60)|(61)
+WR-P-P-H-0000000070_inline.xml	6	1	13	16	222	en	(3)
+WR-P-P-H-0000000070_inline.xml	6	1	13	17	223	een	(3)|(62
+WR-P-P-H-0000000070_inline.xml	6	1	13	18	224	25-jarige	(3)|62
+WR-P-P-H-0000000070_inline.xml	6	1	13	19	225	marinier	(3)|62
+WR-P-P-H-0000000070_inline.xml	6	1	13	20	226	uit	(3)|62
+WR-P-P-H-0000000070_inline.xml	6	1	13	21	227	Sliedrecht	(3)|62)|(63)
+WR-P-P-H-0000000070_inline.xml	6	1	13	22	228	.	
+
+WR-P-P-H-0000000070_inline.xml	6	2	14	1	229	Zij	(3)
+WR-P-P-H-0000000070_inline.xml	6	2	14	2	230	behoorden	
+WR-P-P-H-0000000070_inline.xml	6	2	14	3	231	tot	
+WR-P-P-H-0000000070_inline.xml	6	2	14	4	232	de	(65
+WR-P-P-H-0000000070_inline.xml	6	2	14	5	233	42ste	65
+WR-P-P-H-0000000070_inline.xml	6	2	14	6	234	infanteriecompagnie	65
+WR-P-P-H-0000000070_inline.xml	6	2	14	7	235	van	65
+WR-P-P-H-0000000070_inline.xml	6	2	14	8	236	het	65|(55)
+WR-P-P-H-0000000070_inline.xml	6	2	14	9	237	Korps	65|(55)
+WR-P-P-H-0000000070_inline.xml	6	2	14	10	238	Mariniers	65|(55)
+WR-P-P-H-0000000070_inline.xml	6	2	14	11	239	op	65
+WR-P-P-H-0000000070_inline.xml	6	2	14	12	240	Aruba	65|(12)
+WR-P-P-H-0000000070_inline.xml	6	2	14	13	241	,	65
+WR-P-P-H-0000000070_inline.xml	6	2	14	14	242	een	65|65
+WR-P-P-H-0000000070_inline.xml	6	2	14	15	243	eenheid	65|65
+WR-P-P-H-0000000070_inline.xml	6	2	14	16	244	van	65|65
+WR-P-P-H-0000000070_inline.xml	6	2	14	17	245	de	65|65|(69
+WR-P-P-H-0000000070_inline.xml	6	2	14	18	246	Commandant	65|65|69
+WR-P-P-H-0000000070_inline.xml	6	2	14	19	247	Zeemacht	65|65|69
+WR-P-P-H-0000000070_inline.xml	6	2	14	20	248	Caribisch	65|65|69
+WR-P-P-H-0000000070_inline.xml	6	2	14	21	249	Gebied	65)|(65)|69)
+WR-P-P-H-0000000070_inline.xml	6	2	14	22	250	.	
+

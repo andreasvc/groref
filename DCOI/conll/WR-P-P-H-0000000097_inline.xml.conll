@@ -1,0 +1,99 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000097_inline.xml	1	1	1	1	1	NIJMEGEN	(1|(2)
+WR-P-P-H-0000000097_inline.xml	1	1	1	2	2	,	1
+WR-P-P-H-0000000097_inline.xml	1	1	1	3	3	KARLSRUHE	1)|(3)
+WR-P-P-H-0000000097_inline.xml	1	1	1	4	4	-	
+WR-P-P-H-0000000097_inline.xml	1	1	1	5	5	Bij	
+WR-P-P-H-0000000097_inline.xml	1	1	1	6	6	een	(9
+WR-P-P-H-0000000097_inline.xml	1	1	1	7	7	verkeersongeval	9
+WR-P-P-H-0000000097_inline.xml	1	1	1	8	8	op	9
+WR-P-P-H-0000000097_inline.xml	1	1	1	9	9	de	9|(10
+WR-P-P-H-0000000097_inline.xml	1	1	1	10	10	A5	9|10
+WR-P-P-H-0000000097_inline.xml	1	1	1	11	11	in	9|10
+WR-P-P-H-0000000097_inline.xml	1	1	1	12	12	Duitsland	9|10)|(11)
+WR-P-P-H-0000000097_inline.xml	1	1	1	13	13	bij	9
+WR-P-P-H-0000000097_inline.xml	1	1	1	14	14	Otters	9|(12
+WR-P-P-H-0000000097_inline.xml	1	1	1	15	15	Weihe	9)|12)
+WR-P-P-H-0000000097_inline.xml	1	1	1	16	16	,	
+WR-P-P-H-0000000097_inline.xml	1	1	1	17	17	zijn	
+WR-P-P-H-0000000097_inline.xml	1	1	1	18	18	zaterdagavond	(13)
+WR-P-P-H-0000000097_inline.xml	1	1	1	19	19	een	(5|(4|(32
+WR-P-P-H-0000000097_inline.xml	1	1	1	20	20	hoogleraar	5|4|32
+WR-P-P-H-0000000097_inline.xml	1	1	1	21	21	(	5|4|32
+WR-P-P-H-0000000097_inline.xml	1	1	1	22	22	63	5|4|32
+WR-P-P-H-0000000097_inline.xml	1	1	1	23	23	)	5|4|32)
+WR-P-P-H-0000000097_inline.xml	1	1	1	24	24	en	5|4
+WR-P-P-H-0000000097_inline.xml	1	1	1	25	25	een	5|4|(8
+WR-P-P-H-0000000097_inline.xml	1	1	1	26	26	studente	5|4|8
+WR-P-P-H-0000000097_inline.xml	1	1	1	27	27	(	5|4|8
+WR-P-P-H-0000000097_inline.xml	1	1	1	28	28	23	5|4|8
+WR-P-P-H-0000000097_inline.xml	1	1	1	29	29	)	5|4)|8)
+WR-P-P-H-0000000097_inline.xml	1	1	1	30	30	van	5
+WR-P-P-H-0000000097_inline.xml	1	1	1	31	31	de	5|(6
+WR-P-P-H-0000000097_inline.xml	1	1	1	32	32	Katholieke	5|6
+WR-P-P-H-0000000097_inline.xml	1	1	1	33	33	Universiteit	5|6
+WR-P-P-H-0000000097_inline.xml	1	1	1	34	34	Nijmegen	5|6
+WR-P-P-H-0000000097_inline.xml	1	1	1	35	35	(	5|6
+WR-P-P-H-0000000097_inline.xml	1	1	1	36	36	KUN	5)|6)|(7)
+WR-P-P-H-0000000097_inline.xml	1	1	1	37	37	)	
+WR-P-P-H-0000000097_inline.xml	1	1	1	38	38	om	
+WR-P-P-H-0000000097_inline.xml	1	1	1	39	39	het	
+WR-P-P-H-0000000097_inline.xml	1	1	1	40	40	leven	
+WR-P-P-H-0000000097_inline.xml	1	1	1	41	41	gekomen	
+WR-P-P-H-0000000097_inline.xml	1	1	1	42	42	.	
+
+WR-P-P-H-0000000097_inline.xml	1	2	2	1	43	Drie	(14|(30
+WR-P-P-H-0000000097_inline.xml	1	2	2	2	44	andere	14|30
+WR-P-P-H-0000000097_inline.xml	1	2	2	3	45	inzittenden	14|30)
+WR-P-P-H-0000000097_inline.xml	1	2	2	4	46	van	14
+WR-P-P-H-0000000097_inline.xml	1	2	2	5	47	het	14|(15|(31
+WR-P-P-H-0000000097_inline.xml	1	2	2	6	48	busje	14|15|31)
+WR-P-P-H-0000000097_inline.xml	1	2	2	7	49	met	14|15
+WR-P-P-H-0000000097_inline.xml	1	2	2	8	50	in	14|15|(16
+WR-P-P-H-0000000097_inline.xml	1	2	2	9	51	totaal	14|15|16|(17)
+WR-P-P-H-0000000097_inline.xml	1	2	2	10	52	negen	14|15|16
+WR-P-P-H-0000000097_inline.xml	1	2	2	11	53	personen	14)|15)|16)
+WR-P-P-H-0000000097_inline.xml	1	2	2	12	54	raakten	
+WR-P-P-H-0000000097_inline.xml	1	2	2	13	55	daarbij	
+WR-P-P-H-0000000097_inline.xml	1	2	2	14	56	gewond	
+WR-P-P-H-0000000097_inline.xml	1	2	2	15	57	,	
+WR-P-P-H-0000000097_inline.xml	1	2	2	16	58	van	(19
+WR-P-P-H-0000000097_inline.xml	1	2	2	17	59	wie	19|(18)
+WR-P-P-H-0000000097_inline.xml	1	2	2	18	60	één	19)|(29)
+WR-P-P-H-0000000097_inline.xml	1	2	2	19	61	ernstig	
+WR-P-P-H-0000000097_inline.xml	1	2	2	20	62	.	
+
+WR-P-P-H-0000000097_inline.xml	1	3	3	1	63	Volgens	
+WR-P-P-H-0000000097_inline.xml	1	3	3	2	64	de	(20
+WR-P-P-H-0000000097_inline.xml	1	3	3	3	65	politie	20
+WR-P-P-H-0000000097_inline.xml	1	3	3	4	66	van	20
+WR-P-P-H-0000000097_inline.xml	1	3	3	5	67	Karlsruhe	20)|(12)
+WR-P-P-H-0000000097_inline.xml	1	3	3	6	68	sloeg	
+WR-P-P-H-0000000097_inline.xml	1	3	3	7	69	het	(31
+WR-P-P-H-0000000097_inline.xml	1	3	3	8	70	voertuig	31)
+WR-P-P-H-0000000097_inline.xml	1	3	3	9	71	bij	
+WR-P-P-H-0000000097_inline.xml	1	3	3	10	72	een	(23
+WR-P-P-H-0000000097_inline.xml	1	3	3	11	73	inhaalmanoeuvre	23)
+WR-P-P-H-0000000097_inline.xml	1	3	3	12	74	over	
+WR-P-P-H-0000000097_inline.xml	1	3	3	13	75	de	(24
+WR-P-P-H-0000000097_inline.xml	1	3	3	14	76	kop	24)
+WR-P-P-H-0000000097_inline.xml	1	3	3	15	77	sloeg	
+WR-P-P-H-0000000097_inline.xml	1	3	3	16	78	.	
+
+WR-P-P-H-0000000097_inline.xml	1	4	4	1	79	De	(25|(32
+WR-P-P-H-0000000097_inline.xml	1	4	4	2	80	omgekomen	25|32
+WR-P-P-H-0000000097_inline.xml	1	4	4	3	81	hoogleraar	25|32
+WR-P-P-H-0000000097_inline.xml	1	4	4	4	82	,	25|32
+WR-P-P-H-0000000097_inline.xml	1	4	4	5	83	die	25|32
+WR-P-P-H-0000000097_inline.xml	1	4	4	6	84	stuurde	25|32)
+WR-P-P-H-0000000097_inline.xml	1	4	4	7	85	,	25
+WR-P-P-H-0000000097_inline.xml	1	4	4	8	86	en	25
+WR-P-P-H-0000000097_inline.xml	1	4	4	9	87	de	25|(8
+WR-P-P-H-0000000097_inline.xml	1	4	4	10	88	studente	25)|8)
+WR-P-P-H-0000000097_inline.xml	1	4	4	11	89	werden	
+WR-P-P-H-0000000097_inline.xml	1	4	4	12	90	uit	
+WR-P-P-H-0000000097_inline.xml	1	4	4	13	91	het	(31)
+WR-P-P-H-0000000097_inline.xml	1	4	4	14	92	busje	(31)
+WR-P-P-H-0000000097_inline.xml	1	4	4	15	93	geslingerd	
+WR-P-P-H-0000000097_inline.xml	1	4	4	16	94	.	
+

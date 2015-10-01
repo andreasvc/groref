@@ -1,0 +1,239 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000083_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
+WR-P-P-H-0000000083_inline.xml	1	1	1	2	2	-	
+
+WR-P-P-H-0000000083_inline.xml	1	2	2	1	3	Joegoslavië	(2)
+WR-P-P-H-0000000083_inline.xml	1	2	2	2	4	moet	
+WR-P-P-H-0000000083_inline.xml	1	2	2	3	5	meer	(3)
+WR-P-P-H-0000000083_inline.xml	1	2	2	4	6	besteden	
+WR-P-P-H-0000000083_inline.xml	1	2	2	5	7	aan	
+WR-P-P-H-0000000083_inline.xml	1	2	2	6	8	onderwijs	(4)
+WR-P-P-H-0000000083_inline.xml	1	2	2	7	9	,	
+WR-P-P-H-0000000083_inline.xml	1	2	2	8	10	aldus	
+WR-P-P-H-0000000083_inline.xml	1	2	2	9	11	de	(5|(66
+WR-P-P-H-0000000083_inline.xml	1	2	2	10	12	Wereldbank	5|66)
+WR-P-P-H-0000000083_inline.xml	1	2	2	11	13	,	5
+WR-P-P-H-0000000083_inline.xml	1	2	2	12	14	die	5
+WR-P-P-H-0000000083_inline.xml	1	2	2	13	15	echter	5
+WR-P-P-H-0000000083_inline.xml	1	2	2	14	16	ook	5
+WR-P-P-H-0000000083_inline.xml	1	2	2	15	17	mogelijkheden	5|(6
+WR-P-P-H-0000000083_inline.xml	1	2	2	16	18	ziet	5|6
+WR-P-P-H-0000000083_inline.xml	1	2	2	17	19	voor	5|6
+WR-P-P-H-0000000083_inline.xml	1	2	2	18	20	-	5|6
+WR-P-P-H-0000000083_inline.xml	1	2	2	19	21	opmerkelijke	5|6|(7
+WR-P-P-H-0000000083_inline.xml	1	2	2	20	22	-	5|6|7
+WR-P-P-H-0000000083_inline.xml	1	2	2	21	23	bezuinigingen	5)|6)|7)
+WR-P-P-H-0000000083_inline.xml	1	2	2	22	24	.	
+
+WR-P-P-H-0000000083_inline.xml	1	3	3	1	25	Onder	(8
+WR-P-P-H-0000000083_inline.xml	1	3	3	2	26	andere	8
+WR-P-P-H-0000000083_inline.xml	1	3	3	3	27	het	8|(63
+WR-P-P-H-0000000083_inline.xml	1	3	3	4	28	onderwijs	8|63
+WR-P-P-H-0000000083_inline.xml	1	3	3	5	29	voor	8|63
+WR-P-P-H-0000000083_inline.xml	1	3	3	6	30	minderheden	8)|63)|(9)
+WR-P-P-H-0000000083_inline.xml	1	3	3	7	31	kan	
+WR-P-P-H-0000000083_inline.xml	1	3	3	8	32	wel	
+WR-P-P-H-0000000083_inline.xml	1	3	3	9	33	met	
+WR-P-P-H-0000000083_inline.xml	1	3	3	10	34	minder	(10)
+WR-P-P-H-0000000083_inline.xml	1	3	3	11	35	toe	
+WR-P-P-H-0000000083_inline.xml	1	3	3	12	36	.	
+
+WR-P-P-H-0000000083_inline.xml	1	4	4	1	37	Joegoslavië	(2)
+WR-P-P-H-0000000083_inline.xml	1	4	4	2	38	blijkt	
+WR-P-P-H-0000000083_inline.xml	1	4	4	3	39	koploper	(12)
+WR-P-P-H-0000000083_inline.xml	1	4	4	4	40	te	
+WR-P-P-H-0000000083_inline.xml	1	4	4	5	41	zijn	
+WR-P-P-H-0000000083_inline.xml	1	4	4	6	42	in	(12
+WR-P-P-H-0000000083_inline.xml	1	4	4	7	43	het	12|(63
+WR-P-P-H-0000000083_inline.xml	1	4	4	8	44	onderwijs	12|63
+WR-P-P-H-0000000083_inline.xml	1	4	4	9	45	in	12|63
+WR-P-P-H-0000000083_inline.xml	1	4	4	10	46	minderheidstalen	12)|63)|(14)
+WR-P-P-H-0000000083_inline.xml	1	4	4	11	47	.	
+
+WR-P-P-H-0000000083_inline.xml	2	1	5	1	48	Volgens	
+WR-P-P-H-0000000083_inline.xml	2	1	5	2	49	de	(15
+WR-P-P-H-0000000083_inline.xml	2	1	5	3	50	Joegoslavische	15
+WR-P-P-H-0000000083_inline.xml	2	1	5	4	51	grondwet	15)
+WR-P-P-H-0000000083_inline.xml	2	1	5	5	52	hebben	
+WR-P-P-H-0000000083_inline.xml	2	1	5	6	53	alle	(9
+WR-P-P-H-0000000083_inline.xml	2	1	5	7	54	minderheden	9)
+WR-P-P-H-0000000083_inline.xml	2	1	5	8	55	recht	(17)
+WR-P-P-H-0000000083_inline.xml	2	1	5	9	56	op	
+WR-P-P-H-0000000083_inline.xml	2	1	5	10	57	onderwijs	(18
+WR-P-P-H-0000000083_inline.xml	2	1	5	11	58	in	18
+WR-P-P-H-0000000083_inline.xml	2	1	5	12	59	hun	18|(19|(9)
+WR-P-P-H-0000000083_inline.xml	2	1	5	13	60	eigen	18|19
+WR-P-P-H-0000000083_inline.xml	2	1	5	14	61	taal	18)|19)
+WR-P-P-H-0000000083_inline.xml	2	1	5	15	62	.	
+
+WR-P-P-H-0000000083_inline.xml	2	2	6	1	63	Zo	
+WR-P-P-H-0000000083_inline.xml	2	2	6	2	64	zijn	
+WR-P-P-H-0000000083_inline.xml	2	2	6	3	65	er	
+WR-P-P-H-0000000083_inline.xml	2	2	6	4	66	in	
+WR-P-P-H-0000000083_inline.xml	2	2	6	5	67	Servië	(2)
+WR-P-P-H-0000000083_inline.xml	2	2	6	6	68	284	(22|(64
+WR-P-P-H-0000000083_inline.xml	2	2	6	7	69	lagere	22|64
+WR-P-P-H-0000000083_inline.xml	2	2	6	8	70	en	22|64
+WR-P-P-H-0000000083_inline.xml	2	2	6	9	71	middelbare	22|64
+WR-P-P-H-0000000083_inline.xml	2	2	6	10	72	scholen	22|64)
+WR-P-P-H-0000000083_inline.xml	2	2	6	11	73	waar	22
+WR-P-P-H-0000000083_inline.xml	2	2	6	12	74	leerlingen	22|(23)
+WR-P-P-H-0000000083_inline.xml	2	2	6	13	75	bij	22
+WR-P-P-H-0000000083_inline.xml	2	2	6	14	76	de	22|(24
+WR-P-P-H-0000000083_inline.xml	2	2	6	15	77	meeste	22|24
+WR-P-P-H-0000000083_inline.xml	2	2	6	16	78	vakken	22|24)
+WR-P-P-H-0000000083_inline.xml	2	2	6	17	79	les	22|(65)|(18)
+WR-P-P-H-0000000083_inline.xml	2	2	6	18	80	krijgen	22
+WR-P-P-H-0000000083_inline.xml	2	2	6	19	81	in	22|(65
+WR-P-P-H-0000000083_inline.xml	2	2	6	20	82	het	22|65|(26|(27
+WR-P-P-H-0000000083_inline.xml	2	2	6	21	83	Albanees	22|65|26|27)
+WR-P-P-H-0000000083_inline.xml	2	2	6	22	84	,	22|65|26
+WR-P-P-H-0000000083_inline.xml	2	2	6	23	85	Hongaars	22|65|26|(28)
+WR-P-P-H-0000000083_inline.xml	2	2	6	24	86	,	22|65|26
+WR-P-P-H-0000000083_inline.xml	2	2	6	25	87	Roemeens	22|65|26|(29)
+WR-P-P-H-0000000083_inline.xml	2	2	6	26	88	,	22|65|26
+WR-P-P-H-0000000083_inline.xml	2	2	6	27	89	Slovaaks	22|65|26|(30)
+WR-P-P-H-0000000083_inline.xml	2	2	6	28	90	,	22|65|26
+WR-P-P-H-0000000083_inline.xml	2	2	6	29	91	Rutheens	22|65|26|(31)
+WR-P-P-H-0000000083_inline.xml	2	2	6	30	92	of	22|65|26
+WR-P-P-H-0000000083_inline.xml	2	2	6	31	93	Bulgaars	22)|65)|26)|(32)
+WR-P-P-H-0000000083_inline.xml	2	2	6	32	94	.	
+
+WR-P-P-H-0000000083_inline.xml	3	1	7	1	95	Servisch	(2)
+WR-P-P-H-0000000083_inline.xml	3	1	7	2	96	is	
+WR-P-P-H-0000000083_inline.xml	3	1	7	3	97	op	
+WR-P-P-H-0000000083_inline.xml	3	1	7	4	98	deze	(22
+WR-P-P-H-0000000083_inline.xml	3	1	7	5	99	scholen	22)
+WR-P-P-H-0000000083_inline.xml	3	1	7	6	100	de	(2)
+WR-P-P-H-0000000083_inline.xml	3	1	7	7	101	tweede	(2)
+WR-P-P-H-0000000083_inline.xml	3	1	7	8	102	taal	(2)
+WR-P-P-H-0000000083_inline.xml	3	1	7	9	103	.	
+
+WR-P-P-H-0000000083_inline.xml	3	2	8	1	104	Dergelijk	(65
+WR-P-P-H-0000000083_inline.xml	3	2	8	2	105	uitgebreide	65
+WR-P-P-H-0000000083_inline.xml	3	2	8	3	106	voorzieningen	65)
+WR-P-P-H-0000000083_inline.xml	3	2	8	4	107	zie	
+WR-P-P-H-0000000083_inline.xml	3	2	8	5	108	je	(38)
+WR-P-P-H-0000000083_inline.xml	3	2	8	6	109	vrijwel	
+WR-P-P-H-0000000083_inline.xml	3	2	8	7	110	nergens	
+WR-P-P-H-0000000083_inline.xml	3	2	8	8	111	,	
+WR-P-P-H-0000000083_inline.xml	3	2	8	9	112	aldus	
+WR-P-P-H-0000000083_inline.xml	3	2	8	10	113	de	(66
+WR-P-P-H-0000000083_inline.xml	3	2	8	11	114	Wereldbank	66)
+WR-P-P-H-0000000083_inline.xml	3	2	8	12	115	,	
+WR-P-P-H-0000000083_inline.xml	3	2	8	13	116	en	
+WR-P-P-H-0000000083_inline.xml	3	2	8	14	117	ze	(65)
+WR-P-P-H-0000000083_inline.xml	3	2	8	15	118	gaan	
+WR-P-P-H-0000000083_inline.xml	3	2	8	16	119	veel	
+WR-P-P-H-0000000083_inline.xml	3	2	8	17	120	verder	
+WR-P-P-H-0000000083_inline.xml	3	2	8	18	121	dan	
+WR-P-P-H-0000000083_inline.xml	3	2	8	19	122	wat	
+WR-P-P-H-0000000083_inline.xml	3	2	8	20	123	het	(40
+WR-P-P-H-0000000083_inline.xml	3	2	8	21	124	Europese	40
+WR-P-P-H-0000000083_inline.xml	3	2	8	22	125	Handvest	40
+WR-P-P-H-0000000083_inline.xml	3	2	8	23	126	voor	40
+WR-P-P-H-0000000083_inline.xml	3	2	8	24	127	Regionale	40
+WR-P-P-H-0000000083_inline.xml	3	2	8	25	128	en	40
+WR-P-P-H-0000000083_inline.xml	3	2	8	26	129	Minderheidstalen	40)
+WR-P-P-H-0000000083_inline.xml	3	2	8	27	130	vereist	
+WR-P-P-H-0000000083_inline.xml	3	2	8	28	131	.	
+
+WR-P-P-H-0000000083_inline.xml	4	1	9	1	132	Dat	(65)
+WR-P-P-H-0000000083_inline.xml	4	1	9	2	133	is	
+WR-P-P-H-0000000083_inline.xml	4	1	9	3	134	heel	
+WR-P-P-H-0000000083_inline.xml	4	1	9	4	135	mooi	
+WR-P-P-H-0000000083_inline.xml	4	1	9	5	136	,	
+WR-P-P-H-0000000083_inline.xml	4	1	9	6	137	maar	
+WR-P-P-H-0000000083_inline.xml	4	1	9	7	138	ook	
+WR-P-P-H-0000000083_inline.xml	4	1	9	8	139	kostbaar	
+WR-P-P-H-0000000083_inline.xml	4	1	9	9	140	.	
+
+WR-P-P-H-0000000083_inline.xml	4	2	10	1	141	De	(18)
+WR-P-P-H-0000000083_inline.xml	4	2	10	2	142	klassen	(18)
+WR-P-P-H-0000000083_inline.xml	4	2	10	3	143	zijn	
+WR-P-P-H-0000000083_inline.xml	4	2	10	4	144	heel	
+WR-P-P-H-0000000083_inline.xml	4	2	10	5	145	klein	
+WR-P-P-H-0000000083_inline.xml	4	2	10	6	146	(	
+WR-P-P-H-0000000083_inline.xml	4	2	10	7	147	soms	
+WR-P-P-H-0000000083_inline.xml	4	2	10	8	148	niet	(43
+WR-P-P-H-0000000083_inline.xml	4	2	10	9	149	meer	43
+WR-P-P-H-0000000083_inline.xml	4	2	10	10	150	dan	43
+WR-P-P-H-0000000083_inline.xml	4	2	10	11	151	vier	43|(44)
+WR-P-P-H-0000000083_inline.xml	4	2	10	12	152	of	43
+WR-P-P-H-0000000083_inline.xml	4	2	10	13	153	vijf	43|(45)
+WR-P-P-H-0000000083_inline.xml	4	2	10	14	154	leerlingen	43)
+WR-P-P-H-0000000083_inline.xml	4	2	10	15	155	)	
+WR-P-P-H-0000000083_inline.xml	4	2	10	16	156	,	
+WR-P-P-H-0000000083_inline.xml	4	2	10	17	157	de	(46
+WR-P-P-H-0000000083_inline.xml	4	2	10	18	158	oplage	46
+WR-P-P-H-0000000083_inline.xml	4	2	10	19	159	van	46
+WR-P-P-H-0000000083_inline.xml	4	2	10	20	160	studieboeken	46)|(47)
+WR-P-P-H-0000000083_inline.xml	4	2	10	21	161	is	
+WR-P-P-H-0000000083_inline.xml	4	2	10	22	162	soms	
+WR-P-P-H-0000000083_inline.xml	4	2	10	23	163	minimaal	
+WR-P-P-H-0000000083_inline.xml	4	2	10	24	164	.	
+
+WR-P-P-H-0000000083_inline.xml	5	1	11	1	165	De	(66)
+WR-P-P-H-0000000083_inline.xml	5	1	11	2	166	Wereldbank	(66)
+WR-P-P-H-0000000083_inline.xml	5	1	11	3	167	gaat	
+WR-P-P-H-0000000083_inline.xml	5	1	11	4	168	niet	
+WR-P-P-H-0000000083_inline.xml	5	1	11	5	169	zover	
+WR-P-P-H-0000000083_inline.xml	5	1	11	6	170	te	
+WR-P-P-H-0000000083_inline.xml	5	1	11	7	171	bepleiten	
+WR-P-P-H-0000000083_inline.xml	5	1	11	8	172	dat	
+WR-P-P-H-0000000083_inline.xml	5	1	11	9	173	het	(49)
+WR-P-P-H-0000000083_inline.xml	5	1	11	10	174	wel	
+WR-P-P-H-0000000083_inline.xml	5	1	11	11	175	wat	
+WR-P-P-H-0000000083_inline.xml	5	1	11	12	176	minder	
+WR-P-P-H-0000000083_inline.xml	5	1	11	13	177	kan	
+WR-P-P-H-0000000083_inline.xml	5	1	11	14	178	,	
+WR-P-P-H-0000000083_inline.xml	5	1	11	15	179	maar	
+WR-P-P-H-0000000083_inline.xml	5	1	11	16	180	stelt	
+WR-P-P-H-0000000083_inline.xml	5	1	11	17	181	wel	
+WR-P-P-H-0000000083_inline.xml	5	1	11	18	182	maatregelen	(6)
+WR-P-P-H-0000000083_inline.xml	5	1	11	19	183	voor	
+WR-P-P-H-0000000083_inline.xml	5	1	11	20	184	om	(6
+WR-P-P-H-0000000083_inline.xml	5	1	11	21	185	de	6|(51
+WR-P-P-H-0000000083_inline.xml	5	1	11	22	186	efficiëntie	6|51)
+WR-P-P-H-0000000083_inline.xml	5	1	11	23	187	te	6
+WR-P-P-H-0000000083_inline.xml	5	1	11	24	188	verhogen	6)
+WR-P-P-H-0000000083_inline.xml	5	1	11	25	189	.	
+
+WR-P-P-H-0000000083_inline.xml	5	2	12	1	190	Ze	(66)
+WR-P-P-H-0000000083_inline.xml	5	2	12	2	191	denkt	
+WR-P-P-H-0000000083_inline.xml	5	2	12	3	192	aan	
+WR-P-P-H-0000000083_inline.xml	5	2	12	4	193	het	(53
+WR-P-P-H-0000000083_inline.xml	5	2	12	5	194	samenvoegen	53
+WR-P-P-H-0000000083_inline.xml	5	2	12	6	195	van	53
+WR-P-P-H-0000000083_inline.xml	5	2	12	7	196	scholen	53)|(54)
+WR-P-P-H-0000000083_inline.xml	5	2	12	8	197	.	
+
+WR-P-P-H-0000000083_inline.xml	5	3	13	1	198	Dat	(53)
+WR-P-P-H-0000000083_inline.xml	5	3	13	2	199	bespaart	
+WR-P-P-H-0000000083_inline.xml	5	3	13	3	200	kosten	(56)
+WR-P-P-H-0000000083_inline.xml	5	3	13	4	201	,	
+WR-P-P-H-0000000083_inline.xml	5	3	13	5	202	maar	
+WR-P-P-H-0000000083_inline.xml	5	3	13	6	203	als	
+WR-P-P-H-0000000083_inline.xml	5	3	13	7	204	de	(6)
+WR-P-P-H-0000000083_inline.xml	5	3	13	8	205	maatregelen	(6)
+WR-P-P-H-0000000083_inline.xml	5	3	13	9	206	worden	
+WR-P-P-H-0000000083_inline.xml	5	3	13	10	207	doorgevoerd	
+WR-P-P-H-0000000083_inline.xml	5	3	13	11	208	betekent	
+WR-P-P-H-0000000083_inline.xml	5	3	13	12	209	het	(58)
+WR-P-P-H-0000000083_inline.xml	5	3	13	13	210	dat	
+WR-P-P-H-0000000083_inline.xml	5	3	13	14	211	de	(59
+WR-P-P-H-0000000083_inline.xml	5	3	13	15	212	leerlingen	59
+WR-P-P-H-0000000083_inline.xml	5	3	13	16	213	die	59
+WR-P-P-H-0000000083_inline.xml	5	3	13	17	214	kiezen	59
+WR-P-P-H-0000000083_inline.xml	5	3	13	18	215	voor	59
+WR-P-P-H-0000000083_inline.xml	5	3	13	19	216	onderwijs	59|(60
+WR-P-P-H-0000000083_inline.xml	5	3	13	20	217	in	59|60
+WR-P-P-H-0000000083_inline.xml	5	3	13	21	218	hun	59|60|(61|(62)
+WR-P-P-H-0000000083_inline.xml	5	3	13	22	219	eigen	59|60|61
+WR-P-P-H-0000000083_inline.xml	5	3	13	23	220	taal	59)|60)|61)
+WR-P-P-H-0000000083_inline.xml	5	3	13	24	221	veel	
+WR-P-P-H-0000000083_inline.xml	5	3	13	25	222	verder	
+WR-P-P-H-0000000083_inline.xml	5	3	13	26	223	moeten	
+WR-P-P-H-0000000083_inline.xml	5	3	13	27	224	reizen	
+WR-P-P-H-0000000083_inline.xml	5	3	13	28	225	.	
+

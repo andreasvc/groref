@@ -1,0 +1,385 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000055_inline.xml	1	1	1	1	1	*	
+WR-P-P-H-0000000055_inline.xml	1	1	1	2	2	Een	(1
+WR-P-P-H-0000000055_inline.xml	1	1	1	3	3	jaar	1)
+WR-P-P-H-0000000055_inline.xml	1	1	1	4	4	geleden	
+WR-P-P-H-0000000055_inline.xml	1	1	1	5	5	bood	
+WR-P-P-H-0000000055_inline.xml	1	1	1	6	6	O.J.	(2
+WR-P-P-H-0000000055_inline.xml	1	1	1	7	7	Simpson	2)
+WR-P-P-H-0000000055_inline.xml	1	1	1	8	8	de	(3
+WR-P-P-H-0000000055_inline.xml	1	1	1	9	9	wereld	3)
+WR-P-P-H-0000000055_inline.xml	1	1	1	10	10	een	(4
+WR-P-P-H-0000000055_inline.xml	1	1	1	11	11	blik	4
+WR-P-P-H-0000000055_inline.xml	1	1	1	12	12	in	4
+WR-P-P-H-0000000055_inline.xml	1	1	1	13	13	zijn	4|(5|(6)
+WR-P-P-H-0000000055_inline.xml	1	1	1	14	14	innerlijk	4)|5)
+WR-P-P-H-0000000055_inline.xml	1	1	1	15	15	aan	
+WR-P-P-H-0000000055_inline.xml	1	1	1	16	16	.	
+
+WR-P-P-H-0000000055_inline.xml	1	2	2	1	17	Tegen	
+WR-P-P-H-0000000055_inline.xml	1	2	2	2	18	betaling	(8
+WR-P-P-H-0000000055_inline.xml	1	2	2	3	19	uiteraard	8
+WR-P-P-H-0000000055_inline.xml	1	2	2	4	20	-	8
+WR-P-P-H-0000000055_inline.xml	1	2	2	5	21	de	8|(9
+WR-P-P-H-0000000055_inline.xml	1	2	2	6	22	familie	8|9
+WR-P-P-H-0000000055_inline.xml	1	2	2	7	23	van	8|9
+WR-P-P-H-0000000055_inline.xml	1	2	2	8	24	zijn	8|9|(10|(2)
+WR-P-P-H-0000000055_inline.xml	1	2	2	9	25	vermoorde	8|9|10
+WR-P-P-H-0000000055_inline.xml	1	2	2	10	26	vrouw	8|9)|10)
+WR-P-P-H-0000000055_inline.xml	1	2	2	11	27	krijgt	8
+WR-P-P-H-0000000055_inline.xml	1	2	2	12	28	nog	8
+WR-P-P-H-0000000055_inline.xml	1	2	2	13	29	geld	8|(12)
+WR-P-P-H-0000000055_inline.xml	1	2	2	14	30	van	8
+WR-P-P-H-0000000055_inline.xml	1	2	2	15	31	hem	8)|(2)
+WR-P-P-H-0000000055_inline.xml	1	2	2	16	32	-	
+WR-P-P-H-0000000055_inline.xml	1	2	2	17	33	wilde	
+WR-P-P-H-0000000055_inline.xml	1	2	2	18	34	hij	(2)
+WR-P-P-H-0000000055_inline.xml	1	2	2	19	35	op	
+WR-P-P-H-0000000055_inline.xml	1	2	2	20	36	tv	(14)
+WR-P-P-H-0000000055_inline.xml	1	2	2	21	37	vragen	(15)
+WR-P-P-H-0000000055_inline.xml	1	2	2	22	38	beantwoorden	
+WR-P-P-H-0000000055_inline.xml	1	2	2	23	39	,	
+WR-P-P-H-0000000055_inline.xml	1	2	2	24	40	aangesloten	
+WR-P-P-H-0000000055_inline.xml	1	2	2	25	41	op	
+WR-P-P-H-0000000055_inline.xml	1	2	2	26	42	een	(16
+WR-P-P-H-0000000055_inline.xml	1	2	2	27	43	leugendetector	16)
+WR-P-P-H-0000000055_inline.xml	1	2	2	28	44	.	
+
+WR-P-P-H-0000000055_inline.xml	2	1	3	1	45	Drie	(17
+WR-P-P-H-0000000055_inline.xml	2	1	3	2	46	maanden	17)
+WR-P-P-H-0000000055_inline.xml	2	1	3	3	47	geleden	
+WR-P-P-H-0000000055_inline.xml	2	1	3	4	48	was	
+WR-P-P-H-0000000055_inline.xml	2	1	3	5	49	de	(18
+WR-P-P-H-0000000055_inline.xml	2	1	3	6	50	vernederende	18
+WR-P-P-H-0000000055_inline.xml	2	1	3	7	51	beurt	18)
+WR-P-P-H-0000000055_inline.xml	2	1	3	8	52	aan	
+WR-P-P-H-0000000055_inline.xml	2	1	3	9	53	de	(19
+WR-P-P-H-0000000055_inline.xml	2	1	3	10	54	FBI	19
+WR-P-P-H-0000000055_inline.xml	2	1	3	11	55	zelf	19)
+WR-P-P-H-0000000055_inline.xml	2	1	3	12	56	,	
+WR-P-P-H-0000000055_inline.xml	2	1	3	13	57	nadat	
+WR-P-P-H-0000000055_inline.xml	2	1	3	14	58	bleek	
+WR-P-P-H-0000000055_inline.xml	2	1	3	15	59	dat	
+WR-P-P-H-0000000055_inline.xml	2	1	3	16	60	een	(21
+WR-P-P-H-0000000055_inline.xml	2	1	3	17	61	spion	21)
+WR-P-P-H-0000000055_inline.xml	2	1	3	18	62	jarenlang	
+WR-P-P-H-0000000055_inline.xml	2	1	3	19	63	geheimen	(22)
+WR-P-P-H-0000000055_inline.xml	2	1	3	20	64	had	
+WR-P-P-H-0000000055_inline.xml	2	1	3	21	65	doorgespeeld	
+WR-P-P-H-0000000055_inline.xml	2	1	3	22	66	aan	
+WR-P-P-H-0000000055_inline.xml	2	1	3	23	67	Moskou	(23)
+WR-P-P-H-0000000055_inline.xml	2	1	3	24	68	,	
+WR-P-P-H-0000000055_inline.xml	2	1	3	25	69	moesten	
+WR-P-P-H-0000000055_inline.xml	2	1	3	26	70	vijfhonderd	(20
+WR-P-P-H-0000000055_inline.xml	2	1	3	27	71	medewerkers	20)
+WR-P-P-H-0000000055_inline.xml	2	1	3	28	72	aan	
+WR-P-P-H-0000000055_inline.xml	2	1	3	29	73	het	(16
+WR-P-P-H-0000000055_inline.xml	2	1	3	30	74	technische	16
+WR-P-P-H-0000000055_inline.xml	2	1	3	31	75	wondermiddel	16)
+WR-P-P-H-0000000055_inline.xml	2	1	3	32	76	vertellen	
+WR-P-P-H-0000000055_inline.xml	2	1	3	33	77	of	
+WR-P-P-H-0000000055_inline.xml	2	1	3	34	78	ze	(25)
+WR-P-P-H-0000000055_inline.xml	2	1	3	35	79	deugden	
+WR-P-P-H-0000000055_inline.xml	2	1	3	36	80	.	
+
+WR-P-P-H-0000000055_inline.xml	3	1	4	1	81	Een	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	2	82	wondermiddel	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	3	83	lijkt	
+WR-P-P-H-0000000055_inline.xml	3	1	4	4	84	het	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	5	85	zeker	
+WR-P-P-H-0000000055_inline.xml	3	1	4	6	86	,	
+WR-P-P-H-0000000055_inline.xml	3	1	4	7	87	zo'n	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	8	88	apparaat	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	9	89	dat	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	10	90	kan	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	11	91	vaststellen	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	12	92	of	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	13	93	iemand	(16)|(29)
+WR-P-P-H-0000000055_inline.xml	3	1	4	14	94	liegt	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	15	95	.	
+
+WR-P-P-H-0000000055_inline.xml	3	2	5	1	96	Maar	
+WR-P-P-H-0000000055_inline.xml	3	2	5	2	97	zoals	
+WR-P-P-H-0000000055_inline.xml	3	2	5	3	98	de	(30
+WR-P-P-H-0000000055_inline.xml	3	2	5	4	99	meeste	30
+WR-P-P-H-0000000055_inline.xml	3	2	5	5	100	wonderen	30)
+WR-P-P-H-0000000055_inline.xml	3	2	5	6	101	bestaat	
+WR-P-P-H-0000000055_inline.xml	3	2	5	7	102	de	(16)
+WR-P-P-H-0000000055_inline.xml	3	2	5	8	103	leugendetector	(16)
+WR-P-P-H-0000000055_inline.xml	3	2	5	9	104	dan	
+WR-P-P-H-0000000055_inline.xml	3	2	5	10	105	ook	
+WR-P-P-H-0000000055_inline.xml	3	2	5	11	106	niet	
+WR-P-P-H-0000000055_inline.xml	3	2	5	12	107	.	
+
+WR-P-P-H-0000000055_inline.xml	3	3	6	1	108	Wat	
+WR-P-P-H-0000000055_inline.xml	3	3	6	2	109	wel	
+WR-P-P-H-0000000055_inline.xml	3	3	6	3	110	bestaat	
+WR-P-P-H-0000000055_inline.xml	3	3	6	4	111	,	
+WR-P-P-H-0000000055_inline.xml	3	3	6	5	112	is	
+WR-P-P-H-0000000055_inline.xml	3	3	6	6	113	de	(32|(101|(100
+WR-P-P-H-0000000055_inline.xml	3	3	6	7	114	polygraaf	32|101|100
+WR-P-P-H-0000000055_inline.xml	3	3	6	8	115	(	32|101|100
+WR-P-P-H-0000000055_inline.xml	3	3	6	9	116	letterlijk	32|101|100
+WR-P-P-H-0000000055_inline.xml	3	3	6	10	117	:	32|101|100
+WR-P-P-H-0000000055_inline.xml	3	3	6	11	118	veelschrijver	32|101|100|(33)
+WR-P-P-H-0000000055_inline.xml	3	3	6	12	119	)	32|101)|100)
+WR-P-P-H-0000000055_inline.xml	3	3	6	13	120	,	32
+WR-P-P-H-0000000055_inline.xml	3	3	6	14	121	een	32|(101
+WR-P-P-H-0000000055_inline.xml	3	3	6	15	122	apparaat	32|101
+WR-P-P-H-0000000055_inline.xml	3	3	6	16	123	dat	32|101
+WR-P-P-H-0000000055_inline.xml	3	3	6	17	124	een	32|101|(35|(36
+WR-P-P-H-0000000055_inline.xml	3	3	6	18	125	flink	32|101|35|36
+WR-P-P-H-0000000055_inline.xml	3	3	6	19	126	aantal	32|101|35|36
+WR-P-P-H-0000000055_inline.xml	3	3	6	20	127	gegevens	32|101|35)|36)
+WR-P-P-H-0000000055_inline.xml	3	3	6	21	128	meet	32|101
+WR-P-P-H-0000000055_inline.xml	3	3	6	22	129	over	32|101|(35
+WR-P-P-H-0000000055_inline.xml	3	3	6	23	130	het	32|101|35|(37
+WR-P-P-H-0000000055_inline.xml	3	3	6	24	131	lichaam	32|101|35|37
+WR-P-P-H-0000000055_inline.xml	3	3	6	25	132	van	32|101|35|37
+WR-P-P-H-0000000055_inline.xml	3	3	6	26	133	een	32|101|35|37|(38
+WR-P-P-H-0000000055_inline.xml	3	3	6	27	134	persoon	32)|101)|35)|37)|38)
+WR-P-P-H-0000000055_inline.xml	3	3	6	28	135	.	
+
+WR-P-P-H-0000000055_inline.xml	3	4	7	1	136	Het	(39)
+WR-P-P-H-0000000055_inline.xml	3	4	7	2	137	is	
+WR-P-P-H-0000000055_inline.xml	3	4	7	3	138	aan	
+WR-P-P-H-0000000055_inline.xml	3	4	7	4	139	degene	(40
+WR-P-P-H-0000000055_inline.xml	3	4	7	5	140	die	40
+WR-P-P-H-0000000055_inline.xml	3	4	7	6	141	de	40|(36
+WR-P-P-H-0000000055_inline.xml	3	4	7	7	142	geproduceerde	40|36
+WR-P-P-H-0000000055_inline.xml	3	4	7	8	143	grafiekjes	40|36)
+WR-P-P-H-0000000055_inline.xml	3	4	7	9	144	interpreteert	40)
+WR-P-P-H-0000000055_inline.xml	3	4	7	10	145	om	
+WR-P-P-H-0000000055_inline.xml	3	4	7	11	146	de	(42
+WR-P-P-H-0000000055_inline.xml	3	4	7	12	147	stap	42
+WR-P-P-H-0000000055_inline.xml	3	4	7	13	148	te	42
+WR-P-P-H-0000000055_inline.xml	3	4	7	14	149	maken	42
+WR-P-P-H-0000000055_inline.xml	3	4	7	15	150	van	42
+WR-P-P-H-0000000055_inline.xml	3	4	7	16	151	transpiratie	42|(43|(44)
+WR-P-P-H-0000000055_inline.xml	3	4	7	17	152	,	42|43
+WR-P-P-H-0000000055_inline.xml	3	4	7	18	153	hartslag	42|43|(45)
+WR-P-P-H-0000000055_inline.xml	3	4	7	19	154	,	42|43
+WR-P-P-H-0000000055_inline.xml	3	4	7	20	155	elektrische	42|43|(46
+WR-P-P-H-0000000055_inline.xml	3	4	7	21	156	weerstand	42|43|46
+WR-P-P-H-0000000055_inline.xml	3	4	7	22	157	van	42|43|46
+WR-P-P-H-0000000055_inline.xml	3	4	7	23	158	de	42|43|46|(47
+WR-P-P-H-0000000055_inline.xml	3	4	7	24	159	huid	42|43|46)|47)
+WR-P-P-H-0000000055_inline.xml	3	4	7	25	160	en	42|43
+WR-P-P-H-0000000055_inline.xml	3	4	7	26	161	nog	42|43|(48
+WR-P-P-H-0000000055_inline.xml	3	4	7	27	162	zo	42|43|48
+WR-P-P-H-0000000055_inline.xml	3	4	7	28	163	het	42|43|48
+WR-P-P-H-0000000055_inline.xml	3	4	7	29	164	een	42|43|48
+WR-P-P-H-0000000055_inline.xml	3	4	7	30	165	en	42|43|48
+WR-P-P-H-0000000055_inline.xml	3	4	7	31	166	ander	42|43)|48)
+WR-P-P-H-0000000055_inline.xml	3	4	7	32	167	,	42
+WR-P-P-H-0000000055_inline.xml	3	4	7	33	168	naar	42
+WR-P-P-H-0000000055_inline.xml	3	4	7	34	169	de	42|(49
+WR-P-P-H-0000000055_inline.xml	3	4	7	35	170	innerlijke	42|49
+WR-P-P-H-0000000055_inline.xml	3	4	7	36	171	geestestoestand	42|49
+WR-P-P-H-0000000055_inline.xml	3	4	7	37	172	van	42|49
+WR-P-P-H-0000000055_inline.xml	3	4	7	38	173	degene	42|49|(50
+WR-P-P-H-0000000055_inline.xml	3	4	7	39	174	die	42|49|50
+WR-P-P-H-0000000055_inline.xml	3	4	7	40	175	de	42|49|50|(51
+WR-P-P-H-0000000055_inline.xml	3	4	7	41	176	vragen	42|49|50|51)
+WR-P-P-H-0000000055_inline.xml	3	4	7	42	177	beantwoordde	42)|49)|50)
+WR-P-P-H-0000000055_inline.xml	3	4	7	43	178	.	
+
+WR-P-P-H-0000000055_inline.xml	3	5	8	1	179	Meestal	
+WR-P-P-H-0000000055_inline.xml	3	5	8	2	180	wil	
+WR-P-P-H-0000000055_inline.xml	3	5	8	3	181	je	(52)
+WR-P-P-H-0000000055_inline.xml	3	5	8	4	182	weten	
+WR-P-P-H-0000000055_inline.xml	3	5	8	5	183	of	
+WR-P-P-H-0000000055_inline.xml	3	5	8	6	184	de	(50
+WR-P-P-H-0000000055_inline.xml	3	5	8	7	185	onderzochte	50
+WR-P-P-H-0000000055_inline.xml	3	5	8	8	186	persoon	50)
+WR-P-P-H-0000000055_inline.xml	3	5	8	9	187	liegt	
+WR-P-P-H-0000000055_inline.xml	3	5	8	10	188	.	
+
+WR-P-P-H-0000000055_inline.xml	3	6	9	1	189	De	(54
+WR-P-P-H-0000000055_inline.xml	3	6	9	2	190	onderzoeksvraag	54
+WR-P-P-H-0000000055_inline.xml	3	6	9	3	191	van	54
+WR-P-P-H-0000000055_inline.xml	3	6	9	4	192	forensisch	54|(55
+WR-P-P-H-0000000055_inline.xml	3	6	9	5	193	psycholoog	54|55
+WR-P-P-H-0000000055_inline.xml	3	6	9	6	194	F.J.G.	54|55
+WR-P-P-H-0000000055_inline.xml	3	6	9	7	195	Buschman	54|55
+WR-P-P-H-0000000055_inline.xml	3	6	9	8	196	van	54|55
+WR-P-P-H-0000000055_inline.xml	3	6	9	9	197	het	54|55|(56
+WR-P-P-H-0000000055_inline.xml	3	6	9	10	198	psychiatrisch	54|55|56
+WR-P-P-H-0000000055_inline.xml	3	6	9	11	199	centrum	54|55|56
+WR-P-P-H-0000000055_inline.xml	3	6	9	12	200	Veldzicht	54|55|56
+WR-P-P-H-0000000055_inline.xml	3	6	9	13	201	in	54|55|56
+WR-P-P-H-0000000055_inline.xml	3	6	9	14	202	Balkbrug	54)|55)|56)|(57)
+WR-P-P-H-0000000055_inline.xml	3	6	9	15	203	is	
+WR-P-P-H-0000000055_inline.xml	3	6	9	16	204	subtieler	
+WR-P-P-H-0000000055_inline.xml	3	6	9	17	205	:	
+WR-P-P-H-0000000055_inline.xml	3	6	9	18	206	kun	
+WR-P-P-H-0000000055_inline.xml	3	6	9	19	207	je	(58)
+WR-P-P-H-0000000055_inline.xml	3	6	9	20	208	met	
+WR-P-P-H-0000000055_inline.xml	3	6	9	21	209	behulp	
+WR-P-P-H-0000000055_inline.xml	3	6	9	22	210	van	
+WR-P-P-H-0000000055_inline.xml	3	6	9	23	211	de	(32
+WR-P-P-H-0000000055_inline.xml	3	6	9	24	212	techniek	32)
+WR-P-P-H-0000000055_inline.xml	3	6	9	25	213	zien	
+WR-P-P-H-0000000055_inline.xml	3	6	9	26	214	of	
+WR-P-P-H-0000000055_inline.xml	3	6	9	27	215	een	(60
+WR-P-P-H-0000000055_inline.xml	3	6	9	28	216	zedendelinquent	60)
+WR-P-P-H-0000000055_inline.xml	3	6	9	29	217	alweer	
+WR-P-P-H-0000000055_inline.xml	3	6	9	30	218	bezig	
+WR-P-P-H-0000000055_inline.xml	3	6	9	31	219	is	
+WR-P-P-H-0000000055_inline.xml	3	6	9	32	220	te	
+WR-P-P-H-0000000055_inline.xml	3	6	9	33	221	denken	
+WR-P-P-H-0000000055_inline.xml	3	6	9	34	222	over	
+WR-P-P-H-0000000055_inline.xml	3	6	9	35	223	zijn	(61|(60)
+WR-P-P-H-0000000055_inline.xml	3	6	9	36	224	volgende	61
+WR-P-P-H-0000000055_inline.xml	3	6	9	37	225	misdaad	61)
+WR-P-P-H-0000000055_inline.xml	3	6	9	38	226	?	
+
+WR-P-P-H-0000000055_inline.xml	4	1	10	1	227	De	(63
+WR-P-P-H-0000000055_inline.xml	4	1	10	2	228	kans	63
+WR-P-P-H-0000000055_inline.xml	4	1	10	3	229	daarop	63)
+WR-P-P-H-0000000055_inline.xml	4	1	10	4	230	lijkt	
+WR-P-P-H-0000000055_inline.xml	4	1	10	5	231	klein	
+WR-P-P-H-0000000055_inline.xml	4	1	10	6	232	,	
+WR-P-P-H-0000000055_inline.xml	4	1	10	7	233	gezien	
+WR-P-P-H-0000000055_inline.xml	4	1	10	8	234	de	(64
+WR-P-P-H-0000000055_inline.xml	4	1	10	9	235	voorgeschiedenis	64)
+WR-P-P-H-0000000055_inline.xml	4	1	10	10	236	.	
+
+WR-P-P-H-0000000055_inline.xml	4	2	11	1	237	In	
+WR-P-P-H-0000000055_inline.xml	4	2	11	2	238	1923	(65)
+WR-P-P-H-0000000055_inline.xml	4	2	11	3	239	oordeelde	
+WR-P-P-H-0000000055_inline.xml	4	2	11	4	240	het	(66
+WR-P-P-H-0000000055_inline.xml	4	2	11	5	241	Amerikaanse	66
+WR-P-P-H-0000000055_inline.xml	4	2	11	6	242	hooggerechtshof	66)
+WR-P-P-H-0000000055_inline.xml	4	2	11	7	243	dat	
+WR-P-P-H-0000000055_inline.xml	4	2	11	8	244	het	(32
+WR-P-P-H-0000000055_inline.xml	4	2	11	9	245	apparaat	32)
+WR-P-P-H-0000000055_inline.xml	4	2	11	10	246	geen	(32)
+WR-P-P-H-0000000055_inline.xml	4	2	11	11	247	bruikbaar	(32)
+WR-P-P-H-0000000055_inline.xml	4	2	11	12	248	bewijsmiddel	(32)
+WR-P-P-H-0000000055_inline.xml	4	2	11	13	249	was	
+WR-P-P-H-0000000055_inline.xml	4	2	11	14	250	.	
+
+WR-P-P-H-0000000055_inline.xml	4	3	12	1	251	En	
+WR-P-P-H-0000000055_inline.xml	4	3	12	2	252	ondanks	
+WR-P-P-H-0000000055_inline.xml	4	3	12	3	253	het	(69
+WR-P-P-H-0000000055_inline.xml	4	3	12	4	254	feit	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	5	255	dat	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	6	256	de	69|(70
+WR-P-P-H-0000000055_inline.xml	4	3	12	7	257	psychologie	69|70)
+WR-P-P-H-0000000055_inline.xml	4	3	12	8	258	driekwart	69|(71
+WR-P-P-H-0000000055_inline.xml	4	3	12	9	259	eeuw	69|71)
+WR-P-P-H-0000000055_inline.xml	4	3	12	10	260	de	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	11	261	tijd	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	12	262	heeft	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	13	263	gehad	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	14	264	om	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	15	265	met	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	16	266	overtuigende	69|(72
+WR-P-P-H-0000000055_inline.xml	4	3	12	17	267	resultaten	69|72)
+WR-P-P-H-0000000055_inline.xml	4	3	12	18	268	te	69
+WR-P-P-H-0000000055_inline.xml	4	3	12	19	269	komen	69)
+WR-P-P-H-0000000055_inline.xml	4	3	12	20	270	,	
+WR-P-P-H-0000000055_inline.xml	4	3	12	21	271	luidde	
+WR-P-P-H-0000000055_inline.xml	4	3	12	22	272	een	(73
+WR-P-P-H-0000000055_inline.xml	4	3	12	23	273	uitspraak	73
+WR-P-P-H-0000000055_inline.xml	4	3	12	24	274	in	73
+WR-P-P-H-0000000055_inline.xml	4	3	12	25	275	1998	73)|(74)
+WR-P-P-H-0000000055_inline.xml	4	3	12	26	276	nog	
+WR-P-P-H-0000000055_inline.xml	4	3	12	27	277	precies	
+WR-P-P-H-0000000055_inline.xml	4	3	12	28	278	zo	
+WR-P-P-H-0000000055_inline.xml	4	3	12	29	279	.	
+
+WR-P-P-H-0000000055_inline.xml	4	3	13	1	280	Een	(77
+WR-P-P-H-0000000055_inline.xml	4	3	13	2	281	jaar	77
+WR-P-P-H-0000000055_inline.xml	4	3	13	3	282	daarvoor	77)
+WR-P-P-H-0000000055_inline.xml	4	3	13	4	283	had	
+WR-P-P-H-0000000055_inline.xml	4	3	13	5	284	de	(75
+WR-P-P-H-0000000055_inline.xml	4	3	13	6	285	Amerikaanse	75
+WR-P-P-H-0000000055_inline.xml	4	3	13	7	286	vereniging	75
+WR-P-P-H-0000000055_inline.xml	4	3	13	8	287	van	75
+WR-P-P-H-0000000055_inline.xml	4	3	13	9	288	psychologen	75)|(76)
+WR-P-P-H-0000000055_inline.xml	4	3	13	10	289	het	(78)
+WR-P-P-H-0000000055_inline.xml	4	3	13	11	290	aan	
+WR-P-P-H-0000000055_inline.xml	4	3	13	12	291	de	(79
+WR-P-P-H-0000000055_inline.xml	4	3	13	13	292	leden	79)
+WR-P-P-H-0000000055_inline.xml	4	3	13	14	293	gevraagd	
+WR-P-P-H-0000000055_inline.xml	4	3	13	15	294	.	
+
+WR-P-P-H-0000000055_inline.xml	4	4	14	1	295	Nog	(80
+WR-P-P-H-0000000055_inline.xml	4	4	14	2	296	geen	80
+WR-P-P-H-0000000055_inline.xml	4	4	14	3	297	kwart	80)
+WR-P-P-H-0000000055_inline.xml	4	4	14	4	298	vond	
+WR-P-P-H-0000000055_inline.xml	4	4	14	5	299	dat	
+WR-P-P-H-0000000055_inline.xml	4	4	14	6	300	rechtbanken	(81)
+WR-P-P-H-0000000055_inline.xml	4	4	14	7	301	naar	
+WR-P-P-H-0000000055_inline.xml	4	4	14	8	302	polygraafgegevens	(35)
+WR-P-P-H-0000000055_inline.xml	4	4	14	9	303	moesten	
+WR-P-P-H-0000000055_inline.xml	4	4	14	10	304	kijken	
+WR-P-P-H-0000000055_inline.xml	4	4	14	11	305	.	
+
+WR-P-P-H-0000000055_inline.xml	5	1	15	1	306	Een	(83
+WR-P-P-H-0000000055_inline.xml	5	1	15	2	307	enquête	83
+WR-P-P-H-0000000055_inline.xml	5	1	15	3	308	onder	83
+WR-P-P-H-0000000055_inline.xml	5	1	15	4	309	gewone	83|(84
+WR-P-P-H-0000000055_inline.xml	5	1	15	5	310	Amerikanen	83)|84)
+WR-P-P-H-0000000055_inline.xml	5	1	15	6	311	zou	
+WR-P-P-H-0000000055_inline.xml	5	1	15	7	312	een	(85
+WR-P-P-H-0000000055_inline.xml	5	1	15	8	313	ander	85
+WR-P-P-H-0000000055_inline.xml	5	1	15	9	314	beeld	85)
+WR-P-P-H-0000000055_inline.xml	5	1	15	10	315	hebben	
+WR-P-P-H-0000000055_inline.xml	5	1	15	11	316	opgeleverd	
+WR-P-P-H-0000000055_inline.xml	5	1	15	12	317	.	
+
+WR-P-P-H-0000000055_inline.xml	5	2	16	1	318	Iedereen	(86)
+WR-P-P-H-0000000055_inline.xml	5	2	16	2	319	kan	
+WR-P-P-H-0000000055_inline.xml	5	2	16	3	320	nu	
+WR-P-P-H-0000000055_inline.xml	5	2	16	4	321	eenmaal	
+WR-P-P-H-0000000055_inline.xml	5	2	16	5	322	begrijpen	
+WR-P-P-H-0000000055_inline.xml	5	2	16	6	323	hoe	
+WR-P-P-H-0000000055_inline.xml	5	2	16	7	324	een	(16)
+WR-P-P-H-0000000055_inline.xml	5	2	16	8	325	leugendetector	(16)
+WR-P-P-H-0000000055_inline.xml	5	2	16	9	326	werkt	
+WR-P-P-H-0000000055_inline.xml	5	2	16	10	327	,	
+WR-P-P-H-0000000055_inline.xml	5	2	16	11	328	en	
+WR-P-P-H-0000000055_inline.xml	5	2	16	12	329	kan	
+WR-P-P-H-0000000055_inline.xml	5	2	16	13	330	zich	(88)
+WR-P-P-H-0000000055_inline.xml	5	2	16	14	331	dus	
+WR-P-P-H-0000000055_inline.xml	5	2	16	15	332	ook	
+WR-P-P-H-0000000055_inline.xml	5	2	16	16	333	voorstellen	
+WR-P-P-H-0000000055_inline.xml	5	2	16	17	334	dat	
+WR-P-P-H-0000000055_inline.xml	5	2	16	18	335	hij	(16)
+WR-P-P-H-0000000055_inline.xml	5	2	16	19	336	werkt	
+WR-P-P-H-0000000055_inline.xml	5	2	16	20	337	.	
+
+WR-P-P-H-0000000055_inline.xml	5	3	17	1	338	Dat	(90)
+WR-P-P-H-0000000055_inline.xml	5	3	17	2	339	telt	
+WR-P-P-H-0000000055_inline.xml	5	3	17	3	340	voor	
+WR-P-P-H-0000000055_inline.xml	5	3	17	4	341	O.J.	(91|(2)
+WR-P-P-H-0000000055_inline.xml	5	3	17	5	342	en	91
+WR-P-P-H-0000000055_inline.xml	5	3	17	6	343	de	91|(19
+WR-P-P-H-0000000055_inline.xml	5	3	17	7	344	FBI	91)|19)
+WR-P-P-H-0000000055_inline.xml	5	3	17	8	345	.	
+
+WR-P-P-H-0000000055_inline.xml	5	4	18	1	346	Ook	
+WR-P-P-H-0000000055_inline.xml	5	4	18	2	347	het	(94|(103
+WR-P-P-H-0000000055_inline.xml	5	4	18	3	348	hart	94|103)
+WR-P-P-H-0000000055_inline.xml	5	4	18	4	349	van	94
+WR-P-P-H-0000000055_inline.xml	5	4	18	5	350	een	94|(60
+WR-P-P-H-0000000055_inline.xml	5	4	18	6	351	onbekeerde	94|60
+WR-P-P-H-0000000055_inline.xml	5	4	18	7	352	Nederlandse	94|60
+WR-P-P-H-0000000055_inline.xml	5	4	18	8	353	zedendelinquent	94)|60)
+WR-P-P-H-0000000055_inline.xml	5	4	18	9	354	zal	
+WR-P-P-H-0000000055_inline.xml	5	4	18	10	355	bij	
+WR-P-P-H-0000000055_inline.xml	5	4	18	11	356	de	(96
+WR-P-P-H-0000000055_inline.xml	5	4	18	12	357	aanblik	96
+WR-P-P-H-0000000055_inline.xml	5	4	18	13	358	van	96
+WR-P-P-H-0000000055_inline.xml	5	4	18	14	359	al	96|(97
+WR-P-P-H-0000000055_inline.xml	5	4	18	15	360	die	96|97
+WR-P-P-H-0000000055_inline.xml	5	4	18	16	361	snoertjes	96)|97)
+WR-P-P-H-0000000055_inline.xml	5	4	18	17	362	een	(99
+WR-P-P-H-0000000055_inline.xml	5	4	18	18	363	keer	99
+WR-P-P-H-0000000055_inline.xml	5	4	18	19	364	extra	99)
+WR-P-P-H-0000000055_inline.xml	5	4	18	20	365	slaan	
+WR-P-P-H-0000000055_inline.xml	5	4	18	21	366	.	
+

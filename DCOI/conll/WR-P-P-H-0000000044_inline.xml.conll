@@ -1,0 +1,470 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000044_inline.xml	1	1	1	1	1	BELGRADO	(1)
+WR-P-P-H-0000000044_inline.xml	1	1	1	2	2	-	
+
+WR-P-P-H-0000000044_inline.xml	1	2	2	1	3	Slobodan	(2
+WR-P-P-H-0000000044_inline.xml	1	2	2	2	4	Milosevic	2)
+WR-P-P-H-0000000044_inline.xml	1	2	2	3	5	zal	
+WR-P-P-H-0000000044_inline.xml	1	2	2	4	6	het	(3
+WR-P-P-H-0000000044_inline.xml	1	2	2	5	7	VN-tribunaal	3
+WR-P-P-H-0000000044_inline.xml	1	2	2	6	8	in	3
+WR-P-P-H-0000000044_inline.xml	1	2	2	7	9	Den	3|(4
+WR-P-P-H-0000000044_inline.xml	1	2	2	8	10	Haag	3)|4)
+WR-P-P-H-0000000044_inline.xml	1	2	2	9	11	morgen	
+WR-P-P-H-0000000044_inline.xml	1	2	2	10	12	vertellen	
+WR-P-P-H-0000000044_inline.xml	1	2	2	11	13	dat	
+WR-P-P-H-0000000044_inline.xml	1	2	2	12	14	hij	(2)
+WR-P-P-H-0000000044_inline.xml	1	2	2	13	15	de	(6
+WR-P-P-H-0000000044_inline.xml	1	2	2	14	16	strafzaak	6
+WR-P-P-H-0000000044_inline.xml	1	2	2	15	17	tegen	6
+WR-P-P-H-0000000044_inline.xml	1	2	2	16	18	hem	6)|(2)
+WR-P-P-H-0000000044_inline.xml	1	2	2	17	19	beschouwt	
+WR-P-P-H-0000000044_inline.xml	1	2	2	18	20	als	
+WR-P-P-H-0000000044_inline.xml	1	2	2	19	21	een	(6
+WR-P-P-H-0000000044_inline.xml	1	2	2	20	22	showproces	6)
+WR-P-P-H-0000000044_inline.xml	1	2	2	21	23	.	
+
+WR-P-P-H-0000000044_inline.xml	1	3	3	1	24	Hij	(2)
+WR-P-P-H-0000000044_inline.xml	1	3	3	2	25	vindt	
+WR-P-P-H-0000000044_inline.xml	1	3	3	3	26	dat	
+WR-P-P-H-0000000044_inline.xml	1	3	3	4	27	hij	(2)
+WR-P-P-H-0000000044_inline.xml	1	3	3	5	28	wordt	
+WR-P-P-H-0000000044_inline.xml	1	3	3	6	29	gestraft	
+WR-P-P-H-0000000044_inline.xml	1	3	3	7	30	omdat	
+WR-P-P-H-0000000044_inline.xml	1	3	3	8	31	hij	(2)
+WR-P-P-H-0000000044_inline.xml	1	3	3	9	32	als	
+WR-P-P-H-0000000044_inline.xml	1	3	3	10	33	enige	
+WR-P-P-H-0000000044_inline.xml	1	3	3	11	34	durfde	
+WR-P-P-H-0000000044_inline.xml	1	3	3	12	35	op	
+WR-P-P-H-0000000044_inline.xml	1	3	3	13	36	te	
+WR-P-P-H-0000000044_inline.xml	1	3	3	14	37	staan	
+WR-P-P-H-0000000044_inline.xml	1	3	3	15	38	tegen	
+WR-P-P-H-0000000044_inline.xml	1	3	3	16	39	de	(12
+WR-P-P-H-0000000044_inline.xml	1	3	3	17	40	Navo	12)
+WR-P-P-H-0000000044_inline.xml	1	3	3	18	41	.	
+
+WR-P-P-H-0000000044_inline.xml	2	1	4	1	42	Dat	(13)
+WR-P-P-H-0000000044_inline.xml	2	1	4	2	43	zeiden	
+WR-P-P-H-0000000044_inline.xml	2	1	4	3	44	Milosevic	(14|(15)
+WR-P-P-H-0000000044_inline.xml	2	1	4	4	45	advocaten	14)
+WR-P-P-H-0000000044_inline.xml	2	1	4	5	46	.	
+
+WR-P-P-H-0000000044_inline.xml	2	2	5	1	47	Ze	(14)
+WR-P-P-H-0000000044_inline.xml	2	2	5	2	48	baseren	
+WR-P-P-H-0000000044_inline.xml	2	2	5	3	49	zich	(17)
+WR-P-P-H-0000000044_inline.xml	2	2	5	4	50	op	
+WR-P-P-H-0000000044_inline.xml	2	2	5	5	51	een	(18
+WR-P-P-H-0000000044_inline.xml	2	2	5	6	52	telefoongesprek	18
+WR-P-P-H-0000000044_inline.xml	2	2	5	7	53	dat	18
+WR-P-P-H-0000000044_inline.xml	2	2	5	8	54	de	18|(2)
+WR-P-P-H-0000000044_inline.xml	2	2	5	9	55	opgepakte	18|(2)
+WR-P-P-H-0000000044_inline.xml	2	2	5	10	56	ex-president	18|(2)
+WR-P-P-H-0000000044_inline.xml	2	2	5	11	57	dit	18
+WR-P-P-H-0000000044_inline.xml	2	2	5	12	58	weekeinde	18
+WR-P-P-H-0000000044_inline.xml	2	2	5	13	59	heeft	18
+WR-P-P-H-0000000044_inline.xml	2	2	5	14	60	mogen	18
+WR-P-P-H-0000000044_inline.xml	2	2	5	15	61	voeren	18
+WR-P-P-H-0000000044_inline.xml	2	2	5	16	62	met	18
+WR-P-P-H-0000000044_inline.xml	2	2	5	17	63	zijn	18|(20|(2)
+WR-P-P-H-0000000044_inline.xml	2	2	5	18	64	vrouw	18|20
+WR-P-P-H-0000000044_inline.xml	2	2	5	19	65	Mira	18|20
+WR-P-P-H-0000000044_inline.xml	2	2	5	20	66	Markovic	18)|20)
+WR-P-P-H-0000000044_inline.xml	2	2	5	21	67	.	
+
+WR-P-P-H-0000000044_inline.xml	2	3	6	1	68	Ze	(20)
+WR-P-P-H-0000000044_inline.xml	2	3	6	2	69	zei	
+WR-P-P-H-0000000044_inline.xml	2	3	6	3	70	dat	
+WR-P-P-H-0000000044_inline.xml	2	3	6	4	71	haar	(2)|(20)
+WR-P-P-H-0000000044_inline.xml	2	3	6	5	72	man	(2)
+WR-P-P-H-0000000044_inline.xml	2	3	6	6	73	'	
+WR-P-P-H-0000000044_inline.xml	2	3	6	7	74	geestelijk	
+WR-P-P-H-0000000044_inline.xml	2	3	6	8	75	fantastisch	
+WR-P-P-H-0000000044_inline.xml	2	3	6	9	76	'	
+WR-P-P-H-0000000044_inline.xml	2	3	6	10	77	in	
+WR-P-P-H-0000000044_inline.xml	2	3	6	11	78	conditie	(25)
+WR-P-P-H-0000000044_inline.xml	2	3	6	12	79	is	
+WR-P-P-H-0000000044_inline.xml	2	3	6	13	80	.	
+
+WR-P-P-H-0000000044_inline.xml	2	4	7	1	81	In	
+WR-P-P-H-0000000044_inline.xml	2	4	7	2	82	datzelfde	(18
+WR-P-P-H-0000000044_inline.xml	2	4	7	3	83	gesprek	18)
+WR-P-P-H-0000000044_inline.xml	2	4	7	4	84	heeft	
+WR-P-P-H-0000000044_inline.xml	2	4	7	5	85	Milosevic	(2)
+WR-P-P-H-0000000044_inline.xml	2	4	7	6	86	ook	
+WR-P-P-H-0000000044_inline.xml	2	4	7	7	87	gezegd	
+WR-P-P-H-0000000044_inline.xml	2	4	7	8	88	dat	
+WR-P-P-H-0000000044_inline.xml	2	4	7	9	89	hij	(2)
+WR-P-P-H-0000000044_inline.xml	2	4	7	10	90	zich	(29)
+WR-P-P-H-0000000044_inline.xml	2	4	7	11	91	nergens	(30)
+WR-P-P-H-0000000044_inline.xml	2	4	7	12	92	schuldig	
+WR-P-P-H-0000000044_inline.xml	2	4	7	13	93	aan	
+WR-P-P-H-0000000044_inline.xml	2	4	7	14	94	acht	
+WR-P-P-H-0000000044_inline.xml	2	4	7	15	95	.	
+
+WR-P-P-H-0000000044_inline.xml	2	5	8	1	96	Sterker	
+WR-P-P-H-0000000044_inline.xml	2	5	8	2	97	nog	
+WR-P-P-H-0000000044_inline.xml	2	5	8	3	98	:	
+WR-P-P-H-0000000044_inline.xml	2	5	8	4	99	,,	
+WR-P-P-H-0000000044_inline.xml	2	5	8	5	100	Als	
+WR-P-P-H-0000000044_inline.xml	2	5	8	6	101	hij	(2)
+WR-P-P-H-0000000044_inline.xml	2	5	8	7	102	opnieuw	
+WR-P-P-H-0000000044_inline.xml	2	5	8	8	103	staatshoofd	(2)
+WR-P-P-H-0000000044_inline.xml	2	5	8	9	104	zou	
+WR-P-P-H-0000000044_inline.xml	2	5	8	10	105	zijn	
+WR-P-P-H-0000000044_inline.xml	2	5	8	11	106	,	
+WR-P-P-H-0000000044_inline.xml	2	5	8	12	107	zou	
+WR-P-P-H-0000000044_inline.xml	2	5	8	13	108	hij	(2)
+WR-P-P-H-0000000044_inline.xml	2	5	8	14	109	op	
+WR-P-P-H-0000000044_inline.xml	2	5	8	15	110	dezelfde	(34
+WR-P-P-H-0000000044_inline.xml	2	5	8	16	111	manier	34
+WR-P-P-H-0000000044_inline.xml	2	5	8	17	112	handelen	34
+WR-P-P-H-0000000044_inline.xml	2	5	8	18	113	als	34
+WR-P-P-H-0000000044_inline.xml	2	5	8	19	114	hij	34|(2)
+WR-P-P-H-0000000044_inline.xml	2	5	8	20	115	nu	34
+WR-P-P-H-0000000044_inline.xml	2	5	8	21	116	heeft	34
+WR-P-P-H-0000000044_inline.xml	2	5	8	22	117	gedaan	34)
+WR-P-P-H-0000000044_inline.xml	2	5	8	23	118	''	
+WR-P-P-H-0000000044_inline.xml	2	5	8	24	119	,	
+WR-P-P-H-0000000044_inline.xml	2	5	8	25	120	zei	
+WR-P-P-H-0000000044_inline.xml	2	5	8	26	121	Branimir	(36
+WR-P-P-H-0000000044_inline.xml	2	5	8	27	122	Gugl	36)
+WR-P-P-H-0000000044_inline.xml	2	5	8	28	123	,	
+WR-P-P-H-0000000044_inline.xml	2	5	8	29	124	een	(36
+WR-P-P-H-0000000044_inline.xml	2	5	8	30	125	van	36
+WR-P-P-H-0000000044_inline.xml	2	5	8	31	126	de	36|(14)
+WR-P-P-H-0000000044_inline.xml	2	5	8	32	127	advocaten	36|(14)
+WR-P-P-H-0000000044_inline.xml	2	5	8	33	128	van	36|(14)
+WR-P-P-H-0000000044_inline.xml	2	5	8	34	129	Milosevic	36)|(14)|(2)
+WR-P-P-H-0000000044_inline.xml	2	5	8	35	130	.	
+
+WR-P-P-H-0000000044_inline.xml	3	1	9	1	131	Morgen	
+WR-P-P-H-0000000044_inline.xml	3	1	9	2	132	wordt	
+WR-P-P-H-0000000044_inline.xml	3	1	9	3	133	de	(2)
+WR-P-P-H-0000000044_inline.xml	3	1	9	4	134	ex-Joegoslavische	(2)
+WR-P-P-H-0000000044_inline.xml	3	1	9	5	135	president	(2)
+WR-P-P-H-0000000044_inline.xml	3	1	9	6	136	voorgeleid	
+WR-P-P-H-0000000044_inline.xml	3	1	9	7	137	aan	
+WR-P-P-H-0000000044_inline.xml	3	1	9	8	138	de	(41
+WR-P-P-H-0000000044_inline.xml	3	1	9	9	139	rechters	41
+WR-P-P-H-0000000044_inline.xml	3	1	9	10	140	van	41
+WR-P-P-H-0000000044_inline.xml	3	1	9	11	141	het	41|(3
+WR-P-P-H-0000000044_inline.xml	3	1	9	12	142	Joegoslavië-Tribunaal	41)|3)
+WR-P-P-H-0000000044_inline.xml	3	1	9	13	143	.	
+
+WR-P-P-H-0000000044_inline.xml	3	2	10	1	144	Hij	(2)
+WR-P-P-H-0000000044_inline.xml	3	2	10	2	145	moet	
+WR-P-P-H-0000000044_inline.xml	3	2	10	3	146	terecht	
+WR-P-P-H-0000000044_inline.xml	3	2	10	4	147	staan	
+WR-P-P-H-0000000044_inline.xml	3	2	10	5	148	wegens	
+WR-P-P-H-0000000044_inline.xml	3	2	10	6	149	zijn	(44|(2)
+WR-P-P-H-0000000044_inline.xml	3	2	10	7	150	betrokkenheid	44
+WR-P-P-H-0000000044_inline.xml	3	2	10	8	151	bij	44
+WR-P-P-H-0000000044_inline.xml	3	2	10	9	152	de	44|(46
+WR-P-P-H-0000000044_inline.xml	3	2	10	10	153	moord	44|46
+WR-P-P-H-0000000044_inline.xml	3	2	10	11	154	op	44|46
+WR-P-P-H-0000000044_inline.xml	3	2	10	12	155	600	44|46|(47
+WR-P-P-H-0000000044_inline.xml	3	2	10	13	156	Kosovo-Albanezen	44)|46)|47)
+WR-P-P-H-0000000044_inline.xml	3	2	10	14	157	.	
+
+WR-P-P-H-0000000044_inline.xml	3	3	11	1	158	Milosevic	(2)
+WR-P-P-H-0000000044_inline.xml	3	3	11	2	159	zal	
+WR-P-P-H-0000000044_inline.xml	3	3	11	3	160	waarschijnlijk	
+WR-P-P-H-0000000044_inline.xml	3	3	11	4	161	geen	(49
+WR-P-P-H-0000000044_inline.xml	3	3	11	5	162	verdediging	49)
+WR-P-P-H-0000000044_inline.xml	3	3	11	6	163	voeren	
+WR-P-P-H-0000000044_inline.xml	3	3	11	7	164	.	
+
+WR-P-P-H-0000000044_inline.xml	3	4	12	1	165	,,	
+WR-P-P-H-0000000044_inline.xml	3	4	12	2	166	We	(50)
+WR-P-P-H-0000000044_inline.xml	3	4	12	3	167	hebben	
+WR-P-P-H-0000000044_inline.xml	3	4	12	4	168	daar	(51)
+WR-P-P-H-0000000044_inline.xml	3	4	12	5	169	niet	
+WR-P-P-H-0000000044_inline.xml	3	4	12	6	170	aan	
+WR-P-P-H-0000000044_inline.xml	3	4	12	7	171	gewerkt	
+WR-P-P-H-0000000044_inline.xml	3	4	12	8	172	,	
+WR-P-P-H-0000000044_inline.xml	3	4	12	9	173	omdat	
+WR-P-P-H-0000000044_inline.xml	3	4	12	10	174	hij	(2)
+WR-P-P-H-0000000044_inline.xml	3	4	12	11	175	het	(3)
+WR-P-P-H-0000000044_inline.xml	3	4	12	12	176	tribunaal	(3)
+WR-P-P-H-0000000044_inline.xml	3	4	12	13	177	niet	
+WR-P-P-H-0000000044_inline.xml	3	4	12	14	178	erkent	
+WR-P-P-H-0000000044_inline.xml	3	4	12	15	179	''	
+WR-P-P-H-0000000044_inline.xml	3	4	12	16	180	,	
+WR-P-P-H-0000000044_inline.xml	3	4	12	17	181	aldus	
+WR-P-P-H-0000000044_inline.xml	3	4	12	18	182	de	(36
+WR-P-P-H-0000000044_inline.xml	3	4	12	19	183	raadsman	36)
+WR-P-P-H-0000000044_inline.xml	3	4	12	20	184	.	
+
+WR-P-P-H-0000000044_inline.xml	3	5	13	1	185	Vandaag	
+WR-P-P-H-0000000044_inline.xml	3	5	13	2	186	bezoeken	
+WR-P-P-H-0000000044_inline.xml	3	5	13	3	187	de	(14)
+WR-P-P-H-0000000044_inline.xml	3	5	13	4	188	advocaten	(14)
+WR-P-P-H-0000000044_inline.xml	3	5	13	5	189	Milosevic	(2)
+WR-P-P-H-0000000044_inline.xml	3	5	13	6	190	in	
+WR-P-P-H-0000000044_inline.xml	3	5	13	7	191	zijn	(57|(2)
+WR-P-P-H-0000000044_inline.xml	3	5	13	8	192	Scheveningse	57
+WR-P-P-H-0000000044_inline.xml	3	5	13	9	193	cel	57
+WR-P-P-H-0000000044_inline.xml	3	5	13	10	194	,	57
+WR-P-P-H-0000000044_inline.xml	3	5	13	11	195	waar	57
+WR-P-P-H-0000000044_inline.xml	3	5	13	12	196	hij	57|(2)
+WR-P-P-H-0000000044_inline.xml	3	5	13	13	197	in	57
+WR-P-P-H-0000000044_inline.xml	3	5	13	14	198	afzondering	57|(60)
+WR-P-P-H-0000000044_inline.xml	3	5	13	15	199	zit	57)
+WR-P-P-H-0000000044_inline.xml	3	5	13	16	200	.	
+
+WR-P-P-H-0000000044_inline.xml	4	1	14	1	201	De	(6)
+WR-P-P-H-0000000044_inline.xml	4	1	14	2	202	rechtszaak	(6)
+WR-P-P-H-0000000044_inline.xml	4	1	14	3	203	tegen	(6)
+WR-P-P-H-0000000044_inline.xml	4	1	14	4	204	Milosevic	(6)|(62)
+WR-P-P-H-0000000044_inline.xml	4	1	14	5	205	gaat	
+WR-P-P-H-0000000044_inline.xml	4	1	14	6	206	op	
+WR-P-P-H-0000000044_inline.xml	4	1	14	7	207	zijn	
+WR-P-P-H-0000000044_inline.xml	4	1	14	8	208	vroegst	
+WR-P-P-H-0000000044_inline.xml	4	1	14	9	209	over	
+WR-P-P-H-0000000044_inline.xml	4	1	14	10	210	een	(63
+WR-P-P-H-0000000044_inline.xml	4	1	14	11	211	jaar	63)
+WR-P-P-H-0000000044_inline.xml	4	1	14	12	212	beginnen	
+WR-P-P-H-0000000044_inline.xml	4	1	14	13	213	.	
+
+WR-P-P-H-0000000044_inline.xml	4	2	15	1	214	Dat	(67)
+WR-P-P-H-0000000044_inline.xml	4	2	15	2	215	heeft	
+WR-P-P-H-0000000044_inline.xml	4	2	15	3	216	dit	
+WR-P-P-H-0000000044_inline.xml	4	2	15	4	217	weekeinde	
+WR-P-P-H-0000000044_inline.xml	4	2	15	5	218	de	(64|(127
+WR-P-P-H-0000000044_inline.xml	4	2	15	6	219	president	64|127
+WR-P-P-H-0000000044_inline.xml	4	2	15	7	220	van	64|127
+WR-P-P-H-0000000044_inline.xml	4	2	15	8	221	het	64|127|(3)
+WR-P-P-H-0000000044_inline.xml	4	2	15	9	222	Joegoslavië-Tribunaal	64|127)|(3)
+WR-P-P-H-0000000044_inline.xml	4	2	15	10	223	,	64
+WR-P-P-H-0000000044_inline.xml	4	2	15	11	224	de	64|(128|(127
+WR-P-P-H-0000000044_inline.xml	4	2	15	12	225	Franse	64|128|127
+WR-P-P-H-0000000044_inline.xml	4	2	15	13	226	rechter	64|128|127
+WR-P-P-H-0000000044_inline.xml	4	2	15	14	227	Claude	64|128|127
+WR-P-P-H-0000000044_inline.xml	4	2	15	15	228	Jorda	64)|128)|127)
+WR-P-P-H-0000000044_inline.xml	4	2	15	16	229	,	
+WR-P-P-H-0000000044_inline.xml	4	2	15	17	230	gezegd	
+WR-P-P-H-0000000044_inline.xml	4	2	15	18	231	.	
+
+WR-P-P-H-0000000044_inline.xml	4	3	16	1	232	De	(68
+WR-P-P-H-0000000044_inline.xml	4	3	16	2	233	voorbereiding	68
+WR-P-P-H-0000000044_inline.xml	4	3	16	3	234	van	68
+WR-P-P-H-0000000044_inline.xml	4	3	16	4	235	de	68|(6)
+WR-P-P-H-0000000044_inline.xml	4	3	16	5	236	zaak	68)|(6)
+WR-P-P-H-0000000044_inline.xml	4	3	16	6	237	kost	
+WR-P-P-H-0000000044_inline.xml	4	3	16	7	238	veel	(70
+WR-P-P-H-0000000044_inline.xml	4	3	16	8	239	tijd	70)
+WR-P-P-H-0000000044_inline.xml	4	3	16	9	240	.	
+
+WR-P-P-H-0000000044_inline.xml	4	4	17	1	241	Ook	(71
+WR-P-P-H-0000000044_inline.xml	4	4	17	2	242	de	71
+WR-P-P-H-0000000044_inline.xml	4	4	17	3	243	behandeling	71)
+WR-P-P-H-0000000044_inline.xml	4	4	17	4	244	zal	
+WR-P-P-H-0000000044_inline.xml	4	4	17	5	245	zeker	(72
+WR-P-P-H-0000000044_inline.xml	4	4	17	6	246	een	72
+WR-P-P-H-0000000044_inline.xml	4	4	17	7	247	jaar	72)
+WR-P-P-H-0000000044_inline.xml	4	4	17	8	248	duren	
+WR-P-P-H-0000000044_inline.xml	4	4	17	9	249	.	
+
+WR-P-P-H-0000000044_inline.xml	5	1	18	1	250	De	(73
+WR-P-P-H-0000000044_inline.xml	5	1	18	2	251	Servische	73
+WR-P-P-H-0000000044_inline.xml	5	1	18	3	252	premier	73
+WR-P-P-H-0000000044_inline.xml	5	1	18	4	253	Djindjic	73)
+WR-P-P-H-0000000044_inline.xml	5	1	18	5	254	zei	
+WR-P-P-H-0000000044_inline.xml	5	1	18	6	255	gisteren	
+WR-P-P-H-0000000044_inline.xml	5	1	18	7	256	in	
+WR-P-P-H-0000000044_inline.xml	5	1	18	8	257	de	(74
+WR-P-P-H-0000000044_inline.xml	5	1	18	9	258	New	74
+WR-P-P-H-0000000044_inline.xml	5	1	18	10	259	York	74
+WR-P-P-H-0000000044_inline.xml	5	1	18	11	260	Times	74)
+WR-P-P-H-0000000044_inline.xml	5	1	18	12	261	dat	
+WR-P-P-H-0000000044_inline.xml	5	1	18	13	262	hij	(73)
+WR-P-P-H-0000000044_inline.xml	5	1	18	14	263	vorige	(76
+WR-P-P-H-0000000044_inline.xml	5	1	18	15	264	week	76)
+WR-P-P-H-0000000044_inline.xml	5	1	18	16	265	bang	
+WR-P-P-H-0000000044_inline.xml	5	1	18	17	266	was	
+WR-P-P-H-0000000044_inline.xml	5	1	18	18	267	dat	
+WR-P-P-H-0000000044_inline.xml	5	1	18	19	268	het	(77
+WR-P-P-H-0000000044_inline.xml	5	1	18	20	269	Joegoslavische	77
+WR-P-P-H-0000000044_inline.xml	5	1	18	21	270	leger	77)
+WR-P-P-H-0000000044_inline.xml	5	1	18	22	271	de	(78
+WR-P-P-H-0000000044_inline.xml	5	1	18	23	272	uitlevering	78
+WR-P-P-H-0000000044_inline.xml	5	1	18	24	273	van	78
+WR-P-P-H-0000000044_inline.xml	5	1	18	25	274	Milosevic	78)|(62)
+WR-P-P-H-0000000044_inline.xml	5	1	18	26	275	zou	
+WR-P-P-H-0000000044_inline.xml	5	1	18	27	276	tegenhouden	
+WR-P-P-H-0000000044_inline.xml	5	1	18	28	277	.	
+
+WR-P-P-H-0000000044_inline.xml	5	2	19	1	278	Het	(77
+WR-P-P-H-0000000044_inline.xml	5	2	19	2	279	leger	77)
+WR-P-P-H-0000000044_inline.xml	5	2	19	3	280	valt	
+WR-P-P-H-0000000044_inline.xml	5	2	19	4	281	direct	
+WR-P-P-H-0000000044_inline.xml	5	2	19	5	282	onder	
+WR-P-P-H-0000000044_inline.xml	5	2	19	6	283	president	(81
+WR-P-P-H-0000000044_inline.xml	5	2	19	7	284	Kostunica	81
+WR-P-P-H-0000000044_inline.xml	5	2	19	8	285	,	81
+WR-P-P-H-0000000044_inline.xml	5	2	19	9	286	die	81
+WR-P-P-H-0000000044_inline.xml	5	2	19	10	287	fel	81
+WR-P-P-H-0000000044_inline.xml	5	2	19	11	288	tegen	81
+WR-P-P-H-0000000044_inline.xml	5	2	19	12	289	uitlevering	81|(78)
+WR-P-P-H-0000000044_inline.xml	5	2	19	13	290	was	81)
+WR-P-P-H-0000000044_inline.xml	5	2	19	14	291	.	
+
+WR-P-P-H-0000000044_inline.xml	5	3	20	1	292	Om	
+WR-P-P-H-0000000044_inline.xml	5	3	20	2	293	het	(77)
+WR-P-P-H-0000000044_inline.xml	5	3	20	3	294	leger	(77)
+WR-P-P-H-0000000044_inline.xml	5	3	20	4	295	om	
+WR-P-P-H-0000000044_inline.xml	5	3	20	5	296	de	(84
+WR-P-P-H-0000000044_inline.xml	5	3	20	6	297	tuin	84)
+WR-P-P-H-0000000044_inline.xml	5	3	20	7	298	te	
+WR-P-P-H-0000000044_inline.xml	5	3	20	8	299	leiden	
+WR-P-P-H-0000000044_inline.xml	5	3	20	9	300	,	
+WR-P-P-H-0000000044_inline.xml	5	3	20	10	301	gebruikte	
+WR-P-P-H-0000000044_inline.xml	5	3	20	11	302	de	(85
+WR-P-P-H-0000000044_inline.xml	5	3	20	12	303	politie	85)
+WR-P-P-H-0000000044_inline.xml	5	3	20	13	304	drie	(86
+WR-P-P-H-0000000044_inline.xml	5	3	20	14	305	busjes	86)
+WR-P-P-H-0000000044_inline.xml	5	3	20	15	306	om	
+WR-P-P-H-0000000044_inline.xml	5	3	20	16	307	Milosevic	(62)
+WR-P-P-H-0000000044_inline.xml	5	3	20	17	308	op	
+WR-P-P-H-0000000044_inline.xml	5	3	20	18	309	te	
+WR-P-P-H-0000000044_inline.xml	5	3	20	19	310	halen	
+WR-P-P-H-0000000044_inline.xml	5	3	20	20	311	.	
+
+WR-P-P-H-0000000044_inline.xml	5	4	21	1	312	Twee	(88)
+WR-P-P-H-0000000044_inline.xml	5	4	21	2	313	dienden	
+WR-P-P-H-0000000044_inline.xml	5	4	21	3	314	als	
+WR-P-P-H-0000000044_inline.xml	5	4	21	4	315	dwaalspoor	(89)
+WR-P-P-H-0000000044_inline.xml	5	4	21	5	316	.	
+
+WR-P-P-H-0000000044_inline.xml	5	5	22	1	317	Ook	(90
+WR-P-P-H-0000000044_inline.xml	5	5	22	2	318	het	90
+WR-P-P-H-0000000044_inline.xml	5	5	22	3	319	busje	90
+WR-P-P-H-0000000044_inline.xml	5	5	22	4	320	dat	90
+WR-P-P-H-0000000044_inline.xml	5	5	22	5	321	op	90
+WR-P-P-H-0000000044_inline.xml	5	5	22	6	322	persfoto's	90|(91)
+WR-P-P-H-0000000044_inline.xml	5	5	22	7	323	overal	90
+WR-P-P-H-0000000044_inline.xml	5	5	22	8	324	ter	90
+WR-P-P-H-0000000044_inline.xml	5	5	22	9	325	wereld	90|(92)
+WR-P-P-H-0000000044_inline.xml	5	5	22	10	326	verscheen	90)
+WR-P-P-H-0000000044_inline.xml	5	5	22	11	327	,	
+WR-P-P-H-0000000044_inline.xml	5	5	22	12	328	was	
+WR-P-P-H-0000000044_inline.xml	5	5	22	13	329	leeg	
+WR-P-P-H-0000000044_inline.xml	5	5	22	14	330	.	
+
+WR-P-P-H-0000000044_inline.xml	6	1	23	1	331	Het	(93
+WR-P-P-H-0000000044_inline.xml	6	1	23	2	332	Servische	93
+WR-P-P-H-0000000044_inline.xml	6	1	23	3	333	weekblad	93
+WR-P-P-H-0000000044_inline.xml	6	1	23	4	334	Nedeljni	93
+WR-P-P-H-0000000044_inline.xml	6	1	23	5	335	Telegraf	93)
+WR-P-P-H-0000000044_inline.xml	6	1	23	6	336	schrijft	
+WR-P-P-H-0000000044_inline.xml	6	1	23	7	337	dat	
+WR-P-P-H-0000000044_inline.xml	6	1	23	8	338	Milosevic	(62)
+WR-P-P-H-0000000044_inline.xml	6	1	23	9	339	voor	
+WR-P-P-H-0000000044_inline.xml	6	1	23	10	340	hij	(62)
+WR-P-P-H-0000000044_inline.xml	6	1	23	11	341	in	
+WR-P-P-H-0000000044_inline.xml	6	1	23	12	342	de	(96
+WR-P-P-H-0000000044_inline.xml	6	1	23	13	343	helikopter	96)
+WR-P-P-H-0000000044_inline.xml	6	1	23	14	344	stapte	
+WR-P-P-H-0000000044_inline.xml	6	1	23	15	345	zou	
+WR-P-P-H-0000000044_inline.xml	6	1	23	16	346	hebben	
+WR-P-P-H-0000000044_inline.xml	6	1	23	17	347	gezegd	
+WR-P-P-H-0000000044_inline.xml	6	1	23	18	348	:	
+WR-P-P-H-0000000044_inline.xml	6	1	23	19	349	,,	
+WR-P-P-H-0000000044_inline.xml	6	1	23	20	350	Broeder-Serviërs	(97)
+WR-P-P-H-0000000044_inline.xml	6	1	23	21	351	,	
+WR-P-P-H-0000000044_inline.xml	6	1	23	22	352	vaarwel	(98)
+WR-P-P-H-0000000044_inline.xml	6	1	23	23	353	nu	
+WR-P-P-H-0000000044_inline.xml	6	1	23	24	354	''	
+WR-P-P-H-0000000044_inline.xml	6	1	23	25	355	.	
+
+WR-P-P-H-0000000044_inline.xml	6	2	24	1	356	Het	(93
+WR-P-P-H-0000000044_inline.xml	6	2	24	2	357	blad	93)
+WR-P-P-H-0000000044_inline.xml	6	2	24	3	358	heeft	
+WR-P-P-H-0000000044_inline.xml	6	2	24	4	359	goede	(100
+WR-P-P-H-0000000044_inline.xml	6	2	24	5	360	contacten	100
+WR-P-P-H-0000000044_inline.xml	6	2	24	6	361	bij	100
+WR-P-P-H-0000000044_inline.xml	6	2	24	7	362	leger	100|(101|(77)
+WR-P-P-H-0000000044_inline.xml	6	2	24	8	363	en	100|101
+WR-P-P-H-0000000044_inline.xml	6	2	24	9	364	politie	100)|101)|(85)
+WR-P-P-H-0000000044_inline.xml	6	2	24	10	365	.	
+
+WR-P-P-H-0000000044_inline.xml	7	1	25	1	366	Mogelijk	
+WR-P-P-H-0000000044_inline.xml	7	1	25	2	367	heeft	
+WR-P-P-H-0000000044_inline.xml	7	1	25	3	368	Milosevic	(62)
+WR-P-P-H-0000000044_inline.xml	7	1	25	4	369	gepoogd	
+WR-P-P-H-0000000044_inline.xml	7	1	25	5	370	de	(105
+WR-P-P-H-0000000044_inline.xml	7	1	25	6	371	Britse	105
+WR-P-P-H-0000000044_inline.xml	7	1	25	7	372	premier	105
+WR-P-P-H-0000000044_inline.xml	7	1	25	8	373	Blair	105)
+WR-P-P-H-0000000044_inline.xml	7	1	25	9	374	te	
+WR-P-P-H-0000000044_inline.xml	7	1	25	10	375	laten	
+WR-P-P-H-0000000044_inline.xml	7	1	25	11	376	vermoorden	
+WR-P-P-H-0000000044_inline.xml	7	1	25	12	377	.	
+
+WR-P-P-H-0000000044_inline.xml	7	2	26	1	378	Stafchef	(106
+WR-P-P-H-0000000044_inline.xml	7	2	26	2	379	generaal	106|(107
+WR-P-P-H-0000000044_inline.xml	7	2	26	3	380	Nebojsa	106|107
+WR-P-P-H-0000000044_inline.xml	7	2	26	4	381	Pavkovic	106|107)
+WR-P-P-H-0000000044_inline.xml	7	2	26	5	382	van	106
+WR-P-P-H-0000000044_inline.xml	7	2	26	6	383	het	106|(77)
+WR-P-P-H-0000000044_inline.xml	7	2	26	7	384	Joegoslavische	106|(77)
+WR-P-P-H-0000000044_inline.xml	7	2	26	8	385	leger	106)|(77)
+WR-P-P-H-0000000044_inline.xml	7	2	26	9	386	zei	
+WR-P-P-H-0000000044_inline.xml	7	2	26	10	387	in	
+WR-P-P-H-0000000044_inline.xml	7	2	26	11	388	een	(109
+WR-P-P-H-0000000044_inline.xml	7	2	26	12	389	interview	109)
+WR-P-P-H-0000000044_inline.xml	7	2	26	13	390	dat	
+WR-P-P-H-0000000044_inline.xml	7	2	26	14	391	hij	(106)
+WR-P-P-H-0000000044_inline.xml	7	2	26	15	392	mei	(111
+WR-P-P-H-0000000044_inline.xml	7	2	26	16	393	1999	111)
+WR-P-P-H-0000000044_inline.xml	7	2	26	17	394	,	
+WR-P-P-H-0000000044_inline.xml	7	2	26	18	395	tijdens	
+WR-P-P-H-0000000044_inline.xml	7	2	26	19	396	de	(112
+WR-P-P-H-0000000044_inline.xml	7	2	26	20	397	Kosovo-crisis	112)
+WR-P-P-H-0000000044_inline.xml	7	2	26	21	398	,	
+WR-P-P-H-0000000044_inline.xml	7	2	26	22	399	'	
+WR-P-P-H-0000000044_inline.xml	7	2	26	23	400	van	
+WR-P-P-H-0000000044_inline.xml	7	2	26	24	401	de	(113
+WR-P-P-H-0000000044_inline.xml	7	2	26	25	402	top	113)
+WR-P-P-H-0000000044_inline.xml	7	2	26	26	403	'	
+WR-P-P-H-0000000044_inline.xml	7	2	26	27	404	opdracht	(114
+WR-P-P-H-0000000044_inline.xml	7	2	26	28	405	kreeg	114
+WR-P-P-H-0000000044_inline.xml	7	2	26	29	406	de	114|(115
+WR-P-P-H-0000000044_inline.xml	7	2	26	30	407	helikopter	114|115
+WR-P-P-H-0000000044_inline.xml	7	2	26	31	408	van	114|115
+WR-P-P-H-0000000044_inline.xml	7	2	26	32	409	Blair	114|115)|(105)
+WR-P-P-H-0000000044_inline.xml	7	2	26	33	410	'	114
+WR-P-P-H-0000000044_inline.xml	7	2	26	34	411	te	114
+WR-P-P-H-0000000044_inline.xml	7	2	26	35	412	vernietigen	114)
+WR-P-P-H-0000000044_inline.xml	7	2	26	36	413	'	
+WR-P-P-H-0000000044_inline.xml	7	2	26	37	414	.	
+
+WR-P-P-H-0000000044_inline.xml	7	3	27	1	415	Volgens	
+WR-P-P-H-0000000044_inline.xml	7	3	27	2	416	analisten	(117)
+WR-P-P-H-0000000044_inline.xml	7	3	27	3	417	betekent	
+WR-P-P-H-0000000044_inline.xml	7	3	27	4	418	dit	(118)
+WR-P-P-H-0000000044_inline.xml	7	3	27	5	419	dat	
+WR-P-P-H-0000000044_inline.xml	7	3	27	6	420	Milosevic	(113)
+WR-P-P-H-0000000044_inline.xml	7	3	27	7	421	zelf	
+WR-P-P-H-0000000044_inline.xml	7	3	27	8	422	de	(114
+WR-P-P-H-0000000044_inline.xml	7	3	27	9	423	opdracht	114)
+WR-P-P-H-0000000044_inline.xml	7	3	27	10	424	gaf	
+WR-P-P-H-0000000044_inline.xml	7	3	27	11	425	.	
+
+WR-P-P-H-0000000044_inline.xml	7	4	28	1	426	Blair	(105)
+WR-P-P-H-0000000044_inline.xml	7	4	28	2	427	bezocht	
+WR-P-P-H-0000000044_inline.xml	7	4	28	3	428	tijdens	
+WR-P-P-H-0000000044_inline.xml	7	4	28	4	429	de	(112
+WR-P-P-H-0000000044_inline.xml	7	4	28	5	430	Kosovo-crisis	112)
+WR-P-P-H-0000000044_inline.xml	7	4	28	6	431	een	(123
+WR-P-P-H-0000000044_inline.xml	7	4	28	7	432	vluchtelingenkamp	123
+WR-P-P-H-0000000044_inline.xml	7	4	28	8	433	in	123
+WR-P-P-H-0000000044_inline.xml	7	4	28	9	434	Macedonië	123)|(124)
+WR-P-P-H-0000000044_inline.xml	7	4	28	10	435	.	
+
+WR-P-P-H-0000000044_inline.xml	8	1	29	1	436	MEER	(125
+WR-P-P-H-0000000044_inline.xml	8	1	29	2	437	NIEUWS	125
+WR-P-P-H-0000000044_inline.xml	8	1	29	3	438	OP	125
+WR-P-P-H-0000000044_inline.xml	8	1	29	4	439	PAGINA	125|(126
+WR-P-P-H-0000000044_inline.xml	8	1	29	5	440	5	125|126
+

@@ -1,0 +1,392 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000061_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
+WR-P-P-H-0000000061_inline.xml	1	1	1	2	2	-	
+
+WR-P-P-H-0000000061_inline.xml	1	2	2	1	3	De	(2|(90
+WR-P-P-H-0000000061_inline.xml	1	2	2	2	4	Nederlandse	2|90
+WR-P-P-H-0000000061_inline.xml	1	2	2	3	5	Rottweiler	2|90|(91)
+WR-P-P-H-0000000061_inline.xml	1	2	2	4	6	Club	2|90)
+WR-P-P-H-0000000061_inline.xml	1	2	2	5	7	(	2
+WR-P-P-H-0000000061_inline.xml	1	2	2	6	8	NRC	2)|(90)
+WR-P-P-H-0000000061_inline.xml	1	2	2	7	9	)	
+WR-P-P-H-0000000061_inline.xml	1	2	2	8	10	heeft	
+WR-P-P-H-0000000061_inline.xml	1	2	2	9	11	met	
+WR-P-P-H-0000000061_inline.xml	1	2	2	10	12	ingang	
+WR-P-P-H-0000000061_inline.xml	1	2	2	11	13	van	
+WR-P-P-H-0000000061_inline.xml	1	2	2	12	14	vandaag	
+WR-P-P-H-0000000061_inline.xml	1	2	2	13	15	het	(4
+WR-P-P-H-0000000061_inline.xml	1	2	2	14	16	fokken	4
+WR-P-P-H-0000000061_inline.xml	1	2	2	15	17	van	4
+WR-P-P-H-0000000061_inline.xml	1	2	2	16	18	de	4|(91
+WR-P-P-H-0000000061_inline.xml	1	2	2	17	19	hondensoort	4)|91)
+WR-P-P-H-0000000061_inline.xml	1	2	2	18	20	aan	
+WR-P-P-H-0000000061_inline.xml	1	2	2	19	21	strenge	(6
+WR-P-P-H-0000000061_inline.xml	1	2	2	20	22	regels	6)
+WR-P-P-H-0000000061_inline.xml	1	2	2	21	23	gebonden	
+WR-P-P-H-0000000061_inline.xml	1	2	2	22	24	.	
+
+WR-P-P-H-0000000061_inline.xml	2	1	3	1	25	Zo	
+WR-P-P-H-0000000061_inline.xml	2	1	3	2	26	hoopt	
+WR-P-P-H-0000000061_inline.xml	2	1	3	3	27	de	(2
+WR-P-P-H-0000000061_inline.xml	2	1	3	4	28	rasvereniging	2)
+WR-P-P-H-0000000061_inline.xml	2	1	3	5	29	de	(8
+WR-P-P-H-0000000061_inline.xml	2	1	3	6	30	agressie	8
+WR-P-P-H-0000000061_inline.xml	2	1	3	7	31	bij	8
+WR-P-P-H-0000000061_inline.xml	2	1	3	8	32	rottweilers	8)|(91)
+WR-P-P-H-0000000061_inline.xml	2	1	3	9	33	in	
+WR-P-P-H-0000000061_inline.xml	2	1	3	10	34	te	
+WR-P-P-H-0000000061_inline.xml	2	1	3	11	35	dammen	
+WR-P-P-H-0000000061_inline.xml	2	1	3	12	36	en	
+WR-P-P-H-0000000061_inline.xml	2	1	3	13	37	de	(10
+WR-P-P-H-0000000061_inline.xml	2	1	3	14	38	malafide	10
+WR-P-P-H-0000000061_inline.xml	2	1	3	15	39	fokkerij	10)
+WR-P-P-H-0000000061_inline.xml	2	1	3	16	40	tegen	
+WR-P-P-H-0000000061_inline.xml	2	1	3	17	41	te	
+WR-P-P-H-0000000061_inline.xml	2	1	3	18	42	gaan	
+WR-P-P-H-0000000061_inline.xml	2	1	3	19	43	.	
+
+WR-P-P-H-0000000061_inline.xml	2	2	4	1	44	Voor	
+WR-P-P-H-0000000061_inline.xml	2	2	4	2	45	exemplaren	(12
+WR-P-P-H-0000000061_inline.xml	2	2	4	3	46	die	12
+WR-P-P-H-0000000061_inline.xml	2	2	4	4	47	niet	12
+WR-P-P-H-0000000061_inline.xml	2	2	4	5	48	volgens	12
+WR-P-P-H-0000000061_inline.xml	2	2	4	6	49	deze	12|(6
+WR-P-P-H-0000000061_inline.xml	2	2	4	7	50	regels	12|6)
+WR-P-P-H-0000000061_inline.xml	2	2	4	8	51	worden	12
+WR-P-P-H-0000000061_inline.xml	2	2	4	9	52	gefokt	12)
+WR-P-P-H-0000000061_inline.xml	2	2	4	10	53	,	
+WR-P-P-H-0000000061_inline.xml	2	2	4	11	54	zal	
+WR-P-P-H-0000000061_inline.xml	2	2	4	12	55	geen	(11
+WR-P-P-H-0000000061_inline.xml	2	2	4	13	56	stamboom	11)
+WR-P-P-H-0000000061_inline.xml	2	2	4	14	57	worden	
+WR-P-P-H-0000000061_inline.xml	2	2	4	15	58	afgegeven	
+WR-P-P-H-0000000061_inline.xml	2	2	4	16	59	.	
+
+WR-P-P-H-0000000061_inline.xml	3	1	5	1	60	De	(14
+WR-P-P-H-0000000061_inline.xml	3	1	5	2	61	Raad	14
+WR-P-P-H-0000000061_inline.xml	3	1	5	3	62	van	14
+WR-P-P-H-0000000061_inline.xml	3	1	5	4	63	beheer	14|(15
+WR-P-P-H-0000000061_inline.xml	3	1	5	5	64	op	14|15
+WR-P-P-H-0000000061_inline.xml	3	1	5	6	65	kynologisch	14|15|(16
+WR-P-P-H-0000000061_inline.xml	3	1	5	7	66	gebied	14)|15)|16)
+WR-P-P-H-0000000061_inline.xml	3	1	5	8	67	heeft	
+WR-P-P-H-0000000061_inline.xml	3	1	5	9	68	de	(18
+WR-P-P-H-0000000061_inline.xml	3	1	5	10	69	strenge	18
+WR-P-P-H-0000000061_inline.xml	3	1	5	11	70	aanpak	18)
+WR-P-P-H-0000000061_inline.xml	3	1	5	12	71	samen	
+WR-P-P-H-0000000061_inline.xml	3	1	5	13	72	met	
+WR-P-P-H-0000000061_inline.xml	3	1	5	14	73	de	(17
+WR-P-P-H-0000000061_inline.xml	3	1	5	15	74	rasverenigingen	17)
+WR-P-P-H-0000000061_inline.xml	3	1	5	16	75	ontwikkeld	
+WR-P-P-H-0000000061_inline.xml	3	1	5	17	76	.	
+
+WR-P-P-H-0000000061_inline.xml	3	2	6	1	77	Voorzitter	(19
+WR-P-P-H-0000000061_inline.xml	3	2	6	2	78	A.	19
+WR-P-P-H-0000000061_inline.xml	3	2	6	3	79	van	19
+WR-P-P-H-0000000061_inline.xml	3	2	6	4	80	Fessem	19)
+WR-P-P-H-0000000061_inline.xml	3	2	6	5	81	zegt	
+WR-P-P-H-0000000061_inline.xml	3	2	6	6	82	dat	
+WR-P-P-H-0000000061_inline.xml	3	2	6	7	83	het	(20
+WR-P-P-H-0000000061_inline.xml	3	2	6	8	84	fokregelement	20)
+WR-P-P-H-0000000061_inline.xml	3	2	6	9	85	binnenkort	
+WR-P-P-H-0000000061_inline.xml	3	2	6	10	86	ook	
+WR-P-P-H-0000000061_inline.xml	3	2	6	11	87	van	
+WR-P-P-H-0000000061_inline.xml	3	2	6	12	88	kracht	
+WR-P-P-H-0000000061_inline.xml	3	2	6	13	89	wordt	
+WR-P-P-H-0000000061_inline.xml	3	2	6	14	90	voor	
+WR-P-P-H-0000000061_inline.xml	3	2	6	15	91	de	(21
+WR-P-P-H-0000000061_inline.xml	3	2	6	16	92	vier	21
+WR-P-P-H-0000000061_inline.xml	3	2	6	17	93	rassen	21
+WR-P-P-H-0000000061_inline.xml	3	2	6	18	94	die	21
+WR-P-P-H-0000000061_inline.xml	3	2	6	19	95	minister	21|(22
+WR-P-P-H-0000000061_inline.xml	3	2	6	20	96	Brinkhorst	21|22
+WR-P-P-H-0000000061_inline.xml	3	2	6	21	97	(	21|22
+WR-P-P-H-0000000061_inline.xml	3	2	6	22	98	landbouw	21|22)|(23)
+WR-P-P-H-0000000061_inline.xml	3	2	6	23	99	)	21
+WR-P-P-H-0000000061_inline.xml	3	2	6	24	100	als	21
+WR-P-P-H-0000000061_inline.xml	3	2	6	25	101	agressief	21
+WR-P-P-H-0000000061_inline.xml	3	2	6	26	102	heeft	21
+WR-P-P-H-0000000061_inline.xml	3	2	6	27	103	bestempeld	21)
+WR-P-P-H-0000000061_inline.xml	3	2	6	28	104	.	
+
+WR-P-P-H-0000000061_inline.xml	3	3	7	1	105	Dat	(21)
+WR-P-P-H-0000000061_inline.xml	3	3	7	2	106	zijn	
+WR-P-P-H-0000000061_inline.xml	3	3	7	3	107	:	
+WR-P-P-H-0000000061_inline.xml	3	3	7	4	108	de	(25|(26
+WR-P-P-H-0000000061_inline.xml	3	3	7	5	109	American	25|26
+WR-P-P-H-0000000061_inline.xml	3	3	7	6	110	Steffordshire	25|26)
+WR-P-P-H-0000000061_inline.xml	3	3	7	7	111	,	25
+WR-P-P-H-0000000061_inline.xml	3	3	7	8	112	Dogo	25|(27
+WR-P-P-H-0000000061_inline.xml	3	3	7	9	113	Argentino	25|27)
+WR-P-P-H-0000000061_inline.xml	3	3	7	10	114	,	25
+WR-P-P-H-0000000061_inline.xml	3	3	7	11	115	Fila	25|(28
+WR-P-P-H-0000000061_inline.xml	3	3	7	12	116	Brasileiro	25|28)
+WR-P-P-H-0000000061_inline.xml	3	3	7	13	117	en	25
+WR-P-P-H-0000000061_inline.xml	3	3	7	14	118	Mastino	25|(29
+WR-P-P-H-0000000061_inline.xml	3	3	7	15	119	Napolitano	25)|29)
+WR-P-P-H-0000000061_inline.xml	3	3	7	16	120	.	
+
+WR-P-P-H-0000000061_inline.xml	3	4	8	1	121	De	(30
+WR-P-P-H-0000000061_inline.xml	3	4	8	2	122	rasverenigingen	30
+WR-P-P-H-0000000061_inline.xml	3	4	8	3	123	van	30
+WR-P-P-H-0000000061_inline.xml	3	4	8	4	124	deze	30|(25
+WR-P-P-H-0000000061_inline.xml	3	4	8	5	125	soorten	30)|25)
+WR-P-P-H-0000000061_inline.xml	3	4	8	6	126	moeten	
+WR-P-P-H-0000000061_inline.xml	3	4	8	7	127	echter	
+WR-P-P-H-0000000061_inline.xml	3	4	8	8	128	nog	
+WR-P-P-H-0000000061_inline.xml	3	4	8	9	129	een	(32
+WR-P-P-H-0000000061_inline.xml	3	4	8	10	130	formeel	32
+WR-P-P-H-0000000061_inline.xml	3	4	8	11	131	besluit	32)
+WR-P-P-H-0000000061_inline.xml	3	4	8	12	132	nemen	
+WR-P-P-H-0000000061_inline.xml	3	4	8	13	133	.	
+
+WR-P-P-H-0000000061_inline.xml	4	1	9	1	134	Het	(20
+WR-P-P-H-0000000061_inline.xml	4	1	9	2	135	nieuwe	20
+WR-P-P-H-0000000061_inline.xml	4	1	9	3	136	fokregelement	20
+WR-P-P-H-0000000061_inline.xml	4	1	9	4	137	voor	20
+WR-P-P-H-0000000061_inline.xml	4	1	9	5	138	rottweilers	20)|(34)
+WR-P-P-H-0000000061_inline.xml	4	1	9	6	139	schrijft	
+WR-P-P-H-0000000061_inline.xml	4	1	9	7	140	voor	
+WR-P-P-H-0000000061_inline.xml	4	1	9	8	141	dat	
+WR-P-P-H-0000000061_inline.xml	4	1	9	9	142	alleen	
+WR-P-P-H-0000000061_inline.xml	4	1	9	10	143	met	
+WR-P-P-H-0000000061_inline.xml	4	1	9	11	144	honden	(34)
+WR-P-P-H-0000000061_inline.xml	4	1	9	12	145	mag	
+WR-P-P-H-0000000061_inline.xml	4	1	9	13	146	worden	
+WR-P-P-H-0000000061_inline.xml	4	1	9	14	147	gefokt	
+WR-P-P-H-0000000061_inline.xml	4	1	9	15	148	die	(34
+WR-P-P-H-0000000061_inline.xml	4	1	9	16	149	de	34|(36|(92
+WR-P-P-H-0000000061_inline.xml	4	1	9	17	150	Maatschappelijk	34|36|92
+WR-P-P-H-0000000061_inline.xml	4	1	9	18	151	Aanvaardbaar	34|36|92
+WR-P-P-H-0000000061_inline.xml	4	1	9	19	152	Gedragstest	34|36|92)
+WR-P-P-H-0000000061_inline.xml	4	1	9	20	153	(	34|36
+WR-P-P-H-0000000061_inline.xml	4	1	9	21	154	MAG	34|36)|(92)
+WR-P-P-H-0000000061_inline.xml	4	1	9	22	155	)	34
+WR-P-P-H-0000000061_inline.xml	4	1	9	23	156	hebben	34
+WR-P-P-H-0000000061_inline.xml	4	1	9	24	157	doorstaan	34)
+WR-P-P-H-0000000061_inline.xml	4	1	9	25	158	.	
+
+WR-P-P-H-0000000061_inline.xml	4	2	10	1	159	Honden	(38
+WR-P-P-H-0000000061_inline.xml	4	2	10	2	160	met	38
+WR-P-P-H-0000000061_inline.xml	4	2	10	3	161	gebreken	38)|(39)
+WR-P-P-H-0000000061_inline.xml	4	2	10	4	162	worden	
+WR-P-P-H-0000000061_inline.xml	4	2	10	5	163	daarvan	(36)
+WR-P-P-H-0000000061_inline.xml	4	2	10	6	164	uitgesloten	
+WR-P-P-H-0000000061_inline.xml	4	2	10	7	165	.	
+
+WR-P-P-H-0000000061_inline.xml	4	3	11	1	166	Iedere	(40
+WR-P-P-H-0000000061_inline.xml	4	3	11	2	167	hond	40)
+WR-P-P-H-0000000061_inline.xml	4	3	11	3	168	mag	
+WR-P-P-H-0000000061_inline.xml	4	3	11	4	169	een	(41
+WR-P-P-H-0000000061_inline.xml	4	3	11	5	170	aantal	41
+WR-P-P-H-0000000061_inline.xml	4	3	11	6	171	malen	41)|(42)
+WR-P-P-H-0000000061_inline.xml	4	3	11	7	172	voor	
+WR-P-P-H-0000000061_inline.xml	4	3	11	8	173	de	(43
+WR-P-P-H-0000000061_inline.xml	4	3	11	9	174	fok	43)
+WR-P-P-H-0000000061_inline.xml	4	3	11	10	175	worden	
+WR-P-P-H-0000000061_inline.xml	4	3	11	11	176	gebruikt	
+WR-P-P-H-0000000061_inline.xml	4	3	11	12	177	.	
+
+WR-P-P-H-0000000061_inline.xml	4	4	12	1	178	Per	
+WR-P-P-H-0000000061_inline.xml	4	4	12	2	179	adres	(46)
+WR-P-P-H-0000000061_inline.xml	4	4	12	3	180	mag	
+WR-P-P-H-0000000061_inline.xml	4	4	12	4	181	niet	(44
+WR-P-P-H-0000000061_inline.xml	4	4	12	5	182	meer	44
+WR-P-P-H-0000000061_inline.xml	4	4	12	6	183	dan	44
+WR-P-P-H-0000000061_inline.xml	4	4	12	7	184	een	44|(45
+WR-P-P-H-0000000061_inline.xml	4	4	12	8	185	nest	44)|45)
+WR-P-P-H-0000000061_inline.xml	4	4	12	9	186	tegelijk	
+WR-P-P-H-0000000061_inline.xml	4	4	12	10	187	worden	
+WR-P-P-H-0000000061_inline.xml	4	4	12	11	188	gefokt	
+WR-P-P-H-0000000061_inline.xml	4	4	12	12	189	.	
+
+WR-P-P-H-0000000061_inline.xml	4	5	13	1	190	Daarna	
+WR-P-P-H-0000000061_inline.xml	4	5	13	2	191	wordt	
+WR-P-P-H-0000000061_inline.xml	4	5	13	3	192	gecontroleerd	
+WR-P-P-H-0000000061_inline.xml	4	5	13	4	193	of	
+WR-P-P-H-0000000061_inline.xml	4	5	13	5	194	de	(47
+WR-P-P-H-0000000061_inline.xml	4	5	13	6	195	pups	47)
+WR-P-P-H-0000000061_inline.xml	4	5	13	7	196	voldoende	
+WR-P-P-H-0000000061_inline.xml	4	5	13	8	197	zijn	
+WR-P-P-H-0000000061_inline.xml	4	5	13	9	198	gesocialiseerd	
+WR-P-P-H-0000000061_inline.xml	4	5	13	10	199	.	
+
+WR-P-P-H-0000000061_inline.xml	5	1	14	1	200	,,	
+WR-P-P-H-0000000061_inline.xml	5	1	14	2	201	Alleen	
+WR-P-P-H-0000000061_inline.xml	5	1	14	3	202	als	
+WR-P-P-H-0000000061_inline.xml	5	1	14	4	203	aan	
+WR-P-P-H-0000000061_inline.xml	5	1	14	5	204	alle	(20)
+WR-P-P-H-0000000061_inline.xml	5	1	14	6	205	criteria	(20)
+WR-P-P-H-0000000061_inline.xml	5	1	14	7	206	is	
+WR-P-P-H-0000000061_inline.xml	5	1	14	8	207	voldaan	
+WR-P-P-H-0000000061_inline.xml	5	1	14	9	208	,	
+WR-P-P-H-0000000061_inline.xml	5	1	14	10	209	wordt	
+WR-P-P-H-0000000061_inline.xml	5	1	14	11	210	voor	
+WR-P-P-H-0000000061_inline.xml	5	1	14	12	211	de	(47
+WR-P-P-H-0000000061_inline.xml	5	1	14	13	212	pups	47)
+WR-P-P-H-0000000061_inline.xml	5	1	14	14	213	een	(48|(95
+WR-P-P-H-0000000061_inline.xml	5	1	14	15	214	stamboom	48)|95)
+WR-P-P-H-0000000061_inline.xml	5	1	14	16	215	afgegeven	
+WR-P-P-H-0000000061_inline.xml	5	1	14	17	216	''	
+WR-P-P-H-0000000061_inline.xml	5	1	14	18	217	,	
+WR-P-P-H-0000000061_inline.xml	5	1	14	19	218	zegt	
+WR-P-P-H-0000000061_inline.xml	5	1	14	20	219	Van	(19
+WR-P-P-H-0000000061_inline.xml	5	1	14	21	220	Fessem	19)
+WR-P-P-H-0000000061_inline.xml	5	1	14	22	221	.	
+
+WR-P-P-H-0000000061_inline.xml	5	2	15	1	222	,,	
+WR-P-P-H-0000000061_inline.xml	5	2	15	2	223	Voldoet	
+WR-P-P-H-0000000061_inline.xml	5	2	15	3	224	een	(34
+WR-P-P-H-0000000061_inline.xml	5	2	15	4	225	hond	34)
+WR-P-P-H-0000000061_inline.xml	5	2	15	5	226	gedeeltelijk	
+WR-P-P-H-0000000061_inline.xml	5	2	15	6	227	aan	
+WR-P-P-H-0000000061_inline.xml	5	2	15	7	228	het	(20)
+WR-P-P-H-0000000061_inline.xml	5	2	15	8	229	regelement	(20)
+WR-P-P-H-0000000061_inline.xml	5	2	15	9	230	,	
+WR-P-P-H-0000000061_inline.xml	5	2	15	10	231	dan	
+WR-P-P-H-0000000061_inline.xml	5	2	15	11	232	zal	
+WR-P-P-H-0000000061_inline.xml	5	2	15	12	233	alleen	(54
+WR-P-P-H-0000000061_inline.xml	5	2	15	13	234	een	54|(94
+WR-P-P-H-0000000061_inline.xml	5	2	15	14	235	afstammingsbewijs	54)|94)
+WR-P-P-H-0000000061_inline.xml	5	2	15	15	236	worden	
+WR-P-P-H-0000000061_inline.xml	5	2	15	16	237	verstrekt	
+WR-P-P-H-0000000061_inline.xml	5	2	15	17	238	.	
+
+WR-P-P-H-0000000061_inline.xml	5	3	16	1	239	In	
+WR-P-P-H-0000000061_inline.xml	5	3	16	2	240	alle	(58
+WR-P-P-H-0000000061_inline.xml	5	3	16	3	241	andere	58
+WR-P-P-H-0000000061_inline.xml	5	3	16	4	242	gevallen	58)
+WR-P-P-H-0000000061_inline.xml	5	3	16	5	243	wordt	
+WR-P-P-H-0000000061_inline.xml	5	3	16	6	244	inschrijving	(48
+WR-P-P-H-0000000061_inline.xml	5	3	16	7	245	in	48
+WR-P-P-H-0000000061_inline.xml	5	3	16	8	246	het	48|(56|(96
+WR-P-P-H-0000000061_inline.xml	5	3	16	9	247	Nederlandse	48|56|96
+WR-P-P-H-0000000061_inline.xml	5	3	16	10	248	Honden	48|56|96
+WR-P-P-H-0000000061_inline.xml	5	3	16	11	249	Stamboek	48|56|96)
+WR-P-P-H-0000000061_inline.xml	5	3	16	12	250	(	48|56
+WR-P-P-H-0000000061_inline.xml	5	3	16	13	251	NHSB	48)|56)|(96)
+WR-P-P-H-0000000061_inline.xml	5	3	16	14	252	)	
+WR-P-P-H-0000000061_inline.xml	5	3	16	15	253	geweigerd	
+WR-P-P-H-0000000061_inline.xml	5	3	16	16	254	.	
+WR-P-P-H-0000000061_inline.xml	5	3	16	17	255	''	
+
+WR-P-P-H-0000000061_inline.xml	5	4	17	1	256	Tot	
+WR-P-P-H-0000000061_inline.xml	5	4	17	2	257	nu	
+WR-P-P-H-0000000061_inline.xml	5	4	17	3	258	toe	
+WR-P-P-H-0000000061_inline.xml	5	4	17	4	259	werden	
+WR-P-P-H-0000000061_inline.xml	5	4	17	5	260	alle	(59
+WR-P-P-H-0000000061_inline.xml	5	4	17	6	261	honden	59|(91)
+WR-P-P-H-0000000061_inline.xml	5	4	17	7	262	waarvan	59
+WR-P-P-H-0000000061_inline.xml	5	4	17	8	263	de	59|(60
+WR-P-P-H-0000000061_inline.xml	5	4	17	9	264	ouders	59|60)
+WR-P-P-H-0000000061_inline.xml	5	4	17	10	265	in	59
+WR-P-P-H-0000000061_inline.xml	5	4	17	11	266	het	59|(56
+WR-P-P-H-0000000061_inline.xml	5	4	17	12	267	NHSB	59|56)
+WR-P-P-H-0000000061_inline.xml	5	4	17	13	268	voorkomen	59)
+WR-P-P-H-0000000061_inline.xml	5	4	17	14	269	zonder	
+WR-P-P-H-0000000061_inline.xml	5	4	17	15	270	meer	
+WR-P-P-H-0000000061_inline.xml	5	4	17	16	271	van	
+WR-P-P-H-0000000061_inline.xml	5	4	17	17	272	een	(95
+WR-P-P-H-0000000061_inline.xml	5	4	17	18	273	stamboom	95)
+WR-P-P-H-0000000061_inline.xml	5	4	17	19	274	voorzien	
+WR-P-P-H-0000000061_inline.xml	5	4	17	20	275	.	
+
+WR-P-P-H-0000000061_inline.xml	6	1	18	1	276	De	(20)
+WR-P-P-H-0000000061_inline.xml	6	1	18	2	277	nieuwe	(20)
+WR-P-P-H-0000000061_inline.xml	6	1	18	3	278	fokregels	(20)
+WR-P-P-H-0000000061_inline.xml	6	1	18	4	279	zijn	
+WR-P-P-H-0000000061_inline.xml	6	1	18	5	280	versneld	
+WR-P-P-H-0000000061_inline.xml	6	1	18	6	281	ingevoerd	
+WR-P-P-H-0000000061_inline.xml	6	1	18	7	282	onder	
+WR-P-P-H-0000000061_inline.xml	6	1	18	8	283	de	(64
+WR-P-P-H-0000000061_inline.xml	6	1	18	9	284	dreiging	64
+WR-P-P-H-0000000061_inline.xml	6	1	18	10	285	van	64
+WR-P-P-H-0000000061_inline.xml	6	1	18	11	286	het	64|(65
+WR-P-P-H-0000000061_inline.xml	6	1	18	12	287	fokverbod	64|65
+WR-P-P-H-0000000061_inline.xml	6	1	18	13	288	voor	64|65
+WR-P-P-H-0000000061_inline.xml	6	1	18	14	289	de	64|65|(25
+WR-P-P-H-0000000061_inline.xml	6	1	18	15	290	vier	64|65|25
+WR-P-P-H-0000000061_inline.xml	6	1	18	16	291	'	64|65|25
+WR-P-P-H-0000000061_inline.xml	6	1	18	17	292	bijtgrage	64|65|25
+WR-P-P-H-0000000061_inline.xml	6	1	18	18	293	'	64|65|25
+WR-P-P-H-0000000061_inline.xml	6	1	18	19	294	hondenrassen	64)|65)|25)
+WR-P-P-H-0000000061_inline.xml	6	1	18	20	295	.	
+
+WR-P-P-H-0000000061_inline.xml	6	2	19	1	296	Als	
+WR-P-P-H-0000000061_inline.xml	6	2	19	2	297	reactie	(67
+WR-P-P-H-0000000061_inline.xml	6	2	19	3	298	op	67
+WR-P-P-H-0000000061_inline.xml	6	2	19	4	299	protesten	67|(68
+WR-P-P-H-0000000061_inline.xml	6	2	19	5	300	van	67|68
+WR-P-P-H-0000000061_inline.xml	6	2	19	6	301	hondeneigenaren	67|68)|(69)
+WR-P-P-H-0000000061_inline.xml	6	2	19	7	302	en	67
+WR-P-P-H-0000000061_inline.xml	6	2	19	8	303	op	67
+WR-P-P-H-0000000061_inline.xml	6	2	19	9	304	aandringen	67|(70
+WR-P-P-H-0000000061_inline.xml	6	2	19	10	305	van	67|70
+WR-P-P-H-0000000061_inline.xml	6	2	19	11	306	de	67|70|(71
+WR-P-P-H-0000000061_inline.xml	6	2	19	12	307	Tweede	67|70|71
+WR-P-P-H-0000000061_inline.xml	6	2	19	13	308	Kamer	67)|70)|71)
+WR-P-P-H-0000000061_inline.xml	6	2	19	14	309	schortte	
+WR-P-P-H-0000000061_inline.xml	6	2	19	15	310	de	(22
+WR-P-P-H-0000000061_inline.xml	6	2	19	16	311	minister	22)
+WR-P-P-H-0000000061_inline.xml	6	2	19	17	312	in	
+WR-P-P-H-0000000061_inline.xml	6	2	19	18	313	mei	(73)
+WR-P-P-H-0000000061_inline.xml	6	2	19	19	314	zijn	(74|(22)
+WR-P-P-H-0000000061_inline.xml	6	2	19	20	315	plannen	74)
+WR-P-P-H-0000000061_inline.xml	6	2	19	21	316	tot	
+WR-P-P-H-0000000061_inline.xml	6	2	19	22	317	eind	(76
+WR-P-P-H-0000000061_inline.xml	6	2	19	23	318	2001	76)|(77)
+WR-P-P-H-0000000061_inline.xml	6	2	19	24	319	op	
+WR-P-P-H-0000000061_inline.xml	6	2	19	25	320	.	
+
+WR-P-P-H-0000000061_inline.xml	6	3	20	1	321	Brinkhorst	(22)
+WR-P-P-H-0000000061_inline.xml	6	3	20	2	322	maakte	
+WR-P-P-H-0000000061_inline.xml	6	3	20	3	323	eerder	
+WR-P-P-H-0000000061_inline.xml	6	3	20	4	324	kenbaar	
+WR-P-P-H-0000000061_inline.xml	6	3	20	5	325	dat	
+WR-P-P-H-0000000061_inline.xml	6	3	20	6	326	hij	(22)
+WR-P-P-H-0000000061_inline.xml	6	3	20	7	327	de	(25)
+WR-P-P-H-0000000061_inline.xml	6	3	20	8	328	vier	(25)
+WR-P-P-H-0000000061_inline.xml	6	3	20	9	329	geoormerkte	(25)
+WR-P-P-H-0000000061_inline.xml	6	3	20	10	330	bijtrassen	(25)
+WR-P-P-H-0000000061_inline.xml	6	3	20	11	331	uit	
+WR-P-P-H-0000000061_inline.xml	6	3	20	12	332	de	(81
+WR-P-P-H-0000000061_inline.xml	6	3	20	13	333	samenleving	81)
+WR-P-P-H-0000000061_inline.xml	6	3	20	14	334	wil	
+WR-P-P-H-0000000061_inline.xml	6	3	20	15	335	verbannen	
+WR-P-P-H-0000000061_inline.xml	6	3	20	16	336	.	
+
+WR-P-P-H-0000000061_inline.xml	6	4	21	1	337	Dit	(82)
+WR-P-P-H-0000000061_inline.xml	6	4	21	2	338	in	
+WR-P-P-H-0000000061_inline.xml	6	4	21	3	339	navolging	
+WR-P-P-H-0000000061_inline.xml	6	4	21	4	340	van	
+WR-P-P-H-0000000061_inline.xml	6	4	21	5	341	de	(83
+WR-P-P-H-0000000061_inline.xml	6	4	21	6	342	pitbull	83
+WR-P-P-H-0000000061_inline.xml	6	4	21	7	343	,	83
+WR-P-P-H-0000000061_inline.xml	6	4	21	8	344	waarvan	83|(84
+WR-P-P-H-0000000061_inline.xml	6	4	21	9	345	het	83|84
+WR-P-P-H-0000000061_inline.xml	6	4	21	10	346	fokken	83|84)
+WR-P-P-H-0000000061_inline.xml	6	4	21	11	347	in	83
+WR-P-P-H-0000000061_inline.xml	6	4	21	12	348	1993	83|(85)
+WR-P-P-H-0000000061_inline.xml	6	4	21	13	349	werd	83
+WR-P-P-H-0000000061_inline.xml	6	4	21	14	350	verboden	83)
+WR-P-P-H-0000000061_inline.xml	6	4	21	15	351	.	
+
+WR-P-P-H-0000000061_inline.xml	7	1	22	1	352	Binnen	
+WR-P-P-H-0000000061_inline.xml	7	1	22	2	353	de	(86
+WR-P-P-H-0000000061_inline.xml	7	1	22	3	354	kynologie	86)
+WR-P-P-H-0000000061_inline.xml	7	1	22	4	355	wordt	
+WR-P-P-H-0000000061_inline.xml	7	1	22	5	356	sindsdien	
+WR-P-P-H-0000000061_inline.xml	7	1	22	6	357	hard	
+WR-P-P-H-0000000061_inline.xml	7	1	22	7	358	gewerkt	
+WR-P-P-H-0000000061_inline.xml	7	1	22	8	359	aan	
+WR-P-P-H-0000000061_inline.xml	7	1	22	9	360	het	(87
+WR-P-P-H-0000000061_inline.xml	7	1	22	10	361	ontwikkelen	87
+WR-P-P-H-0000000061_inline.xml	7	1	22	11	362	van	87
+WR-P-P-H-0000000061_inline.xml	7	1	22	12	363	nieuwe	87|(88
+WR-P-P-H-0000000061_inline.xml	7	1	22	13	364	regels	87)|88)
+WR-P-P-H-0000000061_inline.xml	7	1	22	14	365	om	
+WR-P-P-H-0000000061_inline.xml	7	1	22	15	366	bijtincidenten	(89)
+WR-P-P-H-0000000061_inline.xml	7	1	22	16	367	te	
+WR-P-P-H-0000000061_inline.xml	7	1	22	17	368	voorkomen	
+WR-P-P-H-0000000061_inline.xml	7	1	22	18	369	.	
+

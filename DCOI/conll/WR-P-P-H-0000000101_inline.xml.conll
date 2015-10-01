@@ -1,0 +1,103 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000101_inline.xml	1	1	1	1	1	DEN	(1
+WR-P-P-H-0000000101_inline.xml	1	1	1	2	2	HAM	1)
+WR-P-P-H-0000000101_inline.xml	1	1	1	3	3	-	
+
+WR-P-P-H-0000000101_inline.xml	1	2	2	1	4	Door	
+WR-P-P-H-0000000101_inline.xml	1	2	2	2	5	blikseminslag	(3
+WR-P-P-H-0000000101_inline.xml	1	2	2	3	6	bij	3
+WR-P-P-H-0000000101_inline.xml	1	2	2	4	7	een	3|(4
+WR-P-P-H-0000000101_inline.xml	1	2	2	5	8	paardenconcours	3|4
+WR-P-P-H-0000000101_inline.xml	1	2	2	6	9	in	3|4
+WR-P-P-H-0000000101_inline.xml	1	2	2	7	10	Den	3|4|(5
+WR-P-P-H-0000000101_inline.xml	1	2	2	8	11	Ham	3|4|5
+WR-P-P-H-0000000101_inline.xml	1	2	2	9	12	in	3|4|5
+WR-P-P-H-0000000101_inline.xml	1	2	2	10	13	Twente	3)|4)|5)|(6)
+WR-P-P-H-0000000101_inline.xml	1	2	2	11	14	zijn	
+WR-P-P-H-0000000101_inline.xml	1	2	2	12	15	zaterdag	(7)
+WR-P-P-H-0000000101_inline.xml	1	2	2	13	16	veertien	(2
+WR-P-P-H-0000000101_inline.xml	1	2	2	14	17	mensen	2)
+WR-P-P-H-0000000101_inline.xml	1	2	2	15	18	lichtgewond	
+WR-P-P-H-0000000101_inline.xml	1	2	2	16	19	geraakt	
+WR-P-P-H-0000000101_inline.xml	1	2	2	17	20	.	
+
+WR-P-P-H-0000000101_inline.xml	1	3	3	1	21	Het	(8)
+WR-P-P-H-0000000101_inline.xml	1	3	3	2	22	gaat	
+WR-P-P-H-0000000101_inline.xml	1	3	3	3	23	om	
+WR-P-P-H-0000000101_inline.xml	1	3	3	4	24	een	(9
+WR-P-P-H-0000000101_inline.xml	1	3	3	5	25	aantal	9
+WR-P-P-H-0000000101_inline.xml	1	3	3	6	26	ruiters	9|(11|(10
+WR-P-P-H-0000000101_inline.xml	1	3	3	7	27	en	9|11|10
+WR-P-P-H-0000000101_inline.xml	1	3	3	8	28	publiek	9|11|10|(15
+WR-P-P-H-0000000101_inline.xml	1	3	3	9	29	die	9|11|10|15
+WR-P-P-H-0000000101_inline.xml	1	3	3	10	30	in	9|11|10|15
+WR-P-P-H-0000000101_inline.xml	1	3	3	11	31	de	9|11|10|15|(12
+WR-P-P-H-0000000101_inline.xml	1	3	3	12	32	openlucht	9|11|10|15|12)
+WR-P-P-H-0000000101_inline.xml	1	3	3	13	33	aan	9|11|10|15
+WR-P-P-H-0000000101_inline.xml	1	3	3	14	34	de	9|11|10|15|(13
+WR-P-P-H-0000000101_inline.xml	1	3	3	15	35	rand	9|11|10|15|13
+WR-P-P-H-0000000101_inline.xml	1	3	3	16	36	van	9|11|10|15|13
+WR-P-P-H-0000000101_inline.xml	1	3	3	17	37	de	9|11|10|15|13|(14
+WR-P-P-H-0000000101_inline.xml	1	3	3	18	38	ring	9|11|10|15|13)|14)
+WR-P-P-H-0000000101_inline.xml	1	3	3	19	39	stonden	9)|11)|10)|15)
+WR-P-P-H-0000000101_inline.xml	1	3	3	20	40	.	
+
+WR-P-P-H-0000000101_inline.xml	1	4	4	1	41	Volgens	
+WR-P-P-H-0000000101_inline.xml	1	4	4	2	42	een	(16
+WR-P-P-H-0000000101_inline.xml	1	4	4	3	43	politiewoordvoerder	16)
+WR-P-P-H-0000000101_inline.xml	1	4	4	4	44	gebeurde	
+WR-P-P-H-0000000101_inline.xml	1	4	4	5	45	het	(17
+WR-P-P-H-0000000101_inline.xml	1	4	4	6	46	incident	17)
+WR-P-P-H-0000000101_inline.xml	1	4	4	7	47	tijdens	
+WR-P-P-H-0000000101_inline.xml	1	4	4	8	48	hevig	(18
+WR-P-P-H-0000000101_inline.xml	1	4	4	9	49	onweer	18)
+WR-P-P-H-0000000101_inline.xml	1	4	4	10	50	.	
+
+WR-P-P-H-0000000101_inline.xml	1	5	5	1	51	De	(19
+WR-P-P-H-0000000101_inline.xml	1	5	5	2	52	bliksem	19)
+WR-P-P-H-0000000101_inline.xml	1	5	5	3	53	sloeg	
+WR-P-P-H-0000000101_inline.xml	1	5	5	4	54	in	
+WR-P-P-H-0000000101_inline.xml	1	5	5	5	55	op	
+WR-P-P-H-0000000101_inline.xml	1	5	5	6	56	het	(20
+WR-P-P-H-0000000101_inline.xml	1	5	5	7	57	middenterrein	20)
+WR-P-P-H-0000000101_inline.xml	1	5	5	8	58	.	
+
+WR-P-P-H-0000000101_inline.xml	1	6	6	1	59	Sommigen	
+WR-P-P-H-0000000101_inline.xml	1	6	6	2	60	werden	
+WR-P-P-H-0000000101_inline.xml	1	6	6	3	61	door	
+WR-P-P-H-0000000101_inline.xml	1	6	6	4	62	de	(21
+WR-P-P-H-0000000101_inline.xml	1	6	6	5	63	klap	21)
+WR-P-P-H-0000000101_inline.xml	1	6	6	6	64	tegen	
+WR-P-P-H-0000000101_inline.xml	1	6	6	7	65	de	(22
+WR-P-P-H-0000000101_inline.xml	1	6	6	8	66	grond	22)
+WR-P-P-H-0000000101_inline.xml	1	6	6	9	67	geslagen	
+WR-P-P-H-0000000101_inline.xml	1	6	6	10	68	,	
+WR-P-P-H-0000000101_inline.xml	1	6	6	11	69	anderen	
+WR-P-P-H-0000000101_inline.xml	1	6	6	12	70	kregen	
+WR-P-P-H-0000000101_inline.xml	1	6	6	13	71	last	(23
+WR-P-P-H-0000000101_inline.xml	1	6	6	14	72	van	23
+WR-P-P-H-0000000101_inline.xml	1	6	6	15	73	duizeligheid	23|(24|(25)
+WR-P-P-H-0000000101_inline.xml	1	6	6	16	74	en	23|24
+WR-P-P-H-0000000101_inline.xml	1	6	6	17	75	hoofdpijn	23)|24)|(26)
+WR-P-P-H-0000000101_inline.xml	1	6	6	18	76	.	
+
+WR-P-P-H-0000000101_inline.xml	1	7	7	1	77	De	(27
+WR-P-P-H-0000000101_inline.xml	1	7	7	2	78	slachtoffers	27)
+WR-P-P-H-0000000101_inline.xml	1	7	7	3	79	werden	
+WR-P-P-H-0000000101_inline.xml	1	7	7	4	80	door	
+WR-P-P-H-0000000101_inline.xml	1	7	7	5	81	de	(28|(29
+WR-P-P-H-0000000101_inline.xml	1	7	7	6	82	EHBO	28|29)
+WR-P-P-H-0000000101_inline.xml	1	7	7	7	83	en	28
+WR-P-P-H-0000000101_inline.xml	1	7	7	8	84	een	28|(30
+WR-P-P-H-0000000101_inline.xml	1	7	7	9	85	arts	28)|30)
+WR-P-P-H-0000000101_inline.xml	1	7	7	10	86	opgevangen	
+WR-P-P-H-0000000101_inline.xml	1	7	7	11	87	.	
+
+WR-P-P-H-0000000101_inline.xml	1	8	8	1	88	Iedereen	(31)
+WR-P-P-H-0000000101_inline.xml	1	8	8	2	89	kon	
+WR-P-P-H-0000000101_inline.xml	1	8	8	3	90	daarna	
+WR-P-P-H-0000000101_inline.xml	1	8	8	4	91	gewoon	
+WR-P-P-H-0000000101_inline.xml	1	8	8	5	92	naar	
+WR-P-P-H-0000000101_inline.xml	1	8	8	6	93	huis	(32)
+WR-P-P-H-0000000101_inline.xml	1	8	8	7	94	.	
+

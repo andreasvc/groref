@@ -1,0 +1,674 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000041_inline.xml	1	1	1	1	1	ROTTERDAM	(1)
+WR-P-P-H-0000000041_inline.xml	1	1	1	2	2	-	
+
+WR-P-P-H-0000000041_inline.xml	1	2	2	1	3	De	(2
+WR-P-P-H-0000000041_inline.xml	1	2	2	2	4	Nederlandse	2
+WR-P-P-H-0000000041_inline.xml	1	2	2	3	5	honkbalploeg	2)
+WR-P-P-H-0000000041_inline.xml	1	2	2	4	6	ligt	
+WR-P-P-H-0000000041_inline.xml	1	2	2	5	7	in	
+WR-P-P-H-0000000041_inline.xml	1	2	2	6	8	het	(3
+WR-P-P-H-0000000041_inline.xml	1	2	2	7	9	World	3
+WR-P-P-H-0000000041_inline.xml	1	2	2	8	10	Port	3
+WR-P-P-H-0000000041_inline.xml	1	2	2	9	11	Tournament	3
+WR-P-P-H-0000000041_inline.xml	1	2	2	10	12	in	3
+WR-P-P-H-0000000041_inline.xml	1	2	2	11	13	Rotterdam	3)|(1)
+WR-P-P-H-0000000041_inline.xml	1	2	2	12	14	op	
+WR-P-P-H-0000000041_inline.xml	1	2	2	13	15	koers	(5
+WR-P-P-H-0000000041_inline.xml	1	2	2	14	16	,	5
+WR-P-P-H-0000000041_inline.xml	1	2	2	15	17	richting	5
+WR-P-P-H-0000000041_inline.xml	1	2	2	16	18	finale	5)|(6)
+WR-P-P-H-0000000041_inline.xml	1	2	2	17	19	.	
+
+WR-P-P-H-0000000041_inline.xml	1	3	3	1	20	Het	(2)
+WR-P-P-H-0000000041_inline.xml	1	3	3	2	21	leed	
+WR-P-P-H-0000000041_inline.xml	1	3	3	3	22	tegen	
+WR-P-P-H-0000000041_inline.xml	1	3	3	4	23	Cuba	(8)
+WR-P-P-H-0000000041_inline.xml	1	3	3	5	24	de	(9|(188
+WR-P-P-H-0000000041_inline.xml	1	3	3	6	25	eerste	9|188
+WR-P-P-H-0000000041_inline.xml	1	3	3	7	26	nederlaag	9|188)
+WR-P-P-H-0000000041_inline.xml	1	3	3	8	27	onder	9
+WR-P-P-H-0000000041_inline.xml	1	3	3	9	28	bondscoach	9|(10
+WR-P-P-H-0000000041_inline.xml	1	3	3	10	29	Eenhoorn	9|10)
+WR-P-P-H-0000000041_inline.xml	1	3	3	11	30	(	9|(188
+WR-P-P-H-0000000041_inline.xml	1	3	3	12	31	2	9|188
+WR-P-P-H-0000000041_inline.xml	1	3	3	13	32	-	9|188
+WR-P-P-H-0000000041_inline.xml	1	3	3	14	33	5	9|188)
+WR-P-P-H-0000000041_inline.xml	1	3	3	15	34	)	9)
+WR-P-P-H-0000000041_inline.xml	1	3	3	16	35	,	
+WR-P-P-H-0000000041_inline.xml	1	3	3	17	36	maar	
+WR-P-P-H-0000000041_inline.xml	1	3	3	18	37	compenseerde	
+WR-P-P-H-0000000041_inline.xml	1	3	3	19	38	dat	(188
+WR-P-P-H-0000000041_inline.xml	1	3	3	20	39	verlies	188)
+WR-P-P-H-0000000041_inline.xml	1	3	3	21	40	met	
+WR-P-P-H-0000000041_inline.xml	1	3	3	22	41	een	(12|(191
+WR-P-P-H-0000000041_inline.xml	1	3	3	23	42	overwinning	12|191
+WR-P-P-H-0000000041_inline.xml	1	3	3	24	43	op	12|191
+WR-P-P-H-0000000041_inline.xml	1	3	3	25	44	Italië	12|191)|(13)
+WR-P-P-H-0000000041_inline.xml	1	3	3	26	45	,	12
+WR-P-P-H-0000000041_inline.xml	1	3	3	27	46	7	12|(191
+WR-P-P-H-0000000041_inline.xml	1	3	3	28	47	-	12|191
+WR-P-P-H-0000000041_inline.xml	1	3	3	29	48	4	12)|191)
+WR-P-P-H-0000000041_inline.xml	1	3	3	30	49	.	
+
+WR-P-P-H-0000000041_inline.xml	1	4	4	1	50	Nederland	(2)
+WR-P-P-H-0000000041_inline.xml	1	4	4	2	51	staat	
+WR-P-P-H-0000000041_inline.xml	1	4	4	3	52	halverwege	
+WR-P-P-H-0000000041_inline.xml	1	4	4	4	53	de	(3
+WR-P-P-H-0000000041_inline.xml	1	4	4	5	54	competitie	3)
+WR-P-P-H-0000000041_inline.xml	1	4	4	6	55	op	
+WR-P-P-H-0000000041_inline.xml	1	4	4	7	56	drie	(16
+WR-P-P-H-0000000041_inline.xml	1	4	4	8	57	uit	16
+WR-P-P-H-0000000041_inline.xml	1	4	4	9	58	vier	16)|(17)
+WR-P-P-H-0000000041_inline.xml	1	4	4	10	59	.	
+
+WR-P-P-H-0000000041_inline.xml	2	1	5	1	60	Italië	(18|(13)
+WR-P-P-H-0000000041_inline.xml	2	1	5	2	61	en	18
+WR-P-P-H-0000000041_inline.xml	2	1	5	3	62	Nederland	18)|(2)
+WR-P-P-H-0000000041_inline.xml	2	1	5	4	63	stonden	
+WR-P-P-H-0000000041_inline.xml	2	1	5	5	64	gisteren	
+WR-P-P-H-0000000041_inline.xml	2	1	5	6	65	zondag	(21)
+WR-P-P-H-0000000041_inline.xml	2	1	5	7	66	voor	
+WR-P-P-H-0000000041_inline.xml	2	1	5	8	67	de	(22
+WR-P-P-H-0000000041_inline.xml	2	1	5	9	68	100ste	22
+WR-P-P-H-0000000041_inline.xml	2	1	5	10	69	keer	22)
+WR-P-P-H-0000000041_inline.xml	2	1	5	11	70	tegenover	
+WR-P-P-H-0000000041_inline.xml	2	1	5	12	71	elkaar	(18)
+WR-P-P-H-0000000041_inline.xml	2	1	5	13	72	.	
+
+WR-P-P-H-0000000041_inline.xml	2	2	6	1	73	Oranje	(2)
+WR-P-P-H-0000000041_inline.xml	2	2	6	2	74	behaalde	
+WR-P-P-H-0000000041_inline.xml	2	2	6	3	75	de	(25
+WR-P-P-H-0000000041_inline.xml	2	2	6	4	76	60ste	25
+WR-P-P-H-0000000041_inline.xml	2	2	6	5	77	overwinning	25)
+WR-P-P-H-0000000041_inline.xml	2	2	6	6	78	.	
+
+WR-P-P-H-0000000041_inline.xml	2	3	7	1	79	Winnende	(27
+WR-P-P-H-0000000041_inline.xml	2	3	7	2	80	werper	27)
+WR-P-P-H-0000000041_inline.xml	2	3	7	3	81	werd	
+WR-P-P-H-0000000041_inline.xml	2	3	7	4	82	Eelco	(27
+WR-P-P-H-0000000041_inline.xml	2	3	7	5	83	Jansen	27)
+WR-P-P-H-0000000041_inline.xml	2	3	7	6	84	.	
+
+WR-P-P-H-0000000041_inline.xml	2	4	8	1	85	Hij	(27)
+WR-P-P-H-0000000041_inline.xml	2	4	8	2	86	loste	
+WR-P-P-H-0000000041_inline.xml	2	4	8	3	87	starter	(29
+WR-P-P-H-0000000041_inline.xml	2	4	8	4	88	Patrick	29
+WR-P-P-H-0000000041_inline.xml	2	4	8	5	89	Beljaards	29)
+WR-P-P-H-0000000041_inline.xml	2	4	8	6	90	na	
+WR-P-P-H-0000000041_inline.xml	2	4	8	7	91	5	(30
+WR-P-P-H-0000000041_inline.xml	2	4	8	8	92	2/3	30
+WR-P-P-H-0000000041_inline.xml	2	4	8	9	93	innings	30)
+WR-P-P-H-0000000041_inline.xml	2	4	8	10	94	af	
+WR-P-P-H-0000000041_inline.xml	2	4	8	11	95	.	
+
+WR-P-P-H-0000000041_inline.xml	2	5	9	1	96	De	(27)
+WR-P-P-H-0000000041_inline.xml	2	5	9	2	97	32-jarige	(27)
+WR-P-P-H-0000000041_inline.xml	2	5	9	3	98	pitcher	(27)
+WR-P-P-H-0000000041_inline.xml	2	5	9	4	99	speelde	
+WR-P-P-H-0000000041_inline.xml	2	5	9	5	100	met	
+WR-P-P-H-0000000041_inline.xml	2	5	9	6	101	pijnstillers	(32)
+WR-P-P-H-0000000041_inline.xml	2	5	9	7	102	.	
+
+WR-P-P-H-0000000041_inline.xml	2	6	10	1	103	Hij	(27)
+WR-P-P-H-0000000041_inline.xml	2	6	10	2	104	heeft	
+WR-P-P-H-0000000041_inline.xml	2	6	10	3	105	een	(34
+WR-P-P-H-0000000041_inline.xml	2	6	10	4	106	afspraak	34
+WR-P-P-H-0000000041_inline.xml	2	6	10	5	107	met	34
+WR-P-P-H-0000000041_inline.xml	2	6	10	6	108	de	34|(35
+WR-P-P-H-0000000041_inline.xml	2	6	10	7	109	orthopeed	34)|35)
+WR-P-P-H-0000000041_inline.xml	2	6	10	8	110	.	
+
+WR-P-P-H-0000000041_inline.xml	2	7	11	1	111	De	(36
+WR-P-P-H-0000000041_inline.xml	2	7	11	2	112	meniscus	36
+WR-P-P-H-0000000041_inline.xml	2	7	11	3	113	in	36
+WR-P-P-H-0000000041_inline.xml	2	7	11	4	114	de	36|(37
+WR-P-P-H-0000000041_inline.xml	2	7	11	5	115	rechter	36|37
+WR-P-P-H-0000000041_inline.xml	2	7	11	6	116	knie	36)|37)
+WR-P-P-H-0000000041_inline.xml	2	7	11	7	117	is	
+WR-P-P-H-0000000041_inline.xml	2	7	11	8	118	ingescheurd	
+WR-P-P-H-0000000041_inline.xml	2	7	11	9	119	,	
+WR-P-P-H-0000000041_inline.xml	2	7	11	10	120	het	(38
+WR-P-P-H-0000000041_inline.xml	2	7	11	11	121	kraakbeen	38)
+WR-P-P-H-0000000041_inline.xml	2	7	11	12	122	beschadigd	
+WR-P-P-H-0000000041_inline.xml	2	7	11	13	123	.	
+
+WR-P-P-H-0000000041_inline.xml	2	8	12	1	124	Maar	
+WR-P-P-H-0000000041_inline.xml	2	8	12	2	125	de	(34
+WR-P-P-H-0000000041_inline.xml	2	8	12	3	126	operatie	34)
+WR-P-P-H-0000000041_inline.xml	2	8	12	4	127	moet	
+WR-P-P-H-0000000041_inline.xml	2	8	12	5	128	wachten	
+WR-P-P-H-0000000041_inline.xml	2	8	12	6	129	,	
+WR-P-P-H-0000000041_inline.xml	2	8	12	7	130	tot	
+WR-P-P-H-0000000041_inline.xml	2	8	12	8	131	na	
+WR-P-P-H-0000000041_inline.xml	2	8	12	9	132	het	(40
+WR-P-P-H-0000000041_inline.xml	2	8	12	10	133	WK	40
+WR-P-P-H-0000000041_inline.xml	2	8	12	11	134	in	40
+WR-P-P-H-0000000041_inline.xml	2	8	12	12	135	november	40|(41)
+WR-P-P-H-0000000041_inline.xml	2	8	12	13	136	in	40
+WR-P-P-H-0000000041_inline.xml	2	8	12	14	137	Taiwan	40)|(42)
+WR-P-P-H-0000000041_inline.xml	2	8	12	15	138	.	
+
+WR-P-P-H-0000000041_inline.xml	3	1	13	1	139	Jansen	(27)
+WR-P-P-H-0000000041_inline.xml	3	1	13	2	140	belichaamde	
+WR-P-P-H-0000000041_inline.xml	3	1	13	3	141	de	(44
+WR-P-P-H-0000000041_inline.xml	3	1	13	4	142	vechtersmentaliteit	44
+WR-P-P-H-0000000041_inline.xml	3	1	13	5	143	van	44
+WR-P-P-H-0000000041_inline.xml	3	1	13	6	144	zijn	44|(45|(27)
+WR-P-P-H-0000000041_inline.xml	3	1	13	7	145	ploeg	44)|45)
+WR-P-P-H-0000000041_inline.xml	3	1	13	8	146	.	
+
+WR-P-P-H-0000000041_inline.xml	3	2	14	1	147	,,	
+WR-P-P-H-0000000041_inline.xml	3	2	14	2	148	Wij	(45)
+WR-P-P-H-0000000041_inline.xml	3	2	14	3	149	weten	
+WR-P-P-H-0000000041_inline.xml	3	2	14	4	150	''	
+WR-P-P-H-0000000041_inline.xml	3	2	14	5	151	,	
+WR-P-P-H-0000000041_inline.xml	3	2	14	6	152	aldus	
+WR-P-P-H-0000000041_inline.xml	3	2	14	7	153	Jansen	(27)
+WR-P-P-H-0000000041_inline.xml	3	2	14	8	154	,	
+WR-P-P-H-0000000041_inline.xml	3	2	14	9	155	,,	
+WR-P-P-H-0000000041_inline.xml	3	2	14	10	156	waar	
+WR-P-P-H-0000000041_inline.xml	3	2	14	11	157	onze	(49|(45)
+WR-P-P-H-0000000041_inline.xml	3	2	14	12	158	prioriteiten	49)
+WR-P-P-H-0000000041_inline.xml	3	2	14	13	159	liggen	
+WR-P-P-H-0000000041_inline.xml	3	2	14	14	160	:	
+WR-P-P-H-0000000041_inline.xml	3	2	14	15	161	op	
+WR-P-P-H-0000000041_inline.xml	3	2	14	16	162	het	(50
+WR-P-P-H-0000000041_inline.xml	3	2	14	17	163	EK	50
+WR-P-P-H-0000000041_inline.xml	3	2	14	18	164	over	50
+WR-P-P-H-0000000041_inline.xml	3	2	14	19	165	drie	50|(51
+WR-P-P-H-0000000041_inline.xml	3	2	14	20	166	weken	50|51)
+WR-P-P-H-0000000041_inline.xml	3	2	14	21	167	in	50
+WR-P-P-H-0000000041_inline.xml	3	2	14	22	168	Bonn	50)|(52)
+WR-P-P-H-0000000041_inline.xml	3	2	14	23	169	.	
+
+WR-P-P-H-0000000041_inline.xml	3	3	15	1	170	Maar	
+WR-P-P-H-0000000041_inline.xml	3	3	15	2	171	dat	(53)
+WR-P-P-H-0000000041_inline.xml	3	3	15	3	172	wil	
+WR-P-P-H-0000000041_inline.xml	3	3	15	4	173	niet	
+WR-P-P-H-0000000041_inline.xml	3	3	15	5	174	zeggen	
+WR-P-P-H-0000000041_inline.xml	3	3	15	6	175	dat	
+WR-P-P-H-0000000041_inline.xml	3	3	15	7	176	we	(45)
+WR-P-P-H-0000000041_inline.xml	3	3	15	8	177	niet	
+WR-P-P-H-0000000041_inline.xml	3	3	15	9	178	voor	
+WR-P-P-H-0000000041_inline.xml	3	3	15	10	179	de	(55
+WR-P-P-H-0000000041_inline.xml	3	3	15	11	180	overwinning	55)
+WR-P-P-H-0000000041_inline.xml	3	3	15	12	181	zullen	
+WR-P-P-H-0000000041_inline.xml	3	3	15	13	182	knokken	
+WR-P-P-H-0000000041_inline.xml	3	3	15	14	183	.	
+
+WR-P-P-H-0000000041_inline.xml	3	4	16	1	184	Wij	(45)
+WR-P-P-H-0000000041_inline.xml	3	4	16	2	185	gaan	
+WR-P-P-H-0000000041_inline.xml	3	4	16	3	186	altijd	
+WR-P-P-H-0000000041_inline.xml	3	4	16	4	187	voor	
+WR-P-P-H-0000000041_inline.xml	3	4	16	5	188	de	(55
+WR-P-P-H-0000000041_inline.xml	3	4	16	6	189	winst	55)
+WR-P-P-H-0000000041_inline.xml	3	4	16	7	190	.	
+
+WR-P-P-H-0000000041_inline.xml	3	5	17	1	191	Ook	
+WR-P-P-H-0000000041_inline.xml	3	5	17	2	192	in	
+WR-P-P-H-0000000041_inline.xml	3	5	17	3	193	dit	(58|(3)
+WR-P-P-H-0000000041_inline.xml	3	5	17	4	194	toernooi	58|(3)
+WR-P-P-H-0000000041_inline.xml	3	5	17	5	195	waarin	58
+WR-P-P-H-0000000041_inline.xml	3	5	17	6	196	we	58|(45)
+WR-P-P-H-0000000041_inline.xml	3	5	17	7	197	wat	58|(60
+WR-P-P-H-0000000041_inline.xml	3	5	17	8	198	meer	58|60)
+WR-P-P-H-0000000041_inline.xml	3	5	17	9	199	uitproberen	58
+WR-P-P-H-0000000041_inline.xml	3	5	17	10	200	en	58
+WR-P-P-H-0000000041_inline.xml	3	5	17	11	201	wat	58
+WR-P-P-H-0000000041_inline.xml	3	5	17	12	202	vaker	58
+WR-P-P-H-0000000041_inline.xml	3	5	17	13	203	improviseren	58)
+WR-P-P-H-0000000041_inline.xml	3	5	17	14	204	.	
+WR-P-P-H-0000000041_inline.xml	3	5	17	15	205	''	
+
+WR-P-P-H-0000000041_inline.xml	4	1	18	1	206	Verdedigend	
+WR-P-P-H-0000000041_inline.xml	4	1	18	2	207	stak	
+WR-P-P-H-0000000041_inline.xml	4	1	18	3	208	Oranje	(2)
+WR-P-P-H-0000000041_inline.xml	4	1	18	4	209	tegen	
+WR-P-P-H-0000000041_inline.xml	4	1	18	5	210	de	(13)
+WR-P-P-H-0000000041_inline.xml	4	1	18	6	211	Italianen	(13)
+WR-P-P-H-0000000041_inline.xml	4	1	18	7	212	uitstekend	
+WR-P-P-H-0000000041_inline.xml	4	1	18	8	213	in	
+WR-P-P-H-0000000041_inline.xml	4	1	18	9	214	elkaar	
+WR-P-P-H-0000000041_inline.xml	4	1	18	10	215	maar	
+WR-P-P-H-0000000041_inline.xml	4	1	18	11	216	ook	
+WR-P-P-H-0000000041_inline.xml	4	1	18	12	217	aanvallend	
+WR-P-P-H-0000000041_inline.xml	4	1	18	13	218	was	
+WR-P-P-H-0000000041_inline.xml	4	1	18	14	219	Nederland	(2)
+WR-P-P-H-0000000041_inline.xml	4	1	18	15	220	met	
+WR-P-P-H-0000000041_inline.xml	4	1	18	16	221	14	(64
+WR-P-P-H-0000000041_inline.xml	4	1	18	17	222	honkslagen	64)
+WR-P-P-H-0000000041_inline.xml	4	1	18	18	223	prima	
+WR-P-P-H-0000000041_inline.xml	4	1	18	19	224	op	
+WR-P-P-H-0000000041_inline.xml	4	1	18	20	225	dreef	
+WR-P-P-H-0000000041_inline.xml	4	1	18	21	226	.	
+
+WR-P-P-H-0000000041_inline.xml	4	2	19	1	227	Ralph	(65|(66|(197
+WR-P-P-H-0000000041_inline.xml	4	2	19	2	228	Milliard	65|66|197)
+WR-P-P-H-0000000041_inline.xml	4	2	19	3	229	(	65|66
+WR-P-P-H-0000000041_inline.xml	4	2	19	4	230	3	65|66|(67
+WR-P-P-H-0000000041_inline.xml	4	2	19	5	231	uit	65|66|67
+WR-P-P-H-0000000041_inline.xml	4	2	19	6	232	3	65|66)|67)|(68)
+WR-P-P-H-0000000041_inline.xml	4	2	19	7	233	)	65
+WR-P-P-H-0000000041_inline.xml	4	2	19	8	234	,	65
+WR-P-P-H-0000000041_inline.xml	4	2	19	9	235	Dirk	65|(69|(195
+WR-P-P-H-0000000041_inline.xml	4	2	19	10	236	van	65|69|195
+WR-P-P-H-0000000041_inline.xml	4	2	19	11	237	't	65|69|195
+WR-P-P-H-0000000041_inline.xml	4	2	19	12	238	Klooster	65|69|195)
+WR-P-P-H-0000000041_inline.xml	4	2	19	13	239	(	65|69
+WR-P-P-H-0000000041_inline.xml	4	2	19	14	240	4	65|69|(70
+WR-P-P-H-0000000041_inline.xml	4	2	19	15	241	uit	65|69|70
+WR-P-P-H-0000000041_inline.xml	4	2	19	16	242	5	65|69)|70)|(71)
+WR-P-P-H-0000000041_inline.xml	4	2	19	17	243	)	65
+WR-P-P-H-0000000041_inline.xml	4	2	19	18	244	,	65
+WR-P-P-H-0000000041_inline.xml	4	2	19	19	245	Balentina	65|(72|(199)
+WR-P-P-H-0000000041_inline.xml	4	2	19	20	246	(	65|72
+WR-P-P-H-0000000041_inline.xml	4	2	19	21	247	3	65|72|(73
+WR-P-P-H-0000000041_inline.xml	4	2	19	22	248	uit	65|72|73
+WR-P-P-H-0000000041_inline.xml	4	2	19	23	249	5	65)|72)|73)|(74)
+WR-P-P-H-0000000041_inline.xml	4	2	19	24	250	)	
+WR-P-P-H-0000000041_inline.xml	4	2	19	25	251	namen	
+WR-P-P-H-0000000041_inline.xml	4	2	19	26	252	er	(77
+WR-P-P-H-0000000041_inline.xml	4	2	19	27	253	met	77
+WR-P-P-H-0000000041_inline.xml	4	2	19	28	254	zijn	77|(65|(76)
+WR-P-P-H-0000000041_inline.xml	4	2	19	29	255	drieën	77|65)
+WR-P-P-H-0000000041_inline.xml	4	2	19	30	256	tien	77)|(194)
+WR-P-P-H-0000000041_inline.xml	4	2	19	31	257	voor	
+WR-P-P-H-0000000041_inline.xml	4	2	19	32	258	hun	(78|(65)
+WR-P-P-H-0000000041_inline.xml	4	2	19	33	259	rekening	78)
+WR-P-P-H-0000000041_inline.xml	4	2	19	34	260	.	
+
+WR-P-P-H-0000000041_inline.xml	4	3	20	1	261	Het	(65)
+WR-P-P-H-0000000041_inline.xml	4	3	20	2	262	trio	(65)
+WR-P-P-H-0000000041_inline.xml	4	3	20	3	263	doorkruiste	
+WR-P-P-H-0000000041_inline.xml	4	3	20	4	264	op	
+WR-P-P-H-0000000041_inline.xml	4	3	20	5	265	3	
+WR-P-P-H-0000000041_inline.xml	4	3	20	6	266	-	
+WR-P-P-H-0000000041_inline.xml	4	3	20	7	267	3	
+WR-P-P-H-0000000041_inline.xml	4	3	20	8	268	in	
+WR-P-P-H-0000000041_inline.xml	4	3	20	9	269	de	(81
+WR-P-P-H-0000000041_inline.xml	4	3	20	10	270	zevende	81
+WR-P-P-H-0000000041_inline.xml	4	3	20	11	271	slagbeurt	81)
+WR-P-P-H-0000000041_inline.xml	4	3	20	12	272	een	(82
+WR-P-P-H-0000000041_inline.xml	4	3	20	13	273	tactisch	82
+WR-P-P-H-0000000041_inline.xml	4	3	20	14	274	spelletje	82
+WR-P-P-H-0000000041_inline.xml	4	3	20	15	275	van	82
+WR-P-P-H-0000000041_inline.xml	4	3	20	16	276	de	82|(13)
+WR-P-P-H-0000000041_inline.xml	4	3	20	17	277	Italianen	82)|(13)
+WR-P-P-H-0000000041_inline.xml	4	3	20	18	278	.	
+
+WR-P-P-H-0000000041_inline.xml	5	1	21	1	279	Jim	(84
+WR-P-P-H-0000000041_inline.xml	5	1	21	2	280	Davenport	84)
+WR-P-P-H-0000000041_inline.xml	5	1	21	3	281	,	
+WR-P-P-H-0000000041_inline.xml	5	1	21	4	282	de	(85|(84
+WR-P-P-H-0000000041_inline.xml	5	1	21	5	283	61-jarige	85|84
+WR-P-P-H-0000000041_inline.xml	5	1	21	6	284	Amerikaanse	85|84
+WR-P-P-H-0000000041_inline.xml	5	1	21	7	285	coach	85|84
+WR-P-P-H-0000000041_inline.xml	5	1	21	8	286	van	85|84
+WR-P-P-H-0000000041_inline.xml	5	1	21	9	287	de	85|84|(13)
+WR-P-P-H-0000000041_inline.xml	5	1	21	10	288	Italianen	85|84)|(13)
+WR-P-P-H-0000000041_inline.xml	5	1	21	11	289	en	85
+WR-P-P-H-0000000041_inline.xml	5	1	21	12	290	opgevoed	85
+WR-P-P-H-0000000041_inline.xml	5	1	21	13	291	bij	85
+WR-P-P-H-0000000041_inline.xml	5	1	21	14	292	de	85|(88
+WR-P-P-H-0000000041_inline.xml	5	1	21	15	293	San	85|88
+WR-P-P-H-0000000041_inline.xml	5	1	21	16	294	Francisco	85|88
+WR-P-P-H-0000000041_inline.xml	5	1	21	17	295	Giants	85)|88)
+WR-P-P-H-0000000041_inline.xml	5	1	21	18	296	,	
+WR-P-P-H-0000000041_inline.xml	5	1	21	19	297	stuurde	
+WR-P-P-H-0000000041_inline.xml	5	1	21	20	298	de	(89
+WR-P-P-H-0000000041_inline.xml	5	1	21	21	299	linkshander	89
+WR-P-P-H-0000000041_inline.xml	5	1	21	22	300	Masin	89)
+WR-P-P-H-0000000041_inline.xml	5	1	21	23	301	naar	
+WR-P-P-H-0000000041_inline.xml	5	1	21	24	302	de	(90
+WR-P-P-H-0000000041_inline.xml	5	1	21	25	303	heuvel	90)
+WR-P-P-H-0000000041_inline.xml	5	1	21	26	304	met	
+WR-P-P-H-0000000041_inline.xml	5	1	21	27	305	de	(91
+WR-P-P-H-0000000041_inline.xml	5	1	21	28	306	opdracht	91
+WR-P-P-H-0000000041_inline.xml	5	1	21	29	307	Van	91|(195
+WR-P-P-H-0000000041_inline.xml	5	1	21	30	308	't	91|195
+WR-P-P-H-0000000041_inline.xml	5	1	21	31	309	Klooster	91|195)
+WR-P-P-H-0000000041_inline.xml	5	1	21	32	310	uit	91
+WR-P-P-H-0000000041_inline.xml	5	1	21	33	311	te	91
+WR-P-P-H-0000000041_inline.xml	5	1	21	34	312	schakelen	91)
+WR-P-P-H-0000000041_inline.xml	5	1	21	35	313	.	
+
+WR-P-P-H-0000000041_inline.xml	5	2	22	1	314	De	(91
+WR-P-P-H-0000000041_inline.xml	5	2	22	2	315	missie	91)
+WR-P-P-H-0000000041_inline.xml	5	2	22	3	316	faalde	
+WR-P-P-H-0000000041_inline.xml	5	2	22	4	317	,	
+WR-P-P-H-0000000041_inline.xml	5	2	22	5	318	de	(195)
+WR-P-P-H-0000000041_inline.xml	5	2	22	6	319	Rotterdammer	(195)
+WR-P-P-H-0000000041_inline.xml	5	2	22	7	320	bereikte	
+WR-P-P-H-0000000041_inline.xml	5	2	22	8	321	het	(95
+WR-P-P-H-0000000041_inline.xml	5	2	22	9	322	eerste	95
+WR-P-P-H-0000000041_inline.xml	5	2	22	10	323	honk	95)
+WR-P-P-H-0000000041_inline.xml	5	2	22	11	324	met	
+WR-P-P-H-0000000041_inline.xml	5	2	22	12	325	een	(96
+WR-P-P-H-0000000041_inline.xml	5	2	22	13	326	klap	96
+WR-P-P-H-0000000041_inline.xml	5	2	22	14	327	in	96
+WR-P-P-H-0000000041_inline.xml	5	2	22	15	328	het	96|(97
+WR-P-P-H-0000000041_inline.xml	5	2	22	16	329	middenveld	96)|97)
+WR-P-P-H-0000000041_inline.xml	5	2	22	17	330	.	
+
+WR-P-P-H-0000000041_inline.xml	5	3	23	1	331	Einde	(98)
+WR-P-P-H-0000000041_inline.xml	5	3	23	2	332	Masin	(99|(89)
+WR-P-P-H-0000000041_inline.xml	5	3	23	3	333	die	99
+WR-P-P-H-0000000041_inline.xml	5	3	23	4	334	na	99
+WR-P-P-H-0000000041_inline.xml	5	3	23	5	335	één	99|(100
+WR-P-P-H-0000000041_inline.xml	5	3	23	6	336	bal	99|100)
+WR-P-P-H-0000000041_inline.xml	5	3	23	7	337	werd	99
+WR-P-P-H-0000000041_inline.xml	5	3	23	8	338	afgelost	99
+WR-P-P-H-0000000041_inline.xml	5	3	23	9	339	door	99
+WR-P-P-H-0000000041_inline.xml	5	3	23	10	340	Ginanneschi	99|(101|(198)
+WR-P-P-H-0000000041_inline.xml	5	3	23	11	341	,	99|101
+WR-P-P-H-0000000041_inline.xml	5	3	23	12	342	die	99|101
+WR-P-P-H-0000000041_inline.xml	5	3	23	13	343	Milliard	99|101|(197)
+WR-P-P-H-0000000041_inline.xml	5	3	23	14	344	van	99|101
+WR-P-P-H-0000000041_inline.xml	5	3	23	15	345	de	99|101|(103
+WR-P-P-H-0000000041_inline.xml	5	3	23	16	346	kussens	99|101|103)
+WR-P-P-H-0000000041_inline.xml	5	3	23	17	347	moest	99|101
+WR-P-P-H-0000000041_inline.xml	5	3	23	18	348	houden	99)|101)
+WR-P-P-H-0000000041_inline.xml	5	3	23	19	349	.	
+
+WR-P-P-H-0000000041_inline.xml	5	4	24	1	350	De	(197)
+WR-P-P-H-0000000041_inline.xml	5	4	24	2	351	Antilliaan	(197)
+WR-P-P-H-0000000041_inline.xml	5	4	24	3	352	joeg	
+WR-P-P-H-0000000041_inline.xml	5	4	24	4	353	zijn	(105|(197)
+WR-P-P-H-0000000041_inline.xml	5	4	24	5	354	eerste	105
+WR-P-P-H-0000000041_inline.xml	5	4	24	6	355	worp	105)
+WR-P-P-H-0000000041_inline.xml	5	4	24	7	356	voor	
+WR-P-P-H-0000000041_inline.xml	5	4	24	8	357	een	(107
+WR-P-P-H-0000000041_inline.xml	5	4	24	9	358	tweehonkslag	107)
+WR-P-P-H-0000000041_inline.xml	5	4	24	10	359	het	(108
+WR-P-P-H-0000000041_inline.xml	5	4	24	11	360	veld	108)
+WR-P-P-H-0000000041_inline.xml	5	4	24	12	361	in	
+WR-P-P-H-0000000041_inline.xml	5	4	24	13	362	.	
+
+WR-P-P-H-0000000041_inline.xml	6	1	25	1	363	Ginanneschi	(198)
+WR-P-P-H-0000000041_inline.xml	6	1	25	2	364	liet	
+WR-P-P-H-0000000041_inline.xml	6	1	25	3	365	daarop	
+WR-P-P-H-0000000041_inline.xml	6	1	25	4	366	de	(110
+WR-P-P-H-0000000041_inline.xml	6	1	25	5	367	honken	110)
+WR-P-P-H-0000000041_inline.xml	6	1	25	6	368	vol	
+WR-P-P-H-0000000041_inline.xml	6	1	25	7	369	lopen	
+WR-P-P-H-0000000041_inline.xml	6	1	25	8	370	door	
+WR-P-P-H-0000000041_inline.xml	6	1	25	9	371	Isenia	(111)
+WR-P-P-H-0000000041_inline.xml	6	1	25	10	372	opzettelijk	
+WR-P-P-H-0000000041_inline.xml	6	1	25	11	373	vier	(112
+WR-P-P-H-0000000041_inline.xml	6	1	25	12	374	wijd	112)
+WR-P-P-H-0000000041_inline.xml	6	1	25	13	375	te	
+WR-P-P-H-0000000041_inline.xml	6	1	25	14	376	geven	
+WR-P-P-H-0000000041_inline.xml	6	1	25	15	377	,	
+WR-P-P-H-0000000041_inline.xml	6	1	25	16	378	waarna	
+WR-P-P-H-0000000041_inline.xml	6	1	25	17	379	Palazzetti	(113)
+WR-P-P-H-0000000041_inline.xml	6	1	25	18	380	als	
+WR-P-P-H-0000000041_inline.xml	6	1	25	19	381	vijfde	(114
+WR-P-P-H-0000000041_inline.xml	6	1	25	20	382	werper	114)
+WR-P-P-H-0000000041_inline.xml	6	1	25	21	383	het	(108
+WR-P-P-H-0000000041_inline.xml	6	1	25	22	384	veld	108)
+WR-P-P-H-0000000041_inline.xml	6	1	25	23	385	betrad	
+WR-P-P-H-0000000041_inline.xml	6	1	25	24	386	.	
+
+WR-P-P-H-0000000041_inline.xml	6	2	26	1	387	De	(113
+WR-P-P-H-0000000041_inline.xml	6	2	26	2	388	linkshander	113)
+WR-P-P-H-0000000041_inline.xml	6	2	26	3	389	slaagde	
+WR-P-P-H-0000000041_inline.xml	6	2	26	4	390	er	(117)
+WR-P-P-H-0000000041_inline.xml	6	2	26	5	391	evenmin	
+WR-P-P-H-0000000041_inline.xml	6	2	26	6	392	in	
+WR-P-P-H-0000000041_inline.xml	6	2	26	7	393	de	(118
+WR-P-P-H-0000000041_inline.xml	6	2	26	8	394	Nederlandse	118
+WR-P-P-H-0000000041_inline.xml	6	2	26	9	395	aanval	118)
+WR-P-P-H-0000000041_inline.xml	6	2	26	10	396	te	
+WR-P-P-H-0000000041_inline.xml	6	2	26	11	397	beteugelen	
+WR-P-P-H-0000000041_inline.xml	6	2	26	12	398	.	
+
+WR-P-P-H-0000000041_inline.xml	6	3	27	1	399	Gumbs	(119|(120)
+WR-P-P-H-0000000041_inline.xml	6	3	27	2	400	en	119
+WR-P-P-H-0000000041_inline.xml	6	3	27	3	401	Balentina	119)|(199)
+WR-P-P-H-0000000041_inline.xml	6	3	27	4	402	sloegen	
+WR-P-P-H-0000000041_inline.xml	6	3	27	5	403	Van	(122|(195)
+WR-P-P-H-0000000041_inline.xml	6	3	27	6	404	't	122|(195)
+WR-P-P-H-0000000041_inline.xml	6	3	27	7	405	Klooster	122|(195)
+WR-P-P-H-0000000041_inline.xml	6	3	27	8	406	en	122
+WR-P-P-H-0000000041_inline.xml	6	3	27	9	407	Milliard	122)|(197)
+WR-P-P-H-0000000041_inline.xml	6	3	27	10	408	over	
+WR-P-P-H-0000000041_inline.xml	6	3	27	11	409	de	(125
+WR-P-P-H-0000000041_inline.xml	6	3	27	12	410	thuisplaat	125)
+WR-P-P-H-0000000041_inline.xml	6	3	27	13	411	(	
+WR-P-P-H-0000000041_inline.xml	6	3	27	14	412	5	
+WR-P-P-H-0000000041_inline.xml	6	3	27	15	413	-	
+WR-P-P-H-0000000041_inline.xml	6	3	27	16	414	3	
+WR-P-P-H-0000000041_inline.xml	6	3	27	17	415	)	
+WR-P-P-H-0000000041_inline.xml	6	3	27	18	416	.	
+
+WR-P-P-H-0000000041_inline.xml	6	4	28	1	417	In	
+WR-P-P-H-0000000041_inline.xml	6	4	28	2	418	de	(128
+WR-P-P-H-0000000041_inline.xml	6	4	28	3	419	daaropvolgende	128
+WR-P-P-H-0000000041_inline.xml	6	4	28	4	420	inning	128)
+WR-P-P-H-0000000041_inline.xml	6	4	28	5	421	liet	
+WR-P-P-H-0000000041_inline.xml	6	4	28	6	422	Van	(195)
+WR-P-P-H-0000000041_inline.xml	6	4	28	7	423	't	(195)
+WR-P-P-H-0000000041_inline.xml	6	4	28	8	424	Klooster	(195)
+WR-P-P-H-0000000041_inline.xml	6	4	28	9	425	een	(127
+WR-P-P-H-0000000041_inline.xml	6	4	28	10	426	driehonkslag	127)
+WR-P-P-H-0000000041_inline.xml	6	4	28	11	427	van	
+WR-P-P-H-0000000041_inline.xml	6	4	28	12	428	zijn	(129|(195)
+WR-P-P-H-0000000041_inline.xml	6	4	28	13	429	houten	129
+WR-P-P-H-0000000041_inline.xml	6	4	28	14	430	knuppel	129)
+WR-P-P-H-0000000041_inline.xml	6	4	28	15	431	vertrekken	
+WR-P-P-H-0000000041_inline.xml	6	4	28	16	432	(	
+WR-P-P-H-0000000041_inline.xml	6	4	28	17	433	6	(131
+WR-P-P-H-0000000041_inline.xml	6	4	28	18	434	-	131
+WR-P-P-H-0000000041_inline.xml	6	4	28	19	435	3	131
+WR-P-P-H-0000000041_inline.xml	6	4	28	20	436	door	131
+WR-P-P-H-0000000041_inline.xml	6	4	28	21	437	Jaarsma	131)|(132)
+WR-P-P-H-0000000041_inline.xml	6	4	28	22	438	)	
+WR-P-P-H-0000000041_inline.xml	6	4	28	23	439	waarop	
+WR-P-P-H-0000000041_inline.xml	6	4	28	24	440	Milliard	(197)
+WR-P-P-H-0000000041_inline.xml	6	4	28	25	441	Van	(195)
+WR-P-P-H-0000000041_inline.xml	6	4	28	26	442	't	(195)
+WR-P-P-H-0000000041_inline.xml	6	4	28	27	443	Klooster	(195)
+WR-P-P-H-0000000041_inline.xml	6	4	28	28	444	thuis	
+WR-P-P-H-0000000041_inline.xml	6	4	28	29	445	sloeg	
+WR-P-P-H-0000000041_inline.xml	6	4	28	30	446	(	
+WR-P-P-H-0000000041_inline.xml	6	4	28	31	447	7	
+WR-P-P-H-0000000041_inline.xml	6	4	28	32	448	-	
+WR-P-P-H-0000000041_inline.xml	6	4	28	33	449	3	
+WR-P-P-H-0000000041_inline.xml	6	4	28	34	450	)	
+WR-P-P-H-0000000041_inline.xml	6	4	28	35	451	.	
+
+WR-P-P-H-0000000041_inline.xml	7	1	29	1	452	,,	
+WR-P-P-H-0000000041_inline.xml	7	1	29	2	453	Dit	(135)
+WR-P-P-H-0000000041_inline.xml	7	1	29	3	454	was	
+WR-P-P-H-0000000041_inline.xml	7	1	29	4	455	kwaliteit	(135)
+WR-P-P-H-0000000041_inline.xml	7	1	29	5	456	''	
+WR-P-P-H-0000000041_inline.xml	7	1	29	6	457	,	
+WR-P-P-H-0000000041_inline.xml	7	1	29	7	458	sprak	
+WR-P-P-H-0000000041_inline.xml	7	1	29	8	459	bondscoach	(10
+WR-P-P-H-0000000041_inline.xml	7	1	29	9	460	Eenhoorn	10)
+WR-P-P-H-0000000041_inline.xml	7	1	29	10	461	zuinig	
+WR-P-P-H-0000000041_inline.xml	7	1	29	11	462	.	
+
+WR-P-P-H-0000000041_inline.xml	7	2	30	1	463	,,	
+WR-P-P-H-0000000041_inline.xml	7	2	30	2	464	Vakwerk	(135)
+WR-P-P-H-0000000041_inline.xml	7	2	30	3	465	.	
+
+WR-P-P-H-0000000041_inline.xml	7	3	31	1	466	Verdedigend	
+WR-P-P-H-0000000041_inline.xml	7	3	31	2	467	en	
+WR-P-P-H-0000000041_inline.xml	7	3	31	3	468	aanvallend	
+WR-P-P-H-0000000041_inline.xml	7	3	31	4	469	.	
+WR-P-P-H-0000000041_inline.xml	7	3	31	5	470	''	
+
+WR-P-P-H-0000000041_inline.xml	7	4	32	1	471	De	(13)
+WR-P-P-H-0000000041_inline.xml	7	4	32	2	472	Italianen	(13)
+WR-P-P-H-0000000041_inline.xml	7	4	32	3	473	produceerden	
+WR-P-P-H-0000000041_inline.xml	7	4	32	4	474	16	(140
+WR-P-P-H-0000000041_inline.xml	7	4	32	5	475	honkslagen	140)
+WR-P-P-H-0000000041_inline.xml	7	4	32	6	476	maar	
+WR-P-P-H-0000000041_inline.xml	7	4	32	7	477	scoorden	
+WR-P-P-H-0000000041_inline.xml	7	4	32	8	478	slechts	
+WR-P-P-H-0000000041_inline.xml	7	4	32	9	479	4	(201
+WR-P-P-H-0000000041_inline.xml	7	4	32	10	480	keer	201)
+WR-P-P-H-0000000041_inline.xml	7	4	32	11	481	.	
+
+WR-P-P-H-0000000041_inline.xml	7	5	33	1	482	,,	
+WR-P-P-H-0000000041_inline.xml	7	5	33	2	483	Omdat	
+WR-P-P-H-0000000041_inline.xml	7	5	33	3	484	''	
+WR-P-P-H-0000000041_inline.xml	7	5	33	4	485	,	
+WR-P-P-H-0000000041_inline.xml	7	5	33	5	486	wist	
+WR-P-P-H-0000000041_inline.xml	7	5	33	6	487	Jansen.	(27)
+WR-P-P-H-0000000041_inline.xml	7	5	33	7	488	,,	
+WR-P-P-H-0000000041_inline.xml	7	5	33	8	489	wij	(45)
+WR-P-P-H-0000000041_inline.xml	7	5	33	9	490	altijd	
+WR-P-P-H-0000000041_inline.xml	7	5	33	10	491	scherp	
+WR-P-P-H-0000000041_inline.xml	7	5	33	11	492	waren	
+WR-P-P-H-0000000041_inline.xml	7	5	33	12	493	.	
+
+WR-P-P-H-0000000041_inline.xml	7	6	34	1	494	We	(45)
+WR-P-P-H-0000000041_inline.xml	7	6	34	2	495	gaven	
+WR-P-P-H-0000000041_inline.xml	7	6	34	3	496	niets	(144)
+WR-P-P-H-0000000041_inline.xml	7	6	34	4	497	weg	
+WR-P-P-H-0000000041_inline.xml	7	6	34	5	498	.	
+
+WR-P-P-H-0000000041_inline.xml	7	7	35	1	499	De	(13)
+WR-P-P-H-0000000041_inline.xml	7	7	35	2	500	Italianen	(13)
+WR-P-P-H-0000000041_inline.xml	7	7	35	3	501	moesten	
+WR-P-P-H-0000000041_inline.xml	7	7	35	4	502	voor	
+WR-P-P-H-0000000041_inline.xml	7	7	35	5	503	elk	(146
+WR-P-P-H-0000000041_inline.xml	7	7	35	6	504	punt	146)
+WR-P-P-H-0000000041_inline.xml	7	7	35	7	505	knokken	
+WR-P-P-H-0000000041_inline.xml	7	7	35	8	506	.	
+
+WR-P-P-H-0000000041_inline.xml	7	8	36	1	507	We	(45)
+WR-P-P-H-0000000041_inline.xml	7	8	36	2	508	hebben	
+WR-P-P-H-0000000041_inline.xml	7	8	36	3	509	geen	(148
+WR-P-P-H-0000000041_inline.xml	7	8	36	4	510	fout	148)
+WR-P-P-H-0000000041_inline.xml	7	8	36	5	511	gemaakt	
+WR-P-P-H-0000000041_inline.xml	7	8	36	6	512	in	
+WR-P-P-H-0000000041_inline.xml	7	8	36	7	513	het	(108)
+WR-P-P-H-0000000041_inline.xml	7	8	36	8	514	veld	(108)
+WR-P-P-H-0000000041_inline.xml	7	8	36	9	515	.	
+WR-P-P-H-0000000041_inline.xml	7	8	36	10	516	''	
+
+WR-P-P-H-0000000041_inline.xml	8	1	37	1	517	Een	(150
+WR-P-P-H-0000000041_inline.xml	8	1	37	2	518	dag	150)
+WR-P-P-H-0000000041_inline.xml	8	1	37	3	519	eerder	
+WR-P-P-H-0000000041_inline.xml	8	1	37	4	520	kleurde	
+WR-P-P-H-0000000041_inline.xml	8	1	37	5	521	het	(151
+WR-P-P-H-0000000041_inline.xml	8	1	37	6	522	stadion	151
+WR-P-P-H-0000000041_inline.xml	8	1	37	7	523	van	151
+WR-P-P-H-0000000041_inline.xml	8	1	37	8	524	Neptunus	151)|(152)
+WR-P-P-H-0000000041_inline.xml	8	1	37	9	525	rood	
+WR-P-P-H-0000000041_inline.xml	8	1	37	10	526	.	
+
+WR-P-P-H-0000000041_inline.xml	8	2	38	1	527	Het	(153
+WR-P-P-H-0000000041_inline.xml	8	2	38	2	528	rood	153
+WR-P-P-H-0000000041_inline.xml	8	2	38	3	529	van	153
+WR-P-P-H-0000000041_inline.xml	8	2	38	4	530	Cuba	153)|(154)
+WR-P-P-H-0000000041_inline.xml	8	2	38	5	531	.	
+
+WR-P-P-H-0000000041_inline.xml	8	3	39	1	532	De	(8
+WR-P-P-H-0000000041_inline.xml	8	3	39	2	533	Cubanen	8)
+WR-P-P-H-0000000041_inline.xml	8	3	39	3	534	behaalden	
+WR-P-P-H-0000000041_inline.xml	8	3	39	4	535	de	(156
+WR-P-P-H-0000000041_inline.xml	8	3	39	5	536	22ste	156
+WR-P-P-H-0000000041_inline.xml	8	3	39	6	537	overwinning	156
+WR-P-P-H-0000000041_inline.xml	8	3	39	7	538	op	156
+WR-P-P-H-0000000041_inline.xml	8	3	39	8	539	Nederland	156|(45)
+WR-P-P-H-0000000041_inline.xml	8	3	39	9	540	in	156
+WR-P-P-H-0000000041_inline.xml	8	3	39	10	541	23	156|(158
+WR-P-P-H-0000000041_inline.xml	8	3	39	11	542	wedstrijden	156)|158)
+WR-P-P-H-0000000041_inline.xml	8	3	39	12	543	.	
+
+WR-P-P-H-0000000041_inline.xml	8	4	40	1	544	De	(159
+WR-P-P-H-0000000041_inline.xml	8	4	40	2	545	enige	159
+WR-P-P-H-0000000041_inline.xml	8	4	40	3	546	nederlaag	159)
+WR-P-P-H-0000000041_inline.xml	8	4	40	4	547	dateerde	
+WR-P-P-H-0000000041_inline.xml	8	4	40	5	548	van	
+WR-P-P-H-0000000041_inline.xml	8	4	40	6	549	het	(160
+WR-P-P-H-0000000041_inline.xml	8	4	40	7	550	olympisch	160
+WR-P-P-H-0000000041_inline.xml	8	4	40	8	551	toernooi	160
+WR-P-P-H-0000000041_inline.xml	8	4	40	9	552	in	160
+WR-P-P-H-0000000041_inline.xml	8	4	40	10	553	Sydney	160|(161)
+WR-P-P-H-0000000041_inline.xml	8	4	40	11	554	waar	160
+WR-P-P-H-0000000041_inline.xml	8	4	40	12	555	Oranje	160|(45)
+WR-P-P-H-0000000041_inline.xml	8	4	40	13	556	de	160|(163
+WR-P-P-H-0000000041_inline.xml	8	4	40	14	557	honkbalwereld	160|163)
+WR-P-P-H-0000000041_inline.xml	8	4	40	15	558	verraste	160
+WR-P-P-H-0000000041_inline.xml	8	4	40	16	559	met	160
+WR-P-P-H-0000000041_inline.xml	8	4	40	17	560	4	160|(159
+WR-P-P-H-0000000041_inline.xml	8	4	40	18	561	-	160|159
+WR-P-P-H-0000000041_inline.xml	8	4	40	19	562	2	160)|159)
+WR-P-P-H-0000000041_inline.xml	8	4	40	20	563	.	
+
+WR-P-P-H-0000000041_inline.xml	9	1	41	1	564	Cuba	(8)
+WR-P-P-H-0000000041_inline.xml	9	1	41	2	565	kwam	
+WR-P-P-H-0000000041_inline.xml	9	1	41	3	566	zonder	
+WR-P-P-H-0000000041_inline.xml	9	1	41	4	567	de	(165
+WR-P-P-H-0000000041_inline.xml	9	1	41	5	568	sterren	165
+WR-P-P-H-0000000041_inline.xml	9	1	41	6	569	Kindelan	165|(166|(167)
+WR-P-P-H-0000000041_inline.xml	9	1	41	7	570	,	165|166
+WR-P-P-H-0000000041_inline.xml	9	1	41	8	571	Linares	165|166|(168)
+WR-P-P-H-0000000041_inline.xml	9	1	41	9	572	,	165|166
+WR-P-P-H-0000000041_inline.xml	9	1	41	10	573	Mesa	165|166|(169)
+WR-P-P-H-0000000041_inline.xml	9	1	41	11	574	en	165|166
+WR-P-P-H-0000000041_inline.xml	9	1	41	12	575	Pacheco	165)|166)|(170)
+WR-P-P-H-0000000041_inline.xml	9	1	41	13	576	naar	
+WR-P-P-H-0000000041_inline.xml	9	1	41	14	577	Rotterdam	(1)
+WR-P-P-H-0000000041_inline.xml	9	1	41	15	578	.	
+
+WR-P-P-H-0000000041_inline.xml	9	2	42	1	579	Het	(8)
+WR-P-P-H-0000000041_inline.xml	9	2	42	2	580	selecteerde	
+WR-P-P-H-0000000041_inline.xml	9	2	42	3	581	slechts	(173
+WR-P-P-H-0000000041_inline.xml	9	2	42	4	582	drie	173
+WR-P-P-H-0000000041_inline.xml	9	2	42	5	583	spelers	173
+WR-P-P-H-0000000041_inline.xml	9	2	42	6	584	van	173
+WR-P-P-H-0000000041_inline.xml	9	2	42	7	585	de	173|(174
+WR-P-P-H-0000000041_inline.xml	9	2	42	8	586	olympische	173|174
+WR-P-P-H-0000000041_inline.xml	9	2	42	9	587	ploeg	173)|174)
+WR-P-P-H-0000000041_inline.xml	9	2	42	10	588	en	
+WR-P-P-H-0000000041_inline.xml	9	2	42	11	589	completeerde	
+WR-P-P-H-0000000041_inline.xml	9	2	42	12	590	de	(175
+WR-P-P-H-0000000041_inline.xml	9	2	42	13	591	ploeg	175)
+WR-P-P-H-0000000041_inline.xml	9	2	42	14	592	met	
+WR-P-P-H-0000000041_inline.xml	9	2	42	15	593	zeven	(176|(177
+WR-P-P-H-0000000041_inline.xml	9	2	42	16	594	All	176|177
+WR-P-P-H-0000000041_inline.xml	9	2	42	17	595	Stars	176|177)
+WR-P-P-H-0000000041_inline.xml	9	2	42	18	596	en	176
+WR-P-P-H-0000000041_inline.xml	9	2	42	19	597	jong	176|(178
+WR-P-P-H-0000000041_inline.xml	9	2	42	20	598	talent	176)|178)
+WR-P-P-H-0000000041_inline.xml	9	2	42	21	599	.	
+
+WR-P-P-H-0000000041_inline.xml	9	3	43	1	600	De	(8)
+WR-P-P-H-0000000041_inline.xml	9	3	43	2	601	Cubanen	(8)
+WR-P-P-H-0000000041_inline.xml	9	3	43	3	602	vielen	
+WR-P-P-H-0000000041_inline.xml	9	3	43	4	603	zaterdag	(180)
+WR-P-P-H-0000000041_inline.xml	9	3	43	5	604	op	
+WR-P-P-H-0000000041_inline.xml	9	3	43	6	605	door	
+WR-P-P-H-0000000041_inline.xml	9	3	43	7	606	agressief	(181
+WR-P-P-H-0000000041_inline.xml	9	3	43	8	607	honklopen	181)
+WR-P-P-H-0000000041_inline.xml	9	3	43	9	608	.	
+
+WR-P-P-H-0000000041_inline.xml	9	4	44	1	609	Nederland	(45)
+WR-P-P-H-0000000041_inline.xml	9	4	44	2	610	was	
+WR-P-P-H-0000000041_inline.xml	9	4	44	3	611	kansloos	
+WR-P-P-H-0000000041_inline.xml	9	4	44	4	612	.	
+
+WR-P-P-H-0000000041_inline.xml	9	5	45	1	613	Eenhoorn	(10)
+WR-P-P-H-0000000041_inline.xml	9	5	45	2	614	hield	
+WR-P-P-H-0000000041_inline.xml	9	5	45	3	615	er	(185)
+WR-P-P-H-0000000041_inline.xml	9	5	45	4	616	rekening	(184)
+WR-P-P-H-0000000041_inline.xml	9	5	45	5	617	mee	
+WR-P-P-H-0000000041_inline.xml	9	5	45	6	618	door	
+WR-P-P-H-0000000041_inline.xml	9	5	45	7	619	vier	(186
+WR-P-P-H-0000000041_inline.xml	9	5	45	8	620	internationaal	186
+WR-P-P-H-0000000041_inline.xml	9	5	45	9	621	onervaren	186
+WR-P-P-H-0000000041_inline.xml	9	5	45	10	622	werpers	186)
+WR-P-P-H-0000000041_inline.xml	9	5	45	11	623	naar	
+WR-P-P-H-0000000041_inline.xml	9	5	45	12	624	de	(187
+WR-P-P-H-0000000041_inline.xml	9	5	45	13	625	heuvel	187)
+WR-P-P-H-0000000041_inline.xml	9	5	45	14	626	te	
+WR-P-P-H-0000000041_inline.xml	9	5	45	15	627	sturen	
+WR-P-P-H-0000000041_inline.xml	9	5	45	16	628	.	
+

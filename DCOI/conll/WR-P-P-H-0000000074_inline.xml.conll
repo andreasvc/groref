@@ -1,0 +1,162 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000074_inline.xml	1	1	1	1	1	DEN	(1
+WR-P-P-H-0000000074_inline.xml	1	1	1	2	2	HAAG	1)
+WR-P-P-H-0000000074_inline.xml	1	1	1	3	3	-	
+
+WR-P-P-H-0000000074_inline.xml	1	2	2	1	4	De	(2
+WR-P-P-H-0000000074_inline.xml	1	2	2	2	5	verenigingen	2
+WR-P-P-H-0000000074_inline.xml	1	2	2	3	6	van	2
+WR-P-P-H-0000000074_inline.xml	1	2	2	4	7	juristen	2|(3
+WR-P-P-H-0000000074_inline.xml	1	2	2	5	8	in	2|3
+WR-P-P-H-0000000074_inline.xml	1	2	2	6	9	de	2|3|(4
+WR-P-P-H-0000000074_inline.xml	1	2	2	7	10	sociale	2|3|4
+WR-P-P-H-0000000074_inline.xml	1	2	2	8	11	advocatuur	2)|3)|4)
+WR-P-P-H-0000000074_inline.xml	1	2	2	9	12	hebben	
+WR-P-P-H-0000000074_inline.xml	1	2	2	10	13	hun	(5|(2)
+WR-P-P-H-0000000074_inline.xml	1	2	2	11	14	leden	5)
+WR-P-P-H-0000000074_inline.xml	1	2	2	12	15	gevraagd	
+WR-P-P-H-0000000074_inline.xml	1	2	2	13	16	zich	(5)
+WR-P-P-H-0000000074_inline.xml	1	2	2	14	17	per	
+WR-P-P-H-0000000074_inline.xml	1	2	2	15	18	1	(8
+WR-P-P-H-0000000074_inline.xml	1	2	2	16	19	januari	8
+WR-P-P-H-0000000074_inline.xml	1	2	2	17	20	2002	8)
+WR-P-P-H-0000000074_inline.xml	1	2	2	18	21	uit	
+WR-P-P-H-0000000074_inline.xml	1	2	2	19	22	te	
+WR-P-P-H-0000000074_inline.xml	1	2	2	20	23	schrijven	
+WR-P-P-H-0000000074_inline.xml	1	2	2	21	24	als	
+WR-P-P-H-0000000074_inline.xml	1	2	2	22	25	staatssecretaris	(9
+WR-P-P-H-0000000074_inline.xml	1	2	2	23	26	Kalsbeek	9
+WR-P-P-H-0000000074_inline.xml	1	2	2	24	27	van	9
+WR-P-P-H-0000000074_inline.xml	1	2	2	25	28	justitie	9)|(10)
+WR-P-P-H-0000000074_inline.xml	1	2	2	26	29	hun	(11|(5)
+WR-P-P-H-0000000074_inline.xml	1	2	2	27	30	uurvergoeding	11)
+WR-P-P-H-0000000074_inline.xml	1	2	2	28	31	niet	
+WR-P-P-H-0000000074_inline.xml	1	2	2	29	32	opschroeft	
+WR-P-P-H-0000000074_inline.xml	1	2	2	30	33	naar	
+WR-P-P-H-0000000074_inline.xml	1	2	2	31	34	210	(13
+WR-P-P-H-0000000074_inline.xml	1	2	2	32	35	gulden	13)
+WR-P-P-H-0000000074_inline.xml	1	2	2	33	36	.	
+
+WR-P-P-H-0000000074_inline.xml	1	3	3	1	37	Dinsdag	(14)
+WR-P-P-H-0000000074_inline.xml	1	3	3	2	38	demonstreren	
+WR-P-P-H-0000000074_inline.xml	1	3	3	3	39	de	(3
+WR-P-P-H-0000000074_inline.xml	1	3	3	4	40	advocaten	3)
+WR-P-P-H-0000000074_inline.xml	1	3	3	5	41	in	
+WR-P-P-H-0000000074_inline.xml	1	3	3	6	42	Den	(1
+WR-P-P-H-0000000074_inline.xml	1	3	3	7	43	Haag	1)
+WR-P-P-H-0000000074_inline.xml	1	3	3	8	44	voor	
+WR-P-P-H-0000000074_inline.xml	1	3	3	9	45	de	(11
+WR-P-P-H-0000000074_inline.xml	1	3	3	10	46	volgens	11
+WR-P-P-H-0000000074_inline.xml	1	3	3	11	47	hen	11|(3)
+WR-P-P-H-0000000074_inline.xml	1	3	3	12	48	broodnodige	11
+WR-P-P-H-0000000074_inline.xml	1	3	3	13	49	hogere	11
+WR-P-P-H-0000000074_inline.xml	1	3	3	14	50	gage	11)
+WR-P-P-H-0000000074_inline.xml	1	3	3	15	51	.	
+
+WR-P-P-H-0000000074_inline.xml	2	1	4	1	52	Dat	(19)
+WR-P-P-H-0000000074_inline.xml	2	1	4	2	53	melden	
+WR-P-P-H-0000000074_inline.xml	2	1	4	3	54	de	(2|(21
+WR-P-P-H-0000000074_inline.xml	2	1	4	4	55	verenigingen	2|21
+WR-P-P-H-0000000074_inline.xml	2	1	4	5	56	van	2|21
+WR-P-P-H-0000000074_inline.xml	2	1	4	6	57	advocaten	2|21)|(22)
+WR-P-P-H-0000000074_inline.xml	2	1	4	7	58	en	2
+WR-P-P-H-0000000074_inline.xml	2	1	4	8	59	Bureaus	2|(23
+WR-P-P-H-0000000074_inline.xml	2	1	4	9	60	Rechtshulp	2)|23)
+WR-P-P-H-0000000074_inline.xml	2	1	4	10	61	.	
+
+WR-P-P-H-0000000074_inline.xml	2	2	5	1	62	Kalsbeek	(9)
+WR-P-P-H-0000000074_inline.xml	2	2	5	2	63	liet	
+WR-P-P-H-0000000074_inline.xml	2	2	5	3	64	onlangs	
+WR-P-P-H-0000000074_inline.xml	2	2	5	4	65	weten	
+WR-P-P-H-0000000074_inline.xml	2	2	5	5	66	het	(11
+WR-P-P-H-0000000074_inline.xml	2	2	5	6	67	uurloon	11)
+WR-P-P-H-0000000074_inline.xml	2	2	5	7	68	te	
+WR-P-P-H-0000000074_inline.xml	2	2	5	8	69	verhogen	
+WR-P-P-H-0000000074_inline.xml	2	2	5	9	70	naar	
+WR-P-P-H-0000000074_inline.xml	2	2	5	10	71	180	(26
+WR-P-P-H-0000000074_inline.xml	2	2	5	11	72	gulden	26)
+WR-P-P-H-0000000074_inline.xml	2	2	5	12	73	.	
+
+WR-P-P-H-0000000074_inline.xml	2	3	6	1	74	De	(21
+WR-P-P-H-0000000074_inline.xml	2	3	6	2	75	advocaten	21)
+WR-P-P-H-0000000074_inline.xml	2	3	6	3	76	vinden	
+WR-P-P-H-0000000074_inline.xml	2	3	6	4	77	dat	(26)
+WR-P-P-H-0000000074_inline.xml	2	3	6	5	78	niet	
+WR-P-P-H-0000000074_inline.xml	2	3	6	6	79	genoeg	
+WR-P-P-H-0000000074_inline.xml	2	3	6	7	80	om	
+WR-P-P-H-0000000074_inline.xml	2	3	6	8	81	hun	(29|(21)
+WR-P-P-H-0000000074_inline.xml	2	3	6	9	82	beroep	29)
+WR-P-P-H-0000000074_inline.xml	2	3	6	10	83	goed	
+WR-P-P-H-0000000074_inline.xml	2	3	6	11	84	uit	
+WR-P-P-H-0000000074_inline.xml	2	3	6	12	85	te	
+WR-P-P-H-0000000074_inline.xml	2	3	6	13	86	voeren	
+WR-P-P-H-0000000074_inline.xml	2	3	6	14	87	.	
+
+WR-P-P-H-0000000074_inline.xml	2	4	7	1	88	Als	
+WR-P-P-H-0000000074_inline.xml	2	4	7	2	89	zij	(21)
+WR-P-P-H-0000000074_inline.xml	2	4	7	3	90	het	(34
+WR-P-P-H-0000000074_inline.xml	2	4	7	4	91	bijltje	34)
+WR-P-P-H-0000000074_inline.xml	2	4	7	5	92	erbij	
+WR-P-P-H-0000000074_inline.xml	2	4	7	6	93	neergooien	
+WR-P-P-H-0000000074_inline.xml	2	4	7	7	94	,	
+WR-P-P-H-0000000074_inline.xml	2	4	7	8	95	dreigen	
+WR-P-P-H-0000000074_inline.xml	2	4	7	9	96	minder	(31
+WR-P-P-H-0000000074_inline.xml	2	4	7	10	97	draagkrachtige	31
+WR-P-P-H-0000000074_inline.xml	2	4	7	11	98	mensen	31
+WR-P-P-H-0000000074_inline.xml	2	4	7	12	99	,	31
+WR-P-P-H-0000000074_inline.xml	2	4	7	13	100	die	31
+WR-P-P-H-0000000074_inline.xml	2	4	7	14	101	afhankelijk	31
+WR-P-P-H-0000000074_inline.xml	2	4	7	15	102	zijn	31
+WR-P-P-H-0000000074_inline.xml	2	4	7	16	103	van	31
+WR-P-P-H-0000000074_inline.xml	2	4	7	17	104	de	31|(4
+WR-P-P-H-0000000074_inline.xml	2	4	7	18	105	sociale	31|4
+WR-P-P-H-0000000074_inline.xml	2	4	7	19	106	advocatuur	31)|4)
+WR-P-P-H-0000000074_inline.xml	2	4	7	20	107	,	
+WR-P-P-H-0000000074_inline.xml	2	4	7	21	108	in	
+WR-P-P-H-0000000074_inline.xml	2	4	7	22	109	de	(35
+WR-P-P-H-0000000074_inline.xml	2	4	7	23	110	toekomst	35)
+WR-P-P-H-0000000074_inline.xml	2	4	7	24	111	voor	
+WR-P-P-H-0000000074_inline.xml	2	4	7	25	112	een	(36
+WR-P-P-H-0000000074_inline.xml	2	4	7	26	113	dichte	36
+WR-P-P-H-0000000074_inline.xml	2	4	7	27	114	deur	36)
+WR-P-P-H-0000000074_inline.xml	2	4	7	28	115	te	
+WR-P-P-H-0000000074_inline.xml	2	4	7	29	116	komen	
+WR-P-P-H-0000000074_inline.xml	2	4	7	30	117	staan	
+WR-P-P-H-0000000074_inline.xml	2	4	7	31	118	.	
+
+WR-P-P-H-0000000074_inline.xml	3	1	8	1	119	De	(4)
+WR-P-P-H-0000000074_inline.xml	3	1	8	2	120	sector	(4)
+WR-P-P-H-0000000074_inline.xml	3	1	8	3	121	kampt	
+WR-P-P-H-0000000074_inline.xml	3	1	8	4	122	met	
+WR-P-P-H-0000000074_inline.xml	3	1	8	5	123	een	(38
+WR-P-P-H-0000000074_inline.xml	3	1	8	6	124	leegloop	38)
+WR-P-P-H-0000000074_inline.xml	3	1	8	7	125	,	
+WR-P-P-H-0000000074_inline.xml	3	1	8	8	126	omdat	
+WR-P-P-H-0000000074_inline.xml	3	1	8	9	127	de	(11)
+WR-P-P-H-0000000074_inline.xml	3	1	8	10	128	tarieven	(11)
+WR-P-P-H-0000000074_inline.xml	3	1	8	11	129	achterblijven	
+WR-P-P-H-0000000074_inline.xml	3	1	8	12	130	bij	
+WR-P-P-H-0000000074_inline.xml	3	1	8	13	131	die	(40
+WR-P-P-H-0000000074_inline.xml	3	1	8	14	132	in	40
+WR-P-P-H-0000000074_inline.xml	3	1	8	15	133	de	40|(41
+WR-P-P-H-0000000074_inline.xml	3	1	8	16	134	'	40|41
+WR-P-P-H-0000000074_inline.xml	3	1	8	17	135	gewone	40|41
+WR-P-P-H-0000000074_inline.xml	3	1	8	18	136	'	40|41
+WR-P-P-H-0000000074_inline.xml	3	1	8	19	137	advocatuur	40)|41)
+WR-P-P-H-0000000074_inline.xml	3	1	8	20	138	.	
+
+WR-P-P-H-0000000074_inline.xml	3	2	9	1	139	Een	(42
+WR-P-P-H-0000000074_inline.xml	3	2	9	2	140	vijfde	42
+WR-P-P-H-0000000074_inline.xml	3	2	9	3	141	van	42
+WR-P-P-H-0000000074_inline.xml	3	2	9	4	142	het	42|(43
+WR-P-P-H-0000000074_inline.xml	3	2	9	5	143	aantal	42|43
+WR-P-P-H-0000000074_inline.xml	3	2	9	6	144	Bureaus	42|43|(23
+WR-P-P-H-0000000074_inline.xml	3	2	9	7	145	Rechtshulp	42)|43)|23)
+WR-P-P-H-0000000074_inline.xml	3	2	9	8	146	heeft	
+WR-P-P-H-0000000074_inline.xml	3	2	9	9	147	de	(45
+WR-P-P-H-0000000074_inline.xml	3	2	9	10	148	deuren	45)
+WR-P-P-H-0000000074_inline.xml	3	2	9	11	149	al	
+WR-P-P-H-0000000074_inline.xml	3	2	9	12	150	moeten	
+WR-P-P-H-0000000074_inline.xml	3	2	9	13	151	sluiten	
+WR-P-P-H-0000000074_inline.xml	3	2	9	14	152	.	
+

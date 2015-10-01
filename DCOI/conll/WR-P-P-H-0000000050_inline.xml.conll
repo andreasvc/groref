@@ -1,0 +1,388 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000050_inline.xml	1	1	1	1	1	Voor	
+WR-P-P-H-0000000050_inline.xml	1	1	1	2	2	de	(1
+WR-P-P-H-0000000050_inline.xml	1	1	1	3	3	veelkleurige	1
+WR-P-P-H-0000000050_inline.xml	1	1	1	4	4	samenleving	1
+WR-P-P-H-0000000050_inline.xml	1	1	1	5	5	in	1
+WR-P-P-H-0000000050_inline.xml	1	1	1	6	6	Nederland	1)|(2)
+WR-P-P-H-0000000050_inline.xml	1	1	1	7	7	is	
+WR-P-P-H-0000000050_inline.xml	1	1	1	8	8	het	(3)
+WR-P-P-H-0000000050_inline.xml	1	1	1	9	9	een	(4
+WR-P-P-H-0000000050_inline.xml	1	1	1	10	10	stap	4)
+WR-P-P-H-0000000050_inline.xml	1	1	1	11	11	vooruit	
+WR-P-P-H-0000000050_inline.xml	1	1	1	12	12	dat	
+WR-P-P-H-0000000050_inline.xml	1	1	1	13	13	de	(5
+WR-P-P-H-0000000050_inline.xml	1	1	1	14	14	islamitische	5
+WR-P-P-H-0000000050_inline.xml	1	1	1	15	15	studente	5
+WR-P-P-H-0000000050_inline.xml	1	1	1	16	16	Ayse	5
+WR-P-P-H-0000000050_inline.xml	1	1	1	17	17	Kabaktepe	5)
+WR-P-P-H-0000000050_inline.xml	1	1	1	18	18	de	(6
+WR-P-P-H-0000000050_inline.xml	1	1	1	19	19	kwestie	6
+WR-P-P-H-0000000050_inline.xml	1	1	1	20	20	over	6
+WR-P-P-H-0000000050_inline.xml	1	1	1	21	21	het	6|(7
+WR-P-P-H-0000000050_inline.xml	1	1	1	22	22	hoofddoekje	6|7)
+WR-P-P-H-0000000050_inline.xml	1	1	1	23	23	tegen	6
+WR-P-P-H-0000000050_inline.xml	1	1	1	24	24	de	6|(8
+WR-P-P-H-0000000050_inline.xml	1	1	1	25	25	rechtbank	6|8
+WR-P-P-H-0000000050_inline.xml	1	1	1	26	26	in	6|8
+WR-P-P-H-0000000050_inline.xml	1	1	1	27	27	Zwolle	6)|8)|(9)
+WR-P-P-H-0000000050_inline.xml	1	1	1	28	28	heeft	
+WR-P-P-H-0000000050_inline.xml	1	1	1	29	29	gewonnen	
+WR-P-P-H-0000000050_inline.xml	1	1	1	30	30	.	
+
+WR-P-P-H-0000000050_inline.xml	1	2	2	1	31	De	(10
+WR-P-P-H-0000000050_inline.xml	1	2	2	2	32	Commissie	10
+WR-P-P-H-0000000050_inline.xml	1	2	2	3	33	gelijke	10|(11
+WR-P-P-H-0000000050_inline.xml	1	2	2	4	34	behandeling	10)|11)
+WR-P-P-H-0000000050_inline.xml	1	2	2	5	35	oordeelde	
+WR-P-P-H-0000000050_inline.xml	1	2	2	6	36	dat	
+WR-P-P-H-0000000050_inline.xml	1	2	2	7	37	de	(8
+WR-P-P-H-0000000050_inline.xml	1	2	2	8	38	rechtbank	8)
+WR-P-P-H-0000000050_inline.xml	1	2	2	9	39	zich	(13)
+WR-P-P-H-0000000050_inline.xml	1	2	2	10	40	schuldig	
+WR-P-P-H-0000000050_inline.xml	1	2	2	11	41	maakte	
+WR-P-P-H-0000000050_inline.xml	1	2	2	12	42	aan	
+WR-P-P-H-0000000050_inline.xml	1	2	2	13	43	discriminatie	(14
+WR-P-P-H-0000000050_inline.xml	1	2	2	14	44	wegens	14
+WR-P-P-H-0000000050_inline.xml	1	2	2	15	45	godsdienst	14)|(15)
+WR-P-P-H-0000000050_inline.xml	1	2	2	16	46	door	
+WR-P-P-H-0000000050_inline.xml	1	2	2	17	47	de	(5
+WR-P-P-H-0000000050_inline.xml	1	2	2	18	48	vrouw	5)
+WR-P-P-H-0000000050_inline.xml	1	2	2	19	49	vanwege	
+WR-P-P-H-0000000050_inline.xml	1	2	2	20	50	haar	(7|(5)
+WR-P-P-H-0000000050_inline.xml	1	2	2	21	51	hoofddoek	7)
+WR-P-P-H-0000000050_inline.xml	1	2	2	22	52	voor	
+WR-P-P-H-0000000050_inline.xml	1	2	2	23	53	de	(19
+WR-P-P-H-0000000050_inline.xml	1	2	2	24	54	functie	19
+WR-P-P-H-0000000050_inline.xml	1	2	2	25	55	van	19
+WR-P-P-H-0000000050_inline.xml	1	2	2	26	56	hulpgriffier	19)|(20)
+WR-P-P-H-0000000050_inline.xml	1	2	2	27	57	af	
+WR-P-P-H-0000000050_inline.xml	1	2	2	28	58	te	
+WR-P-P-H-0000000050_inline.xml	1	2	2	29	59	wijzen	
+WR-P-P-H-0000000050_inline.xml	1	2	2	30	60	.	
+
+WR-P-P-H-0000000050_inline.xml	1	3	3	1	61	Volgens	
+WR-P-P-H-0000000050_inline.xml	1	3	3	2	62	de	(8)
+WR-P-P-H-0000000050_inline.xml	1	3	3	3	63	rechtbank	(8)
+WR-P-P-H-0000000050_inline.xml	1	3	3	4	64	zou	
+WR-P-P-H-0000000050_inline.xml	1	3	3	5	65	met	
+WR-P-P-H-0000000050_inline.xml	1	3	3	6	66	dat	(7)
+WR-P-P-H-0000000050_inline.xml	1	3	3	7	67	kledingstuk	(7)
+WR-P-P-H-0000000050_inline.xml	1	3	3	8	68	afbreuk	(21)
+WR-P-P-H-0000000050_inline.xml	1	3	3	9	69	worden	
+WR-P-P-H-0000000050_inline.xml	1	3	3	10	70	gedaan	
+WR-P-P-H-0000000050_inline.xml	1	3	3	11	71	aan	
+WR-P-P-H-0000000050_inline.xml	1	3	3	12	72	de	(24|(25|(30
+WR-P-P-H-0000000050_inline.xml	1	3	3	13	73	onafhankelijkheid	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	14	74	en	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	15	75	onpartijdigheid	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	16	76	van	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	17	77	de	24|25|30|(8)
+WR-P-P-H-0000000050_inline.xml	1	3	3	18	78	rechtbank	24|25|30|(8)
+WR-P-P-H-0000000050_inline.xml	1	3	3	19	79	,	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	20	80	die	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	21	81	tot	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	22	82	uitdrukking	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	23	83	komen	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	24	84	in	24|25|30
+WR-P-P-H-0000000050_inline.xml	1	3	3	25	85	de	24|25|30|(29|(27|(28
+WR-P-P-H-0000000050_inline.xml	1	3	3	26	86	uniforme	24|25|30|29|27|28
+WR-P-P-H-0000000050_inline.xml	1	3	3	27	87	toga	24|25|30|29|27|28)
+WR-P-P-H-0000000050_inline.xml	1	3	3	28	88	en	24|25|30|29|27
+WR-P-P-H-0000000050_inline.xml	1	3	3	29	89	bef	24)|25)|30)|29)|27)
+WR-P-P-H-0000000050_inline.xml	1	3	3	30	90	.	
+
+WR-P-P-H-0000000050_inline.xml	2	1	4	1	91	De	(10
+WR-P-P-H-0000000050_inline.xml	2	1	4	2	92	commissie	10)
+WR-P-P-H-0000000050_inline.xml	2	1	4	3	93	oordeelde	
+WR-P-P-H-0000000050_inline.xml	2	1	4	4	94	dat	
+WR-P-P-H-0000000050_inline.xml	2	1	4	5	95	deze	(25
+WR-P-P-H-0000000050_inline.xml	2	1	4	6	96	uitleg	25
+WR-P-P-H-0000000050_inline.xml	2	1	4	7	97	van	25
+WR-P-P-H-0000000050_inline.xml	2	1	4	8	98	de	25|(27
+WR-P-P-H-0000000050_inline.xml	2	1	4	9	99	kledingvoorschriften	25)|27)
+WR-P-P-H-0000000050_inline.xml	2	1	4	10	100	betekent	
+WR-P-P-H-0000000050_inline.xml	2	1	4	11	101	dat	
+WR-P-P-H-0000000050_inline.xml	2	1	4	12	102	mensen	(34
+WR-P-P-H-0000000050_inline.xml	2	1	4	13	103	die	34
+WR-P-P-H-0000000050_inline.xml	2	1	4	14	104	op	34
+WR-P-P-H-0000000050_inline.xml	2	1	4	15	105	religieuze	34|(35
+WR-P-P-H-0000000050_inline.xml	2	1	4	16	106	gronden	34|35)
+WR-P-P-H-0000000050_inline.xml	2	1	4	17	107	een	34|(7)
+WR-P-P-H-0000000050_inline.xml	2	1	4	18	108	hoofddoek	34|(7)
+WR-P-P-H-0000000050_inline.xml	2	1	4	19	109	dragen	34)
+WR-P-P-H-0000000050_inline.xml	2	1	4	20	110	op	
+WR-P-P-H-0000000050_inline.xml	2	1	4	21	111	voorhand	(37)
+WR-P-P-H-0000000050_inline.xml	2	1	4	22	112	van	
+WR-P-P-H-0000000050_inline.xml	2	1	4	23	113	de	(19
+WR-P-P-H-0000000050_inline.xml	2	1	4	24	114	functie	19
+WR-P-P-H-0000000050_inline.xml	2	1	4	25	115	van	19
+WR-P-P-H-0000000050_inline.xml	2	1	4	26	116	griffier	19)|(39)
+WR-P-P-H-0000000050_inline.xml	2	1	4	27	117	worden	
+WR-P-P-H-0000000050_inline.xml	2	1	4	28	118	uitgesloten	
+WR-P-P-H-0000000050_inline.xml	2	1	4	29	119	.	
+
+WR-P-P-H-0000000050_inline.xml	2	2	5	1	120	Dat	(40)
+WR-P-P-H-0000000050_inline.xml	2	2	5	2	121	acht	
+WR-P-P-H-0000000050_inline.xml	2	2	5	3	122	zij	(41)
+WR-P-P-H-0000000050_inline.xml	2	2	5	4	123	terecht	
+WR-P-P-H-0000000050_inline.xml	2	2	5	5	124	in	
+WR-P-P-H-0000000050_inline.xml	2	2	5	6	125	strijd	
+WR-P-P-H-0000000050_inline.xml	2	2	5	7	126	met	
+WR-P-P-H-0000000050_inline.xml	2	2	5	8	127	het	(42
+WR-P-P-H-0000000050_inline.xml	2	2	5	9	128	non-discriminatiebeginsel	42
+WR-P-P-H-0000000050_inline.xml	2	2	5	10	129	in	42
+WR-P-P-H-0000000050_inline.xml	2	2	5	11	130	onze	42|(43
+WR-P-P-H-0000000050_inline.xml	2	2	5	12	131	rechtsstaat	42)|43)
+WR-P-P-H-0000000050_inline.xml	2	2	5	13	132	.	
+
+WR-P-P-H-0000000050_inline.xml	3	1	6	1	133	De	(10)
+WR-P-P-H-0000000050_inline.xml	3	1	6	2	134	commissie	(10)
+WR-P-P-H-0000000050_inline.xml	3	1	6	3	135	laakt	
+WR-P-P-H-0000000050_inline.xml	3	1	6	4	136	dus	
+WR-P-P-H-0000000050_inline.xml	3	1	6	5	137	de	(45
+WR-P-P-H-0000000050_inline.xml	3	1	6	6	138	striktheid	45
+WR-P-P-H-0000000050_inline.xml	3	1	6	7	139	van	45
+WR-P-P-H-0000000050_inline.xml	3	1	6	8	140	de	45|(25)
+WR-P-P-H-0000000050_inline.xml	3	1	6	9	141	uitleg	45|(25)
+WR-P-P-H-0000000050_inline.xml	3	1	6	10	142	die	45|(25)
+WR-P-P-H-0000000050_inline.xml	3	1	6	11	143	de	45|(25)|(8)
+WR-P-P-H-0000000050_inline.xml	3	1	6	12	144	magistraten	45|(25)|(8)
+WR-P-P-H-0000000050_inline.xml	3	1	6	13	145	in	45|(25)|(8)
+WR-P-P-H-0000000050_inline.xml	3	1	6	14	146	Zwolle	45|(25)|(8)|(48)
+WR-P-P-H-0000000050_inline.xml	3	1	6	15	147	geven	45|(25)
+WR-P-P-H-0000000050_inline.xml	3	1	6	16	148	van	45|(25)
+WR-P-P-H-0000000050_inline.xml	3	1	6	17	149	de	45|(25)|(27)
+WR-P-P-H-0000000050_inline.xml	3	1	6	18	150	kledingvoorschriften	45)|(25)|(27)
+WR-P-P-H-0000000050_inline.xml	3	1	6	19	151	.	
+
+WR-P-P-H-0000000050_inline.xml	3	2	7	1	152	Daarbij	
+WR-P-P-H-0000000050_inline.xml	3	2	7	2	153	wijst	
+WR-P-P-H-0000000050_inline.xml	3	2	7	3	154	zij	(10)
+WR-P-P-H-0000000050_inline.xml	3	2	7	4	155	erop	
+WR-P-P-H-0000000050_inline.xml	3	2	7	5	156	dat	
+WR-P-P-H-0000000050_inline.xml	3	2	7	6	157	die	(27)
+WR-P-P-H-0000000050_inline.xml	3	2	7	7	158	voorschriften	(27)
+WR-P-P-H-0000000050_inline.xml	3	2	7	8	159	van	
+WR-P-P-H-0000000050_inline.xml	3	2	7	9	160	1957	(52)
+WR-P-P-H-0000000050_inline.xml	3	2	7	10	161	dateren	
+WR-P-P-H-0000000050_inline.xml	3	2	7	11	162	,	
+WR-P-P-H-0000000050_inline.xml	3	2	7	12	163	dus	
+WR-P-P-H-0000000050_inline.xml	3	2	7	13	164	kennelijk	
+WR-P-P-H-0000000050_inline.xml	3	2	7	14	165	verouderd	
+WR-P-P-H-0000000050_inline.xml	3	2	7	15	166	zijn	
+WR-P-P-H-0000000050_inline.xml	3	2	7	16	167	,	
+WR-P-P-H-0000000050_inline.xml	3	2	7	17	168	en	
+WR-P-P-H-0000000050_inline.xml	3	2	7	18	169	dat	
+WR-P-P-H-0000000050_inline.xml	3	2	7	19	170	de	(25)
+WR-P-P-H-0000000050_inline.xml	3	2	7	20	171	uitleg	(25)
+WR-P-P-H-0000000050_inline.xml	3	2	7	21	172	elders	
+WR-P-P-H-0000000050_inline.xml	3	2	7	22	173	soepeler	
+WR-P-P-H-0000000050_inline.xml	3	2	7	23	174	is	
+WR-P-P-H-0000000050_inline.xml	3	2	7	24	175	.	
+
+WR-P-P-H-0000000050_inline.xml	3	3	8	1	176	Zo	
+WR-P-P-H-0000000050_inline.xml	3	3	8	2	177	werkt	
+WR-P-P-H-0000000050_inline.xml	3	3	8	3	178	er	
+WR-P-P-H-0000000050_inline.xml	3	3	8	4	179	op	
+WR-P-P-H-0000000050_inline.xml	3	3	8	5	180	de	(8)
+WR-P-P-H-0000000050_inline.xml	3	3	8	6	181	rechtbank	(8)
+WR-P-P-H-0000000050_inline.xml	3	3	8	7	182	van	(8)
+WR-P-P-H-0000000050_inline.xml	3	3	8	8	183	Amsterdam	(8)|(55)
+WR-P-P-H-0000000050_inline.xml	3	3	8	9	184	wel	
+WR-P-P-H-0000000050_inline.xml	3	3	8	10	185	een	(39
+WR-P-P-H-0000000050_inline.xml	3	3	8	11	186	griffier	39
+WR-P-P-H-0000000050_inline.xml	3	3	8	12	187	met	39
+WR-P-P-H-0000000050_inline.xml	3	3	8	13	188	hoofdddoek	39)|(7)
+WR-P-P-H-0000000050_inline.xml	3	3	8	14	189	en	
+WR-P-P-H-0000000050_inline.xml	3	3	8	15	190	zien	
+WR-P-P-H-0000000050_inline.xml	3	3	8	16	191	veel	(58|(60|(59
+WR-P-P-H-0000000050_inline.xml	3	3	8	17	192	kantonrechters	58|60|59)
+WR-P-P-H-0000000050_inline.xml	3	3	8	18	193	en	58|60
+WR-P-P-H-0000000050_inline.xml	3	3	8	19	194	familierechters	58)|60)
+WR-P-P-H-0000000050_inline.xml	3	3	8	20	195	er	(61)
+WR-P-P-H-0000000050_inline.xml	3	3	8	21	196	van	
+WR-P-P-H-0000000050_inline.xml	3	3	8	22	197	af	
+WR-P-P-H-0000000050_inline.xml	3	3	8	23	198	de	(28
+WR-P-P-H-0000000050_inline.xml	3	3	8	24	199	toga	28)
+WR-P-P-H-0000000050_inline.xml	3	3	8	25	200	te	
+WR-P-P-H-0000000050_inline.xml	3	3	8	26	201	dragen	
+WR-P-P-H-0000000050_inline.xml	3	3	8	27	202	.	
+
+WR-P-P-H-0000000050_inline.xml	3	4	9	1	203	De	(10)
+WR-P-P-H-0000000050_inline.xml	3	4	9	2	204	commissie	(10)
+WR-P-P-H-0000000050_inline.xml	3	4	9	3	205	voegt	
+WR-P-P-H-0000000050_inline.xml	3	4	9	4	206	daar	(64)
+WR-P-P-H-0000000050_inline.xml	3	4	9	5	207	nog	
+WR-P-P-H-0000000050_inline.xml	3	4	9	6	208	aan	
+WR-P-P-H-0000000050_inline.xml	3	4	9	7	209	toe	
+WR-P-P-H-0000000050_inline.xml	3	4	9	8	210	dat	
+WR-P-P-H-0000000050_inline.xml	3	4	9	9	211	een	(39
+WR-P-P-H-0000000050_inline.xml	3	4	9	10	212	griffier	39)
+WR-P-P-H-0000000050_inline.xml	3	4	9	11	213	een	(66|(19)
+WR-P-P-H-0000000050_inline.xml	3	4	9	12	214	ondersteunende	66|(19)
+WR-P-P-H-0000000050_inline.xml	3	4	9	13	215	,	66|(19)
+WR-P-P-H-0000000050_inline.xml	3	4	9	14	216	geen	66|(19)|(68
+WR-P-P-H-0000000050_inline.xml	3	4	9	15	217	rechtsprekende	66|(19)|68
+WR-P-P-H-0000000050_inline.xml	3	4	9	16	218	functie	66)|(19)|68)
+WR-P-P-H-0000000050_inline.xml	3	4	9	17	219	vervult	
+WR-P-P-H-0000000050_inline.xml	3	4	9	18	220	,	
+WR-P-P-H-0000000050_inline.xml	3	4	9	19	221	zodat	
+WR-P-P-H-0000000050_inline.xml	3	4	9	20	222	het	(27)
+WR-P-P-H-0000000050_inline.xml	3	4	9	21	223	dragen	(27)
+WR-P-P-H-0000000050_inline.xml	3	4	9	22	224	van	(27)
+WR-P-P-H-0000000050_inline.xml	3	4	9	23	225	specifieke	(27)|(70
+WR-P-P-H-0000000050_inline.xml	3	4	9	24	226	kleding	(27)|70)
+WR-P-P-H-0000000050_inline.xml	3	4	9	25	227	ook	
+WR-P-P-H-0000000050_inline.xml	3	4	9	26	228	niet	
+WR-P-P-H-0000000050_inline.xml	3	4	9	27	229	noodzakelijk	
+WR-P-P-H-0000000050_inline.xml	3	4	9	28	230	is	
+WR-P-P-H-0000000050_inline.xml	3	4	9	29	231	.	
+
+WR-P-P-H-0000000050_inline.xml	3	5	10	1	232	Dat	(71)
+WR-P-P-H-0000000050_inline.xml	3	5	10	2	233	is	
+WR-P-P-H-0000000050_inline.xml	3	5	10	3	234	wel	
+WR-P-P-H-0000000050_inline.xml	3	5	10	4	235	erg	
+WR-P-P-H-0000000050_inline.xml	3	5	10	5	236	pragmatisch	
+WR-P-P-H-0000000050_inline.xml	3	5	10	6	237	,	
+WR-P-P-H-0000000050_inline.xml	3	5	10	7	238	zo	
+WR-P-P-H-0000000050_inline.xml	3	5	10	8	239	niet	
+WR-P-P-H-0000000050_inline.xml	3	5	10	9	240	opportunistisch	
+WR-P-P-H-0000000050_inline.xml	3	5	10	10	241	geredeneerd	
+WR-P-P-H-0000000050_inline.xml	3	5	10	11	242	.	
+
+WR-P-P-H-0000000050_inline.xml	3	6	11	1	243	De	(10)
+WR-P-P-H-0000000050_inline.xml	3	6	11	2	244	commissie	(10)
+WR-P-P-H-0000000050_inline.xml	3	6	11	3	245	wekt	
+WR-P-P-H-0000000050_inline.xml	3	6	11	4	246	met	
+WR-P-P-H-0000000050_inline.xml	3	6	11	5	247	deze	(73
+WR-P-P-H-0000000050_inline.xml	3	6	11	6	248	redenering	73)
+WR-P-P-H-0000000050_inline.xml	3	6	11	7	249	zelfs	
+WR-P-P-H-0000000050_inline.xml	3	6	11	8	250	de	(74
+WR-P-P-H-0000000050_inline.xml	3	6	11	9	251	indruk	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	10	252	dat	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	11	253	haar	74|(75|(10)
+WR-P-P-H-0000000050_inline.xml	3	6	11	12	254	oordeel	74|75)
+WR-P-P-H-0000000050_inline.xml	3	6	11	13	255	anders	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	14	256	had	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	15	257	geluid	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	16	258	als	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	17	259	over	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	18	260	de	74|(78
+WR-P-P-H-0000000050_inline.xml	3	6	11	19	261	uitleg	74|78
+WR-P-P-H-0000000050_inline.xml	3	6	11	20	262	van	74|78
+WR-P-P-H-0000000050_inline.xml	3	6	11	21	263	de	74|78|(27)
+WR-P-P-H-0000000050_inline.xml	3	6	11	22	264	kledingvoorschriften	74|78)|(27)
+WR-P-P-H-0000000050_inline.xml	3	6	11	23	265	eenstemmigheid	74|(77)
+WR-P-P-H-0000000050_inline.xml	3	6	11	24	266	had	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	25	267	bestaan	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	26	268	en	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	27	269	als	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	28	270	het	74|(80)
+WR-P-P-H-0000000050_inline.xml	3	6	11	29	271	in	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	30	272	deze	74|(81
+WR-P-P-H-0000000050_inline.xml	3	6	11	31	273	zaak	74|81)
+WR-P-P-H-0000000050_inline.xml	3	6	11	32	274	om	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	33	275	de	74|(82
+WR-P-P-H-0000000050_inline.xml	3	6	11	34	276	functie	74|82
+WR-P-P-H-0000000050_inline.xml	3	6	11	35	277	van	74|82
+WR-P-P-H-0000000050_inline.xml	3	6	11	36	278	rechter	74|82)|(83)
+WR-P-P-H-0000000050_inline.xml	3	6	11	37	279	was	74
+WR-P-P-H-0000000050_inline.xml	3	6	11	38	280	gegaan	74)
+WR-P-P-H-0000000050_inline.xml	3	6	11	39	281	.	
+
+WR-P-P-H-0000000050_inline.xml	4	1	12	1	282	Het	(75)
+WR-P-P-H-0000000050_inline.xml	4	1	12	2	283	was	
+WR-P-P-H-0000000050_inline.xml	4	1	12	3	284	sterker	
+WR-P-P-H-0000000050_inline.xml	4	1	12	4	285	en	
+WR-P-P-H-0000000050_inline.xml	4	1	12	5	286	van	
+WR-P-P-H-0000000050_inline.xml	4	1	12	6	287	wijdere	(85
+WR-P-P-H-0000000050_inline.xml	4	1	12	7	288	betekenis	85)
+WR-P-P-H-0000000050_inline.xml	4	1	12	8	289	geweest	
+WR-P-P-H-0000000050_inline.xml	4	1	12	9	290	als	
+WR-P-P-H-0000000050_inline.xml	4	1	12	10	291	de	(10)
+WR-P-P-H-0000000050_inline.xml	4	1	12	11	292	commissie	(10)
+WR-P-P-H-0000000050_inline.xml	4	1	12	12	293	het	(87
+WR-P-P-H-0000000050_inline.xml	4	1	12	13	294	belang	87
+WR-P-P-H-0000000050_inline.xml	4	1	12	14	295	van	87
+WR-P-P-H-0000000050_inline.xml	4	1	12	15	296	toga	87|(27|(89)
+WR-P-P-H-0000000050_inline.xml	4	1	12	16	297	en	87|27
+WR-P-P-H-0000000050_inline.xml	4	1	12	17	298	bef	87|27)|(90)
+WR-P-P-H-0000000050_inline.xml	4	1	12	18	299	als	87
+WR-P-P-H-0000000050_inline.xml	4	1	12	19	300	symbolen	87|(27)
+WR-P-P-H-0000000050_inline.xml	4	1	12	20	301	van	87|(27)
+WR-P-P-H-0000000050_inline.xml	4	1	12	21	302	de	87|(27)|(92
+WR-P-P-H-0000000050_inline.xml	4	1	12	22	303	integriteit	87|(27)|92
+WR-P-P-H-0000000050_inline.xml	4	1	12	23	304	van	87|(27)|92
+WR-P-P-H-0000000050_inline.xml	4	1	12	24	305	onze	87|(27)|92|(93
+WR-P-P-H-0000000050_inline.xml	4	1	12	25	306	rechtspraak	87)|(27)|92)|93)
+WR-P-P-H-0000000050_inline.xml	4	1	12	26	307	had	
+WR-P-P-H-0000000050_inline.xml	4	1	12	27	308	onderstreept	
+WR-P-P-H-0000000050_inline.xml	4	1	12	28	309	.	
+
+WR-P-P-H-0000000050_inline.xml	4	2	13	1	310	Dan	
+WR-P-P-H-0000000050_inline.xml	4	2	13	2	311	had	
+WR-P-P-H-0000000050_inline.xml	4	2	13	3	312	zij	(10)
+WR-P-P-H-0000000050_inline.xml	4	2	13	4	313	de	(95
+WR-P-P-H-0000000050_inline.xml	4	2	13	5	314	principiële	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	6	315	uitspraak	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	7	316	kunnen	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	8	317	doen	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	9	318	,	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	10	319	dat	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	11	320	degenen	95|(96
+WR-P-P-H-0000000050_inline.xml	4	2	13	12	321	die	95|96
+WR-P-P-H-0000000050_inline.xml	4	2	13	13	322	tijdens	95|96
+WR-P-P-H-0000000050_inline.xml	4	2	13	14	323	een	95|96|(97
+WR-P-P-H-0000000050_inline.xml	4	2	13	15	324	rechtszitting	95|96|97)
+WR-P-P-H-0000000050_inline.xml	4	2	13	16	325	die	95|96|(27)
+WR-P-P-H-0000000050_inline.xml	4	2	13	17	326	kleding	95|96|(27)
+WR-P-P-H-0000000050_inline.xml	4	2	13	18	327	dragen	95|96)
+WR-P-P-H-0000000050_inline.xml	4	2	13	19	328	daarmee	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	20	329	uitdrukken	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	21	330	dat	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	22	331	zij	95|(96)
+WR-P-P-H-0000000050_inline.xml	4	2	13	23	332	onafhankelijk	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	24	333	en	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	25	334	onpartijdig	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	26	335	zullen	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	27	336	optreden	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	28	337	en	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	29	338	dat	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	30	339	dus	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	31	340	uiterlijke	95|(100
+WR-P-P-H-0000000050_inline.xml	4	2	13	32	341	kenmerken	95|100
+WR-P-P-H-0000000050_inline.xml	4	2	13	33	342	van	95|100
+WR-P-P-H-0000000050_inline.xml	4	2	13	34	343	geaardheid	95|100|(101|(102)
+WR-P-P-H-0000000050_inline.xml	4	2	13	35	344	of	95|100|101
+WR-P-P-H-0000000050_inline.xml	4	2	13	36	345	religie	95|100)|101)|(103)
+WR-P-P-H-0000000050_inline.xml	4	2	13	37	346	op	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	38	347	die	95|(104
+WR-P-P-H-0000000050_inline.xml	4	2	13	39	348	plaats	95|104)
+WR-P-P-H-0000000050_inline.xml	4	2	13	40	349	en	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	41	350	op	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	42	351	dat	95|(105
+WR-P-P-H-0000000050_inline.xml	4	2	13	43	352	moment	95|105)
+WR-P-P-H-0000000050_inline.xml	4	2	13	44	353	irrelevant	95
+WR-P-P-H-0000000050_inline.xml	4	2	13	45	354	zijn	95)
+WR-P-P-H-0000000050_inline.xml	4	2	13	46	355	.	
+
+WR-P-P-H-0000000050_inline.xml	4	3	14	1	356	Anders	
+WR-P-P-H-0000000050_inline.xml	4	3	14	2	357	gezegd	
+WR-P-P-H-0000000050_inline.xml	4	3	14	3	358	,	
+WR-P-P-H-0000000050_inline.xml	4	3	14	4	359	iemand	(39)
+WR-P-P-H-0000000050_inline.xml	4	3	14	5	360	met	(39)
+WR-P-P-H-0000000050_inline.xml	4	3	14	6	361	een	(39)|(107
+WR-P-P-H-0000000050_inline.xml	4	3	14	7	362	hoofddoek	(39)|107)
+WR-P-P-H-0000000050_inline.xml	4	3	14	8	363	zou	
+WR-P-P-H-0000000050_inline.xml	4	3	14	9	364	op	
+WR-P-P-H-0000000050_inline.xml	4	3	14	10	365	die	(108
+WR-P-P-H-0000000050_inline.xml	4	3	14	11	366	manier	108)
+WR-P-P-H-0000000050_inline.xml	4	3	14	12	367	een	(109
+WR-P-P-H-0000000050_inline.xml	4	3	14	13	368	dubbel	109
+WR-P-P-H-0000000050_inline.xml	4	3	14	14	369	bewijs	109
+WR-P-P-H-0000000050_inline.xml	4	3	14	15	370	leveren	109
+WR-P-P-H-0000000050_inline.xml	4	3	14	16	371	van	109
+WR-P-P-H-0000000050_inline.xml	4	3	14	17	372	haar	109|(110|(39)
+WR-P-P-H-0000000050_inline.xml	4	3	14	18	373	integriteit	109|110
+

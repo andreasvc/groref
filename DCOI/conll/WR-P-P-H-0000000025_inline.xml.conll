@@ -1,0 +1,987 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000025_inline.xml	1	1	1	1	1	NIJMEGEN	(1)
+WR-P-P-H-0000000025_inline.xml	1	1	1	2	2	-	
+
+WR-P-P-H-0000000025_inline.xml	1	2	2	1	3	,,	
+WR-P-P-H-0000000025_inline.xml	1	2	2	2	4	De	(2
+WR-P-P-H-0000000025_inline.xml	1	2	2	3	5	boel	2)
+WR-P-P-H-0000000025_inline.xml	1	2	2	4	6	was	
+WR-P-P-H-0000000025_inline.xml	1	2	2	5	7	niet	
+WR-P-P-H-0000000025_inline.xml	1	2	2	6	8	in	
+WR-P-P-H-0000000025_inline.xml	1	2	2	7	9	de	(3
+WR-P-P-H-0000000025_inline.xml	1	2	2	8	10	hand	3)
+WR-P-P-H-0000000025_inline.xml	1	2	2	9	11	te	
+WR-P-P-H-0000000025_inline.xml	1	2	2	10	12	houden	
+WR-P-P-H-0000000025_inline.xml	1	2	2	11	13	.	
+WR-P-P-H-0000000025_inline.xml	1	2	2	12	14	''	
+
+WR-P-P-H-0000000025_inline.xml	1	3	3	1	15	Theo	(4
+WR-P-P-H-0000000025_inline.xml	1	3	3	2	16	de	4
+WR-P-P-H-0000000025_inline.xml	1	3	3	3	17	Rooij	4)
+WR-P-P-H-0000000025_inline.xml	1	3	3	4	18	stond	
+WR-P-P-H-0000000025_inline.xml	1	3	3	5	19	met	
+WR-P-P-H-0000000025_inline.xml	1	3	3	6	20	zijn	(5|(4)
+WR-P-P-H-0000000025_inline.xml	1	3	3	7	21	handen	5)
+WR-P-P-H-0000000025_inline.xml	1	3	3	8	22	in	
+WR-P-P-H-0000000025_inline.xml	1	3	3	9	23	de	(7
+WR-P-P-H-0000000025_inline.xml	1	3	3	10	24	zakken	7)
+WR-P-P-H-0000000025_inline.xml	1	3	3	11	25	.	
+
+WR-P-P-H-0000000025_inline.xml	1	4	4	1	26	Gelaten	
+WR-P-P-H-0000000025_inline.xml	1	4	4	2	27	legde	
+WR-P-P-H-0000000025_inline.xml	1	4	4	3	28	hij	(4)
+WR-P-P-H-0000000025_inline.xml	1	4	4	4	29	zich	(9)
+WR-P-P-H-0000000025_inline.xml	1	4	4	5	30	neer	
+WR-P-P-H-0000000025_inline.xml	1	4	4	6	31	bij	
+WR-P-P-H-0000000025_inline.xml	1	4	4	7	32	de	(10
+WR-P-P-H-0000000025_inline.xml	1	4	4	8	33	ingecalculeerde	10
+WR-P-P-H-0000000025_inline.xml	1	4	4	9	34	nederlaag	10
+WR-P-P-H-0000000025_inline.xml	1	4	4	10	35	die	10
+WR-P-P-H-0000000025_inline.xml	1	4	4	11	36	zijn	10|(11|(4)
+WR-P-P-H-0000000025_inline.xml	1	4	4	12	37	Rabo-ploeg	10|11)
+WR-P-P-H-0000000025_inline.xml	1	4	4	13	38	op	10
+WR-P-P-H-0000000025_inline.xml	1	4	4	14	39	het	10|(13
+WR-P-P-H-0000000025_inline.xml	1	4	4	15	40	NK	10|13)
+WR-P-P-H-0000000025_inline.xml	1	4	4	16	41	had	10
+WR-P-P-H-0000000025_inline.xml	1	4	4	17	42	geleden	10)
+WR-P-P-H-0000000025_inline.xml	1	4	4	18	43	.	
+
+WR-P-P-H-0000000025_inline.xml	1	5	5	1	44	Gegokt	
+WR-P-P-H-0000000025_inline.xml	1	5	5	2	45	en	
+WR-P-P-H-0000000025_inline.xml	1	5	5	3	46	verloren	
+WR-P-P-H-0000000025_inline.xml	1	5	5	4	47	,	
+WR-P-P-H-0000000025_inline.xml	1	5	5	5	48	luidde	
+WR-P-P-H-0000000025_inline.xml	1	5	5	6	49	de	(14
+WR-P-P-H-0000000025_inline.xml	1	5	5	7	50	conclusie	14)
+WR-P-P-H-0000000025_inline.xml	1	5	5	8	51	.	
+
+WR-P-P-H-0000000025_inline.xml	1	6	6	1	52	De	(11
+WR-P-P-H-0000000025_inline.xml	1	6	6	2	53	beste	11
+WR-P-P-H-0000000025_inline.xml	1	6	6	3	54	ploeg	11
+WR-P-P-H-0000000025_inline.xml	1	6	6	4	55	van	11
+WR-P-P-H-0000000025_inline.xml	1	6	6	5	56	de	11|(16
+WR-P-P-H-0000000025_inline.xml	1	6	6	6	57	wereld	11)|16)
+WR-P-P-H-0000000025_inline.xml	1	6	6	7	58	stond	
+WR-P-P-H-0000000025_inline.xml	1	6	6	8	59	met	
+WR-P-P-H-0000000025_inline.xml	1	6	6	9	60	lege	(17
+WR-P-P-H-0000000025_inline.xml	1	6	6	10	61	handen	17)
+WR-P-P-H-0000000025_inline.xml	1	6	6	11	62	.	
+
+WR-P-P-H-0000000025_inline.xml	2	1	7	1	63	Op	
+WR-P-P-H-0000000025_inline.xml	2	1	7	2	64	het	(18
+WR-P-P-H-0000000025_inline.xml	2	1	7	3	65	vlakke	18
+WR-P-P-H-0000000025_inline.xml	2	1	7	4	66	parcours	18
+WR-P-P-H-0000000025_inline.xml	2	1	7	5	67	in	18
+WR-P-P-H-0000000025_inline.xml	2	1	7	6	68	Nijmegen	18)|(1)
+WR-P-P-H-0000000025_inline.xml	2	1	7	7	69	slaagden	
+WR-P-P-H-0000000025_inline.xml	2	1	7	8	70	de	(11)
+WR-P-P-H-0000000025_inline.xml	2	1	7	9	71	Rabo's	(11)
+WR-P-P-H-0000000025_inline.xml	2	1	7	10	72	er	(21)
+WR-P-P-H-0000000025_inline.xml	2	1	7	11	73	niet	
+WR-P-P-H-0000000025_inline.xml	2	1	7	12	74	in	
+WR-P-P-H-0000000025_inline.xml	2	1	7	13	75	de	(22
+WR-P-P-H-0000000025_inline.xml	2	1	7	14	76	regie	22)
+WR-P-P-H-0000000025_inline.xml	2	1	7	15	77	van	
+WR-P-P-H-0000000025_inline.xml	2	1	7	16	78	start	(23)
+WR-P-P-H-0000000025_inline.xml	2	1	7	17	79	tot	
+WR-P-P-H-0000000025_inline.xml	2	1	7	18	80	finish	(24)
+WR-P-P-H-0000000025_inline.xml	2	1	7	19	81	te	
+WR-P-P-H-0000000025_inline.xml	2	1	7	20	82	bepalen	
+WR-P-P-H-0000000025_inline.xml	2	1	7	21	83	.	
+
+WR-P-P-H-0000000025_inline.xml	2	2	8	1	84	In	
+WR-P-P-H-0000000025_inline.xml	2	2	8	2	85	de	(13
+WR-P-P-H-0000000025_inline.xml	2	2	8	3	86	chaotische	13
+WR-P-P-H-0000000025_inline.xml	2	2	8	4	87	en	13
+WR-P-P-H-0000000025_inline.xml	2	2	8	5	88	vermakelijke	13
+WR-P-P-H-0000000025_inline.xml	2	2	8	6	89	eindfase	13)
+WR-P-P-H-0000000025_inline.xml	2	2	8	7	90	konden	
+WR-P-P-H-0000000025_inline.xml	2	2	8	8	91	ze	(11)
+WR-P-P-H-0000000025_inline.xml	2	2	8	9	92	de	(27
+WR-P-P-H-0000000025_inline.xml	2	2	8	10	93	gevreesde	27
+WR-P-P-H-0000000025_inline.xml	2	2	8	11	94	massasprint	27)
+WR-P-P-H-0000000025_inline.xml	2	2	8	12	95	niet	
+WR-P-P-H-0000000025_inline.xml	2	2	8	13	96	voorkomen	
+WR-P-P-H-0000000025_inline.xml	2	2	8	14	97	.	
+
+WR-P-P-H-0000000025_inline.xml	2	3	9	1	98	Bij	
+WR-P-P-H-0000000025_inline.xml	2	3	9	2	99	het	(30
+WR-P-P-H-0000000025_inline.xml	2	3	9	3	100	ingaan	30
+WR-P-P-H-0000000025_inline.xml	2	3	9	4	101	van	30
+WR-P-P-H-0000000025_inline.xml	2	3	9	5	102	de	30|(13
+WR-P-P-H-0000000025_inline.xml	2	3	9	6	103	laatste	30|13
+WR-P-P-H-0000000025_inline.xml	2	3	9	7	104	kilometers	30)|13)
+WR-P-P-H-0000000025_inline.xml	2	3	9	8	105	was	
+WR-P-P-H-0000000025_inline.xml	2	3	9	9	106	het	(28
+WR-P-P-H-0000000025_inline.xml	2	3	9	10	107	lot	28
+WR-P-P-H-0000000025_inline.xml	2	3	9	11	108	van	28
+WR-P-P-H-0000000025_inline.xml	2	3	9	12	109	de	28|(11)
+WR-P-P-H-0000000025_inline.xml	2	3	9	13	110	Rabo's	28)|(11)
+WR-P-P-H-0000000025_inline.xml	2	3	9	14	111	in	
+WR-P-P-H-0000000025_inline.xml	2	3	9	15	112	feite	
+WR-P-P-H-0000000025_inline.xml	2	3	9	16	113	al	
+WR-P-P-H-0000000025_inline.xml	2	3	9	17	114	bezegeld	
+WR-P-P-H-0000000025_inline.xml	2	3	9	18	115	.	
+
+WR-P-P-H-0000000025_inline.xml	2	4	10	1	116	Het	(11)
+WR-P-P-H-0000000025_inline.xml	2	4	10	2	117	team	(11)
+WR-P-P-H-0000000025_inline.xml	2	4	10	3	118	ontbeert	
+WR-P-P-H-0000000025_inline.xml	2	4	10	4	119	nu	
+WR-P-P-H-0000000025_inline.xml	2	4	10	5	120	eenmaal	
+WR-P-P-H-0000000025_inline.xml	2	4	10	6	121	een	(33
+WR-P-P-H-0000000025_inline.xml	2	4	10	7	122	echte	33
+WR-P-P-H-0000000025_inline.xml	2	4	10	8	123	sprinter	33)
+WR-P-P-H-0000000025_inline.xml	2	4	10	9	124	.	
+
+WR-P-P-H-0000000025_inline.xml	2	5	11	1	125	Een	(34
+WR-P-P-H-0000000025_inline.xml	2	5	11	2	126	type	34
+WR-P-P-H-0000000025_inline.xml	2	5	11	3	127	als	34
+WR-P-P-H-0000000025_inline.xml	2	5	11	4	128	Jans	34|(35
+WR-P-P-H-0000000025_inline.xml	2	5	11	5	129	Koerts	34)|35)
+WR-P-P-H-0000000025_inline.xml	2	5	11	6	130	.	
+
+WR-P-P-H-0000000025_inline.xml	3	1	12	1	131	Drie	(36
+WR-P-P-H-0000000025_inline.xml	3	1	12	2	132	jaar	36
+WR-P-P-H-0000000025_inline.xml	3	1	12	3	133	nadat	36
+WR-P-P-H-0000000025_inline.xml	3	1	12	4	134	hij	36|(35)
+WR-P-P-H-0000000025_inline.xml	3	1	12	5	135	van	36
+WR-P-P-H-0000000025_inline.xml	3	1	12	6	136	Jan	36|(38
+WR-P-P-H-0000000025_inline.xml	3	1	12	7	137	Raas	36|38)
+WR-P-P-H-0000000025_inline.xml	3	1	12	8	138	zijn	36|(39|(35)
+WR-P-P-H-0000000025_inline.xml	3	1	12	9	139	congé	36|39)
+WR-P-P-H-0000000025_inline.xml	3	1	12	10	140	had	36
+WR-P-P-H-0000000025_inline.xml	3	1	12	11	141	gekregen	36)
+WR-P-P-H-0000000025_inline.xml	3	1	12	12	142	,	
+WR-P-P-H-0000000025_inline.xml	3	1	12	13	143	was	
+WR-P-P-H-0000000025_inline.xml	3	1	12	14	144	diens	(41|(35)
+WR-P-P-H-0000000025_inline.xml	3	1	12	15	145	wraak	41)
+WR-P-P-H-0000000025_inline.xml	3	1	12	16	146	zoet	
+WR-P-P-H-0000000025_inline.xml	3	1	12	17	147	.	
+
+WR-P-P-H-0000000025_inline.xml	3	2	13	1	148	Koerts	(35)
+WR-P-P-H-0000000025_inline.xml	3	2	13	2	149	reed	
+WR-P-P-H-0000000025_inline.xml	3	2	13	3	150	in	
+WR-P-P-H-0000000025_inline.xml	3	2	13	4	151	1997	(43|(44)
+WR-P-P-H-0000000025_inline.xml	3	2	13	5	152	en	43
+WR-P-P-H-0000000025_inline.xml	3	2	13	6	153	1998	43)|(45)
+WR-P-P-H-0000000025_inline.xml	3	2	13	7	154	in	
+WR-P-P-H-0000000025_inline.xml	3	2	13	8	155	dienst	(46
+WR-P-P-H-0000000025_inline.xml	3	2	13	9	156	van	46
+WR-P-P-H-0000000025_inline.xml	3	2	13	10	157	Rabo	46)|(11)
+WR-P-P-H-0000000025_inline.xml	3	2	13	11	158	maar	
+WR-P-P-H-0000000025_inline.xml	3	2	13	12	159	kon	
+WR-P-P-H-0000000025_inline.xml	3	2	13	13	160	daar	
+WR-P-P-H-0000000025_inline.xml	3	2	13	14	161	zijn	(48|(35)
+WR-P-P-H-0000000025_inline.xml	3	2	13	15	162	faam	48)
+WR-P-P-H-0000000025_inline.xml	3	2	13	16	163	niet	
+WR-P-P-H-0000000025_inline.xml	3	2	13	17	164	waarmaken	
+WR-P-P-H-0000000025_inline.xml	3	2	13	18	165	.	
+
+WR-P-P-H-0000000025_inline.xml	3	3	14	1	166	Hij	(35)
+WR-P-P-H-0000000025_inline.xml	3	3	14	2	167	zou	
+WR-P-P-H-0000000025_inline.xml	3	3	14	3	168	ten	
+WR-P-P-H-0000000025_inline.xml	3	3	14	4	169	onder	
+WR-P-P-H-0000000025_inline.xml	3	3	14	5	170	zijn	
+WR-P-P-H-0000000025_inline.xml	3	3	14	6	171	gegaan	
+WR-P-P-H-0000000025_inline.xml	3	3	14	7	172	aan	
+WR-P-P-H-0000000025_inline.xml	3	3	14	8	173	faalangst	(51)
+WR-P-P-H-0000000025_inline.xml	3	3	14	9	174	,	
+WR-P-P-H-0000000025_inline.xml	3	3	14	10	175	waardoor	
+WR-P-P-H-0000000025_inline.xml	3	3	14	11	176	hij	(35)
+WR-P-P-H-0000000025_inline.xml	3	3	14	12	177	zich	(53)
+WR-P-P-H-0000000025_inline.xml	3	3	14	13	178	te	
+WR-P-P-H-0000000025_inline.xml	3	3	14	14	179	snel	
+WR-P-P-H-0000000025_inline.xml	3	3	14	15	180	schikte	
+WR-P-P-H-0000000025_inline.xml	3	3	14	16	181	in	
+WR-P-P-H-0000000025_inline.xml	3	3	14	17	182	een	(54
+WR-P-P-H-0000000025_inline.xml	3	3	14	18	183	rol	54
+WR-P-P-H-0000000025_inline.xml	3	3	14	19	184	als	54
+WR-P-P-H-0000000025_inline.xml	3	3	14	20	185	knecht	54)|(55)
+WR-P-P-H-0000000025_inline.xml	3	3	14	21	186	.	
+
+WR-P-P-H-0000000025_inline.xml	3	4	15	1	187	,,	
+WR-P-P-H-0000000025_inline.xml	3	4	15	2	188	Mij	(35)
+WR-P-P-H-0000000025_inline.xml	3	4	15	3	189	is	
+WR-P-P-H-0000000025_inline.xml	3	4	15	4	190	alleen	
+WR-P-P-H-0000000025_inline.xml	3	4	15	5	191	verteld	
+WR-P-P-H-0000000025_inline.xml	3	4	15	6	192	dat	
+WR-P-P-H-0000000025_inline.xml	3	4	15	7	193	ik	(35)
+WR-P-P-H-0000000025_inline.xml	3	4	15	8	194	te	
+WR-P-P-H-0000000025_inline.xml	3	4	15	9	195	weinig	
+WR-P-P-H-0000000025_inline.xml	3	4	15	10	196	won	
+WR-P-P-H-0000000025_inline.xml	3	4	15	11	197	.	
+
+WR-P-P-H-0000000025_inline.xml	3	5	16	1	198	Ik	(35)
+WR-P-P-H-0000000025_inline.xml	3	5	16	2	199	denk	
+WR-P-P-H-0000000025_inline.xml	3	5	16	3	200	dat	
+WR-P-P-H-0000000025_inline.xml	3	5	16	4	201	Jan	(38
+WR-P-P-H-0000000025_inline.xml	3	5	16	5	202	Raas	38)
+WR-P-P-H-0000000025_inline.xml	3	5	16	6	203	nu	
+WR-P-P-H-0000000025_inline.xml	3	5	16	7	204	toch	
+WR-P-P-H-0000000025_inline.xml	3	5	16	8	205	moet	
+WR-P-P-H-0000000025_inline.xml	3	5	16	9	206	toegeven	
+WR-P-P-H-0000000025_inline.xml	3	5	16	10	207	dat	
+WR-P-P-H-0000000025_inline.xml	3	5	16	11	208	hij	(38)
+WR-P-P-H-0000000025_inline.xml	3	5	16	12	209	het	(61)
+WR-P-P-H-0000000025_inline.xml	3	5	16	13	210	verkeerd	
+WR-P-P-H-0000000025_inline.xml	3	5	16	14	211	heeft	
+WR-P-P-H-0000000025_inline.xml	3	5	16	15	212	gezien	
+WR-P-P-H-0000000025_inline.xml	3	5	16	16	213	.	
+WR-P-P-H-0000000025_inline.xml	3	5	16	17	214	''	
+
+WR-P-P-H-0000000025_inline.xml	3	6	17	1	215	Koerts	(35)
+WR-P-P-H-0000000025_inline.xml	3	6	17	2	216	schonk	
+WR-P-P-H-0000000025_inline.xml	3	6	17	3	217	grinnikend	
+WR-P-P-H-0000000025_inline.xml	3	6	17	4	218	nog	
+WR-P-P-H-0000000025_inline.xml	3	6	17	5	219	een	(63
+WR-P-P-H-0000000025_inline.xml	3	6	17	6	220	mineraalwatertje	63)
+WR-P-P-H-0000000025_inline.xml	3	6	17	7	221	in	
+WR-P-P-H-0000000025_inline.xml	3	6	17	8	222	.	
+
+WR-P-P-H-0000000025_inline.xml	3	7	18	1	223	,,	
+WR-P-P-H-0000000025_inline.xml	3	7	18	2	224	Raas	(38)
+WR-P-P-H-0000000025_inline.xml	3	7	18	3	225	had	
+WR-P-P-H-0000000025_inline.xml	3	7	18	4	226	een	(35)
+WR-P-P-H-0000000025_inline.xml	3	7	18	5	227	goedkope	(35)
+WR-P-P-H-0000000025_inline.xml	3	7	18	6	228	knecht	(35)
+WR-P-P-H-0000000025_inline.xml	3	7	18	7	229	aan	
+WR-P-P-H-0000000025_inline.xml	3	7	18	8	230	mij	(35)
+WR-P-P-H-0000000025_inline.xml	3	7	18	9	231	kunnen	
+WR-P-P-H-0000000025_inline.xml	3	7	18	10	232	hebben	
+WR-P-P-H-0000000025_inline.xml	3	7	18	11	233	,	
+WR-P-P-H-0000000025_inline.xml	3	7	18	12	234	maar	
+WR-P-P-H-0000000025_inline.xml	3	7	18	13	235	nu	
+WR-P-P-H-0000000025_inline.xml	3	7	18	14	236	zal	
+WR-P-P-H-0000000025_inline.xml	3	7	18	15	237	mijn	(67|(35)
+WR-P-P-H-0000000025_inline.xml	3	7	18	16	238	prijs	67)
+WR-P-P-H-0000000025_inline.xml	3	7	18	17	239	toch	
+WR-P-P-H-0000000025_inline.xml	3	7	18	18	240	wat	
+WR-P-P-H-0000000025_inline.xml	3	7	18	19	241	hoger	
+WR-P-P-H-0000000025_inline.xml	3	7	18	20	242	liggen	
+WR-P-P-H-0000000025_inline.xml	3	7	18	21	243	.	
+WR-P-P-H-0000000025_inline.xml	3	7	18	22	244	''	
+
+WR-P-P-H-0000000025_inline.xml	4	1	19	1	245	In	
+WR-P-P-H-0000000025_inline.xml	4	1	19	2	246	de	(69
+WR-P-P-H-0000000025_inline.xml	4	1	19	3	247	filosofie	69
+WR-P-P-H-0000000025_inline.xml	4	1	19	4	248	van	69
+WR-P-P-H-0000000025_inline.xml	4	1	19	5	249	de	69|(11)
+WR-P-P-H-0000000025_inline.xml	4	1	19	6	250	Rabobank	69)|(11)
+WR-P-P-H-0000000025_inline.xml	4	1	19	7	251	past	
+WR-P-P-H-0000000025_inline.xml	4	1	19	8	252	echter	
+WR-P-P-H-0000000025_inline.xml	4	1	19	9	253	geen	(71
+WR-P-P-H-0000000025_inline.xml	4	1	19	10	254	sprinter	71)
+WR-P-P-H-0000000025_inline.xml	4	1	19	11	255	.	
+
+WR-P-P-H-0000000025_inline.xml	4	2	20	1	256	De	(11)
+WR-P-P-H-0000000025_inline.xml	4	2	20	2	257	ploeg	(11)
+WR-P-P-H-0000000025_inline.xml	4	2	20	3	258	kiest	
+WR-P-P-H-0000000025_inline.xml	4	2	20	4	259	liever	
+WR-P-P-H-0000000025_inline.xml	4	2	20	5	260	het	(73
+WR-P-P-H-0000000025_inline.xml	4	2	20	6	261	offensief	73)
+WR-P-P-H-0000000025_inline.xml	4	2	20	7	262	en	
+WR-P-P-H-0000000025_inline.xml	4	2	20	8	263	die	(74
+WR-P-P-H-0000000025_inline.xml	4	2	20	9	264	strategie	74)
+WR-P-P-H-0000000025_inline.xml	4	2	20	10	265	heeft	
+WR-P-P-H-0000000025_inline.xml	4	2	20	11	266	ze	(11)
+WR-P-P-H-0000000025_inline.xml	4	2	20	12	267	dit	
+WR-P-P-H-0000000025_inline.xml	4	2	20	13	268	voorjaar	
+WR-P-P-H-0000000025_inline.xml	4	2	20	14	269	geen	(76
+WR-P-P-H-0000000025_inline.xml	4	2	20	15	270	windeieren	76)
+WR-P-P-H-0000000025_inline.xml	4	2	20	16	271	gelegd	
+WR-P-P-H-0000000025_inline.xml	4	2	20	17	272	.	
+
+WR-P-P-H-0000000025_inline.xml	4	3	21	1	273	Ook	
+WR-P-P-H-0000000025_inline.xml	4	3	21	2	274	in	
+WR-P-P-H-0000000025_inline.xml	4	3	21	3	275	de	(78
+WR-P-P-H-0000000025_inline.xml	4	3	21	4	276	Tour	78)
+WR-P-P-H-0000000025_inline.xml	4	3	21	5	277	moet	
+WR-P-P-H-0000000025_inline.xml	4	3	21	6	278	dat	(77)
+WR-P-P-H-0000000025_inline.xml	4	3	21	7	279	tot	
+WR-P-P-H-0000000025_inline.xml	4	3	21	8	280	successen	(79)
+WR-P-P-H-0000000025_inline.xml	4	3	21	9	281	leiden	
+WR-P-P-H-0000000025_inline.xml	4	3	21	10	282	.	
+
+WR-P-P-H-0000000025_inline.xml	4	4	22	1	283	De	(80
+WR-P-P-H-0000000025_inline.xml	4	4	22	2	284	aanvalsdrift	80)
+WR-P-P-H-0000000025_inline.xml	4	4	22	3	285	openbaarde	
+WR-P-P-H-0000000025_inline.xml	4	4	22	4	286	zich	(81)
+WR-P-P-H-0000000025_inline.xml	4	4	22	5	287	op	
+WR-P-P-H-0000000025_inline.xml	4	4	22	6	288	het	(13
+WR-P-P-H-0000000025_inline.xml	4	4	22	7	289	NK	13)
+WR-P-P-H-0000000025_inline.xml	4	4	22	8	290	al	
+WR-P-P-H-0000000025_inline.xml	4	4	22	9	291	direct	
+WR-P-P-H-0000000025_inline.xml	4	4	22	10	292	na	
+WR-P-P-H-0000000025_inline.xml	4	4	22	11	293	de	(83
+WR-P-P-H-0000000025_inline.xml	4	4	22	12	294	start	83)
+WR-P-P-H-0000000025_inline.xml	4	4	22	13	295	.	
+
+WR-P-P-H-0000000025_inline.xml	4	5	23	1	296	Erik	(84
+WR-P-P-H-0000000025_inline.xml	4	5	23	2	297	Dekker	84)
+WR-P-P-H-0000000025_inline.xml	4	5	23	3	298	,	
+WR-P-P-H-0000000025_inline.xml	4	5	23	4	299	de	(85
+WR-P-P-H-0000000025_inline.xml	4	5	23	5	300	personificatie	85
+WR-P-P-H-0000000025_inline.xml	4	5	23	6	301	van	85
+WR-P-P-H-0000000025_inline.xml	4	5	23	7	302	de	85|(86
+WR-P-P-H-0000000025_inline.xml	4	5	23	8	303	vrijbuitersgeest	85|86
+WR-P-P-H-0000000025_inline.xml	4	5	23	9	304	binnen	85|86
+WR-P-P-H-0000000025_inline.xml	4	5	23	10	305	de	85|86|(11)
+WR-P-P-H-0000000025_inline.xml	4	5	23	11	306	Rabobank	85)|86)|(11)
+WR-P-P-H-0000000025_inline.xml	4	5	23	12	307	,	
+WR-P-P-H-0000000025_inline.xml	4	5	23	13	308	nam	
+WR-P-P-H-0000000025_inline.xml	4	5	23	14	309	als	
+WR-P-P-H-0000000025_inline.xml	4	5	23	15	310	zo	
+WR-P-P-H-0000000025_inline.xml	4	5	23	16	311	vaak	
+WR-P-P-H-0000000025_inline.xml	4	5	23	17	312	het	(88
+WR-P-P-H-0000000025_inline.xml	4	5	23	18	313	initiatief	88)
+WR-P-P-H-0000000025_inline.xml	4	5	23	19	314	.	
+
+WR-P-P-H-0000000025_inline.xml	4	6	24	1	315	Het	(89)
+WR-P-P-H-0000000025_inline.xml	4	6	24	2	316	leidde	
+WR-P-P-H-0000000025_inline.xml	4	6	24	3	317	tot	
+WR-P-P-H-0000000025_inline.xml	4	6	24	4	318	een	(90
+WR-P-P-H-0000000025_inline.xml	4	6	24	5	319	ontsnapping	90
+WR-P-P-H-0000000025_inline.xml	4	6	24	6	320	van	90
+WR-P-P-H-0000000025_inline.xml	4	6	24	7	321	veertien	90|(92
+WR-P-P-H-0000000025_inline.xml	4	6	24	8	322	man	90|92
+WR-P-P-H-0000000025_inline.xml	4	6	24	9	323	,	90|92
+WR-P-P-H-0000000025_inline.xml	4	6	24	10	324	met	90|92
+WR-P-P-H-0000000025_inline.xml	4	6	24	11	325	vier	90|92|(91
+WR-P-P-H-0000000025_inline.xml	4	6	24	12	326	Rabo's	90|92|91)
+WR-P-P-H-0000000025_inline.xml	4	6	24	13	327	,	90|92
+WR-P-P-H-0000000025_inline.xml	4	6	24	14	328	onder	90|92|(94
+WR-P-P-H-0000000025_inline.xml	4	6	24	15	329	wie	90|92|94|(93)
+WR-P-P-H-0000000025_inline.xml	4	6	24	16	330	ook	90|92|94
+WR-P-P-H-0000000025_inline.xml	4	6	24	17	331	Michael	90|92|94|(271
+WR-P-P-H-0000000025_inline.xml	4	6	24	18	332	Boogerd	90)|92)|94)|271)
+WR-P-P-H-0000000025_inline.xml	4	6	24	19	333	.	
+
+WR-P-P-H-0000000025_inline.xml	4	7	25	1	334	De	(4
+WR-P-P-H-0000000025_inline.xml	4	7	25	2	335	Rooij	4)
+WR-P-P-H-0000000025_inline.xml	4	7	25	3	336	:	
+WR-P-P-H-0000000025_inline.xml	4	7	25	4	337	,,	
+WR-P-P-H-0000000025_inline.xml	4	7	25	5	338	Het	(96)
+WR-P-P-H-0000000025_inline.xml	4	7	25	6	339	was	
+WR-P-P-H-0000000025_inline.xml	4	7	25	7	340	een	(97
+WR-P-P-H-0000000025_inline.xml	4	7	25	8	341	gok	97
+WR-P-P-H-0000000025_inline.xml	4	7	25	9	342	,	97
+WR-P-P-H-0000000025_inline.xml	4	7	25	10	343	zo	97
+WR-P-P-H-0000000025_inline.xml	4	7	25	11	344	vroeg	97
+WR-P-P-H-0000000025_inline.xml	4	7	25	12	345	al	97
+WR-P-P-H-0000000025_inline.xml	4	7	25	13	346	,	97
+WR-P-P-H-0000000025_inline.xml	4	7	25	14	347	een	97|(98
+WR-P-P-H-0000000025_inline.xml	4	7	25	15	348	spelletje	97|98
+WR-P-P-H-0000000025_inline.xml	4	7	25	16	349	poker	97)|98)|(99)
+WR-P-P-H-0000000025_inline.xml	4	7	25	17	350	.	
+WR-P-P-H-0000000025_inline.xml	4	7	25	18	351	''	
+
+WR-P-P-H-0000000025_inline.xml	5	1	26	1	352	Een	(100|(101
+WR-P-P-H-0000000025_inline.xml	5	1	26	2	353	meesterzet	100|101
+WR-P-P-H-0000000025_inline.xml	5	1	26	3	354	,	100|101
+WR-P-P-H-0000000025_inline.xml	5	1	26	4	355	zo	100|101
+WR-P-P-H-0000000025_inline.xml	5	1	26	5	356	leek	100|101
+WR-P-P-H-0000000025_inline.xml	5	1	26	6	357	het	100|101)|(102)
+WR-P-P-H-0000000025_inline.xml	5	1	26	7	358	,	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	8	359	want	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	9	360	de	100|(103
+WR-P-P-H-0000000025_inline.xml	5	1	26	10	361	Bankgiroloterij-ploeg	100|103)
+WR-P-P-H-0000000025_inline.xml	5	1	26	11	362	moest	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	12	363	kilometerslang	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	13	364	aan	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	14	365	kop	100|(104
+WR-P-P-H-0000000025_inline.xml	5	1	26	15	366	van	100|104
+WR-P-P-H-0000000025_inline.xml	5	1	26	16	367	het	100|104|(105
+WR-P-P-H-0000000025_inline.xml	5	1	26	17	368	peloton	100|104)|105)
+WR-P-P-H-0000000025_inline.xml	5	1	26	18	369	sleuren	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	19	370	om	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	20	371	een	100|(106
+WR-P-P-H-0000000025_inline.xml	5	1	26	21	372	hergroepering	100|106)
+WR-P-P-H-0000000025_inline.xml	5	1	26	22	373	tot	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	23	374	stand	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	24	375	te	100
+WR-P-P-H-0000000025_inline.xml	5	1	26	25	376	brengen	100)
+WR-P-P-H-0000000025_inline.xml	5	1	26	26	377	.	
+
+WR-P-P-H-0000000025_inline.xml	5	2	27	1	378	Dat	(107)
+WR-P-P-H-0000000025_inline.xml	5	2	27	2	379	lukte	
+WR-P-P-H-0000000025_inline.xml	5	2	27	3	380	.	
+
+WR-P-P-H-0000000025_inline.xml	5	3	28	1	381	Daarna	
+WR-P-P-H-0000000025_inline.xml	5	3	28	2	382	reed	
+WR-P-P-H-0000000025_inline.xml	5	3	28	3	383	Karsten	(108
+WR-P-P-H-0000000025_inline.xml	5	3	28	4	384	Kroon	108
+WR-P-P-H-0000000025_inline.xml	5	3	28	5	385	(	108
+WR-P-P-H-0000000025_inline.xml	5	3	28	6	386	Rabo	108)|(11)
+WR-P-P-H-0000000025_inline.xml	5	3	28	7	387	)	
+WR-P-P-H-0000000025_inline.xml	5	3	28	8	388	alleen	
+WR-P-P-H-0000000025_inline.xml	5	3	28	9	389	voor	
+WR-P-P-H-0000000025_inline.xml	5	3	28	10	390	het	(105
+WR-P-P-H-0000000025_inline.xml	5	3	28	11	391	peloton	105)
+WR-P-P-H-0000000025_inline.xml	5	3	28	12	392	uit	
+WR-P-P-H-0000000025_inline.xml	5	3	28	13	393	,	
+WR-P-P-H-0000000025_inline.xml	5	3	28	14	394	maar	
+WR-P-P-H-0000000025_inline.xml	5	3	28	15	395	in	
+WR-P-P-H-0000000025_inline.xml	5	3	28	16	396	de	(112
+WR-P-P-H-0000000025_inline.xml	5	3	28	17	397	visie	112
+WR-P-P-H-0000000025_inline.xml	5	3	28	18	398	van	112
+WR-P-P-H-0000000025_inline.xml	5	3	28	19	399	Boogerd	112)|(271)
+WR-P-P-H-0000000025_inline.xml	5	3	28	20	400	hadden	
+WR-P-P-H-0000000025_inline.xml	5	3	28	21	401	meer	(111
+WR-P-P-H-0000000025_inline.xml	5	3	28	22	402	ploeggenoten	111)
+WR-P-P-H-0000000025_inline.xml	5	3	28	23	403	daarbij	
+WR-P-P-H-0000000025_inline.xml	5	3	28	24	404	betrokken	
+WR-P-P-H-0000000025_inline.xml	5	3	28	25	405	moeten	
+WR-P-P-H-0000000025_inline.xml	5	3	28	26	406	zijn	
+WR-P-P-H-0000000025_inline.xml	5	3	28	27	407	.	
+
+WR-P-P-H-0000000025_inline.xml	5	4	29	1	408	De	(114
+WR-P-P-H-0000000025_inline.xml	5	4	29	2	409	concurrentie	114)
+WR-P-P-H-0000000025_inline.xml	5	4	29	3	410	hield	
+WR-P-P-H-0000000025_inline.xml	5	4	29	4	411	de	(108
+WR-P-P-H-0000000025_inline.xml	5	4	29	5	412	eenzame	108
+WR-P-P-H-0000000025_inline.xml	5	4	29	6	413	Kroon	108)
+WR-P-P-H-0000000025_inline.xml	5	4	29	7	414	immers	
+WR-P-P-H-0000000025_inline.xml	5	4	29	8	415	binnen	
+WR-P-P-H-0000000025_inline.xml	5	4	29	9	416	bereik	(116)
+WR-P-P-H-0000000025_inline.xml	5	4	29	10	417	.	
+
+WR-P-P-H-0000000025_inline.xml	5	5	30	1	418	Boogerd	(271)
+WR-P-P-H-0000000025_inline.xml	5	5	30	2	419	:	
+WR-P-P-H-0000000025_inline.xml	5	5	30	3	420	,,	
+WR-P-P-H-0000000025_inline.xml	5	5	30	4	421	Ik	(271)
+WR-P-P-H-0000000025_inline.xml	5	5	30	5	422	denk	
+WR-P-P-H-0000000025_inline.xml	5	5	30	6	423	dat	
+WR-P-P-H-0000000025_inline.xml	5	5	30	7	424	veel	(119
+WR-P-P-H-0000000025_inline.xml	5	5	30	8	425	jongens	119
+WR-P-P-H-0000000025_inline.xml	5	5	30	9	426	bij	119
+WR-P-P-H-0000000025_inline.xml	5	5	30	10	427	ons	119)|(11)
+WR-P-P-H-0000000025_inline.xml	5	5	30	11	428	niet	
+WR-P-P-H-0000000025_inline.xml	5	5	30	12	429	de	(121
+WR-P-P-H-0000000025_inline.xml	5	5	30	13	430	goede	121
+WR-P-P-H-0000000025_inline.xml	5	5	30	14	431	benen	121)
+WR-P-P-H-0000000025_inline.xml	5	5	30	15	432	hadden	
+WR-P-P-H-0000000025_inline.xml	5	5	30	16	433	.	
+
+WR-P-P-H-0000000025_inline.xml	5	6	31	1	434	We	(11)
+WR-P-P-H-0000000025_inline.xml	5	6	31	2	435	hebben	
+WR-P-P-H-0000000025_inline.xml	5	6	31	3	436	de	(13)
+WR-P-P-H-0000000025_inline.xml	5	6	31	4	437	koers	(13)
+WR-P-P-H-0000000025_inline.xml	5	6	31	5	438	hard	
+WR-P-P-H-0000000025_inline.xml	5	6	31	6	439	gemaakt	
+WR-P-P-H-0000000025_inline.xml	5	6	31	7	440	,	
+WR-P-P-H-0000000025_inline.xml	5	6	31	8	441	maar	
+WR-P-P-H-0000000025_inline.xml	5	6	31	9	442	niet	
+WR-P-P-H-0000000025_inline.xml	5	6	31	10	443	hard	
+WR-P-P-H-0000000025_inline.xml	5	6	31	11	444	genoeg	
+WR-P-P-H-0000000025_inline.xml	5	6	31	12	445	.	
+WR-P-P-H-0000000025_inline.xml	5	6	31	13	446	''	
+
+WR-P-P-H-0000000025_inline.xml	6	1	32	1	447	Boogerd	(271)
+WR-P-P-H-0000000025_inline.xml	6	1	32	2	448	zelf	(271)
+WR-P-P-H-0000000025_inline.xml	6	1	32	3	449	voelde	
+WR-P-P-H-0000000025_inline.xml	6	1	32	4	450	na	
+WR-P-P-H-0000000025_inline.xml	6	1	32	5	451	een	(125
+WR-P-P-H-0000000025_inline.xml	6	1	32	6	452	korte	125
+WR-P-P-H-0000000025_inline.xml	6	1	32	7	453	rustperiode	125)
+WR-P-P-H-0000000025_inline.xml	6	1	32	8	454	wel	
+WR-P-P-H-0000000025_inline.xml	6	1	32	9	455	weer	
+WR-P-P-H-0000000025_inline.xml	6	1	32	10	456	kruit	(126
+WR-P-P-H-0000000025_inline.xml	6	1	32	11	457	in	126
+WR-P-P-H-0000000025_inline.xml	6	1	32	12	458	zijn	126|(127|(271)
+WR-P-P-H-0000000025_inline.xml	6	1	32	13	459	kuiten	126)|127)
+WR-P-P-H-0000000025_inline.xml	6	1	32	14	460	.	
+
+WR-P-P-H-0000000025_inline.xml	6	2	33	1	461	Bij	
+WR-P-P-H-0000000025_inline.xml	6	2	33	2	462	het	(129
+WR-P-P-H-0000000025_inline.xml	6	2	33	3	463	ingaan	129
+WR-P-P-H-0000000025_inline.xml	6	2	33	4	464	van	129
+WR-P-P-H-0000000025_inline.xml	6	2	33	5	465	de	129|(130
+WR-P-P-H-0000000025_inline.xml	6	2	33	6	466	finale	129)|130)
+WR-P-P-H-0000000025_inline.xml	6	2	33	7	467	maakte	
+WR-P-P-H-0000000025_inline.xml	6	2	33	8	468	hij	(271)
+WR-P-P-H-0000000025_inline.xml	6	2	33	9	469	deel	
+WR-P-P-H-0000000025_inline.xml	6	2	33	10	470	uit	
+WR-P-P-H-0000000025_inline.xml	6	2	33	11	471	van	
+WR-P-P-H-0000000025_inline.xml	6	2	33	12	472	een	(132
+WR-P-P-H-0000000025_inline.xml	6	2	33	13	473	kopgroep	132
+WR-P-P-H-0000000025_inline.xml	6	2	33	14	474	van	132
+WR-P-P-H-0000000025_inline.xml	6	2	33	15	475	negen	132|(133
+WR-P-P-H-0000000025_inline.xml	6	2	33	16	476	man	132)|133)
+WR-P-P-H-0000000025_inline.xml	6	2	33	17	477	.	
+
+WR-P-P-H-0000000025_inline.xml	6	3	34	1	478	Rabo	(11)
+WR-P-P-H-0000000025_inline.xml	6	3	34	2	479	was	
+WR-P-P-H-0000000025_inline.xml	6	3	34	3	480	daarin	
+WR-P-P-H-0000000025_inline.xml	6	3	34	4	481	weliswaar	
+WR-P-P-H-0000000025_inline.xml	6	3	34	5	482	met	
+WR-P-P-H-0000000025_inline.xml	6	3	34	6	483	vier	(135
+WR-P-P-H-0000000025_inline.xml	6	3	34	7	484	man	135)
+WR-P-P-H-0000000025_inline.xml	6	3	34	8	485	vertegenwoordigd	
+WR-P-P-H-0000000025_inline.xml	6	3	34	9	486	,	
+WR-P-P-H-0000000025_inline.xml	6	3	34	10	487	maar	
+WR-P-P-H-0000000025_inline.xml	6	3	34	11	488	Vierhouten	(136|(137)
+WR-P-P-H-0000000025_inline.xml	6	3	34	12	489	,	136
+WR-P-P-H-0000000025_inline.xml	6	3	34	13	490	Löwik	136|(138)
+WR-P-P-H-0000000025_inline.xml	6	3	34	14	491	en	136
+WR-P-P-H-0000000025_inline.xml	6	3	34	15	492	Groenendaal	136)|(139)
+WR-P-P-H-0000000025_inline.xml	6	3	34	16	493	hadden	
+WR-P-P-H-0000000025_inline.xml	6	3	34	17	494	het	(140
+WR-P-P-H-0000000025_inline.xml	6	3	34	18	495	beste	140
+WR-P-P-H-0000000025_inline.xml	6	3	34	19	496	van	140
+WR-P-P-H-0000000025_inline.xml	6	3	34	20	497	zichzelf	140)|(136)
+WR-P-P-H-0000000025_inline.xml	6	3	34	21	498	al	
+WR-P-P-H-0000000025_inline.xml	6	3	34	22	499	gegeven	
+WR-P-P-H-0000000025_inline.xml	6	3	34	23	500	.	
+
+WR-P-P-H-0000000025_inline.xml	7	1	35	1	501	Een	(142
+WR-P-P-H-0000000025_inline.xml	7	1	35	2	502	'	142
+WR-P-P-H-0000000025_inline.xml	7	1	35	3	503	rotsituatie	142)
+WR-P-P-H-0000000025_inline.xml	7	1	35	4	504	'	
+WR-P-P-H-0000000025_inline.xml	7	1	35	5	505	vond	
+WR-P-P-H-0000000025_inline.xml	7	1	35	6	506	Boogerd	(271)
+WR-P-P-H-0000000025_inline.xml	7	1	35	7	507	,	
+WR-P-P-H-0000000025_inline.xml	7	1	35	8	508	want	
+WR-P-P-H-0000000025_inline.xml	7	1	35	9	509	verder	
+WR-P-P-H-0000000025_inline.xml	7	1	35	10	510	reden	
+WR-P-P-H-0000000025_inline.xml	7	1	35	11	511	vooral	
+WR-P-P-H-0000000025_inline.xml	7	1	35	12	512	snelle	(144
+WR-P-P-H-0000000025_inline.xml	7	1	35	13	513	mannen	144)
+WR-P-P-H-0000000025_inline.xml	7	1	35	14	514	om	
+WR-P-P-H-0000000025_inline.xml	7	1	35	15	515	hem	(271)
+WR-P-P-H-0000000025_inline.xml	7	1	35	16	516	heen	
+WR-P-P-H-0000000025_inline.xml	7	1	35	17	517	:	
+WR-P-P-H-0000000025_inline.xml	7	1	35	18	518	Koerts	(146|(35)
+WR-P-P-H-0000000025_inline.xml	7	1	35	19	519	,	146
+WR-P-P-H-0000000025_inline.xml	7	1	35	20	520	Kemna	146|(148)
+WR-P-P-H-0000000025_inline.xml	7	1	35	21	521	en	146
+WR-P-P-H-0000000025_inline.xml	7	1	35	22	522	Van	146|(149
+WR-P-P-H-0000000025_inline.xml	7	1	35	23	523	Dijk	146)|149)
+WR-P-P-H-0000000025_inline.xml	7	1	35	24	524	.	
+
+WR-P-P-H-0000000025_inline.xml	7	2	36	1	525	Steeds	
+WR-P-P-H-0000000025_inline.xml	7	2	36	2	526	weer	
+WR-P-P-H-0000000025_inline.xml	7	2	36	3	527	meldde	
+WR-P-P-H-0000000025_inline.xml	7	2	36	4	528	Boogerd	(271)
+WR-P-P-H-0000000025_inline.xml	7	2	36	5	529	zich	(151)
+WR-P-P-H-0000000025_inline.xml	7	2	36	6	530	bij	
+WR-P-P-H-0000000025_inline.xml	7	2	36	7	531	de	(152
+WR-P-P-H-0000000025_inline.xml	7	2	36	8	532	ploegleiderswagen	152
+WR-P-P-H-0000000025_inline.xml	7	2	36	9	533	van	152
+WR-P-P-H-0000000025_inline.xml	7	2	36	10	534	De	152|(4)
+WR-P-P-H-0000000025_inline.xml	7	2	36	11	535	Rooij	152)|(4)
+WR-P-P-H-0000000025_inline.xml	7	2	36	12	536	en	
+WR-P-P-H-0000000025_inline.xml	7	2	36	13	537	dat	(154)
+WR-P-P-H-0000000025_inline.xml	7	2	36	14	538	amuseerde	
+WR-P-P-H-0000000025_inline.xml	7	2	36	15	539	Koerts	(35)
+WR-P-P-H-0000000025_inline.xml	7	2	36	16	540	.	
+
+WR-P-P-H-0000000025_inline.xml	7	3	37	1	541	,,	
+WR-P-P-H-0000000025_inline.xml	7	3	37	2	542	Ik	(35)
+WR-P-P-H-0000000025_inline.xml	7	3	37	3	543	denk	
+WR-P-P-H-0000000025_inline.xml	7	3	37	4	544	dat	
+WR-P-P-H-0000000025_inline.xml	7	3	37	5	545	Theo	(4)
+WR-P-P-H-0000000025_inline.xml	7	3	37	6	546	van	
+WR-P-P-H-0000000025_inline.xml	7	3	37	7	547	de	(158
+WR-P-P-H-0000000025_inline.xml	7	3	37	8	548	zenuwen	158)
+WR-P-P-H-0000000025_inline.xml	7	3	37	9	549	in	
+WR-P-P-H-0000000025_inline.xml	7	3	37	10	550	zijn	(159|(4)
+WR-P-P-H-0000000025_inline.xml	7	3	37	11	551	broek	159)
+WR-P-P-H-0000000025_inline.xml	7	3	37	12	552	heeft	
+WR-P-P-H-0000000025_inline.xml	7	3	37	13	553	geplast	
+WR-P-P-H-0000000025_inline.xml	7	3	37	14	554	.	
+WR-P-P-H-0000000025_inline.xml	7	3	37	15	555	''	
+
+WR-P-P-H-0000000025_inline.xml	8	1	38	1	556	De	(4)
+WR-P-P-H-0000000025_inline.xml	8	1	38	2	557	Rooij	(4)
+WR-P-P-H-0000000025_inline.xml	8	1	38	3	558	gaf	
+WR-P-P-H-0000000025_inline.xml	8	1	38	4	559	de	(162
+WR-P-P-H-0000000025_inline.xml	8	1	38	5	560	Rabo-renners	162
+WR-P-P-H-0000000025_inline.xml	8	1	38	6	561	in	162
+WR-P-P-H-0000000025_inline.xml	8	1	38	7	562	het	162|(163
+WR-P-P-H-0000000025_inline.xml	8	1	38	8	563	peloton	162)|163)
+WR-P-P-H-0000000025_inline.xml	8	1	38	9	564	uiteindelijk	
+WR-P-P-H-0000000025_inline.xml	8	1	38	10	565	de	(164
+WR-P-P-H-0000000025_inline.xml	8	1	38	11	566	opdracht	164
+WR-P-P-H-0000000025_inline.xml	8	1	38	12	567	het	164|(165
+WR-P-P-H-0000000025_inline.xml	8	1	38	13	568	gat	164|165)
+WR-P-P-H-0000000025_inline.xml	8	1	38	14	569	dicht	164
+WR-P-P-H-0000000025_inline.xml	8	1	38	15	570	te	164
+WR-P-P-H-0000000025_inline.xml	8	1	38	16	571	rijden	164)
+WR-P-P-H-0000000025_inline.xml	8	1	38	17	572	.	
+
+WR-P-P-H-0000000025_inline.xml	8	2	39	1	573	Dat	(166)
+WR-P-P-H-0000000025_inline.xml	8	2	39	2	574	luidde	
+WR-P-P-H-0000000025_inline.xml	8	2	39	3	575	een	(167
+WR-P-P-H-0000000025_inline.xml	8	2	39	4	576	hectische	167
+WR-P-P-H-0000000025_inline.xml	8	2	39	5	577	finale	167)
+WR-P-P-H-0000000025_inline.xml	8	2	39	6	578	in	
+WR-P-P-H-0000000025_inline.xml	8	2	39	7	579	.	
+
+WR-P-P-H-0000000025_inline.xml	8	3	40	1	580	Plots	
+WR-P-P-H-0000000025_inline.xml	8	3	40	2	581	stond	
+WR-P-P-H-0000000025_inline.xml	8	3	40	3	582	het	(105)
+WR-P-P-H-0000000025_inline.xml	8	3	40	4	583	peloton	(105)
+WR-P-P-H-0000000025_inline.xml	8	3	40	5	584	in	
+WR-P-P-H-0000000025_inline.xml	8	3	40	6	585	vuur	(169|(170)
+WR-P-P-H-0000000025_inline.xml	8	3	40	7	586	en	169
+WR-P-P-H-0000000025_inline.xml	8	3	40	8	587	vlam	169)|(171)
+WR-P-P-H-0000000025_inline.xml	8	3	40	9	588	.	
+
+WR-P-P-H-0000000025_inline.xml	8	4	41	1	589	Dekker	(84)
+WR-P-P-H-0000000025_inline.xml	8	4	41	2	590	probeerde	
+WR-P-P-H-0000000025_inline.xml	8	4	41	3	591	het	(173)
+WR-P-P-H-0000000025_inline.xml	8	4	41	4	592	,	
+WR-P-P-H-0000000025_inline.xml	8	4	41	5	593	maar	
+WR-P-P-H-0000000025_inline.xml	8	4	41	6	594	ook	(174|(177|(176|(175
+WR-P-P-H-0000000025_inline.xml	8	4	41	7	595	Van	174|177|176|175
+WR-P-P-H-0000000025_inline.xml	8	4	41	8	596	Heeswijk	174|177|176|175)
+WR-P-P-H-0000000025_inline.xml	8	4	41	9	597	,	174|177|176
+WR-P-P-H-0000000025_inline.xml	8	4	41	10	598	Van	174|177|176
+WR-P-P-H-0000000025_inline.xml	8	4	41	11	599	Bon	174|177|176)
+WR-P-P-H-0000000025_inline.xml	8	4	41	12	600	en	174|177
+WR-P-P-H-0000000025_inline.xml	8	4	41	13	601	Voskamp	174)|177)
+WR-P-P-H-0000000025_inline.xml	8	4	41	14	602	kropen	
+WR-P-P-H-0000000025_inline.xml	8	4	41	15	603	uit	
+WR-P-P-H-0000000025_inline.xml	8	4	41	16	604	de	(178
+WR-P-P-H-0000000025_inline.xml	8	4	41	17	605	schulp	178)
+WR-P-P-H-0000000025_inline.xml	8	4	41	18	606	.	
+
+WR-P-P-H-0000000025_inline.xml	8	5	42	1	607	De	(4)
+WR-P-P-H-0000000025_inline.xml	8	5	42	2	608	Rooij	(4)
+WR-P-P-H-0000000025_inline.xml	8	5	42	3	609	wist	
+WR-P-P-H-0000000025_inline.xml	8	5	42	4	610	toen	
+WR-P-P-H-0000000025_inline.xml	8	5	42	5	611	dat	
+WR-P-P-H-0000000025_inline.xml	8	5	42	6	612	het	(180
+WR-P-P-H-0000000025_inline.xml	8	5	42	7	613	kalf	180)
+WR-P-P-H-0000000025_inline.xml	8	5	42	8	614	verdronken	
+WR-P-P-H-0000000025_inline.xml	8	5	42	9	615	was	
+WR-P-P-H-0000000025_inline.xml	8	5	42	10	616	.	
+
+WR-P-P-H-0000000025_inline.xml	8	6	43	1	617	,,	
+WR-P-P-H-0000000025_inline.xml	8	6	43	2	618	De	(181
+WR-P-P-H-0000000025_inline.xml	8	6	43	3	619	rest	181)
+WR-P-P-H-0000000025_inline.xml	8	6	43	4	620	heeft	
+WR-P-P-H-0000000025_inline.xml	8	6	43	5	621	vooral	
+WR-P-P-H-0000000025_inline.xml	8	6	43	6	622	gewacht	
+WR-P-P-H-0000000025_inline.xml	8	6	43	7	623	totdat	
+WR-P-P-H-0000000025_inline.xml	8	6	43	8	624	wij	(11)
+WR-P-P-H-0000000025_inline.xml	8	6	43	9	625	uitgebloed	(183)
+WR-P-P-H-0000000025_inline.xml	8	6	43	10	626	waren	
+WR-P-P-H-0000000025_inline.xml	8	6	43	11	627	.	
+WR-P-P-H-0000000025_inline.xml	8	6	43	12	628	''	
+
+WR-P-P-H-0000000025_inline.xml	9	1	44	1	629	Boogerd	(271)
+WR-P-P-H-0000000025_inline.xml	9	1	44	2	630	leek	
+WR-P-P-H-0000000025_inline.xml	9	1	44	3	631	de	(185
+WR-P-P-H-0000000025_inline.xml	9	1	44	4	632	pure	185
+WR-P-P-H-0000000025_inline.xml	9	1	44	5	633	sprinters	185)
+WR-P-P-H-0000000025_inline.xml	9	1	44	6	634	nog	
+WR-P-P-H-0000000025_inline.xml	9	1	44	7	635	even	
+WR-P-P-H-0000000025_inline.xml	9	1	44	8	636	te	
+WR-P-P-H-0000000025_inline.xml	9	1	44	9	637	verrassen	
+WR-P-P-H-0000000025_inline.xml	9	1	44	10	638	toen	
+WR-P-P-H-0000000025_inline.xml	9	1	44	11	639	hij	(271)
+WR-P-P-H-0000000025_inline.xml	9	1	44	12	640	in	
+WR-P-P-H-0000000025_inline.xml	9	1	44	13	641	de	(187
+WR-P-P-H-0000000025_inline.xml	9	1	44	14	642	laatste	187
+WR-P-P-H-0000000025_inline.xml	9	1	44	15	643	bocht	187)
+WR-P-P-H-0000000025_inline.xml	9	1	44	16	644	tien	(188
+WR-P-P-H-0000000025_inline.xml	9	1	44	17	645	meter	188
+WR-P-P-H-0000000025_inline.xml	9	1	44	18	646	voorsprong	188)|(189)
+WR-P-P-H-0000000025_inline.xml	9	1	44	19	647	nam	
+WR-P-P-H-0000000025_inline.xml	9	1	44	20	648	.	
+
+WR-P-P-H-0000000025_inline.xml	9	2	45	1	649	,,	
+WR-P-P-H-0000000025_inline.xml	9	2	45	2	650	Het	(190)
+WR-P-P-H-0000000025_inline.xml	9	2	45	3	651	duurde	
+WR-P-P-H-0000000025_inline.xml	9	2	45	4	652	lang	
+WR-P-P-H-0000000025_inline.xml	9	2	45	5	653	voordat	
+WR-P-P-H-0000000025_inline.xml	9	2	45	6	654	ze	(191)
+WR-P-P-H-0000000025_inline.xml	9	2	45	7	655	over	
+WR-P-P-H-0000000025_inline.xml	9	2	45	8	656	me	(271)
+WR-P-P-H-0000000025_inline.xml	9	2	45	9	657	heen	
+WR-P-P-H-0000000025_inline.xml	9	2	45	10	658	kwamen	
+WR-P-P-H-0000000025_inline.xml	9	2	45	11	659	.	
+WR-P-P-H-0000000025_inline.xml	9	2	45	12	660	''	
+
+WR-P-P-H-0000000025_inline.xml	9	3	46	1	661	Boogerd	(271)
+WR-P-P-H-0000000025_inline.xml	9	3	46	2	662	werd	
+WR-P-P-H-0000000025_inline.xml	9	3	46	3	663	derde	(194)
+WR-P-P-H-0000000025_inline.xml	9	3	46	4	664	,	
+WR-P-P-H-0000000025_inline.xml	9	3	46	5	665	Kemna	(148)
+WR-P-P-H-0000000025_inline.xml	9	3	46	6	666	tweede	(196)
+WR-P-P-H-0000000025_inline.xml	9	3	46	7	667	,	
+WR-P-P-H-0000000025_inline.xml	9	3	46	8	668	maar	
+WR-P-P-H-0000000025_inline.xml	9	3	46	9	669	Koerts	(35)
+WR-P-P-H-0000000025_inline.xml	9	3	46	10	670	was	
+WR-P-P-H-0000000025_inline.xml	9	3	46	11	671	ongenaakbaar	
+WR-P-P-H-0000000025_inline.xml	9	3	46	12	672	.	
+
+WR-P-P-H-0000000025_inline.xml	9	4	47	1	673	Hij	(35)
+WR-P-P-H-0000000025_inline.xml	9	4	47	2	674	had	
+WR-P-P-H-0000000025_inline.xml	9	4	47	3	675	tijdens	
+WR-P-P-H-0000000025_inline.xml	9	4	47	4	676	het	(199
+WR-P-P-H-0000000025_inline.xml	9	4	47	5	677	sprinten	199)
+WR-P-P-H-0000000025_inline.xml	9	4	47	6	678	zelfs	
+WR-P-P-H-0000000025_inline.xml	9	4	47	7	679	nog	
+WR-P-P-H-0000000025_inline.xml	9	4	47	8	680	even	
+WR-P-P-H-0000000025_inline.xml	9	4	47	9	681	tijd	(200
+WR-P-P-H-0000000025_inline.xml	9	4	47	10	682	om	200
+WR-P-P-H-0000000025_inline.xml	9	4	47	11	683	om	200
+WR-P-P-H-0000000025_inline.xml	9	4	47	12	684	te	200
+WR-P-P-H-0000000025_inline.xml	9	4	47	13	685	kijken	200)
+WR-P-P-H-0000000025_inline.xml	9	4	47	14	686	.	
+
+WR-P-P-H-0000000025_inline.xml	9	5	48	1	687	Van	
+WR-P-P-H-0000000025_inline.xml	9	5	48	2	688	Jeroen	(201
+WR-P-P-H-0000000025_inline.xml	9	5	48	3	689	Blijlevens	201
+WR-P-P-H-0000000025_inline.xml	9	5	48	4	690	(	201
+WR-P-P-H-0000000025_inline.xml	9	5	48	5	691	24ste	201)
+WR-P-P-H-0000000025_inline.xml	9	5	48	6	692	)	
+WR-P-P-H-0000000025_inline.xml	9	5	48	7	693	ontwaarde	
+WR-P-P-H-0000000025_inline.xml	9	5	48	8	694	hij	(35)
+WR-P-P-H-0000000025_inline.xml	9	5	48	9	695	alleen	
+WR-P-P-H-0000000025_inline.xml	9	5	48	10	696	een	(203
+WR-P-P-H-0000000025_inline.xml	9	5	48	11	697	schim	203
+WR-P-P-H-0000000025_inline.xml	9	5	48	12	698	in	203
+WR-P-P-H-0000000025_inline.xml	9	5	48	13	699	de	203|(204
+WR-P-P-H-0000000025_inline.xml	9	5	48	14	700	achterhoede	203)|204)
+WR-P-P-H-0000000025_inline.xml	9	5	48	15	701	.	
+
+WR-P-P-H-0000000025_inline.xml	10	1	49	1	702	Koerts	(35)
+WR-P-P-H-0000000025_inline.xml	10	1	49	2	703	:	
+WR-P-P-H-0000000025_inline.xml	10	1	49	3	704	,,	
+WR-P-P-H-0000000025_inline.xml	10	1	49	4	705	Ik	(35)
+WR-P-P-H-0000000025_inline.xml	10	1	49	5	706	heb	
+WR-P-P-H-0000000025_inline.xml	10	1	49	6	707	erg	
+WR-P-P-H-0000000025_inline.xml	10	1	49	7	708	naar	
+WR-P-P-H-0000000025_inline.xml	10	1	49	8	709	dit	(13)
+WR-P-P-H-0000000025_inline.xml	10	1	49	9	710	NK	(13)
+WR-P-P-H-0000000025_inline.xml	10	1	49	10	711	toegeleefd	
+WR-P-P-H-0000000025_inline.xml	10	1	49	11	712	.	
+
+WR-P-P-H-0000000025_inline.xml	10	2	50	1	713	Toen	
+WR-P-P-H-0000000025_inline.xml	10	2	50	2	714	ik	(35)
+WR-P-P-H-0000000025_inline.xml	10	2	50	3	715	hoorde	
+WR-P-P-H-0000000025_inline.xml	10	2	50	4	716	dat	
+WR-P-P-H-0000000025_inline.xml	10	2	50	5	717	het	(209)
+WR-P-P-H-0000000025_inline.xml	10	2	50	6	718	in	
+WR-P-P-H-0000000025_inline.xml	10	2	50	7	719	Berg	(210
+WR-P-P-H-0000000025_inline.xml	10	2	50	8	720	en	210
+WR-P-P-H-0000000025_inline.xml	10	2	50	9	721	Dal	210)
+WR-P-P-H-0000000025_inline.xml	10	2	50	10	722	was	
+WR-P-P-H-0000000025_inline.xml	10	2	50	11	723	,	
+WR-P-P-H-0000000025_inline.xml	10	2	50	12	724	dacht	
+WR-P-P-H-0000000025_inline.xml	10	2	50	13	725	ik	(35)
+WR-P-P-H-0000000025_inline.xml	10	2	50	14	726	dat	
+WR-P-P-H-0000000025_inline.xml	10	2	50	15	727	het	(13)
+WR-P-P-H-0000000025_inline.xml	10	2	50	16	728	voor	
+WR-P-P-H-0000000025_inline.xml	10	2	50	17	729	mij	(35)
+WR-P-P-H-0000000025_inline.xml	10	2	50	18	730	veel	
+WR-P-P-H-0000000025_inline.xml	10	2	50	19	731	te	
+WR-P-P-H-0000000025_inline.xml	10	2	50	20	732	zwaar	
+WR-P-P-H-0000000025_inline.xml	10	2	50	21	733	zou	
+WR-P-P-H-0000000025_inline.xml	10	2	50	22	734	zijn	
+WR-P-P-H-0000000025_inline.xml	10	2	50	23	735	.	
+
+WR-P-P-H-0000000025_inline.xml	10	3	51	1	736	Maar	
+WR-P-P-H-0000000025_inline.xml	10	3	51	2	737	na	
+WR-P-P-H-0000000025_inline.xml	10	3	51	3	738	een	(214
+WR-P-P-H-0000000025_inline.xml	10	3	51	4	739	verkenning	214
+WR-P-P-H-0000000025_inline.xml	10	3	51	5	740	van	214
+WR-P-P-H-0000000025_inline.xml	10	3	51	6	741	het	214|(215
+WR-P-P-H-0000000025_inline.xml	10	3	51	7	742	parcours	214)|215)
+WR-P-P-H-0000000025_inline.xml	10	3	51	8	743	veranderde	
+WR-P-P-H-0000000025_inline.xml	10	3	51	9	744	ik	(35)
+WR-P-P-H-0000000025_inline.xml	10	3	51	10	745	van	
+WR-P-P-H-0000000025_inline.xml	10	3	51	11	746	gedachten	(217)
+WR-P-P-H-0000000025_inline.xml	10	3	51	12	747	.	
+
+WR-P-P-H-0000000025_inline.xml	10	4	52	1	748	In	
+WR-P-P-H-0000000025_inline.xml	10	4	52	2	749	de	(219
+WR-P-P-H-0000000025_inline.xml	10	4	52	3	750	afgelopen	219
+WR-P-P-H-0000000025_inline.xml	10	4	52	4	751	twee	219
+WR-P-P-H-0000000025_inline.xml	10	4	52	5	752	weken	219)
+WR-P-P-H-0000000025_inline.xml	10	4	52	6	753	heb	
+WR-P-P-H-0000000025_inline.xml	10	4	52	7	754	ik	(35)
+WR-P-P-H-0000000025_inline.xml	10	4	52	8	755	1200	(220
+WR-P-P-H-0000000025_inline.xml	10	4	52	9	756	kilometer	220)
+WR-P-P-H-0000000025_inline.xml	10	4	52	10	757	getraind	
+WR-P-P-H-0000000025_inline.xml	10	4	52	11	758	,	
+WR-P-P-H-0000000025_inline.xml	10	4	52	12	759	heel	
+WR-P-P-H-0000000025_inline.xml	10	4	52	13	760	veel	
+WR-P-P-H-0000000025_inline.xml	10	4	52	14	761	achter	
+WR-P-P-H-0000000025_inline.xml	10	4	52	15	762	een	(221
+WR-P-P-H-0000000025_inline.xml	10	4	52	16	763	scooter	221)
+WR-P-P-H-0000000025_inline.xml	10	4	52	17	764	om	
+WR-P-P-H-0000000025_inline.xml	10	4	52	18	765	snelheid	(222)
+WR-P-P-H-0000000025_inline.xml	10	4	52	19	766	te	
+WR-P-P-H-0000000025_inline.xml	10	4	52	20	767	krijgen	
+WR-P-P-H-0000000025_inline.xml	10	4	52	21	768	.	
+WR-P-P-H-0000000025_inline.xml	10	4	52	22	769	''	
+
+WR-P-P-H-0000000025_inline.xml	11	1	53	1	770	Koerts	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	2	771	heeft	
+WR-P-P-H-0000000025_inline.xml	11	1	53	3	772	hij	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	4	773	lang	
+WR-P-P-H-0000000025_inline.xml	11	1	53	5	774	moeten	
+WR-P-P-H-0000000025_inline.xml	11	1	53	6	775	vechten	
+WR-P-P-H-0000000025_inline.xml	11	1	53	7	776	voor	
+WR-P-P-H-0000000025_inline.xml	11	1	53	8	777	een	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	9	778	status	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	10	779	als	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	11	780	topsprinter	(35)|(226)
+WR-P-P-H-0000000025_inline.xml	11	1	53	12	781	,	
+WR-P-P-H-0000000025_inline.xml	11	1	53	13	782	te	
+WR-P-P-H-0000000025_inline.xml	11	1	53	14	783	lang	
+WR-P-P-H-0000000025_inline.xml	11	1	53	15	784	werd	
+WR-P-P-H-0000000025_inline.xml	11	1	53	16	785	hij	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	17	786	beschouwd	
+WR-P-P-H-0000000025_inline.xml	11	1	53	18	787	als	
+WR-P-P-H-0000000025_inline.xml	11	1	53	19	788	een	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	20	789	veredeld	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	21	790	kermiscoureur	(35)
+WR-P-P-H-0000000025_inline.xml	11	1	53	22	791	.	
+
+WR-P-P-H-0000000025_inline.xml	11	2	54	1	792	Zijn	(229|(35)
+WR-P-P-H-0000000025_inline.xml	11	2	54	2	793	carrière	229)
+WR-P-P-H-0000000025_inline.xml	11	2	54	3	794	verliep	
+WR-P-P-H-0000000025_inline.xml	11	2	54	4	795	uiterst	
+WR-P-P-H-0000000025_inline.xml	11	2	54	5	796	grillig	
+WR-P-P-H-0000000025_inline.xml	11	2	54	6	797	.	
+
+WR-P-P-H-0000000025_inline.xml	11	3	55	1	798	In	
+WR-P-P-H-0000000025_inline.xml	11	3	55	2	799	de	(232
+WR-P-P-H-0000000025_inline.xml	11	3	55	3	800	grote	232
+WR-P-P-H-0000000025_inline.xml	11	3	55	4	801	ploegen	232
+WR-P-P-H-0000000025_inline.xml	11	3	55	5	802	waarvoor	232
+WR-P-P-H-0000000025_inline.xml	11	3	55	6	803	hij	232|(35)
+WR-P-P-H-0000000025_inline.xml	11	3	55	7	804	in	232
+WR-P-P-H-0000000025_inline.xml	11	3	55	8	805	het	232|(234
+WR-P-P-H-0000000025_inline.xml	11	3	55	9	806	verleden	232|234)
+WR-P-P-H-0000000025_inline.xml	11	3	55	10	807	reed	232
+WR-P-P-H-0000000025_inline.xml	11	3	55	11	808	-	232
+WR-P-P-H-0000000025_inline.xml	11	3	55	12	809	PDM	232|(235|(236)
+WR-P-P-H-0000000025_inline.xml	11	3	55	13	810	,	232|235
+WR-P-P-H-0000000025_inline.xml	11	3	55	14	811	Festina	232|235|(237)
+WR-P-P-H-0000000025_inline.xml	11	3	55	15	812	,	232|235
+WR-P-P-H-0000000025_inline.xml	11	3	55	16	813	Rabobank	232|235|(11)
+WR-P-P-H-0000000025_inline.xml	11	3	55	17	814	en	232|235
+WR-P-P-H-0000000025_inline.xml	11	3	55	18	815	FarmFrites	232)|235)|(239)
+WR-P-P-H-0000000025_inline.xml	11	3	55	19	816	-	
+WR-P-P-H-0000000025_inline.xml	11	3	55	20	817	kon	
+WR-P-P-H-0000000025_inline.xml	11	3	55	21	818	hij	(35)
+WR-P-P-H-0000000025_inline.xml	11	3	55	22	819	nooit	
+WR-P-P-H-0000000025_inline.xml	11	3	55	23	820	echt	
+WR-P-P-H-0000000025_inline.xml	11	3	55	24	821	tot	
+WR-P-P-H-0000000025_inline.xml	11	3	55	25	822	de	(240
+WR-P-P-H-0000000025_inline.xml	11	3	55	26	823	wereldtop	240)
+WR-P-P-H-0000000025_inline.xml	11	3	55	27	824	doordringen	
+WR-P-P-H-0000000025_inline.xml	11	3	55	28	825	.	
+
+WR-P-P-H-0000000025_inline.xml	11	4	56	1	826	Met	
+WR-P-P-H-0000000025_inline.xml	11	4	56	2	827	een	(241
+WR-P-P-H-0000000025_inline.xml	11	4	56	3	828	ritzege	241
+WR-P-P-H-0000000025_inline.xml	11	4	56	4	829	in	241
+WR-P-P-H-0000000025_inline.xml	11	4	56	5	830	de	241|(242
+WR-P-P-H-0000000025_inline.xml	11	4	56	6	831	Vuelta	241|242)
+WR-P-P-H-0000000025_inline.xml	11	4	56	7	832	vorig	241|(243
+WR-P-P-H-0000000025_inline.xml	11	4	56	8	833	jaar	241)|243)
+WR-P-P-H-0000000025_inline.xml	11	4	56	9	834	veranderde	
+WR-P-P-H-0000000025_inline.xml	11	4	56	10	835	dat	(244)
+WR-P-P-H-0000000025_inline.xml	11	4	56	11	836	.	
+
+WR-P-P-H-0000000025_inline.xml	12	1	57	1	837	Dit	
+WR-P-P-H-0000000025_inline.xml	12	1	57	2	838	jaar	
+WR-P-P-H-0000000025_inline.xml	12	1	57	3	839	rijdt	
+WR-P-P-H-0000000025_inline.xml	12	1	57	4	840	hij	(35)
+WR-P-P-H-0000000025_inline.xml	12	1	57	5	841	voor	
+WR-P-P-H-0000000025_inline.xml	12	1	57	6	842	het	(246
+WR-P-P-H-0000000025_inline.xml	12	1	57	7	843	Amerikaanse	246
+WR-P-P-H-0000000025_inline.xml	12	1	57	8	844	Mercury-Viatel	246)
+WR-P-P-H-0000000025_inline.xml	12	1	57	9	845	,	
+WR-P-P-H-0000000025_inline.xml	12	1	57	10	846	maar	
+WR-P-P-H-0000000025_inline.xml	12	1	57	11	847	dat	(247
+WR-P-P-H-0000000025_inline.xml	12	1	57	12	848	avontuur	247)
+WR-P-P-H-0000000025_inline.xml	12	1	57	13	849	zou	
+WR-P-P-H-0000000025_inline.xml	12	1	57	14	850	na	
+WR-P-P-H-0000000025_inline.xml	12	1	57	15	851	dit	(248
+WR-P-P-H-0000000025_inline.xml	12	1	57	16	852	jaar	248)
+WR-P-P-H-0000000025_inline.xml	12	1	57	17	853	ondanks	
+WR-P-P-H-0000000025_inline.xml	12	1	57	18	854	een	(249
+WR-P-P-H-0000000025_inline.xml	12	1	57	19	855	doorlopend	249
+WR-P-P-H-0000000025_inline.xml	12	1	57	20	856	contract	249)
+WR-P-P-H-0000000025_inline.xml	12	1	57	21	857	wel	
+WR-P-P-H-0000000025_inline.xml	12	1	57	22	858	eens	
+WR-P-P-H-0000000025_inline.xml	12	1	57	23	859	kunnen	
+WR-P-P-H-0000000025_inline.xml	12	1	57	24	860	eindigen	
+WR-P-P-H-0000000025_inline.xml	12	1	57	25	861	.	
+
+WR-P-P-H-0000000025_inline.xml	12	2	58	1	862	Viatel	(250)
+WR-P-P-H-0000000025_inline.xml	12	2	58	2	863	trok	
+WR-P-P-H-0000000025_inline.xml	12	2	58	3	864	zich	(250)
+WR-P-P-H-0000000025_inline.xml	12	2	58	4	865	onlangs	
+WR-P-P-H-0000000025_inline.xml	12	2	58	5	866	terug	
+WR-P-P-H-0000000025_inline.xml	12	2	58	6	867	als	
+WR-P-P-H-0000000025_inline.xml	12	2	58	7	868	geldschieter	(252)
+WR-P-P-H-0000000025_inline.xml	12	2	58	8	869	.	
+
+WR-P-P-H-0000000025_inline.xml	12	3	59	1	870	De	(253
+WR-P-P-H-0000000025_inline.xml	12	3	59	2	871	toekomst	253
+WR-P-P-H-0000000025_inline.xml	12	3	59	3	872	van	253
+WR-P-P-H-0000000025_inline.xml	12	3	59	4	873	het	253|(246
+WR-P-P-H-0000000025_inline.xml	12	3	59	5	874	team	253)|246)
+WR-P-P-H-0000000025_inline.xml	12	3	59	6	875	is	
+WR-P-P-H-0000000025_inline.xml	12	3	59	7	876	vaag	
+WR-P-P-H-0000000025_inline.xml	12	3	59	8	877	,	
+WR-P-P-H-0000000025_inline.xml	12	3	59	9	878	Koerts	(35)
+WR-P-P-H-0000000025_inline.xml	12	3	59	10	879	kijkt	
+WR-P-P-H-0000000025_inline.xml	12	3	59	11	880	ondertussen	
+WR-P-P-H-0000000025_inline.xml	12	3	59	12	881	al	
+WR-P-P-H-0000000025_inline.xml	12	3	59	13	882	verder	
+WR-P-P-H-0000000025_inline.xml	12	3	59	14	883	.	
+
+WR-P-P-H-0000000025_inline.xml	12	4	60	1	884	,,	
+WR-P-P-H-0000000025_inline.xml	12	4	60	2	885	Ze	(246)
+WR-P-P-H-0000000025_inline.xml	12	4	60	3	886	kunnen	
+WR-P-P-H-0000000025_inline.xml	12	4	60	4	887	me	(35)
+WR-P-P-H-0000000025_inline.xml	12	4	60	5	888	niet	
+WR-P-P-H-0000000025_inline.xml	12	4	60	6	889	eindeloos	
+WR-P-P-H-0000000025_inline.xml	12	4	60	7	890	aan	
+WR-P-P-H-0000000025_inline.xml	12	4	60	8	891	het	(258
+WR-P-P-H-0000000025_inline.xml	12	4	60	9	892	lijntje	258)
+WR-P-P-H-0000000025_inline.xml	12	4	60	10	893	houden	
+WR-P-P-H-0000000025_inline.xml	12	4	60	11	894	.	
+
+WR-P-P-H-0000000025_inline.xml	12	5	61	1	895	Binnen	
+WR-P-P-H-0000000025_inline.xml	12	5	61	2	896	twee	(259
+WR-P-P-H-0000000025_inline.xml	12	5	61	3	897	weken	259)
+WR-P-P-H-0000000025_inline.xml	12	5	61	4	898	wil	
+WR-P-P-H-0000000025_inline.xml	12	5	61	5	899	ik	(35)
+WR-P-P-H-0000000025_inline.xml	12	5	61	6	900	duidelijkheid	(261
+WR-P-P-H-0000000025_inline.xml	12	5	61	7	901	over	261
+WR-P-P-H-0000000025_inline.xml	12	5	61	8	902	mijn	261|(262|(35)
+WR-P-P-H-0000000025_inline.xml	12	5	61	9	903	toekomst	261)|262)
+WR-P-P-H-0000000025_inline.xml	12	5	61	10	904	.	
+WR-P-P-H-0000000025_inline.xml	12	5	61	11	905	''	
+
+WR-P-P-H-0000000025_inline.xml	12	6	62	1	906	Vandaag	
+WR-P-P-H-0000000025_inline.xml	12	6	62	2	907	komt	
+WR-P-P-H-0000000025_inline.xml	12	6	62	3	908	manager	(264
+WR-P-P-H-0000000025_inline.xml	12	6	62	4	909	John	264
+WR-P-P-H-0000000025_inline.xml	12	6	62	5	910	Wordin	264)
+WR-P-P-H-0000000025_inline.xml	12	6	62	6	911	naar	
+WR-P-P-H-0000000025_inline.xml	12	6	62	7	912	Nederland	(265)
+WR-P-P-H-0000000025_inline.xml	12	6	62	8	913	om	
+WR-P-P-H-0000000025_inline.xml	12	6	62	9	914	hem	(266|(35)
+WR-P-P-H-0000000025_inline.xml	12	6	62	10	915	,	266
+WR-P-P-H-0000000025_inline.xml	12	6	62	11	916	en	266
+WR-P-P-H-0000000025_inline.xml	12	6	62	12	917	ploegleider	266|(268
+WR-P-P-H-0000000025_inline.xml	12	6	62	13	918	Johan	266|268
+WR-P-P-H-0000000025_inline.xml	12	6	62	14	919	Lammerts	266)|268)
+WR-P-P-H-0000000025_inline.xml	12	6	62	15	920	,	
+WR-P-P-H-0000000025_inline.xml	12	6	62	16	921	uitleg	(269)
+WR-P-P-H-0000000025_inline.xml	12	6	62	17	922	te	
+WR-P-P-H-0000000025_inline.xml	12	6	62	18	923	verschaffen	
+WR-P-P-H-0000000025_inline.xml	12	6	62	19	924	.	
+

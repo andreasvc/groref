@@ -1,0 +1,899 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000019_inline.xml	1	1	1	1	1	De	(1
+WR-P-P-H-0000000019_inline.xml	1	1	1	2	2	corruptie	1
+WR-P-P-H-0000000019_inline.xml	1	1	1	3	3	van	1
+WR-P-P-H-0000000019_inline.xml	1	1	1	4	4	het	1|(2
+WR-P-P-H-0000000019_inline.xml	1	1	1	5	5	bewind-Milosevic	1)|2)
+WR-P-P-H-0000000019_inline.xml	1	1	1	6	6	heeft	
+WR-P-P-H-0000000019_inline.xml	1	1	1	7	7	niet	(3
+WR-P-P-H-0000000019_inline.xml	1	1	1	8	8	alleen	3
+WR-P-P-H-0000000019_inline.xml	1	1	1	9	9	de	3
+WR-P-P-H-0000000019_inline.xml	1	1	1	10	10	economie	3)
+WR-P-P-H-0000000019_inline.xml	1	1	1	11	11	verwoest	
+WR-P-P-H-0000000019_inline.xml	1	1	1	12	12	.	
+
+WR-P-P-H-0000000019_inline.xml	1	2	2	1	13	Ook	(4
+WR-P-P-H-0000000019_inline.xml	1	2	2	2	14	het	4
+WR-P-P-H-0000000019_inline.xml	1	2	2	3	15	onderwijs	4)
+WR-P-P-H-0000000019_inline.xml	1	2	2	4	16	ligt	
+WR-P-P-H-0000000019_inline.xml	1	2	2	5	17	in	
+WR-P-P-H-0000000019_inline.xml	1	2	2	6	18	puin	(5)
+WR-P-P-H-0000000019_inline.xml	1	2	2	7	19	.	
+
+WR-P-P-H-0000000019_inline.xml	1	3	3	1	20	De	(6
+WR-P-P-H-0000000019_inline.xml	1	3	3	2	21	3,3	6
+WR-P-P-H-0000000019_inline.xml	1	3	3	3	22	miljard	6
+WR-P-P-H-0000000019_inline.xml	1	3	3	4	23	gulden	6|(7)
+WR-P-P-H-0000000019_inline.xml	1	3	3	5	24	hulp	6|(8)
+WR-P-P-H-0000000019_inline.xml	1	3	3	6	25	die	6
+WR-P-P-H-0000000019_inline.xml	1	3	3	7	26	Joegoslavië	6|(9)
+WR-P-P-H-0000000019_inline.xml	1	3	3	8	27	vorige	6|(10
+WR-P-P-H-0000000019_inline.xml	1	3	3	9	28	week	6|10)
+WR-P-P-H-0000000019_inline.xml	1	3	3	10	29	kreeg	6
+WR-P-P-H-0000000019_inline.xml	1	3	3	11	30	toegezegd	6
+WR-P-P-H-0000000019_inline.xml	1	3	3	12	31	van	6
+WR-P-P-H-0000000019_inline.xml	1	3	3	13	32	de	6|(11
+WR-P-P-H-0000000019_inline.xml	1	3	3	14	33	internationale	6|11
+WR-P-P-H-0000000019_inline.xml	1	3	3	15	34	gemeenschap	6)|11)
+WR-P-P-H-0000000019_inline.xml	1	3	3	16	35	,	
+WR-P-P-H-0000000019_inline.xml	1	3	3	17	36	zijn	
+WR-P-P-H-0000000019_inline.xml	1	3	3	18	37	onder	
+WR-P-P-H-0000000019_inline.xml	1	3	3	19	38	andere	
+WR-P-P-H-0000000019_inline.xml	1	3	3	20	39	nodig	
+WR-P-P-H-0000000019_inline.xml	1	3	3	21	40	om	
+WR-P-P-H-0000000019_inline.xml	1	3	3	22	41	de	(12
+WR-P-P-H-0000000019_inline.xml	1	3	3	23	42	scholen	12)
+WR-P-P-H-0000000019_inline.xml	1	3	3	24	43	weer	
+WR-P-P-H-0000000019_inline.xml	1	3	3	25	44	normaal	
+WR-P-P-H-0000000019_inline.xml	1	3	3	26	45	te	
+WR-P-P-H-0000000019_inline.xml	1	3	3	27	46	laten	
+WR-P-P-H-0000000019_inline.xml	1	3	3	28	47	functioneren	
+WR-P-P-H-0000000019_inline.xml	1	3	3	29	48	.	
+
+WR-P-P-H-0000000019_inline.xml	2	1	4	1	49	BELGRADO	(13)
+WR-P-P-H-0000000019_inline.xml	2	1	4	2	50	-	
+
+WR-P-P-H-0000000019_inline.xml	2	2	5	1	51	,,	
+WR-P-P-H-0000000019_inline.xml	2	2	5	2	52	Tien	(14
+WR-P-P-H-0000000019_inline.xml	2	2	5	3	53	jaar	14)
+WR-P-P-H-0000000019_inline.xml	2	2	5	4	54	geleden	
+WR-P-P-H-0000000019_inline.xml	2	2	5	5	55	had	
+WR-P-P-H-0000000019_inline.xml	2	2	5	6	56	ik	(15)
+WR-P-P-H-0000000019_inline.xml	2	2	5	7	57	een	(16
+WR-P-P-H-0000000019_inline.xml	2	2	5	8	58	gerespecteerd	16
+WR-P-P-H-0000000019_inline.xml	2	2	5	9	59	beroep	16)
+WR-P-P-H-0000000019_inline.xml	2	2	5	10	60	.	
+
+WR-P-P-H-0000000019_inline.xml	2	3	6	1	61	Ik	(15)
+WR-P-P-H-0000000019_inline.xml	2	3	6	2	62	had	
+WR-P-P-H-0000000019_inline.xml	2	3	6	3	63	het	(18
+WR-P-P-H-0000000019_inline.xml	2	3	6	4	64	idee	18
+WR-P-P-H-0000000019_inline.xml	2	3	6	5	65	dat	18
+WR-P-P-H-0000000019_inline.xml	2	3	6	6	66	ik	18|(15)
+WR-P-P-H-0000000019_inline.xml	2	3	6	7	67	iets	18|(20
+WR-P-P-H-0000000019_inline.xml	2	3	6	8	68	zinvols	18|20)
+WR-P-P-H-0000000019_inline.xml	2	3	6	9	69	deed	18)
+WR-P-P-H-0000000019_inline.xml	2	3	6	10	70	.	
+
+WR-P-P-H-0000000019_inline.xml	2	4	7	1	71	Nu	
+WR-P-P-H-0000000019_inline.xml	2	4	7	2	72	ben	
+WR-P-P-H-0000000019_inline.xml	2	4	7	3	73	ik	(15)
+WR-P-P-H-0000000019_inline.xml	2	4	7	4	74	alleen	
+WR-P-P-H-0000000019_inline.xml	2	4	7	5	75	maar	
+WR-P-P-H-0000000019_inline.xml	2	4	7	6	76	bezig	
+WR-P-P-H-0000000019_inline.xml	2	4	7	7	77	te	
+WR-P-P-H-0000000019_inline.xml	2	4	7	8	78	overleven	
+WR-P-P-H-0000000019_inline.xml	2	4	7	9	79	.	
+WR-P-P-H-0000000019_inline.xml	2	4	7	10	80	''	
+
+WR-P-P-H-0000000019_inline.xml	3	1	8	1	81	Dusan	(15)
+WR-P-P-H-0000000019_inline.xml	3	1	8	2	82	geeft	
+WR-P-P-H-0000000019_inline.xml	3	1	8	3	83	les	
+WR-P-P-H-0000000019_inline.xml	3	1	8	4	84	aan	
+WR-P-P-H-0000000019_inline.xml	3	1	8	5	85	het	(23
+WR-P-P-H-0000000019_inline.xml	3	1	8	6	86	Belgradose	23
+WR-P-P-H-0000000019_inline.xml	3	1	8	7	87	Gymnasium	23
+WR-P-P-H-0000000019_inline.xml	3	1	8	8	88	Nr.	23
+WR-P-P-H-0000000019_inline.xml	3	1	8	9	89	6	23)
+WR-P-P-H-0000000019_inline.xml	3	1	8	10	90	,	
+WR-P-P-H-0000000019_inline.xml	3	1	8	11	91	in	
+WR-P-P-H-0000000019_inline.xml	3	1	8	12	92	de	(24
+WR-P-P-H-0000000019_inline.xml	3	1	8	13	93	jaren	24
+WR-P-P-H-0000000019_inline.xml	3	1	8	14	94	tachtig	24)|(25)
+WR-P-P-H-0000000019_inline.xml	3	1	8	15	95	een	(26
+WR-P-P-H-0000000019_inline.xml	3	1	8	16	96	van	26
+WR-P-P-H-0000000019_inline.xml	3	1	8	17	97	de	26|(27
+WR-P-P-H-0000000019_inline.xml	3	1	8	18	98	beste	26|27
+WR-P-P-H-0000000019_inline.xml	3	1	8	19	99	middelbare	26|27
+WR-P-P-H-0000000019_inline.xml	3	1	8	20	100	scholen	26|27
+WR-P-P-H-0000000019_inline.xml	3	1	8	21	101	in	26|27
+WR-P-P-H-0000000019_inline.xml	3	1	8	22	102	Servië	26)|27)|(28)
+WR-P-P-H-0000000019_inline.xml	3	1	8	23	103	.	
+
+WR-P-P-H-0000000019_inline.xml	3	2	9	1	104	Met	
+WR-P-P-H-0000000019_inline.xml	3	2	9	2	105	een	(29
+WR-P-P-H-0000000019_inline.xml	3	2	9	3	106	vermoeide	29
+WR-P-P-H-0000000019_inline.xml	3	2	9	4	107	blik	29)
+WR-P-P-H-0000000019_inline.xml	3	2	9	5	108	kijkt	
+WR-P-P-H-0000000019_inline.xml	3	2	9	6	109	hij	(15)
+WR-P-P-H-0000000019_inline.xml	3	2	9	7	110	over	
+WR-P-P-H-0000000019_inline.xml	3	2	9	8	111	het	(31
+WR-P-P-H-0000000019_inline.xml	3	2	9	9	112	schoolplein	31)
+WR-P-P-H-0000000019_inline.xml	3	2	9	10	113	.	
+
+WR-P-P-H-0000000019_inline.xml	3	3	10	1	114	De	(32
+WR-P-P-H-0000000019_inline.xml	3	3	10	2	115	leerlingen	32)
+WR-P-P-H-0000000019_inline.xml	3	3	10	3	116	zijn	
+WR-P-P-H-0000000019_inline.xml	3	3	10	4	117	-	
+WR-P-P-H-0000000019_inline.xml	3	3	10	5	118	in	
+WR-P-P-H-0000000019_inline.xml	3	3	10	6	119	afwachting	(33
+WR-P-P-H-0000000019_inline.xml	3	3	10	7	120	van	33
+WR-P-P-H-0000000019_inline.xml	3	3	10	8	121	de	33|(34
+WR-P-P-H-0000000019_inline.xml	3	3	10	9	122	rapportuitreiking	33)|34)
+WR-P-P-H-0000000019_inline.xml	3	3	10	10	123	-	
+WR-P-P-H-0000000019_inline.xml	3	3	10	11	124	al	
+WR-P-P-H-0000000019_inline.xml	3	3	10	12	125	aan	
+WR-P-P-H-0000000019_inline.xml	3	3	10	13	126	hun	(35|(32)
+WR-P-P-H-0000000019_inline.xml	3	3	10	14	127	vakantie	35)
+WR-P-P-H-0000000019_inline.xml	3	3	10	15	128	begonnen	
+WR-P-P-H-0000000019_inline.xml	3	3	10	16	129	;	
+WR-P-P-H-0000000019_inline.xml	3	3	10	17	130	ze	(32)
+WR-P-P-H-0000000019_inline.xml	3	3	10	18	131	hebben	
+WR-P-P-H-0000000019_inline.xml	3	3	10	19	132	een	(38
+WR-P-P-H-0000000019_inline.xml	3	3	10	20	133	enorme	38
+WR-P-P-H-0000000019_inline.xml	3	3	10	21	134	berg	38
+WR-P-P-H-0000000019_inline.xml	3	3	10	22	135	blikjes	38|(39|(40)
+WR-P-P-H-0000000019_inline.xml	3	3	10	23	136	,	38|39
+WR-P-P-H-0000000019_inline.xml	3	3	10	24	137	sigarettenpeuken	38|39|(41)
+WR-P-P-H-0000000019_inline.xml	3	3	10	25	138	en	38|39
+WR-P-P-H-0000000019_inline.xml	3	3	10	26	139	andere	38|39|(42
+WR-P-P-H-0000000019_inline.xml	3	3	10	27	140	rotzooi	38)|39)|42)
+WR-P-P-H-0000000019_inline.xml	3	3	10	28	141	achtergelaten	
+WR-P-P-H-0000000019_inline.xml	3	3	10	29	142	.	
+
+WR-P-P-H-0000000019_inline.xml	3	4	11	1	143	De	(23
+WR-P-P-H-0000000019_inline.xml	3	4	11	2	144	school	23
+WR-P-P-H-0000000019_inline.xml	3	4	11	3	145	zelf	23)
+WR-P-P-H-0000000019_inline.xml	3	4	11	4	146	ziet	
+WR-P-P-H-0000000019_inline.xml	3	4	11	5	147	er	
+WR-P-P-H-0000000019_inline.xml	3	4	11	6	148	zwaar	
+WR-P-P-H-0000000019_inline.xml	3	4	11	7	149	vervallen	
+WR-P-P-H-0000000019_inline.xml	3	4	11	8	150	uit	
+WR-P-P-H-0000000019_inline.xml	3	4	11	9	151	.	
+
+WR-P-P-H-0000000019_inline.xml	3	5	12	1	152	De	(44
+WR-P-P-H-0000000019_inline.xml	3	5	12	2	153	verf	44)
+WR-P-P-H-0000000019_inline.xml	3	5	12	3	154	bladdert	
+WR-P-P-H-0000000019_inline.xml	3	5	12	4	155	van	
+WR-P-P-H-0000000019_inline.xml	3	5	12	5	156	de	(45
+WR-P-P-H-0000000019_inline.xml	3	5	12	6	157	muren	45)
+WR-P-P-H-0000000019_inline.xml	3	5	12	7	158	,	
+WR-P-P-H-0000000019_inline.xml	3	5	12	8	159	veel	(46
+WR-P-P-H-0000000019_inline.xml	3	5	12	9	160	ruiten	46)
+WR-P-P-H-0000000019_inline.xml	3	5	12	10	161	zijn	
+WR-P-P-H-0000000019_inline.xml	3	5	12	11	162	gebarsten	
+WR-P-P-H-0000000019_inline.xml	3	5	12	12	163	.	
+
+WR-P-P-H-0000000019_inline.xml	4	1	13	1	164	Dusan	(15)
+WR-P-P-H-0000000019_inline.xml	4	1	13	2	165	:	
+WR-P-P-H-0000000019_inline.xml	4	1	13	3	166	,,	
+WR-P-P-H-0000000019_inline.xml	4	1	13	4	167	Ouders	(48
+WR-P-P-H-0000000019_inline.xml	4	1	13	5	168	van	48
+WR-P-P-H-0000000019_inline.xml	4	1	13	6	169	leerlingen	48)|(49)
+WR-P-P-H-0000000019_inline.xml	4	1	13	7	170	bieden	
+WR-P-P-H-0000000019_inline.xml	4	1	13	8	171	wel	
+WR-P-P-H-0000000019_inline.xml	4	1	13	9	172	eens	
+WR-P-P-H-0000000019_inline.xml	4	1	13	10	173	geld	(50)
+WR-P-P-H-0000000019_inline.xml	4	1	13	11	174	aan	
+WR-P-P-H-0000000019_inline.xml	4	1	13	12	175	om	
+WR-P-P-H-0000000019_inline.xml	4	1	13	13	176	nieuw	(51
+WR-P-P-H-0000000019_inline.xml	4	1	13	14	177	glas	51)
+WR-P-P-H-0000000019_inline.xml	4	1	13	15	178	in	
+WR-P-P-H-0000000019_inline.xml	4	1	13	16	179	de	(52
+WR-P-P-H-0000000019_inline.xml	4	1	13	17	180	ramen	52)
+WR-P-P-H-0000000019_inline.xml	4	1	13	18	181	te	
+WR-P-P-H-0000000019_inline.xml	4	1	13	19	182	laten	
+WR-P-P-H-0000000019_inline.xml	4	1	13	20	183	zetten	
+WR-P-P-H-0000000019_inline.xml	4	1	13	21	184	.	
+
+WR-P-P-H-0000000019_inline.xml	4	2	14	1	185	Dan	
+WR-P-P-H-0000000019_inline.xml	4	2	14	2	186	zeggen	
+WR-P-P-H-0000000019_inline.xml	4	2	14	3	187	ze	(48)
+WR-P-P-H-0000000019_inline.xml	4	2	14	4	188	:	
+WR-P-P-H-0000000019_inline.xml	4	2	14	5	189	Het	(54)
+WR-P-P-H-0000000019_inline.xml	4	2	14	6	190	is	
+WR-P-P-H-0000000019_inline.xml	4	2	14	7	191	toch	
+WR-P-P-H-0000000019_inline.xml	4	2	14	8	192	beschamend	
+WR-P-P-H-0000000019_inline.xml	4	2	14	9	193	dat	
+WR-P-P-H-0000000019_inline.xml	4	2	14	10	194	onze	(55|(48)
+WR-P-P-H-0000000019_inline.xml	4	2	14	11	195	kinderen	55)
+WR-P-P-H-0000000019_inline.xml	4	2	14	12	196	in	
+WR-P-P-H-0000000019_inline.xml	4	2	14	13	197	de	(56
+WR-P-P-H-0000000019_inline.xml	4	2	14	14	198	kou	56)
+WR-P-P-H-0000000019_inline.xml	4	2	14	15	199	moeten	
+WR-P-P-H-0000000019_inline.xml	4	2	14	16	200	zitten	
+WR-P-P-H-0000000019_inline.xml	4	2	14	17	201	.	
+
+WR-P-P-H-0000000019_inline.xml	4	3	15	1	202	En	
+WR-P-P-H-0000000019_inline.xml	4	3	15	2	203	wat	
+WR-P-P-H-0000000019_inline.xml	4	3	15	3	204	later	
+WR-P-P-H-0000000019_inline.xml	4	3	15	4	205	zeggen	
+WR-P-P-H-0000000019_inline.xml	4	3	15	5	206	ze	(48)
+WR-P-P-H-0000000019_inline.xml	4	3	15	6	207	:	
+WR-P-P-H-0000000019_inline.xml	4	3	15	7	208	Het	(58)
+WR-P-P-H-0000000019_inline.xml	4	3	15	8	209	zou	
+WR-P-P-H-0000000019_inline.xml	4	3	15	9	210	toch	
+WR-P-P-H-0000000019_inline.xml	4	3	15	10	211	aardig	
+WR-P-P-H-0000000019_inline.xml	4	3	15	11	212	zijn	
+WR-P-P-H-0000000019_inline.xml	4	3	15	12	213	als	
+WR-P-P-H-0000000019_inline.xml	4	3	15	13	214	u	(15)
+WR-P-P-H-0000000019_inline.xml	4	3	15	14	215	onze	(60|(48)
+WR-P-P-H-0000000019_inline.xml	4	3	15	15	216	zoon	60)
+WR-P-P-H-0000000019_inline.xml	4	3	15	16	217	een	
+WR-P-P-H-0000000019_inline.xml	4	3	15	17	218	handje	
+WR-P-P-H-0000000019_inline.xml	4	3	15	18	219	helpt	
+WR-P-P-H-0000000019_inline.xml	4	3	15	19	220	.	
+
+WR-P-P-H-0000000019_inline.xml	4	4	16	1	221	Ja	
+WR-P-P-H-0000000019_inline.xml	4	4	16	2	222	,	
+WR-P-P-H-0000000019_inline.xml	4	4	16	3	223	dan	
+WR-P-P-H-0000000019_inline.xml	4	4	16	4	224	wil	
+WR-P-P-H-0000000019_inline.xml	4	4	16	5	225	zo'n	(61
+WR-P-P-H-0000000019_inline.xml	4	4	16	6	226	jongen	61)
+WR-P-P-H-0000000019_inline.xml	4	4	16	7	227	nog	
+WR-P-P-H-0000000019_inline.xml	4	4	16	8	228	wel	
+WR-P-P-H-0000000019_inline.xml	4	4	16	9	229	eens	
+WR-P-P-H-0000000019_inline.xml	4	4	16	10	230	overgaan	
+WR-P-P-H-0000000019_inline.xml	4	4	16	11	231	terwijl	
+WR-P-P-H-0000000019_inline.xml	4	4	16	12	232	zijn	(62|(61)
+WR-P-P-H-0000000019_inline.xml	4	4	16	13	233	cijfers	62)
+WR-P-P-H-0000000019_inline.xml	4	4	16	14	234	daar	(64)
+WR-P-P-H-0000000019_inline.xml	4	4	16	15	235	eigenlijk	
+WR-P-P-H-0000000019_inline.xml	4	4	16	16	236	te	
+WR-P-P-H-0000000019_inline.xml	4	4	16	17	237	slecht	
+WR-P-P-H-0000000019_inline.xml	4	4	16	18	238	voor	
+WR-P-P-H-0000000019_inline.xml	4	4	16	19	239	zijn	
+WR-P-P-H-0000000019_inline.xml	4	4	16	20	240	.	
+WR-P-P-H-0000000019_inline.xml	4	4	16	21	241	''	
+
+WR-P-P-H-0000000019_inline.xml	5	1	17	1	242	Meer	
+WR-P-P-H-0000000019_inline.xml	5	1	17	2	243	nog	
+WR-P-P-H-0000000019_inline.xml	5	1	17	3	244	dan	
+WR-P-P-H-0000000019_inline.xml	5	1	17	4	245	de	(65
+WR-P-P-H-0000000019_inline.xml	5	1	17	5	246	school	65)
+WR-P-P-H-0000000019_inline.xml	5	1	17	6	247	profiteren	
+WR-P-P-H-0000000019_inline.xml	5	1	17	7	248	individuele	(66
+WR-P-P-H-0000000019_inline.xml	5	1	17	8	249	leraren	66)
+WR-P-P-H-0000000019_inline.xml	5	1	17	9	250	van	
+WR-P-P-H-0000000019_inline.xml	5	1	17	10	251	zo'n	(67
+WR-P-P-H-0000000019_inline.xml	5	1	17	11	252	deal	67)
+WR-P-P-H-0000000019_inline.xml	5	1	17	12	253	.	
+
+WR-P-P-H-0000000019_inline.xml	5	2	18	1	254	Dusan	(15)
+WR-P-P-H-0000000019_inline.xml	5	2	18	2	255	-	(15)
+WR-P-P-H-0000000019_inline.xml	5	2	18	3	256	midden	(15)|(69|(70
+WR-P-P-H-0000000019_inline.xml	5	2	18	4	257	veertig	(15)|69|70)|(71)
+WR-P-P-H-0000000019_inline.xml	5	2	18	5	258	,	(15)|69
+WR-P-P-H-0000000019_inline.xml	5	2	18	6	259	kaal	(15)|69
+WR-P-P-H-0000000019_inline.xml	5	2	18	7	260	,	(15)|69
+WR-P-P-H-0000000019_inline.xml	5	2	18	8	261	sjofel	(15)|69
+WR-P-P-H-0000000019_inline.xml	5	2	18	9	262	gekleed	(15)|69)
+WR-P-P-H-0000000019_inline.xml	5	2	18	10	263	-	
+WR-P-P-H-0000000019_inline.xml	5	2	18	11	264	wil	
+WR-P-P-H-0000000019_inline.xml	5	2	18	12	265	het	(72)
+WR-P-P-H-0000000019_inline.xml	5	2	18	13	266	niet	
+WR-P-P-H-0000000019_inline.xml	5	2	18	14	267	goedpraten	
+WR-P-P-H-0000000019_inline.xml	5	2	18	15	268	.	
+
+WR-P-P-H-0000000019_inline.xml	5	3	19	1	269	,,	
+WR-P-P-H-0000000019_inline.xml	5	3	19	2	270	Maar	
+WR-P-P-H-0000000019_inline.xml	5	3	19	3	271	als	
+WR-P-P-H-0000000019_inline.xml	5	3	19	4	272	je	(73)
+WR-P-P-H-0000000019_inline.xml	5	3	19	5	273	maar	
+WR-P-P-H-0000000019_inline.xml	5	3	19	6	274	lang	
+WR-P-P-H-0000000019_inline.xml	5	3	19	7	275	genoeg	
+WR-P-P-H-0000000019_inline.xml	5	3	19	8	276	van	
+WR-P-P-H-0000000019_inline.xml	5	3	19	9	277	200	(74
+WR-P-P-H-0000000019_inline.xml	5	3	19	10	278	mark	74
+WR-P-P-H-0000000019_inline.xml	5	3	19	11	279	per	74
+WR-P-P-H-0000000019_inline.xml	5	3	19	12	280	maand	74)|(75)
+WR-P-P-H-0000000019_inline.xml	5	3	19	13	281	moet	
+WR-P-P-H-0000000019_inline.xml	5	3	19	14	282	leven	
+WR-P-P-H-0000000019_inline.xml	5	3	19	15	283	,	
+WR-P-P-H-0000000019_inline.xml	5	3	19	16	284	dan	
+WR-P-P-H-0000000019_inline.xml	5	3	19	17	285	is	
+WR-P-P-H-0000000019_inline.xml	5	3	19	18	286	het	(76)
+WR-P-P-H-0000000019_inline.xml	5	3	19	19	287	op	
+WR-P-P-H-0000000019_inline.xml	5	3	19	20	288	een	(77
+WR-P-P-H-0000000019_inline.xml	5	3	19	21	289	gegeven	77
+WR-P-P-H-0000000019_inline.xml	5	3	19	22	290	moment	77)
+WR-P-P-H-0000000019_inline.xml	5	3	19	23	291	met	
+WR-P-P-H-0000000019_inline.xml	5	3	19	24	292	je	(78|(73)
+WR-P-P-H-0000000019_inline.xml	5	3	19	25	293	principes	78)
+WR-P-P-H-0000000019_inline.xml	5	3	19	26	294	gedaan	
+WR-P-P-H-0000000019_inline.xml	5	3	19	27	295	.	
+WR-P-P-H-0000000019_inline.xml	5	3	19	28	296	''	
+
+WR-P-P-H-0000000019_inline.xml	6	1	20	1	297	Tien	(80
+WR-P-P-H-0000000019_inline.xml	6	1	20	2	298	jaar	80)
+WR-P-P-H-0000000019_inline.xml	6	1	20	3	299	geleden	
+WR-P-P-H-0000000019_inline.xml	6	1	20	4	300	stond	
+WR-P-P-H-0000000019_inline.xml	6	1	20	5	301	het	(81
+WR-P-P-H-0000000019_inline.xml	6	1	20	6	302	onderwijs	81
+WR-P-P-H-0000000019_inline.xml	6	1	20	7	303	in	81
+WR-P-P-H-0000000019_inline.xml	6	1	20	8	304	Joegoslavië	81)|(82)
+WR-P-P-H-0000000019_inline.xml	6	1	20	9	305	op	
+WR-P-P-H-0000000019_inline.xml	6	1	20	10	306	een	(83
+WR-P-P-H-0000000019_inline.xml	6	1	20	11	307	heel	83
+WR-P-P-H-0000000019_inline.xml	6	1	20	12	308	behoorlijk	83
+WR-P-P-H-0000000019_inline.xml	6	1	20	13	309	peil	83)
+WR-P-P-H-0000000019_inline.xml	6	1	20	14	310	,	
+WR-P-P-H-0000000019_inline.xml	6	1	20	15	311	zo	
+WR-P-P-H-0000000019_inline.xml	6	1	20	16	312	schrijft	
+WR-P-P-H-0000000019_inline.xml	6	1	20	17	313	de	(84
+WR-P-P-H-0000000019_inline.xml	6	1	20	18	314	Wereldbank	84)
+WR-P-P-H-0000000019_inline.xml	6	1	20	19	315	in	
+WR-P-P-H-0000000019_inline.xml	6	1	20	20	316	een	(85
+WR-P-P-H-0000000019_inline.xml	6	1	20	21	317	rapport	85
+WR-P-P-H-0000000019_inline.xml	6	1	20	22	318	over	85
+WR-P-P-H-0000000019_inline.xml	6	1	20	23	319	de	85|(86
+WR-P-P-H-0000000019_inline.xml	6	1	20	24	320	sociaal-economische	85|86
+WR-P-P-H-0000000019_inline.xml	6	1	20	25	321	situatie	85|86
+WR-P-P-H-0000000019_inline.xml	6	1	20	26	322	in	85|86
+WR-P-P-H-0000000019_inline.xml	6	1	20	27	323	Servië	85|86|(87|(28)
+WR-P-P-H-0000000019_inline.xml	6	1	20	28	324	en	85|86|87
+WR-P-P-H-0000000019_inline.xml	6	1	20	29	325	Montenegro	85)|86)|87)|(89)
+WR-P-P-H-0000000019_inline.xml	6	1	20	30	326	.	
+
+WR-P-P-H-0000000019_inline.xml	6	2	21	1	327	Na	
+WR-P-P-H-0000000019_inline.xml	6	2	21	2	328	een	(90
+WR-P-P-H-0000000019_inline.xml	6	2	21	3	329	decennium	90
+WR-P-P-H-0000000019_inline.xml	6	2	21	4	330	van	90
+WR-P-P-H-0000000019_inline.xml	6	2	21	5	331	isolement	90|(91|(92)
+WR-P-P-H-0000000019_inline.xml	6	2	21	6	332	en	90|91
+WR-P-P-H-0000000019_inline.xml	6	2	21	7	333	verwaarlozing	90)|91)|(93)
+WR-P-P-H-0000000019_inline.xml	6	2	21	8	334	is	
+WR-P-P-H-0000000019_inline.xml	6	2	21	9	335	dat	(94)
+WR-P-P-H-0000000019_inline.xml	6	2	21	10	336	volstrekt	
+WR-P-P-H-0000000019_inline.xml	6	2	21	11	337	anders	
+WR-P-P-H-0000000019_inline.xml	6	2	21	12	338	.	
+
+WR-P-P-H-0000000019_inline.xml	6	3	22	1	339	Op	
+WR-P-P-H-0000000019_inline.xml	6	3	22	2	340	heel	(95
+WR-P-P-H-0000000019_inline.xml	6	3	22	3	341	wat	95
+WR-P-P-H-0000000019_inline.xml	6	3	22	4	342	scholen	95)
+WR-P-P-H-0000000019_inline.xml	6	3	22	5	343	gaan	
+WR-P-P-H-0000000019_inline.xml	6	3	22	6	344	de	(96
+WR-P-P-H-0000000019_inline.xml	6	3	22	7	345	leerlingen	96)
+WR-P-P-H-0000000019_inline.xml	6	3	22	8	346	in	
+WR-P-P-H-0000000019_inline.xml	6	3	22	9	347	twee	(97|(98)
+WR-P-P-H-0000000019_inline.xml	6	3	22	10	348	of	97
+WR-P-P-H-0000000019_inline.xml	6	3	22	11	349	drie	97|(99)
+WR-P-P-H-0000000019_inline.xml	6	3	22	12	350	ploegen	97)
+WR-P-P-H-0000000019_inline.xml	6	3	22	13	351	naar	
+WR-P-P-H-0000000019_inline.xml	6	3	22	14	352	school	(100)
+WR-P-P-H-0000000019_inline.xml	6	3	22	15	353	.	
+
+WR-P-P-H-0000000019_inline.xml	6	4	23	1	354	Alleen	
+WR-P-P-H-0000000019_inline.xml	6	4	23	2	355	op	
+WR-P-P-H-0000000019_inline.xml	6	4	23	3	356	die	(101
+WR-P-P-H-0000000019_inline.xml	6	4	23	4	357	manier	101)
+WR-P-P-H-0000000019_inline.xml	6	4	23	5	358	is	
+WR-P-P-H-0000000019_inline.xml	6	4	23	6	359	er	
+WR-P-P-H-0000000019_inline.xml	6	4	23	7	360	,	
+WR-P-P-H-0000000019_inline.xml	6	4	23	8	361	letterlijk	
+WR-P-P-H-0000000019_inline.xml	6	4	23	9	362	,	
+WR-P-P-H-0000000019_inline.xml	6	4	23	10	363	plaats	(102)
+WR-P-P-H-0000000019_inline.xml	6	4	23	11	364	voor	
+WR-P-P-H-0000000019_inline.xml	6	4	23	12	365	de	(103
+WR-P-P-H-0000000019_inline.xml	6	4	23	13	366	kinderen	103
+WR-P-P-H-0000000019_inline.xml	6	4	23	14	367	van	103
+WR-P-P-H-0000000019_inline.xml	6	4	23	15	368	de	103|(104
+WR-P-P-H-0000000019_inline.xml	6	4	23	16	369	honderdduizenden	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	17	370	vluchtelingen	103|104|(105)
+WR-P-P-H-0000000019_inline.xml	6	4	23	18	371	die	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	19	372	,	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	20	373	eerst	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	21	374	vanuit	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	22	375	Kroatië	103|104|(106|(107)
+WR-P-P-H-0000000019_inline.xml	6	4	23	23	376	en	103|104|106
+WR-P-P-H-0000000019_inline.xml	6	4	23	24	377	Bosnië	103|104|106)|(108)
+WR-P-P-H-0000000019_inline.xml	6	4	23	25	378	,	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	26	379	later	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	27	380	uit	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	28	381	Kosovo	103|104|(109)
+WR-P-P-H-0000000019_inline.xml	6	4	23	29	382	,	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	30	383	hun	103|104|(110|(111)
+WR-P-P-H-0000000019_inline.xml	6	4	23	31	384	heil	103|104|110)
+WR-P-P-H-0000000019_inline.xml	6	4	23	32	385	in	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	33	386	Servië	103|104|(87|(113)
+WR-P-P-H-0000000019_inline.xml	6	4	23	34	387	en	103|104|87
+WR-P-P-H-0000000019_inline.xml	6	4	23	35	388	Montenegro	103|104|87)|(114)
+WR-P-P-H-0000000019_inline.xml	6	4	23	36	389	hebben	103|104
+WR-P-P-H-0000000019_inline.xml	6	4	23	37	390	gezocht	103)|104)
+WR-P-P-H-0000000019_inline.xml	6	4	23	38	391	.	
+
+WR-P-P-H-0000000019_inline.xml	6	5	24	1	392	Neveneffect	(115)
+WR-P-P-H-0000000019_inline.xml	6	5	24	2	393	is	
+WR-P-P-H-0000000019_inline.xml	6	5	24	3	394	echter	
+WR-P-P-H-0000000019_inline.xml	6	5	24	4	395	dat	
+WR-P-P-H-0000000019_inline.xml	6	5	24	5	396	leerlingen	(116)
+WR-P-P-H-0000000019_inline.xml	6	5	24	6	397	veel	(117
+WR-P-P-H-0000000019_inline.xml	6	5	24	7	398	minder	117
+WR-P-P-H-0000000019_inline.xml	6	5	24	8	399	uren	117
+WR-P-P-H-0000000019_inline.xml	6	5	24	9	400	onderwijs	117|(118)
+WR-P-P-H-0000000019_inline.xml	6	5	24	10	401	krijgen	117
+WR-P-P-H-0000000019_inline.xml	6	5	24	11	402	dan	117
+WR-P-P-H-0000000019_inline.xml	6	5	24	12	403	elders	117)
+WR-P-P-H-0000000019_inline.xml	6	5	24	13	404	.	
+
+WR-P-P-H-0000000019_inline.xml	7	1	25	1	405	Scholen	(119)
+WR-P-P-H-0000000019_inline.xml	7	1	25	2	406	zijn	
+WR-P-P-H-0000000019_inline.xml	7	1	25	3	407	nauwelijks	
+WR-P-P-H-0000000019_inline.xml	7	1	25	4	408	onderhouden	
+WR-P-P-H-0000000019_inline.xml	7	1	25	5	409	,	
+WR-P-P-H-0000000019_inline.xml	7	1	25	6	410	lesmateriaal	(120)
+WR-P-P-H-0000000019_inline.xml	7	1	25	7	411	is	
+WR-P-P-H-0000000019_inline.xml	7	1	25	8	412	verouderd	
+WR-P-P-H-0000000019_inline.xml	7	1	25	9	413	,	
+WR-P-P-H-0000000019_inline.xml	7	1	25	10	414	leraren	(121)
+WR-P-P-H-0000000019_inline.xml	7	1	25	11	415	zijn	
+WR-P-P-H-0000000019_inline.xml	7	1	25	12	416	gedemotiveerd	
+WR-P-P-H-0000000019_inline.xml	7	1	25	13	417	geraakt	
+WR-P-P-H-0000000019_inline.xml	7	1	25	14	418	.	
+
+WR-P-P-H-0000000019_inline.xml	7	2	26	1	419	Hun	(122|(123)
+WR-P-P-H-0000000019_inline.xml	7	2	26	2	420	salarissen	122)
+WR-P-P-H-0000000019_inline.xml	7	2	26	3	421	zijn	
+WR-P-P-H-0000000019_inline.xml	7	2	26	4	422	inmiddels	
+WR-P-P-H-0000000019_inline.xml	7	2	26	5	423	nauwelijks	
+WR-P-P-H-0000000019_inline.xml	7	2	26	6	424	meer	
+WR-P-P-H-0000000019_inline.xml	7	2	26	7	425	voldoende	
+WR-P-P-H-0000000019_inline.xml	7	2	26	8	426	om	
+WR-P-P-H-0000000019_inline.xml	7	2	26	9	427	te	
+WR-P-P-H-0000000019_inline.xml	7	2	26	10	428	overleven	
+WR-P-P-H-0000000019_inline.xml	7	2	26	11	429	.	
+
+WR-P-P-H-0000000019_inline.xml	7	3	27	1	430	Bovendien	
+WR-P-P-H-0000000019_inline.xml	7	3	27	2	431	zagen	
+WR-P-P-H-0000000019_inline.xml	7	3	27	3	432	zij	(121)
+WR-P-P-H-0000000019_inline.xml	7	3	27	4	433	,	
+WR-P-P-H-0000000019_inline.xml	7	3	27	5	434	in	
+WR-P-P-H-0000000019_inline.xml	7	3	27	6	435	ieder	(125
+WR-P-P-H-0000000019_inline.xml	7	3	27	7	436	geval	125)
+WR-P-P-H-0000000019_inline.xml	7	3	27	8	437	tot	
+WR-P-P-H-0000000019_inline.xml	7	3	27	9	438	vorig	(126
+WR-P-P-H-0000000019_inline.xml	7	3	27	10	439	jaar	126)
+WR-P-P-H-0000000019_inline.xml	7	3	27	11	440	een	(127
+WR-P-P-H-0000000019_inline.xml	7	3	27	12	441	volksopstand	127)
+WR-P-P-H-0000000019_inline.xml	7	3	27	13	442	een	(128
+WR-P-P-H-0000000019_inline.xml	7	3	27	14	443	eind	128)
+WR-P-P-H-0000000019_inline.xml	7	3	27	15	444	maakte	
+WR-P-P-H-0000000019_inline.xml	7	3	27	16	445	aan	
+WR-P-P-H-0000000019_inline.xml	7	3	27	17	446	het	(129
+WR-P-P-H-0000000019_inline.xml	7	3	27	18	447	bewind	129
+WR-P-P-H-0000000019_inline.xml	7	3	27	19	448	van	129
+WR-P-P-H-0000000019_inline.xml	7	3	27	20	449	Slobodan	129|(130
+WR-P-P-H-0000000019_inline.xml	7	3	27	21	450	Milosevic	129)|130)
+WR-P-P-H-0000000019_inline.xml	7	3	27	22	451	,	
+WR-P-P-H-0000000019_inline.xml	7	3	27	23	452	dat	
+WR-P-P-H-0000000019_inline.xml	7	3	27	24	453	de	(131
+WR-P-P-H-0000000019_inline.xml	7	3	27	25	454	politiek	131)
+WR-P-P-H-0000000019_inline.xml	7	3	27	26	455	zich	(132)
+WR-P-P-H-0000000019_inline.xml	7	3	27	27	456	steeds	
+WR-P-P-H-0000000019_inline.xml	7	3	27	28	457	meer	
+WR-P-P-H-0000000019_inline.xml	7	3	27	29	458	met	
+WR-P-P-H-0000000019_inline.xml	7	3	27	30	459	het	(133
+WR-P-P-H-0000000019_inline.xml	7	3	27	31	460	onderwijs	133)
+WR-P-P-H-0000000019_inline.xml	7	3	27	32	461	ging	
+WR-P-P-H-0000000019_inline.xml	7	3	27	33	462	bemoeien	
+WR-P-P-H-0000000019_inline.xml	7	3	27	34	463	.	
+
+WR-P-P-H-0000000019_inline.xml	7	4	28	1	464	Schooldirecteur	(134)
+WR-P-P-H-0000000019_inline.xml	7	4	28	2	465	werd	
+WR-P-P-H-0000000019_inline.xml	7	4	28	3	466	je	(135)
+WR-P-P-H-0000000019_inline.xml	7	4	28	4	467	niet	
+WR-P-P-H-0000000019_inline.xml	7	4	28	5	468	vanwege	
+WR-P-P-H-0000000019_inline.xml	7	4	28	6	469	je	(136|(135)
+WR-P-P-H-0000000019_inline.xml	7	4	28	7	470	goede	136
+WR-P-P-H-0000000019_inline.xml	7	4	28	8	471	didactische	136
+WR-P-P-H-0000000019_inline.xml	7	4	28	9	472	kwaliteiten	136)
+WR-P-P-H-0000000019_inline.xml	7	4	28	10	473	,	
+WR-P-P-H-0000000019_inline.xml	7	4	28	11	474	maar	
+WR-P-P-H-0000000019_inline.xml	7	4	28	12	475	op	
+WR-P-P-H-0000000019_inline.xml	7	4	28	13	476	basis	
+WR-P-P-H-0000000019_inline.xml	7	4	28	14	477	van	
+WR-P-P-H-0000000019_inline.xml	7	4	28	15	478	de	(138
+WR-P-P-H-0000000019_inline.xml	7	4	28	16	479	juiste	138
+WR-P-P-H-0000000019_inline.xml	7	4	28	17	480	partijkaart	138)
+WR-P-P-H-0000000019_inline.xml	7	4	28	18	481	.	
+
+WR-P-P-H-0000000019_inline.xml	7	5	29	1	482	Scholen	(139
+WR-P-P-H-0000000019_inline.xml	7	5	29	2	483	met	139
+WR-P-P-H-0000000019_inline.xml	7	5	29	3	484	zo'n	139|(140
+WR-P-P-H-0000000019_inline.xml	7	5	29	4	485	politiek	139|140
+WR-P-P-H-0000000019_inline.xml	7	5	29	5	486	goedgekeurd	139|140
+WR-P-P-H-0000000019_inline.xml	7	5	29	6	487	hoofd	139)|140)
+WR-P-P-H-0000000019_inline.xml	7	5	29	7	488	kregen	
+WR-P-P-H-0000000019_inline.xml	7	5	29	8	489	veelal	
+WR-P-P-H-0000000019_inline.xml	7	5	29	9	490	net	(141
+WR-P-P-H-0000000019_inline.xml	7	5	29	10	491	iets	141
+WR-P-P-H-0000000019_inline.xml	7	5	29	11	492	meer	141
+WR-P-P-H-0000000019_inline.xml	7	5	29	12	493	geld	141
+WR-P-P-H-0000000019_inline.xml	7	5	29	13	494	uit	141
+WR-P-P-H-0000000019_inline.xml	7	5	29	14	495	het	141|(142
+WR-P-P-H-0000000019_inline.xml	7	5	29	15	496	-	141|142
+WR-P-P-H-0000000019_inline.xml	7	5	29	16	497	overigens	141|142
+WR-P-P-H-0000000019_inline.xml	7	5	29	17	498	stelselmatig	141|142
+WR-P-P-H-0000000019_inline.xml	7	5	29	18	499	gekorte	141|142
+WR-P-P-H-0000000019_inline.xml	7	5	29	19	500	-	141|142
+WR-P-P-H-0000000019_inline.xml	7	5	29	20	501	budget	141|142
+WR-P-P-H-0000000019_inline.xml	7	5	29	21	502	van	141|142
+WR-P-P-H-0000000019_inline.xml	7	5	29	22	503	de	141|142|(143
+WR-P-P-H-0000000019_inline.xml	7	5	29	23	504	minister	141|142|143
+WR-P-P-H-0000000019_inline.xml	7	5	29	24	505	van	141|142|143
+WR-P-P-H-0000000019_inline.xml	7	5	29	25	506	onderwijs	141)|142)|143)|(144)
+WR-P-P-H-0000000019_inline.xml	7	5	29	26	507	.	
+
+WR-P-P-H-0000000019_inline.xml	7	6	30	1	508	Vandaar	
+WR-P-P-H-0000000019_inline.xml	7	6	30	2	509	dat	
+WR-P-P-H-0000000019_inline.xml	7	6	30	3	510	juist	
+WR-P-P-H-0000000019_inline.xml	7	6	30	4	511	in	
+WR-P-P-H-0000000019_inline.xml	7	6	30	5	512	Belgrado	(13)
+WR-P-P-H-0000000019_inline.xml	7	6	30	6	513	,	
+WR-P-P-H-0000000019_inline.xml	7	6	30	7	514	tot	
+WR-P-P-H-0000000019_inline.xml	7	6	30	8	515	5	(146
+WR-P-P-H-0000000019_inline.xml	7	6	30	9	516	oktober	146
+WR-P-P-H-0000000019_inline.xml	7	6	30	10	517	vorig	146|(147
+WR-P-P-H-0000000019_inline.xml	7	6	30	11	518	jaar	146)|147)
+WR-P-P-H-0000000019_inline.xml	7	6	30	12	519	oppositiestad	(13)
+WR-P-P-H-0000000019_inline.xml	7	6	30	13	520	bij	(13)
+WR-P-P-H-0000000019_inline.xml	7	6	30	14	521	uitstek	(13)|(149)
+WR-P-P-H-0000000019_inline.xml	7	6	30	15	522	,	
+WR-P-P-H-0000000019_inline.xml	7	6	30	16	523	de	(150
+WR-P-P-H-0000000019_inline.xml	7	6	30	17	524	scholen	150)
+WR-P-P-H-0000000019_inline.xml	7	6	30	18	525	er	
+WR-P-P-H-0000000019_inline.xml	7	6	30	19	526	zo	
+WR-P-P-H-0000000019_inline.xml	7	6	30	20	527	beroerd	
+WR-P-P-H-0000000019_inline.xml	7	6	30	21	528	aan	
+WR-P-P-H-0000000019_inline.xml	7	6	30	22	529	toe	
+WR-P-P-H-0000000019_inline.xml	7	6	30	23	530	zijn	
+WR-P-P-H-0000000019_inline.xml	7	6	30	24	531	.	
+
+WR-P-P-H-0000000019_inline.xml	8	1	31	1	532	VERVOLG	(151
+WR-P-P-H-0000000019_inline.xml	8	1	31	2	533	OP	151
+WR-P-P-H-0000000019_inline.xml	8	1	31	3	534	PAGINA	151|(152
+WR-P-P-H-0000000019_inline.xml	8	1	31	4	535	5	151|152|(153
+
+WR-P-P-H-0000000019_inline.xml	9	1	32	1	536	'	
+WR-P-P-H-0000000019_inline.xml	9	1	32	2	537	Waarom	
+WR-P-P-H-0000000019_inline.xml	9	1	32	3	538	zou	
+WR-P-P-H-0000000019_inline.xml	9	1	32	4	539	je	(154)
+WR-P-P-H-0000000019_inline.xml	9	1	32	5	540	nog	
+WR-P-P-H-0000000019_inline.xml	9	1	32	6	541	je	(155|(154)
+WR-P-P-H-0000000019_inline.xml	9	1	32	7	542	best	155)
+WR-P-P-H-0000000019_inline.xml	9	1	32	8	543	doen	
+WR-P-P-H-0000000019_inline.xml	9	1	32	9	544	op	
+WR-P-P-H-0000000019_inline.xml	9	1	32	10	545	school	(157)
+WR-P-P-H-0000000019_inline.xml	9	1	32	11	546	?	
+WR-P-P-H-0000000019_inline.xml	9	1	32	12	547	'	
+
+WR-P-P-H-0000000019_inline.xml	10	1	33	1	548	Hulp	(158
+WR-P-P-H-0000000019_inline.xml	10	1	33	2	549	aan	158
+WR-P-P-H-0000000019_inline.xml	10	1	33	3	550	Joegoslavië	158|(82
+
+WR-P-P-H-0000000019_inline.xml	11	1	34	1	551	VERVOLG	(160
+WR-P-P-H-0000000019_inline.xml	11	1	34	2	552	VAN	160
+WR-P-P-H-0000000019_inline.xml	11	1	34	3	553	PAGINA	160|(161
+WR-P-P-H-0000000019_inline.xml	11	1	34	4	554	1	160|161|(162
+
+WR-P-P-H-0000000019_inline.xml	12	1	35	1	555	,,	
+WR-P-P-H-0000000019_inline.xml	12	1	35	2	556	Er	
+WR-P-P-H-0000000019_inline.xml	12	1	35	3	557	is	
+WR-P-P-H-0000000019_inline.xml	12	1	35	4	558	een	(163
+WR-P-P-H-0000000019_inline.xml	12	1	35	5	559	sfeer	163
+WR-P-P-H-0000000019_inline.xml	12	1	35	6	560	ontstaan	163
+WR-P-P-H-0000000019_inline.xml	12	1	35	7	561	dat	163
+WR-P-P-H-0000000019_inline.xml	12	1	35	8	562	het	163|(164)
+WR-P-P-H-0000000019_inline.xml	12	1	35	9	563	allemaal	163
+WR-P-P-H-0000000019_inline.xml	12	1	35	10	564	niet	163
+WR-P-P-H-0000000019_inline.xml	12	1	35	11	565	meer	163
+WR-P-P-H-0000000019_inline.xml	12	1	35	12	566	uitmaakt	163)
+WR-P-P-H-0000000019_inline.xml	12	1	35	13	567	''	
+WR-P-P-H-0000000019_inline.xml	12	1	35	14	568	,	
+WR-P-P-H-0000000019_inline.xml	12	1	35	15	569	vat	
+WR-P-P-H-0000000019_inline.xml	12	1	35	16	570	Dusan	(15)
+WR-P-P-H-0000000019_inline.xml	12	1	35	17	571	de	(166
+WR-P-P-H-0000000019_inline.xml	12	1	35	18	572	afgelopen	166
+WR-P-P-H-0000000019_inline.xml	12	1	35	19	573	tien	166
+WR-P-P-H-0000000019_inline.xml	12	1	35	20	574	jaar	166)
+WR-P-P-H-0000000019_inline.xml	12	1	35	21	575	samen	
+WR-P-P-H-0000000019_inline.xml	12	1	35	22	576	.	
+
+WR-P-P-H-0000000019_inline.xml	12	2	36	1	577	,,	
+WR-P-P-H-0000000019_inline.xml	12	2	36	2	578	Bij	
+WR-P-P-H-0000000019_inline.xml	12	2	36	3	579	leraren	(167)
+WR-P-P-H-0000000019_inline.xml	12	2	36	4	580	,	
+WR-P-P-H-0000000019_inline.xml	12	2	36	5	581	maar	
+WR-P-P-H-0000000019_inline.xml	12	2	36	6	582	ook	
+WR-P-P-H-0000000019_inline.xml	12	2	36	7	583	bij	
+WR-P-P-H-0000000019_inline.xml	12	2	36	8	584	leerlingen	(168)
+WR-P-P-H-0000000019_inline.xml	12	2	36	9	585	.	
+
+WR-P-P-H-0000000019_inline.xml	12	3	37	1	586	Want	
+WR-P-P-H-0000000019_inline.xml	12	3	37	2	587	waarom	
+WR-P-P-H-0000000019_inline.xml	12	3	37	3	588	zou	
+WR-P-P-H-0000000019_inline.xml	12	3	37	4	589	je	(169)
+WR-P-P-H-0000000019_inline.xml	12	3	37	5	590	überhaupt	
+WR-P-P-H-0000000019_inline.xml	12	3	37	6	591	nog	
+WR-P-P-H-0000000019_inline.xml	12	3	37	7	592	je	(170|(169)
+WR-P-P-H-0000000019_inline.xml	12	3	37	8	593	best	170)
+WR-P-P-H-0000000019_inline.xml	12	3	37	9	594	doen	
+WR-P-P-H-0000000019_inline.xml	12	3	37	10	595	,	
+WR-P-P-H-0000000019_inline.xml	12	3	37	11	596	als	
+WR-P-P-H-0000000019_inline.xml	12	3	37	12	597	er	
+WR-P-P-H-0000000019_inline.xml	12	3	37	13	598	toch	
+WR-P-P-H-0000000019_inline.xml	12	3	37	14	599	geen	(172
+WR-P-P-H-0000000019_inline.xml	12	3	37	15	600	enkel	172
+WR-P-P-H-0000000019_inline.xml	12	3	37	16	601	perspectief	172
+WR-P-P-H-0000000019_inline.xml	12	3	37	17	602	is	172
+WR-P-P-H-0000000019_inline.xml	12	3	37	18	603	op	172
+WR-P-P-H-0000000019_inline.xml	12	3	37	19	604	een	172|(173
+WR-P-P-H-0000000019_inline.xml	12	3	37	20	605	leuke	172|173
+WR-P-P-H-0000000019_inline.xml	12	3	37	21	606	baan	172)|173)
+WR-P-P-H-0000000019_inline.xml	12	3	37	22	607	.	
+WR-P-P-H-0000000019_inline.xml	12	3	37	23	608	''	
+
+WR-P-P-H-0000000019_inline.xml	13	1	38	1	609	Gevolg	(174)
+WR-P-P-H-0000000019_inline.xml	13	1	38	2	610	,	
+WR-P-P-H-0000000019_inline.xml	13	1	38	3	611	aldus	
+WR-P-P-H-0000000019_inline.xml	13	1	38	4	612	de	(84
+WR-P-P-H-0000000019_inline.xml	13	1	38	5	613	Wereldbank	84)
+WR-P-P-H-0000000019_inline.xml	13	1	38	6	614	:	
+WR-P-P-H-0000000019_inline.xml	13	1	38	7	615	het	(176
+WR-P-P-H-0000000019_inline.xml	13	1	38	8	616	opleidingsniveau	176
+WR-P-P-H-0000000019_inline.xml	13	1	38	9	617	van	176
+WR-P-P-H-0000000019_inline.xml	13	1	38	10	618	de	176|(177
+WR-P-P-H-0000000019_inline.xml	13	1	38	11	619	beroepsbevolking	176|177
+WR-P-P-H-0000000019_inline.xml	13	1	38	12	620	van	176|177
+WR-P-P-H-0000000019_inline.xml	13	1	38	13	621	Servië	176|177|(87)|(179)
+WR-P-P-H-0000000019_inline.xml	13	1	38	14	622	en	176|177|(87)
+WR-P-P-H-0000000019_inline.xml	13	1	38	15	623	Montenegro	176)|177)|(87)|(180)
+WR-P-P-H-0000000019_inline.xml	13	1	38	16	624	blijft	
+WR-P-P-H-0000000019_inline.xml	13	1	38	17	625	inmiddels	
+WR-P-P-H-0000000019_inline.xml	13	1	38	18	626	ver	
+WR-P-P-H-0000000019_inline.xml	13	1	38	19	627	achter	
+WR-P-P-H-0000000019_inline.xml	13	1	38	20	628	bij	
+WR-P-P-H-0000000019_inline.xml	13	1	38	21	629	dat	(181
+WR-P-P-H-0000000019_inline.xml	13	1	38	22	630	van	181
+WR-P-P-H-0000000019_inline.xml	13	1	38	23	631	veel	181|(182
+WR-P-P-H-0000000019_inline.xml	13	1	38	24	632	Europese	181|182
+WR-P-P-H-0000000019_inline.xml	13	1	38	25	633	landen	181)|182)
+WR-P-P-H-0000000019_inline.xml	13	1	38	26	634	.	
+
+WR-P-P-H-0000000019_inline.xml	13	2	39	1	635	Tien	(183
+WR-P-P-H-0000000019_inline.xml	13	2	39	2	636	jaar	183)
+WR-P-P-H-0000000019_inline.xml	13	2	39	3	637	geleden	
+WR-P-P-H-0000000019_inline.xml	13	2	39	4	638	was	
+WR-P-P-H-0000000019_inline.xml	13	2	39	5	639	dat	(184)
+WR-P-P-H-0000000019_inline.xml	13	2	39	6	640	niet	
+WR-P-P-H-0000000019_inline.xml	13	2	39	7	641	zo.	
+WR-P-P-H-0000000019_inline.xml	13	2	39	8	642	Joegoslavië	(82)
+WR-P-P-H-0000000019_inline.xml	13	2	39	9	643	kon	
+WR-P-P-H-0000000019_inline.xml	13	2	39	10	644	de	(186
+WR-P-P-H-0000000019_inline.xml	13	2	39	11	645	concurrentie	186)
+WR-P-P-H-0000000019_inline.xml	13	2	39	12	646	redelijk	
+WR-P-P-H-0000000019_inline.xml	13	2	39	13	647	tot	
+WR-P-P-H-0000000019_inline.xml	13	2	39	14	648	goed	
+WR-P-P-H-0000000019_inline.xml	13	2	39	15	649	aan	
+WR-P-P-H-0000000019_inline.xml	13	2	39	16	650	.	
+
+WR-P-P-H-0000000019_inline.xml	14	1	40	1	651	Er	
+WR-P-P-H-0000000019_inline.xml	14	1	40	2	652	moeten	
+WR-P-P-H-0000000019_inline.xml	14	1	40	3	653	snel	
+WR-P-P-H-0000000019_inline.xml	14	1	40	4	654	maatregelen	(187
+WR-P-P-H-0000000019_inline.xml	14	1	40	5	655	worden	187
+WR-P-P-H-0000000019_inline.xml	14	1	40	6	656	genomen	187
+WR-P-P-H-0000000019_inline.xml	14	1	40	7	657	om	187
+WR-P-P-H-0000000019_inline.xml	14	1	40	8	658	het	187|(188
+WR-P-P-H-0000000019_inline.xml	14	1	40	9	659	onderwijs	187|188)
+WR-P-P-H-0000000019_inline.xml	14	1	40	10	660	te	187
+WR-P-P-H-0000000019_inline.xml	14	1	40	11	661	verbeteren	187)
+WR-P-P-H-0000000019_inline.xml	14	1	40	12	662	,	
+WR-P-P-H-0000000019_inline.xml	14	1	40	13	663	aldus	
+WR-P-P-H-0000000019_inline.xml	14	1	40	14	664	de	(84)
+WR-P-P-H-0000000019_inline.xml	14	1	40	15	665	Wereldbank	(84)
+WR-P-P-H-0000000019_inline.xml	14	1	40	16	666	.	
+
+WR-P-P-H-0000000019_inline.xml	14	2	41	1	667	Niet	
+WR-P-P-H-0000000019_inline.xml	14	2	41	2	668	allemaal	
+WR-P-P-H-0000000019_inline.xml	14	2	41	3	669	kosten	
+WR-P-P-H-0000000019_inline.xml	14	2	41	4	670	ze	(190)
+WR-P-P-H-0000000019_inline.xml	14	2	41	5	671	geld	(191)
+WR-P-P-H-0000000019_inline.xml	14	2	41	6	672	,	
+WR-P-P-H-0000000019_inline.xml	14	2	41	7	673	maar	
+WR-P-P-H-0000000019_inline.xml	14	2	41	8	674	de	(192
+WR-P-P-H-0000000019_inline.xml	14	2	41	9	675	meeste	192)
+WR-P-P-H-0000000019_inline.xml	14	2	41	10	676	wel	
+WR-P-P-H-0000000019_inline.xml	14	2	41	11	677	;	
+WR-P-P-H-0000000019_inline.xml	14	2	41	12	678	voor	
+WR-P-P-H-0000000019_inline.xml	14	2	41	13	679	de	(193
+WR-P-P-H-0000000019_inline.xml	14	2	41	14	680	verhoging	193
+WR-P-P-H-0000000019_inline.xml	14	2	41	15	681	van	193
+WR-P-P-H-0000000019_inline.xml	14	2	41	16	682	de	193|(194
+WR-P-P-H-0000000019_inline.xml	14	2	41	17	683	lerarensalarissen	193)|194)
+WR-P-P-H-0000000019_inline.xml	14	2	41	18	684	bijvoorbeeld	
+WR-P-P-H-0000000019_inline.xml	14	2	41	19	685	.	
+
+WR-P-P-H-0000000019_inline.xml	14	3	42	1	686	Buitenlandse	(195
+WR-P-P-H-0000000019_inline.xml	14	3	42	2	687	hulp	195)
+WR-P-P-H-0000000019_inline.xml	14	3	42	3	688	is	
+WR-P-P-H-0000000019_inline.xml	14	3	42	4	689	onontbeerlijk	
+WR-P-P-H-0000000019_inline.xml	14	3	42	5	690	.	
+
+WR-P-P-H-0000000019_inline.xml	15	1	43	1	691	Op	
+WR-P-P-H-0000000019_inline.xml	15	1	43	2	692	het	(196
+WR-P-P-H-0000000019_inline.xml	15	1	43	3	693	terras	196
+WR-P-P-H-0000000019_inline.xml	15	1	43	4	694	van	196
+WR-P-P-H-0000000019_inline.xml	15	1	43	5	695	café	196|(197|(198
+WR-P-P-H-0000000019_inline.xml	15	1	43	6	696	annex	196|197|198
+WR-P-P-H-0000000019_inline.xml	15	1	43	7	697	boekhandel	196|197|198|(199
+WR-P-P-H-0000000019_inline.xml	15	1	43	8	698	Plato	196|197)|198)|199)
+WR-P-P-H-0000000019_inline.xml	15	1	43	9	699	,	196
+WR-P-P-H-0000000019_inline.xml	15	1	43	10	700	waar	196
+WR-P-P-H-0000000019_inline.xml	15	1	43	11	701	studentikoos	196|(200
+WR-P-P-H-0000000019_inline.xml	15	1	43	12	702	Belgrado	196|200)
+WR-P-P-H-0000000019_inline.xml	15	1	43	13	703	bij	196
+WR-P-P-H-0000000019_inline.xml	15	1	43	14	704	voorkeur	196|(201)
+WR-P-P-H-0000000019_inline.xml	15	1	43	15	705	verblijft	196)
+WR-P-P-H-0000000019_inline.xml	15	1	43	16	706	,	
+WR-P-P-H-0000000019_inline.xml	15	1	43	17	707	heeft	
+WR-P-P-H-0000000019_inline.xml	15	1	43	18	708	de	(202
+WR-P-P-H-0000000019_inline.xml	15	1	43	19	709	20-jarige	202
+WR-P-P-H-0000000019_inline.xml	15	1	43	20	710	Sale	202)
+WR-P-P-H-0000000019_inline.xml	15	1	43	21	711	een	(203
+WR-P-P-H-0000000019_inline.xml	15	1	43	22	712	lijstje	203
+WR-P-P-H-0000000019_inline.xml	15	1	43	23	713	waaraan	203
+WR-P-P-H-0000000019_inline.xml	15	1	43	24	714	het	203|(204)
+WR-P-P-H-0000000019_inline.xml	15	1	43	25	715	de	203|(205
+WR-P-P-H-0000000019_inline.xml	15	1	43	26	716	Technische	203|205
+WR-P-P-H-0000000019_inline.xml	15	1	43	27	717	Hogeschool	203|205
+WR-P-P-H-0000000019_inline.xml	15	1	43	28	718	ontbreekt	203|205
+WR-P-P-H-0000000019_inline.xml	15	1	43	29	719	,	203|205
+WR-P-P-H-0000000019_inline.xml	15	1	43	30	720	waar	203|205
+WR-P-P-H-0000000019_inline.xml	15	1	43	31	721	hij	203|205|(202)
+WR-P-P-H-0000000019_inline.xml	15	1	43	32	722	eerstejaarsstudent	203|205|(202)
+WR-P-P-H-0000000019_inline.xml	15	1	43	33	723	is	203)|205)
+WR-P-P-H-0000000019_inline.xml	15	1	43	34	724	.	
+
+WR-P-P-H-0000000019_inline.xml	16	1	44	1	725	,,	
+WR-P-P-H-0000000019_inline.xml	16	1	44	2	726	Fatsoenlijke	(208
+WR-P-P-H-0000000019_inline.xml	16	1	44	3	727	toiletten	208)
+WR-P-P-H-0000000019_inline.xml	16	1	44	4	728	''	
+WR-P-P-H-0000000019_inline.xml	16	1	44	5	729	,	
+WR-P-P-H-0000000019_inline.xml	16	1	44	6	730	begint	
+WR-P-P-H-0000000019_inline.xml	16	1	44	7	731	hij	(202)
+WR-P-P-H-0000000019_inline.xml	16	1	44	8	732	lachend	
+WR-P-P-H-0000000019_inline.xml	16	1	44	9	733	,	
+WR-P-P-H-0000000019_inline.xml	16	1	44	10	734	om	
+WR-P-P-H-0000000019_inline.xml	16	1	44	11	735	,	
+WR-P-P-H-0000000019_inline.xml	16	1	44	12	736	op	
+WR-P-P-H-0000000019_inline.xml	16	1	44	13	737	serieuzer	(210
+WR-P-P-H-0000000019_inline.xml	16	1	44	14	738	toon	210)
+WR-P-P-H-0000000019_inline.xml	16	1	44	15	739	,	
+WR-P-P-H-0000000019_inline.xml	16	1	44	16	740	te	
+WR-P-P-H-0000000019_inline.xml	16	1	44	17	741	wijzen	
+WR-P-P-H-0000000019_inline.xml	16	1	44	18	742	op	
+WR-P-P-H-0000000019_inline.xml	16	1	44	19	743	de	(211
+WR-P-P-H-0000000019_inline.xml	16	1	44	20	744	effecten	211
+WR-P-P-H-0000000019_inline.xml	16	1	44	21	745	van	211
+WR-P-P-H-0000000019_inline.xml	16	1	44	22	746	het	211|(212
+WR-P-P-H-0000000019_inline.xml	16	1	44	23	747	handels-	211|212
+WR-P-P-H-0000000019_inline.xml	16	1	44	24	748	en	211|212
+WR-P-P-H-0000000019_inline.xml	16	1	44	25	749	culturele	211|212
+WR-P-P-H-0000000019_inline.xml	16	1	44	26	750	embargo	211|212
+WR-P-P-H-0000000019_inline.xml	16	1	44	27	751	waar	211|212
+WR-P-P-H-0000000019_inline.xml	16	1	44	28	752	Joegoslavië	211|212|(82)
+WR-P-P-H-0000000019_inline.xml	16	1	44	29	753	vele	211|212|(214
+WR-P-P-H-0000000019_inline.xml	16	1	44	30	754	jaren	211|212|214)
+WR-P-P-H-0000000019_inline.xml	16	1	44	31	755	onder	211|212
+WR-P-P-H-0000000019_inline.xml	16	1	44	32	756	leed	211)|212)
+WR-P-P-H-0000000019_inline.xml	16	1	44	33	757	.	
+
+WR-P-P-H-0000000019_inline.xml	16	2	45	1	758	,,	
+WR-P-P-H-0000000019_inline.xml	16	2	45	2	759	Er	
+WR-P-P-H-0000000019_inline.xml	16	2	45	3	760	mochten	
+WR-P-P-H-0000000019_inline.xml	16	2	45	4	761	zelfs	
+WR-P-P-H-0000000019_inline.xml	16	2	45	5	762	geen	(215
+WR-P-P-H-0000000019_inline.xml	16	2	45	6	763	wetenschappelijke	215
+WR-P-P-H-0000000019_inline.xml	16	2	45	7	764	tijdschriften	215
+WR-P-P-H-0000000019_inline.xml	16	2	45	8	765	meer	215)
+WR-P-P-H-0000000019_inline.xml	16	2	45	9	766	hierheen	
+WR-P-P-H-0000000019_inline.xml	16	2	45	10	767	worden	
+WR-P-P-H-0000000019_inline.xml	16	2	45	11	768	gezonden	
+WR-P-P-H-0000000019_inline.xml	16	2	45	12	769	.	
+
+WR-P-P-H-0000000019_inline.xml	16	3	46	1	770	Kun	
+WR-P-P-H-0000000019_inline.xml	16	3	46	2	771	je	(216)
+WR-P-P-H-0000000019_inline.xml	16	3	46	3	772	nagaan	
+WR-P-P-H-0000000019_inline.xml	16	3	46	4	773	wat	(217
+WR-P-P-H-0000000019_inline.xml	16	3	46	5	774	een	217
+WR-P-P-H-0000000019_inline.xml	16	3	46	6	775	achterstand	217)
+WR-P-P-H-0000000019_inline.xml	16	3	46	7	776	dat	(218)
+WR-P-P-H-0000000019_inline.xml	16	3	46	8	777	betekent	
+WR-P-P-H-0000000019_inline.xml	16	3	46	9	778	''	
+WR-P-P-H-0000000019_inline.xml	16	3	46	10	779	.	
+
+WR-P-P-H-0000000019_inline.xml	17	1	47	1	780	Dat	
+WR-P-P-H-0000000019_inline.xml	17	1	47	2	781	het	(219
+WR-P-P-H-0000000019_inline.xml	17	1	47	3	782	buitenland	219)
+WR-P-P-H-0000000019_inline.xml	17	1	47	4	783	nu	
+WR-P-P-H-0000000019_inline.xml	17	1	47	5	784	180	(220
+WR-P-P-H-0000000019_inline.xml	17	1	47	6	785	graden	220)
+WR-P-P-H-0000000019_inline.xml	17	1	47	7	786	is	
+WR-P-P-H-0000000019_inline.xml	17	1	47	8	787	gedraaid	
+WR-P-P-H-0000000019_inline.xml	17	1	47	9	788	en	
+WR-P-P-H-0000000019_inline.xml	17	1	47	10	789	graag	
+WR-P-P-H-0000000019_inline.xml	17	1	47	11	790	wil	
+WR-P-P-H-0000000019_inline.xml	17	1	47	12	791	helpen	
+WR-P-P-H-0000000019_inline.xml	17	1	47	13	792	,	
+WR-P-P-H-0000000019_inline.xml	17	1	47	14	793	juicht	
+WR-P-P-H-0000000019_inline.xml	17	1	47	15	794	hij	(202)
+WR-P-P-H-0000000019_inline.xml	17	1	47	16	795	toe	
+WR-P-P-H-0000000019_inline.xml	17	1	47	17	796	.	
+
+WR-P-P-H-0000000019_inline.xml	17	2	48	1	797	Hij	(202)
+WR-P-P-H-0000000019_inline.xml	17	2	48	2	798	heeft	
+WR-P-P-H-0000000019_inline.xml	17	2	48	3	799	wel	
+WR-P-P-H-0000000019_inline.xml	17	2	48	4	800	een	(223
+WR-P-P-H-0000000019_inline.xml	17	2	48	5	801	maar	223)
+WR-P-P-H-0000000019_inline.xml	17	2	48	6	802	.	
+
+WR-P-P-H-0000000019_inline.xml	17	3	49	1	803	,,	
+WR-P-P-H-0000000019_inline.xml	17	3	49	2	804	Na	
+WR-P-P-H-0000000019_inline.xml	17	3	49	3	805	de	(225
+WR-P-P-H-0000000019_inline.xml	17	3	49	4	806	revolutie	225)
+WR-P-P-H-0000000019_inline.xml	17	3	49	5	807	hebben	
+WR-P-P-H-0000000019_inline.xml	17	3	49	6	808	we	(224)
+WR-P-P-H-0000000019_inline.xml	17	3	49	7	809	van	
+WR-P-P-H-0000000019_inline.xml	17	3	49	8	810	diverse	(226
+WR-P-P-H-0000000019_inline.xml	17	3	49	9	811	organisaties	226)
+WR-P-P-H-0000000019_inline.xml	17	3	49	10	812	instrumenten	(227|(228)
+WR-P-P-H-0000000019_inline.xml	17	3	49	11	813	en	227
+WR-P-P-H-0000000019_inline.xml	17	3	49	12	814	computers	227)|(229)
+WR-P-P-H-0000000019_inline.xml	17	3	49	13	815	gekregen	
+WR-P-P-H-0000000019_inline.xml	17	3	49	14	816	.	
+
+WR-P-P-H-0000000019_inline.xml	17	4	50	1	817	Onze	(230|(224)
+WR-P-P-H-0000000019_inline.xml	17	4	50	2	818	behoeftes	230)
+WR-P-P-H-0000000019_inline.xml	17	4	50	3	819	leken	
+WR-P-P-H-0000000019_inline.xml	17	4	50	4	820	niet	
+WR-P-P-H-0000000019_inline.xml	17	4	50	5	821	het	(231
+WR-P-P-H-0000000019_inline.xml	17	4	50	6	822	criterium	231)
+WR-P-P-H-0000000019_inline.xml	17	4	50	7	823	.	
+
+WR-P-P-H-0000000019_inline.xml	17	5	51	1	824	Blijkbaar	
+WR-P-P-H-0000000019_inline.xml	17	5	51	2	825	wilde	
+WR-P-P-H-0000000019_inline.xml	17	5	51	3	826	iemand	(232)
+WR-P-P-H-0000000019_inline.xml	17	5	51	4	827	graag	
+WR-P-P-H-0000000019_inline.xml	17	5	51	5	828	een	(227
+WR-P-P-H-0000000019_inline.xml	17	5	51	6	829	hoop	227
+WR-P-P-H-0000000019_inline.xml	17	5	51	7	830	rotzooi	227)
+WR-P-P-H-0000000019_inline.xml	17	5	51	8	831	kwijt	
+WR-P-P-H-0000000019_inline.xml	17	5	51	9	832	.	
+WR-P-P-H-0000000019_inline.xml	17	5	51	10	833	''	
+
+WR-P-P-H-0000000019_inline.xml	17	6	52	1	834	Zo	
+WR-P-P-H-0000000019_inline.xml	17	6	52	2	835	moet	
+WR-P-P-H-0000000019_inline.xml	17	6	52	3	836	het	(234)
+WR-P-P-H-0000000019_inline.xml	17	6	52	4	837	met	
+WR-P-P-H-0000000019_inline.xml	17	6	52	5	838	de	(235
+WR-P-P-H-0000000019_inline.xml	17	6	52	6	839	besteding	235
+WR-P-P-H-0000000019_inline.xml	17	6	52	7	840	van	235
+WR-P-P-H-0000000019_inline.xml	17	6	52	8	841	de	235|(236
+WR-P-P-H-0000000019_inline.xml	17	6	52	9	842	nieuwe	235|236
+WR-P-P-H-0000000019_inline.xml	17	6	52	10	843	gelden	235)|236)
+WR-P-P-H-0000000019_inline.xml	17	6	52	11	844	dus	
+WR-P-P-H-0000000019_inline.xml	17	6	52	12	845	niet	
+WR-P-P-H-0000000019_inline.xml	17	6	52	13	846	.	
+

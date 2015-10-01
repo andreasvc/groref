@@ -1,0 +1,594 @@
+doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+WR-P-P-H-0000000089_inline.xml	1	1	1	1	1	BRUSSEL	(1)
+WR-P-P-H-0000000089_inline.xml	1	1	1	2	2	-	
+
+WR-P-P-H-0000000089_inline.xml	1	2	2	1	3	Het	(2)
+WR-P-P-H-0000000089_inline.xml	1	2	2	2	4	komt	
+WR-P-P-H-0000000089_inline.xml	1	2	2	3	5	de	(3
+WR-P-P-H-0000000089_inline.xml	1	2	2	4	6	Belgische	3
+WR-P-P-H-0000000089_inline.xml	1	2	2	5	7	premier	3
+WR-P-P-H-0000000089_inline.xml	1	2	2	6	8	Guy	3
+WR-P-P-H-0000000089_inline.xml	1	2	2	7	9	Verhofstadt	3)
+WR-P-P-H-0000000089_inline.xml	1	2	2	8	10	niet	
+WR-P-P-H-0000000089_inline.xml	1	2	2	9	11	slecht	
+WR-P-P-H-0000000089_inline.xml	1	2	2	10	12	uit	
+WR-P-P-H-0000000089_inline.xml	1	2	2	11	13	dat	
+WR-P-P-H-0000000089_inline.xml	1	2	2	12	14	zijn	(4|(3)
+WR-P-P-H-0000000089_inline.xml	1	2	2	13	15	land	4)
+WR-P-P-H-0000000089_inline.xml	1	2	2	14	16	de	(6
+WR-P-P-H-0000000089_inline.xml	1	2	2	15	17	komende	6
+WR-P-P-H-0000000089_inline.xml	1	2	2	16	18	zes	6
+WR-P-P-H-0000000089_inline.xml	1	2	2	17	19	maanden	6)
+WR-P-P-H-0000000089_inline.xml	1	2	2	18	20	voorzitter	(4)
+WR-P-P-H-0000000089_inline.xml	1	2	2	19	21	is	
+WR-P-P-H-0000000089_inline.xml	1	2	2	20	22	van	(4
+WR-P-P-H-0000000089_inline.xml	1	2	2	21	23	de	4|(8
+WR-P-P-H-0000000089_inline.xml	1	2	2	22	24	Europese	4|8
+WR-P-P-H-0000000089_inline.xml	1	2	2	23	25	Unie	4)|8)
+WR-P-P-H-0000000089_inline.xml	1	2	2	24	26	.	
+
+WR-P-P-H-0000000089_inline.xml	1	3	3	1	27	Hij	(3)
+WR-P-P-H-0000000089_inline.xml	1	3	3	2	28	ontkent	
+WR-P-P-H-0000000089_inline.xml	1	3	3	3	29	het	(10)
+WR-P-P-H-0000000089_inline.xml	1	3	3	4	30	weliswaar	
+WR-P-P-H-0000000089_inline.xml	1	3	3	5	31	,	
+WR-P-P-H-0000000089_inline.xml	1	3	3	6	32	maar	
+WR-P-P-H-0000000089_inline.xml	1	3	3	7	33	beweerd	
+WR-P-P-H-0000000089_inline.xml	1	3	3	8	34	wordt	
+WR-P-P-H-0000000089_inline.xml	1	3	3	9	35	dat	
+WR-P-P-H-0000000089_inline.xml	1	3	3	10	36	hij	(3)
+WR-P-P-H-0000000089_inline.xml	1	3	3	11	37	Europa	(8)
+WR-P-P-H-0000000089_inline.xml	1	3	3	12	38	zal	
+WR-P-P-H-0000000089_inline.xml	1	3	3	13	39	gebruiken	
+WR-P-P-H-0000000089_inline.xml	1	3	3	14	40	om	
+WR-P-P-H-0000000089_inline.xml	1	3	3	15	41	in	
+WR-P-P-H-0000000089_inline.xml	1	3	3	16	42	eigen	(4
+WR-P-P-H-0000000089_inline.xml	1	3	3	17	43	land	4)
+WR-P-P-H-0000000089_inline.xml	1	3	3	18	44	politieke	(14
+WR-P-P-H-0000000089_inline.xml	1	3	3	19	45	munt	14)
+WR-P-P-H-0000000089_inline.xml	1	3	3	20	46	uit	
+WR-P-P-H-0000000089_inline.xml	1	3	3	21	47	te	
+WR-P-P-H-0000000089_inline.xml	1	3	3	22	48	slaan	
+WR-P-P-H-0000000089_inline.xml	1	3	3	23	49	en	
+WR-P-P-H-0000000089_inline.xml	1	3	3	24	50	in	
+WR-P-P-H-0000000089_inline.xml	1	3	3	25	51	2002	(15)
+WR-P-P-H-0000000089_inline.xml	1	3	3	26	52	vervroegde	(16
+WR-P-P-H-0000000089_inline.xml	1	3	3	27	53	verkiezingen	16)
+WR-P-P-H-0000000089_inline.xml	1	3	3	28	54	te	
+WR-P-P-H-0000000089_inline.xml	1	3	3	29	55	houden	
+WR-P-P-H-0000000089_inline.xml	1	3	3	30	56	.	
+
+WR-P-P-H-0000000089_inline.xml	2	1	4	1	57	Zaterdag	(18)
+WR-P-P-H-0000000089_inline.xml	2	1	4	2	58	werden	
+WR-P-P-H-0000000089_inline.xml	2	1	4	3	59	in	
+WR-P-P-H-0000000089_inline.xml	2	1	4	4	60	het	(19
+WR-P-P-H-0000000089_inline.xml	2	1	4	5	61	Brusselse	19
+WR-P-P-H-0000000089_inline.xml	2	1	4	6	62	park	19
+WR-P-P-H-0000000089_inline.xml	2	1	4	7	63	Mini-Europa	19)
+WR-P-P-H-0000000089_inline.xml	2	1	4	8	64	de	(17
+WR-P-P-H-0000000089_inline.xml	2	1	4	9	65	Zweedse	17
+WR-P-P-H-0000000089_inline.xml	2	1	4	10	66	vlag	17)
+WR-P-P-H-0000000089_inline.xml	2	1	4	11	67	gestreken	
+WR-P-P-H-0000000089_inline.xml	2	1	4	12	68	en	
+WR-P-P-H-0000000089_inline.xml	2	1	4	13	69	de	(20
+WR-P-P-H-0000000089_inline.xml	2	1	4	14	70	Belgische	20
+WR-P-P-H-0000000089_inline.xml	2	1	4	15	71	driekleur	20)
+WR-P-P-H-0000000089_inline.xml	2	1	4	16	72	gehesen	
+WR-P-P-H-0000000089_inline.xml	2	1	4	17	73	.	
+
+WR-P-P-H-0000000089_inline.xml	2	2	5	1	74	Een	(21
+WR-P-P-H-0000000089_inline.xml	2	2	5	2	75	symbolische	21
+WR-P-P-H-0000000089_inline.xml	2	2	5	3	76	handeling	21
+WR-P-P-H-0000000089_inline.xml	2	2	5	4	77	om	21
+WR-P-P-H-0000000089_inline.xml	2	2	5	5	78	de	21|(22
+WR-P-P-H-0000000089_inline.xml	2	2	5	6	79	overdracht	21|22
+WR-P-P-H-0000000089_inline.xml	2	2	5	7	80	van	21|22
+WR-P-P-H-0000000089_inline.xml	2	2	5	8	81	de	21|22|(4)
+WR-P-P-H-0000000089_inline.xml	2	2	5	9	82	Europese	21|22|(4)
+WR-P-P-H-0000000089_inline.xml	2	2	5	10	83	voorzitterschap	21|22)|(4)
+WR-P-P-H-0000000089_inline.xml	2	2	5	11	84	in	21
+WR-P-P-H-0000000089_inline.xml	2	2	5	12	85	de	21|(24
+WR-P-P-H-0000000089_inline.xml	2	2	5	13	86	verf	21|24)
+WR-P-P-H-0000000089_inline.xml	2	2	5	14	87	te	21
+WR-P-P-H-0000000089_inline.xml	2	2	5	15	88	zetten	21)
+WR-P-P-H-0000000089_inline.xml	2	2	5	16	89	.	
+
+WR-P-P-H-0000000089_inline.xml	3	1	6	1	90	De	(3
+WR-P-P-H-0000000089_inline.xml	3	1	6	2	91	liberaal	3
+WR-P-P-H-0000000089_inline.xml	3	1	6	3	92	Verhofstadt	3)
+WR-P-P-H-0000000089_inline.xml	3	1	6	4	93	heeft	
+WR-P-P-H-0000000089_inline.xml	3	1	6	5	94	in	
+WR-P-P-H-0000000089_inline.xml	3	1	6	6	95	de	(26
+WR-P-P-H-0000000089_inline.xml	3	1	6	7	96	eerste	26
+WR-P-P-H-0000000089_inline.xml	3	1	6	8	97	helft	26
+WR-P-P-H-0000000089_inline.xml	3	1	6	9	98	van	26
+WR-P-P-H-0000000089_inline.xml	3	1	6	10	99	dit	26|(27
+WR-P-P-H-0000000089_inline.xml	3	1	6	11	100	jaar	26)|27)
+WR-P-P-H-0000000089_inline.xml	3	1	6	12	101	al	(28
+WR-P-P-H-0000000089_inline.xml	3	1	6	13	102	duizenden	28
+WR-P-P-H-0000000089_inline.xml	3	1	6	14	103	kilometers	28)|(29)
+WR-P-P-H-0000000089_inline.xml	3	1	6	15	104	afgelegd	
+WR-P-P-H-0000000089_inline.xml	3	1	6	16	105	om	
+WR-P-P-H-0000000089_inline.xml	3	1	6	17	106	de	(30
+WR-P-P-H-0000000089_inline.xml	3	1	6	18	107	kandidaat-lidstaten	30
+WR-P-P-H-0000000089_inline.xml	3	1	6	19	108	in	30
+WR-P-P-H-0000000089_inline.xml	3	1	6	20	109	Oost-Europa	30)|(31)
+WR-P-P-H-0000000089_inline.xml	3	1	6	21	110	te	
+WR-P-P-H-0000000089_inline.xml	3	1	6	22	111	bezoeken	
+WR-P-P-H-0000000089_inline.xml	3	1	6	23	112	.	
+
+WR-P-P-H-0000000089_inline.xml	3	2	7	1	113	Tot	
+WR-P-P-H-0000000089_inline.xml	3	2	7	2	114	eind	(39
+WR-P-P-H-0000000089_inline.xml	3	2	7	3	115	december	39)|(40)
+WR-P-P-H-0000000089_inline.xml	3	2	7	4	116	zal	
+WR-P-P-H-0000000089_inline.xml	3	2	7	5	117	hij	(156)|(3)
+WR-P-P-H-0000000089_inline.xml	3	2	7	6	118	samen	
+WR-P-P-H-0000000089_inline.xml	3	2	7	7	119	met	
+WR-P-P-H-0000000089_inline.xml	3	2	7	8	120	zijn	(33|(156|(34|(3)
+WR-P-P-H-0000000089_inline.xml	3	2	7	9	121	minister	33|156|34
+WR-P-P-H-0000000089_inline.xml	3	2	7	10	122	van	33|156|34
+WR-P-P-H-0000000089_inline.xml	3	2	7	11	123	buitenlandse	33|156|34|(36
+WR-P-P-H-0000000089_inline.xml	3	2	7	12	124	zaken	33|156|34|36)
+WR-P-P-H-0000000089_inline.xml	3	2	7	13	125	Louis	33|156|34
+WR-P-P-H-0000000089_inline.xml	3	2	7	14	126	Michel	33|156)|34)
+WR-P-P-H-0000000089_inline.xml	3	2	7	15	127	en	33
+WR-P-P-H-0000000089_inline.xml	3	2	7	16	128	minister	33|(37|(156
+WR-P-P-H-0000000089_inline.xml	3	2	7	17	129	van	33|37|156
+WR-P-P-H-0000000089_inline.xml	3	2	7	18	130	financiën	33|37|156|(38)
+WR-P-P-H-0000000089_inline.xml	3	2	7	19	131	Didier	33|37|156
+WR-P-P-H-0000000089_inline.xml	3	2	7	20	132	Reynders	33)|37)|156
+WR-P-P-H-0000000089_inline.xml	3	2	7	21	133	de	156
+WR-P-P-H-0000000089_inline.xml	3	2	7	22	134	trojka	156
+WR-P-P-H-0000000089_inline.xml	3	2	7	23	135	van	156
+WR-P-P-H-0000000089_inline.xml	3	2	7	24	136	het	156|(42
+WR-P-P-H-0000000089_inline.xml	3	2	7	25	137	voorzitterschap	156)|42)
+WR-P-P-H-0000000089_inline.xml	3	2	7	26	138	vormen	
+WR-P-P-H-0000000089_inline.xml	3	2	7	27	139	.	
+
+WR-P-P-H-0000000089_inline.xml	3	3	8	1	140	Ook	(43
+WR-P-P-H-0000000089_inline.xml	3	3	8	2	141	verschillende	43
+WR-P-P-H-0000000089_inline.xml	3	3	8	3	142	regionale	43
+WR-P-P-H-0000000089_inline.xml	3	3	8	4	143	ministers	43
+WR-P-P-H-0000000089_inline.xml	3	3	8	5	144	uit	43
+WR-P-P-H-0000000089_inline.xml	3	3	8	6	145	Vlaanderen	43|(44|(45)
+WR-P-P-H-0000000089_inline.xml	3	3	8	7	146	,	43|44
+WR-P-P-H-0000000089_inline.xml	3	3	8	8	147	Wallonië	43|44|(46)
+WR-P-P-H-0000000089_inline.xml	3	3	8	9	148	en	43|44
+WR-P-P-H-0000000089_inline.xml	3	3	8	10	149	Brussel	43)|44)|(47)
+WR-P-P-H-0000000089_inline.xml	3	3	8	11	150	mogen	
+WR-P-P-H-0000000089_inline.xml	3	3	8	12	151	meedraaien	
+WR-P-P-H-0000000089_inline.xml	3	3	8	13	152	in	
+WR-P-P-H-0000000089_inline.xml	3	3	8	14	153	het	(42
+WR-P-P-H-0000000089_inline.xml	3	3	8	15	154	circus	42)
+WR-P-P-H-0000000089_inline.xml	3	3	8	16	155	.	
+
+WR-P-P-H-0000000089_inline.xml	3	4	9	1	156	België	(4)
+WR-P-P-H-0000000089_inline.xml	3	4	9	2	157	heeft	
+WR-P-P-H-0000000089_inline.xml	3	4	9	3	158	maar	(50
+WR-P-P-H-0000000089_inline.xml	3	4	9	4	159	liefst	50
+WR-P-P-H-0000000089_inline.xml	3	4	9	5	160	16	50
+WR-P-P-H-0000000089_inline.xml	3	4	9	6	161	prioriteiten	50
+WR-P-P-H-0000000089_inline.xml	3	4	9	7	162	voor	50
+WR-P-P-H-0000000089_inline.xml	3	4	9	8	163	Europa	50|(51)
+WR-P-P-H-0000000089_inline.xml	3	4	9	9	164	,	50
+WR-P-P-H-0000000089_inline.xml	3	4	9	10	165	voor	50
+WR-P-P-H-0000000089_inline.xml	3	4	9	11	166	elke	50|(52
+WR-P-P-H-0000000089_inline.xml	3	4	9	12	167	minister	50|52)
+WR-P-P-H-0000000089_inline.xml	3	4	9	13	168	één	50)|(53)
+WR-P-P-H-0000000089_inline.xml	3	4	9	14	169	.	
+
+WR-P-P-H-0000000089_inline.xml	4	1	10	1	170	Zij	(52)
+WR-P-P-H-0000000089_inline.xml	4	1	10	2	171	kunnen	
+WR-P-P-H-0000000089_inline.xml	4	1	10	3	172	niet	(55
+WR-P-P-H-0000000089_inline.xml	4	1	10	4	173	meer	55
+WR-P-P-H-0000000089_inline.xml	4	1	10	5	174	dan	55
+WR-P-P-H-0000000089_inline.xml	4	1	10	6	175	accenten	55)|(56)
+WR-P-P-H-0000000089_inline.xml	4	1	10	7	176	leggen	
+WR-P-P-H-0000000089_inline.xml	4	1	10	8	177	op	
+WR-P-P-H-0000000089_inline.xml	4	1	10	9	178	enkele	(57
+WR-P-P-H-0000000089_inline.xml	4	1	10	10	179	beleidsterreinen	57)
+WR-P-P-H-0000000089_inline.xml	4	1	10	11	180	.	
+
+WR-P-P-H-0000000089_inline.xml	4	2	11	1	181	België	(4)
+WR-P-P-H-0000000089_inline.xml	4	2	11	2	182	is	
+WR-P-P-H-0000000089_inline.xml	4	2	11	3	183	gebonden	
+WR-P-P-H-0000000089_inline.xml	4	2	11	4	184	aan	
+WR-P-P-H-0000000089_inline.xml	4	2	11	5	185	de	(59
+WR-P-P-H-0000000089_inline.xml	4	2	11	6	186	lopende	59
+WR-P-P-H-0000000089_inline.xml	4	2	11	7	187	agenda	59
+WR-P-P-H-0000000089_inline.xml	4	2	11	8	188	van	59
+WR-P-P-H-0000000089_inline.xml	4	2	11	9	189	de	59|(51
+WR-P-P-H-0000000089_inline.xml	4	2	11	10	190	EU	59)|51)
+WR-P-P-H-0000000089_inline.xml	4	2	11	11	191	.	
+
+WR-P-P-H-0000000089_inline.xml	4	3	12	1	192	Pas	(62
+WR-P-P-H-0000000089_inline.xml	4	3	12	2	193	volgend	62
+WR-P-P-H-0000000089_inline.xml	4	3	12	3	194	jaar	62)
+WR-P-P-H-0000000089_inline.xml	4	3	12	4	195	worden	
+WR-P-P-H-0000000089_inline.xml	4	3	12	5	196	op	
+WR-P-P-H-0000000089_inline.xml	4	3	12	6	197	het	
+WR-P-P-H-0000000089_inline.xml	4	3	12	7	198	gebied	
+WR-P-P-H-0000000089_inline.xml	4	3	12	8	199	van	
+WR-P-P-H-0000000089_inline.xml	4	3	12	9	200	de	(63
+WR-P-P-H-0000000089_inline.xml	4	3	12	10	201	uitbreiding	63)
+WR-P-P-H-0000000089_inline.xml	4	3	12	11	202	belangrijke	(61
+WR-P-P-H-0000000089_inline.xml	4	3	12	12	203	beslissingen	61)
+WR-P-P-H-0000000089_inline.xml	4	3	12	13	204	genomen	
+WR-P-P-H-0000000089_inline.xml	4	3	12	14	205	.	
+
+WR-P-P-H-0000000089_inline.xml	5	1	13	1	206	Daarom	
+WR-P-P-H-0000000089_inline.xml	5	1	13	2	207	zet	
+WR-P-P-H-0000000089_inline.xml	5	1	13	3	208	Brussel	(4)
+WR-P-P-H-0000000089_inline.xml	5	1	13	4	209	alles	(65)
+WR-P-P-H-0000000089_inline.xml	5	1	13	5	210	op	
+WR-P-P-H-0000000089_inline.xml	5	1	13	6	211	de	(66
+WR-P-P-H-0000000089_inline.xml	5	1	13	7	212	'	66
+WR-P-P-H-0000000089_inline.xml	5	1	13	8	213	Verklaring	66
+WR-P-P-H-0000000089_inline.xml	5	1	13	9	214	van	66
+WR-P-P-H-0000000089_inline.xml	5	1	13	10	215	Laken	66)|(157)
+WR-P-P-H-0000000089_inline.xml	5	1	13	11	216	'	
+WR-P-P-H-0000000089_inline.xml	5	1	13	12	217	.	
+
+WR-P-P-H-0000000089_inline.xml	5	2	14	1	218	Een	(66
+WR-P-P-H-0000000089_inline.xml	5	2	14	2	219	tekst	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	3	220	die	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	4	221	half	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	5	222	december	66|(68)
+WR-P-P-H-0000000089_inline.xml	5	2	14	6	223	tijdens	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	7	224	de	66|(69
+WR-P-P-H-0000000089_inline.xml	5	2	14	8	225	Europese	66|69
+WR-P-P-H-0000000089_inline.xml	5	2	14	9	226	top	66|69
+WR-P-P-H-0000000089_inline.xml	5	2	14	10	227	in	66|69
+WR-P-P-H-0000000089_inline.xml	5	2	14	11	228	Laken	66|69)|(157)
+WR-P-P-H-0000000089_inline.xml	5	2	14	12	229	moet	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	13	230	worden	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	14	231	goedgekeurd	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	15	232	,	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	16	233	maar	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	17	234	eigenlijk	66
+WR-P-P-H-0000000089_inline.xml	5	2	14	18	235	niet	66|(71
+WR-P-P-H-0000000089_inline.xml	5	2	14	19	236	meer	66|71
+WR-P-P-H-0000000089_inline.xml	5	2	14	20	237	is	66|71
+WR-P-P-H-0000000089_inline.xml	5	2	14	21	238	dan	66|71
+WR-P-P-H-0000000089_inline.xml	5	2	14	22	239	een	66|71|(72|(73|(76
+WR-P-P-H-0000000089_inline.xml	5	2	14	23	240	agenda	66|71|72|73|76
+WR-P-P-H-0000000089_inline.xml	5	2	14	24	241	en	66|71|72|73|76
+WR-P-P-H-0000000089_inline.xml	5	2	14	25	242	werkmethode	66|71|72|73|76
+WR-P-P-H-0000000089_inline.xml	5	2	14	26	243	voor	66|71|72|73|76
+WR-P-P-H-0000000089_inline.xml	5	2	14	27	244	de	66|71|72|73|76|(74
+WR-P-P-H-0000000089_inline.xml	5	2	14	28	245	toekomst	66|71|72|73|76|74
+WR-P-P-H-0000000089_inline.xml	5	2	14	29	246	van	66|71|72|73|76|74
+WR-P-P-H-0000000089_inline.xml	5	2	14	30	247	Europa	66)|71)|72)|73)|76)|74)|(8)
+WR-P-P-H-0000000089_inline.xml	5	2	14	31	248	.	
+
+WR-P-P-H-0000000089_inline.xml	6	1	15	1	249	Om	
+WR-P-P-H-0000000089_inline.xml	6	1	15	2	250	de	(66
+WR-P-P-H-0000000089_inline.xml	6	1	15	3	251	verklaring	66)
+WR-P-P-H-0000000089_inline.xml	6	1	15	4	252	meer	(79
+WR-P-P-H-0000000089_inline.xml	6	1	15	5	253	uitstraling	79)
+WR-P-P-H-0000000089_inline.xml	6	1	15	6	254	te	
+WR-P-P-H-0000000089_inline.xml	6	1	15	7	255	geven	
+WR-P-P-H-0000000089_inline.xml	6	1	15	8	256	,	
+WR-P-P-H-0000000089_inline.xml	6	1	15	9	257	heeft	
+WR-P-P-H-0000000089_inline.xml	6	1	15	10	258	Verhofstadt	(3)
+WR-P-P-H-0000000089_inline.xml	6	1	15	11	259	enkele	(80
+WR-P-P-H-0000000089_inline.xml	6	1	15	12	260	bekende	80
+WR-P-P-H-0000000089_inline.xml	6	1	15	13	261	Europeanen	80)
+WR-P-P-H-0000000089_inline.xml	6	1	15	14	262	aan	
+WR-P-P-H-0000000089_inline.xml	6	1	15	15	263	het	(81
+WR-P-P-H-0000000089_inline.xml	6	1	15	16	264	werk	81)
+WR-P-P-H-0000000089_inline.xml	6	1	15	17	265	gezet	
+WR-P-P-H-0000000089_inline.xml	6	1	15	18	266	.	
+
+WR-P-P-H-0000000089_inline.xml	6	2	16	1	267	Onder	
+WR-P-P-H-0000000089_inline.xml	6	2	16	2	268	hen	(80)
+WR-P-P-H-0000000089_inline.xml	6	2	16	3	269	Jacques	(80)|(158|(84
+WR-P-P-H-0000000089_inline.xml	6	2	16	4	270	Delors	(80)|158|84)
+WR-P-P-H-0000000089_inline.xml	6	2	16	5	271	,	(80)|158
+WR-P-P-H-0000000089_inline.xml	6	2	16	6	272	oud-voorzitter	(80)|158|(84
+WR-P-P-H-0000000089_inline.xml	6	2	16	7	273	van	(80)|158|84
+WR-P-P-H-0000000089_inline.xml	6	2	16	8	274	de	(80)|158|84|(86
+WR-P-P-H-0000000089_inline.xml	6	2	16	9	275	Europese	(80)|158|84|86
+WR-P-P-H-0000000089_inline.xml	6	2	16	10	276	Commissie	(80)|158)|84)|86)
+WR-P-P-H-0000000089_inline.xml	6	2	16	11	277	,	(80)
+WR-P-P-H-0000000089_inline.xml	6	2	16	12	278	de	(80)|(87
+WR-P-P-H-0000000089_inline.xml	6	2	16	13	279	Italiaans	(80)|87
+WR-P-P-H-0000000089_inline.xml	6	2	16	14	280	ex-premier	(80)|87
+WR-P-P-H-0000000089_inline.xml	6	2	16	15	281	Giuliano	(80)|87
+WR-P-P-H-0000000089_inline.xml	6	2	16	16	282	Amato	(80)|87)
+WR-P-P-H-0000000089_inline.xml	6	2	16	17	283	en	(80)
+WR-P-P-H-0000000089_inline.xml	6	2	16	18	284	de	(80)|(88
+WR-P-P-H-0000000089_inline.xml	6	2	16	19	285	vroegere	(80)|88
+WR-P-P-H-0000000089_inline.xml	6	2	16	20	286	Belgische	(80)|88
+WR-P-P-H-0000000089_inline.xml	6	2	16	21	287	regeringsleider	(80)|88
+WR-P-P-H-0000000089_inline.xml	6	2	16	22	288	Jean-Luc	(80)|88
+WR-P-P-H-0000000089_inline.xml	6	2	16	23	289	Dehaene	(80)|88)
+WR-P-P-H-0000000089_inline.xml	6	2	16	24	290	.	
+
+WR-P-P-H-0000000089_inline.xml	7	1	17	1	291	Veel	
+WR-P-P-H-0000000089_inline.xml	7	1	17	2	292	belangrijker	
+WR-P-P-H-0000000089_inline.xml	7	1	17	3	293	lijkt	
+WR-P-P-H-0000000089_inline.xml	7	1	17	4	294	de	
+WR-P-P-H-0000000089_inline.xml	7	1	17	5	295	komende	
+WR-P-P-H-0000000089_inline.xml	7	1	17	6	296	maanden	
+WR-P-P-H-0000000089_inline.xml	7	1	17	7	297	de	(89
+WR-P-P-H-0000000089_inline.xml	7	1	17	8	298	vraag	89
+WR-P-P-H-0000000089_inline.xml	7	1	17	9	299	hoe	89
+WR-P-P-H-0000000089_inline.xml	7	1	17	10	300	Europa	89|(8)
+WR-P-P-H-0000000089_inline.xml	7	1	17	11	301	met	89
+WR-P-P-H-0000000089_inline.xml	7	1	17	12	302	zijn	89|(91|(8)
+WR-P-P-H-0000000089_inline.xml	7	1	17	13	303	burgers	89|91)
+WR-P-P-H-0000000089_inline.xml	7	1	17	14	304	communiceert	89)
+WR-P-P-H-0000000089_inline.xml	7	1	17	15	305	.	
+
+WR-P-P-H-0000000089_inline.xml	7	2	18	1	306	Die	(91)
+WR-P-P-H-0000000089_inline.xml	7	2	18	2	307	krijgen	
+WR-P-P-H-0000000089_inline.xml	7	2	18	3	308	vanaf	
+WR-P-P-H-0000000089_inline.xml	7	2	18	4	309	1	(94
+WR-P-P-H-0000000089_inline.xml	7	2	18	5	310	januari	94)
+WR-P-P-H-0000000089_inline.xml	7	2	18	6	311	niet	
+WR-P-P-H-0000000089_inline.xml	7	2	18	7	312	alleen	
+WR-P-P-H-0000000089_inline.xml	7	2	18	8	313	te	
+WR-P-P-H-0000000089_inline.xml	7	2	18	9	314	maken	
+WR-P-P-H-0000000089_inline.xml	7	2	18	10	315	met	
+WR-P-P-H-0000000089_inline.xml	7	2	18	11	316	de	(95
+WR-P-P-H-0000000089_inline.xml	7	2	18	12	317	euro	95
+WR-P-P-H-0000000089_inline.xml	7	2	18	13	318	-	95
+WR-P-P-H-0000000089_inline.xml	7	2	18	14	319	de	95|(96
+WR-P-P-H-0000000089_inline.xml	7	2	18	15	320	belangrijkste	95|96
+WR-P-P-H-0000000089_inline.xml	7	2	18	16	321	monetaire	95|96
+WR-P-P-H-0000000089_inline.xml	7	2	18	17	322	operatie	95|96
+WR-P-P-H-0000000089_inline.xml	7	2	18	18	323	ooit	95)|96)
+WR-P-P-H-0000000089_inline.xml	7	2	18	19	324	-	
+WR-P-P-H-0000000089_inline.xml	7	2	18	20	325	ook	
+WR-P-P-H-0000000089_inline.xml	7	2	18	21	326	de	(97
+WR-P-P-H-0000000089_inline.xml	7	2	18	22	327	uitbreiding	97
+WR-P-P-H-0000000089_inline.xml	7	2	18	23	328	met	97
+WR-P-P-H-0000000089_inline.xml	7	2	18	24	329	nieuwe	97|(98
+WR-P-P-H-0000000089_inline.xml	7	2	18	25	330	,	97|98
+WR-P-P-H-0000000089_inline.xml	7	2	18	26	331	minder	97|98
+WR-P-P-H-0000000089_inline.xml	7	2	18	27	332	welvarende	97|98
+WR-P-P-H-0000000089_inline.xml	7	2	18	28	333	,	97|98
+WR-P-P-H-0000000089_inline.xml	7	2	18	29	334	landen	97)|98)
+WR-P-P-H-0000000089_inline.xml	7	2	18	30	335	is	
+WR-P-P-H-0000000089_inline.xml	7	2	18	31	336	slechts	(99
+WR-P-P-H-0000000089_inline.xml	7	2	18	32	337	een	99
+WR-P-P-H-0000000089_inline.xml	7	2	18	33	338	kwestie	99
+WR-P-P-H-0000000089_inline.xml	7	2	18	34	339	van	99
+WR-P-P-H-0000000089_inline.xml	7	2	18	35	340	enkele	99|(100
+WR-P-P-H-0000000089_inline.xml	7	2	18	36	341	jaren	99)|100)
+WR-P-P-H-0000000089_inline.xml	7	2	18	37	342	.	
+
+WR-P-P-H-0000000089_inline.xml	8	1	19	1	343	In	
+WR-P-P-H-0000000089_inline.xml	8	1	19	2	344	een	(101
+WR-P-P-H-0000000089_inline.xml	8	1	19	3	345	interview	101
+WR-P-P-H-0000000089_inline.xml	8	1	19	4	346	met	101
+WR-P-P-H-0000000089_inline.xml	8	1	19	5	347	de	101|(102
+WR-P-P-H-0000000089_inline.xml	8	1	19	6	348	krant	101|102
+WR-P-P-H-0000000089_inline.xml	8	1	19	7	349	De	101|102
+WR-P-P-H-0000000089_inline.xml	8	1	19	8	350	Standaard	101)|102)
+WR-P-P-H-0000000089_inline.xml	8	1	19	9	351	zei	
+WR-P-P-H-0000000089_inline.xml	8	1	19	10	352	minister	(34
+WR-P-P-H-0000000089_inline.xml	8	1	19	11	353	Michel	34)
+WR-P-P-H-0000000089_inline.xml	8	1	19	12	354	dat	
+WR-P-P-H-0000000089_inline.xml	8	1	19	13	355	de	(104
+WR-P-P-H-0000000089_inline.xml	8	1	19	14	356	afwijzing	104
+WR-P-P-H-0000000089_inline.xml	8	1	19	15	357	door	104
+WR-P-P-H-0000000089_inline.xml	8	1	19	16	358	de	104|(105
+WR-P-P-H-0000000089_inline.xml	8	1	19	17	359	Ieren	104|105)
+WR-P-P-H-0000000089_inline.xml	8	1	19	18	360	van	104
+WR-P-P-H-0000000089_inline.xml	8	1	19	19	361	het	104|(106
+WR-P-P-H-0000000089_inline.xml	8	1	19	20	362	Verdrag	104|106
+WR-P-P-H-0000000089_inline.xml	8	1	19	21	363	van	104|106
+WR-P-P-H-0000000089_inline.xml	8	1	19	22	364	Nice	104)|106)
+WR-P-P-H-0000000089_inline.xml	8	1	19	23	365	duidelijk	
+WR-P-P-H-0000000089_inline.xml	8	1	19	24	366	heeft	
+WR-P-P-H-0000000089_inline.xml	8	1	19	25	367	gemaakt	
+WR-P-P-H-0000000089_inline.xml	8	1	19	26	368	dat	
+WR-P-P-H-0000000089_inline.xml	8	1	19	27	369	er	
+WR-P-P-H-0000000089_inline.xml	8	1	19	28	370	nog	(107
+WR-P-P-H-0000000089_inline.xml	8	1	19	29	371	veel	107
+WR-P-P-H-0000000089_inline.xml	8	1	19	30	372	werk	107)
+WR-P-P-H-0000000089_inline.xml	8	1	19	31	373	moet	
+WR-P-P-H-0000000089_inline.xml	8	1	19	32	374	worden	
+WR-P-P-H-0000000089_inline.xml	8	1	19	33	375	verzet	
+WR-P-P-H-0000000089_inline.xml	8	1	19	34	376	om	
+WR-P-P-H-0000000089_inline.xml	8	1	19	35	377	Europa	(8)
+WR-P-P-H-0000000089_inline.xml	8	1	19	36	378	uit	
+WR-P-P-H-0000000089_inline.xml	8	1	19	37	379	te	
+WR-P-P-H-0000000089_inline.xml	8	1	19	38	380	leggen	
+WR-P-P-H-0000000089_inline.xml	8	1	19	39	381	.	
+
+WR-P-P-H-0000000089_inline.xml	9	1	20	1	382	De	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	2	383	Europese	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	3	384	Unie	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	4	385	wordt	
+WR-P-P-H-0000000089_inline.xml	9	1	20	5	386	volgens	
+WR-P-P-H-0000000089_inline.xml	9	1	20	6	387	hem	(34)
+WR-P-P-H-0000000089_inline.xml	9	1	20	7	388	teveel	
+WR-P-P-H-0000000089_inline.xml	9	1	20	8	389	gezien	
+WR-P-P-H-0000000089_inline.xml	9	1	20	9	390	als	
+WR-P-P-H-0000000089_inline.xml	9	1	20	10	391	een	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	11	392	economisch	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	12	393	,	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	13	394	en	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	14	395	te	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	15	396	weinig	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	16	397	als	(8)
+WR-P-P-H-0000000089_inline.xml	9	1	20	17	398	een	(8)|(112
+WR-P-P-H-0000000089_inline.xml	9	1	20	18	399	politiek	(8)|112
+WR-P-P-H-0000000089_inline.xml	9	1	20	19	400	en	(8)|112
+WR-P-P-H-0000000089_inline.xml	9	1	20	20	401	sociaal	(8)|112
+WR-P-P-H-0000000089_inline.xml	9	1	20	21	402	project	(8)|112)
+WR-P-P-H-0000000089_inline.xml	9	1	20	22	403	.	
+
+WR-P-P-H-0000000089_inline.xml	9	2	21	1	404	Dat	(114)
+WR-P-P-H-0000000089_inline.xml	9	2	21	2	405	komt	
+WR-P-P-H-0000000089_inline.xml	9	2	21	3	406	,	
+WR-P-P-H-0000000089_inline.xml	9	2	21	4	407	zegt	
+WR-P-P-H-0000000089_inline.xml	9	2	21	5	408	Michel	(34)
+WR-P-P-H-0000000089_inline.xml	9	2	21	6	409	,	
+WR-P-P-H-0000000089_inline.xml	9	2	21	7	410	omdat	
+WR-P-P-H-0000000089_inline.xml	9	2	21	8	411	de	(115
+WR-P-P-H-0000000089_inline.xml	9	2	21	9	412	ministers	115
+WR-P-P-H-0000000089_inline.xml	9	2	21	10	413	van	115
+WR-P-P-H-0000000089_inline.xml	9	2	21	11	414	financiën	115)|(116)
+WR-P-P-H-0000000089_inline.xml	9	2	21	12	415	in	
+WR-P-P-H-0000000089_inline.xml	9	2	21	13	416	de	(8)
+WR-P-P-H-0000000089_inline.xml	9	2	21	14	417	Europese	(8)
+WR-P-P-H-0000000089_inline.xml	9	2	21	15	418	Unie	(8)
+WR-P-P-H-0000000089_inline.xml	9	2	21	16	419	teveel	(118
+WR-P-P-H-0000000089_inline.xml	9	2	21	17	420	invloed	118)
+WR-P-P-H-0000000089_inline.xml	9	2	21	18	421	hebben	
+WR-P-P-H-0000000089_inline.xml	9	2	21	19	422	.	
+
+WR-P-P-H-0000000089_inline.xml	10	1	22	1	423	De	(119
+WR-P-P-H-0000000089_inline.xml	10	1	22	2	424	identiteitscrisis	119
+WR-P-P-H-0000000089_inline.xml	10	1	22	3	425	van	119
+WR-P-P-H-0000000089_inline.xml	10	1	22	4	426	de	119|(8)
+WR-P-P-H-0000000089_inline.xml	10	1	22	5	427	unie	119)|(8)
+WR-P-P-H-0000000089_inline.xml	10	1	22	6	428	wordt	
+WR-P-P-H-0000000089_inline.xml	10	1	22	7	429	nog	
+WR-P-P-H-0000000089_inline.xml	10	1	22	8	430	versterkt	
+WR-P-P-H-0000000089_inline.xml	10	1	22	9	431	door	
+WR-P-P-H-0000000089_inline.xml	10	1	22	10	432	een	(121
+WR-P-P-H-0000000089_inline.xml	10	1	22	11	433	groeiend	121
+WR-P-P-H-0000000089_inline.xml	10	1	22	12	434	verzet	121
+WR-P-P-H-0000000089_inline.xml	10	1	22	13	435	van	121
+WR-P-P-H-0000000089_inline.xml	10	1	22	14	436	radicale	121|(128|(122|(123
+WR-P-P-H-0000000089_inline.xml	10	1	22	15	437	groepen	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	16	438	en	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	17	439	vakbonden	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	18	440	,	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	19	441	die	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	20	442	ook	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	21	443	de	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	22	444	komende	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	23	445	maanden	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	24	446	gezamenlijk	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	25	447	optrekken	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	26	448	om	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	27	449	tegen	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	28	450	het	121|128|122|123|(8)
+WR-P-P-H-0000000089_inline.xml	10	1	22	29	451	Europa	121|128|122|123|(8)
+WR-P-P-H-0000000089_inline.xml	10	1	22	30	452	van	121|128|122|123|(8)
+WR-P-P-H-0000000089_inline.xml	10	1	22	31	453	de	121|128|122|123|(8)|(125|(126
+WR-P-P-H-0000000089_inline.xml	10	1	22	32	454	macht	121|128|122|123|(8)|125|126)
+WR-P-P-H-0000000089_inline.xml	10	1	22	33	455	en	121|128|122|123|(8)|125
+WR-P-P-H-0000000089_inline.xml	10	1	22	34	456	het	121|128|122|123|(8)|125|(127
+WR-P-P-H-0000000089_inline.xml	10	1	22	35	457	geld	121|128|122|123|(8)|125)|127)
+WR-P-P-H-0000000089_inline.xml	10	1	22	36	458	te	121|128|122|123
+WR-P-P-H-0000000089_inline.xml	10	1	22	37	459	protesteren	121)|128)|122)|123)
+WR-P-P-H-0000000089_inline.xml	10	1	22	38	460	.	
+
+WR-P-P-H-0000000089_inline.xml	10	2	23	1	461	Of	
+WR-P-P-H-0000000089_inline.xml	10	2	23	2	462	er	
+WR-P-P-H-0000000089_inline.xml	10	2	23	3	463	naar	
+WR-P-P-H-0000000089_inline.xml	10	2	23	4	464	hen	(128)
+WR-P-P-H-0000000089_inline.xml	10	2	23	5	465	wordt	
+WR-P-P-H-0000000089_inline.xml	10	2	23	6	466	geluisterd	
+WR-P-P-H-0000000089_inline.xml	10	2	23	7	467	,	
+WR-P-P-H-0000000089_inline.xml	10	2	23	8	468	moet	
+WR-P-P-H-0000000089_inline.xml	10	2	23	9	469	worden	
+WR-P-P-H-0000000089_inline.xml	10	2	23	10	470	afgewacht	
+WR-P-P-H-0000000089_inline.xml	10	2	23	11	471	.	
+
+WR-P-P-H-0000000089_inline.xml	10	3	24	1	472	België	(4)
+WR-P-P-H-0000000089_inline.xml	10	3	24	2	473	houdt	
+WR-P-P-H-0000000089_inline.xml	10	3	24	3	474	,	
+WR-P-P-H-0000000089_inline.xml	10	3	24	4	475	in	
+WR-P-P-H-0000000089_inline.xml	10	3	24	5	476	tegenstelling	
+WR-P-P-H-0000000089_inline.xml	10	3	24	6	477	tot	
+WR-P-P-H-0000000089_inline.xml	10	3	24	7	478	de	(131
+WR-P-P-H-0000000089_inline.xml	10	3	24	8	479	Zweedse	131
+WR-P-P-H-0000000089_inline.xml	10	3	24	9	480	politie	131)
+WR-P-P-H-0000000089_inline.xml	10	3	24	10	481	vorige	
+WR-P-P-H-0000000089_inline.xml	10	3	24	11	482	maand	
+WR-P-P-H-0000000089_inline.xml	10	3	24	12	483	,	
+WR-P-P-H-0000000089_inline.xml	10	3	24	13	484	wél	
+WR-P-P-H-0000000089_inline.xml	10	3	24	14	485	traangas	(132|(133)
+WR-P-P-H-0000000089_inline.xml	10	3	24	15	486	en	132
+WR-P-P-H-0000000089_inline.xml	10	3	24	16	487	waterkanon	132)|(134)
+WR-P-P-H-0000000089_inline.xml	10	3	24	17	488	achter	
+WR-P-P-H-0000000089_inline.xml	10	3	24	18	489	de	(135
+WR-P-P-H-0000000089_inline.xml	10	3	24	19	490	hand	135)
+WR-P-P-H-0000000089_inline.xml	10	3	24	20	491	.	
+
+WR-P-P-H-0000000089_inline.xml	11	1	25	1	492	Verhofstadt	(156|(137)
+WR-P-P-H-0000000089_inline.xml	11	1	25	2	493	en	156
+WR-P-P-H-0000000089_inline.xml	11	1	25	3	494	zijn	156|(138|(139)
+WR-P-P-H-0000000089_inline.xml	11	1	25	4	495	topministers	156)|138)
+WR-P-P-H-0000000089_inline.xml	11	1	25	5	496	willen	
+WR-P-P-H-0000000089_inline.xml	11	1	25	6	497	het	(42)
+WR-P-P-H-0000000089_inline.xml	11	1	25	7	498	feestje	(42)
+WR-P-P-H-0000000089_inline.xml	11	1	25	8	499	niet	
+WR-P-P-H-0000000089_inline.xml	11	1	25	9	500	laten	
+WR-P-P-H-0000000089_inline.xml	11	1	25	10	501	verpesten	
+WR-P-P-H-0000000089_inline.xml	11	1	25	11	502	door	
+WR-P-P-H-0000000089_inline.xml	11	1	25	12	503	rellen	(141)
+WR-P-P-H-0000000089_inline.xml	11	1	25	13	504	.	
+
+WR-P-P-H-0000000089_inline.xml	11	2	26	1	505	Voor	
+WR-P-P-H-0000000089_inline.xml	11	2	26	2	506	hen	(156)
+WR-P-P-H-0000000089_inline.xml	11	2	26	3	507	is	
+WR-P-P-H-0000000089_inline.xml	11	2	26	4	508	het	(42
+WR-P-P-H-0000000089_inline.xml	11	2	26	5	509	voorzitterschap	42)
+WR-P-P-H-0000000089_inline.xml	11	2	26	6	510	een	(42)
+WR-P-P-H-0000000089_inline.xml	11	2	26	7	511	grote	(42)
+WR-P-P-H-0000000089_inline.xml	11	2	26	8	512	pr-campagne	(42)
+WR-P-P-H-0000000089_inline.xml	11	2	26	9	513	voor	(42)
+WR-P-P-H-0000000089_inline.xml	11	2	26	10	514	het	(42)|(145
+WR-P-P-H-0000000089_inline.xml	11	2	26	11	515	herboren	(42)|145
+WR-P-P-H-0000000089_inline.xml	11	2	26	12	516	België	(42)|145)
+WR-P-P-H-0000000089_inline.xml	11	2	26	13	517	.	
+
+WR-P-P-H-0000000089_inline.xml	11	3	27	1	518	Een	(146
+WR-P-P-H-0000000089_inline.xml	11	3	27	2	519	ballonvaarder	146)
+WR-P-P-H-0000000089_inline.xml	11	3	27	3	520	toert	
+WR-P-P-H-0000000089_inline.xml	11	3	27	4	521	met	
+WR-P-P-H-0000000089_inline.xml	11	3	27	5	522	die	(42)
+WR-P-P-H-0000000089_inline.xml	11	3	27	6	523	boodschap	(42)
+WR-P-P-H-0000000089_inline.xml	11	3	27	7	524	door	
+WR-P-P-H-0000000089_inline.xml	11	3	27	8	525	Europa	(8)
+WR-P-P-H-0000000089_inline.xml	11	3	27	9	526	.	
+
+WR-P-P-H-0000000089_inline.xml	11	4	28	1	527	'	
+WR-P-P-H-0000000089_inline.xml	11	4	28	2	528	It's	(149
+WR-P-P-H-0000000089_inline.xml	11	4	28	3	529	great	149
+WR-P-P-H-0000000089_inline.xml	11	4	28	4	530	to	149
+WR-P-P-H-0000000089_inline.xml	11	4	28	5	531	be	149
+WR-P-P-H-0000000089_inline.xml	11	4	28	6	532	a	149
+WR-P-P-H-0000000089_inline.xml	11	4	28	7	533	Belgian	149)
+WR-P-P-H-0000000089_inline.xml	11	4	28	8	534	'	
+WR-P-P-H-0000000089_inline.xml	11	4	28	9	535	,	
+WR-P-P-H-0000000089_inline.xml	11	4	28	10	536	roept	
+WR-P-P-H-0000000089_inline.xml	11	4	28	11	537	een	(150
+WR-P-P-H-0000000089_inline.xml	11	4	28	12	538	enthousiaste	150
+WR-P-P-H-0000000089_inline.xml	11	4	28	13	539	Amerikaan	150)
+WR-P-P-H-0000000089_inline.xml	11	4	28	14	540	in	
+WR-P-P-H-0000000089_inline.xml	11	4	28	15	541	een	(151
+WR-P-P-H-0000000089_inline.xml	11	4	28	16	542	televisiespotje	151)
+WR-P-P-H-0000000089_inline.xml	11	4	28	17	543	.	
+
+WR-P-P-H-0000000089_inline.xml	12	1	29	1	544	De	(152
+WR-P-P-H-0000000089_inline.xml	12	1	29	2	545	verpakking	152)
+WR-P-P-H-0000000089_inline.xml	12	1	29	3	546	deugt	
+WR-P-P-H-0000000089_inline.xml	12	1	29	4	547	wel	
+WR-P-P-H-0000000089_inline.xml	12	1	29	5	548	.	
+
+WR-P-P-H-0000000089_inline.xml	12	2	30	1	549	Dat	(153)
+WR-P-P-H-0000000089_inline.xml	12	2	30	2	550	is	
+WR-P-P-H-0000000089_inline.xml	12	2	30	3	551	alvast	
+WR-P-P-H-0000000089_inline.xml	12	2	30	4	552	meegenomen	
+WR-P-P-H-0000000089_inline.xml	12	2	30	5	553	,	
+WR-P-P-H-0000000089_inline.xml	12	2	30	6	554	mocht	
+WR-P-P-H-0000000089_inline.xml	12	2	30	7	555	over	
+WR-P-P-H-0000000089_inline.xml	12	2	30	8	556	zes	(154
+WR-P-P-H-0000000089_inline.xml	12	2	30	9	557	maanden	154)
+WR-P-P-H-0000000089_inline.xml	12	2	30	10	558	blijken	
+WR-P-P-H-0000000089_inline.xml	12	2	30	11	559	dat	
+WR-P-P-H-0000000089_inline.xml	12	2	30	12	560	de	(155
+WR-P-P-H-0000000089_inline.xml	12	2	30	13	561	inhoud	155)
+WR-P-P-H-0000000089_inline.xml	12	2	30	14	562	tegenvalt	
+WR-P-P-H-0000000089_inline.xml	12	2	30	15	563	.	
+
