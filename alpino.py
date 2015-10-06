@@ -10,15 +10,15 @@ def parse(xmlFile, dep):
             tmpFile.write('\n\n')
     tmpFile.close()
     if dep:
-        cmd = os.popen('cat tmp | Alpino number_analyses=1 end_hook=triples -parse > tmp2')
+        os.system('cat tmp | Alpino number_analyses=1 end_hook=triples -parse > tmp2')
     else:
-        cmd = os.popen('cat tmp | Alpino number_analyses=1 end_hook=syntax -parse > tmp2')
+        os.system('cat tmp | Alpino number_analyses=1 end_hook=syntax -parse > tmp2')
 
 def write(xmlFile, dep):
     if dep:
         parseFile = open(xmlFile + '.dep', 'w')
     else:
-        parseFile = open(xmlFile + '.syn', 'w')
+        parseFile = open(xmlFile + '.con', 'w')
     sentIdx = 1
     for line in open('tmp2', 'r'):
         if int(line.split('|')[3]) == sentIdx:
@@ -32,9 +32,9 @@ def runAlpino(working):
     tmpPath = 'tmp'
     for xmlFile in os.listdir(working):
         parse(working+xmlFile, True)
-        write(working+xmlFile)
+        write(working+xmlFile, True)
         parse(working+xmlFile, False)
-        write(working+xmlFile)
+        write(working+xmlFile, False)
 if __name__ == '__main__':
     runAlpino('DCOI/conll/')
 

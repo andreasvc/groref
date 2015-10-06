@@ -1,0 +1,683 @@
+top/top|top/hd|token/[0,1]|1
+token/[0,1]|hd/app|Door/[1,2]|1
+token/[0,1]|dp/dp|afwezigheid/[3,4]|1
+afwezigheid/[3,4]|hd/det|de/[2,3]|1
+afwezigheid/[3,4]|hd/mod|van/[4,5]|1
+van/[4,5]|hd/obj1|Jorge Zorreguieta/[5,7]|1
+token/[0,1]|dp/dp|zal/[13,14]|1
+zal/[13,14]|hd/su|meerderheid/[17,18]|1
+meerderheid/[17,18]|hd/det|de/[15,16]|1
+meerderheid/[17,18]|hd/mod|overgroot/[16,17]|1
+meerderheid/[17,18]|hd/mod|van/[18,19]|1
+van/[18,19]|hd/obj1|Staten-Generaal/[20,21]|1
+Staten-Generaal/[20,21]|hd/det|de/[19,20]|1
+zal/[13,14]|hd/vc|kan/[23,24]|1
+kan/[23,24]|hd/su|meerderheid/[17,18]|1
+kan/[23,24]|hd/vc|stem_in/[24,25]|1
+stem_in/[24,25]|hd/mod|op/[7,8]|1
+op/[7,8]|hd/obj1|trouw_dag/[9,10]|1
+trouw_dag/[9,10]|hd/det|de/[8,9]|1
+trouw_dag/[9,10]|hd/mod|van/[10,11]|1
+van/[10,11]|hd/obj1|dochter/[12,13]|1
+dochter/[12,13]|hd/det|zijn/[11,12]|1
+stem_in/[24,25]|hd/mod|morgen/[14,15]|1
+stem_in/[24,25]|hd/su|meerderheid/[17,18]|1
+stem_in/[24,25]|hd/mod|tamelijk/[21,22]|1
+stem_in/[24,25]|hd/mod|onbekommerd/[22,23]|1
+stem_in/[24,25]|hd/pc|met/[25,26]|1
+met/[25,26]|hd/obj1|huwelijk/[28,29]|1
+huwelijk/[28,29]|hd/det|het/[26,27]|1
+huwelijk/[28,29]|hd/mod|voorgenomen/[27,28]|1
+huwelijk/[28,29]|hd/mod|tussen/[29,30]|1
+tussen/[29,30]|hd/obj1|en/[32,33]|1
+en/[32,33]|crd/cnj|kroon_prins/[30,31]|1
+kroon_prins/[30,31]|hd/app|Willem-Alexander/[31,32]|1
+en/[32,33]|crd/cnj|Máxima/[33,34]|1
+token/[0,1]|-- / --|./[34,35]|1
+
+kamp/[3,4]|hd/su|handjevol/[1,2]|2
+handjevol/[1,2]|hd/det|het/[0,1]|2
+handjevol/[1,2]|hd/mod|tegen_stemmer/[2,3]|2
+kamp/[3,4]|hd/mod|week/[5,6]|2
+week/[5,6]|hd/mod|vorig/[4,5]|2
+kamp/[3,4]|hd/mod|nog/[6,7]|2
+kamp/[3,4]|hd/pc|met/[7,8]|2
+met/[7,8]|hd/obj1|aantal/[9,10]|2
+aantal/[9,10]|hd/det|een/[8,9]|2
+aantal/[9,10]|hd/mod|probleem/[11,12]|2
+probleem/[11,12]|hd/mod|practisch/[10,11]|2
+kamp/[3,4]|-- / --|./[12,13]|2
+
+,/[8,9]|-- / --|,/[15,16]|3
+,/[8,9]|-- / --|,/[25,26]|3
+,/[8,9]|-- / --|weet/[1,2]|3
+weet/[1,2]|hd/mod|zo/[0,1]|3
+weet/[1,2]|hd/su|GroenLinks_kamer_lid/[4,5]|3
+GroenLinks_kamer_lid/[4,5]|hd/det|het/[2,3]|3
+GroenLinks_kamer_lid/[4,5]|hd/mod|republikeins/[3,4]|3
+GroenLinks_kamer_lid/[4,5]|hd/app|Ineke van Gent/[5,8]|3
+GroenLinks_kamer_lid/[4,5]|hd/mod|dat/[9,10]|3
+dat/[9,10]|rhd/body|ga/[13,14]|3
+ga/[13,14]|hd/su|dat/[9,10]|3
+ga/[13,14]|hd/vc|stem/[14,15]|3
+stem/[14,15]|hd/su|dat/[9,10]|3
+stem/[14,15]|hd/pc|tegen/[10,11]|3
+tegen/[10,11]|hd/obj1|huwelijk/[12,13]|3
+huwelijk/[12,13]|hd/det|het/[11,12]|3
+weet/[1,2]|hd/mod|niet/[17,18]|3
+niet/[17,18]|hd/mod|nog/[16,17]|3
+weet/[1,2]|hd/vc|of/[18,19]|3
+of/[18,19]|cmp/body|zal/[23,24]|3
+zal/[23,24]|hd/su|ze/[19,20]|3
+zal/[23,24]|hd/vc|ga/[24,25]|3
+ga/[24,25]|hd/su|ze/[19,20]|3
+ga/[24,25]|hd/ld|naar/[20,21]|3
+naar/[20,21]|hd/obj1|receptie/[22,23]|3
+receptie/[22,23]|hd/det|de/[21,22]|3
+receptie/[22,23]|hd/mod|die/[26,27]|3
+die/[26,27]|rhd/body|word/[37,38]|3
+word/[37,38]|hd/su|die/[26,27]|3
+word/[37,38]|hd/vc|houd/[38,39]|3
+houd/[38,39]|hd/obj1|die/[26,27]|3
+houd/[38,39]|hd/mod|na/[27,28]|3
+na/[27,28]|hd/obj1|vergadering/[30,31]|3
+vergadering/[30,31]|hd/det|de/[28,29]|3
+vergadering/[30,31]|hd/mod|gezamenlijk/[29,30]|3
+vergadering/[30,31]|hd/mod|van/[31,32]|3
+van/[31,32]|hd/obj1|Eerste en Tweede Kamer/[33,37]|3
+Eerste en Tweede Kamer/[33,37]|hd/det|de/[32,33]|3
+,/[8,9]|-- / --|./[39,40]|3
+
+,/[2,3]|-- / --|,/[16,17]|4
+,/[2,3]|-- / --|zit/[17,18]|4
+zit/[17,18]|hd/su|Hillie Molenaar/[0,2]|4
+Hillie Molenaar/[0,2]|hd/app|PvdA-Tweede_kamer_lid/[8,9]|4
+PvdA-Tweede_kamer_lid/[8,9]|hd/mod|tot/[3,4]|4
+tot/[3,4]|hd/obj1|nu/[4,5]|4
+tot/[3,4]|hd/hdf|toe/[5,6]|4
+PvdA-Tweede_kamer_lid/[8,9]|hd/det|het/[6,7]|4
+PvdA-Tweede_kamer_lid/[8,9]|hd/mod|enig/[7,8]|4
+PvdA-Tweede_kamer_lid/[8,9]|hd/mod|dat/[9,10]|4
+dat/[9,10]|rhd/body|ga/[12,13]|4
+ga/[12,13]|hd/su|dat/[9,10]|4
+ga/[12,13]|hd/mod|niet/[10,11]|4
+ga/[12,13]|hd/predc|accoord/[11,12]|4
+accoord/[11,12]|hd/pc|met/[13,14]|4
+met/[13,14]|hd/obj1|huwelijk/[15,16]|4
+huwelijk/[15,16]|hd/det|het/[14,15]|4
+zit/[17,18]|hd/vc|te/[18,19]|4
+te/[18,19]|cmp/body|dub/[19,20]|4
+dub/[19,20]|hd/su|Hillie Molenaar/[0,2]|4
+dub/[19,20]|hd/vc|of/[20,21]|4
+of/[20,21]|cmp/body|zal/[30,31]|4
+zal/[30,31]|hd/su|ze/[21,22]|4
+zal/[30,31]|hd/vc|ben/[31,32]|4
+ben/[31,32]|hd/su|ze/[21,22]|4
+ben/[31,32]|hd/mod|überhaupt/[22,23]|4
+ben/[31,32]|hd/mod|wel/[23,24]|4
+ben/[31,32]|hd/ld|bij/[24,25]|4
+bij/[24,25]|hd/obj1|vergadering/[26,27]|4
+vergadering/[26,27]|hd/det|de/[25,26]|4
+vergadering/[26,27]|hd/mod|in/[27,28]|4
+in/[27,28]|hd/obj1|Ridderzaal/[29,30]|4
+Ridderzaal/[29,30]|hd/det|de/[28,29]|4
+,/[2,3]|-- / --|./[32,33]|4
+
+,,/[0,1]|-- / --|,/[7,8]|5
+,,/[0,1]|-- / --|''/[14,15]|5
+,,/[0,1]|-- / --|,/[15,16]|5
+,,/[0,1]|-- / --|,/[18,19]|5
+,,/[0,1]|-- / --|schuif/[2,3]|5
+schuif/[2,3]|hd/su|ik/[1,2]|5
+schuif/[2,3]|hd/obj1|dat/[3,4]|5
+schuif/[2,3]|hd/ld|voor/[4,5]|5
+voor/[4,5]|hd/obj1|me/[5,6]|5
+voor/[4,5]|hd/hdf|uit/[6,7]|5
+schuif/[2,3]|dp/dp|moet/[9,10]|5
+moet/[9,10]|hd/su|ik/[8,9]|5
+moet/[9,10]|hd/vc|converseer/[13,14]|5
+converseer/[13,14]|hd/su|ik/[8,9]|5
+converseer/[13,14]|hd/mod|nog/[11,12]|5
+converseer/[13,14]|hd/pc|over/[12,13]|5
+over/[12,13]|hd/obj1|er/[10,11]|5
+schuif/[2,3]|nucl/tag|zeg/[16,17]|5
+zeg/[16,17]|hd/su|ze/[17,18]|5
+zeg/[16,17]|hd/predm|doel/[19,20]|5
+doel/[19,20]|hd/pc|op/[20,21]|5
+op/[20,21]|hd/obj1|procedure/[22,23]|5
+procedure/[22,23]|hd/det|de/[21,22]|5
+,,/[0,1]|-- / --|./[23,24]|5
+
+,/[4,5]|-- / --|,/[17,18]|6
+,/[4,5]|-- / --|blijk/[18,19]|6
+blijk/[18,19]|hd/mod|in/[0,1]|6
+in/[0,1]|hd/obj1|debat/[3,4]|6
+debat/[3,4]|hd/det|een/[1,2]|6
+debat/[3,4]|hd/mod|vorig/[2,3]|6
+debat/[3,4]|hd/mod|over/[5,6]|6
+over/[5,6]|hd/obj1|manier/[7,8]|6
+manier/[7,8]|hd/det|de/[6,7]|6
+manier/[7,8]|hd/mod|waarop/[8,9]|6
+waarop/[8,9]|rhd/body|heb/[15,16]|6
+heb/[15,16]|hd/su|premier/[9,10]|6
+premier/[9,10]|hd/app|Kok/[10,11]|6
+heb/[15,16]|hd/vc|los_op/[16,17]|6
+los_op/[16,17]|hd/mod|waarop/[8,9]|6
+los_op/[16,17]|hd/su|premier/[9,10]|6
+los_op/[16,17]|hd/obj1|kwestie/[14,15]|6
+kwestie/[14,15]|hd/det|de/[11,12]|6
+kwestie/[14,15]|hd/mod|lastig/[13,14]|6
+lastig/[13,14]|hd/mod|politiek/[12,13]|6
+blijk/[18,19]|hd/su|ingewikkeld/[20,21]|6
+ingewikkeld/[20,21]|hd/mod|hoe/[19,20]|6
+ingewikkeld/[20,21]|whd/body|ben/[23,24]|6
+ben/[23,24]|hd/predc|ingewikkeld/[20,21]|6
+ben/[23,24]|hd/su|procedure/[22,23]|6
+procedure/[22,23]|hd/det|die/[21,22]|6
+,/[4,5]|-- / --|./[24,25]|6
+
+kondig_aan/[2,3]|hd/su|SP_fractie/[1,2]|7
+SP_fractie/[1,2]|hd/det|de/[0,1]|7
+kondig_aan/[2,3]|hd/mod|toen/[3,4]|7
+kondig_aan/[2,3]|hd/svp|aan/[4,5]|7
+kondig_aan/[2,3]|hd/vc|te/[6,7]|7
+te/[6,7]|cmp/body|zal/[7,8]|7
+zal/[7,8]|hd/su|SP_fractie/[1,2]|7
+zal/[7,8]|hd/vc|verschijn/[8,9]|7
+verschijn/[8,9]|hd/su|SP_fractie/[1,2]|7
+verschijn/[8,9]|hd/mod|niet/[5,6]|7
+verschijn/[8,9]|hd/ld|bij/[9,10]|7
+bij/[9,10]|hd/obj1|vergadering/[12,13]|7
+vergadering/[12,13]|hd/det|de/[10,11]|7
+vergadering/[12,13]|hd/mod|verenigd/[11,12]|7
+vergadering/[12,13]|hd/mod|die/[13,14]|7
+die/[13,14]|rhd/body|word/[15,16]|7
+word/[15,16]|hd/su|die/[13,14]|7
+word/[15,16]|hd/vc|houd/[16,17]|7
+houd/[16,17]|hd/obj1|die/[13,14]|7
+houd/[16,17]|hd/mod|morgen/[14,15]|7
+kondig_aan/[2,3]|-- / --|./[17,18]|7
+
+,/[13,14]|-- / --|,/[23,24]|8
+,/[13,14]|-- / --|wens/[2,3]|8
+wens/[2,3]|hd/su|socialist/[1,2]|8
+socialist/[1,2]|hd/det|de/[0,1]|8
+wens/[2,3]|hd/mod|niet/[4,5]|8
+wens/[2,3]|hd/vc|te/[5,6]|8
+te/[5,6]|cmp/body|meng/[6,7]|8
+meng/[6,7]|hd/su|socialist/[1,2]|8
+meng/[6,7]|hd/se|zich/[3,4]|8
+meng/[6,7]|hd/ld|in/[7,8]|8
+in/[7,8]|hd/obj1|liefde_leven/[9,10]|8
+liefde_leven/[9,10]|hd/det|het/[8,9]|8
+liefde_leven/[9,10]|hd/mod|van/[10,11]|8
+van/[10,11]|hd/obj1|mens/[12,13]|8
+mens/[12,13]|hd/det|twee/[11,12]|8
+wens/[2,3]|hd/mod|niet/[15,16]|8
+niet/[15,16]|hd/mod|ook/[14,15]|8
+wens/[2,3]|hd/mod|als/[16,17]|8
+als/[16,17]|cmp/body|val/[22,23]|8
+val/[22,23]|hd/su|ze/[17,18]|8
+val/[22,23]|hd/ld|onder/[18,19]|8
+onder/[18,19]|hd/obj1|verantwoordelijkheid/[21,22]|8
+verantwoordelijkheid/[21,22]|hd/det|de/[19,20]|8
+verantwoordelijkheid/[21,22]|hd/mod|ministerieel/[20,21]|8
+wens/[2,3]|nucl/tag|motiveer/[25,26]|8
+motiveer/[25,26]|hd/mod|zo/[24,25]|8
+motiveer/[25,26]|hd/su|SP_kamer_lid/[26,27]|8
+SP_kamer_lid/[26,27]|hd/app|Kant/[27,28]|8
+motiveer/[25,26]|hd/obj1|blijf_weg/[29,30]|8
+blijf_weg/[29,30]|hd/det|het/[28,29]|8
+,/[13,14]|-- / --|./[30,31]|8
+
+,,/[0,1]|-- / --|''/[7,8]|9
+,,/[0,1]|-- / --|,/[8,9]|9
+,,/[0,1]|-- / --|vlucht_weg/[2,3]|9
+vlucht_weg/[2,3]|hd/su|jullie/[1,2]|9
+vlucht_weg/[2,3]|hd/svp|weg/[3,4]|9
+vlucht_weg/[2,3]|hd/pc|voor/[4,5]|9
+voor/[4,5]|hd/obj1|debat/[6,7]|9
+debat/[6,7]|hd/det|het/[5,6]|9
+vlucht_weg/[2,3]|nucl/tag|roep/[9,10]|9
+roep/[9,10]|hd/su|fractie/[11,12]|9
+fractie/[11,12]|hd/mod|ander/[10,11]|9
+roep/[9,10]|hd/predm|boos/[12,13]|9
+,,/[0,1]|-- / --|./[13,14]|9
+
+probeer/[5,6]|hd/mod|los/[0,1]|10
+los/[0,1]|hd/pc|van/[1,2]|10
+van/[1,2]|hd/obj1|verwijt/[4,5]|10
+verwijt/[4,5]|hd/det|die/[2,3]|10
+verwijt/[4,5]|hd/mod|politiek/[3,4]|10
+probeer/[5,6]|hd/su|fractie/[8,9]|10
+fractie/[8,9]|hd/det|de/[6,7]|10
+fractie/[8,9]|hd/mod|ander/[7,8]|10
+probeer/[5,6]|hd/vc|te/[10,11]|10
+te/[10,11]|cmp/body|pak/[11,12]|10
+pak/[11,12]|hd/su|fractie/[8,9]|10
+pak/[11,12]|hd/obj1|Kant/[9,10]|10
+pak/[11,12]|hd/pc|op/[12,13]|10
+op/[12,13]|hd/obj1|procedure/[14,15]|10
+procedure/[14,15]|hd/det|de/[13,14]|10
+probeer/[5,6]|-- / --|./[15,16]|10
+
+,/[4,5]|-- / --|,/[9,10]|11
+,/[4,5]|-- / --|ben/[2,3]|11
+ben/[2,3]|hd/su|regel/[1,2]|11
+regel/[1,2]|hd/det|de/[0,1]|11
+ben/[2,3]|hd/predc|zo/[3,4]|11
+zo/[3,4]|hd/obcomp|dat/[5,6]|11
+dat/[5,6]|cmp/body|word/[11,12]|11
+word/[11,12]|hd/su|wie/[6,7]|11
+wie/[6,7]|rhd/body|kom/[8,9]|11
+kom/[8,9]|hd/su|wie/[6,7]|11
+kom/[8,9]|hd/mod|niet/[7,8]|11
+word/[11,12]|hd/vc|acht/[10,11]|11
+acht/[10,11]|hd/obj1|wie/[6,7]|11
+acht/[10,11]|hd/vc|te/[12,13]|11
+te/[12,13]|cmp/body|heb/[13,14]|11
+heb/[13,14]|hd/su|wie/[6,7]|11
+heb/[13,14]|hd/vc|stem_voor/[15,16]|11
+stem_voor/[15,16]|hd/su|wie/[6,7]|11
+stem_voor/[15,16]|hd/svp|voor/[14,15]|11
+,/[4,5]|-- / --|./[16,17]|11
+
+moet/[2,3]|hd/su|SP/[1,2]|12
+SP/[1,2]|hd/det|de/[0,1]|12
+moet/[2,3]|hd/vc|geef_door/[10,11]|12
+geef_door/[10,11]|hd/su|SP/[1,2]|12
+geef_door/[10,11]|hd/mod|vooraf/[3,4]|12
+geef_door/[10,11]|hd/obj2|aan/[4,5]|12
+aan/[4,5]|hd/obj1|voorzitter/[6,7]|12
+voorzitter/[6,7]|hd/det|de/[5,6]|12
+voorzitter/[6,7]|hd/mod|van/[7,8]|12
+van/[7,8]|hd/obj1|vergadering/[9,10]|12
+vergadering/[9,10]|hd/det|de/[8,9]|12
+geef_door/[10,11]|hd/vc|dat/[11,12]|12
+dat/[11,12]|cmp/body|ben/[15,16]|12
+ben/[15,16]|hd/su|ze/[12,13]|12
+ben/[15,16]|hd/mod|er/[13,14]|12
+ben/[15,16]|hd/mod|niet/[14,15]|12
+moet/[2,3]|-- / --|./[16,17]|12
+
+,/[7,8]|-- / --|(-)/[17,18]|13
+,/[7,8]|-- / --|,/[26,27]|13
+,/[7,8]|-- / --|en/[8,9]|13
+en/[8,9]|crd/cnj|kan/[1,2]|13
+kan/[1,2]|hd/su|hij/[0,1]|13
+kan/[1,2]|hd/vc|meld/[6,7]|13
+meld/[6,7]|hd/su|hij/[0,1]|13
+meld/[6,7]|hd/obj1|dat/[2,3]|13
+meld/[6,7]|hd/mod|bij/[3,4]|13
+bij/[3,4]|hd/obj1|stemming/[5,6]|13
+stemming/[5,6]|hd/det|de/[4,5]|13
+en/[8,9]|crd/cnj|word/[10,11]|13
+word/[10,11]|hd/su|dat/[11,12]|13
+word/[10,11]|hd/vc|leg_uit/[13,14]|13
+leg_uit/[13,14]|hd/mod|officieus/[9,10]|13
+leg_uit/[13,14]|hd/obj1|dat/[11,12]|13
+leg_uit/[13,14]|hd/mod|dan/[12,13]|13
+leg_uit/[13,14]|hd/predc|als/[14,15]|13
+als/[14,15]|cmp/body|tegen_stem/[16,17]|13
+tegen_stem/[16,17]|hd/det|een/[15,16]|13
+en/[8,9]|dp/dp|maar/[27,28]|13
+maar/[27,28]|crd/cnj|hoewel/[18,19]|13
+hoewel/[18,19]|cmp/body|zal/[23,24]|13
+zal/[23,24]|hd/su|SP/[20,21]|13
+SP/[20,21]|hd/det|de/[19,20]|13
+zal/[23,24]|hd/vc|wil/[24,25]|13
+wil/[24,25]|hd/su|SP/[20,21]|13
+wil/[24,25]|hd/vc|stem/[25,26]|13
+stem/[25,26]|hd/su|SP/[20,21]|13
+stem/[25,26]|hd/mod|lief/[21,22]|13
+stem/[25,26]|hd/mod|blanco/[22,23]|13
+maar/[27,28]|crd/cnj|kan/[29,30]|13
+kan/[29,30]|hd/su|dat/[28,29]|13
+kan/[29,30]|hd/mod|niet/[30,31]|13
+,/[7,8]|-- / --|./[31,32]|13
+
+,/[12,13]|-- / --|breek_los/[13,14]|14
+breek_los/[13,14]|hd/mod|nadat/[1,2]|14
+nadat/[1,2]|cmp/mod|onmiddellijk/[0,1]|14
+nadat/[1,2]|cmp/body|heb/[10,11]|14
+heb/[10,11]|hd/su|regering/[3,4]|14
+regering/[3,4]|hd/det|de/[2,3]|14
+heb/[10,11]|hd/vc|stuur/[11,12]|14
+stuur/[11,12]|hd/su|regering/[3,4]|14
+stuur/[11,12]|hd/obj1|toestemming_wet/[5,6]|14
+toestemming_wet/[5,6]|hd/det|de/[4,5]|14
+stuur/[11,12]|hd/obj2|aan/[6,7]|14
+aan/[6,7]|hd/obj1|Tweede Kamer/[8,10]|14
+Tweede Kamer/[8,10]|hd/det|de/[7,8]|14
+breek_los/[13,14]|hd/svp|los/[16,17]|14
+breek_los/[13,14]|hd/su|debat/[15,16]|14
+debat/[15,16]|hd/det|een/[14,15]|14
+debat/[15,16]|hd/mod|over/[17,18]|14
+over/[17,18]|hd/obj1|vraag/[19,20]|14
+vraag/[19,20]|hd/det|de/[18,19]|14
+vraag/[19,20]|hd/vc|of/[20,21]|14
+of/[20,21]|cmp/body|word/[23,24]|14
+word/[23,24]|hd/su|Máxima/[21,22]|14
+word/[23,24]|hd/predc|of/[24,25]|14
+of/[24,25]|crd/cnj|koningin/[22,23]|14
+of/[24,25]|crd/cnj|prinses/[25,26]|14
+,/[12,13]|-- / --|./[26,27]|14
+
+met/[5,6]|-- / --|de/[6,7]|15
+met/[5,6]|-- / --|opmerking/[7,8]|15
+met/[5,6]|-- / --|dat/[8,9]|15
+met/[5,6]|-- / --|sus/[2,3]|15
+sus/[2,3]|hd/su|premier/[0,1]|15
+premier/[0,1]|hd/app|Kok/[1,2]|15
+sus/[2,3]|hd/obj1|opwinding/[4,5]|15
+opwinding/[4,5]|hd/det|de/[3,4]|15
+sus/[2,3]|dp/dp|kabinet/[11,12]|15
+kabinet/[11,12]|hd/det|een/[9,10]|15
+kabinet/[11,12]|hd/mod|volg/[10,11]|15
+kabinet/[11,12]|hd/mod|dat/[12,13]|15
+dat/[12,13]|rhd/body|moet/[14,15]|15
+moet/[14,15]|hd/su|dat/[12,13]|15
+moet/[14,15]|hd/vc|beslis/[15,16]|15
+beslis/[15,16]|hd/su|dat/[12,13]|15
+beslis/[15,16]|hd/mod|maar/[13,14]|15
+met/[5,6]|-- / --|./[16,17]|15
+
+,/[6,7]|-- / --|'/[10,11]|16
+,/[6,7]|-- / --|'/[15,16]|16
+,/[6,7]|-- / --|,/[16,17]|16
+,/[6,7]|-- / --|ben/[7,8]|16
+ben/[7,8]|hd/mod|zolang/[0,1]|16
+zolang/[0,1]|cmp/body|ben/[5,6]|16
+ben/[5,6]|hd/su|kroon_prins/[1,2]|16
+kroon_prins/[1,2]|hd/app|Willem-Alexander/[2,3]|16
+ben/[5,6]|hd/predc|koning/[4,5]|16
+koning/[4,5]|hd/det|geen/[3,4]|16
+ben/[7,8]|hd/su|vraag/[9,10]|16
+vraag/[9,10]|hd/det|de/[8,9]|16
+ben/[7,8]|hd/mod|niet/[11,12]|16
+ben/[7,8]|hd/mod|aan/[12,13]|16
+aan/[12,13]|hd/obj1|orde/[14,15]|16
+orde/[14,15]|hd/det|de/[13,14]|16
+ben/[7,8]|nucl/tag|aldus/[17,18]|16
+aldus/[17,18]|hd/obj1|Kok/[18,19]|16
+Kok/[18,19]|hd/mod|in/[19,20]|16
+in/[19,20]|hd/obj1|memorie/[21,22]|16
+memorie/[21,22]|hd/det|de/[20,21]|16
+memorie/[21,22]|hd/mod|van/[22,23]|16
+van/[22,23]|hd/obj1|antwoord/[23,24]|16
+antwoord/[23,24]|hd/mod|op/[24,25]|16
+op/[24,25]|hd/obj1|vraag/[25,26]|16
+Kok/[18,19]|hd/mod|van/[26,27]|16
+van/[26,27]|hd/obj1|en/[28,29]|16
+en/[28,29]|crd/cnj|CDA/[27,28]|16
+en/[28,29]|crd/cnj|ChristenUnie/[29,30]|16
+en/[28,29]|crd/crd|en/[30,31]|16
+en/[28,29]|crd/cnj|GroenLinks/[31,32]|16
+,/[6,7]|-- / --|./[32,33]|16
+
+: /[7,8]|-- / --|,/[18,19]|17
+: /[7,8]|-- / --|ben/[2,3]|17
+ben/[2,3]|hd/predc|fractie/[1,2]|17
+fractie/[1,2]|hd/det|die/[0,1]|17
+ben/[2,3]|hd/su|het/[3,4]|17
+ben/[2,3]|hd/mod|onderling/[4,5]|17
+ben/[2,3]|hd/mod|niet/[5,6]|17
+niet/[5,6]|hd/mod|eens/[6,7]|17
+ben/[2,3]|nucl/sat|vind/[11,12]|17
+vind/[11,12]|hd/su|en/[9,10]|17
+en/[9,10]|crd/cnj|CDA/[8,9]|17
+en/[9,10]|crd/cnj|ChristenUnie/[10,11]|17
+vind/[11,12]|hd/pobj1|het/[12,13]|17
+vind/[11,12]|hd/predc|logisch/[13,14]|17
+vind/[11,12]|hd/vc|dat/[14,15]|17
+dat/[14,15]|cmp/body|word/[17,18]|17
+word/[17,18]|hd/su|ze/[15,16]|17
+word/[17,18]|hd/predc|koningin/[16,17]|17
+word/[17,18]|hd/mod|omdat/[20,21]|17
+omdat/[20,21]|cmp/mod|ook/[19,20]|17
+omdat/[20,21]|cmp/body|ben/[26,27]|17
+ben/[26,27]|hd/sup|het/[21,22]|17
+ben/[26,27]|hd/mod|in/[22,23]|17
+in/[22,23]|hd/obj1|buiten_land/[24,25]|17
+buiten_land/[24,25]|hd/det|sommige/[23,24]|17
+ben/[26,27]|hd/predc|normaal/[25,26]|17
+ben/[26,27]|hd/su|dat/[27,28]|17
+dat/[27,28]|cmp/body|ben/[34,35]|17
+ben/[34,35]|hd/su|vrouw/[29,30]|17
+vrouw/[29,30]|hd/det|de/[28,29]|17
+vrouw/[29,30]|hd/mod|van/[30,31]|17
+van/[30,31]|hd/obj1|koning/[32,33]|17
+koning/[32,33]|hd/det|een/[31,32]|17
+ben/[34,35]|hd/predc|koningin/[33,34]|17
+: /[7,8]|-- / --|./[35,36]|17
+
+: /[5,6]|-- / --|pleit/[1,2]|18
+pleit/[1,2]|hd/su|GroenLinks/[0,1]|18
+pleit/[1,2]|hd/pc|voor/[3,4]|18
+voor/[3,4]|hd/mod|juist/[2,3]|18
+voor/[3,4]|hd/obj1|prinses/[4,5]|18
+pleit/[1,2]|nucl/sat|ben/[8,9]|18
+ben/[8,9]|hd/su|prins/[6,7]|18
+prins/[6,7]|hd/app|Claus/[7,8]|18
+ben/[8,9]|hd/mod|immers/[9,10]|18
+ben/[8,9]|hd/mod|ook/[10,11]|18
+ben/[8,9]|hd/predc|prins/[11,12]|18
+: /[5,6]|-- / --|./[12,13]|18
+
+: /[10,11]|-- / --|,/[14,15]|19
+: /[10,11]|-- / --|ben/[1,2]|19
+ben/[1,2]|hd/su|vraag/[0,1]|19
+ben/[1,2]|hd/mod|er/[2,3]|19
+ben/[1,2]|hd/mod|ver/[3,4]|19
+ben/[1,2]|hd/ld|over/[4,5]|19
+over/[4,5]|hd/obj1|titel/[6,7]|19
+titel/[6,7]|hd/det|de/[5,6]|19
+titel/[6,7]|hd/mod|die/[7,8]|19
+die/[7,8]|rhd/body|krijg/[9,10]|19
+krijg/[9,10]|hd/obj1|die/[7,8]|19
+krijg/[9,10]|hd/su|Máxima/[8,9]|19
+ben/[1,2]|nucl/sat|prinses/[11,12]|19
+prinses/[11,12]|hd/mod|Nederlanden/[13,14]|19
+Nederlanden/[13,14]|hd/det|de/[12,13]|19
+prinses/[11,12]|cnj/cnj|prinses/[15,16]|19
+prinses/[15,16]|hd/mod|van/[16,17]|19
+van/[16,17]|hd/obj1|Oranje-Nassau/[17,18]|19
+: /[10,11]|-- / --|./[18,19]|19
+
+'/[2,3]|-- / --|,/[9,10]|20
+'/[2,3]|-- / --|,/[13,14]|20
+'/[2,3]|-- / --|word/[1,2]|20
+word/[1,2]|hd/su|ze/[0,1]|20
+word/[1,2]|hd/predc|hoogheid_prinses/[4,6]|20
+hoogheid_prinses/[4,6]|hd/mod|koninklijk/[3,4]|20
+hoogheid_prinses/[4,6]|hd/app|Máxima der Nederlanden/[6,9]|20
+hoogheid_prinses/[4,6]|cnj/cnj|prinses/[10,11]|20
+prinses/[10,11]|hd/mod|van/[11,12]|20
+van/[11,12]|hd/obj1|Oranje-Nassau/[12,13]|20
+hoogheid_prinses/[4,6]|cnj/cnj|mevrouw/[14,15]|20
+mevrouw/[14,15]|hd/app|van Amsberg/[15,17]|20
+'/[2,3]|-- / --|'/[17,18]|20
+'/[2,3]|-- / --|noem/[18,19]|20
+'/[2,3]|-- / --|./[19,20]|20
+
+,/[9,10]|-- / --|maar/[10,11]|21
+maar/[10,11]|crd/cnj|krijg/[4,5]|21
+krijg/[4,5]|hd/su|vrouw/[1,2]|21
+vrouw/[1,2]|hd/det|de/[0,1]|21
+vrouw/[1,2]|hd/mod|van/[2,3]|21
+van/[2,3]|hd/obj1|Willem-Alexander/[3,4]|21
+krijg/[4,5]|hd/mod|dus/[5,6]|21
+krijg/[4,5]|hd/obj1|familienaam/[7,8]|21
+familienaam/[7,8]|hd/det|de/[6,7]|21
+familienaam/[7,8]|hd/app|Oranje-Nassau/[8,9]|21
+maar/[10,11]|crd/cnj|word/[12,13]|21
+word/[12,13]|hd/su|ze/[11,12]|21
+word/[12,13]|hd/predc|prinses/[14,15]|21
+prinses/[14,15]|hd/det|geen/[13,14]|21
+prinses/[14,15]|hd/mod|van/[15,16]|21
+van/[15,16]|hd/obj1|Oranje/[16,17]|21
+,/[9,10]|-- / --|./[17,18]|21
+
+'/[6,7]|-- / --|ben/[2,3]|22
+ben/[2,3]|hd/su|titel/[1,2]|22
+titel/[1,2]|hd/det|die/[0,1]|22
+ben/[2,3]|hd/vc|reserveer/[3,4]|22
+reserveer/[3,4]|hd/obj1|titel/[1,2]|22
+reserveer/[3,4]|hd/mod|voor/[4,5]|22
+voor/[4,5]|hd/obj1|of/[9,10]|22
+of/[9,10]|crd/cnj|troonopvolger/[8,9]|22
+troonopvolger/[8,9]|hd/det|de/[5,6]|22
+troonopvolger/[8,9]|hd/mod|vermoedelijk/[7,8]|22
+of/[9,10]|crd/cnj|opvolgster/[10,11]|22
+opvolgster/[10,11]|hd/det|de/[5,6]|22
+opvolgster/[10,11]|hd/mod|vermoedelijk/[7,8]|22
+'/[6,7]|-- / --|'/[11,12]|22
+'/[6,7]|-- / --|./[12,13]|22
+
+en/[6,7]|crd/cnj|kan/[1,2]|23
+kan/[1,2]|hd/su|dat/[0,1]|23
+kan/[1,2]|hd/vc|ben/[5,6]|23
+ben/[5,6]|hd/su|dat/[0,1]|23
+ben/[5,6]|hd/mod|er/[2,3]|23
+ben/[5,6]|hd/mod|maar/[3,4]|23
+ben/[5,6]|hd/predc|één/[4,5]|23
+en/[6,7]|crd/cnj|ben/[8,9]|23
+ben/[8,9]|hd/su|dat/[7,8]|23
+ben/[8,9]|hd/mod|nu/[9,10]|23
+ben/[8,9]|hd/predc|Willem-Alexander/[10,11]|23
+en/[6,7]|-- / --|./[11,12]|23
+
+,/[23,24]|-- / --|heb/[24,25]|24
+heb/[24,25]|hd/vc|zaai/[29,30]|24
+zaai/[29,30]|hd/su|dat/[0,1]|24
+dat/[0,1]|cmp/body|voeg_toe/[4,5]|24
+voeg_toe/[4,5]|hd/su|regering/[2,3]|24
+regering/[2,3]|hd/det|de/[1,2]|24
+voeg_toe/[4,5]|hd/pc|eraan/[3,4]|24
+voeg_toe/[4,5]|hd/vc|te/[9,10]|24
+te/[9,10]|cmp/body|heb/[10,11]|24
+heb/[10,11]|hd/su|regering/[2,3]|24
+heb/[10,11]|hd/obj1|bezwaar/[7,8]|24
+bezwaar/[7,8]|hd/det|geen/[6,7]|24
+heb/[10,11]|hd/pc|tegen/[8,9]|24
+tegen/[8,9]|hd/pobj1|er/[5,6]|24
+tegen/[8,9]|hd/vc|dat/[11,12]|24
+dat/[11,12]|cmp/body|word/[21,22]|24
+word/[21,22]|hd/su|Máxima/[12,13]|24
+word/[21,22]|hd/vc|noem/[22,23]|24
+noem/[22,23]|hd/obj1|Máxima/[12,13]|24
+noem/[22,23]|hd/mod|in/[13,14]|24
+in/[13,14]|hd/obj1|verkeer/[16,17]|24
+verkeer/[16,17]|hd/det|het/[14,15]|24
+verkeer/[16,17]|hd/mod|maatschappelijk/[15,16]|24
+noem/[22,23]|hd/mod|wel/[17,18]|24
+noem/[22,23]|hd/predc|prinses/[18,19]|24
+prinses/[18,19]|hd/mod|van/[19,20]|24
+van/[19,20]|hd/obj1|Oranje/[20,21]|24
+zaai/[29,30]|hd/mod|bij/[25,26]|24
+bij/[25,26]|hd/obj1|fractie/[27,28]|24
+fractie/[27,28]|hd/mod|divers/[26,27]|24
+zaai/[29,30]|hd/obj1|verwarring/[28,29]|24
+,/[23,24]|-- / --|./[30,31]|24
+
+verwonder/[3,4]|hd/su|en/[1,2]|25
+en/[1,2]|crd/cnj|GroenLinks/[0,1]|25
+en/[1,2]|crd/cnj|D66/[2,3]|25
+verwonder/[3,4]|hd/se|zich/[4,5]|25
+verwonder/[3,4]|hd/pc|erover/[5,6]|25
+erover/[5,6]|hd/vc|dat/[6,7]|25
+dat/[6,7]|cmp/body|ben/[14,15]|25
+ben/[14,15]|hd/su|meisje_naam/[8,9]|25
+meisje_naam/[8,9]|hd/det|de/[7,8]|25
+meisje_naam/[8,9]|hd/app|Zorreguieta/[9,10]|25
+ben/[14,15]|hd/vc|verdwijn/[15,16]|25
+verdwijn/[15,16]|hd/su|meisje_naam/[8,9]|25
+verdwijn/[15,16]|hd/mod|kennelijk/[10,11]|25
+verdwijn/[15,16]|hd/mod|geheel/[11,12]|25
+verdwijn/[15,16]|hd/ld|uit/[12,13]|25
+uit/[12,13]|hd/obj1|beeld/[13,14]|25
+verwonder/[3,4]|-- / --|./[16,17]|25
+
+ben/[0,1]|hd/su|dat/[1,2]|26
+ben/[0,1]|hd/predc|keuze/[4,5]|26
+keuze/[4,5]|hd/det|een/[2,3]|26
+keuze/[4,5]|hd/mod|bewust/[3,4]|26
+keuze/[4,5]|hd/mod|van/[5,6]|26
+van/[5,6]|hd/obj1|regering/[7,8]|26
+regering/[7,8]|hd/det|de/[6,7]|26
+ben/[0,1]|-- / --|? /[8,9]|26
+
+,/[2,3]|-- / --|,/[6,7]|27
+,/[2,3]|-- / --|schrijf/[3,4]|27
+schrijf/[3,4]|hd/su|premier/[5,6]|27
+premier/[5,6]|hd/det|de/[4,5]|27
+schrijf/[3,4]|tag/nucl|ben/[1,2]|27
+ben/[1,2]|hd/su|het/[0,1]|27
+ben/[1,2]|hd/vc|stel_vast/[11,12]|27
+stel_vast/[11,12]|hd/obj1|het/[0,1]|27
+stel_vast/[11,12]|hd/mod|in overleg met/[7,10]|27
+in overleg met/[7,10]|hd/obj1|haar/[10,11]|27
+,/[2,3]|-- / --|./[12,13]|27
+
+: /[9,10]|-- / --|ben/[3,4]|28
+ben/[3,4]|hd/su|detail/[6,7]|28
+detail/[6,7]|hd/det|geen/[5,6]|28
+ben/[3,4]|hd/vc|blijf/[8,9]|28
+blijf/[8,9]|hd/mod|bij/[0,1]|28
+bij/[0,1]|hd/obj1|PvdA/[2,3]|28
+PvdA/[2,3]|hd/det|de/[1,2]|28
+blijf/[8,9]|hd/mod|ook/[4,5]|28
+blijf/[8,9]|hd/su|detail/[6,7]|28
+blijf/[8,9]|hd/predc|onopgemerkt/[7,8]|28
+ben/[3,4]|nucl/sat|wil/[13,14]|28
+wil/[13,14]|hd/su|regering_fractie/[12,13]|28
+regering_fractie/[12,13]|hd/det|de/[10,11]|28
+regering_fractie/[12,13]|hd/mod|groot/[11,12]|28
+wil/[13,14]|hd/vc|weet/[14,15]|28
+weet/[14,15]|hd/su|regering_fractie/[12,13]|28
+weet/[14,15]|hd/vc|of/[15,16]|28
+of/[15,16]|cmp/body|ben/[16,17]|28
+ben/[16,17]|hd/vc|overweeg/[17,18]|28
+overweeg/[17,18]|hd/vc|te/[27,28]|28
+te/[27,28]|cmp/body|laat/[28,29]|28
+laat/[28,29]|hd/obj1|accent/[19,20]|28
+accent/[19,20]|hd/det|het/[18,19]|28
+accent/[19,20]|hd/mod|op/[20,21]|28
+op/[20,21]|hd/obj1|a/[22,23]|28
+a/[22,23]|hd/det|de/[21,22]|28
+a/[22,23]|hd/mod|van/[23,24]|28
+van/[23,24]|hd/obj1|Máxima/[24,25]|28
+laat/[28,29]|hd/vc|verval/[29,30]|28
+verval/[29,30]|hd/su|accent/[19,20]|28
+verval/[29,30]|hd/mod|bij/[25,26]|28
+bij/[25,26]|hd/obj1|naturalisatie/[26,27]|28
+: /[9,10]|-- / --|./[30,31]|28
+
+ben/[2,3]|hd/mod|volgens/[0,1]|29
+volgens/[0,1]|hd/obj1|Kok/[1,2]|29
+ben/[2,3]|hd/sup|het/[3,4]|29
+ben/[2,3]|hd/mod|bij/[4,5]|29
+bij/[4,5]|hd/obj1|naturalisatie/[5,6]|29
+ben/[2,3]|hd/predc|gebruik/[6,7]|29
+ben/[2,3]|hd/su|dat/[7,8]|29
+dat/[7,8]|cmp/body|word/[13,14]|29
+word/[13,14]|hd/su|naam/[9,10]|29
+naam/[9,10]|hd/det|de/[8,9]|29
+word/[13,14]|hd/vc|verander/[14,15]|29
+verander/[14,15]|hd/obj1|naam/[9,10]|29
+verander/[14,15]|hd/mod|weinig/[11,12]|29
+weinig/[11,12]|hd/mod|zo/[10,11]|29
+zo/[10,11]|hd/obcomp|mogelijk/[12,13]|29
+ben/[2,3]|-- / --|./[15,16]|29
+
+: /[6,7]|-- / --|ben/[2,3]|30
+ben/[2,3]|hd/su|dat/[1,2]|30
+dat/[1,2]|hd/mod|ook/[0,1]|30
+ben/[2,3]|hd/vc|bespreek/[5,6]|30
+bespreek/[5,6]|hd/obj1|dat/[1,2]|30
+bespreek/[5,6]|hd/mod|met/[3,4]|30
+met/[3,4]|hd/obj1|Máxima/[4,5]|30
+ben/[2,3]|nucl/sat|blijf/[9,10]|30
+blijf/[9,10]|hd/su|streep_DIM/[8,9]|30
+streep_DIM/[8,9]|hd/det|het/[7,8]|30
+: /[6,7]|-- / --|./[10,11]|30
