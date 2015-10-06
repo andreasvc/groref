@@ -1,6 +1,6 @@
 doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
 WR-P-P-H-0000000030_inline.xml	1	1	1	1	1	RIJSWIJK	(1)
-WR-P-P-H-0000000030_inline.xml	1	1	1	2	2	-	
+WR-P-P-H-0000000030_inline.xml	1	1	1	2	2	-	-
 
 WR-P-P-H-0000000030_inline.xml	1	2	2	1	3	Het	(2|(38
 WR-P-P-H-0000000030_inline.xml	1	2	2	2	4	elektronisch	2|38
@@ -11,20 +11,20 @@ WR-P-P-H-0000000030_inline.xml	1	2	2	6	8	meer	2|3|5|4
 WR-P-P-H-0000000030_inline.xml	1	2	2	7	9	winkels	2|3|5|4)
 WR-P-P-H-0000000030_inline.xml	1	2	2	8	10	en	2|3|5
 WR-P-P-H-0000000030_inline.xml	1	2	2	9	11	benzinestations	2)|3)|5)
-WR-P-P-H-0000000030_inline.xml	1	2	2	10	12	is	
+WR-P-P-H-0000000030_inline.xml	1	2	2	10	12	is	-
 WR-P-P-H-0000000030_inline.xml	1	2	2	11	13	zaterdag	(6|(7)
 WR-P-P-H-0000000030_inline.xml	1	2	2	12	14	en	6
 WR-P-P-H-0000000030_inline.xml	1	2	2	13	15	zondag	6)|(8)
-WR-P-P-H-0000000030_inline.xml	1	2	2	14	16	onderhevig	
-WR-P-P-H-0000000030_inline.xml	1	2	2	15	17	geweest	
-WR-P-P-H-0000000030_inline.xml	1	2	2	16	18	aan	
+WR-P-P-H-0000000030_inline.xml	1	2	2	14	16	onderhevig	-
+WR-P-P-H-0000000030_inline.xml	1	2	2	15	17	geweest	-
+WR-P-P-H-0000000030_inline.xml	1	2	2	16	18	aan	-
 WR-P-P-H-0000000030_inline.xml	1	2	2	17	19	storingen	(9)
-WR-P-P-H-0000000030_inline.xml	1	2	2	18	20	.	
+WR-P-P-H-0000000030_inline.xml	1	2	2	18	20	.	-
 
 WR-P-P-H-0000000030_inline.xml	1	3	3	1	21	Dit	(10)
-WR-P-P-H-0000000030_inline.xml	1	3	3	2	22	als	
-WR-P-P-H-0000000030_inline.xml	1	3	3	3	23	gevolg	
-WR-P-P-H-0000000030_inline.xml	1	3	3	4	24	van	
+WR-P-P-H-0000000030_inline.xml	1	3	3	2	22	als	-
+WR-P-P-H-0000000030_inline.xml	1	3	3	3	23	gevolg	-
+WR-P-P-H-0000000030_inline.xml	1	3	3	4	24	van	-
 WR-P-P-H-0000000030_inline.xml	1	3	3	5	25	een	(12|(11|(19
 WR-P-P-H-0000000030_inline.xml	1	3	3	6	26	mankement	12|11|19
 WR-P-P-H-0000000030_inline.xml	1	3	3	7	27	en	12|11|19
@@ -46,11 +46,11 @@ WR-P-P-H-0000000030_inline.xml	1	3	3	22	42	betalingen	12|11|19|14|17
 WR-P-P-H-0000000030_inline.xml	1	3	3	23	43	per	12|11|19|14|17
 WR-P-P-H-0000000030_inline.xml	1	3	3	24	44	pinpas	12|11|19|14|17)|(38)
 WR-P-P-H-0000000030_inline.xml	1	3	3	25	45	verzorgt	12)|11)|19)|14)
-WR-P-P-H-0000000030_inline.xml	1	3	3	26	46	.	
+WR-P-P-H-0000000030_inline.xml	1	3	3	26	46	.	-
 
 WR-P-P-H-0000000030_inline.xml	1	4	4	1	47	Interpay	(14)
-WR-P-P-H-0000000030_inline.xml	1	4	4	2	48	schat	
-WR-P-P-H-0000000030_inline.xml	1	4	4	3	49	dat	
+WR-P-P-H-0000000030_inline.xml	1	4	4	2	48	schat	-
+WR-P-P-H-0000000030_inline.xml	1	4	4	3	49	dat	-
 WR-P-P-H-0000000030_inline.xml	1	4	4	4	50	zaterdag	(7)
 WR-P-P-H-0000000030_inline.xml	1	4	4	5	51	18000	(21
 WR-P-P-H-0000000030_inline.xml	1	4	4	6	52	mensen	21
@@ -59,57 +59,57 @@ WR-P-P-H-0000000030_inline.xml	1	4	4	8	54	over	21
 WR-P-P-H-0000000030_inline.xml	1	4	4	9	55	het	21|(22
 WR-P-P-H-0000000030_inline.xml	1	4	4	10	56	hele	21|22
 WR-P-P-H-0000000030_inline.xml	1	4	4	11	57	land	21)|22)
-WR-P-P-H-0000000030_inline.xml	1	4	4	12	58	door	
+WR-P-P-H-0000000030_inline.xml	1	4	4	12	58	door	-
 WR-P-P-H-0000000030_inline.xml	1	4	4	13	59	een	(9
 WR-P-P-H-0000000030_inline.xml	1	4	4	14	60	storing	9)
-WR-P-P-H-0000000030_inline.xml	1	4	4	15	61	zijn	
-WR-P-P-H-0000000030_inline.xml	1	4	4	16	62	getroffen	
-WR-P-P-H-0000000030_inline.xml	1	4	4	17	63	.	
+WR-P-P-H-0000000030_inline.xml	1	4	4	15	61	zijn	-
+WR-P-P-H-0000000030_inline.xml	1	4	4	16	62	getroffen	-
+WR-P-P-H-0000000030_inline.xml	1	4	4	17	63	.	-
 
 WR-P-P-H-0000000030_inline.xml	1	5	5	1	64	Zondag	(8)
-WR-P-P-H-0000000030_inline.xml	1	5	5	2	65	was	
+WR-P-P-H-0000000030_inline.xml	1	5	5	2	65	was	-
 WR-P-P-H-0000000030_inline.xml	1	5	5	3	66	het	(26)
-WR-P-P-H-0000000030_inline.xml	1	5	5	4	67	opnieuw	
-WR-P-P-H-0000000030_inline.xml	1	5	5	5	68	raak	
-WR-P-P-H-0000000030_inline.xml	1	5	5	6	69	.	
+WR-P-P-H-0000000030_inline.xml	1	5	5	4	67	opnieuw	-
+WR-P-P-H-0000000030_inline.xml	1	5	5	5	68	raak	-
+WR-P-P-H-0000000030_inline.xml	1	5	5	6	69	.	-
 
 WR-P-P-H-0000000030_inline.xml	1	6	6	1	70	Dit	(27)
-WR-P-P-H-0000000030_inline.xml	1	6	6	2	71	had	
-WR-P-P-H-0000000030_inline.xml	1	6	6	3	72	te	
-WR-P-P-H-0000000030_inline.xml	1	6	6	4	73	maken	
-WR-P-P-H-0000000030_inline.xml	1	6	6	5	74	met	
+WR-P-P-H-0000000030_inline.xml	1	6	6	2	71	had	-
+WR-P-P-H-0000000030_inline.xml	1	6	6	3	72	te	-
+WR-P-P-H-0000000030_inline.xml	1	6	6	4	73	maken	-
+WR-P-P-H-0000000030_inline.xml	1	6	6	5	74	met	-
 WR-P-P-H-0000000030_inline.xml	1	6	6	6	75	regulier	(28
 WR-P-P-H-0000000030_inline.xml	1	6	6	7	76	onderhoud	28
 WR-P-P-H-0000000030_inline.xml	1	6	6	8	77	aan	28
 WR-P-P-H-0000000030_inline.xml	1	6	6	9	78	de	28|(13
 WR-P-P-H-0000000030_inline.xml	1	6	6	10	79	computers	28)|13)
-WR-P-P-H-0000000030_inline.xml	1	6	6	11	80	.	
+WR-P-P-H-0000000030_inline.xml	1	6	6	11	80	.	-
 
 WR-P-P-H-0000000030_inline.xml	1	7	7	1	81	Hoeveel	(30
 WR-P-P-H-0000000030_inline.xml	1	7	7	2	82	transacties	30)
 WR-P-P-H-0000000030_inline.xml	1	7	7	3	83	hierdoor	(28)
-WR-P-P-H-0000000030_inline.xml	1	7	7	4	84	mislukten	
-WR-P-P-H-0000000030_inline.xml	1	7	7	5	85	,	
-WR-P-P-H-0000000030_inline.xml	1	7	7	6	86	weet	
+WR-P-P-H-0000000030_inline.xml	1	7	7	4	84	mislukten	-
+WR-P-P-H-0000000030_inline.xml	1	7	7	5	85	,	-
+WR-P-P-H-0000000030_inline.xml	1	7	7	6	86	weet	-
 WR-P-P-H-0000000030_inline.xml	1	7	7	7	87	Interpay	(14)
-WR-P-P-H-0000000030_inline.xml	1	7	7	8	88	niet	
-WR-P-P-H-0000000030_inline.xml	1	7	7	9	89	.	
+WR-P-P-H-0000000030_inline.xml	1	7	7	8	88	niet	-
+WR-P-P-H-0000000030_inline.xml	1	7	7	9	89	.	-
 
 WR-P-P-H-0000000030_inline.xml	1	8	8	1	90	Zowel	(6
 WR-P-P-H-0000000030_inline.xml	1	8	8	2	91	zaterdag	6|(7)
 WR-P-P-H-0000000030_inline.xml	1	8	8	3	92	als	6
 WR-P-P-H-0000000030_inline.xml	1	8	8	4	93	zondag	6)|(8)
-WR-P-P-H-0000000030_inline.xml	1	8	8	5	94	haperde	
+WR-P-P-H-0000000030_inline.xml	1	8	8	5	94	haperde	-
 WR-P-P-H-0000000030_inline.xml	1	8	8	6	95	het	(2
 WR-P-P-H-0000000030_inline.xml	1	8	8	7	96	'	2
 WR-P-P-H-0000000030_inline.xml	1	8	8	8	97	pinpasverkeer	2)
-WR-P-P-H-0000000030_inline.xml	1	8	8	9	98	'	
-WR-P-P-H-0000000030_inline.xml	1	8	8	10	99	gedurende	
+WR-P-P-H-0000000030_inline.xml	1	8	8	9	98	'	-
+WR-P-P-H-0000000030_inline.xml	1	8	8	10	99	gedurende	-
 WR-P-P-H-0000000030_inline.xml	1	8	8	11	100	enkele	(36
 WR-P-P-H-0000000030_inline.xml	1	8	8	12	101	kwartieren	36)
-WR-P-P-H-0000000030_inline.xml	1	8	8	13	102	,	
-WR-P-P-H-0000000030_inline.xml	1	8	8	14	103	aldus	
+WR-P-P-H-0000000030_inline.xml	1	8	8	13	102	,	-
+WR-P-P-H-0000000030_inline.xml	1	8	8	14	103	aldus	-
 WR-P-P-H-0000000030_inline.xml	1	8	8	15	104	de	(14)
 WR-P-P-H-0000000030_inline.xml	1	8	8	16	105	woordvoerster	(14)
-WR-P-P-H-0000000030_inline.xml	1	8	8	17	106	.	
+WR-P-P-H-0000000030_inline.xml	1	8	8	17	106	.	-
 

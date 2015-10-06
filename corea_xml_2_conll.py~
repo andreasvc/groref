@@ -54,6 +54,8 @@ def postProcessTokenArray(tokenArray, coreferential_ids):
 					if mention_id not in tokenArray[idx+1]:
 						token[idx2] += ')'
 						seenList.remove(mention_id)
+		if len(token) == 1:
+			token.append('-')
 		tokenArray[idx] = [token[0], '|'.join(token[1:])]
 	return tokenArray
 
@@ -109,3 +111,4 @@ if __name__ == '__main__':
 					conll_writer.writerow([filename, paragraph_id, sentence_id, doc_sentence_id, sentence_token_id, doc_token_id, token[0].encode('utf-8')] + token[1:])
 				conll_writer.writerow([])
 			conll_file.close()
+	print 'Done!'

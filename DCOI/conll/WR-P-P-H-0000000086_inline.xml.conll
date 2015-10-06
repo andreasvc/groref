@@ -1,67 +1,67 @@
 doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
 WR-P-P-H-0000000086_inline.xml	1	1	1	1	1	MILAAN	(1)
-WR-P-P-H-0000000086_inline.xml	1	1	1	2	2	-	
+WR-P-P-H-0000000086_inline.xml	1	1	1	2	2	-	-
 
 WR-P-P-H-0000000086_inline.xml	1	2	2	1	3	Rui	(2
 WR-P-P-H-0000000086_inline.xml	1	2	2	2	4	Costa	2)
-WR-P-P-H-0000000086_inline.xml	1	2	2	3	5	heeft	
+WR-P-P-H-0000000086_inline.xml	1	2	2	3	5	heeft	-
 WR-P-P-H-0000000086_inline.xml	1	2	2	4	6	zijn	(3|(2)
 WR-P-P-H-0000000086_inline.xml	1	2	2	5	7	transfer	3
 WR-P-P-H-0000000086_inline.xml	1	2	2	6	8	naar	3
 WR-P-P-H-0000000086_inline.xml	1	2	2	7	9	Parma	3)|(5)
-WR-P-P-H-0000000086_inline.xml	1	2	2	8	10	tegengesproken	
-WR-P-P-H-0000000086_inline.xml	1	2	2	9	11	.	
+WR-P-P-H-0000000086_inline.xml	1	2	2	8	10	tegengesproken	-
+WR-P-P-H-0000000086_inline.xml	1	2	2	9	11	.	-
 
 WR-P-P-H-0000000086_inline.xml	1	3	3	1	12	Het	(6)
-WR-P-P-H-0000000086_inline.xml	1	3	3	2	13	zint	
+WR-P-P-H-0000000086_inline.xml	1	3	3	2	13	zint	-
 WR-P-P-H-0000000086_inline.xml	1	3	3	3	14	de	(2
 WR-P-P-H-0000000086_inline.xml	1	3	3	4	15	Portugese	2
 WR-P-P-H-0000000086_inline.xml	1	3	3	5	16	international	2)
-WR-P-P-H-0000000086_inline.xml	1	3	3	6	17	helemaal	
-WR-P-P-H-0000000086_inline.xml	1	3	3	7	18	niet	
-WR-P-P-H-0000000086_inline.xml	1	3	3	8	19	dat	
+WR-P-P-H-0000000086_inline.xml	1	3	3	6	17	helemaal	-
+WR-P-P-H-0000000086_inline.xml	1	3	3	7	18	niet	-
+WR-P-P-H-0000000086_inline.xml	1	3	3	8	19	dat	-
 WR-P-P-H-0000000086_inline.xml	1	3	3	9	20	Fiorentina	(8
 WR-P-P-H-0000000086_inline.xml	1	3	3	10	21	,	8
 WR-P-P-H-0000000086_inline.xml	1	3	3	11	22	dat	8|(30)
 WR-P-P-H-0000000086_inline.xml	1	3	3	12	23	grote	8|(9
 WR-P-P-H-0000000086_inline.xml	1	3	3	13	24	schulden	8|9)
 WR-P-P-H-0000000086_inline.xml	1	3	3	14	25	heeft	8)
-WR-P-P-H-0000000086_inline.xml	1	3	3	15	26	,	
+WR-P-P-H-0000000086_inline.xml	1	3	3	15	26	,	-
 WR-P-P-H-0000000086_inline.xml	1	3	3	16	27	hem	(2)
-WR-P-P-H-0000000086_inline.xml	1	3	3	17	28	op	
+WR-P-P-H-0000000086_inline.xml	1	3	3	17	28	op	-
 WR-P-P-H-0000000086_inline.xml	1	3	3	18	29	deze	(11
 WR-P-P-H-0000000086_inline.xml	1	3	3	19	30	manier	11)
-WR-P-P-H-0000000086_inline.xml	1	3	3	20	31	met	
+WR-P-P-H-0000000086_inline.xml	1	3	3	20	31	met	-
 WR-P-P-H-0000000086_inline.xml	1	3	3	21	32	doelman	(12
 WR-P-P-H-0000000086_inline.xml	1	3	3	22	33	Francesco	12
 WR-P-P-H-0000000086_inline.xml	1	3	3	23	34	Toldo	12)
-WR-P-P-H-0000000086_inline.xml	1	3	3	24	35	op	
+WR-P-P-H-0000000086_inline.xml	1	3	3	24	35	op	-
 WR-P-P-H-0000000086_inline.xml	1	3	3	25	36	de	(13
 WR-P-P-H-0000000086_inline.xml	1	3	3	26	37	markt	13)
-WR-P-P-H-0000000086_inline.xml	1	3	3	27	38	heeft	
-WR-P-P-H-0000000086_inline.xml	1	3	3	28	39	gegooid	
-WR-P-P-H-0000000086_inline.xml	1	3	3	29	40	.	
+WR-P-P-H-0000000086_inline.xml	1	3	3	27	38	heeft	-
+WR-P-P-H-0000000086_inline.xml	1	3	3	28	39	gegooid	-
+WR-P-P-H-0000000086_inline.xml	1	3	3	29	40	.	-
 
-WR-P-P-H-0000000086_inline.xml	1	4	4	1	41	,,	
+WR-P-P-H-0000000086_inline.xml	1	4	4	1	41	,,	-
 WR-P-P-H-0000000086_inline.xml	1	4	4	2	42	Ik	(2)
-WR-P-P-H-0000000086_inline.xml	1	4	4	3	43	ben	
+WR-P-P-H-0000000086_inline.xml	1	4	4	3	43	ben	-
 WR-P-P-H-0000000086_inline.xml	1	4	4	4	44	geen	(15
 WR-P-P-H-0000000086_inline.xml	1	4	4	5	45	lap	15
 WR-P-P-H-0000000086_inline.xml	1	4	4	6	46	vlees	15)|(16)
-WR-P-P-H-0000000086_inline.xml	1	4	4	7	47	.	
+WR-P-P-H-0000000086_inline.xml	1	4	4	7	47	.	-
 
 WR-P-P-H-0000000086_inline.xml	1	5	5	1	48	Ik	(2)
-WR-P-P-H-0000000086_inline.xml	1	5	5	2	49	bepaal	
-WR-P-P-H-0000000086_inline.xml	1	5	5	3	50	zelf	
-WR-P-P-H-0000000086_inline.xml	1	5	5	4	51	wel	
-WR-P-P-H-0000000086_inline.xml	1	5	5	5	52	waar	
+WR-P-P-H-0000000086_inline.xml	1	5	5	2	49	bepaal	-
+WR-P-P-H-0000000086_inline.xml	1	5	5	3	50	zelf	-
+WR-P-P-H-0000000086_inline.xml	1	5	5	4	51	wel	-
+WR-P-P-H-0000000086_inline.xml	1	5	5	5	52	waar	-
 WR-P-P-H-0000000086_inline.xml	1	5	5	6	53	ik	(2)
-WR-P-P-H-0000000086_inline.xml	1	5	5	7	54	ga	
-WR-P-P-H-0000000086_inline.xml	1	5	5	8	55	spelen	
-WR-P-P-H-0000000086_inline.xml	1	5	5	9	56	.	
+WR-P-P-H-0000000086_inline.xml	1	5	5	7	54	ga	-
+WR-P-P-H-0000000086_inline.xml	1	5	5	8	55	spelen	-
+WR-P-P-H-0000000086_inline.xml	1	5	5	9	56	.	-
 
 WR-P-P-H-0000000086_inline.xml	1	6	6	1	57	Ik	(2)
-WR-P-P-H-0000000086_inline.xml	1	6	6	2	58	heb	
+WR-P-P-H-0000000086_inline.xml	1	6	6	2	58	heb	-
 WR-P-P-H-0000000086_inline.xml	1	6	6	3	59	het	(20
 WR-P-P-H-0000000086_inline.xml	1	6	6	4	60	recht	20
 WR-P-P-H-0000000086_inline.xml	1	6	6	5	61	de	20|(21
@@ -74,13 +74,13 @@ WR-P-P-H-0000000086_inline.xml	1	6	6	11	67	mezelf	20|21|(22|(2)
 WR-P-P-H-0000000086_inline.xml	1	6	6	12	68	en	20|21|22
 WR-P-P-H-0000000086_inline.xml	1	6	6	13	69	mijn	20|21|22|(24|(2)
 WR-P-P-H-0000000086_inline.xml	1	6	6	14	70	familie	20)|21)|22)|24)
-WR-P-P-H-0000000086_inline.xml	1	6	6	15	71	.	
+WR-P-P-H-0000000086_inline.xml	1	6	6	15	71	.	-
 
 WR-P-P-H-0000000086_inline.xml	1	7	7	1	72	De	(26
 WR-P-P-H-0000000086_inline.xml	1	7	7	2	73	aanbieding	26
 WR-P-P-H-0000000086_inline.xml	1	7	7	3	74	van	26
 WR-P-P-H-0000000086_inline.xml	1	7	7	4	75	Parma	26)|(5)
-WR-P-P-H-0000000086_inline.xml	1	7	7	5	76	is	
+WR-P-P-H-0000000086_inline.xml	1	7	7	5	76	is	-
 WR-P-P-H-0000000086_inline.xml	1	7	7	6	77	heel	(28
 WR-P-P-H-0000000086_inline.xml	1	7	7	7	78	mooi	28
 WR-P-P-H-0000000086_inline.xml	1	7	7	8	79	,	28
@@ -88,6 +88,6 @@ WR-P-P-H-0000000086_inline.xml	1	7	7	9	80	maar	28
 WR-P-P-H-0000000086_inline.xml	1	7	7	10	81	niet	28|(29
 WR-P-P-H-0000000086_inline.xml	1	7	7	11	82	de	28|29
 WR-P-P-H-0000000086_inline.xml	1	7	7	12	83	enige	28)|29)
-WR-P-P-H-0000000086_inline.xml	1	7	7	13	84	.	
-WR-P-P-H-0000000086_inline.xml	1	7	7	14	85	''	
+WR-P-P-H-0000000086_inline.xml	1	7	7	13	84	.	-
+WR-P-P-H-0000000086_inline.xml	1	7	7	14	85	''	-
 

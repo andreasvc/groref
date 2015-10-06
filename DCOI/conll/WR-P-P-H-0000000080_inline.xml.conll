@@ -1,13 +1,13 @@
 doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
 WR-P-P-H-0000000080_inline.xml	1	1	1	1	1	KAMPALA	(1)
-WR-P-P-H-0000000080_inline.xml	1	1	1	2	2	-	
+WR-P-P-H-0000000080_inline.xml	1	1	1	2	2	-	-
 
 WR-P-P-H-0000000080_inline.xml	1	2	2	1	3	Meer	(2
 WR-P-P-H-0000000080_inline.xml	1	2	2	2	4	dan	2
 WR-P-P-H-0000000080_inline.xml	1	2	2	3	5	240	2|(3)
 WR-P-P-H-0000000080_inline.xml	1	2	2	4	6	personen	2)
-WR-P-P-H-0000000080_inline.xml	1	2	2	5	7	zijn	
-WR-P-P-H-0000000080_inline.xml	1	2	2	6	8	in	
+WR-P-P-H-0000000080_inline.xml	1	2	2	5	7	zijn	-
+WR-P-P-H-0000000080_inline.xml	1	2	2	6	8	in	-
 WR-P-P-H-0000000080_inline.xml	1	2	2	7	9	het	(4
 WR-P-P-H-0000000080_inline.xml	1	2	2	8	10	noordoosten	4
 WR-P-P-H-0000000080_inline.xml	1	2	2	9	11	van	4
@@ -15,18 +15,18 @@ WR-P-P-H-0000000080_inline.xml	1	2	2	10	12	de	4|(5
 WR-P-P-H-0000000080_inline.xml	1	2	2	11	13	Democratische	4|5
 WR-P-P-H-0000000080_inline.xml	1	2	2	12	14	Republiek	4|5
 WR-P-P-H-0000000080_inline.xml	1	2	2	13	15	Congo	4)|5)
-WR-P-P-H-0000000080_inline.xml	1	2	2	14	16	vermoord	
-WR-P-P-H-0000000080_inline.xml	1	2	2	15	17	wegens	
+WR-P-P-H-0000000080_inline.xml	1	2	2	14	16	vermoord	-
+WR-P-P-H-0000000080_inline.xml	1	2	2	15	17	wegens	-
 WR-P-P-H-0000000080_inline.xml	1	2	2	16	18	hekserij	(6)
-WR-P-P-H-0000000080_inline.xml	1	2	2	17	19	.	
+WR-P-P-H-0000000080_inline.xml	1	2	2	17	19	.	-
 
 WR-P-P-H-0000000080_inline.xml	1	3	3	1	20	De	(7
 WR-P-P-H-0000000080_inline.xml	1	3	3	2	21	heksenjacht	7)
-WR-P-P-H-0000000080_inline.xml	1	3	3	3	22	begon	
+WR-P-P-H-0000000080_inline.xml	1	3	3	3	22	begon	-
 WR-P-P-H-0000000080_inline.xml	1	3	3	4	23	twee	(8
 WR-P-P-H-0000000080_inline.xml	1	3	3	5	24	weken	8)
-WR-P-P-H-0000000080_inline.xml	1	3	3	6	25	geleden	
-WR-P-P-H-0000000080_inline.xml	1	3	3	7	26	na	
+WR-P-P-H-0000000080_inline.xml	1	3	3	6	25	geleden	-
+WR-P-P-H-0000000080_inline.xml	1	3	3	7	26	na	-
 WR-P-P-H-0000000080_inline.xml	1	3	3	8	27	geruchten	(9
 WR-P-P-H-0000000080_inline.xml	1	3	3	9	28	over	9
 WR-P-P-H-0000000080_inline.xml	1	3	3	10	29	een	9|(10
@@ -34,48 +34,48 @@ WR-P-P-H-0000000080_inline.xml	1	3	3	11	30	heksenleger	9|10
 WR-P-P-H-0000000080_inline.xml	1	3	3	12	31	in	9|10
 WR-P-P-H-0000000080_inline.xml	1	3	3	13	32	de	9|10|(11
 WR-P-P-H-0000000080_inline.xml	1	3	3	14	33	jungle	9)|10)|11)
-WR-P-P-H-0000000080_inline.xml	1	3	3	15	34	.	
+WR-P-P-H-0000000080_inline.xml	1	3	3	15	34	.	-
 
-WR-P-P-H-0000000080_inline.xml	1	4	4	1	35	In	
+WR-P-P-H-0000000080_inline.xml	1	4	4	1	35	In	-
 WR-P-P-H-0000000080_inline.xml	1	4	4	2	36	het	(12
 WR-P-P-H-0000000080_inline.xml	1	4	4	3	37	dorp	12
 WR-P-P-H-0000000080_inline.xml	1	4	4	4	38	Yuku	12)
-WR-P-P-H-0000000080_inline.xml	1	4	4	5	39	was	
-WR-P-P-H-0000000080_inline.xml	1	4	4	6	40	op	
+WR-P-P-H-0000000080_inline.xml	1	4	4	5	39	was	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	6	40	op	-
 WR-P-P-H-0000000080_inline.xml	1	4	4	7	41	15	(13
 WR-P-P-H-0000000080_inline.xml	1	4	4	8	42	juni	13)
 WR-P-P-H-0000000080_inline.xml	1	4	4	9	43	de	(14
 WR-P-P-H-0000000080_inline.xml	1	4	4	10	44	eerste	14
 WR-P-P-H-0000000080_inline.xml	1	4	4	11	45	moordpartij	14)
-WR-P-P-H-0000000080_inline.xml	1	4	4	12	46	,	
-WR-P-P-H-0000000080_inline.xml	1	4	4	13	47	waarna	
-WR-P-P-H-0000000080_inline.xml	1	4	4	14	48	ook	
-WR-P-P-H-0000000080_inline.xml	1	4	4	15	49	in	
+WR-P-P-H-0000000080_inline.xml	1	4	4	12	46	,	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	13	47	waarna	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	14	48	ook	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	15	49	in	-
 WR-P-P-H-0000000080_inline.xml	1	4	4	16	50	andere	(16
 WR-P-P-H-0000000080_inline.xml	1	4	4	17	51	dorpen	16)
 WR-P-P-H-0000000080_inline.xml	1	4	4	18	52	mensen	(15)
-WR-P-P-H-0000000080_inline.xml	1	4	4	19	53	met	
+WR-P-P-H-0000000080_inline.xml	1	4	4	19	53	met	-
 WR-P-P-H-0000000080_inline.xml	1	4	4	20	54	messen	(17)
-WR-P-P-H-0000000080_inline.xml	1	4	4	21	55	om	
-WR-P-P-H-0000000080_inline.xml	1	4	4	22	56	het	
-WR-P-P-H-0000000080_inline.xml	1	4	4	23	57	leven	
-WR-P-P-H-0000000080_inline.xml	1	4	4	24	58	werden	
-WR-P-P-H-0000000080_inline.xml	1	4	4	25	59	gebracht	
-WR-P-P-H-0000000080_inline.xml	1	4	4	26	60	.	
+WR-P-P-H-0000000080_inline.xml	1	4	4	21	55	om	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	22	56	het	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	23	57	leven	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	24	58	werden	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	25	59	gebracht	-
+WR-P-P-H-0000000080_inline.xml	1	4	4	26	60	.	-
 
 WR-P-P-H-0000000080_inline.xml	1	5	5	1	61	Honderden	(18
 WR-P-P-H-0000000080_inline.xml	1	5	5	2	62	mensen	18)|(19)
-WR-P-P-H-0000000080_inline.xml	1	5	5	3	63	zijn	
-WR-P-P-H-0000000080_inline.xml	1	5	5	4	64	naar	
+WR-P-P-H-0000000080_inline.xml	1	5	5	3	63	zijn	-
+WR-P-P-H-0000000080_inline.xml	1	5	5	4	64	naar	-
 WR-P-P-H-0000000080_inline.xml	1	5	5	5	65	buurland	(20
 WR-P-P-H-0000000080_inline.xml	1	5	5	6	66	Oeganda	20)
-WR-P-P-H-0000000080_inline.xml	1	5	5	7	67	gevlucht	
-WR-P-P-H-0000000080_inline.xml	1	5	5	8	68	.	
+WR-P-P-H-0000000080_inline.xml	1	5	5	7	67	gevlucht	-
+WR-P-P-H-0000000080_inline.xml	1	5	5	8	68	.	-
 
 WR-P-P-H-0000000080_inline.xml	1	6	6	1	69	Oegandese	(21
 WR-P-P-H-0000000080_inline.xml	1	6	6	2	70	troepen	21)
-WR-P-P-H-0000000080_inline.xml	1	6	6	3	71	hebben	
-WR-P-P-H-0000000080_inline.xml	1	6	6	4	72	in	
+WR-P-P-H-0000000080_inline.xml	1	6	6	3	71	hebben	-
+WR-P-P-H-0000000080_inline.xml	1	6	6	4	72	in	-
 WR-P-P-H-0000000080_inline.xml	1	6	6	5	73	Congo	(5)
 WR-P-P-H-0000000080_inline.xml	1	6	6	6	74	bijna	(23
 WR-P-P-H-0000000080_inline.xml	1	6	6	7	75	honderd	23
@@ -89,5 +89,5 @@ WR-P-P-H-0000000080_inline.xml	1	6	6	14	82	betrokken	23
 WR-P-P-H-0000000080_inline.xml	1	6	6	15	83	zouden	23
 WR-P-P-H-0000000080_inline.xml	1	6	6	16	84	zijn	23
 WR-P-P-H-0000000080_inline.xml	1	6	6	17	85	geweest	23)
-WR-P-P-H-0000000080_inline.xml	1	6	6	18	86	.	
+WR-P-P-H-0000000080_inline.xml	1	6	6	18	86	.	-
 

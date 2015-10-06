@@ -14,13 +14,20 @@ class Mention:
 
 	def __init__(self, mentionID):
 		self.ID = mentionID # ID can be used for mention ordering, but then ID assignment needs to be more intelligent/different
-		self.docName = ''
 		self.sentNum = 0
 		self.tokenList = []
 		self.numTokens = 0
 		self.begin = 0 # Token ID of first token
 		self.end = 0 # Token ID of last token + 1
 		self.type = '' # Pronoun, NP or Name
+		self.clusterID = -1
+		
+# Class for 'cluster'-objects
+class Cluster:
+	'Class of clusters, which contain features, an ID and a list of member-mentions-IDs'
+	def __init__(self, clusterID):
+		self.ID = clusterID
+		self.mentionList = []
 
 # Read in conll file, return list of lists containing a single word + annotation
 def read_conll_file(fname):
@@ -78,7 +85,6 @@ def stitch_names(mention_list):
 def detect_mentions(conll_list, tree_list, docFilename):
 	global mentionID, sentenceDict
 	mention_list = []
-	docName = re.split('/', docFilename)[-1][:-17]
 	for tree in tree_list:
 		sentNum = tree.find('comments').find('comment').text
 		sentNum = re.findall('#[0-9]+', sentNum)[0][1:]
@@ -96,7 +102,6 @@ def detect_mentions(conll_list, tree_list, docFilename):
 		for mention_node in np_list + pron_list + name_list:
 			new_ment = Mention(mentionID)
 			mentionID += 1
-			new_ment.docName = docName
 			new_ment.sentNum = int(sentNum)
 			new_ment.begin = int(mention_node.attrib["begin"])
 			new_ment.end = int(mention_node.attrib["end"])
@@ -114,7 +119,8 @@ def detect_mentions(conll_list, tree_list, docFilename):
 	# Stitch together split name-type mentions
 	mention_list = stitch_names(mention_list)
 	return mention_list
-	
+
+# Human-readable printing of the output of the mention detection sieve	
 def print_mentions_inline(sentenceDict, mention_list):
 	for sentNum in sentenceDict:
 		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
@@ -126,11 +132,49 @@ def print_mentions_inline(sentenceDict, mention_list):
 						print ']',
 			print token,
 		print ''
+
+# Creates a cluster for each mention, fills in features
+def initialize_clusters(mention_list):
+	cluster_list = []
+	for mention in mention_list:
+		new_cluster = Cluster(mention.ID) # Initialize with same ID as initial mention
+		new_cluster.mentionList.append(mention.ID)
+		mention.clusterID = new_cluster.ID
+		cluster_list.append(new_cluster)
+	return cluster_list
+	
+# Creates conll-formatted output with the clustering information
+def generate_conll(sentenceDict, docName, mention_list, output_filename):
+	output_file = open(output_filename, 'w')
+	docName = docName.split('/')[-1][:-6]
+	for key in sorted(sentenceDict.keys()): # Cycle through sentences
+		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
+			corefLabel = ''
+			for mention in mention_list: # Check all mentions, to see whether token is part of mention
+				if mention.sentNum == key:
+					if token_idx == mention.begin: # Start of mention, print a bracket
+						if corefLabel:
+							corefLabel += '|'
+						corefLabel += '('
+					if token_idx >= mention.begin and token_idx < mention.end:
+						if corefLabel:
+							if corefLabel[-1] != '(':
+								corefLabel += '|'
+						corefLabel += str(mention.clusterID)
+					if token_idx + 1 == mention.end: # End of mention, print a bracket
+						corefLabel += ')'
+			if not corefLabel: # Tokens outside of mentions get a dash
+				corefLabel = '-'
+			output_file.write(docName + '\t' + str(key) + '\t' +  token.encode('utf-8') + '\t' + corefLabel + '\n')
+#			print docName + '\t' + str(key) + '\t' +  token + '\t' + corefLabel
+		output_file.write('\n')
+#		print ''
 	
 if __name__ == '__main__':
 	# Parse input argument
 	parser = argparse.ArgumentParser()
 	parser.add_argument('input_file', type=str, help='Path to a file, in .conll format, with .dep and .con parse, to be resolved')
+	parser.add_argument('output_file', type = str, help = 'The path of where the output should go, e.g. WR77.xml.coref')
 	args = parser.parse_args()
 	# Read input files
 	try:
@@ -143,6 +187,8 @@ if __name__ == '__main__':
 	sentenceDict = {} # Initialize dictionary containing sentence strings
 	mention_list = detect_mentions(conll_list, xml_tree_list, args.input_file)
 	print_mentions_inline(sentenceDict, mention_list)		
-	
+	cluster_list = initialize_clusters(mention_list)
+	generate_conll(sentenceDict, args.input_file, mention_list, args.output_file)
+
 	
 	

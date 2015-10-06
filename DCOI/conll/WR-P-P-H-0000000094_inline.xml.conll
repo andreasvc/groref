@@ -1,6 +1,6 @@
 doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
 WR-P-P-H-0000000094_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
-WR-P-P-H-0000000094_inline.xml	1	1	1	2	2	-	
+WR-P-P-H-0000000094_inline.xml	1	1	1	2	2	-	-
 
 WR-P-P-H-0000000094_inline.xml	1	2	2	1	3	De	(2
 WR-P-P-H-0000000094_inline.xml	1	2	2	2	4	breuk	2
@@ -10,43 +10,43 @@ WR-P-P-H-0000000094_inline.xml	1	2	2	5	7	federale	2|3
 WR-P-P-H-0000000094_inline.xml	1	2	2	6	8	regering	2|3
 WR-P-P-H-0000000094_inline.xml	1	2	2	7	9	van	2|3
 WR-P-P-H-0000000094_inline.xml	1	2	2	8	10	Joegoslavië	2)|3)|(4)
-WR-P-P-H-0000000094_inline.xml	1	2	2	9	11	kan	
-WR-P-P-H-0000000094_inline.xml	1	2	2	10	12	volgens	
+WR-P-P-H-0000000094_inline.xml	1	2	2	9	11	kan	-
+WR-P-P-H-0000000094_inline.xml	1	2	2	10	12	volgens	-
 WR-P-P-H-0000000094_inline.xml	1	2	2	11	13	de	(5
 WR-P-P-H-0000000094_inline.xml	1	2	2	12	14	Servische	5
 WR-P-P-H-0000000094_inline.xml	1	2	2	13	15	premier	5
 WR-P-P-H-0000000094_inline.xml	1	2	2	14	16	Djindjic	5)
-WR-P-P-H-0000000094_inline.xml	1	2	2	15	17	nog	
-WR-P-P-H-0000000094_inline.xml	1	2	2	16	18	worden	
-WR-P-P-H-0000000094_inline.xml	1	2	2	17	19	gelijmd	
-WR-P-P-H-0000000094_inline.xml	1	2	2	18	20	.	
+WR-P-P-H-0000000094_inline.xml	1	2	2	15	17	nog	-
+WR-P-P-H-0000000094_inline.xml	1	2	2	16	18	worden	-
+WR-P-P-H-0000000094_inline.xml	1	2	2	17	19	gelijmd	-
+WR-P-P-H-0000000094_inline.xml	1	2	2	18	20	.	-
 
-WR-P-P-H-0000000094_inline.xml	1	3	3	1	21	Met	
+WR-P-P-H-0000000094_inline.xml	1	3	3	1	21	Met	-
 WR-P-P-H-0000000094_inline.xml	1	3	3	2	22	hervormingen	(6)
-WR-P-P-H-0000000094_inline.xml	1	3	3	3	23	,	
-WR-P-P-H-0000000094_inline.xml	1	3	3	4	24	niet	
-WR-P-P-H-0000000094_inline.xml	1	3	3	5	25	met	
+WR-P-P-H-0000000094_inline.xml	1	3	3	3	23	,	-
+WR-P-P-H-0000000094_inline.xml	1	3	3	4	24	niet	-
+WR-P-P-H-0000000094_inline.xml	1	3	3	5	25	met	-
 WR-P-P-H-0000000094_inline.xml	1	3	3	6	26	nieuwe	(7
 WR-P-P-H-0000000094_inline.xml	1	3	3	7	27	verkiezingen	7)
-WR-P-P-H-0000000094_inline.xml	1	3	3	8	28	.	
+WR-P-P-H-0000000094_inline.xml	1	3	3	8	28	.	-
 
 WR-P-P-H-0000000094_inline.xml	2	1	4	1	29	Djindjic	(5)
-WR-P-P-H-0000000094_inline.xml	2	1	4	2	30	zei	
+WR-P-P-H-0000000094_inline.xml	2	1	4	2	30	zei	-
 WR-P-P-H-0000000094_inline.xml	2	1	4	3	31	dat	(9)
-WR-P-P-H-0000000094_inline.xml	2	1	4	4	32	dit	
-WR-P-P-H-0000000094_inline.xml	2	1	4	5	33	weekeinde	
-WR-P-P-H-0000000094_inline.xml	2	1	4	6	34	in	
-WR-P-P-H-0000000094_inline.xml	2	1	4	7	35	reactie	
-WR-P-P-H-0000000094_inline.xml	2	1	4	8	36	op	
+WR-P-P-H-0000000094_inline.xml	2	1	4	4	32	dit	-
+WR-P-P-H-0000000094_inline.xml	2	1	4	5	33	weekeinde	-
+WR-P-P-H-0000000094_inline.xml	2	1	4	6	34	in	-
+WR-P-P-H-0000000094_inline.xml	2	1	4	7	35	reactie	-
+WR-P-P-H-0000000094_inline.xml	2	1	4	8	36	op	-
 WR-P-P-H-0000000094_inline.xml	2	1	4	9	37	de	(2
 WR-P-P-H-0000000094_inline.xml	2	1	4	10	38	ernstige	2
 WR-P-P-H-0000000094_inline.xml	2	1	4	11	39	politieke	2
 WR-P-P-H-0000000094_inline.xml	2	1	4	12	40	crisis	2
 WR-P-P-H-0000000094_inline.xml	2	1	4	13	41	in	2
 WR-P-P-H-0000000094_inline.xml	2	1	4	14	42	Joegoslavië	2)|(11)
-WR-P-P-H-0000000094_inline.xml	2	1	4	15	43	.	
+WR-P-P-H-0000000094_inline.xml	2	1	4	15	43	.	-
 
-WR-P-P-H-0000000094_inline.xml	2	2	5	1	44	Uit	
+WR-P-P-H-0000000094_inline.xml	2	2	5	1	44	Uit	-
 WR-P-P-H-0000000094_inline.xml	2	2	5	2	45	woede	(12
 WR-P-P-H-0000000094_inline.xml	2	2	5	3	46	over	12
 WR-P-P-H-0000000094_inline.xml	2	2	5	4	47	de	12|(13
@@ -54,76 +54,76 @@ WR-P-P-H-0000000094_inline.xml	2	2	5	5	48	uitlevering	12|13
 WR-P-P-H-0000000094_inline.xml	2	2	5	6	49	van	12|13
 WR-P-P-H-0000000094_inline.xml	2	2	5	7	50	ex-president	12|13|(14
 WR-P-P-H-0000000094_inline.xml	2	2	5	8	51	Milosevic	12)|13)|14)
-WR-P-P-H-0000000094_inline.xml	2	2	5	9	52	stapte	
+WR-P-P-H-0000000094_inline.xml	2	2	5	9	52	stapte	-
 WR-P-P-H-0000000094_inline.xml	2	2	5	10	53	vrijdag	(15)
 WR-P-P-H-0000000094_inline.xml	2	2	5	11	54	de	(16
 WR-P-P-H-0000000094_inline.xml	2	2	5	12	55	Montenegrijnse	16
 WR-P-P-H-0000000094_inline.xml	2	2	5	13	56	partij	16
 WR-P-P-H-0000000094_inline.xml	2	2	5	14	57	SNP	16)
-WR-P-P-H-0000000094_inline.xml	2	2	5	15	58	uit	
+WR-P-P-H-0000000094_inline.xml	2	2	5	15	58	uit	-
 WR-P-P-H-0000000094_inline.xml	2	2	5	16	59	de	(3
 WR-P-P-H-0000000094_inline.xml	2	2	5	17	60	Joegoslavische	3
 WR-P-P-H-0000000094_inline.xml	2	2	5	18	61	regering	3)
-WR-P-P-H-0000000094_inline.xml	2	2	5	19	62	.	
+WR-P-P-H-0000000094_inline.xml	2	2	5	19	62	.	-
 
-WR-P-P-H-0000000094_inline.xml	2	3	6	1	63	Als	
+WR-P-P-H-0000000094_inline.xml	2	3	6	1	63	Als	-
 WR-P-P-H-0000000094_inline.xml	2	3	6	2	64	de	(2)
 WR-P-P-H-0000000094_inline.xml	2	3	6	3	65	crisis	(2)
-WR-P-P-H-0000000094_inline.xml	2	3	6	4	66	niet	
-WR-P-P-H-0000000094_inline.xml	2	3	6	5	67	wordt	
-WR-P-P-H-0000000094_inline.xml	2	3	6	6	68	opgelost	
-WR-P-P-H-0000000094_inline.xml	2	3	6	7	69	,	
-WR-P-P-H-0000000094_inline.xml	2	3	6	8	70	is	
+WR-P-P-H-0000000094_inline.xml	2	3	6	4	66	niet	-
+WR-P-P-H-0000000094_inline.xml	2	3	6	5	67	wordt	-
+WR-P-P-H-0000000094_inline.xml	2	3	6	6	68	opgelost	-
+WR-P-P-H-0000000094_inline.xml	2	3	6	7	69	,	-
+WR-P-P-H-0000000094_inline.xml	2	3	6	8	70	is	-
 WR-P-P-H-0000000094_inline.xml	2	3	6	9	71	het	(19)
-WR-P-P-H-0000000094_inline.xml	2	3	6	10	72	niet	
-WR-P-P-H-0000000094_inline.xml	2	3	6	11	73	ondenkbaar	
-WR-P-P-H-0000000094_inline.xml	2	3	6	12	74	dat	
+WR-P-P-H-0000000094_inline.xml	2	3	6	10	72	niet	-
+WR-P-P-H-0000000094_inline.xml	2	3	6	11	73	ondenkbaar	-
+WR-P-P-H-0000000094_inline.xml	2	3	6	12	74	dat	-
 WR-P-P-H-0000000094_inline.xml	2	3	6	13	75	de	(11
 WR-P-P-H-0000000094_inline.xml	2	3	6	14	76	federatie	11
 WR-P-P-H-0000000094_inline.xml	2	3	6	15	77	Joegoslavië	11)
-WR-P-P-H-0000000094_inline.xml	2	3	6	16	78	definitief	
-WR-P-P-H-0000000094_inline.xml	2	3	6	17	79	uiteenvalt	
-WR-P-P-H-0000000094_inline.xml	2	3	6	18	80	.	
+WR-P-P-H-0000000094_inline.xml	2	3	6	16	78	definitief	-
+WR-P-P-H-0000000094_inline.xml	2	3	6	17	79	uiteenvalt	-
+WR-P-P-H-0000000094_inline.xml	2	3	6	18	80	.	-
 
 WR-P-P-H-0000000094_inline.xml	2	4	7	1	81	Alleen	(21
 WR-P-P-H-0000000094_inline.xml	2	4	7	2	82	Servië	21|(23|(22)
 WR-P-P-H-0000000094_inline.xml	2	4	7	3	83	en	21|23
 WR-P-P-H-0000000094_inline.xml	2	4	7	4	84	Montenegro	21)|23)|(120)
-WR-P-P-H-0000000094_inline.xml	2	4	7	5	85	maken	
+WR-P-P-H-0000000094_inline.xml	2	4	7	5	85	maken	-
 WR-P-P-H-0000000094_inline.xml	2	4	7	6	86	er	(11)
-WR-P-P-H-0000000094_inline.xml	2	4	7	7	87	nog	
-WR-P-P-H-0000000094_inline.xml	2	4	7	8	88	deel	
-WR-P-P-H-0000000094_inline.xml	2	4	7	9	89	van	
-WR-P-P-H-0000000094_inline.xml	2	4	7	10	90	uit	
-WR-P-P-H-0000000094_inline.xml	2	4	7	11	91	.	
+WR-P-P-H-0000000094_inline.xml	2	4	7	7	87	nog	-
+WR-P-P-H-0000000094_inline.xml	2	4	7	8	88	deel	-
+WR-P-P-H-0000000094_inline.xml	2	4	7	9	89	van	-
+WR-P-P-H-0000000094_inline.xml	2	4	7	10	90	uit	-
+WR-P-P-H-0000000094_inline.xml	2	4	7	11	91	.	-
 
 WR-P-P-H-0000000094_inline.xml	3	1	8	1	92	Verkiezingen	(7)
-WR-P-P-H-0000000094_inline.xml	3	1	8	2	93	lossen	
-WR-P-P-H-0000000094_inline.xml	3	1	8	3	94	op	
+WR-P-P-H-0000000094_inline.xml	3	1	8	2	93	lossen	-
+WR-P-P-H-0000000094_inline.xml	3	1	8	3	94	op	-
 WR-P-P-H-0000000094_inline.xml	3	1	8	4	95	dit	(26
 WR-P-P-H-0000000094_inline.xml	3	1	8	5	96	moment	26)
 WR-P-P-H-0000000094_inline.xml	3	1	8	6	97	niets	(27)
-WR-P-P-H-0000000094_inline.xml	3	1	8	7	98	op	
-WR-P-P-H-0000000094_inline.xml	3	1	8	8	99	,	
-WR-P-P-H-0000000094_inline.xml	3	1	8	9	100	vindt	
+WR-P-P-H-0000000094_inline.xml	3	1	8	7	98	op	-
+WR-P-P-H-0000000094_inline.xml	3	1	8	8	99	,	-
+WR-P-P-H-0000000094_inline.xml	3	1	8	9	100	vindt	-
 WR-P-P-H-0000000094_inline.xml	3	1	8	10	101	Djindjic	(5)
-WR-P-P-H-0000000094_inline.xml	3	1	8	11	102	.	
+WR-P-P-H-0000000094_inline.xml	3	1	8	11	102	.	-
 
-WR-P-P-H-0000000094_inline.xml	3	2	9	1	103	Volgens	
+WR-P-P-H-0000000094_inline.xml	3	2	9	1	103	Volgens	-
 WR-P-P-H-0000000094_inline.xml	3	2	9	2	104	de	(5)
 WR-P-P-H-0000000094_inline.xml	3	2	9	3	105	Servische	(5)
 WR-P-P-H-0000000094_inline.xml	3	2	9	4	106	premier	(5)
-WR-P-P-H-0000000094_inline.xml	3	2	9	5	107	kan	
-WR-P-P-H-0000000094_inline.xml	3	2	9	6	108	beter	
+WR-P-P-H-0000000094_inline.xml	3	2	9	5	107	kan	-
+WR-P-P-H-0000000094_inline.xml	3	2	9	6	108	beter	-
 WR-P-P-H-0000000094_inline.xml	3	2	9	7	109	de	(29
 WR-P-P-H-0000000094_inline.xml	3	2	9	8	110	federale	29
 WR-P-P-H-0000000094_inline.xml	3	2	9	9	111	grondwet	29)
-WR-P-P-H-0000000094_inline.xml	3	2	9	10	112	worden	
-WR-P-P-H-0000000094_inline.xml	3	2	9	11	113	vernieuwd	
-WR-P-P-H-0000000094_inline.xml	3	2	9	12	114	.	
+WR-P-P-H-0000000094_inline.xml	3	2	9	10	112	worden	-
+WR-P-P-H-0000000094_inline.xml	3	2	9	11	113	vernieuwd	-
+WR-P-P-H-0000000094_inline.xml	3	2	9	12	114	.	-
 
 WR-P-P-H-0000000094_inline.xml	3	3	10	1	115	Die	(29)
-WR-P-P-H-0000000094_inline.xml	3	3	10	2	116	regelt	
+WR-P-P-H-0000000094_inline.xml	3	3	10	2	116	regelt	-
 WR-P-P-H-0000000094_inline.xml	3	3	10	3	117	de	(32
 WR-P-P-H-0000000094_inline.xml	3	3	10	4	118	verhouding	32
 WR-P-P-H-0000000094_inline.xml	3	3	10	5	119	tussen	32
@@ -134,50 +134,50 @@ WR-P-P-H-0000000094_inline.xml	3	3	10	9	123	en	32|33
 WR-P-P-H-0000000094_inline.xml	3	3	10	10	124	kleine	32|33|(120
 WR-P-P-H-0000000094_inline.xml	3	3	10	11	125	buur	32|33|120
 WR-P-P-H-0000000094_inline.xml	3	3	10	12	126	Montenegro	32)|33)|120)
-WR-P-P-H-0000000094_inline.xml	3	3	10	13	127	.	
+WR-P-P-H-0000000094_inline.xml	3	3	10	13	127	.	-
 
-WR-P-P-H-0000000094_inline.xml	3	4	11	1	128	,,	
+WR-P-P-H-0000000094_inline.xml	3	4	11	1	128	,,	-
 WR-P-P-H-0000000094_inline.xml	3	4	11	2	129	We	(36)
-WR-P-P-H-0000000094_inline.xml	3	4	11	3	130	hebben	
+WR-P-P-H-0000000094_inline.xml	3	4	11	3	130	hebben	-
 WR-P-P-H-0000000094_inline.xml	3	4	11	4	131	een	(37
 WR-P-P-H-0000000094_inline.xml	3	4	11	5	132	concept	37
 WR-P-P-H-0000000094_inline.xml	3	4	11	6	133	nodig	37
 WR-P-P-H-0000000094_inline.xml	3	4	11	7	134	voor	37
 WR-P-P-H-0000000094_inline.xml	3	4	11	8	135	verandering	37)|(38)
-WR-P-P-H-0000000094_inline.xml	3	4	11	9	136	''	
-WR-P-P-H-0000000094_inline.xml	3	4	11	10	137	,	
-WR-P-P-H-0000000094_inline.xml	3	4	11	11	138	zei	
+WR-P-P-H-0000000094_inline.xml	3	4	11	9	136	''	-
+WR-P-P-H-0000000094_inline.xml	3	4	11	10	137	,	-
+WR-P-P-H-0000000094_inline.xml	3	4	11	11	138	zei	-
 WR-P-P-H-0000000094_inline.xml	3	4	11	12	139	Djindjic	(5)
-WR-P-P-H-0000000094_inline.xml	3	4	11	13	140	in	
+WR-P-P-H-0000000094_inline.xml	3	4	11	13	140	in	-
 WR-P-P-H-0000000094_inline.xml	3	4	11	14	141	een	(40
 WR-P-P-H-0000000094_inline.xml	3	4	11	15	142	interview	40
 WR-P-P-H-0000000094_inline.xml	3	4	11	16	143	met	40
 WR-P-P-H-0000000094_inline.xml	3	4	11	17	144	de	40|(41
 WR-P-P-H-0000000094_inline.xml	3	4	11	18	145	Duitse	40|41
 WR-P-P-H-0000000094_inline.xml	3	4	11	19	146	televisie	40)|41)
-WR-P-P-H-0000000094_inline.xml	3	4	11	20	147	.	
+WR-P-P-H-0000000094_inline.xml	3	4	11	20	147	.	-
 
 WR-P-P-H-0000000094_inline.xml	3	5	12	1	148	De	(16
 WR-P-P-H-0000000094_inline.xml	3	5	12	2	149	Montenegrijnse	16
 WR-P-P-H-0000000094_inline.xml	3	5	12	3	150	partij	16
 WR-P-P-H-0000000094_inline.xml	3	5	12	4	151	SNP	16)
-WR-P-P-H-0000000094_inline.xml	3	5	12	5	152	is	
-WR-P-P-H-0000000094_inline.xml	3	5	12	6	153	woest	
-WR-P-P-H-0000000094_inline.xml	3	5	12	7	154	dat	
+WR-P-P-H-0000000094_inline.xml	3	5	12	5	152	is	-
+WR-P-P-H-0000000094_inline.xml	3	5	12	6	153	woest	-
+WR-P-P-H-0000000094_inline.xml	3	5	12	7	154	dat	-
 WR-P-P-H-0000000094_inline.xml	3	5	12	8	155	zij	(16)
-WR-P-P-H-0000000094_inline.xml	3	5	12	9	156	buiten	
+WR-P-P-H-0000000094_inline.xml	3	5	12	9	156	buiten	-
 WR-P-P-H-0000000094_inline.xml	3	5	12	10	157	de	(13
 WR-P-P-H-0000000094_inline.xml	3	5	12	11	158	uitlevering	13
 WR-P-P-H-0000000094_inline.xml	3	5	12	12	159	van	13
 WR-P-P-H-0000000094_inline.xml	3	5	12	13	160	Milosevic	13)|(45)
-WR-P-P-H-0000000094_inline.xml	3	5	12	14	161	is	
-WR-P-P-H-0000000094_inline.xml	3	5	12	15	162	gehouden	
-WR-P-P-H-0000000094_inline.xml	3	5	12	16	163	.	
+WR-P-P-H-0000000094_inline.xml	3	5	12	14	161	is	-
+WR-P-P-H-0000000094_inline.xml	3	5	12	15	162	gehouden	-
+WR-P-P-H-0000000094_inline.xml	3	5	12	16	163	.	-
 
 WR-P-P-H-0000000094_inline.xml	4	1	13	1	164	Politieke	(46
 WR-P-P-H-0000000094_inline.xml	4	1	13	2	165	waarnemers	46)
-WR-P-P-H-0000000094_inline.xml	4	1	13	3	166	denken	
-WR-P-P-H-0000000094_inline.xml	4	1	13	4	167	dat	
+WR-P-P-H-0000000094_inline.xml	4	1	13	3	166	denken	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	4	167	dat	-
 WR-P-P-H-0000000094_inline.xml	4	1	13	5	168	de	(47|(121
 WR-P-P-H-0000000094_inline.xml	4	1	13	6	169	Montenegrijnse	47|121
 WR-P-P-H-0000000094_inline.xml	4	1	13	7	170	ministers	47|121
@@ -191,28 +191,28 @@ WR-P-P-H-0000000094_inline.xml	4	1	13	14	177	voormalige	47|49
 WR-P-P-H-0000000094_inline.xml	4	1	13	15	178	bondgenoten	47|49
 WR-P-P-H-0000000094_inline.xml	4	1	13	16	179	van	47|49
 WR-P-P-H-0000000094_inline.xml	4	1	13	17	180	Milosevic	47)|49)|(50)
-WR-P-P-H-0000000094_inline.xml	4	1	13	18	181	,	
-WR-P-P-H-0000000094_inline.xml	4	1	13	19	182	snel	
-WR-P-P-H-0000000094_inline.xml	4	1	13	20	183	op	
+WR-P-P-H-0000000094_inline.xml	4	1	13	18	181	,	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	19	182	snel	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	20	183	op	-
 WR-P-P-H-0000000094_inline.xml	4	1	13	21	184	hun	(51|(121)
 WR-P-P-H-0000000094_inline.xml	4	1	13	22	185	schreden	51)
-WR-P-P-H-0000000094_inline.xml	4	1	13	23	186	terug	
-WR-P-P-H-0000000094_inline.xml	4	1	13	24	187	zullen	
-WR-P-P-H-0000000094_inline.xml	4	1	13	25	188	keren	
-WR-P-P-H-0000000094_inline.xml	4	1	13	26	189	en	
-WR-P-P-H-0000000094_inline.xml	4	1	13	27	190	in	
+WR-P-P-H-0000000094_inline.xml	4	1	13	23	186	terug	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	24	187	zullen	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	25	188	keren	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	26	189	en	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	27	190	in	-
 WR-P-P-H-0000000094_inline.xml	4	1	13	28	191	de	(53
 WR-P-P-H-0000000094_inline.xml	4	1	13	29	192	nieuwe	53
 WR-P-P-H-0000000094_inline.xml	4	1	13	30	193	regering	53)
-WR-P-P-H-0000000094_inline.xml	4	1	13	31	194	plaats	
-WR-P-P-H-0000000094_inline.xml	4	1	13	32	195	zullen	
-WR-P-P-H-0000000094_inline.xml	4	1	13	33	196	nemen	
-WR-P-P-H-0000000094_inline.xml	4	1	13	34	197	.	
+WR-P-P-H-0000000094_inline.xml	4	1	13	31	194	plaats	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	32	195	zullen	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	33	196	nemen	-
+WR-P-P-H-0000000094_inline.xml	4	1	13	34	197	.	-
 
-WR-P-P-H-0000000094_inline.xml	5	1	14	1	198	In	
+WR-P-P-H-0000000094_inline.xml	5	1	14	1	198	In	-
 WR-P-P-H-0000000094_inline.xml	5	1	14	2	199	Montenegro	(120)
 WR-P-P-H-0000000094_inline.xml	5	1	14	3	200	zelf	(120)
-WR-P-P-H-0000000094_inline.xml	5	1	14	4	201	is	
+WR-P-P-H-0000000094_inline.xml	5	1	14	4	201	is	-
 WR-P-P-H-0000000094_inline.xml	5	1	14	5	202	weinig	(55
 WR-P-P-H-0000000094_inline.xml	5	1	14	6	203	animo	55
 WR-P-P-H-0000000094_inline.xml	5	1	14	7	204	voor	55
@@ -221,19 +221,19 @@ WR-P-P-H-0000000094_inline.xml	5	1	14	9	206	dialoog	55|56
 WR-P-P-H-0000000094_inline.xml	5	1	14	10	207	die	55|56
 WR-P-P-H-0000000094_inline.xml	5	1	14	11	208	Servië	55|56|(57)
 WR-P-P-H-0000000094_inline.xml	5	1	14	12	209	aanbiedt	55)|56)
-WR-P-P-H-0000000094_inline.xml	5	1	14	13	210	.	
+WR-P-P-H-0000000094_inline.xml	5	1	14	13	210	.	-
 
-WR-P-P-H-0000000094_inline.xml	5	2	15	1	211	,,	
+WR-P-P-H-0000000094_inline.xml	5	2	15	1	211	,,	-
 WR-P-P-H-0000000094_inline.xml	5	2	15	2	212	Ik	(66)
-WR-P-P-H-0000000094_inline.xml	5	2	15	3	213	denk	
-WR-P-P-H-0000000094_inline.xml	5	2	15	4	214	dat	
+WR-P-P-H-0000000094_inline.xml	5	2	15	3	213	denk	-
+WR-P-P-H-0000000094_inline.xml	5	2	15	4	214	dat	-
 WR-P-P-H-0000000094_inline.xml	5	2	15	5	215	Servië	(33|(60)
 WR-P-P-H-0000000094_inline.xml	5	2	15	6	216	en	33
 WR-P-P-H-0000000094_inline.xml	5	2	15	7	217	Montenegro	33)|(61)
-WR-P-P-H-0000000094_inline.xml	5	2	15	8	218	nu	
-WR-P-P-H-0000000094_inline.xml	5	2	15	9	219	juist	
-WR-P-P-H-0000000094_inline.xml	5	2	15	10	220	veel	
-WR-P-P-H-0000000094_inline.xml	5	2	15	11	221	makkelijker	
+WR-P-P-H-0000000094_inline.xml	5	2	15	8	218	nu	-
+WR-P-P-H-0000000094_inline.xml	5	2	15	9	219	juist	-
+WR-P-P-H-0000000094_inline.xml	5	2	15	10	220	veel	-
+WR-P-P-H-0000000094_inline.xml	5	2	15	11	221	makkelijker	-
 WR-P-P-H-0000000094_inline.xml	5	2	15	12	222	overeenstemming	(62
 WR-P-P-H-0000000094_inline.xml	5	2	15	13	223	zullen	62
 WR-P-P-H-0000000094_inline.xml	5	2	15	14	224	bereiken	62
@@ -246,49 +246,49 @@ WR-P-P-H-0000000094_inline.xml	5	2	15	20	230	unie	62|63|64
 WR-P-P-H-0000000094_inline.xml	5	2	15	21	231	van	62|63|64
 WR-P-P-H-0000000094_inline.xml	5	2	15	22	232	onafhankelijke	62|63|64|(65
 WR-P-P-H-0000000094_inline.xml	5	2	15	23	233	staten	62)|63)|64)|65)
-WR-P-P-H-0000000094_inline.xml	5	2	15	24	234	''	
-WR-P-P-H-0000000094_inline.xml	5	2	15	25	235	,	
-WR-P-P-H-0000000094_inline.xml	5	2	15	26	236	zei	
+WR-P-P-H-0000000094_inline.xml	5	2	15	24	234	''	-
+WR-P-P-H-0000000094_inline.xml	5	2	15	25	235	,	-
+WR-P-P-H-0000000094_inline.xml	5	2	15	26	236	zei	-
 WR-P-P-H-0000000094_inline.xml	5	2	15	27	237	de	(66
 WR-P-P-H-0000000094_inline.xml	5	2	15	28	238	Montenegrijnse	66
 WR-P-P-H-0000000094_inline.xml	5	2	15	29	239	premier	66
 WR-P-P-H-0000000094_inline.xml	5	2	15	30	240	Vujanovic	66)
-WR-P-P-H-0000000094_inline.xml	5	2	15	31	241	.	
+WR-P-P-H-0000000094_inline.xml	5	2	15	31	241	.	-
 
-WR-P-P-H-0000000094_inline.xml	5	3	16	1	242	,,	
-WR-P-P-H-0000000094_inline.xml	5	3	16	2	243	En	
-WR-P-P-H-0000000094_inline.xml	5	3	16	3	244	als	
+WR-P-P-H-0000000094_inline.xml	5	3	16	1	242	,,	-
+WR-P-P-H-0000000094_inline.xml	5	3	16	2	243	En	-
+WR-P-P-H-0000000094_inline.xml	5	3	16	3	244	als	-
 WR-P-P-H-0000000094_inline.xml	5	3	16	4	245	Servië	(60)
 WR-P-P-H-0000000094_inline.xml	5	3	16	5	246	geen	(68
 WR-P-P-H-0000000094_inline.xml	5	3	16	6	247	interesse	68)
-WR-P-P-H-0000000094_inline.xml	5	3	16	7	248	heeft	
-WR-P-P-H-0000000094_inline.xml	5	3	16	8	249	in	
+WR-P-P-H-0000000094_inline.xml	5	3	16	7	248	heeft	-
+WR-P-P-H-0000000094_inline.xml	5	3	16	8	249	in	-
 WR-P-P-H-0000000094_inline.xml	5	3	16	9	250	een	(69
 WR-P-P-H-0000000094_inline.xml	5	3	16	10	251	unie	69
 WR-P-P-H-0000000094_inline.xml	5	3	16	11	252	met	69
 WR-P-P-H-0000000094_inline.xml	5	3	16	12	253	ons	69)|(66)
-WR-P-P-H-0000000094_inline.xml	5	3	16	13	254	,	
-WR-P-P-H-0000000094_inline.xml	5	3	16	14	255	dan	
-WR-P-P-H-0000000094_inline.xml	5	3	16	15	256	roepen	
+WR-P-P-H-0000000094_inline.xml	5	3	16	13	254	,	-
+WR-P-P-H-0000000094_inline.xml	5	3	16	14	255	dan	-
+WR-P-P-H-0000000094_inline.xml	5	3	16	15	256	roepen	-
 WR-P-P-H-0000000094_inline.xml	5	3	16	16	257	we	(66)
-WR-P-P-H-0000000094_inline.xml	5	3	16	17	258	binnenkort	
+WR-P-P-H-0000000094_inline.xml	5	3	16	17	258	binnenkort	-
 WR-P-P-H-0000000094_inline.xml	5	3	16	18	259	de	(72
 WR-P-P-H-0000000094_inline.xml	5	3	16	19	260	onafhankelijkheid	72)
-WR-P-P-H-0000000094_inline.xml	5	3	16	20	261	uit	
-WR-P-P-H-0000000094_inline.xml	5	3	16	21	262	.	
-WR-P-P-H-0000000094_inline.xml	5	3	16	22	263	''	
+WR-P-P-H-0000000094_inline.xml	5	3	16	20	261	uit	-
+WR-P-P-H-0000000094_inline.xml	5	3	16	21	262	.	-
+WR-P-P-H-0000000094_inline.xml	5	3	16	22	263	''	-
 
 WR-P-P-H-0000000094_inline.xml	6	1	17	1	264	Het	(73
 WR-P-P-H-0000000094_inline.xml	6	1	17	2	265	Joegoslavische	73
 WR-P-P-H-0000000094_inline.xml	6	1	17	3	266	persbureau	73
 WR-P-P-H-0000000094_inline.xml	6	1	17	4	267	Tanjug	73)
-WR-P-P-H-0000000094_inline.xml	6	1	17	5	268	meldde	
-WR-P-P-H-0000000094_inline.xml	6	1	17	6	269	dat	
+WR-P-P-H-0000000094_inline.xml	6	1	17	5	268	meldde	-
+WR-P-P-H-0000000094_inline.xml	6	1	17	6	269	dat	-
 WR-P-P-H-0000000094_inline.xml	6	1	17	7	270	president	(74
 WR-P-P-H-0000000094_inline.xml	6	1	17	8	271	Kostunica	74)
-WR-P-P-H-0000000094_inline.xml	6	1	17	9	272	vandaag	
-WR-P-P-H-0000000094_inline.xml	6	1	17	10	273	begint	
-WR-P-P-H-0000000094_inline.xml	6	1	17	11	274	met	
+WR-P-P-H-0000000094_inline.xml	6	1	17	9	272	vandaag	-
+WR-P-P-H-0000000094_inline.xml	6	1	17	10	273	begint	-
+WR-P-P-H-0000000094_inline.xml	6	1	17	11	274	met	-
 WR-P-P-H-0000000094_inline.xml	6	1	17	12	275	het	(75
 WR-P-P-H-0000000094_inline.xml	6	1	17	13	276	overleg	75
 WR-P-P-H-0000000094_inline.xml	6	1	17	14	277	over	75
@@ -299,11 +299,11 @@ WR-P-P-H-0000000094_inline.xml	6	1	17	18	281	een	75|76|(77
 WR-P-P-H-0000000094_inline.xml	6	1	17	19	282	nieuwe	75|76|77
 WR-P-P-H-0000000094_inline.xml	6	1	17	20	283	federale	75|76|77
 WR-P-P-H-0000000094_inline.xml	6	1	17	21	284	regering	75)|76)|77)
-WR-P-P-H-0000000094_inline.xml	6	1	17	22	285	.	
+WR-P-P-H-0000000094_inline.xml	6	1	17	22	285	.	-
 
 WR-P-P-H-0000000094_inline.xml	6	2	18	1	286	Waarnemers	(78)
-WR-P-P-H-0000000094_inline.xml	6	2	18	2	287	verwachten	
-WR-P-P-H-0000000094_inline.xml	6	2	18	3	288	dat	
+WR-P-P-H-0000000094_inline.xml	6	2	18	2	287	verwachten	-
+WR-P-P-H-0000000094_inline.xml	6	2	18	3	288	dat	-
 WR-P-P-H-0000000094_inline.xml	6	2	18	4	289	het	(79
 WR-P-P-H-0000000094_inline.xml	6	2	18	5	290	westen	79)
 WR-P-P-H-0000000094_inline.xml	6	2	18	6	291	grote	(81
@@ -323,22 +323,22 @@ WR-P-P-H-0000000094_inline.xml	6	2	18	19	304	de	81|2|(83
 WR-P-P-H-0000000094_inline.xml	6	2	18	20	305	federatie	81|2)|83)
 WR-P-P-H-0000000094_inline.xml	6	2	18	21	306	te	81
 WR-P-P-H-0000000094_inline.xml	6	2	18	22	307	lijmen	81)
-WR-P-P-H-0000000094_inline.xml	6	2	18	23	308	.	
+WR-P-P-H-0000000094_inline.xml	6	2	18	23	308	.	-
 
 WR-P-P-H-0000000094_inline.xml	7	1	19	1	309	Het	(79
 WR-P-P-H-0000000094_inline.xml	7	1	19	2	310	Westen	79)
-WR-P-P-H-0000000094_inline.xml	7	1	19	3	311	wil	
-WR-P-P-H-0000000094_inline.xml	7	1	19	4	312	voorkomen	
-WR-P-P-H-0000000094_inline.xml	7	1	19	5	313	dat	
+WR-P-P-H-0000000094_inline.xml	7	1	19	3	311	wil	-
+WR-P-P-H-0000000094_inline.xml	7	1	19	4	312	voorkomen	-
+WR-P-P-H-0000000094_inline.xml	7	1	19	5	313	dat	-
 WR-P-P-H-0000000094_inline.xml	7	1	19	6	314	Montenegro	(61)
 WR-P-P-H-0000000094_inline.xml	7	1	19	7	315	de	(72
 WR-P-P-H-0000000094_inline.xml	7	1	19	8	316	onafhankelijkheid	72)
-WR-P-P-H-0000000094_inline.xml	7	1	19	9	317	uitroept	
-WR-P-P-H-0000000094_inline.xml	7	1	19	10	318	.	
+WR-P-P-H-0000000094_inline.xml	7	1	19	9	317	uitroept	-
+WR-P-P-H-0000000094_inline.xml	7	1	19	10	318	.	-
 
 WR-P-P-H-0000000094_inline.xml	7	2	20	1	319	Dat	(87)
-WR-P-P-H-0000000094_inline.xml	7	2	20	2	320	zou	
-WR-P-P-H-0000000094_inline.xml	7	2	20	3	321	namelijk	
+WR-P-P-H-0000000094_inline.xml	7	2	20	2	320	zou	-
+WR-P-P-H-0000000094_inline.xml	7	2	20	3	321	namelijk	-
 WR-P-P-H-0000000094_inline.xml	7	2	20	4	322	koren	(88
 WR-P-P-H-0000000094_inline.xml	7	2	20	5	323	op	88
 WR-P-P-H-0000000094_inline.xml	7	2	20	6	324	de	88|(89
@@ -352,31 +352,31 @@ WR-P-P-H-0000000094_inline.xml	7	2	20	13	331	in	88|89|90|122
 WR-P-P-H-0000000094_inline.xml	7	2	20	14	332	Macedonië	88|89|90|122|(91|(92)
 WR-P-P-H-0000000094_inline.xml	7	2	20	15	333	en	88|89|90|122|91
 WR-P-P-H-0000000094_inline.xml	7	2	20	16	334	Kosovo	88)|89)|90)|122)|91)|(93)
-WR-P-P-H-0000000094_inline.xml	7	2	20	17	335	.	
+WR-P-P-H-0000000094_inline.xml	7	2	20	17	335	.	-
 
 WR-P-P-H-0000000094_inline.xml	8	1	21	1	336	Een	(94
 WR-P-P-H-0000000094_inline.xml	8	1	21	2	337	probleem	94)
-WR-P-P-H-0000000094_inline.xml	8	1	21	3	338	is	
-WR-P-P-H-0000000094_inline.xml	8	1	21	4	339	dat	
+WR-P-P-H-0000000094_inline.xml	8	1	21	3	338	is	-
+WR-P-P-H-0000000094_inline.xml	8	1	21	4	339	dat	-
 WR-P-P-H-0000000094_inline.xml	8	1	21	5	340	de	(95
 WR-P-P-H-0000000094_inline.xml	8	1	21	6	341	federale	95
 WR-P-P-H-0000000094_inline.xml	8	1	21	7	342	regering	95)
-WR-P-P-H-0000000094_inline.xml	8	1	21	8	343	tot	
-WR-P-P-H-0000000094_inline.xml	8	1	21	9	344	nu	
-WR-P-P-H-0000000094_inline.xml	8	1	21	10	345	toe	
-WR-P-P-H-0000000094_inline.xml	8	1	21	11	346	bestond	
-WR-P-P-H-0000000094_inline.xml	8	1	21	12	347	uit	
+WR-P-P-H-0000000094_inline.xml	8	1	21	8	343	tot	-
+WR-P-P-H-0000000094_inline.xml	8	1	21	9	344	nu	-
+WR-P-P-H-0000000094_inline.xml	8	1	21	10	345	toe	-
+WR-P-P-H-0000000094_inline.xml	8	1	21	11	346	bestond	-
+WR-P-P-H-0000000094_inline.xml	8	1	21	12	347	uit	-
 WR-P-P-H-0000000094_inline.xml	8	1	21	13	348	curieuze	(96
 WR-P-P-H-0000000094_inline.xml	8	1	21	14	349	partners	96)
-WR-P-P-H-0000000094_inline.xml	8	1	21	15	350	.	
+WR-P-P-H-0000000094_inline.xml	8	1	21	15	350	.	-
 
 WR-P-P-H-0000000094_inline.xml	8	2	22	1	351	De	(97|(123
 WR-P-P-H-0000000094_inline.xml	8	2	22	2	352	Servische	97|123
 WR-P-P-H-0000000094_inline.xml	8	2	22	3	353	hervormers	97|123
 WR-P-P-H-0000000094_inline.xml	8	2	22	4	354	van	97|123
 WR-P-P-H-0000000094_inline.xml	8	2	22	5	355	DOS	97)|123)|(98)
-WR-P-P-H-0000000094_inline.xml	8	2	22	6	356	zaten	
-WR-P-P-H-0000000094_inline.xml	8	2	22	7	357	in	
+WR-P-P-H-0000000094_inline.xml	8	2	22	6	356	zaten	-
+WR-P-P-H-0000000094_inline.xml	8	2	22	7	357	in	-
 WR-P-P-H-0000000094_inline.xml	8	2	22	8	358	een	(99
 WR-P-P-H-0000000094_inline.xml	8	2	22	9	359	coalitie	99
 WR-P-P-H-0000000094_inline.xml	8	2	22	10	360	met	99
@@ -386,7 +386,7 @@ WR-P-P-H-0000000094_inline.xml	8	2	22	13	363	nationalisten	99|100|123
 WR-P-P-H-0000000094_inline.xml	8	2	22	14	364	van	99|100|123
 WR-P-P-H-0000000094_inline.xml	8	2	22	15	365	de	99|100|123|(101
 WR-P-P-H-0000000094_inline.xml	8	2	22	16	366	SNP	99)|100)|123)|101)
-WR-P-P-H-0000000094_inline.xml	8	2	22	17	367	.	
+WR-P-P-H-0000000094_inline.xml	8	2	22	17	367	.	-
 
 WR-P-P-H-0000000094_inline.xml	8	3	23	1	368	Hun	(102|(123)
 WR-P-P-H-0000000094_inline.xml	8	3	23	2	369	onenigheid	102
@@ -396,19 +396,19 @@ WR-P-P-H-0000000094_inline.xml	8	3	23	5	372	samenwerking	102|104
 WR-P-P-H-0000000094_inline.xml	8	3	23	6	373	met	102|104
 WR-P-P-H-0000000094_inline.xml	8	3	23	7	374	het	102|104|(105
 WR-P-P-H-0000000094_inline.xml	8	3	23	8	375	Joegoslavië-Tribunaal	102)|104)|105)
-WR-P-P-H-0000000094_inline.xml	8	3	23	9	376	maakte	
-WR-P-P-H-0000000094_inline.xml	8	3	23	10	377	duidelijk	
-WR-P-P-H-0000000094_inline.xml	8	3	23	11	378	hoe	
-WR-P-P-H-0000000094_inline.xml	8	3	23	12	379	breekbaar	
+WR-P-P-H-0000000094_inline.xml	8	3	23	9	376	maakte	-
+WR-P-P-H-0000000094_inline.xml	8	3	23	10	377	duidelijk	-
+WR-P-P-H-0000000094_inline.xml	8	3	23	11	378	hoe	-
+WR-P-P-H-0000000094_inline.xml	8	3	23	12	379	breekbaar	-
 WR-P-P-H-0000000094_inline.xml	8	3	23	13	380	de	(83
 WR-P-P-H-0000000094_inline.xml	8	3	23	14	381	federatie	83)
-WR-P-P-H-0000000094_inline.xml	8	3	23	15	382	is	
-WR-P-P-H-0000000094_inline.xml	8	3	23	16	383	.	
+WR-P-P-H-0000000094_inline.xml	8	3	23	15	382	is	-
+WR-P-P-H-0000000094_inline.xml	8	3	23	16	383	.	-
 
 WR-P-P-H-0000000094_inline.xml	9	1	24	1	384	De	(5)
 WR-P-P-H-0000000094_inline.xml	9	1	24	2	385	Servische	(5)
 WR-P-P-H-0000000094_inline.xml	9	1	24	3	386	premier	(5)
-WR-P-P-H-0000000094_inline.xml	9	1	24	4	387	heeft	
+WR-P-P-H-0000000094_inline.xml	9	1	24	4	387	heeft	-
 WR-P-P-H-0000000094_inline.xml	9	1	24	5	388	geen	(108
 WR-P-P-H-0000000094_inline.xml	9	1	24	6	389	spijt	108
 WR-P-P-H-0000000094_inline.xml	9	1	24	7	390	dat	108
@@ -423,35 +423,35 @@ WR-P-P-H-0000000094_inline.xml	9	1	24	15	398	diepe	108|(112
 WR-P-P-H-0000000094_inline.xml	9	1	24	16	399	crisis	108|112)
 WR-P-P-H-0000000094_inline.xml	9	1	24	17	400	heeft	108
 WR-P-P-H-0000000094_inline.xml	9	1	24	18	401	gestort	108)
-WR-P-P-H-0000000094_inline.xml	9	1	24	19	402	.	
+WR-P-P-H-0000000094_inline.xml	9	1	24	19	402	.	-
 
 WR-P-P-H-0000000094_inline.xml	9	2	25	1	403	Hij	(5)
-WR-P-P-H-0000000094_inline.xml	9	2	25	2	404	zei	
-WR-P-P-H-0000000094_inline.xml	9	2	25	3	405	gisteren	
-WR-P-P-H-0000000094_inline.xml	9	2	25	4	406	dat	
+WR-P-P-H-0000000094_inline.xml	9	2	25	2	404	zei	-
+WR-P-P-H-0000000094_inline.xml	9	2	25	3	405	gisteren	-
+WR-P-P-H-0000000094_inline.xml	9	2	25	4	406	dat	-
 WR-P-P-H-0000000094_inline.xml	9	2	25	5	407	de	(114
 WR-P-P-H-0000000094_inline.xml	9	2	25	6	408	voordelen	114
 WR-P-P-H-0000000094_inline.xml	9	2	25	7	409	van	114
 WR-P-P-H-0000000094_inline.xml	9	2	25	8	410	de	114|(13)
 WR-P-P-H-0000000094_inline.xml	9	2	25	9	411	uitlevering	114)|(13)
-WR-P-P-H-0000000094_inline.xml	9	2	25	10	412	ruimschoots	
-WR-P-P-H-0000000094_inline.xml	9	2	25	11	413	opwegen	
-WR-P-P-H-0000000094_inline.xml	9	2	25	12	414	tegen	
+WR-P-P-H-0000000094_inline.xml	9	2	25	10	412	ruimschoots	-
+WR-P-P-H-0000000094_inline.xml	9	2	25	11	413	opwegen	-
+WR-P-P-H-0000000094_inline.xml	9	2	25	12	414	tegen	-
 WR-P-P-H-0000000094_inline.xml	9	2	25	13	415	de	(116
 WR-P-P-H-0000000094_inline.xml	9	2	25	14	416	'	116
 WR-P-P-H-0000000094_inline.xml	9	2	25	15	417	kleine	116
 WR-P-P-H-0000000094_inline.xml	9	2	25	16	418	'	116
 WR-P-P-H-0000000094_inline.xml	9	2	25	17	419	nadelen	116)
-WR-P-P-H-0000000094_inline.xml	9	2	25	18	420	.	
+WR-P-P-H-0000000094_inline.xml	9	2	25	18	420	.	-
 
-WR-P-P-H-0000000094_inline.xml	9	3	26	1	421	,,	
+WR-P-P-H-0000000094_inline.xml	9	3	26	1	421	,,	-
 WR-P-P-H-0000000094_inline.xml	9	3	26	2	422	Het	(117)
-WR-P-P-H-0000000094_inline.xml	9	3	26	3	423	is	
+WR-P-P-H-0000000094_inline.xml	9	3	26	3	423	is	-
 WR-P-P-H-0000000094_inline.xml	9	3	26	4	424	het	(118
 WR-P-P-H-0000000094_inline.xml	9	3	26	5	425	eind	118
 WR-P-P-H-0000000094_inline.xml	9	3	26	6	426	van	118
 WR-P-P-H-0000000094_inline.xml	9	3	26	7	427	een	118|(119
 WR-P-P-H-0000000094_inline.xml	9	3	26	8	428	beproeving	118)|119)
-WR-P-P-H-0000000094_inline.xml	9	3	26	9	429	.	
-WR-P-P-H-0000000094_inline.xml	9	3	26	10	430	''	
+WR-P-P-H-0000000094_inline.xml	9	3	26	9	429	.	-
+WR-P-P-H-0000000094_inline.xml	9	3	26	10	430	''	-
 

@@ -1,38 +1,38 @@
 doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
 WR-P-P-H-0000000096_inline.xml	1	1	1	1	1	ROTTERDAM	(1)
-WR-P-P-H-0000000096_inline.xml	1	1	1	2	2	-	
+WR-P-P-H-0000000096_inline.xml	1	1	1	2	2	-	-
 
 WR-P-P-H-0000000096_inline.xml	1	2	2	1	3	Sparta	(2)
-WR-P-P-H-0000000096_inline.xml	1	2	2	2	4	stelt	
+WR-P-P-H-0000000096_inline.xml	1	2	2	2	4	stelt	-
 WR-P-P-H-0000000096_inline.xml	1	2	2	3	5	pogingen	(3)
-WR-P-P-H-0000000096_inline.xml	1	2	2	4	6	in	
-WR-P-P-H-0000000096_inline.xml	1	2	2	5	7	het	
-WR-P-P-H-0000000096_inline.xml	1	2	2	6	8	werk	
-WR-P-P-H-0000000096_inline.xml	1	2	2	7	9	om	
+WR-P-P-H-0000000096_inline.xml	1	2	2	4	6	in	-
+WR-P-P-H-0000000096_inline.xml	1	2	2	5	7	het	-
+WR-P-P-H-0000000096_inline.xml	1	2	2	6	8	werk	-
+WR-P-P-H-0000000096_inline.xml	1	2	2	7	9	om	-
 WR-P-P-H-0000000096_inline.xml	1	2	2	8	10	Frank	(4
 WR-P-P-H-0000000096_inline.xml	1	2	2	9	11	Rijkaard	4)
-WR-P-P-H-0000000096_inline.xml	1	2	2	10	12	als	
+WR-P-P-H-0000000096_inline.xml	1	2	2	10	12	als	-
 WR-P-P-H-0000000096_inline.xml	1	2	2	11	13	nieuwe	(5
 WR-P-P-H-0000000096_inline.xml	1	2	2	12	14	trainer	5)
-WR-P-P-H-0000000096_inline.xml	1	2	2	13	15	vast	
-WR-P-P-H-0000000096_inline.xml	1	2	2	14	16	te	
-WR-P-P-H-0000000096_inline.xml	1	2	2	15	17	leggen	
-WR-P-P-H-0000000096_inline.xml	1	2	2	16	18	.	
+WR-P-P-H-0000000096_inline.xml	1	2	2	13	15	vast	-
+WR-P-P-H-0000000096_inline.xml	1	2	2	14	16	te	-
+WR-P-P-H-0000000096_inline.xml	1	2	2	15	17	leggen	-
+WR-P-P-H-0000000096_inline.xml	1	2	2	16	18	.	-
 
 WR-P-P-H-0000000096_inline.xml	1	3	3	1	19	De	(4
 WR-P-P-H-0000000096_inline.xml	1	3	3	2	20	voormalige	4
 WR-P-P-H-0000000096_inline.xml	1	3	3	3	21	bondscoach	4
 WR-P-P-H-0000000096_inline.xml	1	3	3	4	22	van	4
 WR-P-P-H-0000000096_inline.xml	1	3	3	5	23	Oranje	4)|(7)
-WR-P-P-H-0000000096_inline.xml	1	3	3	6	24	kan	
-WR-P-P-H-0000000096_inline.xml	1	3	3	7	25	bij	
+WR-P-P-H-0000000096_inline.xml	1	3	3	6	24	kan	-
+WR-P-P-H-0000000096_inline.xml	1	3	3	7	25	bij	-
 WR-P-P-H-0000000096_inline.xml	1	3	3	8	26	de	(2
 WR-P-P-H-0000000096_inline.xml	1	3	3	9	27	Kasteelclub	2)
 WR-P-P-H-0000000096_inline.xml	1	3	3	10	28	een	(9
 WR-P-P-H-0000000096_inline.xml	1	3	3	11	29	langdurige	9
 WR-P-P-H-0000000096_inline.xml	1	3	3	12	30	verbintenis	9)
-WR-P-P-H-0000000096_inline.xml	1	3	3	13	31	tekenen	
-WR-P-P-H-0000000096_inline.xml	1	3	3	14	32	.	
+WR-P-P-H-0000000096_inline.xml	1	3	3	13	31	tekenen	-
+WR-P-P-H-0000000096_inline.xml	1	3	3	14	32	.	-
 
 WR-P-P-H-0000000096_inline.xml	2	1	4	1	33	Betrouwbare	(10
 WR-P-P-H-0000000096_inline.xml	2	1	4	2	34	bronnen	10
@@ -40,14 +40,14 @@ WR-P-P-H-0000000096_inline.xml	2	1	4	3	35	binnen	10
 WR-P-P-H-0000000096_inline.xml	2	1	4	4	36	de	10|(2)|(50
 WR-P-P-H-0000000096_inline.xml	2	1	4	5	37	Rotterdamse	10|(2)|50
 WR-P-P-H-0000000096_inline.xml	2	1	4	6	38	eredivisieclub	10)|(2)|50)
-WR-P-P-H-0000000096_inline.xml	2	1	4	7	39	bevestigden	
-WR-P-P-H-0000000096_inline.xml	2	1	4	8	40	gisteravond	
-WR-P-P-H-0000000096_inline.xml	2	1	4	9	41	dat	
+WR-P-P-H-0000000096_inline.xml	2	1	4	7	39	bevestigden	-
+WR-P-P-H-0000000096_inline.xml	2	1	4	8	40	gisteravond	-
+WR-P-P-H-0000000096_inline.xml	2	1	4	9	41	dat	-
 WR-P-P-H-0000000096_inline.xml	2	1	4	10	42	Rijkaard	(4)|(51)|(50)
 WR-P-P-H-0000000096_inline.xml	2	1	4	11	43	de	(4)
 WR-P-P-H-0000000096_inline.xml	2	1	4	12	44	belangrijkste	(4)
 WR-P-P-H-0000000096_inline.xml	2	1	4	13	45	kandidaat	(4)
-WR-P-P-H-0000000096_inline.xml	2	1	4	14	46	is	
+WR-P-P-H-0000000096_inline.xml	2	1	4	14	46	is	-
 WR-P-P-H-0000000096_inline.xml	2	1	4	15	47	om	(4)
 WR-P-P-H-0000000096_inline.xml	2	1	4	16	48	Willem	(4)|(14
 WR-P-P-H-0000000096_inline.xml	2	1	4	17	49	van	(4)|14
@@ -55,82 +55,82 @@ WR-P-P-H-0000000096_inline.xml	2	1	4	18	50	Hanegem	(4)|14)
 WR-P-P-H-0000000096_inline.xml	2	1	4	19	51	op	(4)
 WR-P-P-H-0000000096_inline.xml	2	1	4	20	52	te	(4)
 WR-P-P-H-0000000096_inline.xml	2	1	4	21	53	volgen	(4)
-WR-P-P-H-0000000096_inline.xml	2	1	4	22	54	.	
+WR-P-P-H-0000000096_inline.xml	2	1	4	22	54	.	-
 
 WR-P-P-H-0000000096_inline.xml	2	2	5	1	55	De	(15
 WR-P-P-H-0000000096_inline.xml	2	2	5	2	56	verwachting	15)
-WR-P-P-H-0000000096_inline.xml	2	2	5	3	57	is	
-WR-P-P-H-0000000096_inline.xml	2	2	5	4	58	dat	
+WR-P-P-H-0000000096_inline.xml	2	2	5	3	57	is	-
+WR-P-P-H-0000000096_inline.xml	2	2	5	4	58	dat	-
 WR-P-P-H-0000000096_inline.xml	2	2	5	5	59	beide	(50
 WR-P-P-H-0000000096_inline.xml	2	2	5	6	60	partijen	50)
-WR-P-P-H-0000000096_inline.xml	2	2	5	7	61	er	
-WR-P-P-H-0000000096_inline.xml	2	2	5	8	62	binnen	
+WR-P-P-H-0000000096_inline.xml	2	2	5	7	61	er	-
+WR-P-P-H-0000000096_inline.xml	2	2	5	8	62	binnen	-
 WR-P-P-H-0000000096_inline.xml	2	2	5	9	63	enkele	(17
 WR-P-P-H-0000000096_inline.xml	2	2	5	10	64	dagen	17)
-WR-P-P-H-0000000096_inline.xml	2	2	5	11	65	uit	
-WR-P-P-H-0000000096_inline.xml	2	2	5	12	66	zijn	
-WR-P-P-H-0000000096_inline.xml	2	2	5	13	67	.	
+WR-P-P-H-0000000096_inline.xml	2	2	5	11	65	uit	-
+WR-P-P-H-0000000096_inline.xml	2	2	5	12	66	zijn	-
+WR-P-P-H-0000000096_inline.xml	2	2	5	13	67	.	-
 
 WR-P-P-H-0000000096_inline.xml	3	1	6	1	68	Van	(14
 WR-P-P-H-0000000096_inline.xml	3	1	6	2	69	Hanegem	14)
-WR-P-P-H-0000000096_inline.xml	3	1	6	3	70	liet	
+WR-P-P-H-0000000096_inline.xml	3	1	6	3	70	liet	-
 WR-P-P-H-0000000096_inline.xml	3	1	6	4	71	het	(19
 WR-P-P-H-0000000096_inline.xml	3	1	6	5	72	Sparta-bestuur	19)
 WR-P-P-H-0000000096_inline.xml	3	1	6	6	73	vorige	(20
 WR-P-P-H-0000000096_inline.xml	3	1	6	7	74	week	20)
-WR-P-P-H-0000000096_inline.xml	3	1	6	8	75	weten	
-WR-P-P-H-0000000096_inline.xml	3	1	6	9	76	af	
-WR-P-P-H-0000000096_inline.xml	3	1	6	10	77	te	
-WR-P-P-H-0000000096_inline.xml	3	1	6	11	78	zien	
-WR-P-P-H-0000000096_inline.xml	3	1	6	12	79	van	
+WR-P-P-H-0000000096_inline.xml	3	1	6	8	75	weten	-
+WR-P-P-H-0000000096_inline.xml	3	1	6	9	76	af	-
+WR-P-P-H-0000000096_inline.xml	3	1	6	10	77	te	-
+WR-P-P-H-0000000096_inline.xml	3	1	6	11	78	zien	-
+WR-P-P-H-0000000096_inline.xml	3	1	6	12	79	van	-
 WR-P-P-H-0000000096_inline.xml	3	1	6	13	80	een	(21
 WR-P-P-H-0000000096_inline.xml	3	1	6	14	81	langer	21
 WR-P-P-H-0000000096_inline.xml	3	1	6	15	82	verblijf	21)
-WR-P-P-H-0000000096_inline.xml	3	1	6	16	83	.	
+WR-P-P-H-0000000096_inline.xml	3	1	6	16	83	.	-
 
 WR-P-P-H-0000000096_inline.xml	3	2	7	1	84	Hij	(14)
-WR-P-P-H-0000000096_inline.xml	3	2	7	2	85	stelde	
-WR-P-P-H-0000000096_inline.xml	3	2	7	3	86	dat	
+WR-P-P-H-0000000096_inline.xml	3	2	7	2	85	stelde	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	3	86	dat	-
 WR-P-P-H-0000000096_inline.xml	3	2	7	4	87	de	(23
 WR-P-P-H-0000000096_inline.xml	3	2	7	5	88	club	23
 WR-P-P-H-0000000096_inline.xml	3	2	7	6	89	zich	23)
-WR-P-P-H-0000000096_inline.xml	3	2	7	7	90	onvoldoende	
-WR-P-P-H-0000000096_inline.xml	3	2	7	8	91	heeft	
-WR-P-P-H-0000000096_inline.xml	3	2	7	9	92	versterkt	
-WR-P-P-H-0000000096_inline.xml	3	2	7	10	93	en	
-WR-P-P-H-0000000096_inline.xml	3	2	7	11	94	daardoor	
-WR-P-P-H-0000000096_inline.xml	3	2	7	12	95	komend	
-WR-P-P-H-0000000096_inline.xml	3	2	7	13	96	seizoen	
-WR-P-P-H-0000000096_inline.xml	3	2	7	14	97	opnieuw	
+WR-P-P-H-0000000096_inline.xml	3	2	7	7	90	onvoldoende	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	8	91	heeft	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	9	92	versterkt	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	10	93	en	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	11	94	daardoor	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	12	95	komend	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	13	96	seizoen	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	14	97	opnieuw	-
 WR-P-P-H-0000000096_inline.xml	3	2	7	15	98	degradatievoetbal	(25)
-WR-P-P-H-0000000096_inline.xml	3	2	7	16	99	zal	
-WR-P-P-H-0000000096_inline.xml	3	2	7	17	100	moeten	
-WR-P-P-H-0000000096_inline.xml	3	2	7	18	101	spelen	
-WR-P-P-H-0000000096_inline.xml	3	2	7	19	102	.	
+WR-P-P-H-0000000096_inline.xml	3	2	7	16	99	zal	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	17	100	moeten	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	18	101	spelen	-
+WR-P-P-H-0000000096_inline.xml	3	2	7	19	102	.	-
 
 WR-P-P-H-0000000096_inline.xml	3	3	8	1	103	Van	(14)
 WR-P-P-H-0000000096_inline.xml	3	3	8	2	104	Hanegem	(14)
-WR-P-P-H-0000000096_inline.xml	3	3	8	3	105	nam	
+WR-P-P-H-0000000096_inline.xml	3	3	8	3	105	nam	-
 WR-P-P-H-0000000096_inline.xml	3	3	8	4	106	het	(5)
-WR-P-P-H-0000000096_inline.xml	3	3	8	5	107	in	
+WR-P-P-H-0000000096_inline.xml	3	3	8	5	107	in	-
 WR-P-P-H-0000000096_inline.xml	3	3	8	6	108	februari	(28)
-WR-P-P-H-0000000096_inline.xml	3	3	8	7	109	over	
-WR-P-P-H-0000000096_inline.xml	3	3	8	8	110	van	
+WR-P-P-H-0000000096_inline.xml	3	3	8	7	109	over	-
+WR-P-P-H-0000000096_inline.xml	3	3	8	8	110	van	-
 WR-P-P-H-0000000096_inline.xml	3	3	8	9	111	Dolf	(29
 WR-P-P-H-0000000096_inline.xml	3	3	8	10	112	Roks	29)
-WR-P-P-H-0000000096_inline.xml	3	3	8	11	113	.	
+WR-P-P-H-0000000096_inline.xml	3	3	8	11	113	.	-
 
 WR-P-P-H-0000000096_inline.xml	3	4	9	1	114	Sparta	(23)
-WR-P-P-H-0000000096_inline.xml	3	4	9	2	115	handhaafde	
+WR-P-P-H-0000000096_inline.xml	3	4	9	2	115	handhaafde	-
 WR-P-P-H-0000000096_inline.xml	3	4	9	3	116	zich	(23)
-WR-P-P-H-0000000096_inline.xml	3	4	9	4	117	via	
+WR-P-P-H-0000000096_inline.xml	3	4	9	4	117	via	-
 WR-P-P-H-0000000096_inline.xml	3	4	9	5	118	de	(32
 WR-P-P-H-0000000096_inline.xml	3	4	9	6	119	nacompetitie	32)
-WR-P-P-H-0000000096_inline.xml	3	4	9	7	120	ternauwernood	
-WR-P-P-H-0000000096_inline.xml	3	4	9	8	121	in	
+WR-P-P-H-0000000096_inline.xml	3	4	9	7	120	ternauwernood	-
+WR-P-P-H-0000000096_inline.xml	3	4	9	8	121	in	-
 WR-P-P-H-0000000096_inline.xml	3	4	9	9	122	de	(33
 WR-P-P-H-0000000096_inline.xml	3	4	9	10	123	eredivisie	33)
-WR-P-P-H-0000000096_inline.xml	3	4	9	11	124	.	
+WR-P-P-H-0000000096_inline.xml	3	4	9	11	124	.	-
 
 WR-P-P-H-0000000096_inline.xml	4	1	10	1	125	Zowel	(34
 WR-P-P-H-0000000096_inline.xml	4	1	10	2	126	algemeen	34|(35
@@ -142,15 +142,15 @@ WR-P-P-H-0000000096_inline.xml	4	1	10	7	131	als	34
 WR-P-P-H-0000000096_inline.xml	4	1	10	8	132	technisch	34|(29
 WR-P-P-H-0000000096_inline.xml	4	1	10	9	133	manager	34|29
 WR-P-P-H-0000000096_inline.xml	4	1	10	10	134	Roks	34)|29)
-WR-P-P-H-0000000096_inline.xml	4	1	10	11	135	weigerde	
-WR-P-P-H-0000000096_inline.xml	4	1	10	12	136	gisteren	
+WR-P-P-H-0000000096_inline.xml	4	1	10	11	135	weigerde	-
+WR-P-P-H-0000000096_inline.xml	4	1	10	12	136	gisteren	-
 WR-P-P-H-0000000096_inline.xml	4	1	10	13	137	commentaar	(38)
-WR-P-P-H-0000000096_inline.xml	4	1	10	14	138	te	
-WR-P-P-H-0000000096_inline.xml	4	1	10	15	139	geven	
-WR-P-P-H-0000000096_inline.xml	4	1	10	16	140	.	
+WR-P-P-H-0000000096_inline.xml	4	1	10	14	138	te	-
+WR-P-P-H-0000000096_inline.xml	4	1	10	15	139	geven	-
+WR-P-P-H-0000000096_inline.xml	4	1	10	16	140	.	-
 
 WR-P-P-H-0000000096_inline.xml	5	1	11	1	141	Rijkaard	(4)
-WR-P-P-H-0000000096_inline.xml	5	1	11	2	142	was	
+WR-P-P-H-0000000096_inline.xml	5	1	11	2	142	was	-
 WR-P-P-H-0000000096_inline.xml	5	1	11	3	143	twee	(40
 WR-P-P-H-0000000096_inline.xml	5	1	11	4	144	jaar	40)
 WR-P-P-H-0000000096_inline.xml	5	1	11	5	145	bondscoach	(4)
@@ -167,22 +167,22 @@ WR-P-P-H-0000000096_inline.xml	5	1	11	15	155	de	(4)|42|(45
 WR-P-P-H-0000000096_inline.xml	5	1	11	16	156	halve	(4)|42|45
 WR-P-P-H-0000000096_inline.xml	5	1	11	17	157	finale	(4)|42|45)
 WR-P-P-H-0000000096_inline.xml	5	1	11	18	158	strandde	(4)|42)
-WR-P-P-H-0000000096_inline.xml	5	1	11	19	159	.	
+WR-P-P-H-0000000096_inline.xml	5	1	11	19	159	.	-
 
-WR-P-P-H-0000000096_inline.xml	5	2	12	1	160	Sindsdien	
-WR-P-P-H-0000000096_inline.xml	5	2	12	2	161	werd	
+WR-P-P-H-0000000096_inline.xml	5	2	12	1	160	Sindsdien	-
+WR-P-P-H-0000000096_inline.xml	5	2	12	2	161	werd	-
 WR-P-P-H-0000000096_inline.xml	5	2	12	3	162	zijn	(46|(4)
 WR-P-P-H-0000000096_inline.xml	5	2	12	4	163	naam	46)
-WR-P-P-H-0000000096_inline.xml	5	2	12	5	164	vrijwel	
-WR-P-P-H-0000000096_inline.xml	5	2	12	6	165	uitsluitend	
-WR-P-P-H-0000000096_inline.xml	5	2	12	7	166	in	
-WR-P-P-H-0000000096_inline.xml	5	2	12	8	167	verband	
-WR-P-P-H-0000000096_inline.xml	5	2	12	9	168	gebracht	
-WR-P-P-H-0000000096_inline.xml	5	2	12	10	169	met	
+WR-P-P-H-0000000096_inline.xml	5	2	12	5	164	vrijwel	-
+WR-P-P-H-0000000096_inline.xml	5	2	12	6	165	uitsluitend	-
+WR-P-P-H-0000000096_inline.xml	5	2	12	7	166	in	-
+WR-P-P-H-0000000096_inline.xml	5	2	12	8	167	verband	-
+WR-P-P-H-0000000096_inline.xml	5	2	12	9	168	gebracht	-
+WR-P-P-H-0000000096_inline.xml	5	2	12	10	169	met	-
 WR-P-P-H-0000000096_inline.xml	5	2	12	11	170	buitenlandse	(48
 WR-P-P-H-0000000096_inline.xml	5	2	12	12	171	clubteams	48
 WR-P-P-H-0000000096_inline.xml	5	2	12	13	172	,	48
 WR-P-P-H-0000000096_inline.xml	5	2	12	14	173	vooral	48|(49
 WR-P-P-H-0000000096_inline.xml	5	2	12	15	174	Italiaanse	48)|49)
-WR-P-P-H-0000000096_inline.xml	5	2	12	16	175	.	
+WR-P-P-H-0000000096_inline.xml	5	2	12	16	175	.	-
 

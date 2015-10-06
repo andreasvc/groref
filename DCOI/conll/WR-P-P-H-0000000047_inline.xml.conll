@@ -1,67 +1,67 @@
 doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
 WR-P-P-H-0000000047_inline.xml	1	1	1	1	1	ASSEN	(1)
-WR-P-P-H-0000000047_inline.xml	1	1	1	2	2	-	
+WR-P-P-H-0000000047_inline.xml	1	1	1	2	2	-	-
 
-WR-P-P-H-0000000047_inline.xml	1	2	2	1	3	Voor	
+WR-P-P-H-0000000047_inline.xml	1	2	2	1	3	Voor	-
 WR-P-P-H-0000000047_inline.xml	1	2	2	2	4	zijn	(2|(4)
 WR-P-P-H-0000000047_inline.xml	1	2	2	3	5	eigen	2
 WR-P-P-H-0000000047_inline.xml	1	2	2	4	6	Jurgen	2
 WR-P-P-H-0000000047_inline.xml	1	2	2	5	7	van	2
 WR-P-P-H-0000000047_inline.xml	1	2	2	6	8	den	2
 WR-P-P-H-0000000047_inline.xml	1	2	2	7	9	Goorbergh-tribune	2)
-WR-P-P-H-0000000047_inline.xml	1	2	2	8	10	voerde	
+WR-P-P-H-0000000047_inline.xml	1	2	2	8	10	voerde	-
 WR-P-P-H-0000000047_inline.xml	1	2	2	9	11	hij	(4)
 WR-P-P-H-0000000047_inline.xml	1	2	2	10	12	een	(5
 WR-P-P-H-0000000047_inline.xml	1	2	2	11	13	show	5)
-WR-P-P-H-0000000047_inline.xml	1	2	2	12	14	op	
-WR-P-P-H-0000000047_inline.xml	1	2	2	13	15	met	
+WR-P-P-H-0000000047_inline.xml	1	2	2	12	14	op	-
+WR-P-P-H-0000000047_inline.xml	1	2	2	13	15	met	-
 WR-P-P-H-0000000047_inline.xml	1	2	2	14	16	een	(6
 WR-P-P-H-0000000047_inline.xml	1	2	2	15	17	zogeheten	6
 WR-P-P-H-0000000047_inline.xml	1	2	2	16	18	burn-out	6)
-WR-P-P-H-0000000047_inline.xml	1	2	2	17	19	.	
+WR-P-P-H-0000000047_inline.xml	1	2	2	17	19	.	-
 
 WR-P-P-H-0000000047_inline.xml	1	3	3	1	20	Hij	(4)
-WR-P-P-H-0000000047_inline.xml	1	3	3	2	21	liet	
+WR-P-P-H-0000000047_inline.xml	1	3	3	2	21	liet	-
 WR-P-P-H-0000000047_inline.xml	1	3	3	3	22	de	(8
 WR-P-P-H-0000000047_inline.xml	1	3	3	4	23	machine	8)
-WR-P-P-H-0000000047_inline.xml	1	3	3	5	24	stilstaan	
-WR-P-P-H-0000000047_inline.xml	1	3	3	6	25	en	
-WR-P-P-H-0000000047_inline.xml	1	3	3	7	26	liet	
+WR-P-P-H-0000000047_inline.xml	1	3	3	5	24	stilstaan	-
+WR-P-P-H-0000000047_inline.xml	1	3	3	6	25	en	-
+WR-P-P-H-0000000047_inline.xml	1	3	3	7	26	liet	-
 WR-P-P-H-0000000047_inline.xml	1	3	3	8	27	de	(9
 WR-P-P-H-0000000047_inline.xml	1	3	3	9	28	achterband	9)
-WR-P-P-H-0000000047_inline.xml	1	3	3	10	29	roken	
-WR-P-P-H-0000000047_inline.xml	1	3	3	11	30	.	
+WR-P-P-H-0000000047_inline.xml	1	3	3	10	29	roken	-
+WR-P-P-H-0000000047_inline.xml	1	3	3	11	30	.	-
 
 WR-P-P-H-0000000047_inline.xml	1	4	4	1	31	De	(10
 WR-P-P-H-0000000047_inline.xml	1	4	4	2	32	fans	10)
-WR-P-P-H-0000000047_inline.xml	1	4	4	3	33	reageerden	
-WR-P-P-H-0000000047_inline.xml	1	4	4	4	34	uitzinnig	
-WR-P-P-H-0000000047_inline.xml	1	4	4	5	35	.	
+WR-P-P-H-0000000047_inline.xml	1	4	4	3	33	reageerden	-
+WR-P-P-H-0000000047_inline.xml	1	4	4	4	34	uitzinnig	-
+WR-P-P-H-0000000047_inline.xml	1	4	4	5	35	.	-
 
 WR-P-P-H-0000000047_inline.xml	2	1	5	1	36	De	(11
 WR-P-P-H-0000000047_inline.xml	2	1	5	2	37	wereldmotorsportbond	11)
-WR-P-P-H-0000000047_inline.xml	2	1	5	3	38	kan	
+WR-P-P-H-0000000047_inline.xml	2	1	5	3	38	kan	-
 WR-P-P-H-0000000047_inline.xml	2	1	5	4	39	daar	(13)
-WR-P-P-H-0000000047_inline.xml	2	1	5	5	40	wel	
+WR-P-P-H-0000000047_inline.xml	2	1	5	5	40	wel	-
 WR-P-P-H-0000000047_inline.xml	2	1	5	6	41	een	(12
 WR-P-P-H-0000000047_inline.xml	2	1	5	7	42	straf	12)
-WR-P-P-H-0000000047_inline.xml	2	1	5	8	43	voor	
-WR-P-P-H-0000000047_inline.xml	2	1	5	9	44	geven	
-WR-P-P-H-0000000047_inline.xml	2	1	5	10	45	.	
+WR-P-P-H-0000000047_inline.xml	2	1	5	8	43	voor	-
+WR-P-P-H-0000000047_inline.xml	2	1	5	9	44	geven	-
+WR-P-P-H-0000000047_inline.xml	2	1	5	10	45	.	-
 
-WR-P-P-H-0000000047_inline.xml	2	2	6	1	46	Maar	
+WR-P-P-H-0000000047_inline.xml	2	2	6	1	46	Maar	-
 WR-P-P-H-0000000047_inline.xml	2	2	6	2	47	de	(14
 WR-P-P-H-0000000047_inline.xml	2	2	6	3	48	negende	14
 WR-P-P-H-0000000047_inline.xml	2	2	6	4	49	plaats	14
 WR-P-P-H-0000000047_inline.xml	2	2	6	5	50	in	14
 WR-P-P-H-0000000047_inline.xml	2	2	6	6	51	de	14|(15
 WR-P-P-H-0000000047_inline.xml	2	2	6	7	52	500cc	14)|15)
-WR-P-P-H-0000000047_inline.xml	2	2	6	8	53	was	
-WR-P-P-H-0000000047_inline.xml	2	2	6	9	54	voor	
+WR-P-P-H-0000000047_inline.xml	2	2	6	8	53	was	-
+WR-P-P-H-0000000047_inline.xml	2	2	6	9	54	voor	-
 WR-P-P-H-0000000047_inline.xml	2	2	6	10	55	Van	(4)
 WR-P-P-H-0000000047_inline.xml	2	2	6	11	56	den	(4)
 WR-P-P-H-0000000047_inline.xml	2	2	6	12	57	Goorbergh	(4)
-WR-P-P-H-0000000047_inline.xml	2	2	6	13	58	naar	
+WR-P-P-H-0000000047_inline.xml	2	2	6	13	58	naar	-
 WR-P-P-H-0000000047_inline.xml	2	2	6	14	59	eigen	(17
 WR-P-P-H-0000000047_inline.xml	2	2	6	15	60	zeggen	17)
 WR-P-P-H-0000000047_inline.xml	2	2	6	16	61	het	(14
@@ -72,162 +72,162 @@ WR-P-P-H-0000000047_inline.xml	2	2	6	20	65	de	14|(19
 WR-P-P-H-0000000047_inline.xml	2	2	6	21	66	TT	14|19
 WR-P-P-H-0000000047_inline.xml	2	2	6	22	67	van	14|19
 WR-P-P-H-0000000047_inline.xml	2	2	6	23	68	Assen	14)|19)
-WR-P-P-H-0000000047_inline.xml	2	2	6	24	69	en	
+WR-P-P-H-0000000047_inline.xml	2	2	6	24	69	en	-
 WR-P-P-H-0000000047_inline.xml	2	2	6	25	70	dat	(21)
-WR-P-P-H-0000000047_inline.xml	2	2	6	26	71	wilde	
+WR-P-P-H-0000000047_inline.xml	2	2	6	26	71	wilde	-
 WR-P-P-H-0000000047_inline.xml	2	2	6	27	72	hij	(4)
-WR-P-P-H-0000000047_inline.xml	2	2	6	28	73	vieren	
-WR-P-P-H-0000000047_inline.xml	2	2	6	29	74	.	
+WR-P-P-H-0000000047_inline.xml	2	2	6	28	73	vieren	-
+WR-P-P-H-0000000047_inline.xml	2	2	6	29	74	.	-
 
-WR-P-P-H-0000000047_inline.xml	3	1	7	1	75	Na	
+WR-P-P-H-0000000047_inline.xml	3	1	7	1	75	Na	-
 WR-P-P-H-0000000047_inline.xml	3	1	7	2	76	twee	(22
 WR-P-P-H-0000000047_inline.xml	3	1	7	3	77	finaal	22
 WR-P-P-H-0000000047_inline.xml	3	1	7	4	78	mislukte	22
 WR-P-P-H-0000000047_inline.xml	3	1	7	5	79	trainingssessies	22)
-WR-P-P-H-0000000047_inline.xml	3	1	7	6	80	kwam	
+WR-P-P-H-0000000047_inline.xml	3	1	7	6	80	kwam	-
 WR-P-P-H-0000000047_inline.xml	3	1	7	7	81	hij	(4)
-WR-P-P-H-0000000047_inline.xml	3	1	7	8	82	sterk	
-WR-P-P-H-0000000047_inline.xml	3	1	7	9	83	voor	
-WR-P-P-H-0000000047_inline.xml	3	1	7	10	84	de	
-WR-P-P-H-0000000047_inline.xml	3	1	7	11	85	dag	
-WR-P-P-H-0000000047_inline.xml	3	1	7	12	86	bij	
+WR-P-P-H-0000000047_inline.xml	3	1	7	8	82	sterk	-
+WR-P-P-H-0000000047_inline.xml	3	1	7	9	83	voor	-
+WR-P-P-H-0000000047_inline.xml	3	1	7	10	84	de	-
+WR-P-P-H-0000000047_inline.xml	3	1	7	11	85	dag	-
+WR-P-P-H-0000000047_inline.xml	3	1	7	12	86	bij	-
 WR-P-P-H-0000000047_inline.xml	3	1	7	13	87	de	(19
 WR-P-P-H-0000000047_inline.xml	3	1	7	14	88	TT	19)
-WR-P-P-H-0000000047_inline.xml	3	1	7	15	89	.	
+WR-P-P-H-0000000047_inline.xml	3	1	7	15	89	.	-
 
 WR-P-P-H-0000000047_inline.xml	3	2	8	1	90	De	(25
 WR-P-P-H-0000000047_inline.xml	3	2	8	2	91	toeschouwers	25)
-WR-P-P-H-0000000047_inline.xml	3	2	8	3	92	wisten	
+WR-P-P-H-0000000047_inline.xml	3	2	8	3	92	wisten	-
 WR-P-P-H-0000000047_inline.xml	3	2	8	4	93	de	(14
 WR-P-P-H-0000000047_inline.xml	3	2	8	5	94	negende	14
 WR-P-P-H-0000000047_inline.xml	3	2	8	6	95	plaats	14)
-WR-P-P-H-0000000047_inline.xml	3	2	8	7	96	op	
+WR-P-P-H-0000000047_inline.xml	3	2	8	7	96	op	-
 WR-P-P-H-0000000047_inline.xml	3	2	8	8	97	de	(27
 WR-P-P-H-0000000047_inline.xml	3	2	8	9	98	juiste	27
 WR-P-P-H-0000000047_inline.xml	3	2	8	10	99	waarde	27)
-WR-P-P-H-0000000047_inline.xml	3	2	8	11	100	in	
-WR-P-P-H-0000000047_inline.xml	3	2	8	12	101	te	
-WR-P-P-H-0000000047_inline.xml	3	2	8	13	102	schatten	
-WR-P-P-H-0000000047_inline.xml	3	2	8	14	103	.	
+WR-P-P-H-0000000047_inline.xml	3	2	8	11	100	in	-
+WR-P-P-H-0000000047_inline.xml	3	2	8	12	101	te	-
+WR-P-P-H-0000000047_inline.xml	3	2	8	13	102	schatten	-
+WR-P-P-H-0000000047_inline.xml	3	2	8	14	103	.	-
 
 WR-P-P-H-0000000047_inline.xml	3	3	9	1	104	Een	(10
 WR-P-P-H-0000000047_inline.xml	3	3	9	2	105	grote	10
 WR-P-P-H-0000000047_inline.xml	3	3	9	3	106	groep	10
 WR-P-P-H-0000000047_inline.xml	3	3	9	4	107	fans	10)|(29)
-WR-P-P-H-0000000047_inline.xml	3	3	9	5	108	wilde	
+WR-P-P-H-0000000047_inline.xml	3	3	9	5	108	wilde	-
 WR-P-P-H-0000000047_inline.xml	3	3	9	6	109	zijn	(30|(31)
 WR-P-P-H-0000000047_inline.xml	3	3	9	7	110	pitsbox	30)
-WR-P-P-H-0000000047_inline.xml	3	3	9	8	111	bestormen	
-WR-P-P-H-0000000047_inline.xml	3	3	9	9	112	.	
+WR-P-P-H-0000000047_inline.xml	3	3	9	8	111	bestormen	-
+WR-P-P-H-0000000047_inline.xml	3	3	9	9	112	.	-
 
 WR-P-P-H-0000000047_inline.xml	3	4	10	1	113	De	(32
 WR-P-P-H-0000000047_inline.xml	3	4	10	2	114	deuren	32)
-WR-P-P-H-0000000047_inline.xml	3	4	10	3	115	gingen	
-WR-P-P-H-0000000047_inline.xml	3	4	10	4	116	net	
-WR-P-P-H-0000000047_inline.xml	3	4	10	5	117	op	
+WR-P-P-H-0000000047_inline.xml	3	4	10	3	115	gingen	-
+WR-P-P-H-0000000047_inline.xml	3	4	10	4	116	net	-
+WR-P-P-H-0000000047_inline.xml	3	4	10	5	117	op	-
 WR-P-P-H-0000000047_inline.xml	3	4	10	6	118	tijd	(33)
-WR-P-P-H-0000000047_inline.xml	3	4	10	7	119	dicht	
-WR-P-P-H-0000000047_inline.xml	3	4	10	8	120	.	
+WR-P-P-H-0000000047_inline.xml	3	4	10	7	119	dicht	-
+WR-P-P-H-0000000047_inline.xml	3	4	10	8	120	.	-
 
-WR-P-P-H-0000000047_inline.xml	3	5	11	1	121	,,	
-WR-P-P-H-0000000047_inline.xml	3	5	11	2	122	Dat	
+WR-P-P-H-0000000047_inline.xml	3	5	11	1	121	,,	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	2	122	Dat	-
 WR-P-P-H-0000000047_inline.xml	3	5	11	3	123	ik	(4)
-WR-P-P-H-0000000047_inline.xml	3	5	11	4	124	zo	
-WR-P-P-H-0000000047_inline.xml	3	5	11	5	125	populair	
-WR-P-P-H-0000000047_inline.xml	3	5	11	6	126	ben	
-WR-P-P-H-0000000047_inline.xml	3	5	11	7	127	,	
-WR-P-P-H-0000000047_inline.xml	3	5	11	8	128	vind	
+WR-P-P-H-0000000047_inline.xml	3	5	11	4	124	zo	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	5	125	populair	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	6	126	ben	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	7	127	,	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	8	128	vind	-
 WR-P-P-H-0000000047_inline.xml	3	5	11	9	129	ik	(4)
-WR-P-P-H-0000000047_inline.xml	3	5	11	10	130	grandioos	
-WR-P-P-H-0000000047_inline.xml	3	5	11	11	131	,	
-WR-P-P-H-0000000047_inline.xml	3	5	11	12	132	maar	
+WR-P-P-H-0000000047_inline.xml	3	5	11	10	130	grandioos	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	11	131	,	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	12	132	maar	-
 WR-P-P-H-0000000047_inline.xml	3	5	11	13	133	er	(37)
-WR-P-P-H-0000000047_inline.xml	3	5	11	14	134	zal	
-WR-P-P-H-0000000047_inline.xml	3	5	11	15	135	maar	
+WR-P-P-H-0000000047_inline.xml	3	5	11	14	134	zal	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	15	135	maar	-
 WR-P-P-H-0000000047_inline.xml	3	5	11	16	136	een	(36
 WR-P-P-H-0000000047_inline.xml	3	5	11	17	137	gek	36)
-WR-P-P-H-0000000047_inline.xml	3	5	11	18	138	tussen	
-WR-P-P-H-0000000047_inline.xml	3	5	11	19	139	zitten	
-WR-P-P-H-0000000047_inline.xml	3	5	11	20	140	''	
-WR-P-P-H-0000000047_inline.xml	3	5	11	21	141	,	
-WR-P-P-H-0000000047_inline.xml	3	5	11	22	142	lachte	
+WR-P-P-H-0000000047_inline.xml	3	5	11	18	138	tussen	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	19	139	zitten	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	20	140	''	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	21	141	,	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	22	142	lachte	-
 WR-P-P-H-0000000047_inline.xml	3	5	11	23	143	hij	(4)
-WR-P-P-H-0000000047_inline.xml	3	5	11	24	144	opgelucht	
-WR-P-P-H-0000000047_inline.xml	3	5	11	25	145	.	
+WR-P-P-H-0000000047_inline.xml	3	5	11	24	144	opgelucht	-
+WR-P-P-H-0000000047_inline.xml	3	5	11	25	145	.	-
 
-WR-P-P-H-0000000047_inline.xml	4	1	12	1	146	,,	
+WR-P-P-H-0000000047_inline.xml	4	1	12	1	146	,,	-
 WR-P-P-H-0000000047_inline.xml	4	1	12	2	147	Ik	(4)
-WR-P-P-H-0000000047_inline.xml	4	1	12	3	148	wist	
-WR-P-P-H-0000000047_inline.xml	4	1	12	4	149	:	
-WR-P-P-H-0000000047_inline.xml	4	1	12	5	150	als	
+WR-P-P-H-0000000047_inline.xml	4	1	12	3	148	wist	-
+WR-P-P-H-0000000047_inline.xml	4	1	12	4	149	:	-
+WR-P-P-H-0000000047_inline.xml	4	1	12	5	150	als	-
 WR-P-P-H-0000000047_inline.xml	4	1	12	6	151	het	(40
 WR-P-P-H-0000000047_inline.xml	4	1	12	7	152	een	40
 WR-P-P-H-0000000047_inline.xml	4	1	12	8	153	regenrace	40)
-WR-P-P-H-0000000047_inline.xml	4	1	12	9	154	wordt	
-WR-P-P-H-0000000047_inline.xml	4	1	12	10	155	,	
-WR-P-P-H-0000000047_inline.xml	4	1	12	11	156	haal	
+WR-P-P-H-0000000047_inline.xml	4	1	12	9	154	wordt	-
+WR-P-P-H-0000000047_inline.xml	4	1	12	10	155	,	-
+WR-P-P-H-0000000047_inline.xml	4	1	12	11	156	haal	-
 WR-P-P-H-0000000047_inline.xml	4	1	12	12	157	ik	(4)
 WR-P-P-H-0000000047_inline.xml	4	1	12	13	158	het	(43
 WR-P-P-H-0000000047_inline.xml	4	1	12	14	159	podium	43)
-WR-P-P-H-0000000047_inline.xml	4	1	12	15	160	.	
-WR-P-P-H-0000000047_inline.xml	4	1	12	16	161	''	
+WR-P-P-H-0000000047_inline.xml	4	1	12	15	160	.	-
+WR-P-P-H-0000000047_inline.xml	4	1	12	16	161	''	-
 
-WR-P-P-H-0000000047_inline.xml	4	2	13	1	162	Maar	
-WR-P-P-H-0000000047_inline.xml	4	2	13	2	163	's	
-WR-P-P-H-0000000047_inline.xml	4	2	13	3	164	middags	
-WR-P-P-H-0000000047_inline.xml	4	2	13	4	165	om	
+WR-P-P-H-0000000047_inline.xml	4	2	13	1	162	Maar	-
+WR-P-P-H-0000000047_inline.xml	4	2	13	2	163	's	-
+WR-P-P-H-0000000047_inline.xml	4	2	13	3	164	middags	-
+WR-P-P-H-0000000047_inline.xml	4	2	13	4	165	om	-
 WR-P-P-H-0000000047_inline.xml	4	2	13	5	166	twee	(44
 WR-P-P-H-0000000047_inline.xml	4	2	13	6	167	uur	44)
-WR-P-P-H-0000000047_inline.xml	4	2	13	7	168	was	
+WR-P-P-H-0000000047_inline.xml	4	2	13	7	168	was	-
 WR-P-P-H-0000000047_inline.xml	4	2	13	8	169	het	(45)
-WR-P-P-H-0000000047_inline.xml	4	2	13	9	170	droog	
-WR-P-P-H-0000000047_inline.xml	4	2	13	10	171	.	
+WR-P-P-H-0000000047_inline.xml	4	2	13	9	170	droog	-
+WR-P-P-H-0000000047_inline.xml	4	2	13	10	171	.	-
 
-WR-P-P-H-0000000047_inline.xml	4	3	14	1	172	Weg	
+WR-P-P-H-0000000047_inline.xml	4	3	14	1	172	Weg	-
 WR-P-P-H-0000000047_inline.xml	4	3	14	2	173	podiumplaats	(43)
-WR-P-P-H-0000000047_inline.xml	4	3	14	3	174	.	
+WR-P-P-H-0000000047_inline.xml	4	3	14	3	174	.	-
 
-WR-P-P-H-0000000047_inline.xml	4	4	15	1	175	Op	
+WR-P-P-H-0000000047_inline.xml	4	4	15	1	175	Op	-
 WR-P-P-H-0000000047_inline.xml	4	4	15	2	176	een	(47
 WR-P-P-H-0000000047_inline.xml	4	4	15	3	177	droog	47
 WR-P-P-H-0000000047_inline.xml	4	4	15	4	178	circuit	47)
-WR-P-P-H-0000000047_inline.xml	4	4	15	5	179	komen	
+WR-P-P-H-0000000047_inline.xml	4	4	15	5	179	komen	-
 WR-P-P-H-0000000047_inline.xml	4	4	15	6	180	de	(48
 WR-P-P-H-0000000047_inline.xml	4	4	15	7	181	tekortkomingen	48
 WR-P-P-H-0000000047_inline.xml	4	4	15	8	182	van	48
 WR-P-P-H-0000000047_inline.xml	4	4	15	9	183	de	48|(49
 WR-P-P-H-0000000047_inline.xml	4	4	15	10	184	motor	48)|49)
-WR-P-P-H-0000000047_inline.xml	4	4	15	11	185	duidelijk	
-WR-P-P-H-0000000047_inline.xml	4	4	15	12	186	aan	
-WR-P-P-H-0000000047_inline.xml	4	4	15	13	187	het	
-WR-P-P-H-0000000047_inline.xml	4	4	15	14	188	licht	
-WR-P-P-H-0000000047_inline.xml	4	4	15	15	189	.	
+WR-P-P-H-0000000047_inline.xml	4	4	15	11	185	duidelijk	-
+WR-P-P-H-0000000047_inline.xml	4	4	15	12	186	aan	-
+WR-P-P-H-0000000047_inline.xml	4	4	15	13	187	het	-
+WR-P-P-H-0000000047_inline.xml	4	4	15	14	188	licht	-
+WR-P-P-H-0000000047_inline.xml	4	4	15	15	189	.	-
 
 WR-P-P-H-0000000047_inline.xml	4	5	16	1	190	De	(50
 WR-P-P-H-0000000047_inline.xml	4	5	16	2	191	regen	50)
-WR-P-P-H-0000000047_inline.xml	4	5	16	3	192	kwam	
-WR-P-P-H-0000000047_inline.xml	4	5	16	4	193	te	
-WR-P-P-H-0000000047_inline.xml	4	5	16	5	194	laat	
-WR-P-P-H-0000000047_inline.xml	4	5	16	6	195	voor	
+WR-P-P-H-0000000047_inline.xml	4	5	16	3	192	kwam	-
+WR-P-P-H-0000000047_inline.xml	4	5	16	4	193	te	-
+WR-P-P-H-0000000047_inline.xml	4	5	16	5	194	laat	-
+WR-P-P-H-0000000047_inline.xml	4	5	16	6	195	voor	-
 WR-P-P-H-0000000047_inline.xml	4	5	16	7	196	hem	(4)
-WR-P-P-H-0000000047_inline.xml	4	5	16	8	197	,	
-WR-P-P-H-0000000047_inline.xml	4	5	16	9	198	na	
+WR-P-P-H-0000000047_inline.xml	4	5	16	8	197	,	-
+WR-P-P-H-0000000047_inline.xml	4	5	16	9	198	na	-
 WR-P-P-H-0000000047_inline.xml	4	5	16	10	199	vijftien	(52
 WR-P-P-H-0000000047_inline.xml	4	5	16	11	200	ronden	52)
-WR-P-P-H-0000000047_inline.xml	4	5	16	12	201	pas	
-WR-P-P-H-0000000047_inline.xml	4	5	16	13	202	.	
+WR-P-P-H-0000000047_inline.xml	4	5	16	12	201	pas	-
+WR-P-P-H-0000000047_inline.xml	4	5	16	13	202	.	-
 
-WR-P-P-H-0000000047_inline.xml	4	6	17	1	203	Prompt	
-WR-P-P-H-0000000047_inline.xml	4	6	17	2	204	was	
+WR-P-P-H-0000000047_inline.xml	4	6	17	1	203	Prompt	-
+WR-P-P-H-0000000047_inline.xml	4	6	17	2	204	was	-
 WR-P-P-H-0000000047_inline.xml	4	6	17	3	205	de	(40
 WR-P-P-H-0000000047_inline.xml	4	6	17	4	206	race	40)
-WR-P-P-H-0000000047_inline.xml	4	6	17	5	207	voorbij	
-WR-P-P-H-0000000047_inline.xml	4	6	17	6	208	.	
+WR-P-P-H-0000000047_inline.xml	4	6	17	5	207	voorbij	-
+WR-P-P-H-0000000047_inline.xml	4	6	17	6	208	.	-
 
-WR-P-P-H-0000000047_inline.xml	4	7	18	1	209	Op	
+WR-P-P-H-0000000047_inline.xml	4	7	18	1	209	Op	-
 WR-P-P-H-0000000047_inline.xml	4	7	18	2	210	dat	(54
 WR-P-P-H-0000000047_inline.xml	4	7	18	3	211	moment	54)
-WR-P-P-H-0000000047_inline.xml	4	7	18	4	212	had	
+WR-P-P-H-0000000047_inline.xml	4	7	18	4	212	had	-
 WR-P-P-H-0000000047_inline.xml	4	7	18	5	213	hij	(4)
 WR-P-P-H-0000000047_inline.xml	4	7	18	6	214	een	(4)
 WR-P-P-H-0000000047_inline.xml	4	7	18	7	215	goede	(4)
@@ -236,27 +236,27 @@ WR-P-P-H-0000000047_inline.xml	4	7	18	9	217	op	(4)
 WR-P-P-H-0000000047_inline.xml	4	7	18	10	218	een	(4)|(57
 WR-P-P-H-0000000047_inline.xml	4	7	18	11	219	hogere	(4)|57
 WR-P-P-H-0000000047_inline.xml	4	7	18	12	220	klassering	(4)|57)
-WR-P-P-H-0000000047_inline.xml	4	7	18	13	221	.	
+WR-P-P-H-0000000047_inline.xml	4	7	18	13	221	.	-
 
-WR-P-P-H-0000000047_inline.xml	4	8	19	1	222	,,	
+WR-P-P-H-0000000047_inline.xml	4	8	19	1	222	,,	-
 WR-P-P-H-0000000047_inline.xml	4	8	19	2	223	We	(58)
-WR-P-P-H-0000000047_inline.xml	4	8	19	3	224	komen	
-WR-P-P-H-0000000047_inline.xml	4	8	19	4	225	wel	
-WR-P-P-H-0000000047_inline.xml	4	8	19	5	226	tekort	
-WR-P-P-H-0000000047_inline.xml	4	8	19	6	227	,	
-WR-P-P-H-0000000047_inline.xml	4	8	19	7	228	maar	
+WR-P-P-H-0000000047_inline.xml	4	8	19	3	224	komen	-
+WR-P-P-H-0000000047_inline.xml	4	8	19	4	225	wel	-
+WR-P-P-H-0000000047_inline.xml	4	8	19	5	226	tekort	-
+WR-P-P-H-0000000047_inline.xml	4	8	19	6	227	,	-
+WR-P-P-H-0000000047_inline.xml	4	8	19	7	228	maar	-
 WR-P-P-H-0000000047_inline.xml	4	8	19	8	229	ik	(4)
-WR-P-P-H-0000000047_inline.xml	4	8	19	9	230	had	
-WR-P-P-H-0000000047_inline.xml	4	8	19	10	231	nu	
+WR-P-P-H-0000000047_inline.xml	4	8	19	9	230	had	-
+WR-P-P-H-0000000047_inline.xml	4	8	19	10	231	nu	-
 WR-P-P-H-0000000047_inline.xml	4	8	19	11	232	een	(60
 WR-P-P-H-0000000047_inline.xml	4	8	19	12	233	betere	60
 WR-P-P-H-0000000047_inline.xml	4	8	19	13	234	start	60)
-WR-P-P-H-0000000047_inline.xml	4	8	19	14	235	in	
+WR-P-P-H-0000000047_inline.xml	4	8	19	14	235	in	-
 WR-P-P-H-0000000047_inline.xml	4	8	19	15	236	elk	(61
 WR-P-P-H-0000000047_inline.xml	4	8	19	16	237	geval	61)
-WR-P-P-H-0000000047_inline.xml	4	8	19	17	238	en	
-WR-P-P-H-0000000047_inline.xml	4	8	19	18	239	had	
-WR-P-P-H-0000000047_inline.xml	4	8	19	19	240	in	
+WR-P-P-H-0000000047_inline.xml	4	8	19	17	238	en	-
+WR-P-P-H-0000000047_inline.xml	4	8	19	18	239	had	-
+WR-P-P-H-0000000047_inline.xml	4	8	19	19	240	in	-
 WR-P-P-H-0000000047_inline.xml	4	8	19	20	241	de	(62
 WR-P-P-H-0000000047_inline.xml	4	8	19	21	242	slotfase	62)
 WR-P-P-H-0000000047_inline.xml	4	8	19	22	243	een	(63
@@ -268,27 +268,27 @@ WR-P-P-H-0000000047_inline.xml	4	8	19	27	248	,	63
 WR-P-P-H-0000000047_inline.xml	4	8	19	28	249	de	63|(65
 WR-P-P-H-0000000047_inline.xml	4	8	19	29	250	nummer	63|65
 WR-P-P-H-0000000047_inline.xml	4	8	19	30	251	acht	63)|65)|(66)
-WR-P-P-H-0000000047_inline.xml	4	8	19	31	252	.	
+WR-P-P-H-0000000047_inline.xml	4	8	19	31	252	.	-
 
 WR-P-P-H-0000000047_inline.xml	4	9	20	1	253	De	(67
 WR-P-P-H-0000000047_inline.xml	4	9	20	2	254	top	67
 WR-P-P-H-0000000047_inline.xml	4	9	20	3	255	vijf	67)|(68)
-WR-P-P-H-0000000047_inline.xml	4	9	20	4	256	was	
-WR-P-P-H-0000000047_inline.xml	4	9	20	5	257	voor	
+WR-P-P-H-0000000047_inline.xml	4	9	20	4	256	was	-
+WR-P-P-H-0000000047_inline.xml	4	9	20	5	257	voor	-
 WR-P-P-H-0000000047_inline.xml	4	9	20	6	258	mij	(4)
-WR-P-P-H-0000000047_inline.xml	4	9	20	7	259	haalbaar	
-WR-P-P-H-0000000047_inline.xml	4	9	20	8	260	.	
-WR-P-P-H-0000000047_inline.xml	4	9	20	9	261	''	
+WR-P-P-H-0000000047_inline.xml	4	9	20	7	259	haalbaar	-
+WR-P-P-H-0000000047_inline.xml	4	9	20	8	260	.	-
+WR-P-P-H-0000000047_inline.xml	4	9	20	9	261	''	-
 
 WR-P-P-H-0000000047_inline.xml	5	1	21	1	262	De	(70
 WR-P-P-H-0000000047_inline.xml	5	1	21	2	263	strijd	70
 WR-P-P-H-0000000047_inline.xml	5	1	21	3	264	in	70
 WR-P-P-H-0000000047_inline.xml	5	1	21	4	265	de	70|(71
 WR-P-P-H-0000000047_inline.xml	5	1	21	5	266	koningsklasse	70)|71)
-WR-P-P-H-0000000047_inline.xml	5	1	21	6	267	ging	
-WR-P-P-H-0000000047_inline.xml	5	1	21	7	268	zoals	
-WR-P-P-H-0000000047_inline.xml	5	1	21	8	269	verwacht	
-WR-P-P-H-0000000047_inline.xml	5	1	21	9	270	tussen	
+WR-P-P-H-0000000047_inline.xml	5	1	21	6	267	ging	-
+WR-P-P-H-0000000047_inline.xml	5	1	21	7	268	zoals	-
+WR-P-P-H-0000000047_inline.xml	5	1	21	8	269	verwacht	-
+WR-P-P-H-0000000047_inline.xml	5	1	21	9	270	tussen	-
 WR-P-P-H-0000000047_inline.xml	5	1	21	10	271	de	(72
 WR-P-P-H-0000000047_inline.xml	5	1	21	11	272	Italiaanse	72
 WR-P-P-H-0000000047_inline.xml	5	1	21	12	273	kemphanen	72
@@ -297,44 +297,44 @@ WR-P-P-H-0000000047_inline.xml	5	1	21	14	275	,	72|73
 WR-P-P-H-0000000047_inline.xml	5	1	21	15	276	Biaggi	72|73|(75)
 WR-P-P-H-0000000047_inline.xml	5	1	21	16	277	en	72|73
 WR-P-P-H-0000000047_inline.xml	5	1	21	17	278	Capirossi	72)|73)|(76)
-WR-P-P-H-0000000047_inline.xml	5	1	21	18	279	.	
+WR-P-P-H-0000000047_inline.xml	5	1	21	18	279	.	-
 
 WR-P-P-H-0000000047_inline.xml	5	2	22	1	280	Zij	(72)
-WR-P-P-H-0000000047_inline.xml	5	2	22	2	281	demonstreerden	
-WR-P-P-H-0000000047_inline.xml	5	2	22	3	282	opnieuw	
+WR-P-P-H-0000000047_inline.xml	5	2	22	2	281	demonstreerden	-
+WR-P-P-H-0000000047_inline.xml	5	2	22	3	282	opnieuw	-
 WR-P-P-H-0000000047_inline.xml	5	2	22	4	283	hun	(78|(72)
 WR-P-P-H-0000000047_inline.xml	5	2	22	5	284	uitzonderlijke	78
 WR-P-P-H-0000000047_inline.xml	5	2	22	6	285	klasse	78)
-WR-P-P-H-0000000047_inline.xml	5	2	22	7	286	.	
+WR-P-P-H-0000000047_inline.xml	5	2	22	7	286	.	-
 
 WR-P-P-H-0000000047_inline.xml	5	3	23	1	287	Slechts	(80
 WR-P-P-H-0000000047_inline.xml	5	3	23	2	288	Barros	80)
-WR-P-P-H-0000000047_inline.xml	5	3	23	3	289	,	
+WR-P-P-H-0000000047_inline.xml	5	3	23	3	289	,	-
 WR-P-P-H-0000000047_inline.xml	5	3	23	4	290	de	(80
 WR-P-P-H-0000000047_inline.xml	5	3	23	5	291	winnaar	80
 WR-P-P-H-0000000047_inline.xml	5	3	23	6	292	van	80
 WR-P-P-H-0000000047_inline.xml	5	3	23	7	293	vorig	80|(82
 WR-P-P-H-0000000047_inline.xml	5	3	23	8	294	jaar	80)|82)
-WR-P-P-H-0000000047_inline.xml	5	3	23	9	295	,	
-WR-P-P-H-0000000047_inline.xml	5	3	23	10	296	kwam	
-WR-P-P-H-0000000047_inline.xml	5	3	23	11	297	bij	
+WR-P-P-H-0000000047_inline.xml	5	3	23	9	295	,	-
+WR-P-P-H-0000000047_inline.xml	5	3	23	10	296	kwam	-
+WR-P-P-H-0000000047_inline.xml	5	3	23	11	297	bij	-
 WR-P-P-H-0000000047_inline.xml	5	3	23	12	298	hen	(72)
-WR-P-P-H-0000000047_inline.xml	5	3	23	13	299	in	
+WR-P-P-H-0000000047_inline.xml	5	3	23	13	299	in	-
 WR-P-P-H-0000000047_inline.xml	5	3	23	14	300	de	(84
 WR-P-P-H-0000000047_inline.xml	5	3	23	15	301	buurt	84)
-WR-P-P-H-0000000047_inline.xml	5	3	23	16	302	.	
+WR-P-P-H-0000000047_inline.xml	5	3	23	16	302	.	-
 
 WR-P-P-H-0000000047_inline.xml	5	4	24	1	303	Hij	(80)
-WR-P-P-H-0000000047_inline.xml	5	4	24	2	304	lag	
-WR-P-P-H-0000000047_inline.xml	5	4	24	3	305	aan	
+WR-P-P-H-0000000047_inline.xml	5	4	24	2	304	lag	-
+WR-P-P-H-0000000047_inline.xml	5	4	24	3	305	aan	-
 WR-P-P-H-0000000047_inline.xml	5	4	24	4	306	kop	(86)
-WR-P-P-H-0000000047_inline.xml	5	4	24	5	307	in	
+WR-P-P-H-0000000047_inline.xml	5	4	24	5	307	in	-
 WR-P-P-H-0000000047_inline.xml	5	4	24	6	308	het	(87
 WR-P-P-H-0000000047_inline.xml	5	4	24	7	309	begin	87)
-WR-P-P-H-0000000047_inline.xml	5	4	24	8	310	,	
-WR-P-P-H-0000000047_inline.xml	5	4	24	9	311	maar	
-WR-P-P-H-0000000047_inline.xml	5	4	24	10	312	zag	
-WR-P-P-H-0000000047_inline.xml	5	4	24	11	313	gaandeweg	
+WR-P-P-H-0000000047_inline.xml	5	4	24	8	310	,	-
+WR-P-P-H-0000000047_inline.xml	5	4	24	9	311	maar	-
+WR-P-P-H-0000000047_inline.xml	5	4	24	10	312	zag	-
+WR-P-P-H-0000000047_inline.xml	5	4	24	11	313	gaandeweg	-
 WR-P-P-H-0000000047_inline.xml	5	4	24	12	314	de	(40)
 WR-P-P-H-0000000047_inline.xml	5	4	24	13	315	race	(40)
 WR-P-P-H-0000000047_inline.xml	5	4	24	14	316	de	(72)
@@ -343,47 +343,47 @@ WR-P-P-H-0000000047_inline.xml	5	4	24	16	318	duivels	(72)
 WR-P-P-H-0000000047_inline.xml	5	4	24	17	319	op	(72)
 WR-P-P-H-0000000047_inline.xml	5	4	24	18	320	de	(72)|(90
 WR-P-P-H-0000000047_inline.xml	5	4	24	19	321	racebanen	(72)|90)
-WR-P-P-H-0000000047_inline.xml	5	4	24	20	322	voorbij	
-WR-P-P-H-0000000047_inline.xml	5	4	24	21	323	komen	
-WR-P-P-H-0000000047_inline.xml	5	4	24	22	324	.	
+WR-P-P-H-0000000047_inline.xml	5	4	24	20	322	voorbij	-
+WR-P-P-H-0000000047_inline.xml	5	4	24	21	323	komen	-
+WR-P-P-H-0000000047_inline.xml	5	4	24	22	324	.	-
 
 WR-P-P-H-0000000047_inline.xml	6	1	25	1	325	Rossi	(74)
-WR-P-P-H-0000000047_inline.xml	6	1	25	2	326	zette	
-WR-P-P-H-0000000047_inline.xml	6	1	25	3	327	net	
+WR-P-P-H-0000000047_inline.xml	6	1	25	2	326	zette	-
+WR-P-P-H-0000000047_inline.xml	6	1	25	3	327	net	-
 WR-P-P-H-0000000047_inline.xml	6	1	25	4	328	de	(92
 WR-P-P-H-0000000047_inline.xml	6	1	25	5	329	aanval	92)
-WR-P-P-H-0000000047_inline.xml	6	1	25	6	330	in	
-WR-P-P-H-0000000047_inline.xml	6	1	25	7	331	op	
+WR-P-P-H-0000000047_inline.xml	6	1	25	6	330	in	-
+WR-P-P-H-0000000047_inline.xml	6	1	25	7	331	op	-
 WR-P-P-H-0000000047_inline.xml	6	1	25	8	332	Biaggi	(75)
-WR-P-P-H-0000000047_inline.xml	6	1	25	9	333	,	
-WR-P-P-H-0000000047_inline.xml	6	1	25	10	334	toen	
+WR-P-P-H-0000000047_inline.xml	6	1	25	9	333	,	-
+WR-P-P-H-0000000047_inline.xml	6	1	25	10	334	toen	-
 WR-P-P-H-0000000047_inline.xml	6	1	25	11	335	de	(94
 WR-P-P-H-0000000047_inline.xml	6	1	25	12	336	wedstrijdleiding	94)
-WR-P-P-H-0000000047_inline.xml	6	1	25	13	337	afvlagde	
-WR-P-P-H-0000000047_inline.xml	6	1	25	14	338	.	
+WR-P-P-H-0000000047_inline.xml	6	1	25	13	337	afvlagde	-
+WR-P-P-H-0000000047_inline.xml	6	1	25	14	338	.	-
 
 WR-P-P-H-0000000047_inline.xml	6	2	26	1	339	Hij	(74)
-WR-P-P-H-0000000047_inline.xml	6	2	26	2	340	had	
+WR-P-P-H-0000000047_inline.xml	6	2	26	2	340	had	-
 WR-P-P-H-0000000047_inline.xml	6	2	26	3	341	hetzelfde	(96
 WR-P-P-H-0000000047_inline.xml	6	2	26	4	342	gevoel	96
 WR-P-P-H-0000000047_inline.xml	6	2	26	5	343	als	96
 WR-P-P-H-0000000047_inline.xml	6	2	26	6	344	zijn	96|(4)|(74)
 WR-P-P-H-0000000047_inline.xml	6	2	26	7	345	Nederlandse	96|(4)
 WR-P-P-H-0000000047_inline.xml	6	2	26	8	346	vriend	96)|(4)
-WR-P-P-H-0000000047_inline.xml	6	2	26	9	347	.	
+WR-P-P-H-0000000047_inline.xml	6	2	26	9	347	.	-
 
-WR-P-P-H-0000000047_inline.xml	6	3	27	1	348	,,	
-WR-P-P-H-0000000047_inline.xml	6	3	27	2	349	Maar	
+WR-P-P-H-0000000047_inline.xml	6	3	27	1	348	,,	-
+WR-P-P-H-0000000047_inline.xml	6	3	27	2	349	Maar	-
 WR-P-P-H-0000000047_inline.xml	6	3	27	3	350	ik	(74)
-WR-P-P-H-0000000047_inline.xml	6	3	27	4	351	heb	
-WR-P-P-H-0000000047_inline.xml	6	3	27	5	352	in	
+WR-P-P-H-0000000047_inline.xml	6	3	27	4	351	heb	-
+WR-P-P-H-0000000047_inline.xml	6	3	27	5	352	in	-
 WR-P-P-H-0000000047_inline.xml	6	3	27	6	353	elk	(100
 WR-P-P-H-0000000047_inline.xml	6	3	27	7	354	geval	100)
 WR-P-P-H-0000000047_inline.xml	6	3	27	8	355	twintig	(101
 WR-P-P-H-0000000047_inline.xml	6	3	27	9	356	punten	101)
-WR-P-P-H-0000000047_inline.xml	6	3	27	10	357	,	
-WR-P-P-H-0000000047_inline.xml	6	3	27	11	358	daardoor	
-WR-P-P-H-0000000047_inline.xml	6	3	27	12	359	is	
+WR-P-P-H-0000000047_inline.xml	6	3	27	10	357	,	-
+WR-P-P-H-0000000047_inline.xml	6	3	27	11	358	daardoor	-
+WR-P-P-H-0000000047_inline.xml	6	3	27	12	359	is	-
 WR-P-P-H-0000000047_inline.xml	6	3	27	13	360	het	(102
 WR-P-P-H-0000000047_inline.xml	6	3	27	14	361	verschil	102
 WR-P-P-H-0000000047_inline.xml	6	3	27	15	362	met	102
@@ -393,33 +393,33 @@ WR-P-P-H-0000000047_inline.xml	6	3	27	18	365	de	102|(104
 WR-P-P-H-0000000047_inline.xml	6	3	27	19	366	WK-stand	102)|104)
 WR-P-P-H-0000000047_inline.xml	6	3	27	20	367	21	(105
 WR-P-P-H-0000000047_inline.xml	6	3	27	21	368	punten	105)
-WR-P-P-H-0000000047_inline.xml	6	3	27	22	369	''	
-WR-P-P-H-0000000047_inline.xml	6	3	27	23	370	,	
-WR-P-P-H-0000000047_inline.xml	6	3	27	24	371	toonde	
+WR-P-P-H-0000000047_inline.xml	6	3	27	22	369	''	-
+WR-P-P-H-0000000047_inline.xml	6	3	27	23	370	,	-
+WR-P-P-H-0000000047_inline.xml	6	3	27	24	371	toonde	-
 WR-P-P-H-0000000047_inline.xml	6	3	27	25	372	leider	(74)
 WR-P-P-H-0000000047_inline.xml	6	3	27	26	373	Rossi	(74)
 WR-P-P-H-0000000047_inline.xml	6	3	27	27	374	zich	(107)
-WR-P-P-H-0000000047_inline.xml	6	3	27	28	375	tevreden	
-WR-P-P-H-0000000047_inline.xml	6	3	27	29	376	.	
+WR-P-P-H-0000000047_inline.xml	6	3	27	28	375	tevreden	-
+WR-P-P-H-0000000047_inline.xml	6	3	27	29	376	.	-
 
 WR-P-P-H-0000000047_inline.xml	6	4	28	1	377	Capirossi	(76)
-WR-P-P-H-0000000047_inline.xml	6	4	28	2	378	baalde	
-WR-P-P-H-0000000047_inline.xml	6	4	28	3	379	.	
+WR-P-P-H-0000000047_inline.xml	6	4	28	2	378	baalde	-
+WR-P-P-H-0000000047_inline.xml	6	4	28	3	379	.	-
 
 WR-P-P-H-0000000047_inline.xml	6	5	29	1	380	Hij	(76)
-WR-P-P-H-0000000047_inline.xml	6	5	29	2	381	had	
+WR-P-P-H-0000000047_inline.xml	6	5	29	2	381	had	-
 WR-P-P-H-0000000047_inline.xml	6	5	29	3	382	de	(76)
 WR-P-P-H-0000000047_inline.xml	6	5	29	4	383	pole-position	(76)
-WR-P-P-H-0000000047_inline.xml	6	5	29	5	384	,	
-WR-P-P-H-0000000047_inline.xml	6	5	29	6	385	net	
-WR-P-P-H-0000000047_inline.xml	6	5	29	7	386	als	
+WR-P-P-H-0000000047_inline.xml	6	5	29	5	384	,	-
+WR-P-P-H-0000000047_inline.xml	6	5	29	6	385	net	-
+WR-P-P-H-0000000047_inline.xml	6	5	29	7	386	als	-
 WR-P-P-H-0000000047_inline.xml	6	5	29	8	387	vorig	(111
 WR-P-P-H-0000000047_inline.xml	6	5	29	9	388	jaar	111)
-WR-P-P-H-0000000047_inline.xml	6	5	29	10	389	,	
-WR-P-P-H-0000000047_inline.xml	6	5	29	11	390	maar	
-WR-P-P-H-0000000047_inline.xml	6	5	29	12	391	werd	
-WR-P-P-H-0000000047_inline.xml	6	5	29	13	392	ook	
-WR-P-P-H-0000000047_inline.xml	6	5	29	14	393	nu	
+WR-P-P-H-0000000047_inline.xml	6	5	29	10	389	,	-
+WR-P-P-H-0000000047_inline.xml	6	5	29	11	390	maar	-
+WR-P-P-H-0000000047_inline.xml	6	5	29	12	391	werd	-
+WR-P-P-H-0000000047_inline.xml	6	5	29	13	392	ook	-
+WR-P-P-H-0000000047_inline.xml	6	5	29	14	393	nu	-
 WR-P-P-H-0000000047_inline.xml	6	5	29	15	394	derde	(76)
-WR-P-P-H-0000000047_inline.xml	6	5	29	16	395	.	
+WR-P-P-H-0000000047_inline.xml	6	5	29	16	395	.	-
 

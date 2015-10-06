@@ -1,6 +1,6 @@
 doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
 WR-P-P-H-0000000052_inline.xml	1	1	1	1	1	LIMA	(1)
-WR-P-P-H-0000000052_inline.xml	1	1	1	2	2	-	
+WR-P-P-H-0000000052_inline.xml	1	1	1	2	2	-	-
 
 WR-P-P-H-0000000052_inline.xml	1	2	2	1	3	De	(2|(17|(15
 WR-P-P-H-0000000052_inline.xml	1	2	2	2	4	oud-chef	2|17|15)
@@ -11,42 +11,42 @@ WR-P-P-H-0000000052_inline.xml	1	2	2	6	8	geheime	2|17|16
 WR-P-P-H-0000000052_inline.xml	1	2	2	7	9	dienst	2|17)|16)
 WR-P-P-H-0000000052_inline.xml	1	2	2	8	10	Vladimiro	2|(18
 WR-P-P-H-0000000052_inline.xml	1	2	2	9	11	Montesinos	2)|18)
-WR-P-P-H-0000000052_inline.xml	1	2	2	10	12	is	
-WR-P-P-H-0000000052_inline.xml	1	2	2	11	13	in	
+WR-P-P-H-0000000052_inline.xml	1	2	2	10	12	is	-
+WR-P-P-H-0000000052_inline.xml	1	2	2	11	13	in	-
 WR-P-P-H-0000000052_inline.xml	1	2	2	12	14	hongerstaking	(4)
-WR-P-P-H-0000000052_inline.xml	1	2	2	13	15	gegaan	
-WR-P-P-H-0000000052_inline.xml	1	2	2	14	16	.	
+WR-P-P-H-0000000052_inline.xml	1	2	2	13	15	gegaan	-
+WR-P-P-H-0000000052_inline.xml	1	2	2	14	16	.	-
 
 WR-P-P-H-0000000052_inline.xml	1	3	3	1	17	Hij	(2)
-WR-P-P-H-0000000052_inline.xml	1	3	3	2	18	eist	
-WR-P-P-H-0000000052_inline.xml	1	3	3	3	19	dat	
+WR-P-P-H-0000000052_inline.xml	1	3	3	2	18	eist	-
+WR-P-P-H-0000000052_inline.xml	1	3	3	3	19	dat	-
 WR-P-P-H-0000000052_inline.xml	1	3	3	4	20	hij	(2)
-WR-P-P-H-0000000052_inline.xml	1	3	3	5	21	van	
+WR-P-P-H-0000000052_inline.xml	1	3	3	5	21	van	-
 WR-P-P-H-0000000052_inline.xml	1	3	3	6	22	de	(7|(19
 WR-P-P-H-0000000052_inline.xml	1	3	3	7	23	militaire	7|19
 WR-P-P-H-0000000052_inline.xml	1	3	3	8	24	gevangenis	7|19)
 WR-P-P-H-0000000052_inline.xml	1	3	3	9	25	in	7
 WR-P-P-H-0000000052_inline.xml	1	3	3	10	26	Callao	7)|(8)
-WR-P-P-H-0000000052_inline.xml	1	3	3	11	27	wordt	
-WR-P-P-H-0000000052_inline.xml	1	3	3	12	28	overgeplaatst	
-WR-P-P-H-0000000052_inline.xml	1	3	3	13	29	naar	
+WR-P-P-H-0000000052_inline.xml	1	3	3	11	27	wordt	-
+WR-P-P-H-0000000052_inline.xml	1	3	3	12	28	overgeplaatst	-
+WR-P-P-H-0000000052_inline.xml	1	3	3	13	29	naar	-
 WR-P-P-H-0000000052_inline.xml	1	3	3	14	30	een	(9|(20
 WR-P-P-H-0000000052_inline.xml	1	3	3	15	31	inrichting	9|20)
 WR-P-P-H-0000000052_inline.xml	1	3	3	16	32	met	9
 WR-P-P-H-0000000052_inline.xml	1	3	3	17	33	een	9|(10
 WR-P-P-H-0000000052_inline.xml	1	3	3	18	34	burgerregime	9)|10)
-WR-P-P-H-0000000052_inline.xml	1	3	3	19	35	.	
+WR-P-P-H-0000000052_inline.xml	1	3	3	19	35	.	-
 
 WR-P-P-H-0000000052_inline.xml	1	4	4	1	36	Montesinos	(2)
-WR-P-P-H-0000000052_inline.xml	1	4	4	2	37	werd	
+WR-P-P-H-0000000052_inline.xml	1	4	4	2	37	werd	-
 WR-P-P-H-0000000052_inline.xml	1	4	4	3	38	zaterdag	(12)
-WR-P-P-H-0000000052_inline.xml	1	4	4	4	39	in	
+WR-P-P-H-0000000052_inline.xml	1	4	4	4	39	in	-
 WR-P-P-H-0000000052_inline.xml	1	4	4	5	40	Venezuela	(13)
-WR-P-P-H-0000000052_inline.xml	1	4	4	6	41	gearresteerd	
-WR-P-P-H-0000000052_inline.xml	1	4	4	7	42	en	
-WR-P-P-H-0000000052_inline.xml	1	4	4	8	43	daarna	
-WR-P-P-H-0000000052_inline.xml	1	4	4	9	44	uitgeleverd	
-WR-P-P-H-0000000052_inline.xml	1	4	4	10	45	aan	
+WR-P-P-H-0000000052_inline.xml	1	4	4	6	41	gearresteerd	-
+WR-P-P-H-0000000052_inline.xml	1	4	4	7	42	en	-
+WR-P-P-H-0000000052_inline.xml	1	4	4	8	43	daarna	-
+WR-P-P-H-0000000052_inline.xml	1	4	4	9	44	uitgeleverd	-
+WR-P-P-H-0000000052_inline.xml	1	4	4	10	45	aan	-
 WR-P-P-H-0000000052_inline.xml	1	4	4	11	46	Peru	(14)
-WR-P-P-H-0000000052_inline.xml	1	4	4	12	47	.	
+WR-P-P-H-0000000052_inline.xml	1	4	4	12	47	.	-
 
