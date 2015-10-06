@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="4" end="5" frame="verb(unacc,past(pl),passive)" id="2" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werden" wvorm="pv"/>
+      <node begin="5" cat="conj" end="10" id="3" index="1" rel="su">
+        <node begin="5" cat="np" end="7" id="4" rel="cnj">
+          <node begin="5" end="6" frame="number(hoofd(pl_num))" id="5" infl="pl_num" lcat="detp" lemma="acht" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="acht" sense="acht" special="hoofd" word="acht"/>
+          <node begin="6" end="7" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="6" lcat="np" lemma="patrouille_vaartuig" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="patrouille_vaartuig" sense="patrouille_vaartuig" word="patrouillevaartuigen"/>
+        </node>
+        <node begin="7" conjtype="neven" end="8" frame="conj(en)" id="7" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="8" cat="np" end="10" id="8" rel="cnj">
+          <node begin="8" end="9" frame="number(hoofd(pl_num))" id="9" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+          <node begin="9" end="10" frame="noun(het,count,pl)" gen="het" getal="mv" graad="dim" id="10" lcat="np" lemma="vliegtuig" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" rnum="pl" root="vliegtuig_DIM" sense="vliegtuig_DIM" word="vliegtuigjes"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="14" id="11" rel="vc">
+        <node begin="0" cat="pp" end="4" id="12" rel="mod">
+          <node begin="0" end="1" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="13" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="Voor"/>
+          <node begin="1" cat="np" end="4" id="14" rel="obj1">
+            <node begin="1" end="2" frame="number(hoofd(pl_num))" id="15" infl="pl_num" lcat="detp" lemma="tien" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="tien" sense="tien" special="hoofd" word="tien"/>
+            <node begin="2" end="3" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="miljard" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljard" sc="measure" sense="miljard" special="meas_mod" word="miljard"/>
+            <node begin="3" end="4" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="SRG" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="SRG" sense="SRG" word="SRG"/>
+          </node>
+        </node>
+        <node begin="5" end="10" id="18" index="1" rel="obj1"/>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,ninv(transitive,part_transitive(aan)))" id="19" infl="psp" lcat="ppart" lemma="aan_schaffen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schaf_aan" sc="part_transitive(aan)" sense="schaf_aan" word="aangeschaft" wvorm="vd"/>
+        <node begin="11" cat="pp" end="14" id="20" rel="mod">
+          <node begin="11" end="12" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="21" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="12" cat="np" end="14" id="22" rel="obj1">
+            <node begin="12" end="13" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="marine" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="marine" sense="marine" word="marine"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Voor tien miljard SRG werden acht patrouillevaartuigen en twee vliegtuigjes aangeschaft voor de marine .</sentence>
+  <comments>
+    <comment>Q#82|Voor tien miljard SRG werden acht patrouillevaartuigen en twee vliegtuigjes aangeschaft voor de marine .|1|1|-6.148320965859999</comment>
+  </comments>
+</alpino_ds>

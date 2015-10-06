@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="du" end="3" id="2" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" id="3" lcat="np" lemma="WHALLEY" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="WHALLEY" sense="WHALLEY" word="WHALLEY"/>
+      <node begin="2" end="3" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="Rev" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="Rev" sense="Rev" word="Rev"/>
+    </node>
+    <node begin="3" end="4" frame="punct(punt)" id="5" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>WHALLEY - Rev .</sentence>
+  <comments>
+    <comment>Q#1|WHALLEY - Rev .|1|1|2.2558969606400003</comment>
+  </comments>
+</alpino_ds>

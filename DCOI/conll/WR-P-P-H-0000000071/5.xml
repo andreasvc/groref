@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" cat="pp" end="2" id="4" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="werkelijkheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="werkelijkheid" sense="werkelijkheid" word="werkelijkheid"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,sg3,pc_pp(uit))" id="7" infl="sg3" lcat="smain" lemma="stammen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stam" sc="pc_pp(uit)" sense="stam-uit" stype="declarative" tense="present" word="stamt" wvorm="pv"/>
+      <node begin="3" cat="np" end="10" id="8" rel="su">
+        <node begin="3" end="4" frame="determiner(de)" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="abrikoos" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="abrikoos" sense="abrikoos" word="abrikoos"/>
+        <node begin="6" cat="np" end="10" id="11" rel="app">
+          <node begin="6" end="7" frame="modal_adverb" id="12" lcat="advp" lemma="althans" pos="adv" postag="BW()" pt="bw" rel="mod" root="althans" sc="modal" sense="althans" word="althans"/>
+          <node begin="7" end="8" frame="determiner(de)" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" id="14" infl="e" lcat="ap" lemma="wild" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wild" sense="wild" vform="adj" word="wilde"/>
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="voorloper" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="voorloper" sense="voorloper" word="voorloper"/>
+        </node>
+      </node>
+      <node begin="11" cat="pp" end="15" id="16" rel="pc">
+        <node begin="11" end="12" frame="preposition(uit,[vandaan])" id="17" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="12" cat="np" end="15" id="18" rel="obj1">
+          <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="19" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" id="20" infl="e" lcat="ap" lemma="ver" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ver" sense="ver" vform="adj" word="verre"/>
+          <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="21" lcat="np" lemma="Oosten" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Oosten" sense="Oosten" word="Oosten"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="22" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In werkelijkheid stamt de abrikoos , althans de wilde voorloper , uit het verre Oosten .</sentence>
+  <comments>
+    <comment>Q#5|In werkelijkheid stamt de abrikoos , althans de wilde voorloper , uit het verre Oosten .|1|1|1.8260899608599992</comment>
+  </comments>
+</alpino_ds>

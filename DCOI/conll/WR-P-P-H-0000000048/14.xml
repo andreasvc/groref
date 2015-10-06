@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="4" infl="e" lcat="ap" lemma="Noord-Iers" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Noord-Iers" sense="Noord-Iers" vform="adj" word="Noord-Ierse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="Nobel_prijs_winnaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Nobel_prijs_winnaar" sense="Nobel_prijs_winnaar" word="Nobelprijswinnaar"/>
+        <node begin="3" cat="mwu" end="5" id="6" mwu_root="M.C. Maguire" mwu_sense="M.C. Maguire" rel="app">
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="M.C." neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="M.C." sense="M.C." spectype="deeleigen" word="M.C."/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Maguire" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Maguire" sense="Maguire" spectype="deeleigen" word="Maguire"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,past(sg),transitive)" id="9" infl="sg" lcat="smain" lemma="openen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="open" sc="transitive" sense="open" stype="declarative" tense="past" word="opende" wvorm="pv"/>
+      <node begin="6" cat="np" end="13" id="10" rel="obj1">
+        <node begin="6" end="7" frame="determiner(de)" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="conferentie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="conferentie" sense="conferentie" word="conferentie"/>
+        <node begin="8" cat="pp" end="13" id="13" rel="mod">
+          <node begin="8" end="9" frame="preposition(in,[])" id="14" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="9" cat="np" end="13" id="15" rel="obj1">
+            <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="16" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="land" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="land" sense="land" word="land"/>
+            <node begin="11" cat="pp" end="13" id="18" rel="mod">
+              <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="19" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="12" end="13" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="Tipperary" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Tipperary" sense="Tipperary" word="Tipperary"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De Noord-Ierse Nobelprijswinnaar M.C. Maguire opende de conferentie in het land van Tipperary .</sentence>
+  <comments>
+    <comment>Q#14|De Noord-Ierse Nobelprijswinnaar M.C. Maguire opende de conferentie in het land van Tipperary .|1|1|2.323911169259997</comment>
+  </comments>
+</alpino_ds>

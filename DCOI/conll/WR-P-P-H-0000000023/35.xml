@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="8" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="kritiek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kritiek" sense="kritiek" word="kritiek"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(uit,[vandaan])" id="6" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="3" end="4" frame="np(year)" id="7" lcat="np" lemma="1982" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="1982" sense="1982" word="1982"/>
+        </node>
+        <node begin="4" cat="pp" end="8" id="8" rel="mod">
+          <node begin="4" end="5" frame="preposition(over,[heen])" id="9" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="5" cat="np" end="8" id="10" rel="obj1">
+            <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="11" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="12" infl="e" lcat="ap" lemma="onsamenhangend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="onsamenhangend" sense="onsamenhangend" vform="adj" word="onsamenhangende"/>
+            <node begin="7" end="8" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="beleid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="beleid" sense="beleid" word="beleid"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(unacc,sg3,passive)" id="14" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="15" rel="vc">
+        <node begin="0" end="8" id="16" index="1" rel="obj1"/>
+        <node begin="9" cat="pp" end="13" id="17" rel="mod">
+          <node begin="9" end="10" frame="preposition(met,[mee,[en,al]])" id="18" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="10" cat="np" end="13" id="19" rel="obj1">
+            <node begin="10" buiging="zonder" end="11" frame="determiner(de,nwh,nmod,pro,nparg)" id="20" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+            <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" id="21" infl="e" lcat="ap" lemma="sectoraal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sectoraal" sense="sectoraal" vform="adj" word="sectorale"/>
+            <node begin="12" end="13" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="aanpak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanpak" sense="aanpak" word="aanpak"/>
+          </node>
+        </node>
+        <node begin="13" buiging="zonder" end="14" frame="verb(hebben,psp,transitive)" id="23" infl="psp" lcat="ppart" lemma="ondervangen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ondervang" sc="transitive" sense="ondervang" word="ondervangen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De kritiek uit 1982 over het onsamenhangende beleid wordt met die sectorale aanpak ondervangen .</sentence>
+  <comments>
+    <comment>Q#35|De kritiek uit 1982 over het onsamenhangende beleid wordt met die sectorale aanpak ondervangen .|1|1|-1.7159300954799992</comment>
+  </comments>
+</alpino_ds>

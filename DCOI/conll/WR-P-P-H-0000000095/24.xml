@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="4" id="1" rel="--">
+      <node begin="1" end="2" frame="verb(unacc,past(pl),passive)" id="2" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werden" wvorm="pv"/>
+      <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="3" index="1" lcat="np" lemma="praat_pauze" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="praat_pauze" sense="praat_pauze" word="praatpauzes"/>
+      <node begin="0" cat="ppart" end="4" id="4" rel="vc">
+        <node begin="0" end="1" frame="er_vp_adverb" getal="getal" id="5" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="Er"/>
+        <node begin="2" end="3" id="6" index="1" rel="obj1"/>
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,psp,ninv(transitive,part_transitive(in)))" id="7" infl="psp" lcat="ppart" lemma="in_stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel_in" sc="part_transitive(in)" sense="stel_in" word="ingesteld" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="4" end="5" frame="punct(punt)" id="8" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Er werden praatpauzes ingesteld .</sentence>
+  <comments>
+    <comment>Q#24|Er werden praatpauzes ingesteld .|1|1|-1.8033226929800004</comment>
+  </comments>
+</alpino_ds>

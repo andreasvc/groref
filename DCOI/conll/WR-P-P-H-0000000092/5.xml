@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="15" end="16" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="27" id="2" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="3" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+      <node begin="1" end="2" frame="verb(unacc,past(sg),copula)" id="4" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="2" cat="np" end="27" id="5" rel="predc">
+        <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="6" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" id="7" infl="e" lcat="ap" lemma="direct" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="direct" sense="direct" vform="adj" word="directe"/>
+        <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="gevolg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gevolg" sense="gevolg" word="gevolg"/>
+        <node begin="5" cat="pp" end="27" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="6" cat="conj" end="27" id="11" rel="obj1">
+            <node begin="6" cat="np" end="15" id="12" rel="cnj">
+              <node begin="6" end="7" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="13" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="accoord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="accoord" sense="accoord" word="akkoord"/>
+              <node begin="8" cat="rel" end="15" id="15" rel="mod">
+                <node begin="8" case="no_obl" end="9" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" id="16" index="1" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+                <node begin="8" cat="ssub" end="15" id="17" rel="body">
+                  <node begin="8" end="9" id="18" index="1" rel="su"/>
+                  <node begin="13" end="14" frame="verb(unacc,past(sg),passive)" id="19" infl="sg" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="passive" sense="ben" tense="past" word="was" wvorm="pv"/>
+                  <node begin="8" cat="ppart" end="15" id="20" rel="vc">
+                    <node begin="8" end="9" id="21" index="1" rel="obj1"/>
+                    <node begin="9" cat="pp" end="13" id="22" rel="mod">
+                      <node begin="9" end="10" frame="preposition(op,[af,na])" id="23" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                      <node begin="10" cat="mwu" end="13" id="24" mwu_root="Goede Vrijdag 1998" mwu_sense="Goede Vrijdag 1998" rel="obj1">
+                        <node begin="10" end="11" frame="proper_name(both)" id="25" lcat="np" lemma="Goede" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Goede" sense="Goede" spectype="deeleigen" word="Goede"/>
+                        <node begin="11" end="12" frame="proper_name(both)" id="26" lcat="np" lemma="Vrijdag" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vrijdag" sense="Vrijdag" spectype="deeleigen" word="Vrijdag"/>
+                        <node begin="12" end="13" frame="proper_name(both)" id="27" lcat="np" lemma="1998" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="1998" sense="1998" spectype="deeleigen" word="1998"/>
+                      </node>
+                    </node>
+                    <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,transitive)" id="28" infl="psp" lcat="ppart" lemma="sluiten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sluit" sc="transitive" sense="sluit" word="gesloten" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="16" conjtype="neven" end="17" frame="conj(en)" id="29" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="17" cat="whrel" end="27" id="30" rel="cnj">
+              <node begin="17" end="18" frame="waar_adverb(van)" id="31" index="2" lcat="pp" lemma="waarvan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvan" sense="waarvan" special="waar" word="waarvan"/>
+              <node begin="17" cat="ssub" end="27" id="32" rel="body">
+                <node begin="17" end="18" id="33" index="2" rel="mod"/>
+                <node begin="18" cat="np" end="23" id="34" rel="su">
+                  <node begin="18" end="19" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="35" lcat="np" lemma="ontwapening" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ontwapening" sense="ontwapening" word="ontwapening"/>
+                  <node begin="19" cat="pp" end="23" id="36" rel="mod">
+                    <node begin="19" end="20" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="37" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="20" cat="np" end="23" id="38" rel="obj1">
+                      <node begin="20" end="21" frame="determiner(de)" id="39" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node aform="base" begin="21" buiging="met-e" end="22" frame="adjective(e)" graad="basis" id="40" infl="e" lcat="ap" lemma="paramilitair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="paramilitair" sense="paramilitair" vform="adj" word="paramilitaire"/>
+                      <node begin="22" end="23" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="41" lcat="np" lemma="groep" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="groep" sense="groep" word="groepen"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="23" cat="np" end="26" id="42" rel="predc">
+                  <node begin="23" end="24" frame="determiner(een)" id="43" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node aform="base" begin="24" buiging="zonder" end="25" frame="adjective(no_e(adv))" graad="basis" id="44" infl="no_e" lcat="ap" lemma="belangrijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="belangrijk" sense="belangrijk" vform="adj" word="belangrijk"/>
+                  <node begin="25" end="26" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="45" lcat="np" lemma="onderdeel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="onderdeel" sense="onderdeel" word="onderdeel"/>
+                </node>
+                <node begin="26" end="27" frame="verb(unacc,sg_heeft,copula)" id="46" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="47" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dat was het directe gevolg van het akkoord dat op Goede Vrijdag 1998 was gesloten , en waarvan ontwapening van de paramilitaire groepen een belangrijk onderdeel is .</sentence>
+  <comments>
+    <comment>Q#5|Dat was het directe gevolg van het akkoord dat op Goede Vrijdag 1998 was gesloten , en waarvan ontwapening van de paramilitaire groepen een belangrijk onderdeel is .|1|1|-11.930139127179999</comment>
+  </comments>
+</alpino_ds>

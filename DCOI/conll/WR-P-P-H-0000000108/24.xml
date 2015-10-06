@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="np" end="7" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" mwu_root="RTL 5" mwu_sense="RTL 5" rel="hd">
+        <node begin="0" end="1" frame="proper_name(sg,'ORG')" id="4" lcat="np" lemma="RTL" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="RTL" sense="RTL" spectype="deeleigen" word="RTL"/>
+        <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="5" lcat="np" lemma="5" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="5" sense="5" spectype="deeleigen" word="5"/>
+      </node>
+      <node begin="3" cat="np" end="7" id="6" rel="mod">
+        <node begin="3" cat="mwu" end="6" id="7" mwu_root="22.30 - 0.15" mwu_sense="22.30 - 0.15" rel="det">
+          <node begin="3" end="4" frame="number(hoofd(both))" id="8" infl="both" lcat="detp" lemma="22.30" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="22.30" sense="22.30" special="hoofd" spectype="symb" word="22.30"/>
+          <node begin="4" end="5" frame="number(hoofd(both))" id="9" infl="both" lcat="detp" lemma="-" pos="num" postag="LET()" pt="let" rel="mwp" root="-" sense="-" special="hoofd" word="-"/>
+          <node begin="5" end="6" frame="number(hoofd(both))" id="10" infl="both" lcat="detp" lemma="0.15" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="0.15" sense="0.15" special="hoofd" spectype="symb" word="0.15"/>
+        </node>
+        <node begin="6" end="7" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="uur" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="uur" sense="uur" special="tmp" word="uur"/>
+      </node>
+    </node>
+    <node begin="7" end="8" frame="punct(punt)" id="12" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>RTL 5 , 22.30 - 0.15 uur .</sentence>
+  <comments>
+    <comment>Q#24|RTL 5 , 22.30 - 0.15 uur .|1|1|1.4840008870400005</comment>
+  </comments>
+</alpino_ds>

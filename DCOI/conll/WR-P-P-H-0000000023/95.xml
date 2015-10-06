@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(aanhaal_both)" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="11" end="12" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="12" end="13" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="28" id="4" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="5" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="28" id="6" rel="nucl">
+        <node begin="1" cat="whrel" end="11" id="7" index="1" rel="su">
+          <node begin="1" end="2" frame="er_wh_loc_adverb" getal="getal" id="8" index="2" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+          <node begin="1" cat="ssub" end="11" id="9" rel="body">
+            <node begin="1" end="2" id="10" index="2" rel="ld"/>
+            <node begin="2" cat="pp" end="4" id="11" rel="mod">
+              <node begin="2" end="3" frame="preposition(onder,[door,vandaan])" id="12" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+              <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="Wijdenbosch" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Wijdenbosch" sense="Wijdenbosch" word="Wijdenbosch"/>
+            </node>
+            <node begin="5" cat="np" end="10" id="14" rel="su">
+              <node begin="5" end="6" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="baat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="baat" sense="baat" word="baat"/>
+              <node begin="7" cat="pp" end="10" id="17" rel="mod">
+                <node begin="7" end="8" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="18" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                <node begin="8" cat="np" end="10" id="19" rel="obj1">
+                  <node begin="8" end="9" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="kost" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kost" sense="kost" word="kost"/>
+                </node>
+              </node>
+            </node>
+            <node begin="10" end="11" frame="verb(zijn,past(sg),ninv(ld_er_transitive,part_ld_er_transitive(uit)))" id="22" infl="sg" lcat="ssub" lemma="uit_gaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ga_uit" sc="part_ld_er_transitive(uit)" sense="ga_uit" tense="past" word="uitging" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="13" end="14" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" id="23" infl="sg" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moet" wvorm="pv"/>
+        <node begin="1" cat="inf" end="28" id="24" rel="vc">
+          <node begin="1" end="11" id="25" index="1" rel="su"/>
+          <node begin="14" cat="np" end="17" id="26" rel="obj1">
+            <node begin="14" end="15" frame="determiner(de)" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="15" buiging="met-e" end="16" frame="adjective(e)" graad="basis" id="28" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+            <node begin="16" end="17" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="29" lcat="np" lemma="regering-Venetiaan" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering-Venetiaan" sense="regering-Venetiaan" word="regering-Venetiaan"/>
+          </node>
+          <node begin="17" end="18" frame="adverb" id="30" lcat="advp" lemma="eerst" pos="adv" postag="BW()" pt="bw" rel="mod" root="eerst" sense="eerst" word="eerst"/>
+          <node begin="18" buiging="zonder" end="19" frame="verb(hebben,inf,transitive)" id="31" infl="inf" lcat="inf" lemma="investeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="investeer" sc="transitive" sense="investeer" word="investeren" wvorm="inf"/>
+          <node begin="19" cat="cp" end="28" id="32" rel="mod">
+            <node begin="19" conjtype="onder" end="20" frame="complementizer" id="33" lcat="cp" lemma="voordat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="voordat" sense="voordat" word="voordat"/>
+            <node begin="20" cat="ssub" end="28" id="34" rel="body">
+              <node begin="21" cat="np" end="25" id="35" index="3" rel="su">
+                <node begin="21" cat="mwu" end="23" id="36" mwu_root="ook maar" mwu_sense="ook maar" rel="mod">
+                  <node begin="21" end="22" frame="modal_adverb(noun)" id="37" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mwp" root="ook" sc="noun" sense="ook" word="ook"/>
+                  <node begin="22" end="23" frame="modal_adverb(noun)" id="38" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mwp" root="maar" sc="noun" sense="maar" word="maar"/>
+                </node>
+                <node begin="23" end="24" frame="determiner(een)" id="39" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node begin="24" end="25" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="40" lcat="np" lemma="cent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="cent" sense="cent" special="meas_mod" word="cent"/>
+              </node>
+              <node begin="25" end="26" frame="verb('hebben/zijn',modal_not_u,aux(inf))" id="41" infl="modal_not_u" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kan" wvorm="pv"/>
+              <node begin="20" cat="inf" end="28" id="42" rel="vc">
+                <node begin="21" end="25" id="43" index="3" rel="su"/>
+                <node begin="26" buiging="zonder" end="27" frame="verb(unacc,inf,passive)" id="44" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+                <node begin="20" cat="ppart" end="28" id="45" rel="vc">
+                  <node begin="20" end="21" frame="er_vp_adverb" getal="getal" id="46" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+                  <node begin="21" end="25" id="47" index="3" rel="obj1"/>
+                  <node begin="27" buiging="zonder" end="28" frame="verb(hebben,psp,ninv(transitive,part_transitive(uit)))" id="48" infl="psp" lcat="ppart" lemma="uit_geven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geef_uit" sc="part_transitive(uit)" sense="geef_uit" word="uitgegeven" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" frame="punct(punt)" id="49" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Maar waar onder Wijdenbosch &apos; de baat voor de kost uitging &apos; , moet de nieuwe regering-Venetiaan eerst investeren voordat er ook maar een cent kan worden uitgegeven .</sentence>
+  <comments>
+    <comment>Q#95|Maar waar onder Wijdenbosch &apos; de baat voor de kost uitging &apos; , moet de nieuwe regering-Venetiaan eerst investeren voordat er ook maar een cent kan worden uitgegeven .|1|1|-5.995896250120006</comment>
+  </comments>
+</alpino_ds>

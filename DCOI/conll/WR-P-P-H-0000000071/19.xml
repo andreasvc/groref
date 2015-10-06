@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(haak_open)" id="2" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="14" end="15" frame="punct(haak_sluit)" id="3" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="17" end="18" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="22" id="5" rel="--">
+      <node begin="0" cat="sv1" end="6" id="6" rel="cnj">
+        <node begin="0" end="1" frame="verb(hebben,sg1,part_transitive(toe))" id="7" infl="sg1" lcat="sv1" lemma="toe_voegen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="voeg_toe" sc="part_transitive(toe)" sense="voeg_toe" tense="present" word="Voeg" wvorm="pv"/>
+        <node begin="1" cat="conj" end="5" id="8" rel="obj1">
+          <node begin="1" cat="np" end="3" id="9" rel="cnj">
+            <node begin="1" end="2" frame="determiner(wat,nwh,mod,pro,nparg,ntopicpro)" getal="ev" id="10" index="1" infl="wat" lcat="detp" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="det" root="wat" sense="wat" status="vol" vwtype="onbep" wh="nwh" word="wat"/>
+            <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="zout" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="zout" sense="zout" word="zout"/>
+          </node>
+          <node begin="3" conjtype="neven" end="4" frame="conj(en)" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="1" cat="np" end="5" id="13" rel="cnj">
+            <node begin="1" end="2" id="14" index="1" rel="det"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="peper" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="peper" sense="peper" word="peper"/>
+          </node>
+        </node>
+        <node begin="5" end="6" frame="particle(toe)" id="16" lcat="part" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="toe" sense="toe" vztype="fin" word="toe"/>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(en)" id="17" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="8" cat="sv1" end="22" id="18" rel="cnj">
+        <node begin="8" end="9" frame="verb(hebben,sg1,np_ld_pp)" id="19" infl="sg1" lcat="sv1" lemma="roeren" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="roer" sc="np_ld_pp" sense="roer" tense="present" word="roer" wvorm="pv"/>
+        <node begin="9" end="10" frame="tmp_adverb" id="20" lcat="advp" lemma="daarna" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarna" sense="daarna" special="tmp" word="daarna"/>
+        <node begin="11" cat="np" end="14" id="21" rel="mod">
+          <node begin="11" end="12" frame="modal_adverb(noun_prep)" id="22" lcat="advp" lemma="ongeveer" pos="adv" postag="BW()" pt="bw" rel="mod" root="ongeveer" sc="noun_prep" sense="ongeveer" word="ongeveer"/>
+          <node begin="12" end="13" frame="number(hoofd(pl_num))" id="23" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+          <node begin="13" end="14" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="24" lcat="np" lemma="minuut" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="minuut" sense="minuut" special="tmp" word="minuten"/>
+        </node>
+        <node begin="15" cat="conj" end="21" id="25" rel="obj1">
+          <node begin="15" cat="np" end="17" id="26" rel="cnj">
+            <node begin="15" end="16" frame="determiner(de)" id="27" index="2" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="16" end="17" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="28" lcat="np" lemma="kruid" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kruid" sense="kruid" word="kruiden"/>
+          </node>
+          <node begin="15" cat="np" end="19" id="29" rel="cnj">
+            <node begin="15" end="16" id="30" index="2" rel="det"/>
+            <node begin="18" end="19" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="31" lcat="np" lemma="rozijn" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="rozijn" sense="rozijn" word="rozijnen"/>
+          </node>
+          <node begin="19" conjtype="neven" end="20" frame="conj(en)" id="32" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="15" cat="np" end="21" id="33" rel="cnj">
+            <node begin="15" end="16" id="34" index="2" rel="det"/>
+            <node begin="20" end="21" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="35" lcat="np" lemma="abrikoos" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="abrikoos" sense="abrikoos" word="abrikozen"/>
+          </node>
+        </node>
+        <node begin="21" end="22" frame="er_adverb(door)" id="36" lcat="pp" lemma="erdoor" pos="pp" postag="BW()" pt="bw" rel="ld" root="erdoor" sense="erdoor" special="er" word="erdoor"/>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" id="37" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Voeg wat zout en peper toe , en roer daarna ( ongeveer twee minuten ) de kruiden , rozijnen en abrikozen erdoor .</sentence>
+  <comments>
+    <comment>Q#19|Voeg wat zout en peper toe , en roer daarna ( ongeveer twee minuten ) de kruiden , rozijnen en abrikozen erdoor .|1|1|-11.211911621120002</comment>
+  </comments>
+</alpino_ds>

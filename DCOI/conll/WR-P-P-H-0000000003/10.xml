@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="3" lcat="np" lemma="winnaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="winnaar" sense="winnaar" word="Winnaar"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(onder,[door,vandaan])" id="5" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node begin="2" end="3" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="8" lcat="np" lemma="hoofd_fonds" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="hoofd_fonds" sense="hoofd_fonds" word="hoofdfondsen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(unacc,past(sg),copula)" id="9" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="5" cat="np" end="11" id="10" rel="predc">
+        <node begin="5" end="6" frame="proper_name(sg,'ORG')" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="KPNQwest" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="KPNQwest" sense="KPNQwest" word="KPNQwest"/>
+        <node begin="6" cat="rel" end="11" id="12" rel="mod">
+          <node begin="6" case="no_obl" end="7" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" id="13" index="1" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+          <node begin="6" cat="ssub" end="11" id="14" rel="body">
+            <node begin="6" end="7" id="15" index="1" rel="su"/>
+            <node begin="7" cat="np" end="9" id="16" rel="mod">
+              <node begin="7" end="8" frame="number(hoofd(both))" id="17" infl="both" lcat="detp" lemma="12,5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="12,5" sense="12,5" special="hoofd" word="12,5"/>
+              <node begin="8" end="9" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" id="18" lcat="np" lemma="procent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="procent" sense="procent" special="meas_mod" word="procent"/>
+            </node>
+            <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="koers_winst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="koers_winst" sense="koers_winst" word="koerswinst"/>
+            <node begin="10" end="11" frame="verb(hebben,past(sg),transitive)" id="20" infl="sg" lcat="ssub" lemma="noteren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="noteer" sc="transitive" sense="noteer" tense="past" word="noteerde" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Winnaar onder de hoofdfondsen was KPNQwest dat 12,5 procent koerswinst noteerde .</sentence>
+  <comments>
+    <comment>Q#10|Winnaar onder de hoofdfondsen was KPNQwest dat 12,5 procent koerswinst noteerde .|1|1|1.225212372459997</comment>
+  </comments>
+</alpino_ds>

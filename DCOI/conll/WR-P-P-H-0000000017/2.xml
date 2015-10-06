@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="Weck" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="predc" rnum="sg" root="Weck" sense="Weck" word="Weck"/>
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,copula)" id="3" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(sinds,[])" id="5" lcat="pp" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" sense="sinds" vztype="init" word="sinds"/>
+        <node begin="3" cat="np" end="5" id="6" rel="obj1">
+          <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="januari" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="januari" sense="januari" special="tmp" word="januari"/>
+          <node begin="4" end="5" frame="np(year)" id="8" lcat="np" lemma="1999" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="sg" root="1999" sense="1999" word="1999"/>
+        </node>
+      </node>
+      <node begin="5" cat="np" end="16" id="9" rel="su">
+        <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="directeur-generaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="directeur-generaal" sense="directeur-generaal" word="directeur-generaal"/>
+        <node begin="6" cat="conj" end="9" id="11" rel="app">
+          <node begin="6" end="7" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="Telecommunicatie" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Telecommunicatie" sense="Telecommunicatie" word="Telecommunicatie"/>
+          <node begin="7" conjtype="neven" end="8" frame="conj(en)" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="8" end="9" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="Post" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Post" sense="Post" word="Post"/>
+        </node>
+        <node begin="9" cat="pp" end="16" id="15" rel="mod">
+          <node begin="9" end="10" frame="preposition(bij,[vandaan])" id="16" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+          <node begin="10" cat="np" end="16" id="17" rel="obj1">
+            <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="19" lcat="np" lemma="ministerie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ministerie" sense="ministerie" word="ministerie"/>
+            <node begin="12" cat="pp" end="16" id="20" rel="mod">
+              <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="21" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="13" cat="conj" end="16" id="22" rel="obj1">
+                <node begin="13" end="14" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="23" lcat="np" lemma="verkeer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="verkeer" sense="verkeer" word="verkeer"/>
+                <node begin="14" conjtype="neven" end="15" frame="conj(en)" id="24" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="15" end="16" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="waterstaat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="waterstaat" sense="waterstaat" word="waterstaat"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Weck is sinds januari 1999 directeur-generaal Telecommunicatie en Post bij het ministerie van verkeer en waterstaat .</sentence>
+  <comments>
+    <comment>Q#2|Weck is sinds januari 1999 directeur-generaal Telecommunicatie en Post bij het ministerie van verkeer en waterstaat .|1|1|-2.4912434886200066</comment>
+  </comments>
+</alpino_ds>

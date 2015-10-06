@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" cat="np" end="10" id="4" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="Simeon" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Simeon" sense="Simeon" word="Simeon"/>
+        <node begin="2" cat="rel" end="10" id="6" rel="mod">
+          <node begin="2" case="no_obl" end="3" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="7" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="2" cat="ssub" end="10" id="8" rel="body">
+            <node begin="2" end="3" id="9" index="1" rel="su"/>
+            <node begin="3" cat="pp" end="7" id="10" rel="mod">
+              <node begin="3" end="4" frame="preposition(tussen,[door,in,vandaan])" id="11" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+              <node begin="4" cat="conj" end="7" id="12" rel="obj1">
+                <node begin="4" end="5" frame="np(year)" id="13" lcat="np" lemma="1946" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" rnum="sg" root="1946" sense="1946" word="1946"/>
+                <node begin="5" conjtype="neven" end="6" frame="conj(en)" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="6" end="7" frame="np(year)" id="15" lcat="np" lemma="1996" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" rnum="sg" root="1996" sense="1996" word="1996"/>
+              </node>
+            </node>
+            <node begin="7" cat="pp" end="9" id="16" rel="ld">
+              <node begin="7" end="8" frame="preposition(in,[])" id="17" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="8" end="9" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="ballingschap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="ballingschap" sense="ballingschap" word="ballingschap"/>
+            </node>
+            <node begin="9" end="10" frame="verb('hebben/zijn',past(sg),ld_pp)" id="19" infl="sg" lcat="ssub" lemma="verblijven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verblijf" sc="ld_pp" sense="verblijf" tense="past" word="verbleef" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" frame="verb(hebben,past(sg),transitive)" id="20" infl="sg" lcat="smain" lemma="winnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="win" sc="transitive" sense="win" stype="declarative" tense="past" word="won" wvorm="pv"/>
+      <node begin="12" cat="np" end="21" id="21" rel="obj1">
+        <node begin="12" end="13" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="13" end="14" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="helft" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="helft" sense="helft" special="tmp" word="helft"/>
+        <node begin="14" cat="pp" end="21" id="24" rel="mod">
+          <node begin="14" end="15" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="25" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="15" cat="np" end="21" id="26" rel="obj1">
+            <node begin="15" end="16" frame="determiner(de)" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="28" lcat="np" lemma="zetel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="zetel" sense="zetel" word="zetels"/>
+            <node begin="17" cat="pp" end="21" id="29" rel="mod">
+              <node begin="17" end="18" frame="preposition(in,[])" id="30" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="18" cat="np" end="21" id="31" rel="obj1">
+                <node begin="18" end="19" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="32" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node aform="base" begin="19" buiging="met-e" end="20" frame="adjective(e)" graad="basis" id="33" infl="e" lcat="ap" lemma="Bulgaars" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Bulgaars" sense="Bulgaars" vform="adj" word="Bulgaarse"/>
+                <node begin="20" end="21" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="34" lcat="np" lemma="parlement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="parlement" sense="parlement" word="parlement"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" id="35" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Simeon , die tussen 1946 en 1996 in ballingschap verbleef , won de helft van de zetels in het Bulgaarse parlement .</sentence>
+  <comments>
+    <comment>Q#4|Simeon , die tussen 1946 en 1996 in ballingschap verbleef , won de helft van de zetels in het Bulgaarse parlement .|1|1|-5.2597351412400055</comment>
+  </comments>
+</alpino_ds>

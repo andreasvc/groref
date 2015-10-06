@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="8" end="9" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="smain" end="26" id="3" rel="--">
+      <node begin="0" cat="np" end="8" id="4" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="ontvoering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ontvoering" sense="ontvoering" word="ontvoering"/>
+        <node begin="2" cat="pp" end="4" id="7" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="Mejia" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Mejia" sense="Mejia" word="Mejia"/>
+        </node>
+        <node begin="5" cat="ap" end="8" id="10" rel="mod">
+          <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(adv))" graad="basis" id="11" infl="no_e" lcat="ap" lemma="vermoedelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="vermoedelijk" sense="vermoedelijk" vform="adj" word="vermoedelijk"/>
+          <node begin="6" cat="pp" end="8" id="12" rel="mod">
+            <node begin="6" end="7" frame="preposition(door,[heen])" id="13" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+            <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="14" lcat="np" lemma="FARC_rebel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="FARC_rebel" sense="FARC_rebel" word="FARC-rebellen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" frame="verb(unacc,past(sg),copula)" id="15" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="10" cat="np" end="26" id="16" rel="predc">
+        <node begin="10" end="11" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="super" begin="11" buiging="met-e" end="12" frame="adjective(ste)" getal-n="zonder-n" graad="sup" id="18" infl="e" lcat="np" lemma="laat" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,sup,met-e,zonder-n,stan)" pt="adj" rel="hd" rnum="sg" root="laat" sense="laat" vform="adj" word="laatste"/>
+        <node begin="12" cat="pp" end="26" id="19" rel="mod">
+          <node begin="12" end="13" frame="preposition(in,[])" id="20" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="13" cat="np" end="26" id="21" rel="obj1">
+            <node begin="13" end="14" frame="determiner(een)" id="22" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="reeks" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="reeks" sense="reeks" word="reeks"/>
+            <node begin="15" cat="pp" end="26" id="24" rel="mod">
+              <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="25" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="16" cat="np" end="26" id="26" rel="obj1">
+                <node begin="16" end="17" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="27" lcat="np" lemma="incident" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="incident" sense="incident" word="incidenten"/>
+                <node begin="17" cat="rel" end="26" id="28" rel="mod">
+                  <node begin="17" case="no_obl" end="18" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="29" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                  <node begin="17" cat="ssub" end="26" id="30" rel="body">
+                    <node begin="17" end="18" id="31" index="1" rel="su"/>
+                    <node begin="21" end="22" frame="verb(unacc,past(pl),passive)" id="32" infl="pl" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" tense="past" word="werden" wvorm="pv"/>
+                    <node begin="17" cat="ppart" end="26" id="33" rel="vc">
+                      <node begin="17" end="18" id="34" index="1" rel="obj1"/>
+                      <node begin="18" cat="mwu" end="20" id="35" mwu_root="in verband" mwu_sense="in verband" rel="svp">
+                        <node begin="18" end="19" frame="fixed_part([in,verband])" id="36" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+                        <node begin="19" end="20" frame="fixed_part([in,verband])" genus="onz" getal="ev" graad="basis" id="37" lcat="fixed" lemma="verband" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="verband" sense="verband" word="verband"/>
+                      </node>
+                      <node begin="20" buiging="zonder" end="21" frame="verb(hebben,psp,fixed([{[[in,verband],pc(met)]},acc],norm_passive))" id="38" infl="psp" lcat="ppart" lemma="brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng" sc="fixed([{[[in,verband],pc(met)]},acc],norm_passive)" sense="in-verband-breng-met" word="gebracht" wvorm="vd"/>
+                      <node begin="22" cat="pp" end="26" id="39" rel="pc">
+                        <node begin="22" end="23" frame="preposition(met,[mee,[en,al]])" id="40" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                        <node begin="23" cat="np" end="26" id="41" rel="obj1">
+                          <node begin="23" end="24" frame="determiner(de)" id="42" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                          <node begin="24" cat="mwu" end="26" id="43" mwu_root="Copa America" mwu_sense="Copa America" rel="hd">
+                            <node begin="24" end="25" frame="proper_name(sg,'ORG')" id="44" lcat="np" lemma="Copa" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Copa" sense="Copa" spectype="deeleigen" word="Copa"/>
+                            <node begin="25" end="26" frame="proper_name(sg,'ORG')" id="45" lcat="np" lemma="America" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="America" sense="America" spectype="deeleigen" word="America"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" frame="punct(punt)" id="46" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De ontvoering van Mejia - vermoedelijk door FARC-rebellen - was de laatste in een reeks van incidenten die in verband gebracht werden met de Copa America .</sentence>
+  <comments>
+    <comment>Q#9|De ontvoering van Mejia - vermoedelijk door FARC-rebellen - was de laatste in een reeks van incidenten die in verband gebracht werden met de Copa America .|1|1|-4.252162989060007</comment>
+  </comments>
+</alpino_ds>

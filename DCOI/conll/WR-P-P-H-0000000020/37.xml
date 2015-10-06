@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="2" id="0" rel="top">
+    <node begin="0" end="1" frame="number(hoofd(pl_num))" id="1" infl="pl_num" lcat="np" lemma="vier" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="--" rnum="pl" root="vier" sense="vier" special="hoofd" word="Vier"/>
+    <node begin="1" end="2" frame="punct(uitroep)" id="2" lcat="punct" lemma="!" pos="punct" postag="LET()" pt="let" rel="--" root="!" sense="!" special="uitroep" word="!"/>
+  </node>
+  <sentence>Vier !</sentence>
+  <comments>
+    <comment>Q#37|Vier !|1|1|1.1263545283200003</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="13" end="14" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="25" id="2" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="3" infl="het" lcat="detp" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="dp" root="dit" sense="dit" status="vol" vwtype="aanw" wh="nwh" word="Dit"/>
+      <node begin="1" cat="pp" end="25" id="4" rel="dp">
+        <node begin="1" cat="mwu" end="4" id="5" mwu_root="als gevolg van" mwu_sense="als gevolg van" rel="hd">
+          <node begin="1" end="2" frame="preposition([als,gevolg,van],[])" id="6" lcat="pp" lemma="als" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="als" sense="als" vztype="init" word="als"/>
+          <node begin="2" end="3" frame="preposition([als,gevolg,van],[])" genus="onz" getal="ev" graad="basis" id="7" lcat="pp" lemma="gevolg" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="gevolg" sense="gevolg" word="gevolg"/>
+          <node begin="3" end="4" frame="preposition([als,gevolg,van],[])" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+        </node>
+        <node begin="4" cat="conj" end="25" id="9" rel="obj1">
+          <node begin="6" conjtype="neven" end="7" frame="conj(en)" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="4" cat="np" end="25" id="11" rel="cnj">
+            <node begin="4" end="5" frame="determiner(een)" id="12" index="1" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="mankement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="mankement" sense="mankement" word="mankement"/>
+            <node begin="8" cat="pp" end="25" id="14" index="2" rel="mod">
+              <node begin="8" end="9" frame="preposition(aan,[vooraf])" id="15" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+              <node begin="9" cat="np" end="25" id="16" rel="obj1">
+                <node begin="9" end="10" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="18" lcat="np" lemma="computer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="computer" sense="computer" word="computers"/>
+                <node begin="11" cat="pp" end="25" id="19" rel="mod">
+                  <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="12" cat="np" end="25" id="21" rel="obj1">
+                    <node begin="12" end="13" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="Interpay" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Interpay" sense="Interpay" word="Interpay"/>
+                    <node begin="14" cat="np" end="25" id="23" rel="app">
+                      <node begin="14" end="15" frame="determiner(de)" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="onderneming" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="onderneming" sense="onderneming" word="onderneming"/>
+                      <node begin="16" cat="pp" end="19" id="26" rel="mod">
+                        <node begin="16" end="17" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="27" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                        <node begin="17" cat="np" end="19" id="28" rel="obj1">
+                          <node begin="17" end="18" frame="determiner(de)" id="29" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                          <node begin="18" end="19" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="30" lcat="np" lemma="bank" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="bank" sense="bank" word="banken"/>
+                        </node>
+                      </node>
+                      <node begin="19" cat="rel" end="25" id="31" rel="mod">
+                        <node begin="19" case="no_obl" end="20" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="32" index="3" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                        <node begin="19" cat="ssub" end="25" id="33" rel="body">
+                          <node begin="19" end="20" id="34" index="3" rel="su"/>
+                          <node begin="20" cat="np" end="24" id="35" rel="obj1">
+                            <node begin="20" end="21" frame="determiner(de)" id="36" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                            <node begin="21" end="22" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="37" lcat="np" lemma="betaling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="betaling" sense="betaling" word="betalingen"/>
+                            <node begin="22" cat="pp" end="24" id="38" rel="mod">
+                              <node begin="22" end="23" frame="preposition(per,[])" id="39" lcat="pp" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" sense="per" vztype="init" word="per"/>
+                              <node begin="23" end="24" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" id="40" lcat="np" lemma="pin_pas" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="pin_pas" sense="pin_pas" word="pinpas"/>
+                            </node>
+                          </node>
+                          <node begin="24" end="25" frame="verb(hebben,sg3,transitive)" id="41" infl="sg3" lcat="ssub" lemma="verzorgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verzorg" sc="transitive" sense="verzorg" tense="present" word="verzorgt" wvorm="pv"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="4" cat="np" end="25" id="42" rel="cnj">
+            <node begin="4" end="5" id="43" index="1" rel="det"/>
+            <node begin="7" end="8" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="44" lcat="np" lemma="onderhoud" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="onderhoud" sense="onderhoud" word="onderhoud"/>
+            <node begin="8" end="25" id="45" index="2" rel="mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" id="46" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dit als gevolg van een mankement en onderhoud aan de computers van Interpay , de onderneming van de banken die de betalingen per pinpas verzorgt .</sentence>
+  <comments>
+    <comment>Q#3|Dit als gevolg van een mankement en onderhoud aan de computers van Interpay , de onderneming van de banken die de betalingen per pinpas verzorgt .|1|1|-0.31777949504001013</comment>
+  </comments>
+</alpino_ds>

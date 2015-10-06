@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" buiging="zonder" end="1" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" id="4" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="Geen"/>
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(adv))" graad="basis" id="5" infl="no_e" lcat="ap" lemma="gezellig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gezellig" sense="gezellig" vform="adj" word="gezellig"/>
+        <node begin="2" end="3" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="dim" id="6" lcat="np" lemma="avond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" rnum="sg" root="avond_DIM" sense="avond_DIM" special="tmp" word="avondje"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg,transitive)" id="7" infl="sg" lcat="smain" lemma="uiten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="uit" sc="transitive" sense="uit" stype="declarative" tense="present" word="uit" wvorm="pv"/>
+      <node begin="4" end="5" frame="adverb" id="8" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" sense="maar" word="maar"/>
+      <node begin="5" cat="np" end="18" id="9" rel="obj1">
+        <node begin="5" end="6" frame="determiner(een)" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="11" infl="e" lcat="ap" lemma="onnatuurlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="onnatuurlijk" sense="onnatuurlijk" vform="adj" word="onnatuurlijke"/>
+        <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="concentratie_oefening" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="concentratie_oefening" sense="concentratie_oefening" word="concentratie-oefening"/>
+        <node begin="9" cat="rel" end="18" id="13" rel="mod">
+          <node begin="9" end="10" frame="waar_adverb(bij)" id="14" index="1" lcat="pp" lemma="waarbij" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarbij" sense="waarbij" special="waar" word="waarbij"/>
+          <node begin="9" cat="ssub" end="18" id="15" rel="body">
+            <node begin="9" end="10" id="16" index="1" rel="mod"/>
+            <node begin="10" cat="np" end="15" id="17" rel="su">
+              <node begin="10" end="11" frame="determiner(een)" id="18" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="kriebel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kriebel" sense="kriebel" word="kriebel"/>
+              <node begin="12" cat="pp" end="15" id="20" rel="mod">
+                <node begin="12" end="13" frame="preposition(in,[])" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="13" cat="np" end="15" id="22" rel="obj1">
+                  <node begin="13" end="14" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="keel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="keel" sense="keel" word="keel"/>
+                </node>
+              </node>
+            </node>
+            <node begin="15" cat="np" end="17" id="25" rel="predc">
+              <node begin="15" end="16" frame="determiner(een)" id="26" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="nachtmerrie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="nachtmerrie" sense="nachtmerrie" word="nachtmerrie"/>
+            </node>
+            <node begin="17" end="18" frame="verb(unacc,sg_heeft,copula)" id="28" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Geen gezellig avondje uit maar een onnatuurlijke concentratie-oefening , waarbij een kriebel in de keel een nachtmerrie is .</sentence>
+  <comments>
+    <comment>Q#2|Geen gezellig avondje uit maar een onnatuurlijke concentratie-oefening , waarbij een kriebel in de keel een nachtmerrie is .|1|1|-4.0785115729600045</comment>
+  </comments>
+</alpino_ds>

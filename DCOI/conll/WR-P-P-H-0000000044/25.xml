@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="1" end="2" frame="verb(hebben,sg_heeft,aux_psp_hebben)" id="2" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="2" end="3" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="3" index="1" lcat="np" lemma="Milosevic" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Milosevic" sense="Milosevic" word="Milosevic"/>
+      <node begin="0" cat="ppart" end="11" id="4" rel="vc">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" id="5" infl="no_e" lcat="ap" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" sense="mogelijk" vform="adj" word="Mogelijk"/>
+        <node begin="2" end="3" id="6" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,psp,vp)" id="7" infl="psp" lcat="ppart" lemma="pogen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="poog" sc="vp" sense="poog" word="gepoogd" wvorm="vd"/>
+        <node begin="2" cat="ti" end="11" id="8" rel="vc">
+          <node begin="8" end="9" frame="complementizer(te)" id="9" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="2" cat="inf" end="11" id="10" rel="body">
+            <node begin="2" end="3" id="11" index="1" rel="su"/>
+            <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,aci_no_obj)" id="12" infl="inf" lcat="inf" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" sc="aci_no_obj" sense="laat" word="laten" wvorm="inf"/>
+            <node begin="4" cat="inf" end="11" id="13" rel="vc">
+              <node begin="4" cat="np" end="8" id="14" rel="obj1">
+                <node begin="4" end="5" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" id="16" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+                <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="premier"/>
+                <node begin="7" end="8" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="Blair" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Blair" sense="Blair" word="Blair"/>
+              </node>
+              <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,transitive)" id="19" infl="inf" lcat="inf" lemma="vermoorden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vermoord" sc="transitive" sense="vermoord" word="vermoorden" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Mogelijk heeft Milosevic gepoogd de Britse premier Blair te laten vermoorden .</sentence>
+  <comments>
+    <comment>Q#25|Mogelijk heeft Milosevic gepoogd de Britse premier Blair te laten vermoorden .|1|1|-8.4580955196</comment>
+  </comments>
+</alpino_ds>

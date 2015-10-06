@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(haak_open)" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="18" end="19" frame="punct(haak_sluit)" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="25" id="3" rel="--">
+      <node begin="0" cat="pp" end="2" id="4" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" end="2" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="6" lcat="np" lemma="Rosario" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Rosario" sense="Rosario" word="Rosario"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),transitive)" id="7" infl="sg" lcat="smain" lemma="treffen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="tref" sc="transitive" sense="tref" stype="declarative" tense="past" word="trof" wvorm="pv"/>
+      <node begin="3" end="4" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="Oranje" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Oranje" sense="Oranje" word="Oranje"/>
+      <node begin="4" end="5" frame="tmp_adverb" id="9" lcat="advp" lemma="gisteren" pos="adv" postag="BW()" pt="bw" rel="mod" root="gisteren" sense="gisteren" special="tmp" word="gisteren"/>
+      <node begin="5" cat="np" end="25" id="10" rel="obj1">
+        <node begin="5" end="6" frame="determiner(een)" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="opponent" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="opponent" sense="opponent" word="opponent"/>
+        <node begin="7" cat="rel" end="25" id="13" rel="mod">
+          <node begin="7" case="no_obl" end="8" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="14" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="7" cat="ssub" end="25" id="15" rel="body">
+            <node begin="7" end="8" id="16" index="1" rel="su"/>
+            <node begin="23" end="24" frame="verb(hebben,past(sg),aux_psp_hebben)" id="17" infl="sg" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past" word="had" wvorm="pv"/>
+            <node begin="7" cat="ppart" end="25" id="18" rel="vc">
+              <node begin="7" end="8" id="19" index="1" rel="su"/>
+              <node begin="8" end="9" frame="reflexive(u_thi,both)" getal="getal" id="20" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+              <node begin="9" cat="ap" end="11" id="21" rel="mod">
+                <node aform="base" begin="9" end="10" frame="adjective(both(tmpadv))" id="22" infl="both" lcat="ap" lemma="even" pos="adj" postag="BW()" pt="bw" rel="mod" root="even" sense="even" vform="adj" word="even"/>
+                <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(no_e(adv))" graad="basis" id="23" infl="no_e" lcat="ap" lemma="moeizaam" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="moeizaam" sense="moeizaam" vform="adj" word="moeizaam"/>
+              </node>
+              <node begin="12" cat="pp" end="18" id="24" rel="mod">
+                <node begin="12" end="13" frame="preposition(met,[mee,[en,al]])" id="25" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                <node begin="13" cat="np" end="18" id="26" rel="obj1">
+                  <node begin="13" end="14" frame="number(hoofd(pl_num))" id="27" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+                  <node begin="14" end="15" frame="meas_mod_noun(both,count,pl)" gen="both" getal="mv" graad="basis" id="28" lcat="np" lemma="punt" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="punt" sense="punt" special="meas_mod" word="punten"/>
+                  <node begin="15" cat="pp" end="18" id="29" rel="mod">
+                    <node begin="15" end="16" frame="preposition(uit,[vandaan])" id="30" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                    <node begin="16" cat="np" end="18" id="31" rel="obj1">
+                      <node begin="16" end="17" frame="number(hoofd(pl_num))" id="32" infl="pl_num" lcat="detp" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" sense="drie" special="hoofd" word="drie"/>
+                      <node begin="17" end="18" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="33" lcat="np" lemma="duel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="duel" sense="duel" special="tmp" word="duels"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="19" cat="pp" end="23" id="34" rel="ld">
+                <node begin="19" end="20" frame="preposition(door,[heen])" id="35" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                <node begin="20" cat="np" end="23" id="36" rel="obj1">
+                  <node begin="20" end="21" frame="determiner(de)" id="37" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="21" end="22" frame="number(rang)" id="38" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+                  <node begin="22" end="23" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="39" lcat="np" lemma="ronde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ronde" sense="ronde" special="tmp" word="ronde"/>
+                </node>
+              </node>
+              <node begin="24" buiging="zonder" end="25" frame="verb(hebben,psp,refl_ld_pp)" id="40" infl="psp" lcat="ppart" lemma="worstelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="worstel" sc="refl_ld_pp" sense="zich-worstel" word="geworsteld" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" id="41" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In Rosario trof Oranje gisteren een opponent die zich even moeizaam ( met vier punten uit drie duels ) door de eerste ronde had geworsteld .</sentence>
+  <comments>
+    <comment>Q#12|In Rosario trof Oranje gisteren een opponent die zich even moeizaam ( met vier punten uit drie duels ) door de eerste ronde had geworsteld .|1|1|-12.35588661208</comment>
+  </comments>
+</alpino_ds>

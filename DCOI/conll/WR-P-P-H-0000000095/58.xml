@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'PER')" genus="zijd" getal="ev" graad="basis" id="3" lcat="np" lemma="Smithuijsen" naamval="stan" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Smithuijsen" sense="Smithuijsen" word="Smithuijsen"/>
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,copula)" id="4" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="2" cat="ap" end="17" id="5" rel="predc">
+        <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(padv),pp(met))" graad="basis" id="6" infl="no_e" lcat="ap" lemma="blij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="blij" sc="pp(met)" sense="blij-met" vform="adj" word="blij"/>
+        <node begin="3" cat="pp" end="17" id="7" rel="pc">
+          <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" id="8" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="4" cat="np" end="17" id="9" rel="obj1">
+            <node begin="4" buiging="met-e" end="5" frame="determiner(de,nwh,nmod,pro,nparg)" id="10" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="deze"/>
+            <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="ontwikkeling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ontwikkeling" sense="ontwikkeling" word="ontwikkeling"/>
+            <node begin="7" cat="cp" end="17" id="12" rel="mod">
+              <node begin="7" conjtype="onder" end="8" frame="complementizer" id="13" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="omdat"/>
+              <node begin="8" cat="ssub" end="17" id="14" rel="body">
+                <node begin="8" cat="np" end="11" id="15" index="1" rel="su">
+                  <node begin="8" end="9" frame="determiner(de)" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="17" infl="e" lcat="ap" lemma="klassiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klassiek" sense="klassiek" vform="adj" word="klassieke"/>
+                  <node begin="10" end="11" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="muziek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="muziek" sense="muziek" word="muziek"/>
+                </node>
+                <node begin="14" end="15" frame="verb(hebben,sg3,aux(te))" id="19" infl="sg3" lcat="ssub" lemma="dreigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dreig" sc="aux(te)" sense="dreig" tense="present" word="dreigt" wvorm="pv"/>
+                <node begin="8" cat="ti" end="17" id="20" rel="vc">
+                  <node begin="15" end="16" frame="complementizer(te)" id="21" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                  <node begin="8" cat="inf" end="17" id="22" rel="body">
+                    <node begin="8" end="11" id="23" index="1" rel="su"/>
+                    <node aform="compar" begin="11" end="12" frame="adjective(anders)" id="24" infl="anders" lcat="ap" lemma="anders" pos="adj" postag="BW()" pt="bw" rel="mod" root="anders" sense="anders" vform="adj" word="anders"/>
+                    <node begin="12" cat="ppart" end="14" id="25" rel="predc">
+                      <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(adv))" graad="basis" id="26" infl="no_e" lcat="ap" lemma="erg" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="erg" sense="erg" vform="adj" word="erg"/>
+                      <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(ge_no_e(adv))" id="27" infl="no_e" lcat="ppart" lemma="geïsoleerd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geïsoleerd" sense="geïsoleerd" vform="psp" word="geïsoleerd" wvorm="vd"/>
+                    </node>
+                    <node begin="16" buiging="zonder" end="17" frame="verb(unacc,inf,copula)" id="28" infl="inf" lcat="inf" lemma="raken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="raak" sc="copula" sense="raak" word="raken" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Smithuijsen is blij met deze ontwikkeling , omdat de klassieke muziek anders erg geïsoleerd dreigt te raken .</sentence>
+  <comments>
+    <comment>Q#58|Smithuijsen is blij met deze ontwikkeling , omdat de klassieke muziek anders erg geïsoleerd dreigt te raken .|1|1|-9.116607731520006</comment>
+  </comments>
+</alpino_ds>

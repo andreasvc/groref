@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" cat="pp" end="2" id="4" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" end="2" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="mei" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="mei" sense="mei" special="tmp" word="mei"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,past(pl),intransitive)" id="7" infl="pl" lcat="smain" lemma="ontploffen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ontplof" sc="intransitive" sense="ontplof" stype="declarative" tense="past" word="ontploften" wvorm="pv"/>
+      <node begin="3" cat="conj" end="14" id="8" rel="su">
+        <node begin="3" cat="np" end="8" id="9" rel="cnj">
+          <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="10" lcat="np" lemma="bom" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="bom" sense="bom" word="bommen"/>
+          <node begin="4" cat="pp" end="8" id="11" rel="mod">
+            <node begin="4" end="5" frame="preposition(in,[])" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="5" cat="np" end="8" id="13" rel="obj1">
+              <node begin="5" end="6" frame="determiner(de)" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="15" lcat="np" lemma="speel_stad" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="speel_stad" sense="speel_stad" word="speelsteden"/>
+              <node begin="7" end="8" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="Cali" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Cali" sense="Cali" word="Cali"/>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="10" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="Medellin" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Medellin" sense="Medellin" word="Medellin"/>
+        <node begin="11" end="12" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="Pereira" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Pereira" sense="Pereira" word="Pereira"/>
+        <node begin="12" conjtype="neven" end="13" frame="conj(en)" id="19" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="13" end="14" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="20" lcat="np" lemma="Bogota" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Bogota" sense="Bogota" word="Bogota"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In mei ontploften bommen in de speelsteden Cali , Medellin , Pereira en Bogota .</sentence>
+  <comments>
+    <comment>Q#10|In mei ontploften bommen in de speelsteden Cali , Medellin , Pereira en Bogota .|1|1|-5.8526149392599995</comment>
+  </comments>
+</alpino_ds>

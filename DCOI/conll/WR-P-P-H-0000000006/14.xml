@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="pp" end="7" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="3" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="Van"/>
+        <node begin="1" cat="np" end="7" id="4" rel="obj1">
+          <node begin="1" cat="detp" end="4" id="5" rel="det">
+            <node begin="1" cat="mwu" end="3" id="6" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+              <node begin="1" buiging="zonder" end="2" frame="pre_num_adv(both)" graad="comp" id="7" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+              <node begin="2" conjtype="onder" end="3" frame="pre_num_adv(both)" id="8" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+            </node>
+            <node begin="3" end="4" frame="number(hoofd(pl_num))" id="9" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="twee" sense="twee" special="hoofd" word="twee"/>
+          </node>
+          <node begin="4" end="5" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="10" lcat="np" lemma="gras_toernooi" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gras_toernooi" sense="gras_toernooi" special="tmp" word="grastoernooien"/>
+          <node begin="5" cat="pp" end="7" id="11" rel="mod">
+            <node begin="5" end="6" frame="preposition(op,[af,na])" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="rij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="rij" sense="rij" word="rij"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(unacc,sg3,copula)" id="14" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="copula" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="8" case="nom" def="def" end="9" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="15" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+      <node begin="9" cat="ap" end="11" id="16" rel="predc">
+        <node begin="9" end="10" frame="intensifier" id="17" lcat="advp" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" sense="te" special="intensifier" word="te"/>
+        <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(no_e(padv))" graad="basis" id="18" infl="no_e" lcat="ap" lemma="moe" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="moe" sense="moe" vform="adj" word="moe"/>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Van meer dan twee grastoernooien op rij wordt hij te moe .</sentence>
+  <comments>
+    <comment>Q#14|Van meer dan twee grastoernooien op rij wordt hij te moe .|1|1|0.05934170267999722</comment>
+  </comments>
+</alpino_ds>

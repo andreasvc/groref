@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="1" id="0" rel="top">
+    <node begin="0" end="1" frame="proper_name(both)" genus="genus" getal="ev" graad="basis" id="1" lcat="np" lemma="www.trouw.nl/weer" naamval="stan" neclass="MISC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="--" rnum="sg" root="www.trouw.nl/weer" sense="www.trouw.nl/weer" word="www.trouw.nl/weer"/>
+  </node>
+  <sentence>www.trouw.nl/weer</sentence>
+  <comments>
+    <comment>Q#26|www.trouw.nl/weer|1|1|0.33473900000000006</comment>
+  </comments>
+</alpino_ds>

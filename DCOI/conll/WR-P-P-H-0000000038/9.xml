@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" id="3" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" cat="mwu" end="3" id="4" mwu_root="Zuid-West Nederland" mwu_sense="Zuid-West Nederland" rel="obj1">
+          <node begin="1" end="2" frame="proper_name(both,'LOC')" id="5" lcat="np" lemma="Zuid-West" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zuid-West" sense="Zuid-West" spectype="deeleigen" word="Zuid-West"/>
+          <node begin="2" end="3" frame="proper_name(both,'LOC')" id="6" lcat="np" lemma="Nederland" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nederland" sense="Nederland" spectype="deeleigen" word="Nederland"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,pl,intransitive)" id="7" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="intransitive" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="4" end="5" frame="er_vp_adverb" getal="getal" id="8" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="5" cat="np" end="17" id="9" rel="su">
+        <node begin="5" end="6" frame="noun(het,count,pl,vp)" gen="het" getal="mv" graad="basis" id="10" lcat="np" lemma="plan" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="plan" sc="vp" sense="plan" word="plannen"/>
+        <node begin="6" cat="oti" end="17" id="11" rel="vc">
+          <node begin="6" end="7" frame="complementizer(om)" id="12" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="7" cat="ti" end="17" id="13" rel="body">
+            <node begin="15" end="16" frame="complementizer(te)" id="14" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="7" cat="inf" end="17" id="15" rel="body">
+              <node begin="7" cat="np" end="15" id="16" rel="obj1">
+                <node begin="7" end="8" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="8" end="9" frame="proper_name(sg,'LOC')" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="A58" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="A58" sense="A58" word="A58"/>
+                <node begin="9" cat="pp" end="15" id="19" rel="mod">
+                  <node begin="9" end="10" frame="preposition(bij,[vandaan])" id="20" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+                  <node begin="10" cat="conj" end="15" id="21" rel="obj1">
+                    <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="22" lcat="np" lemma="Wouw" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Wouw" sense="Wouw" word="Wouw"/>
+                    <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                    <node begin="12" cat="mwu" end="15" id="24" mwu_root="Bergen op Zoom" mwu_sense="Bergen op Zoom" rel="cnj">
+                      <node begin="12" end="13" frame="proper_name(sg,'LOC')" id="25" lcat="np" lemma="Bergen" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bergen" sense="Bergen" spectype="deeleigen" word="Bergen"/>
+                      <node begin="13" end="14" frame="proper_name(sg,'LOC')" id="26" lcat="np" lemma="op" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="op" sense="op" spectype="deeleigen" word="op"/>
+                      <node begin="14" end="15" frame="proper_name(sg,'LOC')" id="27" lcat="np" lemma="Zoom" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zoom" sense="Zoom" spectype="deeleigen" word="Zoom"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,transitive)" id="28" infl="inf" lcat="inf" lemma="blokkeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="blokkeer" sc="transitive" sense="blokkeer" word="blokkeren" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In Zuid-West Nederland zijn er plannen om de A58 bij Wouw en Bergen op Zoom te blokkeren .</sentence>
+  <comments>
+    <comment>Q#9|In Zuid-West Nederland zijn er plannen om de A58 bij Wouw en Bergen op Zoom te blokkeren .|1|1|-4.86394092904</comment>
+  </comments>
+</alpino_ds>

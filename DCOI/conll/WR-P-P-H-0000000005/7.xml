@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="0" cat="smain" end="22" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="nominalized_adjective" getal-n="mv-n" graad="basis" id="4" lcat="np" lemma="religieus" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" rnum="pl" root="religieus" sense="religieus" special="a_noun" word="religieuzen"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,aux(inf))" id="5" infl="pl" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="present" word="zullen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="22" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,inf,pc_pp(voor))" id="8" infl="inf" lcat="inf" lemma="pleiten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="pleit" sc="pc_pp(voor)" sense="pleit-voor" word="pleiten" wvorm="inf"/>
+        <node begin="4" cat="pp" end="11" id="9" rel="pc">
+          <node begin="4" end="5" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="5" cat="np" end="11" id="11" rel="obj1">
+            <node begin="5" end="6" frame="determiner(een)" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="compar" begin="6" buiging="zonder" end="7" frame="adjective(er(adv))" graad="comp" id="13" infl="no_e" lcat="ap" lemma="sober" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="mod" root="sober" sense="sober" vform="adj" word="soberder"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="leven_stijl" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="leven_stijl" sense="leven_stijl" word="levensstijl"/>
+            <node begin="8" cat="pp" end="11" id="15" rel="mod">
+              <node begin="8" end="9" frame="preposition(in,[])" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="9" cat="np" end="11" id="17" rel="obj1">
+                <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="19" lcat="np" lemma="Westen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Westen" sense="Westen" word="Westen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" cat="oti" end="22" id="20" rel="mod">
+          <node begin="11" end="12" frame="complementizer(om)" id="21" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="12" cat="ti" end="22" id="22" rel="body">
+            <node begin="19" end="20" frame="complementizer(te)" id="23" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="12" cat="inf" end="22" id="24" rel="body">
+              <node begin="20" buiging="zonder" end="21" frame="verb(hebben,inf,aci_no_obj)" id="25" infl="inf" lcat="inf" lemma="helpen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="help" sc="aci_no_obj" sense="help" word="helpen" wvorm="inf"/>
+              <node begin="12" cat="inf" end="22" id="26" rel="vc">
+                <node begin="12" cat="np" end="19" id="27" rel="obj1">
+                  <node begin="12" end="13" frame="determiner(de)" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" id="29" infl="e" lcat="ap" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="economisch" sense="economisch" vform="adj" word="economische"/>
+                  <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="nood" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="nood" sense="nood" word="nood"/>
+                  <node begin="15" cat="pp" end="19" id="31" rel="mod">
+                    <node begin="15" end="16" frame="preposition(in,[])" id="32" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                    <node begin="16" cat="np" end="19" id="33" rel="obj1">
+                      <node begin="16" end="17" frame="determiner(de)" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="17" cat="mwu" end="19" id="35" mwu_root="Derde Wereld" mwu_sense="Derde Wereld" rel="hd">
+                        <node begin="17" end="18" frame="proper_name(sg)" id="36" lcat="np" lemma="Derde" naamval="stan" neclass="MISC" num="sg" numtype="rang" pos="name" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mwp" rnum="sg" root="Derde" sense="Derde" word="Derde"/>
+                        <node begin="18" end="19" frame="proper_name(sg)" genus="zijd" getal="ev" graad="basis" id="37" lcat="np" lemma="Wereld" naamval="stan" neclass="MISC" ntype="soort" num="sg" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="Wereld" sense="Wereld" word="Wereld"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="21" buiging="zonder" end="22" frame="verb(hebben,inf,transitive)" id="38" infl="inf" lcat="inf" lemma="verlichten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verlicht" sc="transitive" sense="verlicht" word="verlichten" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De religieuzen zullen pleiten voor een soberder levensstijl in het Westen om de economische nood in de Derde Wereld te helpen verlichten .</sentence>
+  <comments>
+    <comment>Q#7|De religieuzen zullen pleiten voor een soberder levensstijl in het Westen om de economische nood in de Derde Wereld te helpen verlichten .|1|1|-5.390774624600006</comment>
+  </comments>
+</alpino_ds>

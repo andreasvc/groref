@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="27" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="compar" begin="1" buiging="met-e" end="2" frame="adjective(ere)" graad="basis" id="5" infl="e" lcat="ap" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" sense="ander" vform="adj" word="andere"/>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="6" lcat="np" lemma="drug" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="drug" sense="drug" word="drugs"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,pl,pred_pc_pp(door))" id="7" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" sc="pred_pc_pp(door)" sense="word-door" stype="declarative" tense="present" word="worden" wvorm="pv"/>
+      <node begin="4" cat="pp" end="7" id="8" rel="mod">
+        <node begin="4" end="5" frame="preposition(in,[])" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(ende(padv))" id="11" infl="e" lcat="ppres" lemma="toe_nemen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="neem_toe" sense="neem_toe" vform="gerund" word="toenemende" wvorm="od"/>
+          <node begin="6" end="7" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="mate" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="mate" sense="mate" word="mate"/>
+        </node>
+      </node>
+      <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(ge_no_e(adv))" id="13" infl="no_e" lcat="ppart" lemma="gebruikt" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="gebruikt" sense="gebruikt" vform="psp" word="gebruikt" wvorm="vd"/>
+      <node begin="8" cat="pp" end="10" id="14" rel="pc">
+        <node begin="8" end="9" frame="preposition(door,[heen])" id="15" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+        <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" getal-n="zonder-n" graad="basis" id="16" infl="e" lcat="np" lemma="Iraans" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="obj1" rnum="sg" root="Iraans" sense="Iraans" vform="adj" word="Iraanse"/>
+      </node>
+      <node begin="10" cat="np" end="27" id="17" rel="predc">
+        <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="18" lcat="np" lemma="jongere" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="jongere" sense="jongere" word="jongeren"/>
+        <node begin="12" cat="rel" end="27" id="19" rel="mod">
+          <node begin="12" case="no_obl" end="13" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="20" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="12" cat="ssub" end="27" id="21" rel="body">
+            <node begin="12" end="13" id="22" index="1" rel="su"/>
+            <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(both(both))" graad="basis" id="23" infl="both" lcat="ap" lemma="ontevreden" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="ontevreden" sense="ontevreden" vform="adj" word="ontevreden"/>
+            <node begin="14" end="15" frame="verb(unacc,pl,copula)" id="24" infl="pl" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="zijn" wvorm="pv"/>
+            <node begin="15" cat="pp" end="27" id="25" rel="mod">
+              <node begin="15" end="16" frame="preposition(vanwege,[])" id="26" lcat="pp" lemma="vanwege" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanwege" sense="vanwege" vztype="init" word="vanwege"/>
+              <node begin="16" cat="conj" end="27" id="27" rel="obj1">
+                <node begin="16" cat="np" end="18" id="28" rel="cnj">
+                  <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" id="29" infl="e" lcat="ap" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hoog" sense="hoog" vform="adj" word="hoge"/>
+                  <node begin="17" end="18" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="werkloosheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="werkloosheid" sense="werkloosheid" word="werkloosheid"/>
+                </node>
+                <node begin="18" conjtype="neven" end="19" frame="conj(en)" id="31" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="19" cat="np" end="27" id="32" rel="cnj">
+                  <node begin="19" end="20" frame="determiner(de)" id="33" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="20" end="21" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="34" lcat="np" lemma="beperking" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="beperking" sense="beperking" word="beperkingen"/>
+                  <node begin="21" cat="rel" end="27" id="35" rel="mod">
+                    <node begin="21" case="no_obl" end="22" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="36" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                    <node begin="21" cat="ssub" end="27" id="37" rel="body">
+                      <node begin="21" end="22" id="38" index="2" rel="obj1"/>
+                      <node begin="22" cat="np" end="25" id="39" rel="su">
+                        <node begin="22" end="23" frame="determiner(de)" id="40" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                        <node aform="base" begin="23" buiging="met-e" end="24" frame="adjective(e)" graad="basis" id="41" infl="e" lcat="ap" lemma="islamitisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="islamitisch" sense="islamitisch" vform="adj" word="islamitische"/>
+                        <node begin="24" end="25" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="42" lcat="np" lemma="republiek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="republiek" sense="republiek" word="republiek"/>
+                      </node>
+                      <node begin="25" case="dat_acc" def="def" end="26" frame="pronoun(nwh,thi,pl,de,dat_acc,def)" gen="de" getal="mv" id="43" lcat="np" lemma="hen" naamval="obl" num="pl" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(pers,pron,obl,vol,3p,mv)" pt="vnw" rel="obj2" rnum="pl" root="hen" sense="hen" status="vol" vwtype="pers" wh="nwh" word="hen"/>
+                      <node begin="26" end="27" frame="verb(hebben,sg3,ninv(np_np,part_np_np(op)))" id="44" infl="sg3" lcat="ssub" lemma="op_leggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leg_op" sc="part_np_np(op)" sense="leg_op" tense="present" word="oplegt" wvorm="pv"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="45" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De andere drugs worden in toenemende mate gebruikt door Iraanse jongeren , die ontevreden zijn vanwege hoge werkloosheid en de beperkingen die de islamitische republiek hen oplegt .</sentence>
+  <comments>
+    <comment>Q#7|De andere drugs worden in toenemende mate gebruikt door Iraanse jongeren , die ontevreden zijn vanwege hoge werkloosheid en de beperkingen die de islamitische republiek hen oplegt .|1|1|-3.020448335819994</comment>
+  </comments>
+</alpino_ds>

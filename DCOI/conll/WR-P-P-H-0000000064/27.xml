@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="dp">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="4" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="verb(unacc,sg_heeft,copula)" id="5" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="2" cat="np" end="5" id="6" rel="predc">
+          <node begin="2" cat="np" end="4" id="7" rel="det">
+            <node begin="2" end="3" frame="determiner(een)" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="3" end="4" frame="noun(both,both,sg)" gen="both" genus="onz" getal="ev" graad="basis" id="9" lcat="np" lemma="soort" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="soort" sense="soort" word="soort"/>
+          </node>
+          <node begin="4" end="5" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="wensbidden" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wensbidden" sense="wensbidden" word="wensbidden"/>
+        </node>
+      </node>
+      <node begin="6" cat="smain" end="15" id="11" rel="dp">
+        <node begin="7" end="8" frame="verb(hebben,past(pl),aux(inf))" id="12" infl="pl" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="past" word="zouden" wvorm="pv"/>
+        <node begin="8" case="both" def="def" end="9" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" id="13" index="1" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" rnum="pl" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+        <node begin="6" cat="inf" end="15" id="14" rel="vc">
+          <node begin="6" end="7" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="15" lcat="np" lemma="bijgeloof" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="bijgeloof" sense="bijgeloof" word="bijgeloof"/>
+          <node begin="8" end="9" id="16" index="1" rel="su"/>
+          <node begin="9" cat="pp" end="12" id="17" rel="mod">
+            <node begin="9" end="10" frame="preposition(in,[])" id="18" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="10" cat="np" end="12" id="19" rel="obj1">
+              <node begin="10" end="11" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="kerk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kerk" sense="kerk" word="kerk"/>
+            </node>
+          </node>
+          <node begin="12" end="13" frame="sentence_adverb" id="22" lcat="advp" lemma="misschien" pos="adv" postag="BW()" pt="bw" rel="mod" root="misschien" sense="misschien" special="sentence" word="misschien"/>
+          <node aform="base" begin="13" end="14" frame="adjective(pred(adv))" id="23" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wel"/>
+          <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,transitive)" id="24" infl="inf" lcat="inf" lemma="zeggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zeg" sc="transitive" sense="zeg" word="zeggen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het is een soort wensbidden - bijgeloof zouden ze in de kerk misschien wel zeggen .</sentence>
+  <comments>
+    <comment>Q#27|Het is een soort wensbidden - bijgeloof zouden ze in de kerk misschien wel zeggen .|1|1|-4.7120249997400006</comment>
+  </comments>
+</alpino_ds>

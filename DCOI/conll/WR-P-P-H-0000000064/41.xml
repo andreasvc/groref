@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="2" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="Het"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,part_transitive(op))" id="3" infl="sg3" lcat="smain" lemma="op_roepen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="roep_op" sc="part_transitive(op)" sense="roep_op" stype="declarative" tense="present" word="roept" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="obj1">
+        <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" id="5" infl="e" lcat="ap" lemma="nostalgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nostalgisch" sense="nostalgisch" vform="adj" word="nostalgische"/>
+        <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="6" lcat="np" lemma="gevoel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gevoel" sense="gevoel" word="gevoelens"/>
+      </node>
+      <node begin="4" end="5" frame="particle(op)" id="7" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+    </node>
+    <node begin="5" end="6" frame="punct(punt)" id="8" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het roept nostalgische gevoelens op .</sentence>
+  <comments>
+    <comment>Q#41|Het roept nostalgische gevoelens op .|1|1|-3.6465746260200005</comment>
+  </comments>
+</alpino_ds>

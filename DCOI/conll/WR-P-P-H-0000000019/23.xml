@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="38" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="18" end="19" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="24" end="25" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="28" end="29" frame="punct(komma)" id="5" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="37" id="6" rel="--">
+      <node begin="0" cat="pp" end="4" id="7" rel="mod">
+        <node begin="0" end="1" frame="modal_adverb" id="8" lcat="advp" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="mod" root="alleen" sc="modal" sense="alleen" word="Alleen"/>
+        <node begin="1" end="2" frame="preposition(op,[af,na])" id="9" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="2" cat="np" end="4" id="10" rel="obj1">
+          <node begin="2" buiging="zonder" end="3" frame="determiner(de,nwh,nmod,pro,nparg)" id="11" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="manier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="manier" sense="manier" word="manier"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(unacc,sg_heeft,pc_pp(voor))" id="13" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="pc_pp(voor)" sense="ben-voor" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="5" end="6" frame="er_vp_adverb" getal="getal" id="14" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+      <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(adv))" graad="basis" id="15" infl="no_e" lcat="ap" lemma="letterlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="letterlijk" sense="letterlijk" vform="adj" word="letterlijk"/>
+      <node begin="9" end="10" frame="meas_mod_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="plaats" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="plaats" sense="plaats" special="meas_mod" word="plaats"/>
+      <node begin="10" cat="pp" end="37" id="17" rel="pc">
+        <node begin="10" end="11" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="18" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="11" cat="np" end="37" id="19" rel="obj1">
+          <node begin="11" end="12" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="12" end="13" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="21" lcat="np" lemma="kind" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kind" sense="kind" word="kinderen"/>
+          <node begin="13" cat="pp" end="37" id="22" rel="mod">
+            <node begin="13" end="14" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="23" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="14" cat="np" end="37" id="24" rel="obj1">
+              <node begin="14" end="15" frame="determiner(de)" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="15" end="16" frame="noun(de,count,pl,measure)" gen="de" getal-n="mv-n" graad="basis" id="26" lcat="np" lemma="honderdduizenden" num="pl" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" rnum="pl" root="honderdduizenden" sc="measure" sense="honderdduizenden" word="honderdduizenden"/>
+              <node begin="16" cat="np" end="37" id="27" rel="mod">
+                <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="28" lcat="np" lemma="vluchteling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vluchteling" sense="vluchteling" word="vluchtelingen"/>
+                <node begin="17" cat="rel" end="37" id="29" rel="mod">
+                  <node begin="17" case="no_obl" end="18" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="30" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                  <node begin="17" cat="ssub" end="37" id="31" rel="body">
+                    <node begin="17" end="18" id="32" index="1" rel="su"/>
+                    <node begin="35" end="36" frame="verb(hebben,pl,aux_psp_hebben)" id="33" infl="pl" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="hebben" wvorm="pv"/>
+                    <node begin="17" cat="ppart" end="37" id="34" rel="vc">
+                      <node begin="17" end="18" id="35" index="1" rel="su"/>
+                      <node begin="19" cat="pp" end="24" id="36" rel="mod">
+                        <node begin="19" end="20" frame="modal_adverb" id="37" lcat="advp" lemma="eerst" pos="adv" postag="BW()" pt="bw" rel="mod" root="eerst" sc="modal" sense="eerst" word="eerst"/>
+                        <node begin="20" end="21" frame="preposition(vanuit,[])" id="38" lcat="pp" lemma="vanuit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanuit" sense="vanuit" vztype="init" word="vanuit"/>
+                        <node begin="21" cat="conj" end="24" id="39" rel="obj1">
+                          <node begin="21" end="22" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="40" lcat="np" lemma="Kroatië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Kroatië" sense="Kroatië" word="Kroatië"/>
+                          <node begin="22" conjtype="neven" end="23" frame="conj(en)" id="41" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                          <node begin="23" end="24" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="42" lcat="np" lemma="Bosnië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Bosnië" sense="Bosnië" word="Bosnië"/>
+                        </node>
+                      </node>
+                      <node aform="compar" begin="25" buiging="zonder" end="26" frame="adjective(er(tmpadv))" graad="comp" id="43" infl="no_e" lcat="ap" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" sense="laat" vform="adj" word="later"/>
+                      <node begin="26" cat="pp" end="28" id="44" rel="mod">
+                        <node begin="26" end="27" frame="preposition(uit,[vandaan])" id="45" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                        <node begin="27" end="28" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="46" lcat="np" lemma="Kosovo" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Kosovo" sense="Kosovo" word="Kosovo"/>
+                      </node>
+                      <node begin="29" cat="np" end="35" id="47" rel="obj1">
+                        <node begin="29" buiging="zonder" end="30" frame="determiner(pron)" getal="mv" id="48" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                        <node begin="30" end="31" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="49" lcat="np" lemma="heil" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="heil" sense="heil" word="heil"/>
+                        <node begin="31" cat="pp" end="35" id="50" rel="mod">
+                          <node begin="31" end="32" frame="preposition(in,[])" id="51" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                          <node begin="32" cat="conj" end="35" id="52" rel="obj1">
+                            <node begin="32" end="33" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="53" lcat="np" lemma="Servië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Servië" sense="Servië" word="Servië"/>
+                            <node begin="33" conjtype="neven" end="34" frame="conj(en)" id="54" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                            <node begin="34" end="35" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="55" lcat="np" lemma="Montenegro" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Montenegro" sense="Montenegro" word="Montenegro"/>
+                          </node>
+                        </node>
+                      </node>
+                      <node begin="36" buiging="zonder" end="37" frame="verb(hebben,psp,transitive)" id="56" infl="psp" lcat="ppart" lemma="zoeken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zoek" sc="transitive" sense="zoek" word="gezocht" wvorm="vd"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="37" end="38" frame="punct(punt)" id="57" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Alleen op die manier is er , letterlijk , plaats voor de kinderen van de honderdduizenden vluchtelingen die , eerst vanuit Kroatië en Bosnië , later uit Kosovo , hun heil in Servië en Montenegro hebben gezocht .</sentence>
+  <comments>
+    <comment>Q#23|Alleen op die manier is er , letterlijk , plaats voor de kinderen van de honderdduizenden vluchtelingen die , eerst vanuit Kroatië en Bosnië , later uit Kosovo , hun heil in Servië en Montenegro hebben gezocht .|1|1|-10.135374449580022</comment>
+  </comments>
+</alpino_ds>

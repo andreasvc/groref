@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="np" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(een)" id="2" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+      <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="3" infl="e" lcat="ap" lemma="wollig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wollig" sense="wollig" vform="adj" word="wollige"/>
+      <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="tekst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tekst" sense="tekst" word="tekst"/>
+      <node begin="3" cat="rel" end="8" id="5" rel="mod">
+        <node begin="3" case="no_obl" end="4" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="6" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+        <node begin="3" cat="ssub" end="8" id="7" rel="body">
+          <node begin="3" end="4" id="8" index="1" rel="su"/>
+          <node begin="5" end="6" frame="verb(hebben,sg3,transitive)" id="9" infl="sg3" lcat="ssub" lemma="verhullen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verhul" sc="transitive" sense="verhul" tense="present" word="verhult" wvorm="pv"/>
+          <node begin="4" cat="np" end="8" id="10" rel="obj1">
+            <node aform="compar" begin="4" buiging="zonder" end="5" frame="adjective(meer)" graad="comp" id="11" infl="meer" lcat="np" lemma="meer" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" rnum="sg" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+            <node begin="6" cat="cp" end="8" id="12" rel="obcomp">
+              <node begin="6" conjtype="onder" end="7" frame="comparative(dan)" id="13" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+              <node begin="7" end="8" frame="verb(hebben,sg3,intransitive)" id="14" infl="sg3" lcat="ssub" lemma="verklaren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="body" root="verklaar" sc="intransitive" sense="verklaar" tense="present" word="verklaart" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" id="15" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Een wollige tekst die meer verhult dan verklaart .</sentence>
+  <comments>
+    <comment>Q#28|Een wollige tekst die meer verhult dan verklaart .|1|1|3.5053958333399997</comment>
+  </comments>
+</alpino_ds>

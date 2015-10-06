@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="np" end="4" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="2" lcat="np" lemma="vervolg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vervolg" sense="vervolg" word="VERVOLG"/>
+      <node begin="1" cat="pp" end="4" id="3" rel="mod">
+        <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="4" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="VAN"/>
+        <node begin="2" cat="np" end="4" id="5" rel="obj1">
+          <node begin="2" end="3" frame="noun(de,count,sg,measure)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="pagina" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="pagina" sc="measure" sense="pagina" word="PAGINA"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="1" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="1" sense="1" word="1"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>VERVOLG VAN PAGINA 1</sentence>
+  <comments>
+    <comment>Q#34|VERVOLG VAN PAGINA 1|1|1|-2.75764791886</comment>
+  </comments>
+</alpino_ds>

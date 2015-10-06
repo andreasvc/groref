@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="18" end="19" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="smain" end="29" id="3" rel="--">
+      <node begin="0" cat="cp" end="18" id="4" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer" id="5" lcat="cp" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" sense="hoewel" word="Hoewel"/>
+        <node begin="1" cat="ssub" end="18" id="6" rel="body">
+          <node begin="1" cat="np" end="6" id="7" rel="su">
+            <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="8" lcat="np" lemma="accommodatie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="accommodatie" sense="accommodatie" word="accommodaties"/>
+            <node begin="2" cat="pp" end="6" id="9" rel="mod">
+              <node begin="2" end="3" frame="preposition(in,[])" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="3" cat="conj" end="6" id="11" rel="obj1">
+                <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="12" lcat="np" lemma="Groningen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Groningen" sense="Groningen" word="Groningen"/>
+                <node begin="4" conjtype="neven" end="5" frame="conj(en)" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="Amsterdam" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Amsterdam" sense="Amsterdam" word="Amsterdam"/>
+              </node>
+            </node>
+          </node>
+          <node begin="6" cat="np" end="8" id="15" rel="mod">
+            <node begin="6" buiging="zonder" end="7" frame="determiner(het,nwh,nmod,pro,nparg)" id="16" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+            <node begin="7" end="8" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+          </node>
+          <node begin="8" cat="pp" end="11" id="18" rel="mod">
+            <node begin="8" end="9" frame="preposition(in,[])" id="19" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="9" cat="np" end="11" id="20" rel="obj1">
+              <node begin="9" end="10" frame="determiner(de)" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="voorronde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="voorronde" sense="voorronde" word="voorronde"/>
+            </node>
+          </node>
+          <node begin="11" cat="ap" end="13" id="23" rel="predc">
+            <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" id="24" infl="no_e" lcat="ap" lemma="aardig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aardig" sense="aardig" vform="adj" word="aardig"/>
+            <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(postn_no_e(both))" graad="basis" id="25" infl="no_e" lcat="ap" lemma="vol" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="vol" sense="vol" vform="adj" word="vol"/>
+          </node>
+          <node begin="13" end="14" frame="verb(hebben,past(pl),nonp_copula)" id="26" infl="pl" lcat="ssub" lemma="zitten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zit" sc="nonp_copula" sense="zit" tense="past" word="zaten" wvorm="pv"/>
+          <node begin="15" cat="smain" end="18" id="27" rel="mod">
+            <node begin="15" end="16" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="28" lcat="np" lemma="Eindhoven" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Eindhoven" sense="Eindhoven" word="Eindhoven"/>
+            <node begin="16" end="17" frame="verb(unacc,past(sg),part_intransitive(tegen))" id="29" infl="sg" lcat="smain" lemma="tegen_vallen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="val_tegen" sc="part_intransitive(tegen)" sense="val_tegen" stype="declarative" tense="past" word="viel" wvorm="pv"/>
+            <node begin="17" end="18" frame="particle(tegen)" id="30" lcat="part" lemma="tegen" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="tegen" sense="tegen" vztype="fin" word="tegen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="19" end="20" frame="verb(unacc,sg_heeft,copula_vp)" id="31" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula_vp" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="20" end="21" frame="het_noun" genus="onz" getal="ev" id="32" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" rnum="sg" root="het" sense="het" special="het" status="red" vwtype="pers" word="het"/>
+      <node begin="21" cat="pp" end="23" id="33" rel="mod">
+        <node begin="21" end="22" frame="preposition(in,[])" id="34" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="22" end="23" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="35" lcat="np" lemma="Nederland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Nederland" sense="Nederland" word="Nederland"/>
+      </node>
+      <node begin="23" end="24" frame="sentence_adverb" id="36" lcat="advp" lemma="altijd" pos="adv" postag="BW()" pt="bw" rel="mod" root="altijd" sense="altijd" special="sentence" word="altijd"/>
+      <node aform="base" begin="24" buiging="zonder" end="25" frame="adjective(no_e(adv),subject_vp)" graad="basis" id="37" infl="no_e" lcat="ap" lemma="moeilijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="moeilijk" sc="subject_vp" sense="moeilijk" vform="adj" word="moeilijk"/>
+      <node begin="25" cat="ti" end="29" id="38" rel="su">
+        <node begin="27" end="28" frame="complementizer(te)" id="39" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="25" cat="inf" end="29" id="40" rel="body">
+          <node begin="25" cat="np" end="27" id="41" rel="obj1">
+            <node aform="base" begin="25" end="26" frame="adjective(no_e(odet_adv))" id="42" infl="no_e" lcat="ap" lemma="zoveel" naamval="stan" numtype="hoofd" pos="adj" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zoveel" sense="zoveel" vform="adj" word="zoveel"/>
+            <node begin="26" end="27" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="43" lcat="np" lemma="liefhebber" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="liefhebber" sense="liefhebber" word="liefhebbers"/>
+          </node>
+          <node begin="28" buiging="zonder" end="29" frame="verb(hebben,inf,transitive)" id="44" infl="inf" lcat="inf" lemma="mobiliseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="mobiliseer" sc="transitive" sense="mobiliseer" word="mobiliseren" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" id="45" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Hoewel accommodaties in Groningen en Amsterdam dit jaar in de voorronde aardig vol zaten - Eindhoven viel tegen - is het in Nederland altijd moeilijk zoveel liefhebbers te mobiliseren .</sentence>
+  <comments>
+    <comment>Q#6|Hoewel accommodaties in Groningen en Amsterdam dit jaar in de voorronde aardig vol zaten - Eindhoven viel tegen - is het in Nederland altijd moeilijk zoveel liefhebbers te mobiliseren .|1|1|-4.9724348091400055</comment>
+  </comments>
+</alpino_ds>

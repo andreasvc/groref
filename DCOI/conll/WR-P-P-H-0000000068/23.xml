@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="0" cat="smain" end="24" id="1" rel="--">
+      <node begin="0" cat="pp" end="7" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(volgens,[])" id="3" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="Volgens"/>
+        <node begin="1" cat="np" end="7" id="4" rel="obj1">
+          <node begin="1" end="2" frame="determiner(een)" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="6" lcat="np" lemma="onderzoek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="onderzoek" sense="onderzoek" word="onderzoek"/>
+          <node begin="3" cat="pp" end="7" id="7" rel="mod">
+            <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="4" cat="np" end="7" id="9" rel="obj1">
+              <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="10" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="5" end="6" frame="noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="bureau" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bureau" sense="bureau" word="bureau"/>
+              <node begin="6" end="7" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="Gfk" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Gfk" sense="Gfk" word="Gfk"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(hebben,pl,transitive)" id="13" infl="pl" lcat="smain" lemma="besteden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="besteed" sc="transitive" sense="besteed" stype="declarative" tense="present" word="besteden" wvorm="pv"/>
+      <node begin="8" cat="np" end="14" id="14" rel="su">
+        <node begin="8" end="9" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="16" lcat="np" lemma="klant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="klant" sense="klant" word="klanten"/>
+        <node begin="10" cat="pp" end="14" id="17" rel="mod">
+          <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="11" cat="np" end="14" id="19" rel="obj1">
+            <node begin="11" end="12" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(e)" graad="basis" id="21" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+            <node begin="13" end="14" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="Konmar" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Konmar" sense="Konmar" word="Konmar"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="pp" end="16" id="23" rel="mod">
+        <node begin="14" end="15" frame="preposition(per,[])" id="24" lcat="pp" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" sense="per" vztype="init" word="per"/>
+        <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="25" lcat="np" lemma="bezoek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="bezoek" sense="bezoek" word="bezoek"/>
+      </node>
+      <node begin="16" cat="np" end="24" id="26" rel="obj1">
+        <node begin="16" end="17" frame="meas_mod_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="27" lcat="np" lemma="gulden" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="me" rnum="pl" root="gulden" sense="gulden" special="meas_mod" word="guldens"/>
+        <node aform="compar" begin="17" buiging="zonder" end="18" frame="adjective(meer)" graad="comp" id="28" infl="meer" lcat="np" lemma="minder" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" rnum="sg" root="minder" sense="minder" vform="adj" vwtype="onbep" word="minder"/>
+        <node begin="18" cat="cp" end="24" id="29" rel="obcomp">
+          <node begin="18" conjtype="onder" end="19" frame="comparative(dan)" id="30" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+          <node begin="19" cat="pp" end="24" id="31" rel="body">
+            <node begin="19" end="20" frame="preposition(in,[])" id="32" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="20" cat="np" end="24" id="33" rel="obj1">
+              <node begin="20" end="21" frame="determiner(de)" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="21" end="22" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="35" lcat="np" lemma="Konmar" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Konmar" sense="Konmar" word="Konmar"/>
+              <node begin="22" cat="np" end="24" id="36" rel="mod">
+                <node aform="base" begin="22" buiging="met-e" end="23" frame="adjective(e)" graad="basis" id="37" infl="e" lcat="ap" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" sense="oud" vform="adj" word="oude"/>
+                <node begin="23" end="24" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="38" lcat="np" lemma="stijl" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stijl" sense="stijl" word="stijl"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Volgens een onderzoek van het bureau Gfk besteden de klanten van de nieuwe Konmar per bezoek guldens minder dan in de Konmar oude stijl .</sentence>
+  <comments>
+    <comment>Q#23|Volgens een onderzoek van het bureau Gfk besteden de klanten van de nieuwe Konmar per bezoek guldens minder dan in de Konmar oude stijl .|1|1|-3.606910842980005</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="24" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="cnj">
+        <node begin="0" cat="np" end="2" id="4" rel="mod">
+          <node begin="0" buiging="zonder" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" id="5" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="Dit"/>
+          <node begin="1" end="2" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="6" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+        </node>
+        <node begin="2" end="3" frame="verb('hebben/zijn',sg3,ld_pp)" id="7" infl="sg3" lcat="smain" lemma="rijden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="rijd" sc="ld_pp" sense="rijd" stype="declarative" tense="present" word="rijdt" wvorm="pv"/>
+        <node begin="3" case="nom" def="def" end="4" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="8" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+        <node begin="4" cat="pp" end="8" id="9" rel="ld">
+          <node begin="4" end="5" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="5" cat="np" end="8" id="11" rel="obj1">
+            <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="12" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="13" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+            <node begin="7" end="8" frame="proper_name(both,'ORG')" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="Mercury-Viatel" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Mercury-Viatel" sense="Mercury-Viatel" word="Mercury-Viatel"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" conjtype="neven" end="10" frame="conj(maar)" id="15" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="10" cat="smain" end="24" id="16" rel="cnj">
+        <node begin="10" cat="np" end="12" id="17" index="1" rel="su">
+          <node begin="10" buiging="zonder" end="11" frame="determiner(het,nwh,nmod,pro,nparg)" id="18" infl="het" lcat="detp" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" sense="dat" vwtype="aanw" wh="nwh" word="dat"/>
+          <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="19" lcat="np" lemma="avontuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="avontuur" sense="avontuur" word="avontuur"/>
+        </node>
+        <node begin="12" end="13" frame="verb(hebben,past(sg),aux(inf))" id="20" infl="sg" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="past" word="zou" wvorm="pv"/>
+        <node begin="10" cat="inf" end="24" id="21" rel="vc">
+          <node begin="10" end="12" id="22" index="1" rel="su"/>
+          <node begin="22" buiging="zonder" end="23" frame="verb('hebben/zijn',inf,aux(inf))" id="23" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+          <node begin="10" cat="inf" end="24" id="24" rel="vc">
+            <node begin="10" end="12" id="25" index="1" rel="su"/>
+            <node begin="13" cat="pp" end="16" id="26" rel="mod">
+              <node begin="13" end="14" frame="preposition(na,[])" id="27" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+              <node begin="14" cat="np" end="16" id="28" rel="obj1">
+                <node begin="14" buiging="zonder" end="15" frame="determiner(het,nwh,nmod,pro,nparg)" id="29" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+                <node begin="15" end="16" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="30" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+              </node>
+            </node>
+            <node begin="16" cat="pp" end="20" id="31" rel="mod">
+              <node begin="16" end="17" frame="preposition(ondanks,[])" id="32" lcat="pp" lemma="ondanks" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="ondanks" sense="ondanks" vztype="init" word="ondanks"/>
+              <node begin="17" cat="np" end="20" id="33" rel="obj1">
+                <node begin="17" end="18" frame="determiner(een)" id="34" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node aform="base" begin="18" buiging="zonder" end="19" frame="adjective(end(both))" id="35" infl="no_e" lcat="ppres" lemma="door_lopen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="loop_door" sense="loop_door" vform="gerund" word="doorlopend" wvorm="od"/>
+                <node begin="19" end="20" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="36" lcat="np" lemma="contract" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="contract" sense="contract" word="contract"/>
+              </node>
+            </node>
+            <node aform="base" begin="20" end="21" frame="adjective(pred(adv))" id="37" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wel"/>
+            <node begin="21" end="22" frame="tmp_adverb" id="38" lcat="advp" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" sense="eens" special="tmp" word="eens"/>
+            <node begin="23" buiging="zonder" end="24" frame="verb(zijn,inf,intransitive)" id="39" infl="inf" lcat="inf" lemma="eindigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="eindig" sc="intransitive" sense="eindig" word="eindigen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dit jaar rijdt hij voor het Amerikaanse Mercury-Viatel , maar dat avontuur zou na dit jaar ondanks een doorlopend contract wel eens kunnen eindigen .</sentence>
+  <comments>
+    <comment>Q#57|Dit jaar rijdt hij voor het Amerikaanse Mercury-Viatel , maar dat avontuur zou na dit jaar ondanks een doorlopend contract wel eens kunnen eindigen .|1|1|-9.881602728599995</comment>
+  </comments>
+</alpino_ds>

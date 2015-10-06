@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" end="1" frame="het_noun" genus="onz" getal="ev" id="2" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" rnum="sg" root="het" sense="het" special="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,copula_sbar)" id="3" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula_sbar" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="4" rel="predc">
+        <node begin="2" end="3" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="super" begin="3" buiging="met-e" end="4" frame="adjective(ste)" graad="sup" id="6" infl="e" lcat="ap" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="belangrijk" sense="belangrijk" vform="adj" word="belangrijkste"/>
+        <node begin="4" end="5" frame="noun(de,count,sg,subject_sbar)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="reden" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="reden" sc="subject_sbar" sense="reden" word="reden"/>
+      </node>
+      <node begin="5" cat="whsub" end="12" id="8" rel="su">
+        <node begin="5" end="6" frame="waar_adverb(om)" id="9" index="1" lcat="pp" lemma="waarom" pos="pp" postag="BW()" pt="bw" rel="whd" root="waarom" sense="waarom" special="waar" word="waarom"/>
+        <node begin="5" cat="ssub" end="12" id="10" rel="body">
+          <node begin="6" case="nom" def="def" end="7" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="11" index="2" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+          <node begin="9" end="10" frame="verb(hebben,past(sg),aux(inf))" id="12" infl="sg" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past" word="zou" wvorm="pv"/>
+          <node begin="5" cat="inf" end="12" id="13" rel="vc">
+            <node begin="6" end="7" id="14" index="2" rel="su"/>
+            <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,modifier(aux(inf)))" id="15" infl="inf" lcat="inf" lemma="willen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" word="willen" wvorm="inf"/>
+            <node begin="5" cat="inf" end="12" id="16" rel="vc">
+              <node begin="5" end="6" id="17" index="1" rel="mod"/>
+              <node begin="6" end="7" id="18" index="2" rel="su"/>
+              <node aform="base" begin="7" end="8" frame="adjective(pred(adv))" id="19" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wel"/>
+              <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(no_e(adv))" graad="basis" id="20" infl="no_e" lcat="ap" lemma="religieus" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="religieus" sense="religieus" vform="adj" word="religieus"/>
+              <node begin="11" buiging="zonder" end="12" frame="verb(unacc,inf,copula)" id="21" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="copula" sense="ben" word="zijn" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="22" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het is de belangrijkste reden waarom ik wel religieus zou willen zijn .</sentence>
+  <comments>
+    <comment>Q#65|Het is de belangrijkste reden waarom ik wel religieus zou willen zijn .|1|1|-15.159322384940007</comment>
+  </comments>
+</alpino_ds>

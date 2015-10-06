@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" id="3" infl="e" lcat="ap" lemma="wild" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wild" sense="wild" vform="adj" word="Wilde"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="4" lcat="np" lemma="speculatie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="speculatie" sense="speculatie" word="speculaties"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(pl),fixed([[de,ronde]],no_passive))" id="5" infl="pl" lcat="smain" lemma="doen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="doe" sc="fixed([[de,ronde]],no_passive)" sense="de-ronde-doe" stype="declarative" tense="past" word="deden" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="6" rel="mod">
+        <node begin="3" end="4" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" id="8" infl="e" lcat="ap" lemma="voorbij" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voorbij" sense="voorbij" vform="adj" word="voorbije"/>
+        <node begin="5" end="6" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="9" lcat="np" lemma="maand" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="maand" sense="maand" special="tmp" word="maanden"/>
+      </node>
+      <node begin="6" cat="mwu" end="8" id="10" mwu_root="de ronde" mwu_sense="de ronde" rel="svp">
+        <node begin="6" end="7" frame="fixed_part([de,ronde])" id="11" lcat="fixed" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="fixed" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" sense="de" word="de"/>
+        <node begin="7" end="8" frame="fixed_part([de,ronde])" genus="zijd" getal="ev" graad="basis" id="12" lcat="fixed" lemma="ronde" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="ronde" sense="ronde" word="ronde"/>
+      </node>
+      <node begin="8" cat="pp" end="17" id="13" rel="mod">
+        <node begin="8" end="9" frame="preposition(over,[heen])" id="14" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+        <node begin="9" cat="np" end="17" id="15" rel="obj1">
+          <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="16" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" id="17" infl="e" lcat="ap" lemma="mogelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mogelijk" sense="mogelijk" vform="adj" word="mogelijke"/>
+          <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="18" lcat="np" lemma="pensioen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="pensioen" sense="pensioen" word="pensioen"/>
+          <node begin="12" cat="pp" end="17" id="19" rel="mod">
+            <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="13" cat="np" end="17" id="21" rel="obj1">
+              <node begin="13" end="14" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" id="23" infl="e" lcat="ap" lemma="voormalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voormalig" sense="voormalig" vform="adj" word="voormalige"/>
+              <node begin="15" end="16" frame="meas_mod_noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="nummer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="nummer" sense="nummer" special="meas_mod" word="nummer"/>
+              <node begin="16" end="17" frame="number(hoofd(sg_num))" id="25" infl="sg_num" lcat="detp" lemma="één" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="één" sense="één" special="hoofd" word="één"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Wilde speculaties deden de voorbije maanden de ronde over het mogelijke pensioen van de voormalige nummer één .</sentence>
+  <comments>
+    <comment>Q#13|Wilde speculaties deden de voorbije maanden de ronde over het mogelijke pensioen van de voormalige nummer één .|1|1|-2.4978251407799976</comment>
+  </comments>
+</alpino_ds>

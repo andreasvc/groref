@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="3" end="4" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="5" end="6" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="21" id="4" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="5" lcat="np" lemma="Venezuela" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="sat" rnum="sg" root="Venezuela" sense="Venezuela" word="Venezuela"/>
+      <node begin="2" cat="smain" end="21" id="6" rel="nucl">
+        <node begin="2" cat="conj" end="9" id="7" rel="su">
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="Ecuador" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Ecuador" sense="Ecuador" word="Ecuador"/>
+          <node begin="4" end="5" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="9" lcat="np" lemma="Paraguay" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Paraguay" sense="Paraguay" word="Paraguay"/>
+          <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="Chili" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Chili" sense="Chili" word="Chili"/>
+          <node begin="7" conjtype="neven" end="8" frame="conj(en)" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="8" end="9" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="12" lcat="np" lemma="Bolivia" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Bolivia" sense="Bolivia" word="Bolivia"/>
+        </node>
+        <node begin="9" end="10" frame="verb(hebben,past(pl),transitive)" id="13" infl="pl" lcat="smain" lemma="steunen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="steun" sc="transitive" sense="steun" stype="declarative" tense="past" word="steunden" wvorm="pv"/>
+        <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(no_e(adv))" graad="basis" id="14" infl="no_e" lcat="ap" lemma="uiteindelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="uiteindelijk" sense="uiteindelijk" vform="adj" word="uiteindelijk"/>
+        <node begin="11" cat="np" end="15" id="15" rel="obj1">
+          <node begin="11" end="12" frame="determiner(de)" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="12" end="13" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="kanditatuur" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kanditatuur" sense="kanditatuur" word="kanditatuur"/>
+          <node begin="13" cat="pp" end="15" id="18" rel="mod">
+            <node begin="13" end="14" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="19" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="20" lcat="np" lemma="Colombia" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Colombia" sense="Colombia" word="Colombia"/>
+          </node>
+        </node>
+        <node begin="15" cat="pp" end="21" id="21" rel="mod">
+          <node begin="15" end="16" frame="preposition(tijdens,[])" id="22" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+          <node begin="16" cat="np" end="21" id="23" rel="obj1">
+            <node begin="16" end="17" frame="determiner(de)" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="vergadering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vergadering" sense="vergadering" word="vergadering"/>
+            <node begin="18" cat="pp" end="21" id="26" rel="mod">
+              <node begin="18" end="19" frame="preposition(in,[])" id="27" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="19" cat="mwu" end="21" id="28" mwu_root="Buenos Aires" mwu_sense="Buenos Aires" rel="obj1">
+                <node begin="19" end="20" frame="proper_name(sg,'LOC')" id="29" lcat="np" lemma="Buenos" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Buenos" sense="Buenos" spectype="deeleigen" word="Buenos"/>
+                <node begin="20" end="21" frame="proper_name(sg,'LOC')" id="30" lcat="np" lemma="Aires" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Aires" sense="Aires" spectype="deeleigen" word="Aires"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Venezuela , Ecuador , Paraguay , Chili en Bolivia steunden uiteindelijk de kanditatuur van Colombia tijdens de vergadering in Buenos Aires .</sentence>
+  <comments>
+    <comment>Q#33|Venezuela , Ecuador , Paraguay , Chili en Bolivia steunden uiteindelijk de kanditatuur van Colombia tijdens de vergadering in Buenos Aires .|1|1|-10.525876925399999</comment>
+  </comments>
+</alpino_ds>

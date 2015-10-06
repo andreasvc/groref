@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="3" id="0" rel="top">
+    <node begin="0" cat="np" end="3" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="foto" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="foto" sense="foto" word="FOTO"/>
+      <node begin="1" cat="mwu" end="3" id="3" mwu_root="CHRIS KEULEN" mwu_sense="CHRIS KEULEN" rel="app">
+        <node begin="1" end="2" frame="proper_name(both)" id="4" lcat="np" lemma="CHRIS" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="CHRIS" sense="CHRIS" spectype="deeleigen" word="CHRIS"/>
+        <node begin="2" end="3" frame="proper_name(both)" id="5" lcat="np" lemma="KEULEN" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="KEULEN" sense="KEULEN" spectype="deeleigen" word="KEULEN"/>
+      </node>
+    </node>
+  </node>
+  <sentence>FOTO CHRIS KEULEN</sentence>
+  <comments>
+    <comment>Q#18|FOTO CHRIS KEULEN|1|1|1.19755288576</comment>
+  </comments>
+</alpino_ds>

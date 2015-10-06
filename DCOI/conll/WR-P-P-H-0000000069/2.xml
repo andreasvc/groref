@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="0" cat="smain" end="22" id="1" rel="--">
+      <node begin="0" cat="ppart" end="10" id="2" rel="mod">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(ge_no_e(adv),pp(over))" id="3" infl="no_e" lcat="ppart" lemma="verspreid" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verspreid" sc="pp(over)" sense="verspreid-over" vform="psp" word="Verspreid" wvorm="vd"/>
+        <node begin="1" cat="pp" end="10" id="4" rel="pc">
+          <node begin="1" end="2" frame="preposition(over,[heen])" id="5" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="2" cat="np" end="10" id="6" rel="obj1">
+            <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" id="8" infl="e" lcat="ap" lemma="diep" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="diep" sense="diep" vform="adj" word="diepe"/>
+            <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" id="9" infl="e" lcat="ap" lemma="zwart" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zwart" sense="zwart" vform="adj" word="zwarte"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="toneel_gat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="toneel_gat" sense="toneel_gat" word="toneelgat"/>
+            <node begin="6" cat="pp" end="10" id="11" rel="mod">
+              <node begin="6" end="7" frame="preposition(in,[])" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="7" cat="np" end="10" id="13" rel="obj1">
+                <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="14" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" id="15" infl="e" lcat="ap" lemma="Amsterdams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amsterdams" sense="Amsterdams" vform="adj" word="Amsterdamse"/>
+                <node begin="9" end="10" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="Muziektheater" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Muziektheater" sense="Muziektheater" word="Muziektheater"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb(hebben,pl,part_transitive(op))" id="17" infl="pl" lcat="smain" lemma="op_lichten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="licht_op" sc="part_transitive(op)" sense="licht_op" stype="declarative" tense="present" word="lichten" wvorm="pv"/>
+      <node begin="11" cat="np" end="18" id="18" rel="su">
+        <node begin="11" end="12" frame="determiner(de)" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(ge_e)" id="20" infl="e" lcat="ppart" lemma="beroemd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="beroemd" sense="beroemd" vform="psp" word="beroemde" wvorm="vd"/>
+        <node begin="13" cat="mwu" end="15" id="21" mwu_root="silver cushions" mwu_sense="silver cushions" rel="hd">
+          <node begin="13" end="14" frame="proper_name(both)" id="22" lcat="np" lemma="silver" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="silver" sense="silver" spectype="deeleigen" word="silver"/>
+          <node begin="14" end="15" frame="proper_name(both)" id="23" lcat="np" lemma="cushions" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="cushions" sense="cushions" spectype="deeleigen" word="cushions"/>
+        </node>
+        <node begin="15" cat="pp" end="18" id="24" rel="mod">
+          <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="25" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="16" cat="mwu" end="18" id="26" mwu_root="Andy Warhol" mwu_sense="Andy Warhol" rel="obj1">
+            <node begin="16" end="17" frame="proper_name(sg,'PER')" id="27" lcat="np" lemma="Andy" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Andy" sense="Andy" spectype="deeleigen" word="Andy"/>
+            <node begin="17" end="18" frame="proper_name(sg,'PER')" id="28" lcat="np" lemma="Warhol" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Warhol" sense="Warhol" spectype="deeleigen" word="Warhol"/>
+          </node>
+        </node>
+      </node>
+      <node begin="18" cat="conj" end="21" id="29" rel="obj1">
+        <node begin="18" end="19" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="30" lcat="np" lemma="blauw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="blauw" sense="blauw" word="blauw"/>
+        <node begin="19" conjtype="neven" end="20" frame="conj(en)" id="31" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="20" end="21" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="32" lcat="np" lemma="wit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="wit" sense="wit" word="wit"/>
+      </node>
+      <node begin="21" end="22" frame="particle(op)" id="33" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Verspreid over het diepe zwarte toneelgat in het Amsterdamse Muziektheater lichten de beroemde silver cushions van Andy Warhol blauw en wit op .</sentence>
+  <comments>
+    <comment>Q#2|Verspreid over het diepe zwarte toneelgat in het Amsterdamse Muziektheater lichten de beroemde silver cushions van Andy Warhol blauw en wit op .|1|1|-2.087580741140003</comment>
+  </comments>
+</alpino_ds>

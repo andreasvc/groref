@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="17" end="18" frame="punct(haak_open)" id="2" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="0" cat="du" end="19" id="3" rel="--">
+      <node begin="0" cat="smain" end="4" id="4" rel="nucl">
+        <node begin="0" cat="np" end="2" id="5" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="tijd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tijd" sense="tijd" special="tmp" word="tijd"/>
+        </node>
+        <node begin="2" end="3" frame="verb(unacc,sg_heeft,copula)" id="8" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(nonadv))" graad="basis" id="9" infl="no_e" lcat="ap" lemma="rijp" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="rijp" sense="rijp" vform="adj" word="rijp"/>
+      </node>
+      <node begin="5" cat="sv1" end="19" id="10" rel="tag">
+        <node begin="5" end="6" frame="verb(hebben,sg3,sbar)" id="11" infl="sg3" lcat="sv1" lemma="roepen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="roep" sc="sbar" sense="roep" tense="present" word="roept" wvorm="pv"/>
+        <node begin="6" cat="np" end="19" id="12" rel="su">
+          <node begin="6" end="7" frame="determiner(de)" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="folder" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="folder" sense="folder" word="folder"/>
+          <node begin="8" cat="pp" end="19" id="15" rel="mod">
+            <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="19" id="17" rel="obj1">
+              <node begin="9" end="10" frame="determiner(de)" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="10" end="11" frame="number(rang)" id="19" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+              <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" id="20" infl="e" lcat="ap" lemma="internationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj" word="internationale"/>
+              <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="bijeenkomst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bijeenkomst" sense="bijeenkomst" word="bijeenkomst"/>
+              <node begin="13" cat="pp" end="19" id="22" rel="mod">
+                <node begin="13" end="14" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="23" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="14" cat="np" end="19" id="24" rel="obj1">
+                  <node begin="14" cat="mwu" end="17" id="25" mwu_root="Women&apos;s Ordination Worldwide" mwu_sense="Women&apos;s Ordination Worldwide" rel="hd">
+                    <node begin="14" end="15" frame="proper_name(both,'ORG')" id="26" lcat="np" lemma="Women&apos;s" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Women&apos;s" sense="Women&apos;s" spectype="deeleigen" word="Women&apos;s"/>
+                    <node begin="15" end="16" frame="proper_name(both,'ORG')" id="27" lcat="np" lemma="Ordination" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ordination" sense="Ordination" spectype="deeleigen" word="Ordination"/>
+                    <node begin="16" end="17" frame="proper_name(both,'ORG')" id="28" lcat="np" lemma="Worldwide" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Worldwide" sense="Worldwide" spectype="deeleigen" word="Worldwide"/>
+                  </node>
+                  <node begin="18" end="19" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="29" lcat="np" lemma="WOW" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="WOW" sense="WOW" word="WOW"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(haak_sluit)" id="30" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="20" end="21" frame="punct(punt)" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De tijd is rijp , roept de folder van de eerste internationale bijeenkomst van Women&apos;s Ordination Worldwide ( WOW ) .</sentence>
+  <comments>
+    <comment>Q#3|De tijd is rijp , roept de folder van de eerste internationale bijeenkomst van Women&apos;s Ordination Worldwide ( WOW ) .|1|1|-1.9281064438599986</comment>
+  </comments>
+</alpino_ds>

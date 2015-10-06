@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(aanhaal_both)" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="4" end="5" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="du" end="11" id="3" rel="--">
+      <node begin="6" cat="sv1" end="8" id="4" rel="tag">
+        <node begin="6" end="7" frame="verb(hebben,sg1,sbar)" id="5" infl="sg1" lcat="sv1" lemma="geloven" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="geloof" sc="sbar" sense="geloof" tense="present" word="geloof" wvorm="pv"/>
+        <node begin="7" case="nom" def="def" end="8" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="6" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+      </node>
+      <node begin="0" cat="smain" end="11" id="7" rel="nucl">
+        <node begin="0" cat="np" end="4" id="8" index="1" rel="su">
+          <node begin="0" buiging="zonder" end="1" frame="determiner(pron)" getal="ev" id="9" infl="pron" lcat="detp" lemma="mijn" naamval="stan" npagr="agr" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="mijn" sense="mijn" status="vol" vwtype="bez" word="Mijn"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="film" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="film" sense="film" word="film"/>
+          <node begin="3" end="4" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="Dada" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Dada" sense="Dada" word="Dada"/>
+        </node>
+        <node begin="5" end="6" frame="verb(hebben,sg_heeft,aux_psp_hebben)" id="12" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="11" id="13" rel="vc">
+          <node begin="0" end="4" id="14" index="1" rel="su"/>
+          <node begin="8" cat="np" end="10" id="15" rel="obj1">
+            <node begin="8" end="9" frame="number(hoofd(pl_num))" id="16" infl="pl_num" lcat="detp" lemma="twintig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twintig" sense="twintig" special="hoofd" word="twintig"/>
+            <node begin="9" end="10" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="gulden" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="gulden" sense="gulden" special="meas_mod" word="gulden"/>
+          </node>
+          <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" id="18" infl="psp" lcat="ppart" lemma="op_brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng_op" sc="part_transitive(op)" sense="breng_op" word="opgebracht" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="12" end="13" frame="punct(aanhaal_both)" id="20" lcat="--" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" sense="&quot;" special="aanhaal_both" word="&quot;"/>
+  </node>
+  <sentence>Mijn film &apos; Dada &apos; heeft geloof ik twintig gulden opgebracht . &quot;</sentence>
+  <comments>
+    <comment>Q#82|Mijn film &apos; Dada &apos; heeft geloof ik twintig gulden opgebracht . &quot;|1|1|-6.7815907388399985</comment>
+  </comments>
+</alpino_ds>

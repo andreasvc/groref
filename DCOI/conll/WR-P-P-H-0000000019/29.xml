@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="18" end="19" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="smain" end="25" id="3" rel="--">
+      <node begin="0" cat="np" end="6" id="4" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="5" lcat="np" lemma="school" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="school" sense="school" word="Scholen"/>
+        <node begin="1" cat="pp" end="6" id="6" rel="mod">
+          <node begin="1" end="2" frame="preposition(met,[mee,[en,al]])" id="7" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="2" cat="np" end="6" id="8" rel="obj1">
+            <node begin="2" buiging="zonder" end="3" frame="determiner(een)" id="9" infl="een" lcat="detp" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="zo&apos;n" sense="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+            <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" id="10" infl="no_e" lcat="ap" lemma="politiek" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="politiek" sense="politiek" vform="adj" word="politiek"/>
+            <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(ge_no_e(adv))" id="11" infl="no_e" lcat="ppart" lemma="goedgekeurd" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="goedgekeurd" sense="goedgekeurd" vform="psp" word="goedgekeurd" wvorm="vd"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="12" lcat="np" lemma="hoofd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="hoofd" sense="hoofd" word="hoofd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,past(pl),np_ld_pp)" id="13" infl="pl" lcat="smain" lemma="krijgen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="krijg" sc="np_ld_pp" sense="krijg" stype="declarative" tense="past" word="kregen" wvorm="pv"/>
+      <node begin="7" end="8" frame="sentence_adverb" id="14" lcat="advp" lemma="veelal" pos="adv" postag="BW()" pt="bw" rel="mod" root="veelal" sense="veelal" special="sentence" word="veelal"/>
+      <node begin="8" cat="np" end="12" id="15" rel="obj1">
+        <node begin="8" cat="ap" end="11" id="16" rel="det">
+          <node begin="8" cat="np" end="10" id="17" rel="me">
+            <node aform="base" begin="8" end="9" frame="adjective(no_e(adv))" id="18" infl="no_e" lcat="ap" lemma="net" pos="adj" postag="BW()" pt="bw" rel="mod" root="net" sense="net" vform="adj" word="net"/>
+            <node begin="9" end="10" frame="meas_mod_noun(het,mass,sg)" gen="het" getal="ev" id="19" lcat="np" lemma="iets" naamval="stan" num="sg" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" rnum="sg" root="iets" sense="iets" special="meas_mod" status="vol" vwtype="onbep" word="iets"/>
+          </node>
+          <node aform="compar" begin="10" buiging="zonder" end="11" frame="adjective(meer)" graad="comp" id="20" infl="meer" lcat="ap" lemma="meer" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+        </node>
+        <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="21" lcat="np" lemma="geld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="geld" sense="geld" word="geld"/>
+      </node>
+      <node begin="12" cat="pp" end="25" id="22" rel="ld">
+        <node begin="12" end="13" frame="preposition(uit,[vandaan])" id="23" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="13" cat="np" end="25" id="24" rel="obj1">
+          <node begin="13" end="14" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="25" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="15" cat="ppart" end="18" id="26" rel="mod">
+            <node begin="15" end="16" frame="sentence_adverb" id="27" lcat="advp" lemma="overigens" pos="adv" postag="BW()" pt="bw" rel="mod" root="overigens" sense="overigens" special="sentence" word="overigens"/>
+            <node aform="base" begin="16" buiging="zonder" end="17" frame="adjective(no_e(adv))" graad="basis" id="28" infl="no_e" lcat="ap" lemma="stelselmatig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="stelselmatig" sense="stelselmatig" vform="adj" word="stelselmatig"/>
+            <node aform="base" begin="17" buiging="met-e" end="18" frame="adjective(ge_e)" id="29" infl="e" lcat="ppart" lemma="gekort" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gekort" sense="gekort" vform="psp" word="gekorte" wvorm="vd"/>
+          </node>
+          <node begin="19" end="20" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="30" lcat="np" lemma="budget" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="budget" sense="budget" word="budget"/>
+          <node begin="20" cat="pp" end="25" id="31" rel="mod">
+            <node begin="20" end="21" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="32" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="21" cat="np" end="25" id="33" rel="obj1">
+              <node begin="21" end="22" frame="determiner(de)" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="22" end="23" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="35" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+              <node begin="23" cat="pp" end="25" id="36" rel="mod">
+                <node begin="23" end="24" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="37" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="24" end="25" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="38" lcat="np" lemma="onderwijs" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="onderwijs" sense="onderwijs" word="onderwijs"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Scholen met zo&apos;n politiek goedgekeurd hoofd kregen veelal net iets meer geld uit het - overigens stelselmatig gekorte - budget van de minister van onderwijs .</sentence>
+  <comments>
+    <comment>Q#29|Scholen met zo&apos;n politiek goedgekeurd hoofd kregen veelal net iets meer geld uit het - overigens stelselmatig gekorte - budget van de minister van onderwijs .|1|1|6.099851690259989</comment>
+  </comments>
+</alpino_ds>

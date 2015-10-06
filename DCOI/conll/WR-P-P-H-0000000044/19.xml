@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="4" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="5" lcat="np" lemma="leger" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="leger" sense="leger" word="leger"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,sg3,ld_pp)" id="6" infl="sg3" lcat="smain" lemma="vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val" sc="ld_pp" sense="val" stype="declarative" tense="present" word="valt" wvorm="pv"/>
+      <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" id="7" infl="no_e" lcat="ap" lemma="direct" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="direct" sense="direct" vform="adj" word="direct"/>
+      <node begin="4" cat="pp" end="13" id="8" rel="ld">
+        <node begin="4" end="5" frame="preposition(onder,[door,vandaan])" id="9" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+        <node begin="5" cat="np" end="13" id="10" rel="obj1">
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president" sense="president" word="president"/>
+          <node begin="6" end="7" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="Kostunica" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Kostunica" sense="Kostunica" word="Kostunica"/>
+          <node begin="8" cat="rel" end="13" id="13" rel="mod">
+            <node begin="8" case="no_obl" end="9" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="14" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="8" cat="ssub" end="13" id="15" rel="body">
+              <node begin="8" end="9" id="16" index="1" rel="su"/>
+              <node begin="9" cat="ap" end="12" id="17" rel="predc">
+                <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(adv),pp(tegen))" graad="basis" id="18" infl="no_e" lcat="ap" lemma="fel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="fel" sc="pp(tegen)" sense="fel-tegen" vform="adj" word="fel"/>
+                <node begin="10" cat="pp" end="12" id="19" rel="pc">
+                  <node begin="10" end="11" frame="preposition(tegen,[aan,in,op])" id="20" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+                  <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="uitlevering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="uitlevering" sense="uitlevering" word="uitlevering"/>
+                </node>
+              </node>
+              <node begin="12" end="13" frame="verb(unacc,past(sg),copula)" id="22" infl="sg" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" tense="past" word="was" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het leger valt direct onder president Kostunica , die fel tegen uitlevering was .</sentence>
+  <comments>
+    <comment>Q#19|Het leger valt direct onder president Kostunica , die fel tegen uitlevering was .|1|1|-3.7794925294599975</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="18" end="19" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="30" id="2" rel="--">
+      <node begin="0" cat="np" end="6" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="veelzijdigheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="veelzijdigheid" sense="veelzijdigheid" word="veelzijdigheid"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="Scheffer" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Scheffer" sense="Scheffer" word="Scheffer"/>
+        </node>
+        <node begin="4" cat="cp" end="6" id="9" rel="mod">
+          <node begin="4" end="5" frame="complementizer(als)" id="10" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="componistenportretten_maker" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" rnum="sg" root="componistenportretten_maker" sense="componistenportretten_maker" word="componistenportretten-maker"/>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,sg3,intransitive)" id="12" infl="sg3" lcat="smain" lemma="hangen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hang" sc="intransitive" sense="hang" stype="declarative" tense="present" word="hangt" wvorm="pv"/>
+      <node begin="7" cat="pp" end="10" id="13" rel="mod">
+        <node begin="7" end="8" frame="preposition(in,[])" id="14" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="8" cat="np" end="10" id="15" rel="obj1">
+          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" id="16" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" sense="groot" vform="adj" word="grote"/>
+          <node begin="9" end="10" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="mate" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="mate" sense="mate" word="mate"/>
+        </node>
+      </node>
+      <node begin="10" cat="ap" end="30" id="18" rel="predm">
+        <node aform="base" begin="10" end="11" frame="adjective(postn_pred(padv),pp(met))" id="19" infl="pred" lcat="ap" lemma="samen" pos="adj" postag="BW()" pt="bw" rel="hd" root="samen" sc="pp(met)" sense="samen-met" vform="adj" word="samen"/>
+        <node begin="11" cat="pp" end="30" id="20" rel="pc">
+          <node begin="11" end="12" frame="preposition(met,[mee,[en,al]])" id="21" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="12" cat="np" end="30" id="22" rel="obj1">
+            <node begin="12" buiging="zonder" end="13" frame="determiner(pron)" getal="ev" id="23" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" id="24" infl="e" lcat="ap" lemma="goed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="goed" sense="goed" vform="adj" word="goede"/>
+            <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="neus" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="neus" sense="neus" word="neus"/>
+            <node begin="15" cat="pp" end="30" id="26" rel="mod">
+              <node begin="15" end="16" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="27" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+              <node begin="16" cat="np" end="30" id="28" rel="obj1">
+                <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" id="29" infl="e" lcat="ap" lemma="interessant" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="interessant" sense="interessant" vform="adj" word="interessante"/>
+                <node begin="17" end="18" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="30" lcat="np" lemma="toon_dichter" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="toon_dichter" sense="toon_dichter" word="toondichters"/>
+                <node begin="19" cat="rel" end="30" id="31" rel="mod">
+                  <node begin="19" cat="pp" end="21" id="32" index="1" rel="rhd">
+                    <node begin="19" end="20" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="33" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="20" case="obl" end="21" frame="rel_pronoun(both,obl)" gen="both" getal="getal" id="34" lcat="np" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="obj1" rnum="pl" root="wie" sense="wie" status="vol" vwtype="vb" wh="rel" word="wie"/>
+                  </node>
+                  <node begin="19" cat="ssub" end="30" id="35" rel="body">
+                    <node begin="19" end="21" id="36" index="1" rel="mod"/>
+                    <node begin="21" case="nom" def="def" end="22" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="37" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+                    <node begin="22" cat="np" end="25" id="38" rel="obj1">
+                      <node begin="22" end="23" frame="determiner(de)" id="39" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node aform="base" begin="23" buiging="met-e" end="24" frame="adjective(e)" graad="basis" id="40" infl="e" lcat="ap" lemma="compositorische" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="compositorische" sense="compositorische" vform="adj" word="compositorische"/>
+                      <node begin="24" end="25" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="41" lcat="np" lemma="techniek" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="techniek" sense="techniek" word="technieken"/>
+                    </node>
+                    <node begin="25" end="26" frame="verb(hebben,sg3,np_pc_pp(in))" id="42" infl="sg3" lcat="ssub" lemma="verwerken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verwerk" sc="np_pc_pp(in)" sense="verwerk-in" tense="present" word="verwerkt" wvorm="pv"/>
+                    <node begin="26" cat="pp" end="30" id="43" rel="pc">
+                      <node begin="26" end="27" frame="preposition(in,[])" id="44" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                      <node begin="27" cat="np" end="30" id="45" rel="obj1">
+                        <node begin="27" buiging="zonder" end="28" frame="determiner(pron)" getal="ev" id="46" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                        <node aform="base" begin="28" buiging="met-e" end="29" frame="adjective(e)" graad="basis" id="47" infl="e" lcat="ap" lemma="filmische" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="filmische" sense="filmische" vform="adj" word="filmische"/>
+                        <node begin="29" end="30" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="48" lcat="np" lemma="procédé" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="procédé" sense="procédé" word="procédé"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" id="49" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De veelzijdigheid van Scheffer als componistenportretten-maker hangt in grote mate samen met zijn goede neus voor interessante toondichters , van wie hij de compositorische technieken verwerkt in zijn filmische procédé .</sentence>
+  <comments>
+    <comment>Q#4|De veelzijdigheid van Scheffer als componistenportretten-maker hangt in grote mate samen met zijn goede neus voor interessante toondichters , van wie hij de compositorische technieken verwerkt in zijn filmische procédé .|1|1|7.053220322620004</comment>
+  </comments>
+</alpino_ds>

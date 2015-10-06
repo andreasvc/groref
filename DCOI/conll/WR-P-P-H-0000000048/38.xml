@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="14" end="15" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="23" end="24" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="31" id="4" rel="--">
+      <node begin="0" cat="smain" end="23" id="5" rel="cnj">
+        <node begin="0" cat="np" end="14" id="6" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(ge_both(adv))" id="8" infl="both" lcat="ppart" lemma="uitgetreden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="uitgetreden" sense="uitgetreden" vform="psp" word="uitgetreden" wvorm="vd"/>
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="priester" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="priester" sense="priester" word="priester"/>
+          <node begin="3" cat="mwu" end="5" id="10" mwu_root="J. Wijngaards" mwu_sense="J. Wijngaards" rel="app">
+            <node begin="3" end="4" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="J." neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="J." sense="J." spectype="deeleigen" word="J."/>
+            <node begin="4" end="5" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Wijngaards" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wijngaards" sense="Wijngaards" spectype="deeleigen" word="Wijngaards"/>
+          </node>
+          <node begin="6" cat="np" end="14" id="13" rel="app">
+            <node begin="6" case="both" def="indef" end="7" frame="pronoun(nwh,thi,sg,both,both,indef,strpro)" gen="both" getal-n="zonder-n" graad="basis" id="14" lcat="np" lemma="één" num="sg" numtype="hoofd" per="thi" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="sg" root="één" sense="één" special="strpro" wh="nwh" word="een"/>
+            <node begin="7" cat="pp" end="14" id="15" rel="mod">
+              <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="8" cat="np" end="14" id="17" rel="obj1">
+                <node begin="8" end="9" frame="determiner(de)" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(ende(padv))" id="19" infl="e" lcat="ppres" lemma="drijven" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="drijf" sense="drijf" vform="gerund" word="drijvende" wvorm="od"/>
+                <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="20" lcat="np" lemma="kracht" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kracht" sense="kracht" word="krachten"/>
+                <node begin="11" cat="pp" end="14" id="21" rel="mod">
+                  <node begin="11" end="12" frame="preposition(achter,[aan,door,langs,om,uit,vandaan])" id="22" lcat="pp" lemma="achter" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="achter" sense="achter" vztype="init" word="achter"/>
+                  <node begin="12" cat="np" end="14" id="23" rel="obj1">
+                    <node begin="12" end="13" frame="determiner(de)" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="conferentie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="conferentie" sense="conferentie" word="conferentie"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="15" end="16" frame="verb(hebben,sg3,sbar)" id="26" infl="sg3" lcat="smain" lemma="erkennen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="erken" sc="sbar" sense="erken" tense="present" word="erkent" wvorm="pv"/>
+        <node begin="16" cat="cp" end="23" id="27" rel="vc">
+          <node begin="16" conjtype="onder" end="17" frame="complementizer(dat)" id="28" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="17" cat="ssub" end="23" id="29" rel="body">
+            <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="vrouw_wijding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="vrouw_wijding" sense="vrouw_wijding" word="vrouwenwijding"/>
+            <node aform="base" begin="18" buiging="zonder" end="19" frame="adjective(no_e(adv))" graad="basis" id="31" infl="no_e" lcat="ap" lemma="hoofdzakelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hoofdzakelijk" sense="hoofdzakelijk" vform="adj" word="hoofdzakelijk"/>
+            <node begin="19" cat="pp" end="22" id="32" rel="ld">
+              <node begin="19" end="20" frame="preposition(in,[])" id="33" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="20" cat="np" end="22" id="34" rel="obj1">
+                <node aform="base" begin="20" buiging="met-e" end="21" frame="adjective(e)" graad="basis" id="35" infl="e" lcat="ap" lemma="Westers" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Westers" sense="Westers" vform="adj" word="Westerse"/>
+                <node begin="21" end="22" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="36" lcat="np" lemma="hoofd" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="hoofd" sense="hoofd" word="hoofden"/>
+              </node>
+            </node>
+            <node begin="22" end="23" frame="verb(zijn,sg3,ninv(ld_pp,part_ld_pp(op)))" id="37" infl="sg3" lcat="ssub" lemma="op_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_op" sc="part_ld_pp(op)" sense="kom_op" tense="present" word="opkomt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="24" conjtype="neven" end="25" frame="conj(maar)" id="38" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="0" cat="smain" end="31" id="39" rel="cnj">
+        <node begin="0" end="14" id="40" index="1" rel="su"/>
+        <node begin="25" end="26" frame="verb(hebben,sg3,fixed([{[acc(aandacht),pc(voor)]}],norm_passive))" id="41" infl="sg3" lcat="smain" lemma="vragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vraag" sc="fixed([{[acc(aandacht),pc(voor)]}],norm_passive)" sense="aandacht-vraag-voor" tense="present" word="vraagt" wvorm="pv"/>
+        <node begin="27" end="28" frame="adverb" id="42" lcat="advp" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" sense="toch" word="toch"/>
+        <node begin="28" cat="np" end="30" id="43" rel="obj1">
+          <node aform="base" begin="28" buiging="met-e" end="29" frame="adjective(e)" graad="basis" id="44" infl="e" lcat="ap" lemma="internationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj" word="internationale"/>
+          <node begin="29" end="30" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="45" lcat="np" lemma="aandacht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aandacht" sense="aandacht" word="aandacht"/>
+        </node>
+        <node begin="26" cat="pp" end="31" id="46" rel="pc">
+          <node begin="26" end="27" frame="er_vp_adverb" getal="getal" id="47" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="30" end="31" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="48" lcat="pp" lemma="voor" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="voor" sense="voor" vztype="fin" word="voor"/>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" frame="punct(punt)" id="49" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De uitgetreden priester J. Wijngaards , een van de drijvende krachten achter de conferentie , erkent dat vrouwenwijding hoofdzakelijk in Westerse hoofden opkomt , maar vraagt er toch internationale aandacht voor .</sentence>
+  <comments>
+    <comment>Q#38|De uitgetreden priester J. Wijngaards , een van de drijvende krachten achter de conferentie , erkent dat vrouwenwijding hoofdzakelijk in Westerse hoofden opkomt , maar vraagt er toch internationale aandacht voor .|1|1|-8.374686770100006</comment>
+  </comments>
+</alpino_ds>

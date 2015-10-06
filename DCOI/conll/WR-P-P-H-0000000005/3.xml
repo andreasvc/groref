@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_links)" id="1" lcat="punct" lemma=",," pos="punct" postag="LET()" pt="let" rel="--" root=",," sense=",," special="aanhaal_links" word=",,"/>
+    <node begin="11" end="12" frame="punct(aanhaal_rechts)" id="2" lcat="punct" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+    <node begin="12" end="13" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="22" end="23" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="1" cat="du" end="26" id="5" rel="--">
+      <node begin="1" cat="smain" end="11" id="6" rel="nucl">
+        <node begin="1" cat="cp" end="4" id="7" rel="mod">
+          <node begin="1" end="2" frame="complementizer(inf)" id="8" lcat="cp" lemma="door" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="door" sc="inf" sense="door" vztype="init" word="Door"/>
+          <node begin="2" cat="ti" end="4" id="9" rel="body">
+            <node begin="2" end="3" frame="complementizer(te)" id="10" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="3" buiging="zonder" end="4" frame="verb(hebben,inf,intransitive)" id="11" infl="inf" lcat="inf" lemma="vasten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="vast" sc="intransitive" sense="vast" word="vasten" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="4" end="5" frame="verb(hebben,pl,fixed([vc(hoor,inf,intransitive),acc],no_passive))" id="12" infl="pl" lcat="smain" lemma="laten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="laat" sc="fixed([vc(hoor,inf,intransitive),acc],no_passive)" sense="laat-hoor" stype="declarative" tense="present" word="laten" wvorm="pv"/>
+        <node begin="5" case="nom" def="def" end="6" frame="pronoun(nwh,fir,pl,de,nom,def,wkpro)" gen="de" getal="mv" id="13" lcat="np" lemma="we" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" rnum="pl" root="we" sense="we" special="wkpro" status="red" vwtype="pers" wh="nwh" word="we"/>
+        <node begin="6" cat="np" end="10" id="14" rel="obj1">
+          <node begin="6" end="7" frame="determiner(een)" id="15" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(adv))" graad="basis" id="16" infl="no_e" lcat="ap" lemma="typisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="typisch" sense="typisch" vform="adj" word="typisch"/>
+          <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(no_e(adv))" graad="basis" id="17" infl="no_e" lcat="ap" lemma="geweldloos" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="geweldloos" sense="geweldloos" vform="adj" word="geweldloos"/>
+          <node begin="9" end="10" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="18" lcat="np" lemma="geluid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="geluid" sense="geluid" word="geluid"/>
+        </node>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,intransitive)" id="19" infl="inf" lcat="inf" lemma="horen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="svp" root="hoor" sc="intransitive" sense="hoor" word="horen" wvorm="inf"/>
+      </node>
+      <node begin="13" cat="sv1" end="26" id="20" rel="tag">
+        <node begin="13" end="14" frame="verb(hebben,sg3,tr_sbar)" id="21" infl="sg3" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present" word="zegt" wvorm="pv"/>
+        <node begin="14" cat="np" end="19" id="22" rel="su">
+          <node begin="14" end="15" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="15" buiging="met-e" end="16" frame="adjective(e)" graad="basis" id="24" infl="e" lcat="ap" lemma="Italiaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Italiaans" sense="Italiaans" vform="adj" word="Italiaanse"/>
+          <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="franciscaan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="franciscaan" sense="franciscaan" word="franciscaan"/>
+          <node begin="17" cat="mwu" end="19" id="26" mwu_root="Alberto Tosini" mwu_sense="Alberto Tosini" rel="app">
+            <node begin="17" end="18" frame="proper_name(sg,'PER')" id="27" lcat="np" lemma="Alberto" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Alberto" sense="Alberto" spectype="deeleigen" word="Alberto"/>
+            <node begin="18" end="19" frame="proper_name(sg,'PER')" id="28" lcat="np" lemma="Tosini" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Tosini" sense="Tosini" spectype="deeleigen" word="Tosini"/>
+          </node>
+        </node>
+        <node begin="19" cat="pp" end="26" id="29" rel="mod">
+          <node begin="19" end="20" frame="preposition(tegen,[aan,in,op])" id="30" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+          <node begin="20" cat="np" end="26" id="31" rel="obj1">
+            <node begin="20" cat="mwu" end="22" id="32" mwu_root="Vidimus Dominum" mwu_sense="Vidimus Dominum" rel="hd">
+              <node begin="20" end="21" frame="proper_name(sg,'PER')" id="33" lcat="np" lemma="Vidimus" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vidimus" sense="Vidimus" spectype="deeleigen" word="Vidimus"/>
+              <node begin="21" end="22" frame="proper_name(sg,'PER')" id="34" lcat="np" lemma="Dominum" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Dominum" sense="Dominum" spectype="deeleigen" word="Dominum"/>
+            </node>
+            <node begin="23" cat="np" end="26" id="35" rel="app">
+              <node begin="23" end="24" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="36" lcat="np" lemma="web_magazine" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="web_magazine" sense="web_magazine" word="webmagazine"/>
+              <node begin="24" cat="pp" end="26" id="37" rel="mod">
+                <node begin="24" end="25" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="38" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node aform="base" begin="25" buiging="met-e" end="26" frame="nominalized_adjective" getal-n="mv-n" graad="basis" id="39" lcat="np" lemma="religieus" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="obj1" rnum="pl" root="religieus" sense="religieus" special="a_noun" word="religieuzen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" frame="punct(punt)" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>,, Door te vasten laten we een typisch geweldloos geluid horen &apos;&apos; , zegt de Italiaanse franciscaan Alberto Tosini tegen Vidimus Dominum , webmagazine van religieuzen .</sentence>
+  <comments>
+    <comment>Q#3|,, Door te vasten laten we een typisch geweldloos geluid horen &apos;&apos; , zegt de Italiaanse franciscaan Alberto Tosini tegen Vidimus Dominum , webmagazine van religieuzen .|1|1|-6.187537930820005</comment>
+  </comments>
+</alpino_ds>

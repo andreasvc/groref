@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_links)" id="1" lcat="punct" lemma=",," pos="punct" postag="LET()" pt="let" rel="--" root=",," sense=",," special="aanhaal_links" word=",,"/>
+    <node begin="6" end="7" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="9" end="10" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="1" cat="smain" end="21" id="4" rel="--">
+      <node begin="1" case="nom" def="def" end="2" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="5" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="Ik"/>
+      <node begin="2" end="3" frame="verb(hebben,sg1,pred_np)" id="6" infl="sg1" lcat="smain" lemma="vinden" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="vind" sc="pred_np" sense="vind" stype="declarative" tense="present" word="vind" wvorm="pv"/>
+      <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="Jezus" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Jezus" sense="Jezus" word="Jezus"/>
+      <node begin="4" cat="np" end="21" id="8" rel="predc">
+        <node begin="4" end="5" frame="determiner(een)" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="hippie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hippie" sense="hippie" word="hippie"/>
+        <node begin="7" cat="np" end="9" id="11" rel="app">
+          <node begin="7" end="8" frame="determiner(een)" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="top_gozer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="top_gozer" sense="top_gozer" word="topgozer"/>
+        </node>
+        <node begin="10" cat="np" end="21" id="14" rel="app">
+          <node begin="10" end="11" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" getal-n="zonder-n" graad="basis" id="16" infl="e" lcat="np" lemma="best" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" rnum="sg" root="best" sense="best" vform="adj" word="beste"/>
+          <node begin="12" cat="pp" end="21" id="17" rel="mod">
+            <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="13" cat="np" end="21" id="19" rel="obj1">
+              <node begin="13" end="14" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" id="21" infl="e" lcat="ap" lemma="heel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="heel" sense="heel" vform="adj" word="hele"/>
+              <node begin="15" end="16" frame="noun(de,count,sg,measure)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="rij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rij" sc="measure" sense="rij" word="rij"/>
+              <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="23" lcat="np" lemma="hoofdpersoon" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="hoofdpersoon" sense="hoofdpersoon" word="hoofdpersonen"/>
+              <node begin="17" cat="rel" end="21" id="24" rel="mod">
+                <node begin="17" case="no_obl" end="18" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="25" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                <node begin="17" cat="ssub" end="21" id="26" rel="body">
+                  <node begin="17" end="18" id="27" index="1" rel="su"/>
+                  <node begin="18" cat="np" end="20" id="28" rel="obj1">
+                    <node begin="18" end="19" frame="determiner(de)" id="29" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="19" end="20" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="Bijbel" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Bijbel" sense="Bijbel" word="Bijbel"/>
+                  </node>
+                  <node begin="20" end="21" frame="verb(hebben,sg3,transitive)" id="31" infl="sg3" lcat="ssub" lemma="tellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="tel" sc="transitive" sense="tel" tense="present" word="telt" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="22" end="23" frame="punct(aanhaal_rechts)" id="33" lcat="punct" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+  </node>
+  <sentence>,, Ik vind Jezus een hippie , een topgozer , de beste van de hele rij hoofdpersonen die de Bijbel telt . &apos;&apos;</sentence>
+  <comments>
+    <comment>Q#38|,, Ik vind Jezus een hippie , een topgozer , de beste van de hele rij hoofdpersonen die de Bijbel telt . &apos;&apos;|1|1|4.0073950738000015</comment>
+  </comments>
+</alpino_ds>

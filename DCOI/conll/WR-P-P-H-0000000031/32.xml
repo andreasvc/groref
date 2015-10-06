@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="0" cat="smain" end="25" id="1" rel="--">
+      <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="2" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="Hij"/>
+      <node begin="1" end="2" frame="verb(hebben,past(sg),intransitive)" id="3" infl="sg" lcat="smain" lemma="bellen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bel" sc="intransitive" sense="bel" stype="declarative" tense="past" word="belde" wvorm="pv"/>
+      <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(both))" graad="basis" id="4" infl="no_e" lcat="ap" lemma="persoonlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="persoonlijk" sense="persoonlijk" vform="adj" word="persoonlijk"/>
+      <node begin="3" cat="pp" end="9" id="5" rel="mod">
+        <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" id="6" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="4" cat="np" end="9" id="7" rel="obj1">
+          <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="8" lcat="np" lemma="regering_leider" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="regering_leider" sense="regering_leider" word="regeringsleiders"/>
+          <node begin="5" cat="pp" end="9" id="9" rel="mod">
+            <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="9" id="11" rel="obj1">
+              <node aform="compar" begin="6" buiging="met-e" end="7" frame="adjective(ere)" graad="basis" id="12" infl="e" lcat="ap" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" sense="ander" vform="adj" word="andere"/>
+              <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" id="13" infl="e" lcat="ap" lemma="Zuidamerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Zuidamerikaans" sense="Zuidamerikaans" vform="adj" word="Zuid-Amerikaanse"/>
+              <node begin="8" end="9" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="14" lcat="np" lemma="land" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="land" sense="land" word="landen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="pp" end="25" id="15" rel="mod">
+        <node begin="9" end="10" frame="preposition(met,[mee,[en,al]])" id="16" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="10" cat="np" end="25" id="17" rel="obj1">
+          <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="11" end="12" frame="noun(het,count,sg,vp)" gen="het" genus="onz" getal="ev" graad="basis" id="19" lcat="np" lemma="verzoek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verzoek" sc="vp" sense="verzoek" word="verzoek"/>
+          <node begin="12" cat="ti" end="25" id="20" rel="vc">
+            <node begin="15" end="16" frame="complementizer(te)" id="21" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="12" cat="inf" end="25" id="22" rel="body">
+              <node begin="12" cat="np" end="15" id="23" rel="obj1">
+                <node begin="12" buiging="zonder" end="13" frame="determiner(pron)" getal="mv" id="24" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" id="25" infl="e" lcat="ap" lemma="nationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nationaal" sense="nationaal" vform="adj" word="nationale"/>
+                <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="26" lcat="np" lemma="voetbal_bond" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="voetbal_bond" sense="voetbal_bond" word="voetbalbonden"/>
+              </node>
+              <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,np_pc_pp(van))" id="27" infl="inf" lcat="inf" lemma="overtuigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="overtuig" sc="np_pc_pp(van)" sense="overtuig-van" word="overtuigen" wvorm="inf"/>
+              <node begin="17" cat="pp" end="25" id="28" rel="pc">
+                <node begin="17" end="18" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="29" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="18" cat="np" end="25" id="30" rel="obj1">
+                  <node begin="18" end="19" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="31" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="19" end="20" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="32" lcat="np" lemma="belang" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="belang" sense="belang" word="belang"/>
+                  <node begin="20" cat="pp" end="23" id="33" rel="mod">
+                    <node begin="20" end="21" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="34" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="21" cat="np" end="23" id="35" rel="obj1">
+                      <node begin="21" end="22" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="36" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                      <node begin="22" end="23" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="37" lcat="np" lemma="toernooi" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="toernooi" sense="toernooi" special="tmp" word="toernooi"/>
+                    </node>
+                  </node>
+                  <node begin="23" cat="pp" end="25" id="38" rel="mod">
+                    <node begin="23" end="24" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="39" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                    <node begin="24" end="25" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="40" lcat="np" lemma="Colombia" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Colombia" sense="Colombia" word="Colombia"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" id="41" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Hij belde persoonlijk met regeringsleiders van andere Zuid-Amerikaanse landen met het verzoek hun nationale voetbalbonden te overtuigen van het belang van het toernooi voor Colombia .</sentence>
+  <comments>
+    <comment>Q#32|Hij belde persoonlijk met regeringsleiders van andere Zuid-Amerikaanse landen met het verzoek hun nationale voetbalbonden te overtuigen van het belang van het toernooi voor Colombia .|1|1|-3.14324943624001</comment>
+  </comments>
+</alpino_ds>

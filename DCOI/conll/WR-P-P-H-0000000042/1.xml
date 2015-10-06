@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="18" end="19" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="22" id="2" rel="--">
+      <node begin="0" cat="np" end="18" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,pl,vp)" gen="de" getal="mv" graad="basis" id="5" lcat="np" lemma="werkzaamheid" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="werkzaamheid" sc="vp" sense="werkzaamheid" word="werkzaamheden"/>
+        <node begin="2" cat="oti" end="18" id="6" rel="vc">
+          <node begin="2" end="3" frame="complementizer(om)" id="7" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="3" cat="ti" end="18" id="8" rel="body">
+            <node begin="16" end="17" frame="complementizer(te)" id="9" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="3" cat="inf" end="18" id="10" rel="body">
+              <node begin="3" cat="np" end="7" id="11" rel="obj1">
+                <node begin="3" end="4" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" id="12" infl="pron" lcat="detp" lemma="Hitler" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Hitler" sense="Hitler" special="name" word="Hitlers"/>
+                <node begin="4" end="5" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="Adelaarsnest" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Adelaarsnest" sense="Adelaarsnest" word="Adelaarsnest"/>
+                <node begin="5" cat="pp" end="7" id="14" rel="mod">
+                  <node begin="5" end="6" frame="preposition(in,[])" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="6" end="7" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="Berchtesgaden" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Berchtesgaden" sense="Berchtesgaden" word="Berchtesgaden"/>
+                </node>
+              </node>
+              <node begin="7" cat="pp" end="12" id="17" rel="mod">
+                <node begin="7" end="8" frame="preposition(in,[])" id="18" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="8" cat="np" end="12" id="19" rel="obj1">
+                  <node begin="8" end="9" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="21" infl="e" lcat="ap" lemma="Zuid_Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Zuid_Duits" sense="Zuid_Duits" vform="adj" word="Zuid-Duitse"/>
+                  <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="deelstaat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="deelstaat" sense="deelstaat" word="deelstaat"/>
+                  <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="23" lcat="np" lemma="Beieren" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Beieren" sense="Beieren" word="Beieren"/>
+                </node>
+              </node>
+              <node begin="12" cat="pp" end="16" id="24" rel="pc">
+                <node begin="12" end="13" frame="preposition(in,[])" id="25" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="13" cat="np" end="16" id="26" rel="obj1">
+                  <node begin="13" end="14" frame="determiner(een)" id="27" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(no_e(adv))" graad="basis" id="28" infl="no_e" lcat="ap" lemma="toeristisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="toeristisch" sense="toeristisch" vform="adj" word="toeristisch"/>
+                  <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="29" lcat="np" lemma="centrum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="centrum" sense="centrum" word="centrum"/>
+                </node>
+              </node>
+              <node begin="17" buiging="zonder" end="18" frame="verb(hebben,inf,np_pc_pp(in))" id="30" infl="inf" lcat="inf" lemma="veranderen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verander" sc="np_pc_pp(in)" sense="verander-in" word="veranderen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="19" end="20" frame="verb(zijn,pl,intransitive)" id="31" infl="pl" lcat="smain" lemma="beginnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="begin" sc="intransitive" sense="begin" stype="declarative" tense="present" word="beginnen" wvorm="pv"/>
+      <node begin="20" cat="np" end="22" id="32" rel="mod">
+        <node aform="base" begin="20" buiging="met-e" end="21" frame="adjective(ende(padv))" id="33" infl="e" lcat="ppres" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" sense="volg" vform="gerund" word="volgende" wvorm="od"/>
+        <node begin="21" end="22" frame="tmp_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="34" lcat="np" lemma="maand" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="maand" sense="maand" special="tmp" word="maand"/>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" id="35" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De werkzaamheden om Hitlers Adelaarsnest in Berchtesgaden in de Zuid-Duitse deelstaat Beieren in een toeristisch centrum te veranderen , beginnen volgende maand .</sentence>
+  <comments>
+    <comment>Q#1|De werkzaamheden om Hitlers Adelaarsnest in Berchtesgaden in de Zuid-Duitse deelstaat Beieren in een toeristisch centrum te veranderen , beginnen volgende maand .|1|1|-4.695531429460009</comment>
+  </comments>
+</alpino_ds>

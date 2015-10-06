@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="30" id="2" rel="--">
+      <node begin="0" cat="conj" end="9" id="3" rel="su">
+        <node begin="0" cat="np" end="3" id="4" rel="cnj">
+          <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="bondscoach" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bondscoach" sense="bondscoach" word="Bondscoach"/>
+          <node begin="1" cat="mwu" end="3" id="6" mwu_root="Stefaan Obreno" mwu_sense="Stefaan Obreno" rel="app">
+            <node begin="1" end="2" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Stefaan" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Stefaan" sense="Stefaan" spectype="deeleigen" word="Stefaan"/>
+            <node begin="2" end="3" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Obreno" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Obreno" sense="Obreno" spectype="deeleigen" word="Obreno"/>
+          </node>
+        </node>
+        <node begin="4" end="5" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="9" lcat="np" lemma="Roskam" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Roskam" sense="Roskam" word="Roskam"/>
+        <node begin="5" conjtype="neven" end="6" frame="conj(en)" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="6" cat="np" end="9" id="11" rel="cnj">
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="PSV_trainer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="PSV_trainer" sense="PSV_trainer" word="PSV-trainer"/>
+          <node begin="7" cat="mwu" end="9" id="13" mwu_root="Jacco Verhaeren" mwu_sense="Jacco Verhaeren" rel="app">
+            <node begin="7" end="8" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Jacco" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jacco" sense="Jacco" spectype="deeleigen" word="Jacco"/>
+            <node begin="8" end="9" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Verhaeren" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Verhaeren" sense="Verhaeren" spectype="deeleigen" word="Verhaeren"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" frame="verb(hebben,past(pl),part_np_pc_pp(uit,over))" id="16" infl="pl" lcat="smain" lemma="uit_spreken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="spreek_uit" sc="part_np_pc_pp(uit,over)" sense="spreek_uit-over" stype="declarative" tense="past" word="spraken" wvorm="pv"/>
+      <node begin="10" cat="pp" end="14" id="17" rel="mod">
+        <node begin="10" end="11" frame="preposition(bij,[vandaan])" id="18" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+        <node begin="11" cat="np" end="14" id="19" rel="obj1">
+          <node begin="11" end="12" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="12" cat="mwu" end="14" id="21" mwu_root="Olympische Spelen" mwu_sense="Olympische Spelen" rel="hd">
+            <node begin="12" end="13" frame="proper_name(both)" id="22" lcat="np" lemma="Olympische" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Olympische" sense="Olympische" spectype="deeleigen" word="Olympische"/>
+            <node begin="13" end="14" frame="proper_name(both)" id="23" lcat="np" lemma="Spelen" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Spelen" sense="Spelen" spectype="deeleigen" word="Spelen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="ap" end="17" id="24" rel="mod">
+        <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(no_e(adv),pp(van))" graad="basis" id="25" infl="no_e" lcat="ap" lemma="onafhankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="onafhankelijk" sc="pp(van)" sense="onafhankelijk-van" vform="adj" word="onafhankelijk"/>
+        <node begin="15" cat="pp" end="17" id="26" rel="pc">
+          <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="27" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="16" case="dat_acc" def="def" end="17" frame="pronoun(nwh,thi,pl,de,dat_acc,def)" gen="de" getal="mv" id="28" lcat="np" lemma="elkaar" naamval="obl" num="pl" pdtype="pron" per="thi" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="obj1" rnum="pl" root="elkaar" sense="elkaar" status="vol" vwtype="recip" wh="nwh" word="elkaar"/>
+        </node>
+      </node>
+      <node begin="17" cat="np" end="19" id="29" rel="obj1">
+        <node begin="17" buiging="zonder" end="18" frame="determiner(pron)" getal="mv" id="30" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="18" end="19" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="verontrusting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verontrusting" sense="verontrusting" word="verontrusting"/>
+      </node>
+      <node begin="19" end="20" frame="adverb" id="32" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+      <node begin="20" end="21" frame="particle(uit)" id="33" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+      <node begin="21" cat="pp" end="30" id="34" rel="pc">
+        <node begin="21" end="22" frame="preposition(over,[heen])" id="35" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+        <node begin="22" cat="conj" end="30" id="36" rel="obj1">
+          <node begin="22" cat="np" end="26" id="37" rel="cnj">
+            <node begin="22" end="23" frame="determiner(de)" id="38" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="23" end="24" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="39" lcat="np" lemma="gang" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gang" sense="gang" word="gang"/>
+            <node begin="24" cat="pp" end="26" id="40" rel="mod">
+              <node begin="24" end="25" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="41" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="25" end="26" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="42" lcat="np" lemma="zaak" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="zaak" sense="zaak" word="zaken"/>
+            </node>
+          </node>
+          <node begin="26" conjtype="neven" end="27" frame="conj(en)" id="43" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="27" cat="np" end="30" id="44" rel="cnj">
+            <node begin="27" end="28" frame="determiner(de)" id="45" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="28" buiging="met-e" end="29" frame="adjective(e)" graad="basis" id="46" infl="e" lcat="ap" lemma="smal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="smal" sense="smal" vform="adj" word="smalle"/>
+            <node begin="29" end="30" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="47" lcat="np" lemma="top" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="top" sense="top" word="top"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" id="48" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Bondscoach Stefaan Obreno , Roskam en PSV-trainer Jacco Verhaeren spraken bij de Olympische Spelen onafhankelijk van elkaar hun verontrusting al uit over de gang van zaken en de smalle top .</sentence>
+  <comments>
+    <comment>Q#19|Bondscoach Stefaan Obreno , Roskam en PSV-trainer Jacco Verhaeren spraken bij de Olympische Spelen onafhankelijk van elkaar hun verontrusting al uit over de gang van zaken en de smalle top .|1|1|-6.709281349340011</comment>
+  </comments>
+</alpino_ds>

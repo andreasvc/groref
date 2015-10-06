@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="rel" end="10" id="1" rel="--">
+      <node begin="0" case="no_obl" end="1" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="2" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="Die"/>
+      <node begin="0" cat="ssub" end="10" id="3" rel="body">
+        <node begin="0" end="1" id="4" index="1" rel="su"/>
+        <node begin="1" end="2" frame="sentence_adverb" id="5" lcat="advp" lemma="trouwens" pos="adv" postag="BW()" pt="bw" rel="mod" root="trouwens" sense="trouwens" special="sentence" word="trouwens"/>
+        <node begin="2" cat="ap" end="4" id="6" rel="mod">
+          <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(adv))" graad="basis" id="7" infl="no_e" lcat="ap" lemma="puur" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="puur" sense="puur" vform="adj" word="puur"/>
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" id="8" infl="no_e" lcat="ap" lemma="toevallig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="toevallig" sense="toevallig" vform="adj" word="toevallig"/>
+        </node>
+        <node begin="4" end="5" frame="tmp_adverb" id="9" lcat="advp" lemma="ooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="ooit" sense="ooit" special="tmp" word="ooit"/>
+        <node begin="5" cat="pp" end="9" id="10" rel="ld">
+          <node begin="5" end="6" frame="preposition(op,[af,na])" id="11" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="6" cat="np" end="9" id="12" rel="obj1">
+            <node begin="6" cat="mwu" end="8" id="13" mwu_root="Van Dijks" mwu_sense="Van Dijks" rel="det">
+              <node begin="6" end="7" frame="name_determiner(pron,'PER')" id="14" infl="pron" lcat="detp" lemma="Van" neclass="PER" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" sense="Van" special="name" spectype="deeleigen" word="Van"/>
+              <node begin="7" end="8" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" id="15" infl="pron" lcat="detp" lemma="Dijks" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Dijks" sense="Dijks" special="name" word="Dijks"/>
+            </node>
+            <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="hoofd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="hoofd" sense="hoofd" word="hoofd"/>
+          </node>
+        </node>
+        <node begin="9" end="10" frame="verb(unacc,past(sg),ld_pp)" id="17" infl="sg" lcat="ssub" lemma="belanden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="beland" sc="ld_pp" sense="beland" tense="past" word="belandde" wvorm="pv"/>
+      </node>
+    </node>
+    <node begin="10" end="11" frame="punct(punt)" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Die trouwens puur toevallig ooit op Van Dijks hoofd belandde .</sentence>
+  <comments>
+    <comment>Q#45|Die trouwens puur toevallig ooit op Van Dijks hoofd belandde .|1|1|0.1650282398799997</comment>
+  </comments>
+</alpino_ds>

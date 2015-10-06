@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="3" lcat="np" lemma="glinstering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="glinstering" sense="glinstering" word="Glinstering"/>
+        <node begin="1" cat="pp" end="3" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="2" end="3" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="6" lcat="np" lemma="goud" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="goud" sense="goud" word="goud"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),fixed([{[[plaats],pc(voor)]}],imp_passive))" id="7" infl="sg" lcat="smain" lemma="maken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="maak" sc="fixed([{[[plaats],pc(voor)]}],imp_passive)" sense="plaats-maak-voor" stype="declarative" tense="past" word="maakte" wvorm="pv"/>
+      <node begin="4" cat="pp" end="7" id="8" rel="mod">
+        <node begin="4" end="5" frame="preposition(in,[])" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" id="11" infl="e" lcat="ap" lemma="luttel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="luttel" sense="luttel" vform="adj" word="luttele"/>
+          <node begin="6" end="7" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="12" lcat="np" lemma="seconde" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="seconde" sense="seconde" special="tmp" word="seconden"/>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="fixed_part([plaats])" genus="zijd" getal="ev" graad="basis" id="13" lcat="fixed" lemma="plaats" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="svp" root="plaats" sense="plaats" word="plaats"/>
+      <node begin="8" cat="pp" end="11" id="14" rel="pc">
+        <node begin="8" end="9" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="15" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="9" cat="np" end="11" id="16" rel="obj1">
+          <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="17" infl="e" lcat="ap" lemma="inkt_zwart" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="inkt_zwart" sense="inkt_zwart" vform="adj" word="inktzwarte"/>
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="realiteit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="realiteit" sense="realiteit" word="realiteit"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Glinstering van goud maakte in luttele seconden plaats voor inktzwarte realiteit .</sentence>
+  <comments>
+    <comment>Q#3|Glinstering van goud maakte in luttele seconden plaats voor inktzwarte realiteit .|1|1|-0.6089260630799966</comment>
+  </comments>
+</alpino_ds>

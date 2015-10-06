@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="15" end="16" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="smain" end="27" id="3" rel="--">
+      <node begin="0" end="1" frame="het_noun" genus="onz" getal="ev" id="4" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" rnum="sg" root="het" sense="het" special="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" frame="verb(unacc,past(sg),copula_sbar)" id="5" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula_sbar" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="6" rel="predc">
+        <node begin="2" buiging="zonder" end="3" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" id="7" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+        <node begin="3" end="4" frame="noun(het,count,sg,subject_sbar)" gen="het" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="toeval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="toeval" sc="subject_sbar" sense="toeval" word="toeval"/>
+      </node>
+      <node begin="4" cat="cp" end="27" id="9" rel="su">
+        <node begin="4" conjtype="onder" end="5" frame="complementizer(dat)" id="10" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="5" cat="ssub" end="27" id="11" rel="body">
+          <node begin="5" cat="np" end="15" id="12" rel="su">
+            <node begin="5" end="6" frame="name_determiner(pron,'LOC')" getal="ev" graad="basis" id="13" infl="pron" lcat="detp" lemma="Haarlem" naamval="gen" neclass="LOC" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Haarlem" sense="Haarlem" special="name" word="Haarlems"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="burgemeester" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="burgemeester" sense="burgemeester" word="burgemeester"/>
+            <node begin="7" end="8" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="Pop" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Pop" sense="Pop" word="Pop"/>
+            <node begin="9" cat="np" end="15" id="16" rel="mod">
+              <node begin="9" cat="ppart" end="11" id="17" rel="mod">
+                <node begin="9" end="10" frame="adverb" id="18" lcat="advp" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" sense="toch" word="toch"/>
+                <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(ge_no_e(adv))" id="19" infl="no_e" lcat="ppart" lemma="geregeld" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="geregeld" sense="geregeld" vform="psp" word="geregeld" wvorm="vd"/>
+              </node>
+              <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="20" lcat="np" lemma="mikpunt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="mikpunt" sense="mikpunt" word="mikpunt"/>
+              <node begin="12" cat="pp" end="15" id="21" rel="mod">
+                <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="22" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="13" cat="np" end="15" id="23" rel="obj1">
+                  <node begin="13" buiging="zonder" end="14" frame="determiner(pron)" getal="ev" id="24" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                  <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="25" lcat="np" lemma="spot_prent" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="spot_prent" sense="spot_prent" word="spotprenten"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="16" cat="pp" end="19" id="26" rel="mod">
+            <node begin="16" end="17" frame="preposition(tijdens,[])" id="27" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+            <node begin="17" cat="np" end="19" id="28" rel="obj1">
+              <node begin="17" end="18" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="29" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="18" end="19" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="30" lcat="np" lemma="Oliphantgala" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Oliphantgala" sense="Oliphantgala" word="Oliphantgala"/>
+            </node>
+          </node>
+          <node begin="19" cat="mwu" end="21" id="31" mwu_root="ten tonele" mwu_sense="ten tonele" rel="svp">
+            <node begin="19" end="20" frame="fixed_part([ten,tonele])" id="32" lcat="fixed" lemma="ten" pos="fixed" postag="VZ(versm)" pt="vz" rel="mwp" root="ten" sense="ten" vztype="versm" word="ten"/>
+            <node begin="20" end="21" frame="fixed_part([ten,tonele])" getal="ev" graad="basis" id="33" lcat="fixed" lemma="tonele" naamval="dat" ntype="soort" pos="fixed" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="tonele" sense="tonele" word="tonele"/>
+          </node>
+          <node begin="21" end="22" frame="verb(unacc,past(sg),fixed([[ten,tonele]],no_passive))" id="34" infl="sg" lcat="ssub" lemma="verschijnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verschijn" sc="fixed([[ten,tonele]],no_passive)" sense="ten-tonele-verschijn" tense="past" word="verscheen" wvorm="pv"/>
+          <node begin="22" cat="pp" end="27" id="35" rel="mod">
+            <node begin="22" end="23" frame="preposition(met,[mee,[en,al]])" id="36" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="23" cat="np" end="27" id="37" rel="obj1">
+              <node begin="23" end="24" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" id="38" infl="pron" lcat="detp" lemma="Gerrits" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Gerrits" sense="Gerrits" special="name" word="Gerrits"/>
+              <node aform="base" begin="24" buiging="met-e" end="25" frame="adjective(ende(adv))" id="39" infl="e" lcat="ppres" lemma="kenmerkend" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="kenmerkend" sense="kenmerkend" vform="gerund" word="kenmerkende" wvorm="od"/>
+              <node aform="base" begin="25" buiging="met-e" end="26" frame="adjective(e)" graad="basis" id="40" infl="e" lcat="ap" lemma="zwart" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zwart" sense="zwart" vform="adj" word="zwarte"/>
+              <node begin="26" end="27" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="41" lcat="np" lemma="hoed" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hoed" sense="hoed" word="hoed"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="42" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het was geen toeval dat Haarlems burgemeester Pop - toch geregeld mikpunt van zijn spotprenten - tijdens het Oliphantgala ten tonele verscheen met Gerrits kenmerkende zwarte hoed .</sentence>
+  <comments>
+    <comment>Q#44|Het was geen toeval dat Haarlems burgemeester Pop - toch geregeld mikpunt van zijn spotprenten - tijdens het Oliphantgala ten tonele verscheen met Gerrits kenmerkende zwarte hoed .|1|1|-9.767725183860001</comment>
+  </comments>
+</alpino_ds>

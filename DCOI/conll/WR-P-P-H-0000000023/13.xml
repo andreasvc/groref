@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="0" cat="smain" end="25" id="1" rel="--">
+      <node begin="0" cat="pp" end="6" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(op,[af,na])" id="3" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="Op"/>
+        <node begin="1" cat="np" end="6" id="4" rel="obj1">
+          <node begin="1" cat="mwu" end="3" id="5" mwu_root="25 november" mwu_sense="25 november" rel="hd">
+            <node begin="1" end="2" frame="tmp_np" id="6" lcat="np" lemma="25" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="25" sense="25" special="tmp" word="25"/>
+            <node begin="2" end="3" frame="tmp_np" id="7" lcat="np" lemma="november" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="november" sense="november" special="tmp" word="november"/>
+          </node>
+          <node begin="3" cat="pp" end="6" id="8" rel="mod">
+            <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="9" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="4" cat="np" end="6" id="10" rel="obj1">
+              <node begin="4" buiging="zonder" end="5" frame="determiner(het,nwh,nmod,pro,nparg)" id="11" infl="het" lcat="detp" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" sense="dat" vwtype="aanw" wh="nwh" word="dat"/>
+              <node begin="5" end="6" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="12" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,pl,pc_pp(voor))" id="13" infl="pl" lcat="smain" lemma="tekenen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="teken" sc="pc_pp(voor)" sense="teken-voor" stype="declarative" tense="present" word="tekenen" wvorm="pv"/>
+      <node begin="7" cat="conj" end="17" id="14" rel="su">
+        <node begin="7" cat="np" end="11" id="15" rel="cnj">
+          <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="premier"/>
+          <node begin="8" cat="mwu" end="11" id="17" mwu_root="Joop den Uyl" mwu_sense="Joop den Uyl" rel="app">
+            <node begin="8" end="9" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Joop" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Joop" sense="Joop" spectype="deeleigen" word="Joop"/>
+            <node begin="9" end="10" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="den" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="den" sense="den" spectype="deeleigen" word="den"/>
+            <node begin="10" end="11" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Uyl" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Uyl" sense="Uyl" spectype="deeleigen" word="Uyl"/>
+          </node>
+        </node>
+        <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="21" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="12" cat="np" end="17" id="22" rel="cnj">
+          <node begin="12" buiging="zonder" end="13" frame="determiner(pron)" getal="ev" id="23" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" id="24" infl="e" lcat="ap" lemma="Surinaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Surinaams" sense="Surinaams" vform="adj" word="Surinaamse"/>
+          <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="collega" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="collega" sense="collega" word="collega"/>
+          <node begin="15" cat="mwu" end="17" id="26" mwu_root="Henck Arron" mwu_sense="Henck Arron" rel="app">
+            <node begin="15" end="16" frame="proper_name(sg,'PER')" id="27" lcat="np" lemma="Henck" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Henck" sense="Henck" spectype="deeleigen" word="Henck"/>
+            <node begin="16" end="17" frame="proper_name(sg,'PER')" id="28" lcat="np" lemma="Arron" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Arron" sense="Arron" spectype="deeleigen" word="Arron"/>
+          </node>
+        </node>
+      </node>
+      <node begin="17" cat="pp" end="25" id="29" rel="pc">
+        <node begin="17" cat="advp" end="19" id="30" rel="mod">
+          <node begin="17" end="18" frame="adverb" id="31" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="18" end="19" frame="adverb" id="32" lcat="advp" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="hd" root="alleen" sense="alleen" word="alleen"/>
+        </node>
+        <node begin="19" end="20" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="33" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="20" cat="np" end="25" id="34" rel="obj1">
+          <node begin="20" end="21" frame="determiner(de)" id="35" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="21" end="22" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="36" lcat="np" lemma="overdracht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="overdracht" sense="overdracht" word="overdracht"/>
+          <node begin="22" cat="pp" end="25" id="37" rel="mod">
+            <node begin="22" end="23" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="38" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="23" cat="np" end="25" id="39" rel="obj1">
+              <node begin="23" end="24" frame="determiner(de)" id="40" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="24" end="25" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="41" lcat="np" lemma="soevereiniteit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="soevereiniteit" sense="soevereiniteit" word="soevereiniteit"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" id="42" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Op 25 november van dat jaar tekenen premier Joop den Uyl en zijn Surinaamse collega Henck Arron niet alleen voor de overdracht van de soevereiniteit .</sentence>
+  <comments>
+    <comment>Q#13|Op 25 november van dat jaar tekenen premier Joop den Uyl en zijn Surinaamse collega Henck Arron niet alleen voor de overdracht van de soevereiniteit .|1|1|-5.910032880560008</comment>
+  </comments>
+</alpino_ds>

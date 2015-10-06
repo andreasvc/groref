@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="du" end="11" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="2" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="11" id="3" rel="nucl">
+        <node begin="1" cat="pp" end="7" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(na,[])" id="5" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+          <node begin="2" cat="np" end="7" id="6" rel="obj1">
+            <node begin="2" end="3" frame="determiner(een)" id="7" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="verkenning" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verkenning" sense="verkenning" word="verkenning"/>
+            <node begin="4" cat="pp" end="7" id="9" rel="mod">
+              <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="5" cat="np" end="7" id="11" rel="obj1">
+                <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="12" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="parkoers" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="parkoers" sense="parkoers" word="parcours"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="verb(unacc,past(sg),pc_pp(van))" id="14" infl="sg" lcat="smain" lemma="veranderen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verander" sc="pc_pp(van)" sense="verander-van" stype="declarative" tense="past" word="veranderde" wvorm="pv"/>
+        <node begin="8" case="nom" def="def" end="9" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="15" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+        <node begin="9" cat="pp" end="11" id="16" rel="pc">
+          <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="17" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="18" lcat="np" lemma="gedachte" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="gedachte" sense="gedachte" word="gedachten"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Maar na een verkenning van het parcours veranderde ik van gedachten .</sentence>
+  <comments>
+    <comment>Q#51|Maar na een verkenning van het parcours veranderde ik van gedachten .|1|1|-3.535645696139998</comment>
+  </comments>
+</alpino_ds>

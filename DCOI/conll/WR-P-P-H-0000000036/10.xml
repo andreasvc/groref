@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="21" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="dp">
+        <node begin="2" end="3" frame="verb(hebben,past(pl),norm_passive)" id="4" infl="pl" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="sta" sc="norm_passive" sense="sta" stype="declarative" tense="past" word="stonden" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="5" index="1" rel="su">
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" id="6" infl="e" lcat="ap" lemma="kleurig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="kleurig" sense="kleurig" vform="adj" word="kleurige"/>
+          <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="7" lcat="np" lemma="Maria_beeld" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="Maria_beeld" sense="Maria_beeld" word="Mariabeelden"/>
+        </node>
+        <node begin="0" cat="ppart" end="6" id="8" rel="vc">
+          <node begin="0" cat="pp" end="2" id="9" rel="mod">
+            <node begin="0" end="1" frame="preposition(op,[af,na])" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="Op"/>
+            <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="11" lcat="np" lemma="camping_tafel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="camping_tafel" sense="camping_tafel" word="campingtafels"/>
+          </node>
+          <node begin="3" end="5" id="12" index="1" rel="obj1"/>
+          <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,ninv(transitive,part_transitive(uit)))" id="13" infl="psp" lcat="ppart" lemma="uit_stallen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stal_uit" sc="part_transitive(uit)" sense="stal_uit" word="uitgestald" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="7" cat="du" end="21" id="14" rel="dp">
+        <node begin="7" buiging="met-e" end="8" frame="determiner(pl_num,nwh,nmod,pro,yparg)" getal-n="zonder-n" id="15" infl="pl_num" lcat="np" lemma="sommige" naamval="stan" pdtype="det" pos="det" positie="nom" postag="VNW(onbep,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="dp" rnum="pl" root="sommige" sense="sommige" vwtype="onbep" wh="nwh" word="sommige"/>
+        <node begin="8" cat="ppart" end="21" id="16" rel="dp">
+          <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(ge_no_e(adv))" id="17" infl="no_e" lcat="ppart" lemma="omringd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="omringd" sense="omringd" vform="psp" word="omringd" wvorm="vd"/>
+          <node begin="9" cat="pp" end="21" id="18" rel="mod">
+            <node begin="9" end="10" frame="preposition(met,[mee,[en,al]])" id="19" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="10" cat="np" end="21" id="20" rel="obj1">
+              <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="21" lcat="np" lemma="pasfoto" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="pasfoto" sense="pasfoto" word="pasfoto&apos;s"/>
+              <node begin="11" cat="pp" end="21" id="22" rel="mod">
+                <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="23" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="12" cat="np" end="21" id="24" rel="obj1">
+                  <node aform="base" begin="12" buiging="met-e" end="13" frame="nominalized_adjective" getal-n="mv-n" graad="basis" id="25" lcat="np" lemma="ziek" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" rnum="pl" root="ziek" sense="ziek" special="a_noun" word="zieken"/>
+                  <node begin="13" cat="rel" end="21" id="26" rel="mod">
+                    <node begin="13" case="no_obl" end="14" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="27" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                    <node begin="13" cat="ssub" end="21" id="28" rel="body">
+                      <node begin="13" end="14" id="29" index="2" rel="su"/>
+                      <node begin="19" end="20" frame="verb('hebben/zijn',past(pl),aux(inf))" id="30" infl="pl" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past" word="konden" wvorm="pv"/>
+                      <node begin="13" cat="inf" end="21" id="31" rel="vc">
+                        <node begin="13" end="14" id="32" index="2" rel="su"/>
+                        <node begin="15" cat="np" end="17" id="33" rel="mod">
+                          <node begin="15" buiging="zonder" end="16" frame="determiner(het,nwh,nmod,pro,nparg)" id="34" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+                          <node begin="16" end="17" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="35" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+                        </node>
+                        <node begin="17" end="18" frame="adverb" id="36" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+                        <node begin="14" cat="pp" end="19" id="37" rel="ld">
+                          <node begin="14" end="15" frame="er_vp_adverb" getal="getal" id="38" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+                          <node begin="18" end="19" frame="preposition(bij,[vandaan])" id="39" lcat="pp" lemma="bij" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="bij" sense="bij" vztype="fin" word="bij"/>
+                        </node>
+                        <node begin="20" buiging="zonder" end="21" frame="verb(unacc,inf,ld_pp)" id="40" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="ld_pp" sense="ben" word="zijn" wvorm="inf"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" id="41" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Op campingtafels stonden kleurige Mariabeelden uitgestald , sommige omringd met pasfoto&apos;s van zieken die er dit jaar niet bij konden zijn .</sentence>
+  <comments>
+    <comment>Q#10|Op campingtafels stonden kleurige Mariabeelden uitgestald , sommige omringd met pasfoto&apos;s van zieken die er dit jaar niet bij konden zijn .|1|1|1.0570990250400039</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" cat="np" end="4" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="aanbieding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanbieding" sense="aanbieding" word="aanbieding"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="Parma" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Parma" sense="Parma" word="Parma"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(unacc,sg_heeft,copula)" id="9" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="5" cat="conj" end="12" id="10" rel="predc">
+        <node begin="5" cat="ap" end="7" id="11" rel="cnj">
+          <node begin="5" buiging="zonder" end="6" frame="intensifier" graad="basis" id="12" lcat="advp" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" sense="heel" special="intensifier" word="heel"/>
+          <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" id="13" infl="no_e" lcat="ap" lemma="mooi" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="mooi" sense="mooi" vform="adj" word="mooi"/>
+        </node>
+        <node begin="8" conjtype="neven" end="9" frame="conj(maar)" id="14" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+        <node begin="9" cat="np" end="12" id="15" rel="cnj">
+          <node begin="9" end="10" frame="adverb" id="16" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="10" end="11" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(stof)" getal-n="zonder-n" id="18" infl="stof" lcat="np" lemma="enig" naamval="stan" pdtype="det" pos="adj" positie="nom" postag="VNW(onbep,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="hd" rnum="sg" root="enig" sense="enig" vform="adj" vwtype="onbep" word="enige"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="13" end="14" frame="punct(aanhaal_rechts)" id="20" lcat="--" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+  </node>
+  <sentence>De aanbieding van Parma is heel mooi , maar niet de enige . &apos;&apos;</sentence>
+  <comments>
+    <comment>Q#7|De aanbieding van Parma is heel mooi , maar niet de enige . &apos;&apos;|1|1|-0.4500694348800013</comment>
+  </comments>
+</alpino_ds>

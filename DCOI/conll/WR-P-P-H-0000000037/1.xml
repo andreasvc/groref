@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="36" id="0" rel="top">
+    <node begin="29" end="30" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="35" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="cnj">
+        <node begin="0" cat="np" end="3" id="4" rel="su">
+          <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="5" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+          <node begin="1" cat="mwu" end="3" id="6" mwu_root="Haarlems Dagblad" mwu_sense="Haarlems Dagblad" rel="hd">
+            <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="7" lcat="np" lemma="Haarlems" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Haarlems" sense="Haarlems" spectype="deeleigen" word="Haarlems"/>
+            <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="8" lcat="np" lemma="Dagblad" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Dagblad" sense="Dagblad" spectype="deeleigen" word="Dagblad"/>
+          </node>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,past(sg),transitive)" id="9" infl="sg" lcat="smain" lemma="schrappen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="schrap" sc="transitive" sense="schrap" stype="declarative" tense="past" word="schrapte" wvorm="pv"/>
+        <node begin="4" case="dat_acc" def="def" end="5" frame="pronoun(nwh,thi,sg,de,dat_acc,def)" gen="de" genus="masc" getal="ev" id="10" lcat="np" lemma="hem" naamval="obl" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" rnum="sg" root="hem" sense="hem" status="vol" vwtype="pers" wh="nwh" word="hem"/>
+        <node begin="5" cat="cp" end="8" id="11" rel="predm">
+          <node begin="5" end="6" frame="complementizer(als)" id="12" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+          <node begin="6" cat="np" end="8" id="13" rel="body">
+            <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" id="14" infl="no_e" lcat="ap" lemma="politiek" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="politiek" sense="politiek" vform="adj" word="politiek"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="tekenaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tekenaar" sense="tekenaar" word="tekenaar"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" frame="conj(en)" id="16" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="9" cat="smain" end="35" id="17" rel="cnj">
+        <node begin="10" end="11" frame="verb(hebben,sg3,aux(te))" id="18" infl="sg3" lcat="smain" lemma="dreigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dreig" sc="aux(te)" sense="dreig" stype="declarative" tense="present" word="dreigt" wvorm="pv"/>
+        <node begin="11" cat="np" end="17" id="19" index="1" rel="su">
+          <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="staatssecretaris" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staatssecretaris" sense="staatssecretaris" word="staatssecretaris"/>
+          <node begin="12" cat="mwu" end="15" id="21" mwu_root="Van der Ploeg" mwu_sense="Van der Ploeg" rel="app">
+            <node begin="12" end="13" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Van" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Van" sense="Van" spectype="deeleigen" word="Van"/>
+            <node begin="13" end="14" frame="proper_name(sg,'PER')" id="23" lcat="np" lemma="der" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="der" sense="der" spectype="deeleigen" word="der"/>
+            <node begin="14" end="15" frame="proper_name(sg,'PER')" id="24" lcat="np" lemma="Ploeg" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ploeg" sense="Ploeg" spectype="deeleigen" word="Ploeg"/>
+          </node>
+          <node begin="15" cat="pp" end="17" id="25" rel="mod">
+            <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="26" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="cultuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="cultuur" sense="cultuur" word="cultuur"/>
+          </node>
+        </node>
+        <node begin="9" cat="ti" end="35" id="28" rel="vc">
+          <node begin="20" end="21" frame="complementizer(te)" id="29" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="9" cat="inf" end="35" id="30" rel="body">
+            <node begin="9" end="10" frame="tmp_adverb" id="31" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" sense="nu" special="tmp" word="nu"/>
+            <node begin="11" end="17" id="32" index="1" rel="su"/>
+            <node begin="17" end="18" frame="sentence_adverb" id="33" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+            <node begin="21" buiging="zonder" end="22" frame="verb(hebben,inf,transitive)" id="34" infl="inf" lcat="inf" lemma="zetten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zet" sc="transitive" sense="zet" word="zetten" wvorm="inf"/>
+            <node begin="18" cat="np" end="35" id="35" rel="obj1">
+              <node begin="18" end="19" frame="determiner(een)" id="36" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="37" lcat="np" lemma="streep" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="streep" sense="streep" word="streep"/>
+              <node begin="22" cat="pp" end="35" id="38" rel="mod">
+                <node begin="22" end="23" frame="preposition(door,[heen])" id="39" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                <node begin="23" cat="np" end="35" id="40" rel="obj1">
+                  <node begin="23" end="24" frame="determiner(de)" id="41" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="24" end="25" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="42" lcat="np" lemma="animatie_afdeling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="animatie_afdeling" sense="animatie_afdeling" word="animatie-afdeling"/>
+                  <node begin="25" cat="pp" end="29" id="43" rel="mod">
+                    <node begin="25" end="26" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="44" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="26" cat="np" end="29" id="45" rel="obj1">
+                      <node begin="26" end="27" frame="determiner(de)" id="46" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node aform="base" begin="27" buiging="met-e" end="28" frame="adjective(e)" graad="basis" id="47" infl="e" lcat="ap" lemma="Tilburgs" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Tilburgs" sense="Tilburgs" vform="adj" word="Tilburgse"/>
+                      <node begin="28" end="29" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="48" lcat="np" lemma="Kunstacademie" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Kunstacademie" sense="Kunstacademie" word="Kunstacademie"/>
+                    </node>
+                  </node>
+                  <node begin="30" cat="rel" end="35" id="49" rel="mod">
+                    <node begin="30" case="no_obl" end="31" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="50" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                    <node begin="30" cat="ssub" end="35" id="51" rel="body">
+                      <node begin="30" end="31" id="52" index="2" rel="su"/>
+                      <node begin="33" end="34" frame="verb(unacc,sg_heeft,passive)" id="53" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" tense="present" word="is" wvorm="pv"/>
+                      <node begin="30" cat="ppart" end="35" id="54" rel="vc">
+                        <node begin="30" end="31" id="55" index="2" rel="obj1"/>
+                        <node begin="31" cat="pp" end="33" id="56" rel="mod">
+                          <node begin="31" end="32" frame="preposition(door,[heen])" id="57" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                          <node begin="32" case="dat_acc" def="def" end="33" frame="pronoun(nwh,thi,sg,de,dat_acc,def)" gen="de" genus="masc" getal="ev" id="58" lcat="np" lemma="hem" naamval="obl" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" rnum="sg" root="hem" sense="hem" status="vol" vwtype="pers" wh="nwh" word="hem"/>
+                        </node>
+                        <node begin="34" buiging="zonder" end="35" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" id="59" infl="psp" lcat="ppart" lemma="op_zetten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zet_op" sc="part_transitive(op)" sense="zet_op" word="opgezet" wvorm="vd"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="35" end="36" frame="punct(punt)" id="60" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het Haarlems Dagblad schrapte hem als politiek tekenaar en nu dreigt staatssecretaris Van der Ploeg van cultuur ook een streep te zetten door de animatie-afdeling van de Tilburgse Kunstacademie , die door hem is opgezet .</sentence>
+  <comments>
+    <comment>Q#1|Het Haarlems Dagblad schrapte hem als politiek tekenaar en nu dreigt staatssecretaris Van der Ploeg van cultuur ook een streep te zetten door de animatie-afdeling van de Tilburgse Kunstacademie , die door hem is opgezet .|1|1|-3.4375597275200205</comment>
+  </comments>
+</alpino_ds>

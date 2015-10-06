@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="4" lcat="np" lemma="onderhandeling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="onderhandeling" sense="onderhandeling" word="onderhandelingen"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(met,[mee,[en,al]])" id="6" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node begin="3" end="4" frame="determiner(een)" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="hoofdsponsor" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hoofdsponsor" sense="hoofdsponsor" word="hoofdsponsor"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(unacc,pl,copula)" id="10" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="6" cat="pp" end="10" id="11" rel="predc">
+        <node begin="6" end="7" frame="preposition(in,[])" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="7" cat="np" end="10" id="13" rel="obj1">
+          <node begin="7" end="8" frame="determiner(een)" id="14" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(ge_no_e(adv))" id="15" infl="no_e" lcat="ppart" lemma="gevorderd" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gevorderd" sense="gevorderd" vform="psp" word="gevorderd" wvorm="vd"/>
+          <node begin="9" end="10" frame="noun(het,count,sg,pred_pp(in))" gen="het" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="stadium" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="stadium" sc="pred_pp(in)" sense="stadium" word="stadium"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" frame="punct(punt)" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De onderhandelingen met een hoofdsponsor zijn in een gevorderd stadium .</sentence>
+  <comments>
+    <comment>Q#6|De onderhandelingen met een hoofdsponsor zijn in een gevorderd stadium .|1|1|-4.9382564766599994</comment>
+  </comments>
+</alpino_ds>

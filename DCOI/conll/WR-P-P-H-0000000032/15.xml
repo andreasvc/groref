@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="0" cat="cp" end="7" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer(als)" id="4" lcat="cp" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" sc="als" sense="als" word="Als"/>
+        <node begin="1" cat="ssub" end="7" id="5" rel="body">
+          <node begin="1" cat="np" end="4" id="6" rel="su">
+            <node begin="1" end="2" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" id="8" infl="e" lcat="ap" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klein" sense="klein" vform="adj" word="kleine"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="optocht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="optocht" sense="optocht" word="optocht"/>
+          </node>
+          <node begin="4" cat="np" end="6" id="10" rel="obj1">
+            <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="11" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="12" lcat="np" lemma="plein" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="plein" sense="plein" word="plein"/>
+          </node>
+          <node begin="6" end="7" frame="verb(zijn,sg3,transitive)" id="13" infl="sg3" lcat="ssub" lemma="naderen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="nader" sc="transitive" sense="nader" tense="present" word="nadert" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(zijn,sg3,ld_pp)" id="14" infl="sg3" lcat="smain" lemma="rennen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ren" sc="ld_pp" sense="ren" stype="declarative" tense="present" word="rent" wvorm="pv"/>
+      <node begin="9" cat="np" end="12" id="15" rel="su">
+        <node begin="9" end="10" frame="determiner(de)" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="10" end="11" frame="noun(de,count,sg,measure)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="horde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="horde" sc="measure" sense="horde" word="horde"/>
+        <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="18" lcat="np" lemma="jongere" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="jongere" sense="jongere" word="jongeren"/>
+      </node>
+      <node begin="12" end="13" frame="er_adverb(naar)" id="19" lcat="pp" lemma="erheen" pos="pp" postag="BW()" pt="bw" rel="ld" root="erheen" sense="erheen" special="er" word="erheen"/>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Als de kleine optocht het plein nadert , rent de horde jongeren erheen .</sentence>
+  <comments>
+    <comment>Q#15|Als de kleine optocht het plein nadert , rent de horde jongeren erheen .|1|1|2.499745626999999</comment>
+  </comments>
+</alpino_ds>

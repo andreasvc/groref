@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_both)" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="2" end="3" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="1" cat="smain" end="17" id="3" rel="--">
+      <node begin="1" end="2" frame="proper_name(both)" genus="genus" getal="ev" graad="basis" id="4" lcat="np" lemma="Interscape" naamval="stan" neclass="MISC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" rnum="sg" root="Interscape" sense="Interscape" word="Interscape"/>
+      <node begin="3" end="4" frame="verb(hebben,sg3,np_pc_pp(met))" id="5" infl="sg3" lcat="smain" lemma="confronteren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="confronteer" sc="np_pc_pp(met)" sense="confronteer-met" stype="declarative" tense="present" word="confronteert" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="6" rel="obj1">
+        <node begin="4" end="5" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="toeschouwer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="toeschouwer" sense="toeschouwer" word="toeschouwer"/>
+      </node>
+      <node begin="6" cat="pp" end="9" id="9" rel="mod">
+        <node begin="6" end="7" frame="preposition(op,[af,na])" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="7" cat="np" end="9" id="11" rel="obj1">
+          <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" id="12" infl="e" lcat="ap" lemma="indrukwekkend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="indrukwekkend" sense="indrukwekkend" vform="adj" word="indrukwekkende"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="wijze" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wijze" sense="wijze" word="wijze"/>
+        </node>
+      </node>
+      <node begin="9" cat="pp" end="17" id="14" rel="pc">
+        <node begin="9" end="10" frame="preposition(met,[mee,[en,al]])" id="15" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="10" cat="np" end="17" id="16" rel="obj1">
+          <node begin="10" buiging="met-e" end="11" frame="determiner(de,nwh,nmod,pro,nparg)" id="17" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="deze"/>
+          <node begin="11" cat="ppart" end="16" id="18" rel="mod">
+            <node begin="11" cat="pp" end="13" id="19" rel="mod">
+              <node begin="11" end="12" frame="preposition(door,[heen])" id="20" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+              <node begin="12" end="13" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="Cunningham" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Cunningham" sense="Cunningham" word="Cunningham"/>
+            </node>
+            <node begin="13" cat="ap" end="15" id="22" rel="mod">
+              <node begin="13" end="14" frame="adverb" id="23" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" sense="zo" word="zo"/>
+              <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(no_e(adv))" graad="basis" id="24" infl="no_e" lcat="ap" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="vaak" sense="vaak" vform="adj" word="vaak"/>
+            </node>
+            <node aform="base" begin="15" buiging="met-e" end="16" frame="adjective(ge_e)" id="25" infl="e" lcat="ppart" lemma="gedaan" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gedaan" sense="gedaan" vform="psp" word="gedane" wvorm="vd"/>
+          </node>
+          <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="uitspraak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="uitspraak" sense="uitspraak" word="uitspraak"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>&apos; Interscape &apos; confronteert de toeschouwer op indrukwekkende wijze met deze door Cunningham zo vaak gedane uitspraak .</sentence>
+  <comments>
+    <comment>Q#35|&apos; Interscape &apos; confronteert de toeschouwer op indrukwekkende wijze met deze door Cunningham zo vaak gedane uitspraak .|1|1|-3.5265244677400025</comment>
+  </comments>
+</alpino_ds>

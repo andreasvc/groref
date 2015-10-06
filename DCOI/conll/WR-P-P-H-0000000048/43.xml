@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(punt_komma)" id="1" lcat="punct" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" sense=";" special="punt_komma" word=";"/>
+    <node begin="21" end="22" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="27" id="3" rel="--">
+      <node begin="0" cat="conj" end="11" id="4" rel="dp">
+        <node begin="0" cat="smain" end="7" id="5" rel="cnj">
+          <node begin="0" cat="np" end="2" id="6" rel="mod">
+            <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(nonadv))" graad="basis" id="7" infl="no_e" lcat="ap" lemma="vorig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vorig" sense="vorig" vform="adj" word="Vorig"/>
+            <node begin="1" end="2" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+          </node>
+          <node begin="2" end="3" frame="verb(unacc,past(sg),ld_pp)" id="9" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="ld_pp" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+          <node begin="3" case="nom" def="def" end="4" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="10" index="1" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+          <node begin="4" end="5" frame="adverb" id="11" lcat="advp" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" sense="weer" word="weer"/>
+          <node begin="5" cat="pp" end="7" id="12" rel="ld">
+            <node begin="5" end="6" frame="preposition(in,[])" id="13" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="India" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="India" sense="India" word="India"/>
+          </node>
+        </node>
+        <node begin="7" conjtype="neven" end="8" frame="conj(en)" id="15" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="3" cat="smain" end="11" id="16" rel="cnj">
+          <node begin="3" end="4" id="17" index="1" rel="su"/>
+          <node begin="8" end="9" frame="verb(hebben,past(sg),transitive_ndev_ndev)" id="18" infl="sg" lcat="smain" lemma="horen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="hoor" sc="transitive_ndev_ndev" sense="hoor" tense="past" word="hoorde" wvorm="pv"/>
+          <node begin="9" cat="np" end="11" id="19" rel="obj1">
+            <node begin="9" end="10" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="21" lcat="np" lemma="frustratie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="frustratie" sense="frustratie" word="frustraties"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="smain" end="27" id="22" rel="dp">
+        <node begin="12" case="both" def="def" end="13" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" id="23" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" rnum="pl" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+        <node begin="13" end="14" frame="verb(zijn,pl,pc_pp(op))" id="24" infl="pl" lcat="smain" lemma="stuiten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="stuit" sc="pc_pp(op)" sense="stuit-op" stype="declarative" tense="present" word="stuiten" wvorm="pv"/>
+        <node begin="14" cat="pp" end="21" id="25" rel="pc">
+          <node begin="14" end="15" frame="modal_adverb" id="26" lcat="advp" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="mod" root="alleen" sc="modal" sense="alleen" word="alleen"/>
+          <node begin="15" end="16" frame="preposition(op,[af,na])" id="27" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="16" cat="conj" end="21" id="28" rel="obj1">
+            <node begin="16" cat="np" end="18" id="29" rel="cnj">
+              <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" id="30" infl="e" lcat="ap" lemma="mannelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mannelijk" sense="mannelijk" vform="adj" word="mannelijke"/>
+              <node begin="17" end="18" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="onwil" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="onwil" sense="onwil" word="onwil"/>
+            </node>
+            <node begin="18" conjtype="neven" end="19" frame="conj(en)" id="32" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="19" cat="np" end="21" id="33" rel="cnj">
+              <node aform="base" begin="19" buiging="met-e" end="20" frame="adjective(e)" graad="basis" id="34" infl="e" lcat="ap" lemma="middeleeuws" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="middeleeuws" sense="middeleeuws" vform="adj" word="middeleeuwse"/>
+              <node begin="20" end="21" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="35" lcat="np" lemma="vooroordeel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vooroordeel" sense="vooroordeel" word="vooroordelen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="22" end="23" frame="adverb" id="36" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="23" cat="pp" end="27" id="37" rel="mod">
+          <node begin="23" end="24" frame="preposition(op,[af,na])" id="38" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="24" cat="np" end="27" id="39" rel="obj1">
+            <node aform="base" begin="24" buiging="met-e" end="25" frame="adjective(ende(padv))" id="40" infl="e" lcat="ppres" lemma="steekhoudende" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="steekhoudende" sense="steekhoudende" vform="gerund" word="steekhoudende" wvorm="od"/>
+            <node aform="base" begin="25" buiging="met-e" end="26" frame="adjective(e)" graad="basis" id="41" infl="e" lcat="ap" lemma="theologisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="theologisch" sense="theologisch" vform="adj" word="theologische"/>
+            <node begin="26" end="27" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="42" lcat="np" lemma="argument" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="argument" sense="argument" word="argumenten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="43" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="28" end="29" frame="punct(aanhaal_rechts)" id="44" lcat="--" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+  </node>
+  <sentence>Vorig jaar was ik weer in India en hoorde de frustraties ; ze stuiten alleen op mannelijke onwil en middeleeuwse vooroordelen , niet op steekhoudende theologische argumenten . &apos;&apos;</sentence>
+  <comments>
+    <comment>Q#43|Vorig jaar was ik weer in India en hoorde de frustraties ; ze stuiten alleen op mannelijke onwil en middeleeuwse vooroordelen , niet op steekhoudende theologische argumenten . &apos;&apos;|1|1|-1.0219782887399906</comment>
+  </comments>
+</alpino_ds>

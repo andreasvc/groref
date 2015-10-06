@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="21" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="predc">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(ge_both(adv))" id="5" infl="both" lcat="ppart" lemma="omgekomen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="omgekomen" sense="omgekomen" vform="psp" word="omgekomen" wvorm="vd"/>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="6" lcat="np" lemma="militair" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="militair" sense="militair" word="militairen"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,pl,copula)" id="7" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="4" cat="conj" end="21" id="8" rel="su">
+        <node begin="4" cat="np" end="9" id="9" rel="cnj">
+          <node begin="4" end="5" frame="determiner(een)" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" id="11" infl="e" lcat="ap" lemma="19_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="19_jarig" sense="19_jarig" vform="adj" word="19-jarige"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="marinier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="marinier" sense="marinier" word="marinier"/>
+          <node begin="7" cat="pp" end="9" id="13" rel="mod">
+            <node begin="7" end="8" frame="preposition(uit,[vandaan])" id="14" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="8" end="9" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="15" lcat="np" lemma="Enschede" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Enschede" sense="Enschede" word="Enschede"/>
+          </node>
+        </node>
+        <node begin="10" cat="np" end="15" id="16" rel="cnj">
+          <node begin="10" end="11" frame="determiner(een)" id="17" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" id="18" infl="e" lcat="ap" lemma="20_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="20_jarig" sense="20_jarig" vform="adj" word="20-jarige"/>
+          <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="marinier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="marinier" sense="marinier" word="marinier"/>
+          <node begin="13" cat="pp" end="15" id="20" rel="mod">
+            <node begin="13" end="14" frame="preposition(uit,[vandaan])" id="21" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="22" lcat="np" lemma="Slagharen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Slagharen" sense="Slagharen" word="Slagharen"/>
+          </node>
+        </node>
+        <node begin="15" conjtype="neven" end="16" frame="conj(en)" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="16" cat="np" end="21" id="24" rel="cnj">
+          <node begin="16" end="17" frame="determiner(een)" id="25" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="17" buiging="met-e" end="18" frame="adjective(e)" graad="basis" id="26" infl="e" lcat="ap" lemma="25_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="25_jarig" sense="25_jarig" vform="adj" word="25-jarige"/>
+          <node begin="18" end="19" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="marinier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="marinier" sense="marinier" word="marinier"/>
+          <node begin="19" cat="pp" end="21" id="28" rel="mod">
+            <node begin="19" end="20" frame="preposition(uit,[vandaan])" id="29" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="20" end="21" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="30" lcat="np" lemma="Sliedrecht" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Sliedrecht" sense="Sliedrecht" word="Sliedrecht"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De omgekomen militairen zijn een 19-jarige marinier uit Enschede , een 20-jarige marinier uit Slagharen en een 25-jarige marinier uit Sliedrecht .</sentence>
+  <comments>
+    <comment>Q#13|De omgekomen militairen zijn een 19-jarige marinier uit Enschede , een 20-jarige marinier uit Slagharen en een 25-jarige marinier uit Sliedrecht .|1|1|-3.1579122200800005</comment>
+  </comments>
+</alpino_ds>

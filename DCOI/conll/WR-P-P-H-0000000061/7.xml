@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(dubb_punt)" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="6" end="7" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="9" end="10" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="15" id="4" rel="--">
+      <node begin="0" end="1" frame="cleft_het_noun" genus="onz" getal="ev" id="5" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="pl" root="dat" sense="dat" special="cleft_het" status="red" vwtype="pers" word="Dat"/>
+      <node begin="1" end="2" frame="verb(unacc,pl,cleft)" id="6" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="cleft" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="3" cat="conj" end="15" id="7" rel="predc">
+        <node begin="3" cat="np" end="6" id="8" rel="cnj">
+          <node begin="3" end="4" frame="determiner(de)" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" cat="mwu" end="6" id="10" mwu_root="American Steffordshire" mwu_sense="American Steffordshire" rel="hd">
+            <node begin="4" end="5" frame="proper_name(both)" id="11" lcat="np" lemma="American" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="American" sense="American" spectype="deeleigen" word="American"/>
+            <node begin="5" end="6" frame="proper_name(both)" id="12" lcat="np" lemma="Steffordshire" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Steffordshire" sense="Steffordshire" spectype="deeleigen" word="Steffordshire"/>
+          </node>
+        </node>
+        <node begin="7" cat="mwu" end="9" id="13" mwu_root="Dogo Argentino" mwu_sense="Dogo Argentino" rel="cnj">
+          <node begin="7" end="8" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Dogo" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Dogo" sense="Dogo" spectype="deeleigen" word="Dogo"/>
+          <node begin="8" end="9" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Argentino" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Argentino" sense="Argentino" spectype="deeleigen" word="Argentino"/>
+        </node>
+        <node begin="10" cat="mwu" end="12" id="16" mwu_root="Fila Brasileiro" mwu_sense="Fila Brasileiro" rel="cnj">
+          <node begin="10" end="11" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="Fila" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Fila" sense="Fila" spectype="deeleigen" word="Fila"/>
+          <node begin="11" end="12" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Brasileiro" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Brasileiro" sense="Brasileiro" spectype="deeleigen" word="Brasileiro"/>
+        </node>
+        <node begin="12" conjtype="neven" end="13" frame="conj(en)" id="19" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="13" cat="mwu" end="15" id="20" mwu_root="Mastino Napolitano" mwu_sense="Mastino Napolitano" rel="cnj">
+          <node begin="13" end="14" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="Mastino" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mastino" sense="Mastino" spectype="deeleigen" word="Mastino"/>
+          <node begin="14" end="15" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Napolitano" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Napolitano" sense="Napolitano" spectype="deeleigen" word="Napolitano"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dat zijn : de American Steffordshire , Dogo Argentino , Fila Brasileiro en Mastino Napolitano .</sentence>
+  <comments>
+    <comment>Q#7|Dat zijn : de American Steffordshire , Dogo Argentino , Fila Brasileiro en Mastino Napolitano .|1|1|-1.5226702728399992</comment>
+  </comments>
+</alpino_ds>

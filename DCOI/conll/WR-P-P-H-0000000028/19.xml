@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="7" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="4" mwu_root="Achttiende Divisie" mwu_sense="Achttiende Divisie" rel="hd">
+          <node begin="1" end="2" frame="proper_name(both,'ORG')" id="5" lcat="np" lemma="Achttiende" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Achttiende" sense="Achttiende" spectype="deeleigen" word="Achttiende"/>
+          <node begin="2" end="3" frame="proper_name(both,'ORG')" id="6" lcat="np" lemma="Divisie" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Divisie" sense="Divisie" spectype="deeleigen" word="Divisie"/>
+        </node>
+        <node begin="3" cat="pp" end="7" id="7" rel="mod">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="7" id="9" rel="obj1">
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="generaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="generaal" sense="generaal" word="generaal"/>
+            <node begin="5" cat="mwu" end="7" id="11" mwu_root="Ivor Maxse" mwu_sense="Ivor Maxse" rel="app">
+              <node begin="5" end="6" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Ivor" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ivor" sense="Ivor" spectype="deeleigen" word="Ivor"/>
+              <node begin="6" end="7" frame="proper_name(sg,'PER')" id="13" lcat="np" lemma="Maxse" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Maxse" sense="Maxse" spectype="deeleigen" word="Maxse"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(hebben,past(sg),transitive)" id="14" infl="sg" lcat="smain" lemma="veroveren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verover" sc="transitive" sense="verover" stype="declarative" tense="past" word="veroverde" wvorm="pv"/>
+      <node begin="8" cat="pp" end="10" id="15" rel="mod">
+        <node begin="8" end="9" frame="preposition(volgens,[])" id="16" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="volgens"/>
+        <node begin="9" end="10" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="plan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="plan" sense="plan" word="plan"/>
+      </node>
+      <node begin="10" cat="np" end="13" id="18" rel="obj1">
+        <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="19" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="20" lcat="np" lemma="dorp" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="dorp" sense="dorp" word="dorp"/>
+        <node begin="12" end="13" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="21" lcat="np" lemma="Montauban" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Montauban" sense="Montauban" word="Montauban"/>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" id="22" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De Achttiende Divisie van generaal Ivor Maxse veroverde volgens plan het dorp Montauban .</sentence>
+  <comments>
+    <comment>Q#19|De Achttiende Divisie van generaal Ivor Maxse veroverde volgens plan het dorp Montauban .|1|1|1.4846250208599965</comment>
+  </comments>
+</alpino_ds>

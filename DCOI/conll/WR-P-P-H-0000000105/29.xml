@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="8" end="9" frame="verb(unacc,past(sg),aux_psp_zijn)" id="2" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="9" cat="np" end="12" id="3" index="1" rel="su">
+        <node begin="9" end="10" frame="modal_adverb" id="4" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sc="modal" sense="ook" word="ook"/>
+        <node begin="10" cat="mwu" end="12" id="5" mwu_root="Saskia Kaagman" mwu_sense="Saskia Kaagman" rel="hd">
+          <node begin="10" end="11" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Saskia" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Saskia" sense="Saskia" spectype="deeleigen" word="Saskia"/>
+          <node begin="11" end="12" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Kaagman" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kaagman" sense="Kaagman" spectype="deeleigen" word="Kaagman"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="19" id="8" rel="vc">
+        <node begin="0" cat="cp" end="8" id="9" rel="mod">
+          <node begin="0" conjtype="onder" end="1" frame="complementizer(np)" id="10" lcat="cp" lemma="behalve" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="behalve" sc="np" sense="behalve" word="Behalve"/>
+          <node begin="1" cat="conj" end="8" id="11" rel="body">
+            <node begin="1" cat="mwu" end="3" id="12" mwu_root="Van Alebeek" mwu_sense="Van Alebeek" rel="cnj">
+              <node begin="1" end="2" frame="proper_name(sg,'PER')" id="13" lcat="np" lemma="Van" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Van" sense="Van" spectype="deeleigen" word="Van"/>
+              <node begin="2" end="3" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Alebeek" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Alebeek" sense="Alebeek" spectype="deeleigen" word="Alebeek"/>
+            </node>
+            <node begin="3" conjtype="neven" end="4" frame="conj(en)" id="15" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="4" cat="np" end="8" id="16" rel="cnj">
+              <node begin="4" buiging="zonder" end="5" frame="determiner(pron)" getal="ev" id="17" infl="pron" lcat="detp" lemma="haar" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="haar" sense="haar" status="vol" vwtype="bez" word="haar"/>
+              <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="ploeg_genote" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ploeg_genote" sense="ploeg_genote" word="ploeggenote"/>
+              <node begin="6" cat="mwu" end="8" id="19" mwu_root="Bertine Spijkerman" mwu_sense="Bertine Spijkerman" rel="app">
+                <node begin="6" end="7" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Bertine" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bertine" sense="Bertine" spectype="deeleigen" word="Bertine"/>
+                <node begin="7" end="8" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="Spijkerman" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Spijkerman" sense="Spijkerman" spectype="deeleigen" word="Spijkerman"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="12" id="22" index="1" rel="su"/>
+        <node begin="12" cat="pp" end="18" id="23" rel="ld">
+          <node begin="12" end="13" frame="preposition(uit,[vandaan])" id="24" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="13" cat="np" end="18" id="25" rel="obj1">
+            <node begin="13" end="14" frame="determiner(de)" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="opleiding_ploeg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="opleiding_ploeg" sense="opleiding_ploeg" word="opleidingsploeg"/>
+            <node begin="15" cat="pp" end="18" id="28" rel="mod">
+              <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="29" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="16" cat="mwu" end="18" id="30" mwu_root="Farm Frites" mwu_sense="Farm Frites" rel="obj1">
+                <node begin="16" end="17" frame="proper_name(sg,'ORG')" id="31" lcat="np" lemma="Farm" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Farm" sense="Farm" spectype="deeleigen" word="Farm"/>
+                <node begin="17" end="18" frame="proper_name(sg,'ORG')" id="32" lcat="np" lemma="Frites" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Frites" sense="Frites" spectype="deeleigen" word="Frites"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" buiging="zonder" end="19" frame="verb('hebben/zijn',psp,ld_pp)" id="33" infl="psp" lcat="ppart" lemma="mee_springen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="spring_mee" sc="ld_pp" sense="spring_mee" word="meegesprongen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Behalve Van Alebeek en haar ploeggenote Bertine Spijkerman was ook Saskia Kaagman uit de opleidingsploeg van Farm Frites meegesprongen .</sentence>
+  <comments>
+    <comment>Q#29|Behalve Van Alebeek en haar ploeggenote Bertine Spijkerman was ook Saskia Kaagman uit de opleidingsploeg van Farm Frites meegesprongen .|1|1|-4.175488448080001</comment>
+  </comments>
+</alpino_ds>

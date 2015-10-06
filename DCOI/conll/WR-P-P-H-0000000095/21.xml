@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="13" end="14" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="15" end="16" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="17" end="18" frame="punct(ligg_streep)" id="4" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="smain" end="20" id="5" rel="--">
+      <node begin="4" end="5" frame="verb(zijn,past(pl),aux(inf))" id="6" infl="pl" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ga" sc="aux(inf)" sense="ga" stype="declarative" tense="past" word="gingen" wvorm="pv"/>
+      <node begin="6" cat="np" end="17" id="7" index="1" rel="su">
+        <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="8" lcat="np" lemma="amateur" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="amateur" sense="amateur" word="amateurs"/>
+        <node begin="7" cat="pp" end="17" id="9" rel="mod">
+          <node begin="7" end="8" frame="preposition(uit,[vandaan])" id="10" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="8" cat="np" end="17" id="11" rel="obj1">
+            <node begin="8" end="9" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="13" infl="e" lcat="ap" lemma="gegoed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gegoed" sense="gegoed" vform="adj" word="gegoede"/>
+            <node begin="10" end="11" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="burgerij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="burgerij" sense="burgerij" word="burgerij"/>
+            <node begin="12" cat="conj" end="17" id="15" rel="mod">
+              <node begin="12" end="13" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="16" lcat="np" lemma="arts" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="arts" sense="arts" word="artsen"/>
+              <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="17" lcat="np" lemma="ambtenaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="ambtenaar" sense="ambtenaar" word="ambtenaren"/>
+              <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="18" lcat="np" lemma="jurist" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="jurist" sense="jurist" word="juristen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="20" id="19" rel="vc">
+        <node begin="0" cat="pp" end="4" id="20" rel="mod">
+          <node begin="0" end="1" frame="preposition(vanaf,[])" id="21" lcat="pp" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" sense="vanaf" vztype="init" word="Vanaf"/>
+          <node begin="1" cat="np" end="4" id="22" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="2" end="3" frame="number(rang)" id="24" lcat="ap" lemma="zeventiende" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="zeventiende" sense="zeventiende" special="rang" word="zeventiende"/>
+            <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="eeuw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="eeuw" sense="eeuw" special="tmp" word="eeuw"/>
+          </node>
+        </node>
+        <node begin="5" end="6" frame="sentence_adverb" id="26" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+        <node begin="6" end="17" id="27" index="1" rel="su"/>
+        <node begin="18" end="19" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="dim" id="28" lcat="np" lemma="muziek_avond" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="obj1" rnum="pl" root="muziek_avond_DIM" sense="muziek_avond_DIM" special="tmp" word="muziekavondjes"/>
+        <node begin="19" buiging="zonder" end="20" frame="verb(hebben,inf,transitive)" id="29" infl="inf" lcat="inf" lemma="organiseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="organiseer" sc="transitive" sense="organiseer" word="organiseren" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" id="30" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Vanaf de zeventiende eeuw gingen ook amateurs uit de gegoede burgerij - artsen , ambtenaren , juristen - muziekavondjes organiseren .</sentence>
+  <comments>
+    <comment>Q#21|Vanaf de zeventiende eeuw gingen ook amateurs uit de gegoede burgerij - artsen , ambtenaren , juristen - muziekavondjes organiseren .|1|1|-8.621410925759996</comment>
+  </comments>
+</alpino_ds>

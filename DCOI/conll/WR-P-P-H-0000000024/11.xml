@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(alle,nwh,mod,pro,nparg)" id="3" infl="alle" lcat="detp" lemma="alle" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" sense="alle" vwtype="onbep" wh="nwh" word="Alle"/>
+        <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="4" lcat="np" lemma="hotel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="hotel" sense="hotel" word="hotels"/>
+        <node begin="2" cat="pp" end="6" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(tussen,[door,in,vandaan])" id="6" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+          <node begin="3" cat="conj" end="6" id="7" rel="obj1">
+            <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="Maastricht" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Maastricht" sense="Maastricht" word="Maastricht"/>
+            <node begin="4" conjtype="neven" end="5" frame="conj(en)" id="9" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="Roermond" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Roermond" sense="Roermond" word="Roermond"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(unacc,pl,copula)" id="11" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(padv))" graad="basis" id="12" infl="no_e" lcat="ap" lemma="volgeboekt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="volgeboekt" sense="volgeboekt" vform="adj" word="volgeboekt"/>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" id="13" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Alle hotels tussen Maastricht en Roermond zijn volgeboekt .</sentence>
+  <comments>
+    <comment>Q#11|Alle hotels tussen Maastricht en Roermond zijn volgeboekt .|1|1|-7.475790055759999</comment>
+  </comments>
+</alpino_ds>

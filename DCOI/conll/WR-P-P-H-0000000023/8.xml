@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="14" end="15" frame="punct(aanhaal_links)" id="3" lcat="punct" lemma=",," pos="punct" postag="LET()" pt="let" rel="--" root=",," sense=",," special="aanhaal_links" word=",,"/>
+    <node begin="0" cat="smain" end="24" id="4" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="5" lcat="np" lemma="Suriname" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Suriname" sense="Suriname" word="Suriname"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,sbar)" id="6" infl="sg3" lcat="smain" lemma="bevestigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bevestig" sc="sbar" sense="bevestig" stype="declarative" tense="present" word="bevestigt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="8" id="7" rel="mod">
+        <node begin="3" end="4" frame="preposition(ten,[],nodet)" id="8" lcat="pp" lemma="ten" pos="prep" postag="VZ(versm)" pt="vz" rel="hd" root="ten" sc="nodet" sense="ten" vztype="versm" word="ten"/>
+        <node begin="4" cat="np" end="8" id="9" rel="obj1">
+          <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="teken" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="teken" sense="teken" word="teken"/>
+          <node begin="5" cat="pp" end="8" id="11" rel="mod">
+            <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="8" id="13" rel="obj1">
+              <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(ge_both(adv))" id="14" infl="both" lcat="ppart" lemma="toegenomen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="toegenomen" sense="toegenomen" vform="psp" word="toegenomen" wvorm="vd"/>
+              <node begin="7" end="8" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="15" lcat="np" lemma="zelfvertrouwen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="zelfvertrouwen" sense="zelfvertrouwen" word="zelfvertrouwen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="cp" end="24" id="16" rel="vc">
+        <node begin="9" conjtype="onder" end="10" frame="complementizer(dat)" id="17" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="10" cat="ssub" end="24" id="18" rel="body">
+          <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="19" index="1" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+          <node begin="19" end="20" frame="predm_adverb" id="20" lcat="advp" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" sense="zelf" special="predm" word="zelf"/>
+          <node begin="22" end="23" frame="verb(hebben,modal_not_u,aux(inf))" id="21" infl="modal_not_u" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present" word="zal" wvorm="pv"/>
+          <node begin="10" cat="inf" end="24" id="22" rel="vc">
+            <node begin="10" end="11" id="23" index="1" rel="su"/>
+            <node begin="11" cat="pp" end="14" id="24" rel="mod">
+              <node begin="11" end="12" frame="preposition(in,[])" id="25" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="12" cat="np" end="14" id="26" rel="obj1">
+                <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="27" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="28" lcat="np" lemma="vervolg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vervolg" sense="vervolg" word="vervolg"/>
+              </node>
+            </node>
+            <node begin="15" cat="np" end="19" id="29" rel="obj1">
+              <node begin="15" end="16" frame="determiner(de)" id="30" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="coördinatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="coördinatie" sense="coördinatie" word="coördinatie"/>
+              <node begin="17" cat="pp" end="19" id="32" rel="mod">
+                <node begin="17" end="18" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="33" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="18" end="19" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="34" lcat="np" lemma="donor" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="donor" sense="donor" word="donoren"/>
+              </node>
+            </node>
+            <node begin="20" cat="mwu" end="22" id="35" mwu_root="ter hand" mwu_sense="ter hand" rel="svp">
+              <node begin="20" end="21" frame="fixed_part([ter,hand])" id="36" lcat="fixed" lemma="ter" pos="fixed" postag="VZ(versm)" pt="vz" rel="mwp" root="ter" sense="ter" vztype="versm" word="ter"/>
+              <node begin="21" end="22" frame="fixed_part([ter,hand])" genus="zijd" getal="ev" graad="basis" id="37" lcat="fixed" lemma="hand" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="hand" sense="hand" word="hand"/>
+            </node>
+            <node begin="23" buiging="zonder" end="24" frame="verb(hebben,inf,fixed([[ter,hand],acc],norm_passive))" id="38" infl="inf" lcat="inf" lemma="nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem" sc="fixed([[ter,hand],acc],norm_passive)" sense="ter-hand-neem" word="nemen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(aanhaal_rechts)" id="39" lcat="punct" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+    <node begin="25" end="26" frame="punct(punt)" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Suriname bevestigt , ten teken van toegenomen zelfvertrouwen , dat het in het vervolg ,, de coördinatie van donoren zelf ter hand zal nemen &apos;&apos; .</sentence>
+  <comments>
+    <comment>Q#8|Suriname bevestigt , ten teken van toegenomen zelfvertrouwen , dat het in het vervolg ,, de coördinatie van donoren zelf ter hand zal nemen &apos;&apos; .|1|1|-1.1479796682400112</comment>
+  </comments>
+</alpino_ds>

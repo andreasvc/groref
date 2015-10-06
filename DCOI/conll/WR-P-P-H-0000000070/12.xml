@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="4" lcat="np" lemma="marinier" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="marinier" sense="marinier" word="mariniers"/>
+      </node>
+      <node begin="2" end="3" frame="verb(zijn,past(pl),part_ld_pp(terug))" id="5" infl="pl" lcat="smain" lemma="terug_keren" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="keer_terug" sc="part_ld_pp(terug)" sense="keer_terug" stype="declarative" tense="past" word="keerden" wvorm="pv"/>
+      <node begin="3" end="4" frame="particle(terug)" id="6" lcat="part" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" sense="terug" word="terug"/>
+      <node begin="4" cat="pp" end="18" id="7" rel="ld">
+        <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="5" cat="np" end="18" id="9" rel="obj1">
+          <node begin="5" end="6" frame="determiner(een)" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="bijeenkomst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bijeenkomst" sense="bijeenkomst" word="bijeenkomst"/>
+          <node begin="7" cat="pp" end="9" id="12" rel="mod">
+            <node begin="7" end="8" frame="preposition(in,[])" id="13" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="8" end="9" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="Quantico" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Quantico" sense="Quantico" word="Quantico"/>
+          </node>
+          <node begin="9" cat="pp" end="18" id="15" rel="mod">
+            <node begin="9" cat="mwu" end="13" id="16" mwu_root="in het kader van" mwu_sense="in het kader van" rel="hd">
+              <node begin="9" end="10" frame="preposition([in,het,kader,van],[])" id="17" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="10" end="11" frame="preposition([in,het,kader,van],[])" id="18" lcat="pp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="prep" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" word="het"/>
+              <node begin="11" end="12" frame="preposition([in,het,kader,van],[])" genus="onz" getal="ev" graad="basis" id="19" lcat="pp" lemma="kader" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="kader" sense="kader" word="kader"/>
+              <node begin="12" end="13" frame="preposition([in,het,kader,van],[])" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+            </node>
+            <node begin="13" cat="np" end="18" id="21" rel="obj1">
+              <node begin="13" end="14" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="14" end="15" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="samenwerking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="samenwerking" sense="samenwerking" word="samenwerking"/>
+              <node begin="15" cat="pp" end="18" id="24" rel="mod">
+                <node begin="15" end="16" frame="preposition(tussen,[door,in,vandaan])" id="25" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+                <node begin="16" cat="np" end="18" id="26" rel="obj1">
+                  <node begin="16" end="17" frame="determiner(de)" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="17" end="18" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="28" lcat="np" lemma="korps" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="korps" sense="korps" word="korpsen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De mariniers keerden terug van een bijeenkomst in Quantico in het kader van de samenwerking tussen de korpsen .</sentence>
+  <comments>
+    <comment>Q#12|De mariniers keerden terug van een bijeenkomst in Quantico in het kader van de samenwerking tussen de korpsen .|1|1|-1.4444642363000013</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="krant" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="krant" sense="krant" word="krant"/>
+        <node begin="2" cat="mwu" end="4" id="5" mwu_root="El Tiempo" mwu_sense="El Tiempo" rel="app">
+          <node begin="2" end="3" frame="proper_name(both,'ORG')" id="6" lcat="np" lemma="El" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="El" sense="El" spectype="deeleigen" word="El"/>
+          <node begin="3" end="4" frame="proper_name(both,'ORG')" id="7" lcat="np" lemma="Tiempo" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tiempo" sense="Tiempo" spectype="deeleigen" word="Tiempo"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg,np_pc_pp(op))" id="8" infl="sg" lcat="smain" lemma="schatten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="schat" sc="np_pc_pp(op)" sense="schat-op" stype="declarative" tense="present" word="schat" wvorm="pv"/>
+      <node begin="5" cat="np" end="8" id="9" rel="obj1">
+        <node begin="5" end="6" frame="determiner(de)" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="11" infl="e" lcat="ap" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="economisch" sense="economisch" vform="adj" word="economische"/>
+        <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="schade" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="schade" sense="schade" word="schade"/>
+      </node>
+      <node begin="8" cat="pp" end="12" id="13" rel="pc">
+        <node begin="8" end="9" frame="preposition(op,[af,na])" id="14" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="9" cat="np" end="12" id="15" rel="obj1">
+          <node begin="9" end="10" frame="number(hoofd(pl_num))" id="16" infl="pl_num" lcat="detp" lemma="100" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="100" sense="100" special="hoofd" word="100"/>
+          <node begin="10" end="11" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+          <node begin="11" end="12" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="dollar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="dollar" sense="dollar" special="meas_mod" word="dollar"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De krant El Tiempo schat de economische schade op 100 miljoen dollar .</sentence>
+  <comments>
+    <comment>Q#37|De krant El Tiempo schat de economische schade op 100 miljoen dollar .|1|1|-5.107904497640002</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="2" index="1" lcat="np" lemma="Sparta" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Sparta" sense="Sparta" word="Sparta"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,fixed([[in,het,werk],acc,vp],norm_passive))" id="3" infl="sg3" lcat="smain" lemma="stellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stel" sc="fixed([[in,het,werk],acc,vp],norm_passive)" sense="in-het-werk-stel" stype="declarative" tense="present" word="stelt" wvorm="pv"/>
+      <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="4" lcat="np" lemma="poging" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="poging" sense="poging" word="pogingen"/>
+      <node begin="3" cat="mwu" end="6" id="5" mwu_root="in het werk" mwu_sense="in het werk" rel="svp">
+        <node begin="3" end="4" frame="fixed_part([in,het,werk])" id="6" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="4" end="5" frame="fixed_part([in,het,werk])" id="7" lcat="fixed" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" word="het"/>
+        <node begin="5" end="6" frame="fixed_part([in,het,werk])" genus="onz" getal="ev" graad="basis" id="8" lcat="fixed" lemma="werk" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="werk" sense="werk" word="werk"/>
+      </node>
+      <node begin="0" cat="oti" end="15" id="9" rel="vc">
+        <node begin="6" end="7" frame="complementizer(om)" id="10" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="0" cat="ti" end="15" id="11" rel="body">
+          <node begin="13" end="14" frame="complementizer(te)" id="12" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="15" id="13" rel="body">
+            <node begin="0" end="1" id="14" index="1" rel="su"/>
+            <node begin="7" cat="mwu" end="9" id="15" mwu_root="Frank Rijkaard" mwu_sense="Frank Rijkaard" rel="obj1">
+              <node begin="7" end="8" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="Frank" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Frank" sense="Frank" spectype="deeleigen" word="Frank"/>
+              <node begin="8" end="9" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="Rijkaard" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rijkaard" sense="Rijkaard" spectype="deeleigen" word="Rijkaard"/>
+            </node>
+            <node begin="9" cat="cp" end="12" id="18" rel="predm">
+              <node begin="9" end="10" frame="complementizer(als)" id="19" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+              <node begin="10" cat="np" end="12" id="20" rel="body">
+                <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" id="21" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+                <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="trainer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="trainer" sense="trainer" word="trainer"/>
+              </node>
+            </node>
+            <node begin="12" buiging="zonder" end="13" frame="particle(vast)" graad="basis" id="23" lcat="part" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" sense="vast" word="vast"/>
+            <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,part_transitive(vast))" id="24" infl="inf" lcat="inf" lemma="vast_leggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leg_vast" sc="part_transitive(vast)" sense="leg_vast" word="leggen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Sparta stelt pogingen in het werk om Frank Rijkaard als nieuwe trainer vast te leggen .</sentence>
+  <comments>
+    <comment>Q#2|Sparta stelt pogingen in het werk om Frank Rijkaard als nieuwe trainer vast te leggen .|1|1|-8.864925755579998</comment>
+  </comments>
+</alpino_ds>

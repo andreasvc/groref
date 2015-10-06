@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" buiging="zonder" end="1" frame="determiner(pron)" getal="ev" id="4" infl="pron" lcat="detp" lemma="mijn" naamval="stan" npagr="agr" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="mijn" sense="mijn" status="vol" vwtype="bez" word="Mijn"/>
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(ge_both(nonadv))" id="5" infl="both" lcat="ppart" lemma="aangeboren" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="aangeboren" sense="aangeboren" vform="psp" word="aangeboren" wvorm="vd"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="staat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staat" sense="staat" word="staat"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,sg_heeft,copula)" id="7" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="4" cat="np" end="14" id="8" rel="predc">
+        <node begin="4" end="5" frame="determiner(een)" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="5" end="6" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="half_fabrikaat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="half_fabrikaat" sense="half_fabrikaat" word="halffabrikaat"/>
+        <node begin="7" cat="np" end="14" id="11" rel="app">
+          <node begin="7" end="8" frame="determiner(een)" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="8" end="9" frame="noun(het,count,both)" gen="het" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="compromis" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="compromis" sense="compromis" word="compromis"/>
+          <node begin="9" cat="pp" end="14" id="14" rel="mod">
+            <node begin="9" end="10" frame="preposition(tussen,[door,in,vandaan])" id="15" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+            <node begin="10" cat="conj" end="14" id="16" rel="obj1">
+              <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="17" lcat="np" lemma="natuur_wens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="natuur_wens" sense="natuur_wens" word="natuurwensen"/>
+              <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="18" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="12" cat="np" end="14" id="19" rel="cnj">
+                <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(ge_e)" id="20" infl="e" lcat="ppart" lemma="gecultiveerd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gecultiveerd" sense="gecultiveerd" vform="psp" word="gecultiveerde" wvorm="vd"/>
+                <node begin="13" end="14" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="21" lcat="np" lemma="veronderstelling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="veronderstelling" sense="veronderstelling" word="veronderstellingen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="22" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Mijn aangeboren staat is een halffabrikaat , een compromis tussen natuurwensen en gecultiveerde veronderstellingen .</sentence>
+  <comments>
+    <comment>Q#10|Mijn aangeboren staat is een halffabrikaat , een compromis tussen natuurwensen en gecultiveerde veronderstellingen .|1|1|-2.2655436697799995</comment>
+  </comments>
+</alpino_ds>

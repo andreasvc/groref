@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" cat="pp" end="6" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" id="3" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="6" id="4" rel="obj1">
+          <node begin="1" end="2" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="barrage" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="barrage" sense="barrage" word="barrage"/>
+          <node begin="3" cat="pp" end="6" id="7" rel="mod">
+            <node begin="3" end="4" frame="preposition(over,[heen])" id="8" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="4" cat="np" end="6" id="9" rel="obj1">
+              <node begin="4" end="5" frame="number(hoofd(pl_num))" id="10" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+              <node begin="5" end="6" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="11" lcat="np" lemma="partij" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="partij" sense="partij" special="tmp" word="partijen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,past(sg),transitive)" id="12" infl="sg" lcat="smain" lemma="verslaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="versla" sc="transitive" sense="versla" stype="declarative" tense="past" word="versloeg" wvorm="pv"/>
+      <node begin="7" case="nom" def="def" end="8" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="13" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+      <node begin="8" cat="mwu" end="12" id="14" mwu_root="Erik van den Doel" mwu_sense="Erik van den Doel" rel="obj1">
+        <node begin="8" end="9" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Erik" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Erik" sense="Erik" spectype="deeleigen" word="Erik"/>
+        <node begin="9" end="10" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="van" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="van" sense="van" spectype="deeleigen" word="van"/>
+        <node begin="10" end="11" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="den" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="den" sense="den" spectype="deeleigen" word="den"/>
+        <node begin="11" end="12" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Doel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Doel" sense="Doel" spectype="deeleigen" word="Doel"/>
+      </node>
+      <node begin="12" cat="pp" end="16" id="19" rel="mod">
+        <node begin="12" end="13" frame="preposition(met,[mee,[en,al]])" id="20" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="13" cat="mwu" end="16" id="21" mwu_root="3 - 0" mwu_sense="3 - 0" rel="obj1">
+          <node begin="13" end="14" frame="number(hoofd(both))" id="22" infl="both" lcat="np" lemma="3" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="3" sense="3" special="hoofd" word="3"/>
+          <node begin="14" end="15" frame="number(hoofd(both))" id="23" infl="both" lcat="np" lemma="-" pos="num" postag="LET()" pt="let" rel="mwp" rnum="sg" root="-" sense="-" special="hoofd" word="-"/>
+          <node begin="15" end="16" frame="number(hoofd(both))" id="24" infl="both" lcat="np" lemma="0" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="0" sense="0" special="hoofd" word="0"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In de barrage over vier partijen versloeg hij Erik van den Doel met 3 - 0 .</sentence>
+  <comments>
+    <comment>Q#3|In de barrage over vier partijen versloeg hij Erik van den Doel met 3 - 0 .|1|1|-2.5118116854400006</comment>
+  </comments>
+</alpino_ds>

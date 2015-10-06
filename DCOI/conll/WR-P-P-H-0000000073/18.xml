@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(aanhaal_rechts)" id="1" lcat="punct" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+    <node begin="10" end="11" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="16" id="3" rel="--">
+      <node begin="0" cat="smain" end="9" id="4" rel="nucl">
+        <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="5" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="Ik"/>
+        <node begin="1" end="2" frame="verb(unacc,sg1,copula)" id="6" infl="sg1" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="ben" wvorm="pv"/>
+        <node begin="2" cat="ap" end="9" id="7" rel="predc">
+          <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(padv),object_sbar)" graad="basis" id="8" infl="no_e" lcat="ap" lemma="blij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="blij" sc="object_sbar" sense="blij" vform="adj" word="blij"/>
+          <node begin="3" cat="cp" end="9" id="9" rel="vc">
+            <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" id="10" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+            <node begin="4" cat="ssub" end="9" id="11" rel="body">
+              <node begin="4" end="5" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="Huisinga" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Huisinga" sense="Huisinga" word="Huisinga"/>
+              <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="13" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+              <node begin="6" end="7" frame="tmp_adverb" id="14" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" sense="nu" special="tmp" word="nu"/>
+              <node aform="base" begin="7" end="8" frame="adjective(pred(adv))" id="15" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wel"/>
+              <node begin="8" end="9" frame="verb(hebben,sg3,transitive_ndev)" id="16" infl="sg3" lcat="ssub" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" sc="transitive_ndev" sense="doe" tense="present" word="doet" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="sv1" end="16" id="17" rel="tag">
+        <node begin="11" end="12" frame="verb(hebben,past(sg),tr_sbar)" id="18" infl="sg" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="past" word="zei" wvorm="pv"/>
+        <node begin="12" case="nom" def="def" end="13" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="19" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+        <node begin="13" cat="pp" end="16" id="20" rel="mod">
+          <node begin="13" end="14" frame="preposition(in,[])" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="14" cat="np" end="16" id="22" rel="obj1">
+            <node begin="14" end="15" frame="determiner(een)" id="23" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="reactie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="reactie" sense="reactie" word="reactie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Ik ben blij dat Huisinga dat nu wel doet &apos;&apos; , zei hij in een reactie .</sentence>
+  <comments>
+    <comment>Q#18|Ik ben blij dat Huisinga dat nu wel doet &apos;&apos; , zei hij in een reactie .|1|1|-8.19072891166</comment>
+  </comments>
+</alpino_ds>

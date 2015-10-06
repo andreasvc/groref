@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="0" cat="smain" end="29" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="dim" id="4" lcat="np" lemma="bus" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" rnum="sg" root="bus_DIM" sense="bus_DIM" word="busje"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,past(sg),intransitive)" id="5" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="intransitive" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="3" cat="mwu" end="5" id="6" mwu_root="laat" mwu_sense="laat" rel="mod">
+        <node aform="super" begin="3" end="4" frame="adjective(het_st(tmpadv))" id="7" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+        <node aform="super" begin="4" buiging="met-e" end="5" frame="adjective(het_st(tmpadv))" getal-n="zonder-n" graad="sup" id="8" infl="pred" lcat="ap" lemma="laatste" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,sup,met-e,zonder-n,stan)" pt="adj" rel="mwp" root="laatste" sense="laatste" vform="adj" word="laatste"/>
+      </node>
+      <node begin="5" cat="pp" end="19" id="9" rel="mod">
+        <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="6" cat="np" end="19" id="11" rel="obj1">
+          <node begin="6" end="7" frame="number(hoofd(pl_num))" id="12" infl="pl_num" lcat="detp" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" sense="drie" special="hoofd" word="drie"/>
+          <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" id="13" infl="e" lcat="ap" lemma="militair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="militair" sense="militair" vform="adj" word="militaire"/>
+          <node begin="8" end="9" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="14" lcat="np" lemma="voertuig" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="voertuig" sense="voertuig" word="voertuigen"/>
+          <node begin="9" cat="rel" end="19" id="15" rel="mod">
+            <node begin="9" case="no_obl" end="10" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="16" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="9" cat="ssub" end="19" id="17" rel="body">
+              <node begin="9" end="10" id="18" index="1" rel="su"/>
+              <node begin="10" end="11" frame="verb(zijn,past(pl),ninv(ld_pp,part_ld_pp(terug)))" id="19" infl="pl" lcat="ssub" lemma="terug_rijden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="rijd_terug" sc="part_ld_pp(terug)" sense="rijd_terug" tense="past" word="terugreden" wvorm="pv"/>
+              <node begin="11" cat="pp" end="19" id="20" rel="ld">
+                <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="21" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="12" cat="np" end="19" id="22" rel="obj1">
+                  <node begin="12" end="13" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="marinier_basis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="marinier_basis" sense="marinier_basis" word="mariniersbasis"/>
+                  <node begin="14" end="15" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="Quantico" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Quantico" sense="Quantico" word="Quantico"/>
+                  <node begin="15" cat="pp" end="19" id="26" rel="mod">
+                    <node begin="15" end="16" frame="preposition(in,[])" id="27" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                    <node begin="16" cat="np" end="19" id="28" rel="obj1">
+                      <node begin="16" end="17" frame="determiner(de)" id="29" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="staat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staat" sense="staat" word="staat"/>
+                      <node begin="18" end="19" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="31" lcat="np" lemma="Virginia" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Virginia" sense="Virginia" word="Virginia"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="19" cat="pp" end="29" id="32" rel="mod">
+        <node begin="19" end="20" frame="preposition(naar,[toe])" id="33" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+        <node begin="20" cat="np" end="29" id="34" rel="obj1">
+          <node begin="20" end="21" frame="determiner(de)" id="35" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="21" end="22" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="36" lcat="np" lemma="marinier_basis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="marinier_basis" sense="marinier_basis" word="mariniersbasis"/>
+          <node begin="22" cat="mwu" end="24" id="37" mwu_root="Camp Lejeune" mwu_sense="Camp Lejeune" rel="app">
+            <node begin="22" end="23" frame="proper_name(sg,'PER')" id="38" lcat="np" lemma="Camp" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Camp" sense="Camp" spectype="deeleigen" word="Camp"/>
+            <node begin="23" end="24" frame="proper_name(sg,'PER')" id="39" lcat="np" lemma="Lejeune" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Lejeune" sense="Lejeune" spectype="deeleigen" word="Lejeune"/>
+          </node>
+          <node begin="24" cat="pp" end="29" id="40" rel="mod">
+            <node begin="24" end="25" frame="preposition(in,[])" id="41" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="25" cat="np" end="29" id="42" rel="obj1">
+              <node begin="25" end="26" frame="determiner(de)" id="43" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="26" end="27" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="44" lcat="np" lemma="staat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staat" sense="staat" word="staat"/>
+              <node begin="27" cat="mwu" end="29" id="45" mwu_root="North Carolina" mwu_sense="North Carolina" rel="app">
+                <node begin="27" end="28" frame="proper_name(sg,'LOC')" id="46" lcat="np" lemma="North" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="North" sense="North" spectype="deeleigen" word="North"/>
+                <node begin="28" end="29" frame="proper_name(sg,'LOC')" id="47" lcat="np" lemma="Carolina" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Carolina" sense="Carolina" spectype="deeleigen" word="Carolina"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" id="48" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het busje was het laatste van drie militaire voertuigen die terugreden van de mariniersbasis Quantico in de staat Virginia naar de mariniersbasis Camp Lejeune in de staat North Carolina .</sentence>
+  <comments>
+    <comment>Q#11|Het busje was het laatste van drie militaire voertuigen die terugreden van de mariniersbasis Quantico in de staat Virginia naar de mariniersbasis Camp Lejeune in de staat North Carolina .|1|1|2.668148518099996</comment>
+  </comments>
+</alpino_ds>

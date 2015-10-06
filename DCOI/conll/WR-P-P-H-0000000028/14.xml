@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="24" end="25" frame="particle(neer)" id="2" lcat="--" lemma="neer" pos="part" postag="BW()" pt="bw" rel="--" root="neer" sense="neer" word="neer"/>
+    <node begin="25" end="26" frame="punct(komma)" id="3" lcat="--" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="31" id="4" rel="--">
+      <node begin="0" cat="conj" end="24" id="5" rel="dp">
+        <node begin="0" cat="smain" end="17" id="6" rel="cnj">
+          <node begin="0" cat="cp" end="11" id="7" index="1" rel="mod">
+            <node begin="0" conjtype="onder" end="1" frame="complementizer" id="8" lcat="cp" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" sense="toen" word="Toen"/>
+            <node begin="1" cat="ssub" end="11" id="9" rel="body">
+              <node begin="1" cat="pp" end="3" id="10" rel="mod">
+                <node begin="1" end="2" frame="preposition(om,[heen])" id="11" lcat="pp" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" sense="om" vztype="init" word="om"/>
+                <node begin="2" end="3" frame="tmp_np" id="12" lcat="np" lemma="halfacht" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="halfacht" sense="halfacht" special="tmp" word="halfacht"/>
+              </node>
+              <node begin="3" cat="mwu" end="5" id="13" mwu_root="&apos;s ochtends" mwu_sense="&apos;s ochtends" rel="mod">
+                <node begin="3" end="4" frame="tmp_adverb" id="14" lcat="advp" lemma="&apos;s" lwtype="bep" naamval="gen" npagr="evmo" pos="adv" postag="LID(bep,gen,evmo)" pt="lid" rel="mwp" root="&apos;s" sense="&apos;s" special="tmp" word="&apos;s"/>
+                <node begin="4" end="5" frame="tmp_adverb" getal="ev" graad="basis" id="15" lcat="advp" lemma="ochtends" naamval="gen" ntype="soort" pos="adv" postag="N(soort,ev,basis,gen)" pt="n" rel="mwp" root="ochtends" sense="ochtends" special="tmp" word="ochtends"/>
+              </node>
+              <node begin="5" cat="np" end="7" id="16" rel="su">
+                <node begin="5" end="6" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="18" lcat="np" lemma="Brit" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Brit" sense="Brit" word="Britten"/>
+              </node>
+              <node begin="7" cat="pp" end="10" id="19" rel="ld">
+                <node begin="7" end="8" frame="preposition(uit,[vandaan])" id="20" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                <node begin="8" cat="np" end="10" id="21" rel="obj1">
+                  <node begin="8" buiging="zonder" end="9" frame="determiner(pron)" getal="mv" id="22" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="23" lcat="np" lemma="loopgraaf" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="loopgraaf" sense="loopgraaf" word="loopgraven"/>
+                </node>
+              </node>
+              <node begin="10" end="11" frame="verb(zijn,past(pl),ld_pp)" id="24" infl="pl" lcat="ssub" lemma="komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom" sc="ld_pp" sense="kom" tense="past" word="kwamen" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="12" end="13" frame="verb(hebben,past(pl),transitive)" id="25" infl="pl" lcat="smain" lemma="bemannen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="beman" sc="transitive" sense="beman" tense="past" word="bemanden" wvorm="pv"/>
+          <node begin="13" cat="np" end="15" id="26" rel="su">
+            <node begin="13" end="14" frame="determiner(de)" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="28" lcat="np" lemma="Duitser" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Duitser" sense="Duitser" word="Duitsers"/>
+          </node>
+          <node begin="15" cat="np" end="17" id="29" rel="obj1">
+            <node begin="15" buiging="zonder" end="16" frame="determiner(pron)" getal="mv" id="30" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="16" end="17" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="31" lcat="np" lemma="machine_geweer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="machine_geweer" sense="machine_geweer" word="machinegeweren"/>
+          </node>
+        </node>
+        <node begin="17" conjtype="neven" end="18" frame="conj(en)" id="32" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="0" cat="smain" end="24" id="33" rel="cnj">
+          <node begin="0" end="11" id="34" index="1" rel="mod"/>
+          <node begin="18" end="19" frame="verb(hebben,past(pl),transitive)" id="35" infl="pl" lcat="smain" lemma="maaien" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="maai" sc="transitive" sense="maai" tense="past" word="maaiden" wvorm="pv"/>
+          <node begin="19" cat="np" end="22" id="36" rel="su">
+            <node begin="19" end="20" frame="determiner(de)" id="37" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="20" buiging="met-e" end="21" frame="adjective(e)" graad="basis" id="38" infl="e" lcat="ap" lemma="breed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="breed" sense="breed" vform="adj" word="brede"/>
+            <node begin="21" end="22" frame="meas_mod_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="39" lcat="np" lemma="linie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="linie" sense="linie" special="meas_mod" word="linies"/>
+          </node>
+          <node begin="22" cat="np" end="24" id="40" rel="obj1">
+            <node aform="base" begin="22" buiging="met-e" end="23" frame="adjective(ende(padv))" id="41" infl="e" lcat="ppres" lemma="op_rukken" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="ruk_op" sense="ruk_op" vform="gerund" word="oprukkende" wvorm="od"/>
+            <node begin="23" end="24" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="42" lcat="np" lemma="soldaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="soldaat" sense="soldaat" word="soldaten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="26" cat="cp" end="31" id="43" rel="dp">
+        <node begin="26" end="27" frame="complementizer(als)" id="44" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+        <node begin="27" cat="np" end="31" id="45" rel="body">
+          <node begin="27" end="28" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="46" lcat="np" lemma="koren" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="koren" sense="koren" word="koren"/>
+          <node begin="28" cat="pp" end="31" id="47" rel="mod">
+            <node begin="28" end="29" frame="preposition(op,[af,na])" id="48" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="29" cat="np" end="31" id="49" rel="obj1">
+              <node begin="29" end="30" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="50" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="30" end="31" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="51" lcat="np" lemma="veld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="veld" sense="veld" word="veld"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" frame="punct(punt)" id="52" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Toen om halfacht &apos;s ochtends de Britten uit hun loopgraven kwamen , bemanden de Duitsers hun machinegeweren en maaiden de brede linies oprukkende soldaten neer , als koren op het veld .</sentence>
+  <comments>
+    <comment>Q#14|Toen om halfacht &apos;s ochtends de Britten uit hun loopgraven kwamen , bemanden de Duitsers hun machinegeweren en maaiden de brede linies oprukkende soldaten neer , als koren op het veld .|1|3|10.678003681580012</comment>
+  </comments>
+</alpino_ds>

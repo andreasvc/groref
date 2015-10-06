@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="3" id="3" rel="cnj">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="4" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+        <node begin="1" end="2" frame="verb(unacc,sg_heeft,copula)" id="5" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(end(adv))" id="6" infl="no_e" lcat="ppres" lemma="verbazend" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="predc" root="verbazend" sense="verbazend" vform="gerund" word="verbazend" wvorm="od"/>
+      </node>
+      <node begin="4" conjtype="neven" end="5" frame="conj(want)" id="7" lcat="vg" lemma="want" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="want" sense="want" word="want"/>
+      <node begin="5" cat="smain" end="19" id="8" rel="cnj">
+        <node begin="5" cat="pp" end="12" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="6" cat="conj" end="12" id="11" rel="obj1">
+            <node begin="6" cat="np" end="8" id="12" rel="cnj">
+              <node begin="6" end="7" frame="determiner(de)" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="14" lcat="np" lemma="tekst" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tekst" sense="tekst" word="teksten"/>
+            </node>
+            <node begin="8" conjtype="neven" end="9" frame="conj(en)" id="15" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="9" cat="np" end="12" id="16" rel="cnj">
+              <node begin="9" end="10" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" id="18" infl="e" lcat="ap" lemma="muzikaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="muzikaal" sense="muzikaal" vform="adj" word="muzikale"/>
+              <node begin="11" end="12" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="19" lcat="np" lemma="arrangement" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="arrangement" sense="arrangement" word="arrangementen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" end="13" frame="verb(hebben,pl,ld_pp)" id="20" infl="pl" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" sc="ld_pp" sense="kan" stype="declarative" tense="present" word="kunnen" wvorm="pv"/>
+        <node begin="13" end="14" frame="er_vp_adverb" getal="getal" id="21" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+        <node aform="base" begin="14" end="15" frame="adjective(pred(adv))" id="22" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wel"/>
+        <node begin="15" end="16" frame="number(hoofd(pl_num))" id="23" infl="pl_num" lcat="np" lemma="dertien" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="su" rnum="pl" root="dertien" sense="dertien" special="hoofd" word="dertien"/>
+        <node begin="16" cat="pp" end="19" id="24" rel="ld">
+          <node begin="16" end="17" frame="preposition(in,[])" id="25" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="17" cat="np" end="19" id="26" rel="obj1">
+            <node begin="17" end="18" frame="determiner(een)" id="27" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="18" end="19" frame="meas_mod_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="28" lcat="np" lemma="dozijn" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="dozijn" sense="dozijn" special="meas_mod" word="dozijn"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dat is verbazend , want van de teksten en de muzikale arrangementen kunnen er wel dertien in een dozijn .</sentence>
+  <comments>
+    <comment>Q#14|Dat is verbazend , want van de teksten en de muzikale arrangementen kunnen er wel dertien in een dozijn .|1|1|4.4695678675599995</comment>
+  </comments>
+</alpino_ds>

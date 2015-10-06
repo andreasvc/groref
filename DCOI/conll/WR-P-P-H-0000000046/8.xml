@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="4" end="5" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="7" end="8" frame="punct(aanhaal_both)" id="3" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="9" end="10" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="20" id="5" rel="--">
+      <node begin="10" end="11" frame="verb(unacc,sg_heeft,te_passive)" id="6" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="te_passive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="11" cat="np" end="14" id="7" index="1" rel="su">
+        <node begin="11" cat="detp" end="13" id="8" rel="det">
+          <node begin="11" end="12" frame="preposition(van,[])" id="9" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mod" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="12" buiging="zonder" end="13" frame="determiner(de,nwh,nmod,pro,nparg)" id="10" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="hd" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+        </node>
+        <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="strijdbaar_heid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="strijdbaar_heid" sense="strijdbaar_heid" word="strijdbaarheid"/>
+      </node>
+      <node begin="0" cat="ti" end="20" id="12" rel="vc">
+        <node begin="18" end="19" frame="complementizer(te)" id="13" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="20" id="14" rel="body">
+          <node begin="0" cat="pp" end="9" id="15" rel="mod">
+            <node begin="0" end="1" frame="preposition(in,[])" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+            <node begin="1" cat="np" end="9" id="17" rel="obj1">
+              <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="18" lcat="np" lemma="Rotterdam" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Rotterdam" sense="Rotterdam" word="Rotterdam"/>
+              <node begin="3" cat="np" end="9" id="19" rel="app">
+                <node begin="3" cat="pp" end="7" id="20" rel="mod">
+                  <node begin="3" end="4" frame="preposition(vanwege,[])" id="21" lcat="pp" lemma="vanwege" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanwege" sense="vanwege" vztype="init" word="vanwege"/>
+                  <node begin="5" cat="mwu" end="7" id="22" mwu_root="Culturele Hoofdstad" mwu_sense="Culturele Hoofdstad" rel="obj1">
+                    <node begin="5" end="6" frame="proper_name(both)" id="23" lcat="np" lemma="Culturele" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Culturele" sense="Culturele" spectype="deeleigen" word="Culturele"/>
+                    <node begin="6" end="7" frame="proper_name(both)" id="24" lcat="np" lemma="Hoofdstad" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Hoofdstad" sense="Hoofdstad" spectype="deeleigen" word="Hoofdstad"/>
+                  </node>
+                </node>
+                <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="gastheer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gastheer" sense="gastheer" word="gastheer"/>
+              </node>
+            </node>
+          </node>
+          <node begin="11" end="14" id="26" index="1" rel="obj1"/>
+          <node begin="14" end="15" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="zaterdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="zaterdag" sense="zaterdag" special="tmp" word="zaterdag"/>
+          <node begin="15" end="16" frame="adverb" id="28" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sense="nog" word="nog"/>
+          <node begin="16" cat="ap" end="18" id="29" rel="mod">
+            <node begin="16" end="17" frame="adverb" id="30" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" sense="maar" word="maar"/>
+            <node aform="base" begin="17" buiging="zonder" end="18" frame="adjective(no_e(odet_adv))" graad="basis" id="31" infl="no_e" lcat="ap" lemma="weinig" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="hd" root="weinig" sense="weinig" vform="adj" vwtype="onbep" word="weinig"/>
+          </node>
+          <node begin="19" buiging="zonder" end="20" frame="verb(hebben,inf,transitive)" id="32" infl="inf" lcat="inf" lemma="merken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="merk" sc="transitive" sense="merk" word="merken" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" id="33" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In Rotterdam , vanwege &apos; Culturele Hoofdstad &apos; gastheer , is van die strijdbaarheid zaterdag nog maar weinig te merken .</sentence>
+  <comments>
+    <comment>Q#8|In Rotterdam , vanwege &apos; Culturele Hoofdstad &apos; gastheer , is van die strijdbaarheid zaterdag nog maar weinig te merken .|1|1|5.04488087868</comment>
+  </comments>
+</alpino_ds>

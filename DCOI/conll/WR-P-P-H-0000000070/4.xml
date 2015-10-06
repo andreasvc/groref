@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="conj" end="20" id="1" rel="--">
+      <node begin="0" cat="smain" end="6" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="5" infl="e" lcat="ap" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj" word="Nederlandse"/>
+          <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="6" lcat="np" lemma="marinier" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="marinier" sense="marinier" word="mariniers"/>
+        </node>
+        <node begin="3" end="4" frame="verb(zijn,past(pl),ld_pp)" id="7" infl="pl" lcat="smain" lemma="komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom" sc="ld_pp" sense="kom" tense="past" word="kwamen" wvorm="pv"/>
+        <node begin="4" cat="pp" end="6" id="8" rel="ld">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="9" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="Aruba" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Aruba" sense="Aruba" word="Aruba"/>
+        </node>
+      </node>
+      <node begin="6" conjtype="neven" end="7" frame="conj(en)" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="20" id="12" rel="cnj">
+        <node begin="0" end="3" id="13" index="1" rel="su"/>
+        <node begin="7" end="8" frame="verb(hebben,past(pl),ld_pp)" id="14" infl="pl" lcat="smain" lemma="horen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="hoor" sc="ld_pp" sense="hoor" tense="past" word="hoorden" wvorm="pv"/>
+        <node begin="8" cat="pp" end="20" id="15" rel="ld">
+          <node begin="8" end="9" frame="preposition(bij,[vandaan])" id="16" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+          <node begin="9" cat="np" end="20" id="17" rel="obj1">
+            <node begin="9" end="10" frame="determiner(een)" id="18" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="eenheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="eenheid" sense="eenheid" word="eenheid"/>
+            <node begin="11" cat="rel" end="20" id="20" rel="mod">
+              <node begin="11" case="no_obl" end="12" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="21" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="11" cat="ssub" end="20" id="22" rel="body">
+                <node begin="11" end="12" id="23" index="2" rel="su"/>
+                <node begin="12" cat="np" end="19" id="24" rel="obj1">
+                  <node begin="12" end="13" frame="determiner(een)" id="25" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="13" end="14" frame="noun(de,both,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="training" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="training" sense="training" word="training"/>
+                  <node begin="14" cat="pp" end="19" id="27" rel="mod">
+                    <node begin="14" end="15" frame="preposition(bij,[vandaan])" id="28" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+                    <node begin="15" cat="np" end="19" id="29" rel="obj1">
+                      <node begin="15" end="16" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="30" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                      <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" id="31" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+                      <node begin="17" cat="mwu" end="19" id="32" mwu_root="Korps Mariniers" mwu_sense="Korps Mariniers" rel="hd">
+                        <node begin="17" end="18" frame="proper_name(sg,'ORG')" id="33" lcat="np" lemma="Korps" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Korps" sense="Korps" spectype="deeleigen" word="Korps"/>
+                        <node begin="18" end="19" frame="proper_name(sg,'ORG')" id="34" lcat="np" lemma="Mariniers" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mariniers" sense="Mariniers" spectype="deeleigen" word="Mariniers"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="19" end="20" frame="verb('hebben/zijn',past(sg),transitive)" id="35" infl="sg" lcat="ssub" lemma="volgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="volg" sc="transitive" sense="volg" tense="past" word="volgde" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" id="36" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De Nederlandse mariniers kwamen van Aruba en hoorden bij een eenheid die een training bij het Amerikaanse Korps Mariniers volgde .</sentence>
+  <comments>
+    <comment>Q#4|De Nederlandse mariniers kwamen van Aruba en hoorden bij een eenheid die een training bij het Amerikaanse Korps Mariniers volgde .|1|1|-3.2730669545599933</comment>
+  </comments>
+</alpino_ds>

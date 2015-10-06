@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="4" infl="e" lcat="ap" lemma="32_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="32_jarig" sense="32_jarig" vform="adj" word="32-jarige"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="pitcher" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="pitcher" sense="pitcher" word="pitcher"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),pc_pp(met))" id="6" infl="sg" lcat="smain" lemma="spelen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="speel" sc="pc_pp(met)" sense="speel-met" stype="declarative" tense="past" word="speelde" wvorm="pv"/>
+      <node begin="4" cat="pp" end="6" id="7" rel="pc">
+        <node begin="4" end="5" frame="preposition(met,[mee,[en,al]])" id="8" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="9" lcat="np" lemma="pijnstiller" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="pijnstiller" sense="pijnstiller" word="pijnstillers"/>
+      </node>
+    </node>
+    <node begin="6" end="7" frame="punct(punt)" id="10" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De 32-jarige pitcher speelde met pijnstillers .</sentence>
+  <comments>
+    <comment>Q#9|De 32-jarige pitcher speelde met pijnstillers .|1|1|2.7004951868000004</comment>
+  </comments>
+</alpino_ds>

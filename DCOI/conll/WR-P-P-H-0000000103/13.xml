@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="du" end="14" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="2" lcat="du" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" sc="root" sense="en" word="En"/>
+      <node begin="1" cat="du" end="14" id="3" rel="nucl">
+        <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="4" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="dp" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+        <node begin="2" cat="cp" end="14" id="5" rel="dp">
+          <node begin="2" conjtype="onder" end="3" frame="complementizer" id="6" lcat="cp" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" sense="terwijl" word="terwijl"/>
+          <node begin="3" cat="ssub" end="14" id="7" rel="body">
+            <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="Carter" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Carter" sense="Carter" word="Carter"/>
+            <node begin="4" cat="np" end="7" id="9" index="1" rel="obj1">
+              <node begin="4" end="5" frame="determiner(de)" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(ende(padv))" id="11" infl="e" lcat="ppres" lemma="verschillen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="verschil" sense="verschil" vform="gerund" word="verschillende" wvorm="od"/>
+              <node begin="6" end="7" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="12" lcat="np" lemma="instrument" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="instrument" sense="instrument" word="instrumenten"/>
+            </node>
+            <node begin="7" end="8" frame="predm_adverb" id="13" lcat="advp" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" sense="zelf" special="predm" word="zélf"/>
+            <node begin="8" end="9" frame="adverb" id="14" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+            <node begin="12" end="13" frame="verb(hebben,sg,aci)" id="15" infl="sg" lcat="ssub" lemma="laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat" sc="aci" sense="laat" tense="present" word="laat" wvorm="pv"/>
+            <node begin="4" cat="inf" end="14" id="16" rel="vc">
+              <node begin="4" end="7" id="17" index="1" rel="su"/>
+              <node begin="9" cat="cp" end="12" id="18" rel="predc">
+                <node begin="9" end="10" frame="complementizer(als)" id="19" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+                <node begin="10" cat="np" end="12" id="20" rel="body">
+                  <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" id="21" infl="e" lcat="ap" lemma="dramatisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="dramatisch" sense="dramatisch" vform="adj" word="dramatische"/>
+                  <node begin="11" end="12" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" id="22" lcat="np" lemma="personage" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="personage" sense="personage" word="personages"/>
+                </node>
+              </node>
+              <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,als_copula)" id="23" infl="inf" lcat="inf" lemma="fungeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="fungeer" sc="als_copula" sense="fungeer" word="fungeren" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>En dat terwijl Carter de verschillende instrumenten zélf al als dramatische personages laat fungeren .</sentence>
+  <comments>
+    <comment>Q#13|En dat terwijl Carter de verschillende instrumenten zélf al als dramatische personages laat fungeren .|1|1|-0.9707036956600027</comment>
+  </comments>
+</alpino_ds>

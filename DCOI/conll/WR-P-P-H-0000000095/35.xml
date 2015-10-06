@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" end="1" frame="er_adverb(met)" id="2" lcat="pp" lemma="daarmee" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarmee" sense="daarmee" special="er" word="Daarmee"/>
+      <node begin="1" end="2" frame="verb(hebben,past(pl),refl_pc_pp(van))" id="3" infl="pl" lcat="smain" lemma="onderscheiden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="onderscheid" sc="refl_pc_pp(van)" sense="zich-onderscheid-van" stype="declarative" tense="past" word="onderscheidden" wvorm="pv"/>
+      <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="4" lcat="np" lemma="burger" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="burger" sense="burger" word="burgers"/>
+      <node begin="3" end="4" frame="reflexive(u_thi,both)" getal="getal" id="5" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="4" cat="pp" end="14" id="6" rel="pc">
+        <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="5" cat="np" end="14" id="8" rel="obj1">
+          <node begin="5" end="6" frame="determiner(de)" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="6" end="7" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="adel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="adel" sense="adel" word="adel"/>
+          <node begin="7" cat="rel" end="14" id="11" rel="mod">
+            <node begin="7" case="no_obl" end="8" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="12" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="7" cat="ssub" end="14" id="13" rel="body">
+              <node begin="7" end="8" id="14" index="1" rel="su"/>
+              <node begin="8" end="9" frame="reflexive(u_thi,both)" getal="getal" id="15" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+              <node begin="9" cat="pp" end="12" id="16" rel="mod">
+                <node begin="9" end="10" frame="preposition(in,[])" id="17" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="10" cat="np" end="12" id="18" rel="obj1">
+                  <node begin="10" end="11" frame="determiner(de)" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="20" lcat="np" lemma="zaal" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="zaal" sense="zaal" word="zalen"/>
+                </node>
+              </node>
+              <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(adv))" graad="basis" id="21" infl="no_e" lcat="ap" lemma="extravagant" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="extravagant" sense="extravagant" vform="adj" word="extravagant"/>
+              <node begin="13" end="14" frame="verb(hebben,past(sg),nonp_pred_refl)" id="22" infl="sg" lcat="ssub" lemma="gedragen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="gedraag" sc="nonp_pred_refl" sense="zich-gedraag" tense="past" word="gedroeg" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Daarmee onderscheidden burgers zich van de adel die zich in de zalen extravagant gedroeg .</sentence>
+  <comments>
+    <comment>Q#35|Daarmee onderscheidden burgers zich van de adel die zich in de zalen extravagant gedroeg .|1|1|-3.9458098934399994</comment>
+  </comments>
+</alpino_ds>

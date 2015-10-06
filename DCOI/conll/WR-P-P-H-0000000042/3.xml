@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="4" infl="e" lcat="ap" lemma="voormalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voormalig" sense="voormalig" vform="adj" word="voormalige"/>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="5" lcat="np" lemma="commando_centrum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="commando_centrum" sense="commando_centrum" word="commandocentrum"/>
+        <node begin="3" cat="pp" end="5" id="6" rel="mod">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="Hitler" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Hitler" sense="Hitler" word="Hitler"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(unacc,sg3,passive)" id="9" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="10" rel="vc">
+        <node begin="0" end="5" id="11" index="1" rel="obj1"/>
+        <node begin="6" cat="pp" end="13" id="12" rel="pc">
+          <node begin="6" end="7" frame="preposition(tot,[toe,[aan,toe]])" id="13" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="7" cat="np" end="13" id="14" rel="obj1">
+            <node begin="7" end="8" frame="determiner(een)" id="15" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(no_e(adv))" graad="basis" id="16" infl="no_e" lcat="ap" lemma="luxueus" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="luxueus" sense="luxueus" vform="adj" word="luxueus"/>
+            <node begin="9" end="10" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="hotel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="hotel" sense="hotel" word="hotel"/>
+            <node begin="10" cat="pp" end="13" id="18" rel="mod">
+              <node begin="10" end="11" frame="preposition(met,[mee,[en,al]])" id="19" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="11" cat="np" end="13" id="20" rel="obj1">
+                <node begin="11" end="12" frame="number(hoofd(pl_num))" id="21" infl="pl_num" lcat="detp" lemma="140" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="140" sense="140" special="hoofd" word="140"/>
+                <node begin="12" end="13" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="22" lcat="np" lemma="bed" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="bed" sense="bed" word="bedden"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" buiging="zonder" end="14" frame="verb(hebben,psp,ninv(np_pc_pp(tot),part_np_pc_pp(om,tot)))" id="23" infl="psp" lcat="ppart" lemma="om_bouwen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bouw_om" sc="part_np_pc_pp(om,tot)" sense="bouw_om-tot" word="omgebouwd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het voormalige commandocentrum van Hitler wordt tot een luxueus hotel met 140 bedden omgebouwd .</sentence>
+  <comments>
+    <comment>Q#3|Het voormalige commandocentrum van Hitler wordt tot een luxueus hotel met 140 bedden omgebouwd .|1|1|-11.111676595700006</comment>
+  </comments>
+</alpino_ds>

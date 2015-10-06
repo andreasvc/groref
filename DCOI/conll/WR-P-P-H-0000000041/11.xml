@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="12" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="nucl">
+        <node begin="0" cat="np" end="6" id="4" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="meniscus" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="meniscus" sense="meniscus" word="meniscus"/>
+          <node begin="2" cat="pp" end="6" id="7" rel="mod">
+            <node begin="2" end="3" frame="preposition(in,[])" id="8" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="3" cat="np" end="6" id="9" rel="obj1">
+              <node begin="3" end="4" frame="determiner(de)" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(both(nonadv))" graad="basis" id="11" infl="both" lcat="ap" lemma="rechter" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="rechter" sense="rechter" vform="adj" word="rechter"/>
+              <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="knie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="knie" sense="knie" word="knie"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" frame="verb(unacc,sg_heeft,aux_psp_zijn)" id="13" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="8" id="14" rel="vc">
+          <node begin="0" end="6" id="15" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb(zijn,psp,ninv(intransitive,part_intransitive(in)))" id="16" infl="psp" lcat="ppart" lemma="in_scheuren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="scheur_in" sc="part_intransitive(in)" sense="scheur_in" word="ingescheurd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="9" cat="np" end="12" id="17" rel="sat">
+        <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="19" lcat="np" lemma="kraak_been" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kraak_been" sense="kraak_been" word="kraakbeen"/>
+        <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(ge_no_e(adv))" id="20" infl="no_e" lcat="ppart" lemma="beschadigd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="beschadigd" sense="beschadigd" vform="psp" word="beschadigd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De meniscus in de rechter knie is ingescheurd , het kraakbeen beschadigd .</sentence>
+  <comments>
+    <comment>Q#11|De meniscus in de rechter knie is ingescheurd , het kraakbeen beschadigd .|1|1|2.6621002627799935</comment>
+  </comments>
+</alpino_ds>

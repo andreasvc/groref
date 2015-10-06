@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" case="both" def="def" end="1" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" genus="fem" getal="ev" id="2" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" rnum="sg" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="Ze"/>
+      <node begin="1" end="2" frame="verb(hebben,past(sg),fixed([{[acc(contact),pc(met)]}],norm_passive))" id="3" infl="sg" lcat="smain" lemma="zoeken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zoek" sc="fixed([{[acc(contact),pc(met)]}],norm_passive)" sense="contact-zoek-met" stype="declarative" tense="past" word="zocht" wvorm="pv"/>
+      <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="4" lcat="np" lemma="contact" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="contact" sense="contact" word="contact"/>
+      <node begin="3" cat="pp" end="13" id="5" rel="pc">
+        <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" id="6" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="4" cat="np" end="13" id="7" rel="obj1">
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="ploeg_leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ploeg_leider" sense="ploeg_leider" word="ploegleider"/>
+          <node begin="5" end="6" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="Zijlaard" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Zijlaard" sense="Zijlaard" word="Zijlaard"/>
+          <node begin="6" cat="rel" end="13" id="10" rel="mod">
+            <node begin="6" case="no_obl" end="7" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="11" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="6" cat="ssub" end="13" id="12" rel="body">
+              <node begin="6" end="7" id="13" index="1" rel="su"/>
+              <node begin="7" end="8" frame="verb(hebben,past(sg),vp_no_control)" id="14" infl="sg" lcat="ssub" lemma="adviseren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="adviseer" sc="vp_no_control" sense="adviseer" tense="past" word="adviseerde" wvorm="pv"/>
+              <node begin="8" cat="ti" end="13" id="15" rel="vc">
+                <node begin="8" end="9" frame="complementizer(te)" id="16" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                <node begin="9" cat="inf" end="13" id="17" rel="body">
+                  <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,pc_pp(op))" id="18" infl="inf" lcat="inf" lemma="gokken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="gok" sc="pc_pp(op)" sense="gok-op" word="gokken" wvorm="inf"/>
+                  <node begin="10" cat="pp" end="13" id="19" rel="pc">
+                    <node begin="10" end="11" frame="preposition(op,[af,na])" id="20" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                    <node begin="11" cat="np" end="13" id="21" rel="obj1">
+                      <node begin="11" end="12" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="sprint" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="sprint" sense="sprint" word="sprint"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Ze zocht contact met ploegleider Zijlaard die adviseerde te gokken op de sprint .</sentence>
+  <comments>
+    <comment>Q#33|Ze zocht contact met ploegleider Zijlaard die adviseerde te gokken op de sprint .|1|1|-6.120032954579999</comment>
+  </comments>
+</alpino_ds>

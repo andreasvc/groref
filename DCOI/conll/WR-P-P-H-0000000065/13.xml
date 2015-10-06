@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="conj" end="19" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="4" end="5" frame="verb(zijn,sg3,aux(inf))" id="3" infl="sg3" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="present" word="gaat" wvorm="pv"/>
+        <node begin="5" cat="np" end="7" id="4" index="1" rel="su">
+          <node begin="5" end="6" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="6" end="7" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="bewolking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bewolking" sense="bewolking" word="bewolking"/>
+        </node>
+        <node begin="0" cat="inf" end="8" id="7" rel="vc">
+          <node begin="0" cat="ap" end="4" id="8" index="2" rel="mod">
+            <node aform="compar" begin="0" buiging="zonder" end="1" frame="adjective(er(tmpadv))" graad="comp" id="9" infl="no_e" lcat="ap" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" sense="laat" vform="adj" word="Later"/>
+            <node begin="1" cat="pp" end="4" id="10" rel="mod">
+              <node begin="1" end="2" frame="preposition(op,[af,na])" id="11" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="2" cat="np" end="4" id="12" rel="obj1">
+                <node begin="2" end="3" frame="determiner(de)" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="middag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="middag" sense="middag" special="tmp" word="middag"/>
+              </node>
+            </node>
+          </node>
+          <node begin="5" end="7" id="15" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb(unacc,inf,intransitive)" id="16" infl="inf" lcat="inf" lemma="verdwijnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verdwijn" sc="intransitive" sense="verdwijn" word="verdwijnen" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" frame="conj(en)" id="17" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="19" id="18" rel="cnj">
+        <node begin="0" end="4" id="19" index="2" rel="mod"/>
+        <node begin="9" end="10" frame="verb(zijn,sg3,ld_pp)" id="20" infl="sg3" lcat="smain" lemma="stijgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stijg" sc="ld_pp" sense="stijg" tense="present" word="stijgt" wvorm="pv"/>
+        <node begin="10" cat="np" end="12" id="21" rel="su">
+          <node begin="10" end="11" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="temperatuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="temperatuur" sense="temperatuur" word="temperatuur"/>
+        </node>
+        <node begin="12" cat="pp" end="19" id="24" rel="ld">
+          <node begin="12" end="13" frame="preposition(tot,[toe,[aan,toe]])" id="25" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="13" cat="np" end="19" id="26" rel="obj1">
+            <node begin="13" end="14" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="27" lcat="np" lemma="waarde" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="waarde" sense="waarde" word="waarden"/>
+            <node begin="14" cat="pp" end="19" id="28" rel="mod">
+              <node begin="14" end="15" frame="preposition(tussen,[door,in,vandaan])" id="29" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+              <node begin="15" cat="np" end="19" id="30" rel="obj1">
+                <node begin="15" cat="conj" end="18" id="31" rel="det">
+                  <node begin="15" end="16" frame="number(hoofd(pl_num))" id="32" infl="pl_num" lcat="detp" lemma="20" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="20" sense="20" special="hoofd" word="20"/>
+                  <node begin="16" conjtype="neven" end="17" frame="conj(en)" id="33" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="17" end="18" frame="number(hoofd(pl_num))" id="34" infl="pl_num" lcat="detp" lemma="2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="2" sense="2" special="hoofd" word="2"/>
+                </node>
+                <node begin="18" end="19" frame="meas_mod_noun(de,count,meas)" gen="de" getal="mv" graad="basis" id="35" lcat="np" lemma="graad" ntype="soort" num="meas" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="sg" root="graad" sense="graad" special="meas_mod" word="graden"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="36" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Later op de middag gaat de bewolking verdwijnen en stijgt de temperatuur tot waarden tussen 20 en 2 graden .</sentence>
+  <comments>
+    <comment>Q#13|Later op de middag gaat de bewolking verdwijnen en stijgt de temperatuur tot waarden tussen 20 en 2 graden .|1|1|-2.139546607860002</comment>
+  </comments>
+</alpino_ds>

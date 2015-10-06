@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" cat="inf" end="5" id="3" rel="dp">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" id="4" infl="no_e" lcat="ap" lemma="echt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" sense="echt" vform="adj" word="Echt"/>
+        <node begin="1" buiging="zonder" end="2" frame="verb(hebben,inf,sbar)" id="5" infl="inf" lcat="inf" lemma="geloven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="geloof" sc="sbar" sense="geloof" word="geloven" wvorm="inf"/>
+        <node begin="2" cat="cp" end="5" id="6" rel="vc">
+          <node begin="2" conjtype="onder" end="3" frame="complementizer(dat)" id="7" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="3" cat="ssub" end="5" id="8" rel="body">
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="God" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="God" sense="God" word="God"/>
+            <node begin="4" end="5" frame="verb(hebben,sg3,ninv(intransitive,part_intransitive(in)))" id="10" infl="sg3" lcat="ssub" lemma="in_grijpen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="grijp_in" sc="part_intransitive(in)" sense="grijp_in" tense="present" word="ingrijpt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" cat="sv1" end="19" id="11" rel="dp">
+        <node begin="5" end="6" frame="verb(hebben,sg3,transitive_ndev)" id="12" infl="sg3" lcat="sv1" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" sc="transitive_ndev" sense="doe" stype="ynquestion" tense="present" word="doet" wvorm="pv"/>
+        <node begin="6" case="nom" def="def" end="7" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="13" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+        <node begin="7" end="8" frame="adverb" id="14" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="9" end="10" frame="adverb" id="15" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" sense="maar" word="maar"/>
+        <node begin="10" cat="conj" end="18" id="16" rel="obj1">
+          <node begin="10" cat="np" end="12" id="17" rel="cnj">
+            <node begin="10" end="11" frame="determiner(de)" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="mogelijkheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="mogelijkheid" sense="mogelijkheid" word="mogelijkheid"/>
+          </node>
+          <node begin="12" conjtype="neven" end="13" frame="conj(of)" id="20" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+          <node begin="13" cat="np" end="18" id="21" rel="cnj">
+            <node begin="13" cat="np" end="16" id="22" rel="obj1">
+              <node begin="13" end="14" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="14" end="15" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="hoop" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hoop" sense="hoop" word="hoop"/>
+              <node begin="15" end="16" frame="er_adverb(op)" id="25" lcat="pp" lemma="erop" pos="pp" postag="BW()" pt="bw" rel="mod" root="erop" sense="erop" special="er" word="erop"/>
+            </node>
+            <node begin="16" end="17" frame="adverb" id="26" lcat="advp" lemma="helemaal" pos="adv" postag="BW()" pt="bw" rel="mod" root="helemaal" sense="helemaal" word="helemaal"/>
+            <node begin="17" buiging="zonder" end="18" frame="v_noun(transitive)" getal-n="zonder-n" id="27" lcat="np" lemma="uit_sluiten" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="sluit_uit" sc="transitive" sense="sluit_uit" special="v_noun" word="uitsluiten" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="18" end="19" frame="adverb" id="28" lcat="advp" lemma="evenmin" pos="adv" postag="BW()" pt="bw" rel="mod" root="evenmin" sense="evenmin" word="evenmin"/>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="29" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Echt geloven dat God ingrijpt doet hij niet , maar de mogelijkheid of de hoop erop helemaal uitsluiten evenmin .</sentence>
+  <comments>
+    <comment>Q#31|Echt geloven dat God ingrijpt doet hij niet , maar de mogelijkheid of de hoop erop helemaal uitsluiten evenmin .|1|2|13.549749585619997</comment>
+  </comments>
+</alpino_ds>

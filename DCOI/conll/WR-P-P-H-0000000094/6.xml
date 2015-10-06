@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="cp" end="6" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer(als)" id="4" lcat="cp" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" sc="als" sense="als" word="Als"/>
+        <node begin="1" cat="ssub" end="6" id="5" rel="body">
+          <node begin="1" cat="np" end="3" id="6" index="1" rel="su">
+            <node begin="1" end="2" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="crisis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="crisis" sense="crisis" word="crisis"/>
+          </node>
+          <node begin="4" end="5" frame="verb(unacc,sg3,passive)" id="9" infl="sg3" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="wordt" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="6" id="10" rel="vc">
+            <node begin="1" end="3" id="11" index="1" rel="obj1"/>
+            <node begin="3" end="4" frame="adverb" id="12" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+            <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" id="13" infl="psp" lcat="ppart" lemma="op_lossen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="los_op" sc="part_transitive(op)" sense="los_op" word="opgelost" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(unacc,sg_heeft,copula_sbar)" id="14" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula_sbar" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="8" end="9" frame="het_noun" genus="onz" getal="ev" id="15" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" rnum="sg" root="het" sense="het" special="het" status="red" vwtype="pers" word="het"/>
+      <node begin="9" end="10" frame="adverb" id="16" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+      <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(no_e(adv),subject_sbar)" graad="basis" id="17" infl="no_e" lcat="ap" lemma="ondenkbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="ondenkbaar" sc="subject_sbar" sense="ondenkbaar" vform="adj" word="ondenkbaar"/>
+      <node begin="11" cat="cp" end="17" id="18" rel="su">
+        <node begin="11" conjtype="onder" end="12" frame="complementizer(dat)" id="19" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="12" cat="ssub" end="17" id="20" rel="body">
+          <node begin="12" cat="np" end="15" id="21" rel="su">
+            <node begin="12" end="13" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="federatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="federatie" sense="federatie" word="federatie"/>
+            <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="24" lcat="np" lemma="Joegoslavië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Joegoslavië" sense="Joegoslavië" word="Joegoslavië"/>
+          </node>
+          <node aform="base" begin="15" buiging="zonder" end="16" frame="adjective(no_e(adv))" graad="basis" id="25" infl="no_e" lcat="ap" lemma="definitief" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="definitief" sense="definitief" vform="adj" word="definitief"/>
+          <node begin="16" end="17" frame="verb(unacc,sg3,ninv(intransitive,part_intransitive(uiteen)))" id="26" infl="sg3" lcat="ssub" lemma="uiteen_vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val_uiteen" sc="part_intransitive(uiteen)" sense="val_uiteen" tense="present" word="uiteenvalt" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Als de crisis niet wordt opgelost , is het niet ondenkbaar dat de federatie Joegoslavië definitief uiteenvalt .</sentence>
+  <comments>
+    <comment>Q#6|Als de crisis niet wordt opgelost , is het niet ondenkbaar dat de federatie Joegoslavië definitief uiteenvalt .|1|1|-11.902418132120003</comment>
+  </comments>
+</alpino_ds>

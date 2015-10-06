@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(aanhaal_links)" id="1" lcat="punct" lemma=",," pos="punct" postag="LET()" pt="let" rel="--" root=",," sense=",," special="aanhaal_links" word=",,"/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="pp" end="6" id="3" rel="mod">
+        <node begin="0" end="1" frame="preposition(tegen,[aan,in,op])" id="4" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="Tegen"/>
+        <node begin="1" cat="np" end="6" id="5" rel="obj1">
+          <node begin="1" end="2" frame="determiner(de)" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" id="7" infl="e" lcat="ap" lemma="Spaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Spaans" sense="Spaans" vform="adj" word="Spaanse"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="krant" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="krant" sense="krant" word="krant"/>
+          <node begin="4" cat="mwu" end="6" id="9" mwu_root="El Pais" mwu_sense="El Pais" rel="app">
+            <node begin="4" end="5" frame="proper_name(both,'ORG')" id="10" lcat="np" lemma="El" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="El" sense="El" spectype="deeleigen" word="El"/>
+            <node begin="5" end="6" frame="proper_name(both,'ORG')" id="11" lcat="np" lemma="Pais" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Pais" sense="Pais" spectype="deeleigen" word="Pais"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,past(sg),tr_sbar)" id="12" infl="sg" lcat="smain" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" stype="declarative" tense="past" word="zei" wvorm="pv"/>
+      <node begin="7" case="nom" def="def" end="8" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="13" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+      <node begin="8" cat="cp" end="14" id="14" rel="vc">
+        <node begin="8" conjtype="onder" end="9" frame="complementizer(dat)" id="15" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="10" cat="ssub" end="14" id="16" rel="body">
+          <node begin="10" cat="np" end="12" id="17" rel="su">
+            <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="19" lcat="np" lemma="volk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="volk" sense="volk" word="volk"/>
+          </node>
+          <node begin="12" end="13" frame="er_adverb(om)" id="20" lcat="pp" lemma="erom" pos="pp" postag="BW()" pt="bw" rel="pc" root="erom" sense="erom" special="er" word="erom"/>
+          <node begin="13" end="14" frame="verb(hebben,sg3,pc_pp(om))" id="21" infl="sg3" lcat="ssub" lemma="vragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vraag" sc="pc_pp(om)" sense="vraag-om" tense="present" word="vraagt" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(aanhaal_rechts)" id="22" lcat="punct" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+    <node begin="15" end="16" frame="punct(punt)" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Tegen de Spaanse krant El Pais zei hij dat ,, het volk erom vraagt &apos;&apos; .</sentence>
+  <comments>
+    <comment>Q#3|Tegen de Spaanse krant El Pais zei hij dat ,, het volk erom vraagt &apos;&apos; .|1|1|-9.478695630219997</comment>
+  </comments>
+</alpino_ds>

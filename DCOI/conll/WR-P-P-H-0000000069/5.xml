@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="16" end="17" frame="punct(dubb_punt)" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="21" end="22" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="24" id="3" rel="--">
+      <node begin="0" cat="smain" end="16" id="4" rel="nucl">
+        <node begin="0" cat="np" end="12" id="5" rel="obj1">
+          <node begin="0" end="1" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" id="6" infl="pron" lcat="detp" lemma="Warhol" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Warhol" sense="Warhol" special="name" word="Warhols"/>
+          <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="7" lcat="np" lemma="tegen_verzoek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="tegen_verzoek" sense="tegen_verzoek" word="tegenverzoek"/>
+          <node begin="2" cat="oti" end="12" id="8" rel="mod">
+            <node begin="2" end="3" frame="complementizer(om)" id="9" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+            <node begin="3" cat="ti" end="12" id="10" rel="body">
+              <node begin="9" end="10" frame="complementizer(te)" id="11" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+              <node begin="3" cat="inf" end="12" id="12" rel="body">
+                <node begin="3" cat="np" end="5" id="13" index="1" rel="obj1">
+                  <node begin="3" end="4" frame="determiner(de)" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="15" lcat="np" lemma="danser" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="danser" sense="danser" word="dansers"/>
+                </node>
+                <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,aci)" id="16" infl="inf" lcat="inf" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" sc="aci" sense="laat" word="laten" wvorm="inf"/>
+                <node begin="3" cat="inf" end="12" id="17" rel="vc">
+                  <node begin="3" end="5" id="18" index="1" rel="su"/>
+                  <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(adv))" graad="basis" id="19" infl="no_e" lcat="ap" lemma="naakt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="naakt" sense="naakt" vform="adj" word="naakt"/>
+                  <node begin="6" cat="pp" end="9" id="20" rel="ld">
+                    <node begin="6" end="7" frame="preposition(tussen,[door,in,vandaan])" id="21" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+                    <node begin="7" cat="np" end="9" id="22" rel="obj1">
+                      <node begin="7" buiging="zonder" end="8" frame="determiner(de,nwh,nmod,pro,nparg)" id="23" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+                      <node begin="8" end="9" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="24" lcat="np" lemma="kussen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kussen" sense="kussen" word="kussens"/>
+                    </node>
+                  </node>
+                  <node begin="11" buiging="zonder" end="12" frame="verb('hebben/zijn',inf,ninv(ld_pp,part_ld_pp(op)))" id="25" infl="inf" lcat="inf" lemma="op_treden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="treed_op" sc="part_ld_pp(op)" sense="treed_op" word="optreden" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="12" end="13" frame="verb(hebben,past(sg),part_transitive(in))" id="26" infl="sg" lcat="smain" lemma="in_willigen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="willig_in" sc="part_transitive(in)" sense="willig_in" stype="declarative" tense="past" word="willigde" wvorm="pv"/>
+        <node begin="13" case="nom" def="def" end="14" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="27" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+        <node begin="14" end="15" frame="adverb" id="28" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="15" end="16" frame="particle(in)" id="29" lcat="part" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" sense="in" vztype="fin" word="in"/>
+      </node>
+      <node begin="17" cat="smain" end="24" id="30" rel="sat">
+        <node begin="17" case="nom" def="def" end="18" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="31" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+        <node begin="18" end="19" frame="verb(hebben,past(sg),pc_pp(met))" id="32" infl="sg" lcat="smain" lemma="volstaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="volsta" sc="pc_pp(met)" sense="volsta-met" stype="declarative" tense="past" word="volstond" wvorm="pv"/>
+        <node begin="19" cat="pp" end="24" id="33" rel="pc">
+          <node begin="19" end="20" frame="preposition(met,[mee,[en,al]])" id="34" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="20" cat="np" end="24" id="35" rel="obj1">
+            <node aform="base" begin="20" buiging="met-e" end="21" frame="adjective(e)" graad="basis" id="36" infl="e" lcat="ap" lemma="vlees_kleurig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vlees_kleurig" sense="vlees_kleurig" vform="adj" word="vleeskleurige"/>
+            <node aform="base" begin="22" buiging="met-e" end="23" frame="adjective(ge_e)" id="37" infl="e" lcat="ppart" lemma="gescheurd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gescheurd" sense="gescheurd" vform="psp" word="gescheurde" wvorm="vd"/>
+            <node begin="23" end="24" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="38" lcat="np" lemma="maillot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="maillot" sense="maillot" word="maillots"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Warhols tegenverzoek om de dansers naakt tussen die kussens te laten optreden willigde hij niet in : hij volstond met vleeskleurige , gescheurde maillots .</sentence>
+  <comments>
+    <comment>Q#5|Warhols tegenverzoek om de dansers naakt tussen die kussens te laten optreden willigde hij niet in : hij volstond met vleeskleurige , gescheurde maillots .|1|1|-5.603767547960002</comment>
+  </comments>
+</alpino_ds>

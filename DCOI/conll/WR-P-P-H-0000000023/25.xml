@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="51" id="0" rel="top">
+    <node begin="16" end="17" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="28" end="29" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="47" end="48" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="50" id="4" rel="--">
+      <node begin="0" end="1" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="5" lcat="np" lemma="dieptepunt" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="predc" rnum="pl" root="dieptepunt" sense="dieptepunt" word="Dieptepunten"/>
+      <node begin="1" end="2" frame="verb(unacc,pl,copula)" id="6" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="2" cat="conj" end="19" id="7" rel="mod">
+        <node begin="2" cat="np" end="16" id="8" rel="cnj">
+          <node begin="2" end="3" frame="determiner(de)" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="3" end="4" frame="tmp_noun(de,count,pl,sbar)" gen="de" getal="mv" graad="basis" id="10" lcat="np" lemma="periode" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="periode" sc="sbar" sense="periode" special="tmp" word="periodes"/>
+          <node begin="4" cat="cp" end="16" id="11" rel="vc">
+            <node begin="4" conjtype="onder" end="5" frame="complementizer(dat)" id="12" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+            <node begin="5" cat="ssub" end="16" id="13" rel="body">
+              <node begin="5" cat="conj" end="11" id="14" rel="su">
+                <node begin="5" cat="mwu" end="7" id="15" mwu_root="Desi Bouterse" mwu_sense="Desi Bouterse" rel="cnj">
+                  <node begin="5" end="6" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="Desi" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Desi" sense="Desi" spectype="deeleigen" word="Desi"/>
+                  <node begin="6" end="7" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="Bouterse" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bouterse" sense="Bouterse" spectype="deeleigen" word="Bouterse"/>
+                </node>
+                <node begin="7" conjtype="neven" end="8" frame="conj(en)" id="18" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="8" cat="mwu" end="11" id="19" mwu_root="Jules Albert Wijdenbosch" mwu_sense="Jules Albert Wijdenbosch" rel="cnj">
+                  <node begin="8" end="9" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Jules" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jules" sense="Jules" spectype="deeleigen" word="Jules"/>
+                  <node begin="9" end="10" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="Albert" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Albert" sense="Albert" spectype="deeleigen" word="Albert"/>
+                  <node begin="10" end="11" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Wijdenbosch" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wijdenbosch" sense="Wijdenbosch" spectype="deeleigen" word="Wijdenbosch"/>
+                </node>
+              </node>
+              <node begin="11" cat="pp" end="13" id="23" rel="mod">
+                <node begin="11" end="12" frame="preposition(in,[])" id="24" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="12" end="13" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="25" lcat="np" lemma="Suriname" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Suriname" sense="Suriname" word="Suriname"/>
+              </node>
+              <node begin="13" cat="np" end="15" id="26" rel="obj1">
+                <node begin="13" end="14" frame="determiner(de)" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="28" lcat="np" lemma="koers" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="koers" sense="koers" word="koers"/>
+              </node>
+              <node begin="15" end="16" frame="verb(hebben,pl,transitive)" id="29" infl="pl" lcat="ssub" lemma="bepalen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bepaal" sc="transitive" sense="bepaal" tense="present" word="bepalen" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="17" conjtype="neven" end="18" frame="conj(en)" id="30" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="18" end="19" frame="sentence_adverb" id="31" lcat="advp" lemma="uiteraard" pos="adv" postag="BW()" pt="bw" rel="cnj" root="uiteraard" sense="uiteraard" special="sentence" word="uiteraard"/>
+      </node>
+      <node begin="19" cat="conj" end="50" id="32" rel="su">
+        <node begin="19" cat="np" end="47" id="33" rel="cnj">
+          <node begin="19" end="20" frame="determiner(de)" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="35" lcat="np" lemma="opschorting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="opschorting" sense="opschorting" word="opschorting"/>
+          <node begin="21" cat="pp" end="28" id="36" rel="mod">
+            <node begin="21" end="22" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="37" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="22" cat="np" end="28" id="38" rel="obj1">
+              <node begin="22" end="23" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="39" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="23" end="24" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="40" lcat="np" lemma="verdrag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verdrag" sense="verdrag" word="verdrag"/>
+              <node begin="24" cat="pp" end="28" id="41" rel="mod">
+                <node begin="24" end="25" frame="preposition(op,[af,na])" id="42" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                <node begin="25" cat="mwu" end="28" id="43" mwu_root="13 december 1982" mwu_sense="13 december 1982" rel="obj1">
+                  <node begin="25" end="26" frame="tmp_np" id="44" lcat="np" lemma="13" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="13" sense="13" special="tmp" word="13"/>
+                  <node begin="26" end="27" frame="tmp_np" id="45" lcat="np" lemma="december" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="december" sense="december" special="tmp" word="december"/>
+                  <node begin="27" end="28" frame="tmp_np" id="46" lcat="np" lemma="1982" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="1982" sense="1982" special="tmp" word="1982"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="29" cat="cp" end="47" id="47" rel="mod">
+            <node begin="29" end="30" frame="complementizer(als)" id="48" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+            <node begin="30" cat="np" end="47" id="49" rel="body">
+              <node begin="30" end="31" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="50" lcat="np" lemma="reactie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="reactie" sense="reactie" word="reactie"/>
+              <node begin="31" cat="pp" end="47" id="51" rel="mod">
+                <node begin="31" end="32" frame="preposition(op,[af,na])" id="52" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                <node begin="32" cat="np" end="47" id="53" rel="obj1">
+                  <node begin="32" end="33" frame="determiner(de)" id="54" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node aform="base" begin="33" buiging="met-e" end="34" frame="adjective(e)" graad="basis" id="55" infl="e" lcat="ap" lemma="stand_rechtelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="stand_rechtelijk" sense="stand_rechtelijk" vform="adj" word="standrechtelijke"/>
+                  <node begin="34" end="35" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="56" lcat="np" lemma="executie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="executie" sense="executie" word="executie"/>
+                  <node begin="35" cat="pp" end="47" id="57" rel="mod">
+                    <node begin="35" end="36" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="58" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="36" cat="np" end="47" id="59" rel="obj1">
+                      <node begin="36" end="37" frame="number(hoofd(pl_num))" id="60" infl="pl_num" lcat="detp" lemma="15" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="15" sense="15" special="hoofd" word="15"/>
+                      <node aform="base" begin="37" buiging="met-e" end="38" frame="adjective(e)" graad="basis" id="61" infl="e" lcat="ap" lemma="vooraanstaand" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vooraanstaand" sense="vooraanstaand" vform="adj" word="vooraanstaande"/>
+                      <node begin="38" end="39" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="62" lcat="np" lemma="Surinamer" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Surinamer" sense="Surinamer" word="Surinamers"/>
+                      <node begin="39" cat="pp" end="47" id="63" rel="mod">
+                        <node begin="39" end="40" frame="preposition(in,[])" id="64" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                        <node begin="40" cat="np" end="47" id="65" rel="obj1">
+                          <node begin="40" end="41" frame="determiner(de)" id="66" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                          <node begin="41" end="42" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="67" lcat="np" lemma="nacht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="nacht" sense="nacht" special="tmp" word="nacht"/>
+                          <node begin="42" cat="pp" end="44" id="68" rel="mod">
+                            <node begin="42" end="43" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="69" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                            <node begin="43" end="44" frame="number(hoofd(pl_num))" id="70" infl="pl_num" lcat="np" lemma="8" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="pl" root="8" sense="8" special="hoofd" word="8"/>
+                          </node>
+                          <node begin="44" cat="pp" end="47" id="71" rel="mod">
+                            <node begin="44" end="45" frame="preposition(op,[af,na])" id="72" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                            <node begin="45" cat="mwu" end="47" id="73" mwu_root="9 december" mwu_sense="9 december" rel="obj1">
+                              <node begin="45" end="46" frame="tmp_np" id="74" lcat="np" lemma="9" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="9" sense="9" special="tmp" word="9"/>
+                              <node begin="46" end="47" frame="tmp_np" id="75" lcat="np" lemma="december" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="december" sense="december" special="tmp" word="december"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="48" cat="np" end="50" id="76" rel="cnj">
+          <node begin="48" end="49" frame="determiner(de)" id="77" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="49" end="50" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="78" lcat="np" lemma="December_moord" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="December_moord" sense="December_moord" word="Decembermoorden"/>
+        </node>
+      </node>
+    </node>
+    <node begin="50" end="51" frame="punct(punt)" id="79" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dieptepunten zijn de periodes dat Desi Bouterse en Jules Albert Wijdenbosch in Suriname de koers bepalen , en uiteraard de opschorting van het verdrag op 13 december 1982 , als reactie op de standrechtelijke executie van 15 vooraanstaande Surinamers in de nacht van 8 op 9 december , de Decembermoorden .</sentence>
+  <comments>
+    <comment>Q#25|Dieptepunten zijn de periodes dat Desi Bouterse en Jules Albert Wijdenbosch in Suriname de koers bepalen , en uiteraard de opschorting van het verdrag op 13 december 1982 , als reactie op de standrechtelijke executie van 15 vooraanstaande Surinamers in de nacht van 8 op 9 december , de Decembermoorden .|1|1|5.822842566140017</comment>
+  </comments>
+</alpino_ds>

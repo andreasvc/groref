@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(aanhaal_both)" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="14" end="15" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="16" id="3" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="4" lcat="np" lemma="klant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="klant" sense="klant" word="Klanten"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,sbar)" id="5" infl="pl" lcat="smain" lemma="klagen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="klaag" sc="sbar" sense="klaag" stype="declarative" tense="present" word="klagen" wvorm="pv"/>
+      <node begin="2" cat="cp" end="16" id="6" rel="vc">
+        <node begin="2" conjtype="onder" end="3" frame="complementizer(dat)" id="7" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="3" cat="ssub" end="16" id="8" rel="body">
+          <node begin="8" end="9" frame="verb(unacc,sg_heeft,te_passive)" id="9" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="te_passive" sense="ben" tense="present" word="is" wvorm="pv"/>
+          <node begin="3" cat="ti" end="16" id="10" rel="vc">
+            <node begin="6" end="7" frame="complementizer(te)" id="11" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="3" cat="inf" end="16" id="12" rel="body">
+              <node begin="3" end="4" frame="er_vp_adverb" getal="getal" id="13" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,transitive)" id="14" infl="inf" lcat="inf" lemma="krijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="krijg" sc="transitive" sense="krijg" word="krijgen" wvorm="inf"/>
+              <node begin="4" cat="np" end="16" id="15" index="1" rel="obj1">
+                <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(odet_adv))" graad="basis" id="16" infl="no_e" lcat="ap" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="mod" root="veel" sense="veel" vform="adj" vwtype="onbep" word="veel"/>
+                <node aform="compar" begin="5" buiging="zonder" end="6" frame="adjective(meer)" graad="comp" id="17" infl="meer" lcat="np" lemma="minder" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" rnum="sg" root="minder" sense="minder" vform="adj" vwtype="onbep" word="minder"/>
+                <node begin="9" cat="cp" end="16" id="18" rel="obcomp">
+                  <node begin="9" conjtype="onder" end="10" frame="comparative(dan)" id="19" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+                  <node begin="10" cat="pp" end="16" id="20" rel="body">
+                    <node begin="10" end="11" frame="preposition(in,[])" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                    <node begin="11" cat="np" end="16" id="22" rel="obj1">
+                      <node begin="11" end="12" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" id="24" infl="e" lcat="ap" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" sense="oud" vform="adj" word="oude"/>
+                      <node begin="15" end="16" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="Konmar" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Konmar" sense="Konmar" word="Konmar"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="4" end="16" id="26" index="1" rel="su"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Klanten klagen dat er veel minder te krijgen is dan in de &apos; oude &apos; Konmar .</sentence>
+  <comments>
+    <comment>Q#20|Klanten klagen dat er veel minder te krijgen is dan in de &apos; oude &apos; Konmar .|1|1|1.8203677992199994</comment>
+  </comments>
+</alpino_ds>

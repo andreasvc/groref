@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="4" infl="e" lcat="ap" lemma="links" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="links" sense="links" vform="adj" word="linkse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="guerrilla_beweging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="guerrilla_beweging" sense="guerrilla_beweging" word="guerrillabeweging"/>
+        <node begin="3" end="4" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="FARC" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="FARC" sense="FARC" word="FARC"/>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg_heeft,aux_psp_hebben)" id="7" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="15" id="8" rel="vc">
+        <node begin="0" end="4" id="9" index="1" rel="su"/>
+        <node begin="5" end="6" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="zaterdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="zaterdag" sense="zaterdag" special="tmp" word="zaterdag"/>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,ninv(transitive,part_transitive(vrij)))" id="11" infl="psp" lcat="ppart" lemma="vrij_laten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="laat_vrij" sc="part_transitive(vrij)" sense="laat_vrij" word="vrijgelaten" wvorm="vd"/>
+        <node begin="6" cat="conj" end="15" id="12" rel="obj1">
+          <node begin="8" conjtype="neven" end="9" frame="conj(en)" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="6" cat="np" end="15" id="14" rel="cnj">
+            <node begin="6" end="7" frame="number(hoofd(pl_num))" id="15" index="2" infl="pl_num" lcat="detp" lemma="62" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="62" sense="62" special="hoofd" word="62"/>
+            <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="16" lcat="np" lemma="agent" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="agent" sense="agent" word="agenten"/>
+            <node begin="11" cat="rel" end="15" id="17" index="3" rel="mod">
+              <node begin="11" case="no_obl" end="12" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="18" index="4" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="11" cat="ssub" end="15" id="19" rel="body">
+                <node begin="11" end="12" id="20" index="4" rel="su"/>
+                <node begin="13" end="14" frame="verb(unacc,past(pl),passive)" id="21" infl="pl" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" sc="passive" sense="ben" tense="past" word="waren" wvorm="pv"/>
+                <node begin="11" cat="ppart" end="15" id="22" rel="vc">
+                  <node begin="11" end="12" id="23" index="4" rel="obj1"/>
+                  <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(tmpadv))" graad="basis" id="24" infl="no_e" lcat="ap" lemma="jaar_lang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="jaar_lang" sense="jaar_lang" vform="adj" word="jarenlang"/>
+                  <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,transitive)" id="25" infl="psp" lcat="ppart" lemma="gijzelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gijzel" sc="transitive" sense="gijzel" word="gegijzeld" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="6" cat="np" end="15" id="26" rel="cnj">
+            <node begin="6" end="7" id="27" index="2" rel="det"/>
+            <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="28" lcat="np" lemma="militair" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="militair" sense="militair" word="militairen"/>
+            <node begin="11" end="15" id="29" index="3" rel="mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="30" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De linkse guerrillabeweging FARC heeft zaterdag 62 agenten en militairen vrijgelaten die jarenlang waren gegijzeld .</sentence>
+  <comments>
+    <comment>Q#2|De linkse guerrillabeweging FARC heeft zaterdag 62 agenten en militairen vrijgelaten die jarenlang waren gegijzeld .|1|1|-7.063813121819998</comment>
+  </comments>
+</alpino_ds>

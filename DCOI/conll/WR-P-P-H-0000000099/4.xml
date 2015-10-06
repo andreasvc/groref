@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="37" id="0" rel="top">
+    <node begin="13" end="14" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="29" end="30" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="36" id="3" rel="--">
+      <node begin="0" cat="conj" end="29" id="4" rel="nucl">
+        <node begin="0" cat="smain" end="13" id="5" rel="cnj">
+          <node begin="0" cat="np" end="2" id="6" rel="su">
+            <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+            <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="land" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="land" sense="land" word="land"/>
+          </node>
+          <node begin="2" end="3" frame="verb(hebben,sg3,transitive)" id="9" infl="sg3" lcat="smain" lemma="tellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="tel" sc="transitive" sense="tel" stype="declarative" tense="present" word="telt" wvorm="pv"/>
+          <node begin="3" cat="conj" end="13" id="10" rel="obj1">
+            <node begin="3" cat="np" end="7" id="11" rel="cnj">
+              <node begin="3" buiging="zonder" end="4" frame="modal_adverb" graad="basis" id="12" index="1" lcat="advp" lemma="zeker" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" sc="modal" sense="zeker" word="zeker"/>
+              <node begin="4" end="5" frame="number(hoofd(both))" id="13" infl="both" lcat="detp" lemma="1,2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1,2" sense="1,2" special="hoofd" word="1,2"/>
+              <node begin="5" end="6" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+              <node aform="base" begin="6" buiging="met-e" end="7" frame="nominalized_adjective" getal-n="mv-n" graad="basis" id="15" lcat="np" lemma="verslaafd" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="mod" root="verslaafd" sense="verslaafd" special="a_noun" word="verslaafden"/>
+            </node>
+            <node begin="7" conjtype="neven" end="8" frame="conj(en)" id="16" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="3" cat="np" end="13" id="17" rel="cnj">
+              <node begin="3" end="4" id="18" index="1" rel="mod"/>
+              <node begin="8" end="9" frame="determiner(een)" id="19" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="20" infl="e" lcat="ap" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klein" sense="klein" vform="adj" word="kleine"/>
+              <node begin="10" end="11" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="21" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+              <node begin="11" cat="np" end="13" id="22" rel="mod">
+                <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" id="23" infl="e" lcat="ap" lemma="onregelmatig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="onregelmatig" sense="onregelmatig" vform="adj" word="onregelmatige"/>
+                <node begin="12" end="13" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="24" lcat="np" lemma="gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gebruiker" sense="gebruiker" word="gebruikers"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="14" conjtype="neven" end="15" frame="conj(en)" id="25" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="15" cat="smain" end="29" id="26" rel="cnj">
+          <node begin="18" end="19" frame="verb(unacc,sg3,te_passive)" id="27" infl="sg3" lcat="smain" lemma="vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val" sc="te_passive" sense="val" stype="declarative" tense="present" word="valt" wvorm="pv"/>
+          <node begin="20" cat="np" end="27" id="28" index="2" rel="su">
+            <node begin="20" end="21" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="29" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="21" buiging="met-e" end="22" frame="adjective(e)" graad="basis" id="30" infl="e" lcat="ap" lemma="totaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="totaal" sense="totaal" vform="adj" word="totale"/>
+            <node begin="22" end="23" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="31" lcat="np" lemma="aantal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="aantal" sense="aantal" word="aantal"/>
+            <node begin="23" cat="pp" end="27" id="32" rel="mod">
+              <node begin="23" end="24" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="33" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="24" cat="np" end="27" id="34" rel="obj1">
+                <node begin="24" end="25" frame="number(hoofd(pl_num))" id="35" infl="pl_num" lcat="detp" lemma="zes" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zes" sense="zes" special="hoofd" word="zes"/>
+                <node begin="25" end="26" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="36" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+                <node begin="26" end="27" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="37" lcat="np" lemma="drug_gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="drug_gebruiker" sense="drug_gebruiker" word="druggebruikers"/>
+              </node>
+            </node>
+          </node>
+          <node begin="15" cat="ti" end="29" id="38" rel="vc">
+            <node begin="27" end="28" frame="complementizer(te)" id="39" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="15" cat="inf" end="29" id="40" rel="body">
+              <node begin="15" cat="conj" end="18" id="41" rel="mod">
+                <node begin="15" end="16" frame="er_loc_adverb" getal="getal" id="42" lcat="advp" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="cnj" root="hier" sense="hier" special="er_loc" status="vol" vwtype="aanw" word="hier"/>
+                <node begin="16" conjtype="neven" end="17" frame="conj(en)" id="43" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="17" end="18" frame="er_loc_adverb" getal="getal" id="44" lcat="advp" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="cnj" root="daar" sense="daar" special="er_loc" status="vol" vwtype="aanw" word="daar"/>
+              </node>
+              <node begin="19" end="20" frame="sentence_adverb" id="45" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+              <node begin="20" end="27" id="46" index="2" rel="obj1"/>
+              <node begin="28" buiging="zonder" end="29" frame="verb(hebben,inf,transitive_ndev_ndev)" id="47" infl="inf" lcat="inf" lemma="horen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="hoor" sc="transitive_ndev_ndev" sense="hoor" word="horen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="30" cat="np" end="36" id="48" rel="sat">
+        <node begin="30" end="31" frame="modal_adverb(adv_noun_prep)" id="49" lcat="advp" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna" word="bijna"/>
+        <node begin="31" end="32" frame="number(hoofd(pl_num))" id="50" infl="pl_num" lcat="detp" lemma="tien" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="tien" sense="tien" special="hoofd" word="tien"/>
+        <node begin="32" end="33" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" id="51" lcat="np" lemma="procent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="procent" sense="procent" special="meas_mod" word="procent"/>
+        <node begin="33" cat="pp" end="36" id="52" rel="mod">
+          <node begin="33" end="34" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="53" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="34" cat="np" end="36" id="54" rel="obj1">
+            <node begin="34" end="35" frame="determiner(de)" id="55" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="35" end="36" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="56" lcat="np" lemma="bevolking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bevolking" sense="bevolking" word="bevolking"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="36" end="37" frame="punct(punt)" id="57" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het land telt zeker 1,2 miljoen verslaafden en een kleine miljoen onregelmatige gebruikers - en hier en daar valt ook het totale aantal van zes miljoen druggebruikers te horen , bijna tien procent van de bevolking .</sentence>
+  <comments>
+    <comment>Q#4|Het land telt zeker 1,2 miljoen verslaafden en een kleine miljoen onregelmatige gebruikers - en hier en daar valt ook het totale aantal van zes miljoen druggebruikers te horen , bijna tien procent van de bevolking .|1|1|-0.7416040433800061</comment>
+  </comments>
+</alpino_ds>

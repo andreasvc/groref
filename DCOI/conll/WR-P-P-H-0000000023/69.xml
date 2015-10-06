@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="4" infl="e" lcat="ap" lemma="totaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="totaal" sense="totaal" vform="adj" word="totale"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="staat_schuld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staat_schuld" sense="staat_schuld" word="staatsschuld"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,sg_heeft,aux_psp_zijn)" id="6" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="13" id="7" rel="vc">
+        <node begin="0" end="3" id="8" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" frame="verb(zijn,psp,ld_pp)" id="9" infl="psp" lcat="ppart" lemma="stijgen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stijg" sc="ld_pp" sense="stijg" word="gestegen" wvorm="vd"/>
+        <node begin="5" cat="pp" end="13" id="10" rel="ld">
+          <node begin="5" end="6" frame="preposition(tot,[toe,[aan,toe]])" id="11" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="6" cat="np" end="13" id="12" rel="obj1">
+            <node begin="6" end="7" frame="number(hoofd(pl_num))" id="13" infl="pl_num" lcat="detp" lemma="97" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="97" sense="97" special="hoofd" word="97"/>
+            <node begin="7" end="8" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="procent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="procent" sense="procent" special="meas_mod" word="procent"/>
+            <node begin="8" cat="pp" end="13" id="15" rel="mod">
+              <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="9" cat="np" end="13" id="17" rel="obj1">
+                <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(both(adv))" graad="basis" id="19" infl="both" lcat="ap" lemma="bruto" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="bruto" sense="bruto" vform="adj" word="bruto"/>
+                <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" id="20" infl="no_e" lcat="ap" lemma="binnenlands" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="binnenlands" sense="binnenlands" vform="adj" word="binnenlands"/>
+                <node begin="12" end="13" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="21" lcat="np" lemma="product" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="product" sense="product" word="product"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" id="22" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De totale staatsschuld is gestegen tot 97 procent van het bruto binnenlands product .</sentence>
+  <comments>
+    <comment>Q#69|De totale staatsschuld is gestegen tot 97 procent van het bruto binnenlands product .|1|1|-9.7664007273</comment>
+  </comments>
+</alpino_ds>

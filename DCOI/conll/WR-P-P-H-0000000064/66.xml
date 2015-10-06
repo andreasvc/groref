@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="12" end="13" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="pp" end="2" id="4" rel="mod">
+        <node begin="0" end="1" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="5" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="Voor"/>
+        <node begin="1" case="dat_acc" def="def" end="2" frame="pronoun(nwh,fir,sg,de,dat_acc,def)" gen="de" getal="ev" id="6" lcat="np" lemma="mij" naamval="obl" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,ev)" pt="vnw" rel="obj1" rnum="sg" root="mij" sense="mij" status="vol" vwtype="pr" wh="nwh" word="mij"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,sg_heeft,copula)" id="7" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="3" cat="conj" end="12" id="8" rel="su">
+        <node begin="3" cat="np" end="5" id="9" rel="cnj">
+          <node begin="3" end="4" frame="determiner(de)" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="hemel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hemel" sense="hemel" word="hemel"/>
+        </node>
+        <node begin="6" conjtype="neven" end="7" frame="conj(of)" id="12" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+        <node begin="7" cat="np" end="12" id="13" rel="cnj">
+          <node begin="7" end="8" frame="sentence_adverb" id="14" lcat="advp" lemma="misschien" pos="adv" postag="BW()" pt="bw" rel="mod" root="misschien" sense="misschien" special="sentence" word="misschien"/>
+          <node begin="8" end="9" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="9" cat="ap" end="11" id="16" rel="mod">
+            <node aform="compar" begin="9" buiging="zonder" end="10" frame="adjective(meer)" graad="comp" id="17" infl="meer" lcat="ap" lemma="minder" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="minder" sense="minder" vform="adj" vwtype="onbep" word="minder"/>
+            <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" id="18" infl="e" lcat="ap" lemma="saai" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="saai" sense="saai" vform="adj" word="saaie"/>
+          </node>
+          <node begin="11" end="12" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="hel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hel" sense="hel" word="hel"/>
+        </node>
+      </node>
+      <node begin="13" cat="np" end="18" id="20" rel="predc">
+        <node begin="13" end="14" frame="determiner(de)" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="super" begin="14" buiging="met-e" end="15" frame="adjective(ste)" graad="sup" id="22" infl="e" lcat="ap" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="belangrijk" sense="belangrijk" vform="adj" word="belangrijkste"/>
+        <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="troef" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="troef" sense="troef" word="troef"/>
+        <node begin="16" cat="pp" end="18" id="24" rel="mod">
+          <node begin="16" end="17" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="25" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="God" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="God" sense="God" word="God"/>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="19" end="20" frame="punct(aanhaal_rechts)" id="28" lcat="--" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+  </node>
+  <sentence>Voor mij is de hemel - of misschien de minder saaie hel - de belangrijkste troef van God . &apos;&apos;</sentence>
+  <comments>
+    <comment>Q#66|Voor mij is de hemel - of misschien de minder saaie hel - de belangrijkste troef van God . &apos;&apos;|1|1|-4.031121136240005</comment>
+  </comments>
+</alpino_ds>

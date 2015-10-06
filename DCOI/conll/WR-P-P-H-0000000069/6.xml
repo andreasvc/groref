@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="0" cat="conj" end="27" id="1" rel="--">
+      <node begin="0" cat="sv1" end="15" id="2" rel="cnj">
+        <node begin="0" end="1" frame="verb(hebben,sg1,transitive)" id="3" infl="sg1" lcat="sv1" lemma="voegen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="voeg" sc="transitive" sense="voeg" stype="topic_drop" tense="present" word="Voeg" wvorm="pv"/>
+        <node begin="1" end="2" frame="er_adverb(bij)" id="4" lcat="pp" lemma="hierbij" pos="pp" postag="BW()" pt="bw" rel="mod" root="hierbij" sense="hierbij" special="er" word="hierbij"/>
+        <node begin="2" cat="np" end="15" id="5" rel="obj1">
+          <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="6" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" id="7" infl="e" lcat="ap" lemma="auditief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="auditief" sense="auditief" vform="adj" word="auditieve"/>
+          <node begin="4" end="5" frame="noun(het,count,sg,sbar)" gen="het" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="gegeven" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gegeven" sc="sbar" sense="gegeven" word="gegeven"/>
+          <node begin="5" cat="cp" end="15" id="9" rel="vc">
+            <node begin="5" conjtype="onder" end="6" frame="complementizer(dat)" id="10" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+            <node begin="6" cat="ssub" end="15" id="11" rel="body">
+              <node begin="6" cat="mwu" end="8" id="12" mwu_root="David Tudor" mwu_sense="David Tudor" rel="su">
+                <node begin="6" end="7" frame="proper_name(sg,'PER')" id="13" lcat="np" lemma="David" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="David" sense="David" spectype="deeleigen" word="David"/>
+                <node begin="7" end="8" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Tudor" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Tudor" sense="Tudor" spectype="deeleigen" word="Tudor"/>
+              </node>
+              <node begin="8" cat="np" end="14" id="15" rel="obj1">
+                <node begin="8" end="9" frame="determiner(een)" id="16" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="jungle" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="jungle" sense="jungle" word="jungle"/>
+                <node begin="10" cat="pp" end="14" id="18" rel="mod">
+                  <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="19" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="11" cat="conj" end="14" id="20" rel="obj1">
+                    <node begin="11" end="12" frame="within_word_conjunct" id="21" lcat="np" lemma="machine" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="machine" sense="machine" spectype="afgebr" word="machine-"/>
+                    <node begin="12" conjtype="neven" end="13" frame="conj(en)" id="22" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                    <node begin="13" end="14" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="23" lcat="np" lemma="natuur_geluid" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="natuur_geluid" sense="natuur_geluid" word="natuurgeluiden"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="14" end="15" frame="verb(hebben,past(sg),transitive)" id="24" infl="sg" lcat="ssub" lemma="componeren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="componeer" sc="transitive" sense="componeer" tense="past" word="componeerde" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" conjtype="neven" end="16" frame="conj(en)" id="25" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="16" cat="smain" end="27" id="26" rel="cnj">
+        <node begin="16" cat="np" end="25" id="27" rel="su">
+          <node begin="16" end="17" frame="determiner(de)" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="29" lcat="np" lemma="associatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="associatie" sense="associatie" word="associatie"/>
+          <node begin="18" cat="pp" end="25" id="30" rel="mod">
+            <node begin="18" end="19" frame="preposition(met,[mee,[en,al]])" id="31" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="19" cat="np" end="25" id="32" rel="obj1">
+              <node begin="19" end="20" frame="determiner(een)" id="33" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="20" buiging="met-e" end="21" frame="adjective(e)" graad="basis" id="34" infl="e" lcat="ap" lemma="primitief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="primitief" sense="primitief" vform="adj" word="primitieve"/>
+              <node begin="21" end="22" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="35" lcat="np" lemma="dan_stam" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dan_stam" sense="dan_stam" word="dansstam"/>
+              <node begin="22" cat="pp" end="25" id="36" rel="mod">
+                <node begin="22" end="23" frame="preposition(in,[])" id="37" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="23" cat="np" end="25" id="38" rel="obj1">
+                  <node begin="23" end="24" frame="determiner(een)" id="39" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="24" end="25" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="40" lcat="np" lemma="science-fictionwereld" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="science-fictionwereld" sense="science-fictionwereld" word="science-fictionwereld"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="25" end="26" frame="verb(unacc,sg_heeft,copula)" id="41" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node aform="base" begin="26" buiging="zonder" end="27" frame="adjective(no_e(adv))" graad="basis" id="42" infl="no_e" lcat="ap" lemma="compleet" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="compleet" sense="compleet" vform="adj" word="compleet"/>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="43" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Voeg hierbij het auditieve gegeven dat David Tudor een jungle van machine- en natuurgeluiden componeerde en de associatie met een primitieve dansstam in een science-fictionwereld is compleet .</sentence>
+  <comments>
+    <comment>Q#6|Voeg hierbij het auditieve gegeven dat David Tudor een jungle van machine- en natuurgeluiden componeerde en de associatie met een primitieve dansstam in een science-fictionwereld is compleet .|1|1|-2.5957987045400066</comment>
+  </comments>
+</alpino_ds>

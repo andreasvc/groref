@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="Hagenaar" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Hagenaar" sense="Hagenaar" word="Hagenaar"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),transitive)" id="5" infl="sg" lcat="smain" lemma="winnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="win" sc="transitive" sense="win" stype="declarative" tense="past" word="won" wvorm="pv"/>
+      <node begin="3" cat="pp" end="8" id="6" rel="mod">
+        <node begin="3" end="4" frame="preposition(bij,[vandaan])" id="7" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+        <node begin="4" cat="np" end="8" id="8" rel="obj1">
+          <node begin="4" end="5" frame="determiner(de)" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="5" cat="mwu" end="8" id="10" mwu_root="Nelli Cooman Games" mwu_sense="Nelli Cooman Games" rel="hd">
+            <node begin="5" end="6" frame="proper_name(both)" id="11" lcat="np" lemma="Nelli" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nelli" sense="Nelli" spectype="deeleigen" word="Nelli"/>
+            <node begin="6" end="7" frame="proper_name(both)" id="12" lcat="np" lemma="Cooman" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Cooman" sense="Cooman" spectype="deeleigen" word="Cooman"/>
+            <node begin="7" end="8" frame="proper_name(both)" id="13" lcat="np" lemma="Games" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Games" sense="Games" spectype="deeleigen" word="Games"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="conj" end="15" id="14" rel="obj1">
+        <node begin="8" end="9" frame="left_conj(als)" id="15" lcat="vg" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" sense="zowel" special="left" word="zowel"/>
+        <node begin="9" cat="np" end="11" id="16" rel="cnj">
+          <node begin="9" end="10" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="10" end="11" frame="number(hoofd(pl_num))" id="18" infl="pl_num" lcat="np" lemma="100" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="hd" rnum="pl" root="100" sense="100" special="hoofd" word="100"/>
+        </node>
+        <node begin="11" conjtype="onder" end="12" frame="right_conj(als)" id="19" lcat="vg" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" sense="als" special="right" word="als"/>
+        <node begin="12" cat="np" end="15" id="20" rel="cnj">
+          <node begin="12" end="13" frame="determiner(de)" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="13" end="14" frame="number(hoofd(pl_num))" id="22" infl="pl_num" lcat="detp" lemma="200" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="200" sense="200" special="hoofd" word="200"/>
+          <node begin="14" end="15" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="meter" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="meter" sense="meter" special="meas_mod" word="meter"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De Hagenaar won bij de Nelli Cooman Games zowel de 100 als de 200 meter .</sentence>
+  <comments>
+    <comment>Q#3|De Hagenaar won bij de Nelli Cooman Games zowel de 100 als de 200 meter .|1|1|2.5414620183999985</comment>
+  </comments>
+</alpino_ds>

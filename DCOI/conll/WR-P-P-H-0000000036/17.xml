@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="40" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="9" end="10" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="16" end="17" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="39" id="4" rel="--">
+      <node begin="0" cat="smain" end="16" id="5" rel="cnj">
+        <node begin="0" cat="np" end="9" id="6" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="8" lcat="np" lemma="Sinti_zigeuner" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="Sinti_zigeuner" sense="Sinti_zigeuner" word="Sinti-zigeuners"/>
+          <node begin="3" cat="rel" end="9" id="9" rel="mod">
+            <node begin="3" case="no_obl" end="4" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="10" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="3" cat="ssub" end="9" id="11" rel="body">
+              <node begin="3" end="4" id="12" index="1" rel="su"/>
+              <node begin="4" cat="pp" end="6" id="13" rel="mod">
+                <node begin="4" end="5" frame="preposition(in,[])" id="14" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="15" lcat="np" lemma="Nederland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Nederland" sense="Nederland" word="Nederland"/>
+              </node>
+              <node begin="6" cat="ap" end="8" id="16" rel="predc">
+                <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(end(both))" id="17" infl="no_e" lcat="ppres" lemma="overwegen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="mod" root="overweeg" sense="overweeg" vform="gerund" word="overwegend" wvorm="od"/>
+                <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(nonadv))" graad="basis" id="18" infl="no_e" lcat="ap" lemma="rooms-katholiek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="rooms-katholiek" sense="rooms-katholiek" vform="adj" word="rooms-katholiek"/>
+              </node>
+              <node begin="8" end="9" frame="verb(unacc,pl,copula)" id="19" infl="pl" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="zijn" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="10" end="11" frame="verb(hebben,pl,transitive)" id="20" infl="pl" lcat="smain" lemma="houden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="houd" sc="transitive" sense="houd" stype="declarative" tense="present" word="houden" wvorm="pv"/>
+        <node begin="11" cat="pp" end="13" id="21" rel="mod">
+          <node begin="11" end="12" frame="preposition(sinds,[])" id="22" lcat="pp" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" sense="sinds" vztype="init" word="sinds"/>
+          <node begin="12" end="13" frame="np(year)" id="23" lcat="np" lemma="1982" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="1982" sense="1982" word="1982"/>
+        </node>
+        <node begin="13" end="14" frame="er_loc_adverb" getal="getal" id="24" lcat="advp" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" sense="hier" special="er_loc" status="vol" vwtype="aanw" word="hier"/>
+        <node begin="14" cat="np" end="16" id="25" rel="obj1">
+          <node begin="14" buiging="zonder" end="15" frame="determiner(pron)" getal="mv" id="26" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="bedevaart" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bedevaart" sense="bedevaart" word="bedevaart"/>
+        </node>
+      </node>
+      <node begin="17" conjtype="neven" end="18" frame="conj(maar)" id="28" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="18" cat="smain" end="39" id="29" rel="cnj">
+        <node begin="18" case="nom" def="def" end="19" frame="pronoun(nwh,thi,both,de,nom,def)" gen="de" getal="mv" id="30" lcat="np" lemma="zij" naamval="nomin" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" rnum="pl" root="zij" sense="zij" status="vol" vwtype="pers" wh="nwh" word="zij"/>
+        <node begin="19" end="20" frame="verb(hebben,pl,transitive)" id="31" infl="pl" lcat="smain" lemma="bezoeken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bezoek" sc="transitive" sense="bezoek" stype="declarative" tense="present" word="bezoeken" wvorm="pv"/>
+        <node begin="20" cat="np" end="39" id="32" rel="obj1">
+          <node begin="20" end="21" frame="determiner(de)" id="33" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="21" end="22" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="34" lcat="np" lemma="kapel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kapel" sense="kapel" word="kapel"/>
+          <node begin="22" cat="ap" end="25" id="35" rel="mod">
+            <node begin="22" end="23" frame="adverb" id="36" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+            <node aform="base" begin="23" buiging="zonder" end="24" frame="adjective(no_e(odet_adv))" graad="basis" id="37" infl="no_e" lcat="ap" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="mod" root="veel" sense="veel" vform="adj" vwtype="onbep" word="veel"/>
+            <node aform="compar" begin="24" buiging="zonder" end="25" frame="adjective(er(tmpadv))" graad="comp" id="38" infl="no_e" lcat="ap" lemma="lang" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="lang" sense="lang" vform="adj" word="langer"/>
+          </node>
+          <node begin="25" cat="conj" end="39" id="39" rel="mod">
+            <node begin="25" cat="oti" end="29" id="40" rel="cnj">
+              <node begin="25" end="26" frame="complementizer(om)" id="41" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+              <node begin="26" cat="ti" end="29" id="42" rel="body">
+                <node begin="27" end="28" frame="complementizer(te)" id="43" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                <node begin="26" cat="inf" end="29" id="44" rel="body">
+                  <node begin="26" end="27" frame="er_vp_adverb" getal="getal" id="45" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+                  <node begin="28" buiging="zonder" end="29" frame="verb(hebben,inf,intransitive)" id="46" infl="inf" lcat="inf" lemma="bidden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bid" sc="intransitive" sense="bid" word="bidden" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+            <node begin="29" conjtype="neven" end="30" frame="conj(en)" id="47" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="30" cat="oti" end="39" id="48" rel="cnj">
+              <node begin="30" end="31" frame="complementizer(om)" id="49" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+              <node begin="31" cat="ti" end="39" id="50" rel="body">
+                <node begin="37" end="38" frame="complementizer(te)" id="51" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                <node begin="31" cat="inf" end="39" id="52" rel="body">
+                  <node begin="31" end="32" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="53" lcat="np" lemma="water" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="water" sense="water" word="water"/>
+                  <node begin="32" cat="pp" end="36" id="54" rel="ld">
+                    <node begin="32" end="33" frame="preposition(uit,[vandaan])" id="55" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                    <node begin="33" cat="np" end="36" id="56" rel="obj1">
+                      <node begin="33" end="34" frame="determiner(de)" id="57" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node aform="base" begin="34" buiging="met-e" end="35" frame="adjective(ge_e)" id="58" infl="e" lcat="ppart" lemma="gewijd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gewijd" sense="gewijd" vform="psp" word="gewijde" wvorm="vd"/>
+                      <node begin="35" end="36" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="59" lcat="np" lemma="bron" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bron" sense="bron" word="bron"/>
+                    </node>
+                  </node>
+                  <node begin="36" end="37" frame="particle(mee)" id="60" lcat="part" lemma="mee" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="mee" sense="mee" vztype="fin" word="mee"/>
+                  <node begin="38" buiging="zonder" end="39" frame="verb(hebben,inf,part_np_ld_pp(mee))" id="61" infl="inf" lcat="inf" lemma="mee_nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem_mee" sc="part_np_ld_pp(mee)" sense="neem_mee" word="nemen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="39" end="40" frame="punct(punt)" id="62" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De Sinti-zigeuners , die in Nederland overwegend rooms-katholiek zijn , houden sinds 1982 hier hun bedevaart , maar zij bezoeken de kapel al veel langer om er te bidden en om water uit de gewijde bron mee te nemen .</sentence>
+  <comments>
+    <comment>Q#17|De Sinti-zigeuners , die in Nederland overwegend rooms-katholiek zijn , houden sinds 1982 hier hun bedevaart , maar zij bezoeken de kapel al veel langer om er te bidden en om water uit de gewijde bron mee te nemen .|1|1|-8.712101249300012</comment>
+  </comments>
+</alpino_ds>

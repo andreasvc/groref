@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,thi,both,de,nom,def)" gen="de" getal="mv" id="2" lcat="np" lemma="zij" naamval="nomin" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" rnum="pl" root="zij" sense="zij" status="vol" vwtype="pers" wh="nwh" word="Zij"/>
+      <node begin="1" end="2" frame="verb(unacc,pl,copula)" id="3" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="2" cat="np" end="12" id="4" rel="predc">
+        <node begin="2" end="3" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" id="6" infl="e" lcat="ap" lemma="stabiel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="stabiel" sense="stabiel" vform="adj" word="stabiele"/>
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="7" lcat="np" lemma="combinatie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="combinatie" sense="combinatie" word="combinaties"/>
+        <node begin="5" cat="rel" end="12" id="8" rel="mod">
+          <node begin="5" case="no_obl" end="6" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="9" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="5" cat="ssub" end="12" id="10" rel="body">
+            <node begin="5" end="6" id="11" index="1" rel="obj1"/>
+            <node begin="6" case="nom" def="def" end="7" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="12" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+            <node begin="7" end="8" frame="verb(hebben,sg1,ninv(transitive,part_transitive(in)))" id="13" infl="sg1" lcat="ssub" lemma="in_tikken" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="tik_in" sc="part_transitive(in)" sense="tik_in" tense="present" word="intik" wvorm="pv"/>
+            <node begin="8" cat="pp" end="12" id="14" rel="mod">
+              <node begin="8" end="9" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="15" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+              <node begin="9" cat="conj" end="12" id="16" rel="obj1">
+                <node begin="9" end="10" frame="number(hoofd(pl_num))" id="17" infl="pl_num" lcat="np" lemma="0" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" rnum="pl" root="0" sense="0" special="hoofd" word="0"/>
+                <node begin="10" conjtype="neven" end="11" frame="conj(of)" id="18" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+                <node begin="11" end="12" frame="number(hoofd(pl_num))" id="19" infl="pl_num" lcat="np" lemma="4" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" rnum="pl" root="4" sense="4" special="hoofd" word="4"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Zij zijn de stabiele combinaties die ik intik voor 0 of 4 .</sentence>
+  <comments>
+    <comment>Q#61|Zij zijn de stabiele combinaties die ik intik voor 0 of 4 .|1|1|-0.026752002040001235</comment>
+  </comments>
+</alpino_ds>

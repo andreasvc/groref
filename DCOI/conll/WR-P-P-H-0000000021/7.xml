@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="3" end="4" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="6" end="7" frame="punct(aanhaal_both)" id="3" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="12" end="13" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="19" id="5" rel="--">
+      <node begin="0" cat="np" end="12" id="6" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="Atkins" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Atkins" sense="Atkins" word="Atkins"/>
+        <node begin="2" cat="ppart" end="12" id="8" rel="mod">
+          <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(ge_no_e(nonadv),transitive)" id="9" infl="no_e" lcat="ppart" lemma="bijgenaamd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bijgenaamd" sc="transitive" sense="bijgenaamd" vform="psp" word="bijgenaamd" wvorm="vd"/>
+          <node begin="4" cat="mwu" end="6" id="10" mwu_root="Mr. Guitar" mwu_sense="Mr. Guitar" rel="obj1">
+            <node begin="4" end="5" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Mr." neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mr." sense="Mr." spectype="deeleigen" word="Mr."/>
+            <node begin="5" end="6" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Guitar" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Guitar" sense="Guitar" spectype="deeleigen" word="Guitar"/>
+          </node>
+          <node begin="7" cat="pp" end="12" id="13" rel="mod">
+            <node begin="7" end="8" frame="preposition(naar,[toe])" id="14" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+            <node begin="8" cat="np" end="12" id="15" rel="obj1">
+              <node begin="8" end="9" frame="number(hoofd(sg_num))" getal-n="zonder-n" graad="basis" id="16" infl="sg_num" lcat="np" lemma="één" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="sg" root="één" sense="één" special="hoofd" word="één"/>
+              <node begin="9" cat="pp" end="12" id="17" rel="mod">
+                <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="10" cat="np" end="12" id="19" rel="obj1">
+                  <node begin="10" buiging="zonder" end="11" frame="determiner(pron)" getal="ev" id="20" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                  <node begin="11" end="12" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="21" lcat="np" lemma="album" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="album" sense="album" word="albums"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" end="14" frame="verb(hebben,past(sg),transitive)" id="22" infl="sg" lcat="smain" lemma="verkopen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verkoop" sc="transitive" sense="verkoop" stype="declarative" tense="past" word="verkocht" wvorm="pv"/>
+      <node begin="14" cat="np" end="19" id="23" rel="obj1">
+        <node begin="14" cat="detp" end="17" id="24" rel="det">
+          <node begin="14" cat="mwu" end="16" id="25" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+            <node begin="14" buiging="zonder" end="15" frame="pre_num_adv(both)" graad="comp" id="26" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+            <node begin="15" conjtype="onder" end="16" frame="pre_num_adv(both)" id="27" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+          </node>
+          <node begin="16" end="17" frame="number(hoofd(sg_num))" id="28" infl="sg_num" lcat="detp" lemma="1" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="1" sense="1" special="hoofd" word="1"/>
+        </node>
+        <node begin="17" end="18" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="29" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+        <node begin="18" end="19" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="30" lcat="np" lemma="plaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="plaat" sense="plaat" word="platen"/>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Atkins , bijgenaamd &apos; Mr. Guitar &apos; naar één van zijn albums , verkocht meer dan 1 miljoen platen .</sentence>
+  <comments>
+    <comment>Q#7|Atkins , bijgenaamd &apos; Mr. Guitar &apos; naar één van zijn albums , verkocht meer dan 1 miljoen platen .|1|1|1.3695028398800007</comment>
+  </comments>
+</alpino_ds>

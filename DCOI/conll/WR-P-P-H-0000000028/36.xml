@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="16" end="17" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="primeur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="primeur" sense="primeur" word="primeur"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),transitive_ndev)" id="6" infl="sg" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="transitive_ndev" sense="heb" stype="declarative" tense="past" word="had" wvorm="pv"/>
+      <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" id="7" infl="no_e" lcat="ap" lemma="waarschijnlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="waarschijnlijk" sense="waarschijnlijk" vform="adj" word="waarschijnlijk"/>
+      <node begin="4" cat="np" end="11" id="8" rel="obj1">
+        <node begin="4" end="5" frame="determiner(een)" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="bataljon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bataljon" sense="bataljon" word="bataljon"/>
+        <node begin="6" cat="pp" end="11" id="11" rel="mod">
+          <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="7" cat="np" end="11" id="13" rel="obj1">
+            <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="14" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="8" cat="mwu" end="11" id="15" mwu_root="Achttiende London Regiment" mwu_sense="Achttiende London Regiment" rel="hd">
+              <node begin="8" end="9" frame="proper_name(both,'ORG')" id="16" lcat="np" lemma="Achttiende" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Achttiende" sense="Achttiende" spectype="deeleigen" word="Achttiende"/>
+              <node begin="9" end="10" frame="proper_name(both,'ORG')" id="17" lcat="np" lemma="London" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="London" sense="London" spectype="deeleigen" word="London"/>
+              <node begin="10" end="11" frame="proper_name(both,'ORG')" id="18" lcat="np" lemma="Regiment" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Regiment" sense="Regiment" spectype="deeleigen" word="Regiment"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="pp" end="16" id="19" rel="mod">
+        <node begin="11" end="12" frame="preposition(tijdens,[])" id="20" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+        <node begin="12" cat="np" end="16" id="21" rel="obj1">
+          <node begin="12" end="13" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="13" end="14" frame="meas_mod_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="slag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="slag" sense="slag" special="meas_mod" word="slag"/>
+          <node begin="14" cat="pp" end="16" id="24" rel="mod">
+            <node begin="14" end="15" frame="preposition(bij,[vandaan])" id="25" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+            <node begin="15" end="16" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="Loos" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Loos" sense="Loos" word="Loos"/>
+          </node>
+        </node>
+      </node>
+      <node begin="17" cat="np" end="19" id="27" rel="mod">
+        <node begin="17" end="18" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="28" lcat="np" lemma="september" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="september" sense="september" special="tmp" word="september"/>
+        <node begin="18" end="19" frame="np(year)" id="29" lcat="np" lemma="1915" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="sg" root="1915" sense="1915" word="1915"/>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="30" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De primeur had waarschijnlijk een bataljon van het Achttiende London Regiment tijdens de slag bij Loos , september 1915 .</sentence>
+  <comments>
+    <comment>Q#36|De primeur had waarschijnlijk een bataljon van het Achttiende London Regiment tijdens de slag bij Loos , september 1915 .|1|1|2.390463681379999</comment>
+  </comments>
+</alpino_ds>

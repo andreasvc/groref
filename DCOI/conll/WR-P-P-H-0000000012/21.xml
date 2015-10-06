@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" id="2" index="1" mwu_root="Van der Vaart" mwu_sense="Van der Vaart" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Van" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Van" sense="Van" spectype="deeleigen" word="Van"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="der" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="der" sense="der" spectype="deeleigen" word="der"/>
+        <node begin="2" end="3" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Vaart" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vaart" sense="Vaart" spectype="deeleigen" word="Vaart"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,past(sg),passive)" id="6" infl="sg" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werd" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="7" rel="vc">
+        <node begin="0" end="3" id="8" index="1" rel="obj1"/>
+        <node begin="4" cat="pp" end="8" id="9" rel="mod">
+          <node begin="4" end="5" frame="preposition(na,[])" id="10" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+          <node begin="5" cat="np" end="8" id="11" rel="obj1">
+            <node begin="5" end="6" frame="determiner(een)" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(both(adv))" graad="basis" id="13" infl="both" lcat="ap" lemma="onbezonnen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="onbezonnen" sense="onbezonnen" vform="adj" word="onbezonnen"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="tackle" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tackle" sense="tackle" word="tackle"/>
+          </node>
+        </node>
+        <node begin="8" cat="pp" end="13" id="15" rel="pc">
+          <node begin="8" end="9" frame="preposition(met,[mee,[en,al]])" id="16" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="9" cat="np" end="13" id="17" rel="obj1">
+            <node begin="9" buiging="zonder" end="10" frame="determiner(pron)" getal="ev" id="18" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="10" end="11" frame="number(rang)" id="19" lcat="ap" lemma="tweede" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="tweede" sense="tweede" special="rang" word="tweede"/>
+            <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" id="20" infl="e" lcat="ap" lemma="geel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geel" sense="geel" vform="adj" word="gele"/>
+            <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="kaart" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kaart" sense="kaart" word="kaart"/>
+          </node>
+        </node>
+        <node begin="13" buiging="zonder" end="14" frame="verb(hebben,psp,np_pc_pp(met))" id="22" infl="psp" lcat="ppart" lemma="bestraffen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bestraf" sc="np_pc_pp(met)" sense="bestraf-met" word="bestraft" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Van der Vaart werd na een onbezonnen tackle met zijn tweede gele kaart bestraft .</sentence>
+  <comments>
+    <comment>Q#21|Van der Vaart werd na een onbezonnen tackle met zijn tweede gele kaart bestraft .|1|1|-11.202658404600003</comment>
+  </comments>
+</alpino_ds>

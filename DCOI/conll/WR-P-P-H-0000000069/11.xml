@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="12" end="13" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="13" end="14" frame="punct(aanhaal_both)" id="3" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="15" end="16" frame="punct(aanhaal_both)" id="4" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="20" conjtype="neven" end="21" frame="conj(of)" id="5" lcat="--" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="--" root="of" sense="of" word="of"/>
+    <node begin="0" cat="du" end="27" id="6" rel="--">
+      <node begin="0" cat="du" end="20" id="7" rel="dp">
+        <node begin="0" cat="smain" end="5" id="8" rel="dp">
+          <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="9" lcat="np" lemma="danser" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="danser" sense="danser" word="Dansers"/>
+          <node begin="1" end="2" frame="verb('hebben/zijn',pl,part_intransitive(rond))" id="10" infl="pl" lcat="smain" lemma="rond_sluipen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sluip_rond" sc="part_intransitive(rond)" sense="sluip_rond" stype="declarative" tense="present" word="sluipen" wvorm="pv"/>
+          <node begin="2" end="3" frame="particle(rond)" id="11" lcat="part" lemma="rond" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="rond" sense="rond" vztype="fin" word="rond"/>
+          <node begin="3" cat="cp" end="5" id="12" rel="predm">
+            <node begin="3" end="4" frame="complementizer(als)" id="13" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+            <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="14" lcat="np" lemma="roofdier" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="body" rnum="pl" root="roofdier" sense="roofdier" word="roofdieren"/>
+          </node>
+        </node>
+        <node begin="6" cat="du" end="20" id="15" rel="dp">
+          <node begin="6" cat="sv1" end="12" id="16" rel="dp">
+            <node begin="6" end="7" frame="verb(zijn,pl,part_intransitive(over))" id="17" infl="pl" lcat="sv1" lemma="over_vliegen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vlieg_over" sc="part_intransitive(over)" sense="vlieg_over" stype="topic_drop" tense="present" word="vliegen" wvorm="pv"/>
+            <node begin="7" end="8" frame="particle(over)" id="18" lcat="part" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" sense="over" vztype="fin" word="over"/>
+            <node begin="8" cat="cp" end="12" id="19" rel="predm">
+              <node begin="8" end="9" frame="complementizer(als)" id="20" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+              <node begin="9" cat="np" end="12" id="21" rel="body">
+                <node begin="9" end="10" frame="determiner(een)" id="22" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node begin="10" end="11" frame="noun(de,count,sg,measure)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="zwerm" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zwerm" sc="measure" sense="zwerm" word="zwerm"/>
+                <node begin="11" end="12" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="24" lcat="np" lemma="insect" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="insect" sense="insect" word="insecten"/>
+              </node>
+            </node>
+          </node>
+          <node begin="14" cat="du" end="20" id="25" rel="dp">
+            <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="26" lcat="np" lemma="kip" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="dp" rnum="pl" root="kip" sense="kip" word="kippen"/>
+            <node begin="16" cat="ap" end="20" id="27" rel="dp">
+              <node aform="base" begin="16" buiging="zonder" end="17" frame="adjective(no_e(adv))" graad="basis" id="28" infl="no_e" lcat="ap" lemma="schichtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="schichtig" sense="schichtig" vform="adj" word="schichtig"/>
+              <node begin="17" cat="pp" end="20" id="29" rel="mod">
+                <node begin="17" end="18" frame="preposition(met,[mee,[en,al]])" id="30" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                <node begin="18" cat="np" end="20" id="31" rel="obj1">
+                  <node begin="18" buiging="zonder" end="19" frame="determiner(pron)" getal="mv" id="32" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="33" lcat="np" lemma="nek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="nek" sense="nek" word="nek"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="21" cat="sv1" end="27" id="34" rel="dp">
+        <node begin="21" end="22" frame="verb(hebben,pl,nonp_pred_np)" id="35" infl="pl" lcat="sv1" lemma="houden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="houd" sc="nonp_pred_np" sense="houd" stype="topic_drop" tense="present" word="houden" wvorm="pv"/>
+        <node begin="22" cat="np" end="24" id="36" rel="obj1">
+          <node begin="22" buiging="zonder" end="23" frame="determiner(pron)" getal="mv" id="37" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="23" end="24" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="38" lcat="np" lemma="hoofd" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="hoofd" sense="hoofd" word="hoofden"/>
+        </node>
+        <node aform="base" begin="24" buiging="zonder" end="25" frame="adjective(no_e(adv))" graad="basis" id="39" infl="no_e" lcat="ap" lemma="schuin" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="schuin" sense="schuin" vform="adj" word="schuin"/>
+        <node begin="25" cat="cp" end="27" id="40" rel="predm">
+          <node begin="25" end="26" frame="complementizer(als)" id="41" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+          <node begin="26" end="27" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="42" lcat="np" lemma="vogel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="body" rnum="pl" root="vogel" sense="vogel" word="vogels"/>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="43" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dansers sluipen rond als roofdieren , vliegen over als een zwerm insecten , &apos; kippen &apos; schichtig met hun nek of houden hun hoofden schuin als vogels .</sentence>
+  <comments>
+    <comment>Q#11|Dansers sluipen rond als roofdieren , vliegen over als een zwerm insecten , &apos; kippen &apos; schichtig met hun nek of houden hun hoofden schuin als vogels .|1|3|15.864769997099998</comment>
+  </comments>
+</alpino_ds>

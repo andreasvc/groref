@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="13" end="14" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="16" end="17" frame="punct(punt_komma)" id="3" lcat="punct" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" sense=";" special="punt_komma" word=";"/>
+    <node begin="20" end="21" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="24" end="25" frame="punct(komma)" id="5" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="28" end="29" frame="punct(komma)" id="6" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="34" id="7" rel="--">
+      <node begin="0" cat="du" end="16" id="8" rel="dp">
+        <node begin="0" cat="smain" end="13" id="9" rel="nucl">
+          <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,thi,both,de,nom,def)" gen="de" getal="mv" id="10" lcat="np" lemma="zij" naamval="nomin" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" rnum="pl" root="zij" sense="zij" status="vol" vwtype="pers" wh="nwh" word="Zij"/>
+          <node begin="1" end="2" frame="verb(hebben,past(pl),transitive)" id="11" infl="pl" lcat="smain" lemma="vormen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="vorm" sc="transitive" sense="vorm" stype="declarative" tense="past" word="vormden" wvorm="pv"/>
+          <node begin="2" cat="ap" end="10" id="12" rel="predm">
+            <node aform="base" begin="2" end="3" frame="adjective(postn_pred(padv),pp(met))" id="13" infl="pred" lcat="ap" lemma="samen" pos="adj" postag="BW()" pt="bw" rel="hd" root="samen" sc="pp(met)" sense="samen-met" vform="adj" word="samen"/>
+            <node begin="3" cat="pp" end="10" id="14" rel="pc">
+              <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" id="15" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="4" cat="conj" end="10" id="16" rel="obj1">
+                <node begin="4" cat="np" end="6" id="17" rel="cnj">
+                  <node begin="4" buiging="zonder" end="5" frame="determiner(pron)" getal="mv" id="18" index="1" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="19" lcat="np" lemma="vriend" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vriend" sense="vriend" word="vrienden"/>
+                </node>
+                <node begin="4" cat="np" end="8" id="20" rel="cnj">
+                  <node begin="4" end="5" id="21" index="1" rel="det"/>
+                  <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="22" lcat="np" lemma="buurt_genoot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="buurt_genoot" sense="buurt_genoot" word="buurtgenoten"/>
+                </node>
+                <node begin="8" conjtype="neven" end="9" frame="conj(of)" id="23" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+                <node begin="4" cat="np" end="10" id="24" rel="cnj">
+                  <node begin="4" end="5" id="25" index="1" rel="det"/>
+                  <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="26" lcat="np" lemma="collega" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="collega" sense="collega" word="collega&apos;s"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="10" cat="np" end="13" id="27" rel="obj1">
+            <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(ge_e)" id="28" infl="e" lcat="ppart" lemma="zogenaamd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="zogenaamd" sense="zogenaamd" vform="psp" word="zogenaamde" wvorm="vd"/>
+            <node begin="11" cat="mwu" end="13" id="29" mwu_root="vriend_bataljon" mwu_sense="vriend_bataljon" rel="hd">
+              <node begin="11" end="12" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="30" lcat="np" lemma="vrienden" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="vrienden" sense="vrienden" word="vrienden"/>
+              <node begin="12" end="13" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="31" lcat="np" lemma="bataljons" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="bataljons" sense="bataljons" word="bataljons"/>
+            </node>
+          </node>
+        </node>
+        <node begin="14" cat="mwu" end="16" id="32" mwu_root="Pals Battalions" mwu_sense="Pals Battalions" rel="sat">
+          <node begin="14" end="15" frame="proper_name(both,'PER')" id="33" lcat="np" lemma="Pals" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Pals" sense="Pals" spectype="deeleigen" word="Pals"/>
+          <node begin="15" end="16" frame="proper_name(both,'PER')" id="34" lcat="np" lemma="Battalions" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Battalions" sense="Battalions" spectype="deeleigen" word="Battalions"/>
+        </node>
+      </node>
+      <node begin="17" cat="conj" end="34" id="35" rel="dp">
+        <node begin="17" cat="np" end="20" id="36" rel="cnj">
+          <node begin="17" end="18" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="37" lcat="np" lemma="winkel_bediende" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="winkel_bediende" sense="winkel_bediende" word="winkelbedienden"/>
+          <node begin="18" cat="pp" end="20" id="38" rel="mod">
+            <node begin="18" end="19" frame="preposition(uit,[vandaan])" id="39" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="19" end="20" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="40" lcat="np" lemma="Newcastle" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Newcastle" sense="Newcastle" word="Newcastle"/>
+          </node>
+        </node>
+        <node begin="21" cat="np" end="24" id="41" rel="cnj">
+          <node begin="21" end="22" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="42" lcat="np" lemma="visser" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="visser" sense="visser" word="vissers"/>
+          <node begin="22" cat="pp" end="24" id="43" rel="mod">
+            <node begin="22" end="23" frame="preposition(uit,[vandaan])" id="44" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="23" end="24" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="45" lcat="np" lemma="Grimsby" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Grimsby" sense="Grimsby" word="Grimsby"/>
+          </node>
+        </node>
+        <node begin="25" cat="np" end="28" id="46" rel="cnj">
+          <node begin="25" end="26" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="47" lcat="np" lemma="tram_bestuurder" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tram_bestuurder" sense="tram_bestuurder" word="trambestuurders"/>
+          <node begin="26" cat="pp" end="28" id="48" rel="mod">
+            <node begin="26" end="27" frame="preposition(uit,[vandaan])" id="49" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="27" end="28" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="50" lcat="np" lemma="Glasgow" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Glasgow" sense="Glasgow" word="Glasgow"/>
+          </node>
+        </node>
+        <node begin="29" cat="np" end="32" id="51" rel="cnj">
+          <node begin="29" end="30" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="52" lcat="np" lemma="buurt_genoot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="buurt_genoot" sense="buurt_genoot" word="buurtgenoten"/>
+          <node begin="30" cat="pp" end="32" id="53" rel="mod">
+            <node begin="30" end="31" frame="preposition(uit,[vandaan])" id="54" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="31" end="32" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="55" lcat="np" lemma="Liverpool" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Liverpool" sense="Liverpool" word="Liverpool"/>
+          </node>
+        </node>
+        <node begin="32" conjtype="neven" end="33" frame="conj(en)" id="56" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="33" end="34" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="57" lcat="np" lemma="Manchester" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Manchester" sense="Manchester" word="Manchester"/>
+      </node>
+    </node>
+    <node begin="34" end="35" frame="punct(punt)" id="58" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Zij vormden samen met hun vrienden , buurtgenoten of collega&apos;s zogenaamde vrienden bataljons , Pals Battalions ; winkelbedienden uit Newcastle , vissers uit Grimsby , trambestuurders uit Glasgow , buurtgenoten uit Liverpool en Manchester .</sentence>
+  <comments>
+    <comment>Q#5|Zij vormden samen met hun vrienden , buurtgenoten of collega&apos;s zogenaamde vrienden bataljons , Pals Battalions ; winkelbedienden uit Newcastle , vissers uit Grimsby , trambestuurders uit Glasgow , buurtgenoten uit Liverpool en Manchester .|1|1|-1.2102813053000139</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(aanhaal_both)" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="7" end="8" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="8" end="9" frame="punct(haak_open)" id="3" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="18" end="19" frame="punct(haak_sluit)" id="4" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="31" id="5" rel="--">
+      <node begin="0" cat="np" end="18" id="6" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="documentaire" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="documentaire" sense="documentaire" word="documentaire"/>
+        <node begin="3" cat="mwu" end="7" id="9" mwu_root="High Noon in Jakarta" mwu_sense="High Noon in Jakarta" rel="app">
+          <node begin="3" end="4" frame="proper_name(both)" id="10" lcat="np" lemma="High" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="High" sense="High" spectype="deeleigen" word="High"/>
+          <node begin="4" end="5" frame="proper_name(both)" id="11" lcat="np" lemma="Noon" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Noon" sense="Noon" spectype="deeleigen" word="Noon"/>
+          <node begin="5" end="6" frame="proper_name(both)" id="12" lcat="np" lemma="in" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="in" sense="in" spectype="deeleigen" word="in"/>
+          <node begin="6" end="7" frame="proper_name(both)" id="13" lcat="np" lemma="Jakarta" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jakarta" sense="Jakarta" spectype="deeleigen" word="Jakarta"/>
+        </node>
+        <node begin="9" cat="ppart" end="18" id="14" rel="mod">
+          <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(ge_no_e(adv),pp(naar))" id="15" infl="no_e" lcat="ppart" lemma="genoemd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="genoemd" sc="pp(naar)" sense="genoemd-naar" vform="psp" word="genoemd" wvorm="vd"/>
+          <node begin="10" cat="pp" end="18" id="16" rel="pc">
+            <node begin="10" end="11" frame="preposition(naar,[toe])" id="17" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+            <node begin="11" cat="np" end="18" id="18" rel="obj1">
+              <node begin="11" case="both" def="indef" end="12" frame="pronoun(nwh,thi,sg,both,both,indef,strpro)" gen="both" getal-n="zonder-n" graad="basis" id="19" lcat="np" lemma="één" num="sg" numtype="hoofd" per="thi" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="sg" root="één" sense="één" special="strpro" wh="nwh" word="een"/>
+              <node begin="12" cat="pp" end="18" id="20" rel="mod">
+                <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="21" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="13" cat="np" end="18" id="22" rel="obj1">
+                  <node begin="13" end="14" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" id="24" infl="e" lcat="ap" lemma="favoriet" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="favoriet" sense="favoriet" vform="adj" word="favoriete"/>
+                  <node begin="15" end="16" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="25" lcat="np" lemma="speel_film" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="speel_film" sense="speel_film" word="speelfilms"/>
+                  <node begin="16" cat="pp" end="18" id="26" rel="mod">
+                    <node begin="16" end="17" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="27" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="17" end="18" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="28" lcat="np" lemma="Wahid" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Wahid" sense="Wahid" word="Wahid"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="19" end="20" frame="verb(hebben,sg3,sbar)" id="29" infl="sg3" lcat="smain" lemma="tonen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="toon" sc="sbar" sense="toon" stype="declarative" tense="present" word="toont" wvorm="pv"/>
+      <node begin="20" cat="advp" end="23" id="30" rel="mod">
+        <node begin="20" end="21" frame="adverb" id="31" lcat="advp" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="hd" root="eens" sense="eens" word="eens"/>
+        <node begin="21" cat="mwu" end="23" id="32" mwu_root="te meer" mwu_sense="te meer" rel="mod">
+          <node begin="21" end="22" frame="adverb" id="33" lcat="advp" lemma="te" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="te" sense="te" vztype="init" word="te"/>
+          <node begin="22" buiging="zonder" end="23" frame="adverb" graad="comp" id="34" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" vwtype="onbep" word="meer"/>
+        </node>
+      </node>
+      <node begin="23" cat="cp" end="31" id="35" rel="vc">
+        <node begin="23" conjtype="onder" end="24" frame="complementizer(dat)" id="36" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="24" cat="ssub" end="31" id="37" rel="body">
+          <node begin="24" cat="np" end="27" id="38" rel="su">
+            <node begin="24" end="25" frame="determiner(de)" id="39" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="25" buiging="met-e" end="26" frame="adjective(e)" graad="basis" id="40" infl="e" lcat="ap" lemma="Javaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Javaans" sense="Javaans" vform="adj" word="Javaanse"/>
+            <node begin="26" end="27" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="41" lcat="np" lemma="moslim_geleerde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="moslim_geleerde" sense="moslim_geleerde" word="moslimgeleerde"/>
+          </node>
+          <node begin="27" cat="np" end="30" id="42" rel="predc">
+            <node begin="27" end="28" frame="determiner(een)" id="43" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="28" buiging="met-e" end="29" frame="adjective(e)" graad="basis" id="44" infl="e" lcat="ap" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" sense="politiek" vform="adj" word="politieke"/>
+            <node begin="29" end="30" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="45" lcat="np" lemma="boei_koning" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="boei_koning" sense="boei_koning" word="boeienkoning"/>
+          </node>
+          <node begin="30" end="31" frame="verb(unacc,sg_heeft,copula)" id="46" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" frame="punct(punt)" id="47" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De documentaire &apos; High Noon in Jakarta &apos; ( genoemd naar een van de favoriete speelfilms van Wahid ) toont eens te meer dat de Javaanse moslimgeleerde een politieke boeienkoning is .</sentence>
+  <comments>
+    <comment>Q#18|De documentaire &apos; High Noon in Jakarta &apos; ( genoemd naar een van de favoriete speelfilms van Wahid ) toont eens te meer dat de Javaanse moslimgeleerde een politieke boeienkoning is .|1|1|-1.8741421931600104</comment>
+  </comments>
+</alpino_ds>

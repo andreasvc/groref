@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="12" id="3" rel="--">
+      <node begin="0" cat="np" end="5" id="4" rel="su">
+        <node begin="0" cat="mwu" end="3" id="5" mwu_root="Min de Zille" mwu_sense="Min de Zille" rel="hd">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Min" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Min" sense="Min" spectype="deeleigen" word="Min"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="de" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="de" sense="de" spectype="deeleigen" word="de"/>
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Zille" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zille" sense="Zille" spectype="deeleigen" word="Zille"/>
+        </node>
+        <node begin="3" cat="pp" end="5" id="9" rel="mod">
+          <node begin="3" end="4" frame="preposition(uit,[vandaan])" id="10" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="4" end="5" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="België" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="België" sense="België" word="België"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,past(sg),part_transitive(neer))" id="12" infl="sg" lcat="smain" lemma="neer_zetten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zet_neer" sc="part_transitive(neer)" sense="zet_neer" stype="declarative" tense="past" word="zette" wvorm="pv"/>
+      <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(ge_no_e(adv))" id="13" infl="no_e" lcat="ppart" lemma="omgekeerd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="omgekeerd" sense="omgekeerd" vform="psp" word="omgekeerd" wvorm="vd"/>
+      <node begin="9" cat="np" end="11" id="14" rel="obj1">
+        <node begin="9" buiging="zonder" end="10" frame="determiner(de,nwh,mod,pro,yparg)" graad="basis" id="15" infl="de" lcat="detp" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="dezelfde" sense="dezelfde" wh="nwh" word="dezelfde"/>
+        <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="16" lcat="np" lemma="prestatie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="prestatie" sense="prestatie" word="prestaties"/>
+      </node>
+      <node begin="11" end="12" frame="particle(neer)" id="17" lcat="part" lemma="neer" pos="part" postag="BW()" pt="bw" rel="svp" root="neer" sense="neer" word="neer"/>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Min de Zille uit België zette , omgekeerd , dezelfde prestaties neer .</sentence>
+  <comments>
+    <comment>Q#5|Min de Zille uit België zette , omgekeerd , dezelfde prestaties neer .|1|1|-4.040755979439998</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="5" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="pers" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="pers" sense="pers" word="pers"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),transitive)" id="7" infl="sg" lcat="smain" lemma="bejubelen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bejubel" sc="transitive" sense="bejubel" stype="declarative" tense="past" word="bejubelde" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="8" rel="obj1">
+        <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="9" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="voorval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="voorval" sense="voorval" word="voorval"/>
+      </node>
+      <node begin="7" cat="cp" end="14" id="11" rel="predm">
+        <node begin="7" end="8" frame="complementizer(als)" id="12" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+        <node begin="8" cat="np" end="14" id="13" rel="body">
+          <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="symbool" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="symbool" sense="symbool" word="symbool"/>
+          <node begin="9" cat="pp" end="14" id="15" rel="mod">
+            <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="10" cat="conj" end="14" id="17" rel="obj1">
+              <node begin="10" cat="np" end="12" id="18" rel="cnj">
+                <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" id="19" index="1" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+                <node begin="11" end="12" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="held_moed" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="held_moed" sense="held_moed" word="heldenmoed"/>
+              </node>
+              <node begin="12" conjtype="neven" end="13" frame="conj(en)" id="21" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="10" cat="np" end="14" id="22" rel="cnj">
+                <node begin="10" end="11" id="23" index="1" rel="mod"/>
+                <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="sportiviteit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="sportiviteit" sense="sportiviteit" word="sportiviteit"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De Britse pers bejubelde het voorval , als symbool van Britse heldenmoed en sportiviteit .</sentence>
+  <comments>
+    <comment>Q#42|De Britse pers bejubelde het voorval , als symbool van Britse heldenmoed en sportiviteit .|1|1|4.877954753940002</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="14" end="15" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="20" id="3" rel="--">
+      <node begin="0" cat="sv1" end="11" id="4" rel="cnj">
+        <node begin="0" end="1" frame="verb(hebben,sg,np_ld_pp)" id="5" infl="sg" lcat="sv1" lemma="gieten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="giet" sc="np_ld_pp" sense="giet" tense="present" word="Giet" wvorm="pv"/>
+        <node begin="2" end="3" frame="tmp_adverb" id="6" lcat="advp" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" sense="dan" special="tmp" word="dan"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" end="4" frame="determiner(wat,nwh,mod,pro,yparg)" id="8" infl="wat" lcat="detp" lemma="genoeg" pos="det" postag="BW()" pt="bw" rel="det" root="genoeg" sense="genoeg" wh="nwh" word="genoeg"/>
+          <node begin="4" end="5" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="9" lcat="np" lemma="water" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="water" sense="water" word="water"/>
+        </node>
+        <node begin="1" cat="pp" end="6" id="10" rel="ld">
+          <node begin="1" end="2" frame="er_vp_adverb" getal="getal" id="11" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="5" end="6" frame="preposition(bij,[vandaan])" id="12" lcat="pp" lemma="bij" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="bij" sense="bij" vztype="fin" word="bij"/>
+        </node>
+        <node begin="6" cat="cp" end="11" id="13" rel="mod">
+          <node begin="6" conjtype="onder" end="7" frame="complementizer" id="14" lcat="cp" lemma="zodat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zodat" sense="zodat" word="zodat"/>
+          <node begin="7" cat="ssub" end="11" id="15" rel="body">
+            <node begin="7" end="8" frame="noun(het,mass,sg)" gen="het" getal="ev" id="16" lcat="np" lemma="alles" naamval="stan" num="sg" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="alles" sense="alles" status="vol" vwtype="onbep" word="alles"/>
+            <node begin="8" cat="advp" end="10" id="17" rel="ld">
+              <node begin="8" end="9" frame="modal_adverb" id="18" lcat="advp" lemma="net" pos="adv" postag="BW()" pt="bw" rel="mod" root="net" sc="modal" sense="net" word="net"/>
+              <node begin="9" end="10" frame="loc_adverb" id="19" lcat="advp" lemma="onder" pos="adv" postag="VZ(fin)" pt="vz" rel="hd" root="onder" sense="onder" special="loc" vztype="fin" word="onder"/>
+            </node>
+            <node begin="10" end="11" frame="verb(hebben,sg3,ld_adv)" id="20" infl="sg3" lcat="ssub" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="ld_adv" sense="sta" tense="present" word="staat" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="sv1" end="14" id="21" rel="cnj">
+        <node begin="12" end="13" frame="verb(hebben,sg1,part_intransitive(af))" id="22" infl="sg1" lcat="sv1" lemma="af_dekken" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="dek_af" sc="part_intransitive(af)" sense="dek_af" tense="present" word="dek" wvorm="pv"/>
+        <node begin="13" end="14" frame="particle(af)" id="23" lcat="part" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" sense="af" vztype="fin" word="af"/>
+      </node>
+      <node begin="15" conjtype="neven" end="16" frame="conj(en)" id="24" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="16" cat="sv1" end="20" id="25" rel="cnj">
+        <node begin="16" end="17" frame="verb(hebben,sg,aci_no_obj)" id="26" infl="sg" lcat="sv1" lemma="laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat" sc="aci_no_obj" sense="laat" tense="present" word="laat" wvorm="pv"/>
+        <node begin="17" cat="np" end="19" id="27" rel="mod">
+          <node begin="17" end="18" frame="number(hoofd(both))" id="28" infl="both" lcat="detp" lemma="anderhalf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="anderhalf" sense="anderhalf" special="hoofd" word="anderhalf"/>
+          <node begin="18" end="19" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="29" lcat="np" lemma="uur" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="uur" sense="uur" special="tmp" word="uur"/>
+        </node>
+        <node begin="19" buiging="zonder" end="20" frame="verb(hebben,inf,intransitive)" id="30" infl="inf" lcat="inf" lemma="pruttelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="vc" root="pruttel" sc="intransitive" sense="pruttel" word="pruttelen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Giet er dan genoeg water bij zodat alles net onder staat , dek af , en laat anderhalf uur pruttelen .</sentence>
+  <comments>
+    <comment>Q#20|Giet er dan genoeg water bij zodat alles net onder staat , dek af , en laat anderhalf uur pruttelen .|1|1|0.7548443894199973</comment>
+  </comments>
+</alpino_ds>

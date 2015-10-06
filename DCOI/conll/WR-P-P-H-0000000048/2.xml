@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="pp" end="2" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" id="3" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="4" lcat="np" lemma="Dublin" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Dublin" sense="Dublin" word="Dublin"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,past(sg),copula)" id="5" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="su">
+        <node begin="3" buiging="zonder" end="4" frame="determiner(het,nwh,nmod,pro,nparg)" id="7" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+        <node begin="4" end="5" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="weekeinde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="weekeinde" sense="weekeinde" special="tmp" word="weekeinde"/>
+      </node>
+      <node begin="5" cat="np" end="11" id="9" rel="predc">
+        <node begin="5" end="6" frame="determiner(een)" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="11" infl="e" lcat="ap" lemma="internationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj" word="internationale"/>
+        <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="bijeenkomst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bijeenkomst" sense="bijeenkomst" word="bijeenkomst"/>
+        <node begin="8" cat="pp" end="11" id="13" rel="mod">
+          <node begin="8" end="9" frame="preposition(over,[heen])" id="14" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="9" cat="np" end="11" id="15" rel="obj1">
+            <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(nonadv))" graad="basis" id="16" infl="no_e" lcat="ap" lemma="vrouwelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vrouwelijk" sense="vrouwelijk" vform="adj" word="vrouwelijk"/>
+            <node begin="10" end="11" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="priesterschap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="priesterschap" sense="priesterschap" word="priesterschap"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In Dublin was dit weekeinde een internationale bijeenkomst over vrouwelijk priesterschap .</sentence>
+  <comments>
+    <comment>Q#2|In Dublin was dit weekeinde een internationale bijeenkomst over vrouwelijk priesterschap .|1|1|-2.736242487000001</comment>
+  </comments>
+</alpino_ds>

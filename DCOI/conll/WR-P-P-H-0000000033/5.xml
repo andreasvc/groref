@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="pp" end="5" id="2" rel="mod">
+        <node begin="0" cat="mwu" end="2" id="3" mwu_root="met name" mwu_sense="met name" rel="mod">
+          <node begin="0" end="1" frame="modal_adverb" id="4" lcat="advp" lemma="met" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="met" sc="modal" sense="met" vztype="init" word="Met"/>
+          <node begin="1" end="2" frame="modal_adverb" getal="ev" graad="basis" id="5" lcat="advp" lemma="name" naamval="dat" ntype="soort" pos="adv" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="name" sc="modal" sense="name" word="name"/>
+        </node>
+        <node begin="2" end="3" frame="preposition(in,[])" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" end="4" frame="determiner(de)" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" end="5" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="luchtvaart" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="luchtvaart" sense="luchtvaart" word="luchtvaart"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,sg3,np_pc_pp(voor))" id="10" infl="sg3" lcat="smain" lemma="voorzien" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="voorzie" sc="np_pc_pp(voor)" sense="voorzie-voor" stype="declarative" tense="present" word="voorziet" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="11" rel="su">
+        <node begin="6" end="7" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="commissie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="commissie" sense="commissie" word="commissie"/>
+      </node>
+      <node begin="8" cat="np" end="11" id="14" rel="obj1">
+        <node begin="8" end="9" frame="determiner(een)" id="15" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="16" infl="e" lcat="ap" lemma="dominant" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="dominant" sense="dominant" vform="adj" word="dominante"/>
+        <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="positie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="positie" sense="positie" word="positie"/>
+      </node>
+      <node begin="11" cat="pp" end="14" id="18" rel="pc">
+        <node begin="11" end="12" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="19" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="12" cat="np" end="14" id="20" rel="obj1">
+          <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="21" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="22" lcat="np" lemma="fusie_concern" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="fusie_concern" sense="fusie_concern" word="fusieconcern"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Met name in de luchtvaart voorziet de commissie een dominante positie voor het fusieconcern .</sentence>
+  <comments>
+    <comment>Q#5|Met name in de luchtvaart voorziet de commissie een dominante positie voor het fusieconcern .|1|1|-2.187624984720001</comment>
+  </comments>
+</alpino_ds>

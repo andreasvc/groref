@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" cat="conj" end="10" id="3" rel="su">
+        <node begin="0" cat="np" end="2" id="4" rel="cnj">
+          <node begin="0" end="1" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="chauffeur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="chauffeur" sense="chauffeur" word="chauffeur"/>
+        </node>
+        <node begin="3" cat="np" end="5" id="7" rel="cnj">
+          <node begin="3" buiging="zonder" end="4" frame="determiner(pron)" getal="ev" id="8" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="bij_rijder" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bij_rijder" sense="bij_rijder" word="bijrijder"/>
+        </node>
+        <node begin="5" conjtype="neven" end="6" frame="conj(en)" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="6" cat="np" end="10" id="11" rel="cnj">
+          <node begin="6" end="7" frame="number(hoofd(pl_num))" id="12" infl="pl_num" lcat="detp" lemma="zes" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zes" sense="zes" special="hoofd" word="zes"/>
+          <node aform="compar" begin="7" buiging="met-e" end="8" frame="adjective(ere)" graad="basis" id="13" infl="e" lcat="ap" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" sense="ander" vform="adj" word="andere"/>
+          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" id="14" infl="e" lcat="ap" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj" word="Nederlandse"/>
+          <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="15" lcat="np" lemma="marinier" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="marinier" sense="marinier" word="mariniers"/>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb(unacc,past(pl),copula)" id="16" infl="pl" lcat="smain" lemma="raken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="raak" sc="copula" sense="raak" stype="declarative" tense="past" word="raakten" wvorm="pv"/>
+      <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(ge_no_e(padv))" id="17" infl="no_e" lcat="ppart" lemma="gewond" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predc" root="gewond" sense="gewond" vform="psp" word="gewond" wvorm="vd"/>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De chauffeur , zijn bijrijder en zes andere Nederlandse mariniers raakten gewond .</sentence>
+  <comments>
+    <comment>Q#7|De chauffeur , zijn bijrijder en zes andere Nederlandse mariniers raakten gewond .|1|1|-4.89342079864</comment>
+  </comments>
+</alpino_ds>

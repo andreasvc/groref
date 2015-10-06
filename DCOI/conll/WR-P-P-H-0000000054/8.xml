@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="zonder" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" id="3" infl="het" lcat="detp" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" sense="dat" vwtype="aanw" wh="nwh" word="Dat"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="4" lcat="np" lemma="ministerie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ministerie" sense="ministerie" word="ministerie"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,transitive)" id="5" infl="sg3" lcat="smain" lemma="hoeven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoef" sc="transitive" sense="hoef" stype="declarative" tense="present" word="hoeft" wvorm="pv"/>
+      <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="Pronk" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Pronk" sense="Pronk" word="Pronk"/>
+      <node begin="4" end="5" frame="adverb" id="7" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+      <node begin="5" cat="np" end="8" id="8" rel="mod">
+        <node begin="5" end="6" frame="modal_adverb" id="9" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sc="modal" sense="nog" word="nog"/>
+        <node begin="6" end="7" frame="determiner(een)" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="7" end="8" frame="tmp_noun(de,count,meas)" gen="de" genus="genus" getal="ev" graad="basis" id="11" lcat="np" lemma="keer" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" rnum="sg" root="keer" sense="keer" special="tmp" word="keer"/>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" id="12" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dat ministerie hoeft Pronk niet nog een keer .</sentence>
+  <comments>
+    <comment>Q#8|Dat ministerie hoeft Pronk niet nog een keer .|1|1|-1.0166718258600016</comment>
+  </comments>
+</alpino_ds>

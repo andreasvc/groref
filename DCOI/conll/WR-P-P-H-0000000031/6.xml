@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="18" end="19" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="22" end="23" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="du" end="27" id="3" rel="--">
+      <node begin="0" cat="smain" end="22" id="4" rel="dp">
+        <node begin="6" end="7" frame="verb(unacc,past(sg),passive)" id="5" infl="sg" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werd" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="22" id="6" rel="vc">
+          <node begin="0" cat="pp" end="6" id="7" rel="mod">
+            <node begin="0" end="1" frame="preposition(op,[af,na])" id="8" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="Op"/>
+            <node begin="1" cat="np" end="6" id="9" rel="obj1">
+              <node begin="1" end="2" frame="determiner(een)" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="vergadering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vergadering" sense="vergadering" word="vergadering"/>
+              <node begin="3" cat="pp" end="6" id="12" rel="mod">
+                <node begin="3" end="4" frame="preposition(in,[])" id="13" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="4" cat="mwu" end="6" id="14" mwu_root="Buenos Aires" mwu_sense="Buenos Aires" rel="obj1">
+                  <node begin="4" end="5" frame="proper_name(sg,'LOC')" id="15" lcat="np" lemma="Buenos" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Buenos" sense="Buenos" spectype="deeleigen" word="Buenos"/>
+                  <node begin="5" end="6" frame="proper_name(sg,'LOC')" id="16" lcat="np" lemma="Aires" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Aires" sense="Aires" spectype="deeleigen" word="Aires"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="7" end="8" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="zaterdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="zaterdag" sense="zaterdag" special="tmp" word="zaterdag"/>
+          <node begin="8" end="9" frame="sentence_adverb" id="18" lcat="advp" lemma="echter" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" sense="echter" special="sentence" word="echter"/>
+          <node begin="9" buiging="zonder" end="10" frame="verb(hebben,psp,vp)" id="19" infl="psp" lcat="ppart" lemma="besluiten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="besluit" sc="vp" sense="besluit" word="besloten" wvorm="vd"/>
+          <node begin="10" cat="ti" end="22" id="20" rel="vc">
+            <node begin="15" end="16" frame="complementizer(te)" id="21" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="10" cat="inf" end="22" id="22" rel="body">
+              <node begin="12" end="13" frame="adverb" id="23" lcat="advp" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" sense="toch" word="toch"/>
+              <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,aci_no_obj)" id="24" infl="inf" lcat="inf" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" sc="aci_no_obj" sense="laat" word="laten" wvorm="inf"/>
+              <node begin="10" cat="inf" end="18" id="25" rel="vc">
+                <node begin="10" cat="np" end="12" id="26" rel="obj1">
+                  <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="27" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="11" end="12" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="28" lcat="np" lemma="toernooi" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="toernooi" sense="toernooi" special="tmp" word="toernooi"/>
+                </node>
+                <node begin="13" cat="pp" end="15" id="29" rel="pc">
+                  <node begin="13" end="14" frame="preposition(in,[])" id="30" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="31" lcat="np" lemma="Colombia" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Colombia" sense="Colombia" word="Colombia"/>
+                </node>
+                <node begin="17" buiging="zonder" end="18" frame="verb(hebben,inf,np_pc_pp(in))" id="32" infl="inf" lcat="inf" lemma="spelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="speel" sc="np_pc_pp(in)" sense="speel-in" word="spelen" wvorm="inf"/>
+              </node>
+              <node begin="19" cat="cp" end="22" id="33" rel="mod">
+                <node begin="19" cat="mwu" end="21" id="34" mwu_root="maar dan" mwu_sense="maar dan" rel="cmp">
+                  <node begin="19" conjtype="neven" end="20" frame="complementizer(a)" id="35" lcat="cp" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="mwp" root="maar" sc="a" sense="maar" word="maar"/>
+                  <node begin="20" end="21" frame="complementizer(a)" id="36" lcat="cp" lemma="dan" pos="comp" postag="BW()" pt="bw" rel="mwp" root="dan" sc="a" sense="dan" word="dan"/>
+                </node>
+                <node aform="compar" begin="21" buiging="zonder" end="22" frame="adjective(er(tmpadv))" graad="comp" id="37" infl="no_e" lcat="ap" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="body" root="laat" sense="laat" vform="adj" word="later"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="23" cat="ap" end="27" id="38" rel="dp">
+        <node aform="base" begin="23" buiging="zonder" end="24" frame="adjective(no_e(adv))" graad="basis" id="39" infl="no_e" lcat="ap" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="mogelijk" sense="mogelijk" vform="adj" word="mogelijk"/>
+        <node begin="24" cat="pp" end="27" id="40" rel="mod">
+          <node begin="24" end="25" frame="preposition(in,[])" id="41" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="25" cat="np" end="27" id="42" rel="obj1">
+            <node begin="25" end="26" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="43" lcat="np" lemma="januari" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="januari" sense="januari" special="tmp" word="januari"/>
+            <node begin="26" end="27" frame="np(year)" id="44" lcat="np" lemma="2002" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="sg" root="2002" sense="2002" word="2002"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="45" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Op een vergadering in Buenos Aires werd zaterdag echter besloten het toernooi toch in Colombia te laten spelen , maar dan later - mogelijk in januari 2002 .</sentence>
+  <comments>
+    <comment>Q#6|Op een vergadering in Buenos Aires werd zaterdag echter besloten het toernooi toch in Colombia te laten spelen , maar dan later - mogelijk in januari 2002 .|1|1|-4.393866486220003</comment>
+  </comments>
+</alpino_ds>

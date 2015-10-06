@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="2" end="3" frame="verb(unacc,sg3,passive)" id="2" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="18" id="3" rel="vc">
+        <node begin="0" cat="pp" end="2" id="4" rel="mod">
+          <node begin="0" end="1" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="Van"/>
+          <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="opium" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="opium" sense="opium" word="opium"/>
+        </node>
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,psp,tr_sbar)" id="7" infl="psp" lcat="ppart" lemma="beweren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="beweer" sc="tr_sbar" sense="beweer" word="beweerd" wvorm="vd"/>
+        <node begin="4" cat="cp" end="18" id="8" rel="vc">
+          <node begin="4" conjtype="onder" end="5" frame="complementizer(dat)" id="9" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="5" cat="ssub" end="18" id="10" rel="body">
+            <node begin="5" end="6" frame="reflexive(u_thi,both)" getal="getal" id="11" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+            <node begin="6" end="7" frame="adverb" id="12" lcat="advp" lemma="zelfs" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelfs" sense="zelfs" word="zelfs"/>
+            <node begin="7" cat="pp" end="16" id="13" rel="ld">
+              <node begin="7" end="8" frame="preposition(onder,[door,vandaan])" id="14" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+              <node begin="8" cat="np" end="16" id="15" rel="obj1">
+                <node begin="8" end="9" frame="determiner(de)" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="17" infl="e" lcat="ap" lemma="geestelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geestelijk" sense="geestelijk" vform="adj" word="geestelijke"/>
+                <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="elite" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="elite" sense="elite" word="elite"/>
+                <node begin="11" cat="pp" end="16" id="19" rel="mod">
+                  <node begin="11" end="12" frame="preposition(tot,[toe,[aan,toe]],pp)" id="20" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sc="pp" sense="tot" vztype="init" word="tot"/>
+                  <node begin="12" cat="pp" end="16" id="21" rel="obj1">
+                    <node begin="12" end="13" frame="preposition(op,[af,na])" id="22" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                    <node begin="13" cat="np" end="16" id="23" rel="obj1">
+                      <node begin="13" cat="ap" end="15" id="24" rel="mod">
+                        <node begin="13" end="14" frame="adverb" id="25" lcat="advp" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" sense="zeer" word="zeer"/>
+                        <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(no_e(adv))" graad="basis" id="26" infl="no_e" lcat="ap" lemma="hoog" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="hoog" sense="hoog" vform="adj" word="hoog"/>
+                      </node>
+                      <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="27" lcat="np" lemma="niveau" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="niveau" sense="niveau" word="niveau"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="28" lcat="np" lemma="gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="gebruiker" sense="gebruiker" word="gebruikers"/>
+            <node begin="17" end="18" frame="verb(hebben,pl,refl_ld_pp)" id="29" infl="pl" lcat="ssub" lemma="bevinden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bevind" sc="refl_ld_pp" sense="zich-bevind" tense="present" word="bevinden" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" id="30" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Van opium wordt beweerd dat zich zelfs onder de geestelijke elite tot op zeer hoog niveau gebruikers bevinden .</sentence>
+  <comments>
+    <comment>Q#6|Van opium wordt beweerd dat zich zelfs onder de geestelijke elite tot op zeer hoog niveau gebruikers bevinden .|1|1|-2.338452056500004</comment>
+  </comments>
+</alpino_ds>

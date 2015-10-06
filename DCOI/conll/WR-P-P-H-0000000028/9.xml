@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="predc">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg,subject_sbar_no_het)" gen="de" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="verwachting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verwachting" sc="subject_sbar_no_het" sense="verwachting" word="verwachting"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,past(sg),copula_sbar)" id="5" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula_sbar" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="3" cat="cp" end="18" id="6" rel="su">
+        <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" id="7" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="18" id="8" rel="body">
+          <node begin="7" cat="conj" end="15" id="9" index="1" rel="su">
+            <node begin="7" cat="np" end="11" id="10" rel="cnj">
+              <node begin="7" end="8" frame="determiner(de)" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" id="12" infl="e" lcat="ap" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" sense="Duits" vform="adj" word="Duitse"/>
+              <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="13" lcat="np" lemma="versterking" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="versterking" sense="versterking" word="versterkingen"/>
+              <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(ge_no_e(adv))" id="14" infl="no_e" lcat="ppart" lemma="vernietigd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="vernietigd" sense="vernietigd" vform="psp" word="vernietigd" wvorm="vd"/>
+            </node>
+            <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="15" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="12" cat="np" end="15" id="16" rel="cnj">
+              <node begin="12" end="13" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" id="18" infl="e" lcat="ap" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" sense="Duits" vform="adj" word="Duitse"/>
+              <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="19" lcat="np" lemma="soldaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="soldaat" sense="soldaat" word="soldaten"/>
+            </node>
+          </node>
+          <node begin="16" end="17" frame="verb(hebben,past(pl),aux(inf))" id="20" infl="pl" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past" word="zouden" wvorm="pv"/>
+          <node begin="4" cat="inf" end="18" id="21" rel="vc">
+            <node begin="7" end="15" id="22" index="1" rel="su"/>
+            <node begin="4" cat="ppart" end="16" id="23" rel="vc">
+              <node begin="4" cat="pp" end="7" id="24" rel="mod">
+                <node begin="4" end="5" frame="preposition(na,[])" id="25" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+                <node begin="5" cat="np" end="7" id="26" rel="obj1">
+                  <node begin="5" buiging="zonder" end="6" frame="determiner(het,nwh,nmod,pro,nparg)" id="27" infl="het" lcat="detp" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" sense="dat" vwtype="aanw" wh="nwh" word="dat"/>
+                  <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="28" lcat="np" lemma="bombardement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bombardement" sense="bombardement" word="bombardement"/>
+                </node>
+              </node>
+              <node begin="7" end="15" id="29" index="1" rel="su"/>
+              <node begin="15" buiging="zonder" end="16" frame="verb(unacc,psp,intransitive)" id="30" infl="psp" lcat="ppart" lemma="verpulveren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verpulver" sc="intransitive" sense="verpulver" word="verpulverd" wvorm="vd"/>
+            </node>
+            <node begin="17" buiging="zonder" end="18" frame="verb(unacc,inf,aux_psp_zijn)" id="31" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" word="zijn" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De verwachting was dat na dat bombardement de Duitse versterkingen vernietigd en de Duitse soldaten verpulverd zouden zijn .</sentence>
+  <comments>
+    <comment>Q#9|De verwachting was dat na dat bombardement de Duitse versterkingen vernietigd en de Duitse soldaten verpulverd zouden zijn .|1|1|0.7080763814999974</comment>
+  </comments>
+</alpino_ds>

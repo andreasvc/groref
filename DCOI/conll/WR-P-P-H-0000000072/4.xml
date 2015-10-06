@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="Ono" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Ono" sense="Ono" word="Ono"/>
+      <node begin="1" end="2" frame="verb(hebben,past(sg),part_transitive(voor))" id="3" infl="sg" lcat="smain" lemma="voor_bereiden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bereid_voor" sc="part_transitive(voor)" sense="bereid_voor" stype="declarative" tense="past" word="bereidde" wvorm="pv"/>
+      <node begin="2" cat="np" end="6" id="4" rel="obj1">
+        <node begin="2" buiging="met-e" end="3" frame="adj_number(pl_num)" getal="mv" graad="basis" id="5" infl="pl_num" lcat="detp" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" sense="beide" special="adj_number" vwtype="onbep" word="beide"/>
+        <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="6" lcat="np" lemma="treffer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="treffer" sense="treffer" word="treffers"/>
+        <node begin="4" cat="pp" end="6" id="7" rel="mod">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" end="6" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="Yanasigawa" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Yanasigawa" sense="Yanasigawa" word="Yanasigawa"/>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="particle(voor)" id="10" lcat="part" lemma="voor" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="voor" sense="voor" vztype="fin" word="voor"/>
+    </node>
+    <node begin="7" end="8" frame="punct(punt)" id="11" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Ono bereidde beide treffers van Yanasigawa voor .</sentence>
+  <comments>
+    <comment>Q#4|Ono bereidde beide treffers van Yanasigawa voor .|1|1|-2.93362300774</comment>
+  </comments>
+</alpino_ds>

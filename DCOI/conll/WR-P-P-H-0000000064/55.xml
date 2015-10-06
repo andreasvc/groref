@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="12" end="13" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="15" end="16" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="25" end="26" frame="punct(komma)" id="5" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="30" id="6" rel="--">
+      <node begin="0" cat="smain" end="24" id="7" rel="dp">
+        <node begin="0" cat="pp" end="15" id="8" rel="mod">
+          <node begin="0" end="1" frame="preposition(in,[])" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="15" id="10" rel="obj1">
+            <node begin="1" end="2" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="Taizé" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Taizé" sense="Taizé" word="Taizé"/>
+            <node begin="3" cat="whrel" end="15" id="12" rel="mod">
+              <node begin="3" end="4" frame="er_wh_loc_adverb" getal="getal" id="13" index="1" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+              <node begin="3" cat="ssub" end="15" id="14" rel="body">
+                <node begin="4" case="nom" def="def" end="5" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="15" index="2" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+                <node begin="13" end="14" frame="verb(unacc,sg_heeft,aux_psp_zijn)" id="16" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present" word="is" wvorm="pv"/>
+                <node begin="3" cat="ppart" end="15" id="17" rel="vc">
+                  <node begin="3" end="4" id="18" index="1" rel="mod"/>
+                  <node begin="4" end="5" id="19" index="2" rel="su"/>
+                  <node begin="5" cat="ap" end="8" id="20" rel="predc">
+                    <node begin="5" cat="np" end="7" id="21" rel="me">
+                      <node begin="5" end="6" frame="number(hoofd(pl_num))" id="22" infl="pl_num" lcat="detp" lemma="acht" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="acht" sense="acht" special="hoofd" word="acht"/>
+                      <node begin="6" end="7" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="23" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+                    </node>
+                    <node begin="7" end="8" frame="pred_np_me_adjective(tmpadv)" id="24" lcat="ap" lemma="geleden" pos="adj" postag="BW()" pt="bw" rel="hd" root="geleden" sc="pred_np_me" sense="geleden" word="geleden"/>
+                  </node>
+                  <node begin="9" cat="pp" end="12" id="25" rel="mod">
+                    <node begin="9" end="10" frame="preposition(op,[af,na])" id="26" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                    <node begin="10" cat="np" end="12" id="27" rel="obj1">
+                      <node begin="10" buiging="zonder" end="11" frame="determiner(pron)" getal="ev" id="28" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                      <node begin="11" end="12" frame="number(rang)" getal-n="zonder-n" id="29" lcat="np" lemma="achttiende" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="hd" rnum="sg" root="achttiende" sense="achttiende" special="rang" word="achttiende"/>
+                    </node>
+                  </node>
+                  <node begin="14" buiging="zonder" end="15" frame="verb(unacc,psp,copula)" id="30" infl="psp" lcat="ppart" lemma="zijn" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="copula" sense="ben" word="geweest" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="16" end="17" frame="verb(hebben,past(sg),transitive_ndev)" id="31" infl="sg" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="transitive_ndev" sense="heb" stype="declarative" tense="past" word="had" wvorm="pv"/>
+        <node begin="17" cat="np" end="19" id="32" rel="su">
+          <node begin="17" end="18" frame="determiner(een)" id="33" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="18" end="19" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="34" lcat="np" lemma="lied" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="lied" sense="lied" word="lied"/>
+        </node>
+        <node aform="base" begin="19" buiging="zonder" end="20" frame="adjective(no_e(adv))" graad="basis" id="35" infl="no_e" lcat="ap" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" sense="vaak" vform="adj" word="vaak"/>
+        <node begin="20" end="21" frame="adverb" id="36" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" sense="maar" word="maar"/>
+        <node begin="21" cat="np" end="24" id="37" rel="obj1">
+          <node begin="21" end="22" frame="determiner(een)" id="38" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="22" buiging="met-e" end="23" frame="adj_number(enkele)" id="39" infl="enkele" lcat="detp" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" sense="enkel" special="adj_number" vwtype="onbep" word="enkele"/>
+          <node begin="23" end="24" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="40" lcat="np" lemma="zin" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zin" sense="zin" word="zin"/>
+        </node>
+      </node>
+      <node begin="24" cat="np" end="30" id="41" rel="dp">
+        <node begin="24" end="25" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="42" lcat="np" lemma="tekst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tekst" sense="tekst" word="tekst"/>
+        <node begin="26" cat="rel" end="30" id="43" rel="mod">
+          <node begin="26" case="no_obl" end="27" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="44" index="3" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="26" cat="ssub" end="30" id="45" rel="body">
+            <node begin="26" end="27" id="46" index="3" rel="su"/>
+            <node begin="28" end="29" frame="verb(unacc,past(sg),passive)" id="47" infl="sg" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" tense="past" word="werd" wvorm="pv"/>
+            <node begin="26" cat="ppart" end="30" id="48" rel="vc">
+              <node begin="26" end="27" id="49" index="3" rel="obj1"/>
+              <node aform="base" begin="27" buiging="zonder" end="28" frame="adjective(no_e(adv))" graad="basis" id="50" infl="no_e" lcat="ap" lemma="eindeloos" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eindeloos" sense="eindeloos" vform="adj" word="eindeloos"/>
+              <node begin="29" buiging="zonder" end="30" frame="verb(hebben,psp,transitive)" id="51" infl="psp" lcat="ppart" lemma="herhalen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="herhaal" sc="transitive" sense="herhaal" word="herhaald" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" id="52" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In Taizé , waar hij acht jaar geleden , op zijn achttiende , is geweest , had een lied vaak maar een enkele zin tekst , die eindeloos werd herhaald .</sentence>
+  <comments>
+    <comment>Q#55|In Taizé , waar hij acht jaar geleden , op zijn achttiende , is geweest , had een lied vaak maar een enkele zin tekst , die eindeloos werd herhaald .|1|2|-12.159053137860008</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(dubb_punt)" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="20" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="tag">
+        <node begin="0" end="1" frame="determiner(een)" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="5" lcat="np" lemma="voorbeeld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="voorbeeld" sense="voorbeeld" word="voorbeeld"/>
+      </node>
+      <node begin="3" cat="smain" end="20" id="6" rel="nucl">
+        <node begin="3" cat="np" end="7" id="7" index="1" rel="su">
+          <node begin="3" end="4" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="8" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+          <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="9" lcat="np" lemma="bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bedrijf" sense="bedrijf" word="bedrijf"/>
+          <node begin="5" cat="mwu" end="7" id="10" mwu_root="Rudisa International" mwu_sense="Rudisa International" rel="app">
+            <node begin="5" end="6" frame="proper_name(both,'ORG')" id="11" lcat="np" lemma="Rudisa" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rudisa" sense="Rudisa" spectype="deeleigen" word="Rudisa"/>
+            <node begin="6" end="7" frame="proper_name(both,'ORG')" id="12" lcat="np" lemma="International" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="International" sense="International" spectype="deeleigen" word="International"/>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="verb(hebben,past(sg),modifier(aux(inf)))" id="13" infl="sg" lcat="smain" lemma="mogen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" stype="declarative" tense="past" word="mocht" wvorm="pv"/>
+        <node begin="3" cat="inf" end="20" id="14" rel="vc">
+          <node begin="3" end="7" id="15" index="1" rel="su"/>
+          <node begin="8" cat="pp" end="14" id="16" rel="mod">
+            <node begin="8" end="9" frame="preposition(tegen,[aan,in,op])" id="17" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+            <node begin="9" cat="np" end="14" id="18" rel="obj1">
+              <node begin="9" end="10" frame="determiner(een)" id="19" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="koers" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="koers" sense="koers" word="koers"/>
+              <node begin="11" cat="pp" end="13" id="21" rel="mod">
+                <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="22" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="12" end="13" frame="number(hoofd(pl_num))" id="23" infl="pl_num" lcat="np" lemma="406" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="pl" root="406" sense="406" special="hoofd" word="406"/>
+              </node>
+              <node begin="13" end="14" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="SRG" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="SRG" sense="SRG" word="SRG"/>
+            </node>
+          </node>
+          <node begin="14" cat="pp" end="16" id="25" rel="mod">
+            <node begin="14" end="15" frame="preposition(per,[])" id="26" lcat="pp" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" sense="per" vztype="init" word="per"/>
+            <node begin="15" end="16" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="dollar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="dollar" sense="dollar" special="meas_mod" word="dollar"/>
+          </node>
+          <node begin="16" cat="np" end="19" id="28" rel="obj1">
+            <node begin="16" end="17" frame="number(hoofd(both))" id="29" infl="both" lcat="detp" lemma="1,6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1,6" sense="1,6" special="hoofd" word="1,6"/>
+            <node begin="17" end="18" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="30" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+            <node begin="18" end="19" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="dollar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="dollar" sense="dollar" special="meas_mod" word="dollar"/>
+          </node>
+          <node begin="19" buiging="zonder" end="20" frame="verb(hebben,inf,transitive)" id="32" infl="inf" lcat="inf" lemma="kopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="koop" sc="transitive" sense="koop" word="kopen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" id="33" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Een voorbeeld : Het bedrijf Rudisa International mocht tegen een koers van 406 SRG per dollar 1,6 miljoen dollar kopen .</sentence>
+  <comments>
+    <comment>Q#77|Een voorbeeld : Het bedrijf Rudisa International mocht tegen een koers van 406 SRG per dollar 1,6 miljoen dollar kopen .|1|1|-1.9003677204599998</comment>
+  </comments>
+</alpino_ds>

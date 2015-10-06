@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="2" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="8" id="3" rel="nucl">
+        <node begin="4" end="5" frame="verb(hebben,sg_heeft,aux_psp_hebben)" id="4" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="5" end="6" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="5" index="1" lcat="np" lemma="Wahid" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Wahid" sense="Wahid" word="Wahid"/>
+        <node begin="1" cat="ppart" end="8" id="6" rel="vc">
+          <node begin="1" cat="ap" end="4" id="7" rel="mod">
+            <node begin="1" cat="np" end="3" id="8" rel="me">
+              <node begin="1" end="2" frame="determiner(een)" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="2" end="3" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dag" sense="dag" special="tmp" word="dag"/>
+            </node>
+            <node aform="compar" begin="3" buiging="zonder" end="4" frame="adjective(er(tmpadv))" graad="comp" id="11" infl="no_e" lcat="ap" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" sense="laat" vform="adj" word="later"/>
+          </node>
+          <node begin="5" end="6" id="12" index="1" rel="su"/>
+          <node aform="base" begin="6" end="7" frame="adjective(pred(adv))" id="13" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wél"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,intransitive)" id="14" infl="psp" lcat="ppart" lemma="winnen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="win" sc="intransitive" sense="win" word="gewonnen" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" id="15" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Maar een dag later heeft Wahid wél gewonnen .</sentence>
+  <comments>
+    <comment>Q#26|Maar een dag later heeft Wahid wél gewonnen .|1|1|-4.56600360992</comment>
+  </comments>
+</alpino_ds>

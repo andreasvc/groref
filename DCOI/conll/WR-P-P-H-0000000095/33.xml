@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="conj" end="20" id="1" rel="--">
+      <node begin="0" cat="smain" end="9" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="5" infl="e" lcat="ap" lemma="burgerlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="burgerlijk" sense="burgerlijk" vform="adj" word="burgerlijke"/>
+          <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="6" lcat="np" lemma="amateur_musicus" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="amateur_musicus" sense="amateur_musicus" word="amateurmusici"/>
+        </node>
+        <node begin="3" end="4" frame="verb('hebben/zijn',past(pl),modifier(aux(inf)))" id="7" infl="pl" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="past" word="moesten" wvorm="pv"/>
+        <node begin="0" cat="inf" end="9" id="8" rel="vc">
+          <node begin="0" end="3" id="9" index="1" rel="su"/>
+          <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="10" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+          <node begin="5" buiging="zonder" end="6" frame="verb(hebben,inf,ninv(np_pc_pp(tegen),part_np_pc_pp(af,tegen)))" id="11" infl="inf" lcat="inf" lemma="af_leggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leg_af" sc="part_np_pc_pp(af,tegen)" sense="leg_af-tegen" word="afleggen" wvorm="inf"/>
+          <node begin="6" cat="pp" end="9" id="12" rel="pc">
+            <node begin="6" end="7" frame="preposition(tegen,[aan,in,op])" id="13" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+            <node begin="7" cat="np" end="9" id="14" rel="obj1">
+              <node begin="7" end="8" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="16" lcat="np" lemma="beroep_musicus" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="beroep_musicus" sense="beroep_musicus" word="beroepsmusici"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" conjtype="neven" end="10" frame="conj(en)" id="17" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="10" cat="smain" end="20" id="18" rel="cnj">
+        <node begin="10" cat="np" end="13" id="19" rel="su">
+          <node begin="10" end="11" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="11" cat="mwu" end="13" id="21" mwu_root="collegia musica" mwu_sense="collegia musica" rel="hd">
+            <node begin="11" end="12" frame="proper_name(both)" id="22" lcat="np" lemma="collegia" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="collegia" sense="collegia" spectype="deeleigen" word="collegia"/>
+            <node begin="12" end="13" frame="proper_name(both)" id="23" lcat="np" lemma="musica" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="musica" sense="musica" spectype="deeleigen" word="musica"/>
+          </node>
+        </node>
+        <node begin="13" end="14" frame="verb(hebben,past(pl),fixed([{[[plaats],pc(voor)]}],imp_passive))" id="24" infl="pl" lcat="smain" lemma="maken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="maak" sc="fixed([{[[plaats],pc(voor)]}],imp_passive)" sense="plaats-maak-voor" stype="declarative" tense="past" word="maakten" wvorm="pv"/>
+        <node begin="14" end="15" frame="fixed_part([plaats])" genus="zijd" getal="ev" graad="basis" id="25" lcat="fixed" lemma="plaats" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="svp" root="plaats" sense="plaats" word="plaats"/>
+        <node begin="15" cat="pp" end="18" id="26" rel="pc">
+          <node begin="15" end="16" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="27" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="16" cat="np" end="18" id="28" rel="obj1">
+            <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" id="29" infl="e" lcat="ap" lemma="openbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="openbaar" sense="openbaar" vform="adj" word="openbare"/>
+            <node begin="17" end="18" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="30" lcat="np" lemma="concert" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="concert" sense="concert" word="concerten"/>
+          </node>
+        </node>
+        <node begin="18" cat="pp" end="20" id="31" rel="mod">
+          <node begin="18" end="19" frame="preposition(door,[heen])" id="32" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="19" end="20" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="33" lcat="np" lemma="ster" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="ster" sense="ster" word="sterren"/>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De burgerlijke amateurmusici moesten het afleggen tegen de beroepsmusici en de collegia musica maakten plaats voor openbare concerten door sterren .</sentence>
+  <comments>
+    <comment>Q#33|De burgerlijke amateurmusici moesten het afleggen tegen de beroepsmusici en de collegia musica maakten plaats voor openbare concerten door sterren .|1|1|-1.7960881452000046</comment>
+  </comments>
+</alpino_ds>

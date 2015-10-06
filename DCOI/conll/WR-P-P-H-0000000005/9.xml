@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="42" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_links)" id="1" lcat="punct" lemma=",," pos="punct" postag="LET()" pt="let" rel="--" root=",," sense=",," special="aanhaal_links" word=",,"/>
+    <node begin="8" end="9" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="23" end="24" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="31" end="32" frame="punct(aanhaal_rechts)" id="4" lcat="punct" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+    <node begin="32" end="33" frame="punct(komma)" id="5" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="1" cat="du" end="41" id="6" rel="--">
+      <node begin="1" cat="smain" end="31" id="7" rel="nucl">
+        <node begin="1" case="nom" def="def" end="2" frame="pronoun(nwh,fir,pl,de,nom,def)" gen="de" getal="mv" id="8" lcat="np" lemma="wij" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,mv)" pt="vnw" rel="su" rnum="pl" root="wij" sense="wij" status="vol" vwtype="pers" wh="nwh" word="Wij"/>
+        <node begin="2" end="3" frame="verb(hebben,pl,tr_sbar)" id="9" infl="pl" lcat="smain" lemma="weten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="weet" sc="tr_sbar" sense="weet" stype="declarative" tense="present" word="weten" wvorm="pv"/>
+        <node begin="3" cat="cp" end="31" id="10" rel="vc">
+          <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" id="11" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="4" cat="ssub" end="31" id="12" rel="body">
+            <node begin="4" cat="np" end="23" id="13" index="1" rel="su">
+              <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="14" lcat="np" lemma="regering" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="regering" sense="regering" word="regeringen"/>
+              <node begin="5" cat="pp" end="8" id="15" rel="mod">
+                <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="6" cat="np" end="8" id="17" rel="obj1">
+                  <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="18" infl="e" lcat="ap" lemma="arm" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="arm" sense="arm" vform="adj" word="arme"/>
+                  <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="19" lcat="np" lemma="land" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="land" sense="land" word="landen"/>
+                </node>
+              </node>
+              <node begin="9" cat="rel" end="23" id="20" rel="mod">
+                <node begin="9" case="no_obl" end="10" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="21" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                <node begin="9" cat="ssub" end="23" id="22" rel="body">
+                  <node begin="9" end="10" id="23" index="2" rel="su"/>
+                  <node begin="11" end="12" frame="verb(unacc,pl,passive)" id="24" infl="pl" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="worden" wvorm="pv"/>
+                  <node begin="9" cat="ppart" end="23" id="25" rel="vc">
+                    <node begin="9" end="10" id="26" index="2" rel="obj1"/>
+                    <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,np_vp_obj1)" id="27" infl="psp" lcat="ppart" lemma="dwingen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="dwing" sc="np_vp_obj1" sense="dwing" word="gedwongen" wvorm="vd"/>
+                    <node begin="9" cat="oti" end="23" id="28" rel="vc">
+                      <node begin="12" end="13" frame="complementizer(om)" id="29" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+                      <node begin="9" cat="ti" end="23" id="30" rel="body">
+                        <node begin="21" end="22" frame="complementizer(te)" id="31" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                        <node begin="9" cat="inf" end="23" id="32" rel="body">
+                          <node begin="9" end="10" id="33" index="2" rel="su"/>
+                          <node begin="13" cat="conj" end="21" id="34" rel="obj1">
+                            <node begin="13" cat="np" end="15" id="35" rel="cnj">
+                              <node begin="13" buiging="zonder" end="14" frame="determiner(pron)" getal="mv" id="36" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                              <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="37" lcat="np" lemma="schuld" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="schuld" sense="schuld" word="schulden"/>
+                            </node>
+                            <node begin="15" conjtype="neven" end="16" frame="conj(en)" id="38" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                            <node begin="16" cat="np" end="21" id="39" rel="cnj">
+                              <node begin="16" end="17" frame="determiner(de)" id="40" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                              <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="41" lcat="np" lemma="rente" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rente" sense="rente" word="rente"/>
+                              <node begin="18" cat="pp" end="21" id="42" rel="mod">
+                                <node begin="18" end="19" frame="preposition(op,[af,na])" id="43" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                                <node begin="19" cat="np" end="21" id="44" rel="obj1">
+                                  <node begin="19" buiging="zonder" end="20" frame="determiner(de,nwh,nmod,pro,nparg)" id="45" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+                                  <node begin="20" end="21" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="46" lcat="np" lemma="schuld" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="schuld" sense="schuld" word="schulden"/>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node begin="22" buiging="zonder" end="23" frame="verb(hebben,inf,transitive)" id="47" infl="inf" lcat="inf" lemma="betalen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="betaal" sc="transitive" sense="betaal" word="betalen" wvorm="inf"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="29" end="30" frame="verb('hebben/zijn',pl,aux(inf))" id="48" infl="pl" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kunnen" wvorm="pv"/>
+            <node begin="4" cat="inf" end="31" id="49" rel="vc">
+              <node begin="4" end="23" id="50" index="1" rel="su"/>
+              <node begin="24" end="25" frame="adverb" id="51" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+              <node begin="25" cat="pp" end="29" id="52" rel="pc">
+                <node begin="25" end="26" frame="preposition(in,[])" id="53" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="26" cat="conj" end="29" id="54" rel="obj1">
+                  <node begin="26" end="27" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="55" lcat="np" lemma="gezondheidszorg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="gezondheidszorg" sense="gezondheidszorg" word="gezondheidszorg"/>
+                  <node begin="27" conjtype="neven" end="28" frame="conj(en)" id="56" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="28" end="29" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="57" lcat="np" lemma="onderwijs" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="onderwijs" sense="onderwijs" word="onderwijs"/>
+                </node>
+              </node>
+              <node begin="30" buiging="zonder" end="31" frame="verb(hebben,inf,pc_pp(in))" id="58" infl="inf" lcat="inf" lemma="investeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="investeer" sc="pc_pp(in)" sense="investeer-in" word="investeren" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="33" cat="sv1" end="41" id="59" rel="tag">
+        <node begin="33" end="34" frame="verb(hebben,sg3,tr_sbar)" id="60" infl="sg3" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present" word="zegt" wvorm="pv"/>
+        <node begin="34" cat="np" end="41" id="61" rel="su">
+          <node begin="34" cat="mwu" end="36" id="62" mwu_root="Patrizia Pasini" mwu_sense="Patrizia Pasini" rel="hd">
+            <node begin="34" end="35" frame="proper_name(sg,'PER')" id="63" lcat="np" lemma="Patrizia" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Patrizia" sense="Patrizia" spectype="deeleigen" word="Patrizia"/>
+            <node begin="35" end="36" frame="proper_name(sg,'PER')" id="64" lcat="np" lemma="Pasini" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Pasini" sense="Pasini" spectype="deeleigen" word="Pasini"/>
+          </node>
+          <node begin="36" cat="pp" end="41" id="65" rel="mod">
+            <node begin="36" end="37" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="66" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="37" cat="np" end="41" id="67" rel="obj1">
+              <node begin="37" end="38" frame="determiner(de)" id="68" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="38" cat="mwu" end="41" id="69" mwu_root="Zusters Missionarissen Consolata" mwu_sense="Zusters Missionarissen Consolata" rel="hd">
+                <node begin="38" end="39" frame="proper_name(both,'ORG')" id="70" lcat="np" lemma="Zusters" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zusters" sense="Zusters" spectype="deeleigen" word="Zusters"/>
+                <node begin="39" end="40" frame="proper_name(both,'ORG')" id="71" lcat="np" lemma="Missionarissen" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Missionarissen" sense="Missionarissen" spectype="deeleigen" word="Missionarissen"/>
+                <node begin="40" end="41" frame="proper_name(both,'ORG')" id="72" lcat="np" lemma="Consolata" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Consolata" sense="Consolata" spectype="deeleigen" word="Consolata"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="41" end="42" frame="punct(punt)" id="73" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>,, Wij weten dat regeringen van arme landen , die gedwongen worden om hun schulden en de rente op die schulden te betalen , niet in gezondheidszorg en onderwijs kunnen investeren &apos;&apos; , zegt Patrizia Pasini van de Zusters Missionarissen Consolata .</sentence>
+  <comments>
+    <comment>Q#9|,, Wij weten dat regeringen van arme landen , die gedwongen worden om hun schulden en de rente op die schulden te betalen , niet in gezondheidszorg en onderwijs kunnen investeren &apos;&apos; , zegt Patrizia Pasini van de Zusters Missionarissen Consolata .|1|1|-17.755563389520013</comment>
+  </comments>
+</alpino_ds>

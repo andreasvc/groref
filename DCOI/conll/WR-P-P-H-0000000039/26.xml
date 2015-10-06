@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_links)" id="1" lcat="--" lemma=",," pos="punct" postag="LET()" pt="let" rel="--" root=",," sense=",," special="aanhaal_links" word=",,"/>
+    <node begin="1" cat="smain" end="11" id="2" rel="--">
+      <node begin="1" case="nom" def="def" end="2" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="3" lcat="np" lemma="men" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" rnum="sg" root="men" sense="men" status="red" vwtype="pers" wh="nwh" word="Men"/>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),tr_sbar)" id="4" infl="sg" lcat="smain" lemma="denken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="denk" sc="tr_sbar" sense="denk" stype="declarative" tense="past" word="dacht" wvorm="pv"/>
+      <node begin="3" cat="cp" end="11" id="5" rel="vc">
+        <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" id="6" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="11" id="7" rel="body">
+          <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="8" index="1" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+          <node begin="6" end="7" frame="predm_adverb" id="9" lcat="advp" lemma="allemaal" pos="adv" postag="BW()" pt="bw" rel="predm" root="allemaal" sense="allemaal" special="predm" word="allemaal"/>
+          <node begin="9" end="10" frame="verb('hebben/zijn',past(sg),aux(inf))" id="10" infl="sg" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past" word="kon" wvorm="pv"/>
+          <node begin="4" cat="inf" end="11" id="11" rel="vc">
+            <node begin="4" end="5" id="12" index="1" rel="su"/>
+            <node begin="5" case="dat_acc" def="def" end="6" frame="pronoun(nwh,fir,sg,de,dat_acc,def)" gen="de" getal="ev" id="13" lcat="np" lemma="mij" naamval="obl" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,ev)" pt="vnw" rel="obj2" rnum="sg" root="mij" sense="mij" status="vol" vwtype="pr" wh="nwh" word="mij"/>
+            <node begin="7" end="8" frame="meas_mod_noun(het,mass,sg)" gen="het" getal="ev" id="14" lcat="np" lemma="niets" naamval="stan" num="sg" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="niets" sense="niets" special="meas_mod" status="vol" vwtype="onbep" word="niets"/>
+            <node aform="compar" begin="8" buiging="zonder" end="9" frame="adjective(meer)" graad="comp" id="15" infl="meer" lcat="ap" lemma="meer" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+            <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,np_np)" id="16" infl="inf" lcat="inf" lemma="schelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="scheel" sc="np_np" sense="scheel" word="schelen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>,, Men dacht dat het mij allemaal niets meer kon schelen .</sentence>
+  <comments>
+    <comment>Q#26|,, Men dacht dat het mij allemaal niets meer kon schelen .|1|1|-6.19492879468</comment>
+  </comments>
+</alpino_ds>

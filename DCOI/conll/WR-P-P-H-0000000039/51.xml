@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="du" end="15" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="2" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="15" id="3" rel="nucl">
+        <node begin="1" case="nom" def="def" end="2" frame="pronoun(nwh,thi,both,de,nom,def)" gen="de" getal="mv" id="4" lcat="np" lemma="zij" naamval="nomin" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" rnum="pl" root="zij" sense="zij" status="vol" vwtype="pers" wh="nwh" word="zij"/>
+        <node begin="2" end="3" frame="verb(hebben,pl,tr_sbar)" id="5" infl="pl" lcat="smain" lemma="weten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="weet" sc="tr_sbar" sense="weet" stype="declarative" tense="present" word="weten" wvorm="pv"/>
+        <node begin="3" end="4" frame="adverb" id="6" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="4" cat="whsub" end="15" id="7" rel="vc">
+          <node begin="4" end="5" frame="er_wh_loc_adverb" getal="getal" id="8" index="1" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="whd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+          <node begin="4" cat="ssub" end="15" id="9" rel="body">
+            <node begin="5" case="nom" def="def" end="6" frame="pronoun(nwh,fir,pl,de,nom,def)" gen="de" getal="mv" id="10" index="2" lcat="np" lemma="wij" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,mv)" pt="vnw" rel="su" rnum="pl" root="wij" sense="wij" status="vol" vwtype="pers" wh="nwh" word="wij"/>
+            <node begin="12" end="13" frame="verb(hebben,pl,aux_psp_hebben)" id="11" infl="pl" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="hebben" wvorm="pv"/>
+            <node begin="4" cat="inf" end="15" id="12" rel="vc">
+              <node begin="5" end="6" id="13" index="2" rel="su"/>
+              <node begin="13" buiging="zonder" end="14" frame="verb('hebben/zijn',inf,modifier(aux(inf)))" id="14" infl="inf" lcat="inf" lemma="moeten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" word="moeten" wvorm="inf"/>
+              <node begin="4" cat="inf" end="15" id="15" rel="vc">
+                <node begin="5" end="6" id="16" index="2" rel="su"/>
+                <node begin="6" case="dat_acc" def="def" end="7" frame="pronoun(nwh,fir,pl,de,dat_acc,def)" gen="de" getal="mv" id="17" lcat="np" lemma="ons" naamval="obl" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,mv)" pt="vnw" rel="obj1" rnum="pl" root="ons" sense="ons" status="vol" vwtype="pr" wh="nwh" word="ons"/>
+                <node begin="7" end="8" frame="adverb" id="18" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+                <node begin="8" cat="pp" end="11" id="19" rel="mod">
+                  <node begin="8" end="9" frame="preposition(vanaf,[])" id="20" lcat="pp" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" sense="vanaf" vztype="init" word="vanaf"/>
+                  <node begin="9" cat="np" end="11" id="21" rel="obj1">
+                    <node begin="9" buiging="met-e" end="10" frame="determiner(onze)" getal="mv" id="22" infl="onze" lcat="detp" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="ons" sense="ons" status="vol" vwtype="bez" word="onze"/>
+                    <node begin="10" end="11" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="23" lcat="np" lemma="tiener_jaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tiener_jaar" sense="tiener_jaar" special="tmp" word="tienerjaren"/>
+                  </node>
+                </node>
+                <node begin="4" cat="pp" end="12" id="24" rel="ld">
+                  <node begin="4" end="5" id="25" index="1" rel="obj1"/>
+                  <node begin="11" end="12" frame="preposition(door,[],extracted_np)" id="26" lcat="pp" lemma="doorheen" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="doorheen" sc="extracted_np" sense="doorheen" vztype="fin" word="doorheen"/>
+                </node>
+                <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,np_ld_pp)" id="27" infl="inf" lcat="inf" lemma="werken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="werk" sc="np_ld_pp" sense="werk" word="werken" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="28" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Maar zij weten niet waar wij ons al vanaf onze tienerjaren doorheen hebben moeten werken .</sentence>
+  <comments>
+    <comment>Q#51|Maar zij weten niet waar wij ons al vanaf onze tienerjaren doorheen hebben moeten werken .|1|1|-11.0731961542</comment>
+  </comments>
+</alpino_ds>

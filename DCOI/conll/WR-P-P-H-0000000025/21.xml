@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="4" end="5" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" id="2" infl="sg" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moet" wvorm="pv"/>
+      <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="3" index="1" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+      <node begin="0" cat="inf" end="9" id="4" rel="vc">
+        <node begin="0" cat="pp" end="4" id="5" rel="mod">
+          <node begin="0" end="1" frame="modal_adverb" id="6" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sc="modal" sense="ook" word="Ook"/>
+          <node begin="1" end="2" frame="preposition(in,[])" id="7" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="2" cat="np" end="4" id="8" rel="obj1">
+            <node begin="2" end="3" frame="determiner(de)" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="3" end="4" frame="proper_name(sg)" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="Tour" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Tour" sense="Tour" word="Tour"/>
+          </node>
+        </node>
+        <node begin="5" end="6" id="11" index="1" rel="su"/>
+        <node begin="6" cat="pp" end="8" id="12" rel="pc">
+          <node begin="6" end="7" frame="preposition(tot,[toe,[aan,toe]])" id="13" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="14" lcat="np" lemma="succes" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="succes" sense="succes" word="successen"/>
+        </node>
+        <node begin="8" buiging="zonder" end="9" frame="verb(hebben,inf,pc_pp(tot))" id="15" infl="inf" lcat="inf" lemma="leiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leid" sc="pc_pp(tot)" sense="leid-tot" word="leiden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="9" end="10" frame="punct(punt)" id="16" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Ook in de Tour moet dat tot successen leiden .</sentence>
+  <comments>
+    <comment>Q#21|Ook in de Tour moet dat tot successen leiden .|1|1|-2.762422390800002</comment>
+  </comments>
+</alpino_ds>

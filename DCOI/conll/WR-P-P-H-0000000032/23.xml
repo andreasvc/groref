@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="modal_adverb" id="3" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sc="modal" sense="ook" word="Ook"/>
+        <node begin="1" end="2" frame="determiner(een)" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="jongen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="jongen" sense="jongen" word="jongen"/>
+        <node begin="3" cat="pp" end="6" id="6" rel="mod">
+          <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" id="7" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="4" cat="np" end="6" id="8" rel="obj1">
+            <node begin="4" end="5" frame="determiner(een)" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="anarchist_vlag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="anarchist_vlag" sense="anarchist_vlag" word="anarchistenvlag"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(unacc,sg3,passive)" id="11" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="8" id="12" rel="vc">
+        <node begin="0" end="6" id="13" index="1" rel="obj1"/>
+        <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,ninv(transitive,part_transitive(af)))" id="14" infl="psp" lcat="ppart" lemma="af_tuigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="tuig_af" sc="part_transitive(af)" sense="tuig_af" word="afgetuigd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" id="15" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Ook een jongen met een anarchistenvlag wordt afgetuigd .</sentence>
+  <comments>
+    <comment>Q#23|Ook een jongen met een anarchistenvlag wordt afgetuigd .|1|1|-6.007165408660002</comment>
+  </comments>
+</alpino_ds>

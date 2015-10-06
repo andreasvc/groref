@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="du" end="6" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="2" lcat="du" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" sc="root" sense="en" word="En"/>
+      <node begin="1" cat="smain" end="6" id="3" rel="nucl">
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" end="2" frame="modal_adverb" id="5" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sc="modal" sense="ook" word="ook"/>
+          <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="6" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,sg3,transitive)" id="7" infl="sg3" lcat="smain" lemma="relativeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="relativeer" sc="transitive" sense="relativeer" stype="declarative" tense="present" word="relativeert" wvorm="pv"/>
+        <node begin="4" case="nom" def="def" end="5" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="8" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+        <node begin="5" end="6" frame="adverb" id="9" lcat="advp" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" sense="weer" word="weer"/>
+      </node>
+    </node>
+    <node begin="6" end="7" frame="punct(punt)" id="10" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>En ook dat relativeert hij weer .</sentence>
+  <comments>
+    <comment>Q#65|En ook dat relativeert hij weer .|1|1|-0.8641694678000008</comment>
+  </comments>
+</alpino_ds>

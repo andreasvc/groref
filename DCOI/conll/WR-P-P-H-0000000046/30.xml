@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_links)" id="1" lcat="punct" lemma=",," pos="punct" postag="LET()" pt="let" rel="--" root=",," sense=",," special="aanhaal_links" word=",,"/>
+    <node begin="6" end="7" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="1" cat="smain" end="11" id="3" rel="--">
+      <node begin="7" end="8" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" id="4" infl="sg" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moet" wvorm="pv"/>
+      <node begin="8" case="both" def="def" end="9" frame="pronoun(nwh,je,sg,de,both,def,wkpro)" gen="de" getal="ev" id="5" index="1" lcat="np" lemma="je" naamval="nomin" num="sg" pdtype="pron" per="je" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" rnum="sg" root="je" sense="je" special="wkpro" status="red" vwtype="pers" wh="nwh" word="je"/>
+      <node begin="1" cat="inf" end="11" id="6" rel="vc">
+        <node begin="1" cat="cp" end="6" id="7" rel="mod">
+          <node begin="1" end="2" frame="modal_adverb" id="8" lcat="advp" lemma="juist" pos="adv" postag="BW()" pt="bw" rel="mod" root="juist" sc="modal" sense="juist" word="Juist"/>
+          <node begin="2" conjtype="onder" end="3" frame="complementizer(als)" id="9" lcat="cp" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" sc="als" sense="als" word="als"/>
+          <node begin="3" cat="ssub" end="6" id="10" rel="body">
+            <node begin="3" end="4" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="11" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+            <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" id="12" infl="no_e" lcat="ap" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="goed" sense="goed" vform="adj" word="goed"/>
+            <node begin="5" end="6" frame="verb(zijn,sg3,ap_copula)" id="13" infl="sg3" lcat="ssub" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="ap_copula" sense="ga" tense="present" word="gaat" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="8" end="9" id="14" index="1" rel="su"/>
+        <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(adv))" graad="basis" id="15" infl="no_e" lcat="ap" lemma="waakzaam" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="waakzaam" sense="waakzaam" vform="adj" word="waakzaam"/>
+        <node begin="10" buiging="zonder" end="11" frame="verb(unacc,inf,copula)" id="16" infl="inf" lcat="inf" lemma="blijven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="blijf" sc="copula" sense="blijf" word="blijven" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="12" end="13" frame="punct(aanhaal_rechts)" id="18" lcat="punct" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+  </node>
+  <sentence>,, Juist als het goed gaat , moet je waakzaam blijven . &apos;&apos;</sentence>
+  <comments>
+    <comment>Q#30|,, Juist als het goed gaat , moet je waakzaam blijven . &apos;&apos;|1|1|-5.518940192180002</comment>
+  </comments>
+</alpino_ds>

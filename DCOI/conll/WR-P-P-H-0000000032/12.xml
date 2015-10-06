@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="29" id="2" rel="--">
+      <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" id="3" infl="no_e" lcat="ap" lemma="hoogstwaarschijnlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hoogstwaarschijnlijk" sense="hoogstwaarschijnlijk" vform="adj" word="Hoogstwaarschijnlijk"/>
+      <node begin="1" end="2" frame="verb(unacc,pl,cleft)" id="4" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="cleft" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="2" end="3" frame="het_noun" genus="onz" getal="ev" id="5" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="pl" root="het" sense="het" special="het" status="red" vwtype="pers" word="het"/>
+      <node begin="3" cat="np" end="29" id="6" rel="predc">
+        <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="7" lcat="np" lemma="jongen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="jongen" sense="jongen" word="jongens"/>
+        <node begin="4" cat="pp" end="29" id="8" rel="mod">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="9" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" cat="np" end="29" id="10" rel="obj1">
+            <node begin="5" cat="mwu" end="7" id="11" mwu_root="Vojislav Seselj" mwu_sense="Vojislav Seselj" rel="hd">
+              <node begin="5" end="6" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Vojislav" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vojislav" sense="Vojislav" spectype="deeleigen" word="Vojislav"/>
+              <node begin="6" end="7" frame="proper_name(sg,'PER')" id="13" lcat="np" lemma="Seselj" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Seselj" sense="Seselj" spectype="deeleigen" word="Seselj"/>
+            </node>
+            <node begin="8" cat="np" end="29" id="14" rel="app">
+              <node begin="8" end="9" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="16" infl="e" lcat="ap" lemma="ultra_nationalistisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ultra_nationalistisch" sense="ultra_nationalistisch" vform="adj" word="ultra-nationalistische"/>
+              <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="leider" sense="leider" word="leider"/>
+              <node begin="11" cat="pp" end="15" id="18" rel="mod">
+                <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="19" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="12" cat="np" end="15" id="20" rel="obj1">
+                  <node begin="12" end="13" frame="determiner(de)" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="13" cat="mwu" end="15" id="22" mwu_root="Radicale Partij" mwu_sense="Radicale Partij" rel="hd">
+                    <node begin="13" end="14" frame="proper_name(sg,'ORG')" id="23" lcat="np" lemma="Radicale" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Radicale" sense="Radicale" spectype="deeleigen" word="Radicale"/>
+                    <node begin="14" end="15" frame="proper_name(sg,'ORG')" id="24" lcat="np" lemma="Partij" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Partij" sense="Partij" spectype="deeleigen" word="Partij"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="15" cat="rel" end="29" id="25" rel="mod">
+                <node begin="15" case="no_obl" end="16" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="26" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                <node begin="15" cat="ssub" end="29" id="27" rel="body">
+                  <node begin="15" end="16" id="28" index="1" rel="su"/>
+                  <node begin="16" cat="np" end="19" id="29" rel="obj1">
+                    <node begin="16" buiging="zonder" end="17" frame="determiner(pron)" getal="ev" id="30" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                    <node aform="base" begin="17" buiging="met-e" end="18" frame="adjective(e)" graad="basis" id="31" infl="e" lcat="ap" lemma="uiterst" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="uiterst" sense="uiterst" vform="adj" word="uiterste"/>
+                    <node begin="18" buiging="zonder" end="19" frame="noun(both,mass,sg)" gen="both" getal-n="zonder-n" graad="sup" id="32" lcat="np" lemma="best" num="sg" pos="noun" positie="nom" postag="ADJ(nom,sup,zonder,zonder-n)" pt="adj" rel="hd" rnum="sg" root="best" sense="best" word="best"/>
+                  </node>
+                  <node begin="19" end="20" frame="verb(hebben,sg3,fixed([acc(best),vp],imp_passive))" id="33" infl="sg3" lcat="ssub" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" sc="fixed([acc(best),vp],imp_passive)" sense="best-doe" tense="present" word="doet" wvorm="pv"/>
+                  <node begin="15" cat="ti" end="29" id="34" rel="vc">
+                    <node begin="27" end="28" frame="complementizer(te)" id="35" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                    <node begin="15" cat="inf" end="29" id="36" rel="body">
+                      <node begin="15" end="16" id="37" index="1" rel="su"/>
+                      <node begin="20" end="21" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="38" lcat="np" lemma="Servië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Servië" sense="Servië" word="Servië"/>
+                      <node begin="21" cat="pp" end="27" id="39" rel="mod">
+                        <node begin="21" end="22" frame="preposition(op,[af,na])" id="40" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                        <node begin="22" cat="np" end="27" id="41" rel="obj1">
+                          <node begin="22" cat="mwu" end="24" id="42" mwu_root="wat voor" mwu_sense="wat voor" rel="det">
+                            <node begin="22" end="23" frame="determiner(pron,wh)" getal="ev" id="43" infl="pron" lcat="detp" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="mwp" root="wat" sense="wat" status="vol" vwtype="vb" wh="wh" word="wat"/>
+                            <node begin="23" end="24" frame="determiner(pron,wh)" id="44" infl="pron" lcat="detp" lemma="voor" pos="det" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vztype="init" wh="wh" word="voor"/>
+                          </node>
+                          <node begin="24" end="25" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="45" lcat="np" lemma="manier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="manier" sense="manier" word="manier"/>
+                          <node begin="25" cat="mwu" end="27" id="46" mwu_root="dan ook" mwu_sense="dan ook" rel="mod">
+                            <node begin="25" end="26" frame="post_wh_adverb" id="47" lcat="advp" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mwp" root="dan" sense="dan" special="post_wh" word="dan"/>
+                            <node begin="26" end="27" frame="post_wh_adverb" id="48" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mwp" root="ook" sense="ook" special="post_wh" word="ook"/>
+                          </node>
+                        </node>
+                      </node>
+                      <node begin="28" buiging="zonder" end="29" frame="verb(hebben,inf,transitive)" id="49" infl="inf" lcat="inf" lemma="destabiliseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="destabiliseer" sc="transitive" sense="destabiliseer" word="destabiliseren" wvorm="inf"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" id="50" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Hoogstwaarschijnlijk zijn het jongens van Vojislav Seselj , de ultra-nationalistische leider van de Radicale Partij die zijn uiterste best doet Servië op wat voor manier dan ook te destabiliseren .</sentence>
+  <comments>
+    <comment>Q#12|Hoogstwaarschijnlijk zijn het jongens van Vojislav Seselj , de ultra-nationalistische leider van de Radicale Partij die zijn uiterste best doet Servië op wat voor manier dan ook te destabiliseren .|1|1|-6.255128304079996</comment>
+  </comments>
+</alpino_ds>

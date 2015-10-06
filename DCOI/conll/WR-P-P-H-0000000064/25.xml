@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_links)" id="1" lcat="punct" lemma=",," pos="punct" postag="LET()" pt="let" rel="--" root=",," sense=",," special="aanhaal_links" word=",,"/>
+    <node begin="8" end="9" frame="punct(aanhaal_rechts)" id="2" lcat="punct" lemma="&apos;&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;&apos;" sense="&apos;&apos;" special="aanhaal_rechts" word="&apos;&apos;"/>
+    <node begin="9" end="10" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="1" cat="du" end="12" id="4" rel="--">
+      <node begin="1" cat="smain" end="8" id="5" rel="nucl">
+        <node begin="1" cat="np" end="5" id="6" rel="obj1">
+          <node begin="1" buiging="zonder" end="2" frame="v_noun(intransitive)" getal-n="zonder-n" id="7" lcat="np" lemma="mee_bidden" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="mee_bid" sc="intransitive" sense="mee_bid" special="v_noun" word="Meebidden" wvorm="inf"/>
+          <node begin="2" cat="pp" end="5" id="8" rel="mod">
+            <node begin="2" end="3" frame="preposition(met,[mee,[en,al]])" id="9" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="3" cat="mwu" end="5" id="10" mwu_root="ds. Schoon" mwu_sense="ds. Schoon" rel="obj1">
+              <node begin="3" end="4" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="ds." neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="ds." sense="ds." spectype="deeleigen" word="ds."/>
+              <node begin="4" end="5" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Schoon" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Schoon" sense="Schoon" spectype="deeleigen" word="Schoon"/>
+            </node>
+          </node>
+        </node>
+        <node begin="5" end="6" frame="verb(hebben,modal_not_u,transitive_ndev_ndev)" id="13" infl="modal_not_u" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="transitive_ndev_ndev" sense="kan" stype="declarative" tense="present" word="kan" wvorm="pv"/>
+        <node begin="6" case="nom" def="def" end="7" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="14" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+        <node begin="7" end="8" frame="adverb" id="15" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+      </node>
+      <node begin="10" cat="sv1" end="12" id="16" rel="tag">
+        <node begin="10" end="11" frame="verb(hebben,sg3,tr_sbar)" id="17" infl="sg3" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present" word="zegt" wvorm="pv"/>
+        <node begin="11" end="12" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="Beute" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Beute" sense="Beute" word="Beute"/>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>,, Meebidden met ds. Schoon kan ik niet &apos;&apos; , zegt Beute .</sentence>
+  <comments>
+    <comment>Q#25|,, Meebidden met ds. Schoon kan ik niet &apos;&apos; , zegt Beute .|1|1|5.540572267119993</comment>
+  </comments>
+</alpino_ds>

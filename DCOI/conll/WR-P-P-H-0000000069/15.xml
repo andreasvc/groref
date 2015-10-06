@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(aanhaal_both)" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="6" end="7" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="12" end="13" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="17" end="18" frame="punct(aanhaal_both)" id="4" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="19" end="20" frame="punct(aanhaal_both)" id="5" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="20" end="21" frame="punct(haak_open)" id="6" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="22" end="23" frame="punct(haak_sluit)" id="7" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="du" end="30" id="8" rel="--">
+      <node begin="0" cat="sv1" end="12" id="9" rel="nucl">
+        <node begin="0" end="1" frame="verb(unacc,pl,copula)" id="10" infl="pl" lcat="sv1" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="ynquestion" tense="present" word="Zijn" wvorm="pv"/>
+        <node begin="1" cat="np" end="6" id="11" rel="su">
+          <node begin="1" end="2" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="13" lcat="np" lemma="danser" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="danser" sense="danser" word="dansers"/>
+          <node begin="3" cat="pp" end="6" id="14" rel="mod">
+            <node begin="3" end="4" frame="preposition(in,[])" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="5" end="6" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="Rainforest" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Rainforest" sense="Rainforest" word="Rainforest"/>
+          </node>
+        </node>
+        <node begin="7" cat="np" end="12" id="17" rel="predc">
+          <node begin="7" end="8" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="intermediair" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="intermediair" sense="intermediair" word="intermediair"/>
+          <node begin="8" cat="pp" end="12" id="19" rel="mod">
+            <node begin="8" end="9" frame="preposition(tussen,[door,in,vandaan])" id="20" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+            <node begin="9" cat="conj" end="12" id="21" rel="obj1">
+              <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="natuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="natuur" sense="natuur" word="natuur"/>
+              <node begin="10" conjtype="neven" end="11" frame="conj(en)" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="techniek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="techniek" sense="techniek" word="techniek"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" cat="smain" end="30" id="25" rel="tag">
+        <node begin="13" end="14" frame="dip_sbar_adverb" id="26" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" sc="dip_sbar" sense="zo" word="zo"/>
+        <node begin="14" end="15" frame="verb(unacc,pl,copula)" id="27" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" sc="copula" sense="word" tense="present" word="worden" wvorm="pv"/>
+        <node begin="15" case="nom" def="def" end="16" frame="pronoun(nwh,thi,both,de,nom,def)" gen="de" getal="mv" id="28" lcat="np" lemma="zij" naamval="nomin" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" rnum="pl" root="zij" sense="zij" status="vol" vwtype="pers" wh="nwh" word="zij"/>
+        <node begin="16" cat="pp" end="22" id="29" rel="mod">
+          <node begin="16" end="17" frame="preposition(in,[])" id="30" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="18" cat="np" end="22" id="31" rel="obj1">
+            <node begin="18" end="19" frame="proper_name(both)" genus="genus" getal="ev" graad="basis" id="32" lcat="np" lemma="Interscape" naamval="stan" neclass="MISC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="hd" rnum="sg" root="Interscape" sense="Interscape" word="Interscape"/>
+            <node begin="21" end="22" frame="np(year)" id="33" lcat="np" lemma="2001" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="sg" root="2001" sense="2001" word="2001"/>
+          </node>
+        </node>
+        <node begin="23" cat="mwu" end="26" id="34" mwu_root="als het ware" mwu_sense="als het ware" rel="mod">
+          <node begin="23" conjtype="onder" end="24" frame="adverb" id="35" lcat="advp" lemma="als" pos="adv" postag="VG(onder)" pt="vg" rel="mwp" root="als" sense="als" word="als"/>
+          <node begin="24" end="25" frame="adverb" genus="onz" getal="ev" id="36" lcat="advp" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="adv" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="mwp" root="het" sense="het" status="red" vwtype="pers" word="het"/>
+          <node begin="25" end="26" frame="adverb" id="37" lcat="advp" lemma="ware" pos="adv" postag="WW(pv,conj,ev)" pt="ww" pvagr="ev" pvtijd="conj" rel="mwp" root="ware" sense="ware" word="ware" wvorm="pv"/>
+        </node>
+        <node begin="26" end="27" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="38" lcat="np" lemma="schakel_gewricht" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="predc" rnum="pl" root="schakel_gewricht" sense="schakel_gewricht" word="schakelgewrichten"/>
+        <node begin="27" cat="pp" end="30" id="39" rel="mod">
+          <node begin="27" end="28" frame="preposition(in,[])" id="40" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="28" cat="np" end="30" id="41" rel="obj1">
+            <node begin="28" end="29" frame="determiner(de)" id="42" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="29" end="30" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="43" lcat="np" lemma="tijd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tijd" sense="tijd" special="tmp" word="tijd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" id="44" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Zijn de dansers in &apos; Rainforest &apos; intermediair tussen natuur en techniek , zo worden zij in &apos; Interscape &apos; ( 2001 ) als het ware schakelgewrichten in de tijd .</sentence>
+  <comments>
+    <comment>Q#15|Zijn de dansers in &apos; Rainforest &apos; intermediair tussen natuur en techniek , zo worden zij in &apos; Interscape &apos; ( 2001 ) als het ware schakelgewrichten in de tijd .|1|1|6.3628662213800045</comment>
+  </comments>
+</alpino_ds>

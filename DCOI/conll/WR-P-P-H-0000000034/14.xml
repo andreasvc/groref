@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="6" end="7" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="23" end="24" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="27" end="28" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="34" id="5" rel="--">
+      <node begin="0" cat="smain" end="23" id="6" rel="nucl">
+        <node begin="7" end="8" frame="verb(hebben,past(pl),aux_psp_hebben)" id="7" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="past" word="hadden" wvorm="pv"/>
+        <node begin="17" cat="np" end="19" id="8" index="1" rel="su">
+          <node begin="17" end="18" frame="number(hoofd(pl_num))" id="9" infl="pl_num" lcat="detp" lemma="25" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="25" sense="25" special="hoofd" word="25"/>
+          <node begin="18" end="19" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="10" lcat="np" lemma="vliegtuig" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vliegtuig" sense="vliegtuig" word="vliegtuigen"/>
+        </node>
+        <node begin="0" cat="inf" end="23" id="11" rel="vc">
+          <node begin="17" end="19" id="12" index="1" rel="su"/>
+          <node begin="21" buiging="zonder" end="22" frame="verb('hebben/zijn',inf,modifier(aux(inf)))" id="13" infl="inf" lcat="inf" lemma="moeten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" word="moeten" wvorm="inf"/>
+          <node begin="0" cat="inf" end="23" id="14" rel="vc">
+            <node begin="0" cat="pp" end="6" id="15" rel="mod">
+              <node begin="0" end="1" frame="preposition(volgens,[])" id="16" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="Volgens"/>
+              <node begin="1" cat="conj" end="6" id="17" rel="obj1">
+                <node begin="1" cat="np" end="4" id="18" rel="cnj">
+                  <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="19" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="2" cat="mwu" end="4" id="20" mwu_root="Spaanse luchthavenbedrijf" mwu_sense="Spaanse luchthavenbedrijf" rel="hd">
+                    <node begin="2" end="3" frame="proper_name(both,'ORG')" id="21" lcat="np" lemma="Spaanse" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Spaanse" sense="Spaanse" spectype="deeleigen" word="Spaanse"/>
+                    <node begin="3" end="4" frame="proper_name(both,'ORG')" id="22" lcat="np" lemma="luchthavenbedrijf" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="luchthavenbedrijf" sense="luchthavenbedrijf" spectype="deeleigen" word="luchthavenbedrijf"/>
+                  </node>
+                </node>
+                <node begin="5" end="6" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="aena" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="aena" sense="aena" word="AENA"/>
+              </node>
+            </node>
+            <node begin="8" end="9" frame="er_vp_adverb" getal="getal" id="24" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="9" end="10" frame="tmp_adverb" id="25" lcat="advp" lemma="gisteren" pos="adv" postag="BW()" pt="bw" rel="mod" root="gisteren" sense="gisteren" special="tmp" word="gisteren"/>
+            <node begin="10" cat="pp" end="17" id="26" rel="ld">
+              <node begin="10" cat="mwu" end="12" id="27" mwu_root="alleen al" mwu_sense="alleen al" rel="mod">
+                <node begin="10" end="11" frame="modal_adverb" id="28" lcat="advp" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="mwp" root="alleen" sc="modal" sense="alleen" word="alleen"/>
+                <node begin="11" end="12" frame="modal_adverb" id="29" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mwp" root="al" sc="modal" sense="al" word="al"/>
+              </node>
+              <node begin="12" end="13" frame="preposition(op,[af,na])" id="30" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="13" cat="np" end="17" id="31" rel="obj1">
+                <node begin="13" end="14" frame="determiner(de)" id="32" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="33" lcat="np" lemma="luchthaven" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="luchthaven" sense="luchthaven" word="luchthaven"/>
+                <node begin="15" cat="pp" end="17" id="34" rel="mod">
+                  <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="35" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="16" end="17" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="36" lcat="np" lemma="Palma" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Palma" sense="Palma" word="Palma"/>
+                </node>
+              </node>
+            </node>
+            <node begin="17" end="19" id="37" index="1" rel="su"/>
+            <node begin="19" cat="pp" end="21" id="38" rel="mod">
+              <node begin="19" end="20" frame="preposition(per,[])" id="39" lcat="pp" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" sense="per" vztype="init" word="per"/>
+              <node begin="20" end="21" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="40" lcat="np" lemma="uur" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="uur" sense="uur" special="tmp" word="uur"/>
+            </node>
+            <node begin="22" buiging="zonder" end="23" frame="verb(zijn,inf,ld_pp)" id="41" infl="inf" lcat="inf" lemma="landen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="land" sc="ld_pp" sense="land" word="landen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="24" cat="np" end="34" id="42" rel="sat">
+        <node begin="24" end="25" frame="number(hoofd(pl_num))" getal-n="zonder-n" graad="basis" id="43" infl="pl_num" lcat="np" lemma="706" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="pl" root="706" sense="706" special="hoofd" word="706"/>
+        <node begin="25" cat="pp" end="27" id="44" rel="mod">
+          <node begin="25" end="26" frame="preposition(in,[])" id="45" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="26" end="27" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="46" lcat="np" lemma="totaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="totaal" sense="totaal" word="totaal"/>
+        </node>
+        <node begin="28" cat="rel" end="34" id="47" rel="mod">
+          <node begin="28" case="no_obl" end="29" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="48" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="28" cat="ssub" end="34" id="49" rel="body">
+            <node begin="28" end="29" id="50" index="2" rel="su"/>
+            <node begin="32" end="33" frame="verb(hebben,past(pl),aux(inf))" id="51" infl="pl" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past" word="zouden" wvorm="pv"/>
+            <node begin="28" cat="inf" end="34" id="52" rel="vc">
+              <node begin="28" end="29" id="53" index="2" rel="su"/>
+              <node begin="29" cat="np" end="31" id="54" rel="obj1">
+                <node begin="29" end="30" frame="number(hoofd(pl_num))" id="55" infl="pl_num" lcat="detp" lemma="honderdduizend" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="honderdduizend" sense="honderdduizend" special="hoofd" word="honderdduizend"/>
+                <node begin="30" end="31" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="56" lcat="np" lemma="passagier" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="passagier" sense="passagier" word="passagiers"/>
+              </node>
+              <node begin="31" end="32" frame="particle(mee)" id="57" lcat="part" lemma="mee" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="mee" sense="mee" vztype="fin" word="mee"/>
+              <node begin="33" buiging="zonder" end="34" frame="verb(hebben,inf,part_transitive(mee))" id="58" infl="inf" lcat="inf" lemma="mee_brengen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="breng_mee" sc="part_transitive(mee)" sense="breng_mee" word="brengen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" frame="punct(punt)" id="59" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Volgens het Spaanse luchthavenbedrijf , AENA , hadden er gisteren alleen al op de luchthaven van Palma 25 vliegtuigen per uur moeten landen , 706 in totaal , die honderdduizend passagiers mee zouden brengen .</sentence>
+  <comments>
+    <comment>Q#14|Volgens het Spaanse luchthavenbedrijf , AENA , hadden er gisteren alleen al op de luchthaven van Palma 25 vliegtuigen per uur moeten landen , 706 in totaal , die honderdduizend passagiers mee zouden brengen .|1|1|0.36635376528000285</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="2" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="Hij"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,ap_pred_refl)" id="3" infl="sg3" lcat="smain" lemma="melden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="meld" sc="ap_pred_refl" sense="zich-meld" stype="declarative" tense="present" word="meldt" wvorm="pv"/>
+      <node begin="2" end="3" frame="reflexive(u_thi,both)" getal="getal" id="4" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+      <node aform="base" begin="3" end="4" frame="adjective(pred(adv))" id="5" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wel"/>
+      <node begin="4" end="5" frame="adverb" id="6" lcat="advp" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" sense="weer" word="weer"/>
+      <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(pred(nonadv))" graad="basis" id="7" infl="pred" lcat="ap" lemma="aan" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="aan" sense="aan" vform="adj" word="aan"/>
+      <node begin="6" cat="pp" end="17" id="8" rel="mod">
+        <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="9" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="7" cat="np" end="17" id="10" rel="obj1">
+          <node begin="7" end="8" frame="determiner(de)" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="kandidaat_lijst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kandidaat_lijst" sense="kandidaat_lijst" word="kandidatenlijst"/>
+          <node begin="9" cat="pp" end="12" id="13" rel="mod">
+            <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="10" cat="np" end="12" id="15" rel="obj1">
+              <node begin="10" end="11" frame="determiner(de)" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="11" end="12" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="PvdA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="PvdA" sense="PvdA" word="PvdA"/>
+            </node>
+          </node>
+          <node begin="12" cat="pp" end="15" id="18" rel="mod">
+            <node begin="12" end="13" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="19" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="13" cat="np" end="15" id="20" rel="obj1">
+              <node begin="13" end="14" frame="determiner(de)" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="22" lcat="np" lemma="verkiezing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="verkiezing" sense="verkiezing" word="verkiezingen"/>
+            </node>
+          </node>
+          <node begin="15" cat="np" end="17" id="23" rel="mod">
+            <node aform="base" begin="15" buiging="zonder" end="16" frame="adjective(end(both))" id="24" infl="no_e" lcat="ppres" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="volg" sense="volg" vform="gerund" word="volgend" wvorm="od"/>
+            <node begin="16" end="17" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="25" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Hij meldt zich wel weer aan voor de kandidatenlijst van de PvdA voor de verkiezingen volgend jaar .</sentence>
+  <comments>
+    <comment>Q#9|Hij meldt zich wel weer aan voor de kandidatenlijst van de PvdA voor de verkiezingen volgend jaar .|1|1|-0.9476945974600044</comment>
+  </comments>
+</alpino_ds>

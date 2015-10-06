@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="36" id="0" rel="top">
+    <node begin="0" cat="smain" end="35" id="1" rel="--">
+      <node begin="0" cat="pp" end="9" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(met,[mee,[en,al]])" id="3" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="Met"/>
+        <node begin="1" cat="np" end="9" id="4" rel="obj1">
+          <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="5" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="6" lcat="np" lemma="onderzoek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="onderzoek" sense="onderzoek" word="onderzoek"/>
+          <node begin="3" cat="pp" end="9" id="7" rel="mod">
+            <node begin="3" end="4" frame="preposition(naar,[toe])" id="8" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+            <node begin="4" cat="np" end="9" id="9" rel="obj1">
+              <node begin="4" end="5" frame="determiner(de)" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="5" end="6" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="bruikbaarheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bruikbaarheid" sense="bruikbaarheid" word="bruikbaarheid"/>
+              <node begin="6" cat="pp" end="9" id="12" rel="mod">
+                <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="13" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="7" cat="np" end="9" id="14" rel="obj1">
+                  <node begin="7" end="8" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="polygraaf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="polygraaf" sense="polygraaf" word="polygraaf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" frame="verb(hebben,sg3,vp)" id="17" infl="sg3" lcat="smain" lemma="hopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoop" sc="vp" sense="hoop" stype="declarative" tense="present" word="hoopt" wvorm="pv"/>
+      <node begin="10" cat="np" end="12" id="18" index="1" rel="su">
+        <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="onderzoeker" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="onderzoeker" sense="onderzoeker" word="onderzoeker"/>
+        <node begin="11" end="12" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="Buschman" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Buschman" sense="Buschman" word="Buschman"/>
+      </node>
+      <node begin="10" cat="ti" end="35" id="21" rel="vc">
+        <node begin="13" end="14" frame="complementizer(te)" id="22" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="10" cat="inf" end="35" id="23" rel="body">
+          <node begin="10" end="12" id="24" index="1" rel="su"/>
+          <node begin="14" buiging="zonder" end="15" frame="verb('hebben/zijn',inf,aux(inf))" id="25" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+          <node begin="10" cat="inf" end="35" id="26" rel="vc">
+            <node begin="10" end="12" id="27" index="1" rel="su"/>
+            <node aform="compar" begin="12" buiging="zonder" end="13" frame="adjective(er(adv))" graad="comp" id="28" infl="no_e" lcat="ap" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="goed" sense="goed" vform="adj" word="beter"/>
+            <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,sbar)" id="29" infl="inf" lcat="inf" lemma="voorspellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voorspel" sc="sbar" sense="voorspel" word="voorspellen" wvorm="inf"/>
+            <node begin="16" cat="whsub" end="35" id="30" rel="vc">
+              <node begin="16" cat="pp" end="18" id="31" index="2" rel="whd">
+                <node begin="16" end="17" frame="preposition(in,[])" id="32" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="17" end="18" frame="wh_adverb" id="33" lcat="advp" lemma="hoeverre" pos="adv" postag="BW()" pt="bw" rel="obj1" root="hoeverre" sense="hoeverre" wh="ywh" word="hoeverre"/>
+              </node>
+              <node begin="16" cat="ssub" end="35" id="34" rel="body">
+                <node begin="16" end="18" id="35" index="2" rel="mod"/>
+                <node begin="18" cat="np" end="20" id="36" rel="su">
+                  <node begin="18" end="19" frame="determiner(een)" id="37" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="38" lcat="np" lemma="zede_delinquent" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zede_delinquent" sense="zede_delinquent" word="zedendelinquent"/>
+                </node>
+                <node begin="20" cat="pp" end="23" id="39" rel="mod">
+                  <node begin="20" end="21" frame="preposition(na,[])" id="40" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+                  <node begin="21" cat="np" end="23" id="41" rel="obj1">
+                    <node begin="21" buiging="zonder" end="22" frame="determiner(pron)" getal="ev" id="42" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                    <node begin="22" end="23" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="43" lcat="np" lemma="tbs" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tbs" sense="tbs" word="tbs"/>
+                  </node>
+                </node>
+                <node begin="23" cat="np" end="26" id="44" rel="obj1">
+                  <node begin="23" end="24" frame="determiner(een)" id="45" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node aform="base" begin="24" buiging="zonder" end="25" frame="adjective(no_e(adv))" graad="basis" id="46" infl="no_e" lcat="ap" lemma="maatschappelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="maatschappelijk" sense="maatschappelijk" vform="adj" word="maatschappelijk"/>
+                  <node begin="25" end="26" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="47" lcat="np" lemma="risico" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="risico" sense="risico" word="risico"/>
+                </node>
+                <node begin="26" end="27" frame="verb(hebben,sg3,transitive)" id="48" infl="sg3" lcat="ssub" lemma="vormen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vorm" sc="transitive" sense="vorm" tense="present" word="vormt" wvorm="pv"/>
+                <node begin="27" cat="cp" end="35" id="49" rel="mod">
+                  <node begin="27" end="28" frame="complementizer(inf)" id="50" lcat="cp" lemma="door" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="door" sc="inf" sense="door" vztype="init" word="door"/>
+                  <node begin="28" cat="ti" end="35" id="51" rel="body">
+                    <node begin="29" end="30" frame="complementizer(te)" id="52" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                    <node begin="28" cat="inf" end="35" id="53" rel="body">
+                      <node begin="28" end="29" frame="particle(terug)" id="54" lcat="part" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" sense="terug" word="terug"/>
+                      <node begin="30" buiging="zonder" end="31" frame="verb(unacc,inf,part_ld_pp(terug))" id="55" infl="inf" lcat="inf" lemma="terug_vallen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="val_terug" sc="part_ld_pp(terug)" sense="val_terug" word="vallen" wvorm="inf"/>
+                      <node begin="31" cat="pp" end="35" id="56" rel="ld">
+                        <node begin="31" end="32" frame="preposition(in,[])" id="57" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                        <node begin="32" cat="np" end="35" id="58" rel="obj1">
+                          <node begin="32" buiging="zonder" end="33" frame="determiner(pron)" getal="ev" id="59" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                          <node aform="base" begin="33" buiging="met-e" end="34" frame="adjective(e)" graad="basis" id="60" infl="e" lcat="ap" lemma="crimineel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="crimineel" sense="crimineel" vform="adj" word="criminele"/>
+                          <node begin="34" end="35" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="61" lcat="np" lemma="gedrag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gedrag" sense="gedrag" word="gedrag"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="35" end="36" frame="punct(punt)" id="62" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Met het onderzoek naar de bruikbaarheid van de polygraaf hoopt onderzoeker Buschman beter te kunnen voorspellen in hoeverre een zedendelinquent na zijn tbs een maatschappelijk risico vormt door terug te vallen in zijn criminele gedrag .</sentence>
+  <comments>
+    <comment>Q#7|Met het onderzoek naar de bruikbaarheid van de polygraaf hoopt onderzoeker Buschman beter te kunnen voorspellen in hoeverre een zedendelinquent na zijn tbs een maatschappelijk risico vormt door terug te vallen in zijn criminele gedrag .|1|1|-10.151417589640005</comment>
+  </comments>
+</alpino_ds>

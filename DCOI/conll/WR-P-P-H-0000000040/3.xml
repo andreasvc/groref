@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="np" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(de)" id="2" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+      <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="3" lcat="np" lemma="ban" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ban" sense="ban" word="ban"/>
+      <node begin="2" cat="rel" end="11" id="4" rel="mod">
+        <node begin="2" case="no_obl" end="3" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="5" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+        <node begin="2" cat="ssub" end="11" id="6" rel="body">
+          <node begin="2" end="3" id="7" index="1" rel="su"/>
+          <node begin="7" end="8" frame="verb(hebben,sg3,aux(te))" id="8" infl="sg3" lcat="ssub" lemma="dienen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dien" sc="aux(te)" sense="dien" tense="present" word="dient" wvorm="pv"/>
+          <node begin="2" cat="ti" end="11" id="9" rel="vc">
+            <node begin="9" end="10" frame="complementizer(te)" id="10" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="2" cat="inf" end="11" id="11" rel="body">
+              <node begin="2" end="3" id="12" index="1" rel="su"/>
+              <node begin="2" cat="ppart" end="9" id="13" rel="vc">
+                <node begin="2" end="3" id="14" index="1" rel="obj1"/>
+                <node begin="3" end="4" frame="er_vp_adverb" getal="getal" id="15" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+                <node begin="4" end="5" frame="tmp_adverb" id="16" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" sense="nu" special="tmp" word="nu"/>
+                <node begin="5" cat="pp" end="7" id="17" rel="mod">
+                  <node begin="5" end="6" frame="preposition(op,[af,na])" id="18" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                  <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="rust" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="rust" sense="rust" word="rust"/>
+                </node>
+                <node begin="8" buiging="zonder" end="9" frame="verb(hebben,psp,transitive)" id="20" infl="psp" lcat="ppart" lemma="doorbreken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="doorbreek" sc="transitive" sense="doorbreek" word="doorbroken" wvorm="vd"/>
+              </node>
+              <node begin="10" buiging="zonder" end="11" frame="verb(unacc,inf,passive)" id="21" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="22" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De ban die er nu op rust dient doorbroken te worden .</sentence>
+  <comments>
+    <comment>Q#3|De ban die er nu op rust dient doorbroken te worden .|1|1|0.7260560487599965</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="9" id="2" rel="su">
+        <node begin="0" end="1" frame="modal_adverb" id="3" lcat="advp" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="mod" root="alleen" sc="modal" sense="alleen" word="Alleen"/>
+        <node begin="1" end="2" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="2" end="3" frame="number(rang)" id="5" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+        <node begin="3" end="4" frame="number(hoofd(pl_num))" id="6" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="7" lcat="np" lemma="ploeg" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="ploeg" sense="ploeg" word="ploegen"/>
+        <node begin="5" cat="pp" end="9" id="8" rel="mod">
+          <node begin="5" end="6" frame="preposition(uit,[vandaan])" id="9" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="6" cat="np" end="9" id="10" rel="obj1">
+            <node begin="6" end="7" frame="determiner(de)" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" id="12" infl="e" lcat="ap" lemma="Zuidamerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Zuidamerikaans" sense="Zuidamerikaans" vform="adj" word="Zuid-Amerikaanse"/>
+            <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="poule" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="poule" sense="poule" word="poule"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" frame="verb(hebben,pl,refl_pc_pp(voor))" id="14" infl="pl" lcat="smain" lemma="plaatsen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="plaats" sc="refl_pc_pp(voor)" sense="zich-plaats-voor" stype="declarative" tense="present" word="plaatsen" wvorm="pv"/>
+      <node begin="10" end="11" frame="reflexive(u_thi,both)" getal="getal" id="15" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="11" cat="pp" end="14" id="16" rel="pc">
+        <node begin="11" end="12" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="17" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="12" cat="np" end="14" id="18" rel="obj1">
+          <node begin="12" end="13" frame="determiner(de)" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="eindronde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="eindronde" sense="eindronde" word="eindronde"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Alleen de eerste vier ploegen uit de Zuid-Amerikaanse poule plaatsen zich voor de eindronde .</sentence>
+  <comments>
+    <comment>Q#7|Alleen de eerste vier ploegen uit de Zuid-Amerikaanse poule plaatsen zich voor de eindronde .|1|1|-9.087021709919998</comment>
+  </comments>
+</alpino_ds>

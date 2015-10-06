@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="Konmar" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Konmar" sense="Konmar" word="Konmar"/>
+        <node begin="1" cat="np" end="3" id="5" rel="mod">
+          <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="6" infl="e" lcat="ap" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" sense="oud" vform="adj" word="oude"/>
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="stijl" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stijl" sense="stijl" word="stijl"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,past(sg),copula)" id="8" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="4" cat="conj" end="17" id="9" rel="predc">
+        <node begin="4" cat="np" end="11" id="10" rel="cnj">
+          <node begin="4" end="5" frame="modal_adverb" id="11" lcat="advp" lemma="slechts" pos="adv" postag="BW()" pt="bw" rel="mod" root="slechts" sc="modal" sense="slechts" word="slechts"/>
+          <node begin="5" end="6" frame="determiner(een)" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" id="13" infl="no_e" lcat="ap" lemma="klein" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="klein" sense="klein" vform="adj" word="klein"/>
+          <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="14" lcat="np" lemma="onderdeel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="onderdeel" sense="onderdeel" word="onderdeel"/>
+          <node begin="8" cat="pp" end="11" id="15" rel="mod">
+            <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="11" id="17" rel="obj1">
+              <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="19" lcat="np" lemma="Laurus_concern" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Laurus_concern" sense="Laurus_concern" word="Laurusconcern"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" conjtype="neven" end="13" frame="conj(maar)" id="20" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+        <node begin="13" cat="np" end="17" id="21" rel="cnj">
+          <node aform="base" begin="13" end="14" frame="adjective(pred(adv))" id="22" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wel"/>
+          <node begin="14" end="15" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="super" begin="15" buiging="zonder" end="16" frame="adjective(st(adv))" graad="sup" id="24" infl="no_e" lcat="ap" lemma="meest" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,sup)" pt="vnw" rel="mod" root="meest" sense="meest" vform="adj" vwtype="onbep" word="meest"/>
+          <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" getal-n="zonder-n" graad="basis" id="25" infl="e" lcat="np" lemma="succesvol" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" rnum="sg" root="succesvol" sense="succesvol" vform="adj" word="succesvolle"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Konmar oude stijl was slechts een klein onderdeel van het Laurusconcern , maar wel de meest succesvolle .</sentence>
+  <comments>
+    <comment>Q#13|Konmar oude stijl was slechts een klein onderdeel van het Laurusconcern , maar wel de meest succesvolle .|1|1|-4.629002196239998</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="2" index="1" lcat="np" lemma="Wijngaards" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Wijngaards" sense="Wijngaards" word="Wijngaards"/>
+      <node begin="1" end="2" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" id="3" infl="modal_not_u" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" stype="declarative" tense="present" word="wil" wvorm="pv"/>
+      <node begin="0" cat="inf" end="11" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" cat="np" end="10" id="6" rel="obj1">
+          <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="3" end="4" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="8" lcat="np" lemma="verzet" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verzet" sense="verzet" word="verzet"/>
+          <node begin="4" cat="pp" end="10" id="9" rel="mod">
+            <node begin="4" end="5" frame="preposition(tegen,[aan,in,op])" id="10" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+            <node begin="5" cat="np" end="10" id="11" rel="obj1">
+              <node begin="5" end="6" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="vrouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrouw" sense="vrouw" word="vrouw"/>
+              <node begin="7" cat="pp" end="10" id="14" rel="mod">
+                <node begin="7" end="8" frame="preposition(in,[])" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="8" cat="np" end="10" id="16" rel="obj1">
+                  <node begin="8" end="9" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="17" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="9" end="10" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="18" lcat="np" lemma="priester_ambt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="priester_ambt" sense="priester_ambt" word="priesterambt"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,transitive)" id="19" infl="inf" lcat="inf" lemma="ontmantelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ontmantel" sc="transitive" sense="ontmantel" word="ontmantelen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Wijngaards wil het verzet tegen de vrouw in het priesterambt ontmantelen .</sentence>
+  <comments>
+    <comment>Q#49|Wijngaards wil het verzet tegen de vrouw in het priesterambt ontmantelen .|1|1|-2.147141856179998</comment>
+  </comments>
+</alpino_ds>

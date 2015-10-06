@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="14" end="15" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" end="1" frame="tmp_adverb" id="4" lcat="advp" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" sense="vandaag" special="tmp" word="Vandaag"/>
+      <node begin="1" end="2" frame="verb(zijn,sg3,ld_pp)" id="5" infl="sg3" lcat="smain" lemma="komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom" sc="ld_pp" sense="kom" stype="declarative" tense="present" word="komt" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="6" rel="su">
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="manager" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="manager" sense="manager" word="manager"/>
+        <node begin="3" cat="mwu" end="5" id="8" mwu_root="John Wordin" mwu_sense="John Wordin" rel="app">
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="John" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="John" sense="John" spectype="deeleigen" word="John"/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="10" lcat="np" lemma="Wordin" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wordin" sense="Wordin" spectype="deeleigen" word="Wordin"/>
+        </node>
+      </node>
+      <node begin="5" cat="pp" end="7" id="11" rel="ld">
+        <node begin="5" end="6" frame="preposition(naar,[toe])" id="12" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+        <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="Nederland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Nederland" sense="Nederland" word="Nederland"/>
+      </node>
+      <node begin="7" cat="oti" end="18" id="14" rel="mod">
+        <node begin="7" end="8" frame="complementizer(om)" id="15" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="8" cat="ti" end="18" id="16" rel="body">
+          <node begin="16" end="17" frame="complementizer(te)" id="17" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="8" cat="inf" end="18" id="18" rel="body">
+            <node begin="8" cat="conj" end="14" id="19" rel="obj2">
+              <node begin="8" case="dat_acc" def="def" end="9" frame="pronoun(nwh,thi,sg,de,dat_acc,def)" gen="de" genus="masc" getal="ev" id="20" lcat="np" lemma="hem" naamval="obl" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="cnj" rnum="sg" root="hem" sense="hem" status="vol" vwtype="pers" wh="nwh" word="hem"/>
+              <node begin="10" conjtype="neven" end="11" frame="conj(en)" id="21" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="11" cat="np" end="14" id="22" rel="cnj">
+                <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="ploeg_leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ploeg_leider" sense="ploeg_leider" word="ploegleider"/>
+                <node begin="12" cat="mwu" end="14" id="24" mwu_root="Johan Lammerts" mwu_sense="Johan Lammerts" rel="app">
+                  <node begin="12" end="13" frame="proper_name(sg,'PER')" id="25" lcat="np" lemma="Johan" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Johan" sense="Johan" spectype="deeleigen" word="Johan"/>
+                  <node begin="13" end="14" frame="proper_name(sg,'PER')" id="26" lcat="np" lemma="Lammerts" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Lammerts" sense="Lammerts" spectype="deeleigen" word="Lammerts"/>
+                </node>
+              </node>
+            </node>
+            <node begin="15" end="16" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="uitleg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="uitleg" sense="uitleg" word="uitleg"/>
+            <node begin="17" buiging="zonder" end="18" frame="verb(hebben,inf,np_np)" id="28" infl="inf" lcat="inf" lemma="verschaffen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verschaf" sc="np_np" sense="verschaf" word="verschaffen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Vandaag komt manager John Wordin naar Nederland om hem , en ploegleider Johan Lammerts , uitleg te verschaffen .</sentence>
+  <comments>
+    <comment>Q#62|Vandaag komt manager John Wordin naar Nederland om hem , en ploegleider Johan Lammerts , uitleg te verschaffen .|1|1|-6.661904722520003</comment>
+  </comments>
+</alpino_ds>

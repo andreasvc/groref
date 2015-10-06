@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" id="2" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="Ik"/>
+      <node begin="1" end="2" frame="verb(hebben,sg1,pred_np)" id="3" infl="sg1" lcat="smain" lemma="vinden" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="vind" sc="pred_np" sense="vind" stype="declarative" tense="present" word="vind" wvorm="pv"/>
+      <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="4" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+      <node begin="3" end="4" frame="sentence_adverb" id="5" lcat="advp" lemma="soms" pos="adv" postag="BW()" pt="bw" rel="mod" root="soms" sense="soms" special="sentence" word="soms"/>
+      <node begin="4" cat="ppres" end="6" id="6" rel="predc">
+        <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" id="7" infl="no_e" lcat="ap" lemma="gewoon" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gewoon" sense="gewoon" vform="adj" word="gewoon"/>
+        <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(end(both))" id="8" infl="no_e" lcat="ppres" lemma="beledigen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="beledig" sense="beledig" vform="gerund" word="beledigend" wvorm="od"/>
+      </node>
+      <node begin="6" cat="pp" end="8" id="9" rel="mod">
+        <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="7" case="dat_acc" def="def" end="8" frame="pronoun(nwh,fir,both,de,dat_acc,def)" gen="de" getal="ev" id="11" lcat="np" lemma="mezelf" naamval="obl" num="both" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pr,pron,obl,nadr,1,ev)" pt="vnw" rel="obj1" rnum="sg" root="mezelf" sense="mezelf" status="nadr" vwtype="pr" wh="nwh" word="mezelf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" id="12" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Ik vind het soms gewoon beledigend voor mezelf .</sentence>
+  <comments>
+    <comment>Q#14|Ik vind het soms gewoon beledigend voor mezelf .|1|1|-0.9350824867799988</comment>
+  </comments>
+</alpino_ds>

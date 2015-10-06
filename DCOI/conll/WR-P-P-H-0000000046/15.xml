@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" case="both" def="def" end="1" frame="pronoun(nwh,je,sg,de,both,def,wkpro)" gen="de" getal="ev" id="2" lcat="np" lemma="je" naamval="nomin" num="sg" pdtype="pron" per="je" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" rnum="sg" root="je" sense="je" special="wkpro" status="red" vwtype="pers" wh="nwh" word="Je"/>
+      <node begin="1" end="2" frame="verb(zijn,sg,part_pc_pp(op,met))" id="3" infl="sg" lcat="smain" lemma="op_schieten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="schiet_op" sc="part_pc_pp(op,met)" sense="schiet_op-met" stype="declarative" tense="present" word="schiet" wvorm="pv"/>
+      <node begin="3" end="4" frame="sentence_adverb" id="4" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+      <node begin="4" end="5" frame="meas_mod_noun(het,mass,sg)" gen="het" getal="ev" id="5" lcat="np" lemma="niets" naamval="stan" num="sg" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="mod" rnum="sg" root="niets" sense="niets" special="meas_mod" status="vol" vwtype="onbep" word="niets"/>
+      <node begin="2" cat="pp" end="6" id="6" rel="pc">
+        <node begin="2" end="3" frame="er_vp_adverb" getal="getal" id="7" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="5" end="6" frame="preposition(met,[mee],extracted_np)" id="8" lcat="pp" lemma="met" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="met" sc="extracted_np" sense="met" vztype="fin" word="mee"/>
+      </node>
+      <node begin="6" end="7" frame="particle(op)" id="9" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+    </node>
+    <node begin="7" end="8" frame="punct(punt)" id="10" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Je schiet er ook niets mee op .</sentence>
+  <comments>
+    <comment>Q#15|Je schiet er ook niets mee op .|1|1|-7.38813350958</comment>
+  </comments>
+</alpino_ds>

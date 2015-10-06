@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="2" end="3" frame="verb(hebben,sg3,aux(te_inf))" id="2" infl="sg3" lcat="smain" lemma="hoeven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoef" sc="aux(te_inf)" sense="hoef" stype="declarative" tense="present" word="hoeft" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="3" buiging="met-e" end="4" frame="determiner(de,nwh,nmod,pro,nparg)" id="4" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="deze"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="ontwikkeling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ontwikkeling" sense="ontwikkeling" word="ontwikkeling"/>
+      </node>
+      <node begin="0" cat="ti" end="15" id="6" rel="vc">
+        <node begin="7" end="8" frame="complementizer(te)" id="7" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="15" id="8" rel="body">
+          <node begin="0" cat="pp" end="2" id="9" rel="mod">
+            <node begin="0" end="1" frame="preposition(op,[af,na])" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="Op"/>
+            <node begin="1" case="dat_acc" def="def" end="2" frame="pronoun(nwh,thi,both,de,dat_acc,def,wkpro)" gen="de" getal="getal" id="11" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" rnum="sg" root="zich" sense="zich" special="wkpro" status="red" vwtype="refl" wh="nwh" word="zich"/>
+          </node>
+          <node begin="3" end="5" id="12" index="1" rel="su"/>
+          <node begin="8" buiging="zonder" end="9" frame="verb(unacc,inf,copula)" id="13" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="copula" sense="ben" word="zijn" wvorm="inf"/>
+          <node begin="5" cat="np" end="15" id="14" rel="predc">
+            <node begin="5" buiging="zonder" end="6" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" id="15" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="bedreiging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bedreiging" sense="bedreiging" word="bedreiging"/>
+            <node begin="9" cat="pp" end="15" id="17" rel="mod">
+              <node begin="9" end="10" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="18" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+              <node begin="10" cat="np" end="15" id="19" rel="obj1">
+                <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="20" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="11" end="12" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="21" lcat="np" lemma="vakantie_weer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vakantie_weer" sense="vakantie_weer" word="vakantieweer"/>
+                <node begin="12" cat="pp" end="15" id="22" rel="mod">
+                  <node begin="12" end="13" frame="preposition(in,[])" id="23" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="13" cat="np" end="15" id="24" rel="obj1">
+                    <node begin="13" buiging="met-e" end="14" frame="determiner(onze)" getal="mv" id="25" infl="onze" lcat="detp" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="ons" sense="ons" status="vol" vwtype="bez" word="onze"/>
+                    <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="26" lcat="np" lemma="streek" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="streek" sense="streek" word="streken"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Op zich hoeft deze ontwikkeling geen bedreiging te zijn voor het vakantieweer in onze streken .</sentence>
+  <comments>
+    <comment>Q#2|Op zich hoeft deze ontwikkeling geen bedreiging te zijn voor het vakantieweer in onze streken .|1|1|0.2138546915199957</comment>
+  </comments>
+</alpino_ds>

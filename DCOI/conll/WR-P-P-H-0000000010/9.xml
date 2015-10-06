@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="priester" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="priester" sense="priester" word="priester"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),modifier(aux(inf)))" id="6" infl="sg" lcat="smain" lemma="mogen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" tense="past" word="mocht" wvorm="pv"/>
+      <node begin="0" cat="conj" end="16" id="7" rel="vc">
+        <node begin="0" cat="inf" end="6" id="8" rel="cnj">
+          <node begin="0" end="2" id="9" index="1" rel="su"/>
+          <node begin="3" case="dat_acc" def="def" end="4" frame="pronoun(nwh,thi,both,de,dat_acc,def)" gen="de" getal="getal" id="10" lcat="np" lemma="zichzelf" naamval="obl" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,nadr,3,getal)" pt="vnw" rel="obj1" rnum="sg" root="zichzelf" sense="zichzelf" status="nadr" vwtype="refl" wh="nwh" word="zichzelf"/>
+          <node begin="4" end="5" frame="adverb" id="11" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="5" buiging="zonder" end="6" frame="verb(hebben,inf,transitive)" id="12" infl="inf" lcat="inf" lemma="herhalen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="herhaal" sc="transitive" sense="herhaal" word="herhalen" wvorm="inf"/>
+        </node>
+        <node begin="0" cat="inf" end="10" id="13" rel="cnj">
+          <node begin="0" end="2" id="14" index="1" rel="su"/>
+          <node begin="7" cat="np" end="9" id="15" rel="obj1">
+            <node begin="7" buiging="zonder" end="8" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" id="16" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+            <node begin="8" end="9" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="onzin" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="onzin" sense="onzin" word="onzin"/>
+          </node>
+          <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,ninv(transitive,part_transitive(uit)))" id="18" infl="inf" lcat="inf" lemma="uit_slaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="sla_uit" sc="part_transitive(uit)" sense="sla_uit" word="uitslaan" wvorm="inf"/>
+        </node>
+        <node begin="10" conjtype="neven" end="11" frame="conj(of)" id="19" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+        <node begin="0" cat="inf" end="16" id="20" rel="cnj">
+          <node begin="0" end="2" id="21" index="1" rel="su"/>
+          <node begin="11" cat="ap" end="15" id="22" rel="mod">
+            <node aform="compar" begin="11" buiging="zonder" end="12" frame="adjective(er(tmpadv))" graad="comp" id="23" infl="no_e" lcat="ap" lemma="lang" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="lang" sense="lang" vform="adj" word="langer"/>
+            <node begin="12" cat="cp" end="15" id="24" rel="obcomp">
+              <node begin="12" conjtype="onder" end="13" frame="comparative(dan)" id="25" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+              <node begin="13" cat="np" end="15" id="26" rel="body">
+                <node begin="13" end="14" frame="number(hoofd(pl_num))" id="27" infl="pl_num" lcat="detp" lemma="tien" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="tien" sense="tien" special="hoofd" word="tien"/>
+                <node begin="14" end="15" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="28" lcat="np" lemma="seconde" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="seconde" sense="seconde" special="tmp" word="seconden"/>
+              </node>
+            </node>
+          </node>
+          <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,intransitive)" id="29" infl="inf" lcat="inf" lemma="pauzeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="pauzeer" sc="intransitive" sense="pauzeer" word="pauzeren" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="30" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De priester mocht zichzelf niet herhalen , geen onzin uitslaan of langer dan tien seconden pauzeren .</sentence>
+  <comments>
+    <comment>Q#9|De priester mocht zichzelf niet herhalen , geen onzin uitslaan of langer dan tien seconden pauzeren .|1|1|0.2404973008200041</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="50" id="0" rel="top">
+    <node begin="10" end="11" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="21" end="22" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="26" end="27" frame="punct(haak_open)" id="3" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="28" end="29" frame="punct(haak_sluit)" id="4" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="conj" end="49" id="5" rel="--">
+      <node begin="0" cat="smain" end="10" id="6" rel="cnj">
+        <node begin="0" cat="np" end="2" id="7" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="herdenking_dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="herdenking_dag" sense="herdenking_dag" special="tmp" word="herdenkingsdag"/>
+        </node>
+        <node begin="2" end="3" frame="verb(unacc,past(sg),passive)" id="10" infl="sg" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werd" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="10" id="11" rel="vc">
+          <node begin="0" end="2" id="12" index="1" rel="obj1"/>
+          <node begin="3" end="4" frame="sentence_adverb" id="13" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+          <node begin="4" cat="pp" end="9" id="14" rel="mod">
+            <node begin="4" end="5" frame="preposition(in,[])" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="5" cat="conj" end="9" id="16" rel="obj1">
+              <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="Amsterdam" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Amsterdam" sense="Amsterdam" word="Amsterdam"/>
+              <node begin="6" conjtype="neven" end="7" frame="conj(en)" id="18" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="7" cat="mwu" end="9" id="19" mwu_root="Den Haag" mwu_sense="Den Haag" rel="cnj">
+                <node begin="7" end="8" frame="proper_name(sg,'LOC')" id="20" lcat="np" lemma="Den" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Den" sense="Den" spectype="deeleigen" word="Den"/>
+                <node begin="8" end="9" frame="proper_name(sg,'LOC')" id="21" lcat="np" lemma="Haag" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Haag" sense="Haag" spectype="deeleigen" word="Haag"/>
+              </node>
+            </node>
+          </node>
+          <node begin="9" buiging="zonder" end="10" frame="verb(hebben,psp,transitive)" id="22" infl="psp" lcat="ppart" lemma="vieren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vier" sc="transitive" sense="vier" word="gevierd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" frame="conj(maar)" id="23" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="12" cat="smain" end="49" id="24" rel="cnj">
+        <node begin="12" cat="np" end="16" id="25" rel="su">
+          <node begin="12" end="13" frame="determiner(de)" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="bijeenkomst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bijeenkomst" sense="bijeenkomst" word="bijeenkomst"/>
+          <node begin="14" cat="pp" end="16" id="28" rel="mod">
+            <node begin="14" end="15" frame="preposition(in,[])" id="29" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="15" end="16" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="30" lcat="np" lemma="Rotterdam" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Rotterdam" sense="Rotterdam" word="Rotterdam"/>
+          </node>
+        </node>
+        <node begin="16" end="17" frame="verb(unacc,past(sg),copula)" id="31" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+        <node begin="17" cat="np" end="19" id="32" rel="mod">
+          <node begin="17" buiging="zonder" end="18" frame="determiner(het,nwh,nmod,pro,nparg)" id="33" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+          <node begin="18" end="19" frame="tmp_noun(de,count,meas)" gen="de" genus="genus" getal="ev" graad="basis" id="34" lcat="np" lemma="keer" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" rnum="sg" root="keer" sense="keer" special="tmp" word="keer"/>
+        </node>
+        <node begin="19" cat="np" end="49" id="35" rel="predc">
+          <node begin="19" end="20" frame="determiner(de)" id="36" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="super" begin="20" buiging="met-e" end="21" frame="adjective(ste)" getal-n="zonder-n" graad="sup" id="37" infl="e" lcat="np" lemma="belangrijk" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,sup,met-e,zonder-n,stan)" pt="adj" rel="hd" rnum="sg" root="belangrijk" sense="belangrijk" vform="adj" word="belangrijkste"/>
+          <node begin="22" cat="cp" end="49" id="38" rel="mod">
+            <node begin="22" conjtype="onder" end="23" frame="complementizer" id="39" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="omdat"/>
+            <node begin="23" cat="ssub" end="49" id="40" rel="body">
+              <node begin="23" cat="np" end="28" id="41" rel="su">
+                <node begin="23" end="24" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="42" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+                <node begin="24" cat="mwu" end="26" id="43" mwu_root="van Boxtel" mwu_sense="van Boxtel" rel="app">
+                  <node begin="24" end="25" frame="proper_name(sg,'PER')" id="44" lcat="np" lemma="van" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="van" sense="van" spectype="deeleigen" word="van"/>
+                  <node begin="25" end="26" frame="proper_name(sg,'PER')" id="45" lcat="np" lemma="Boxtel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Boxtel" sense="Boxtel" spectype="deeleigen" word="Boxtel"/>
+                </node>
+                <node begin="27" end="28" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="46" lcat="np" lemma="integratie_zaak" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="integratie_zaak" sense="integratie_zaak" word="integratiezaken"/>
+              </node>
+              <node begin="29" end="30" frame="er_vp_adverb" getal="getal" id="47" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+              <node aform="base" begin="30" buiging="zonder" end="31" frame="adjective(postn_no_e(adv),subject_sbar_no_het)" graad="basis" id="48" infl="no_e" lcat="ap" lemma="bekend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="bekend" sc="subject_sbar_no_het" sense="bekend" vform="adj" word="bekend"/>
+              <node begin="31" end="32" frame="verb(hebben,past(sg),pred_np_sbar)" id="49" infl="sg" lcat="ssub" lemma="maken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="maak" sc="pred_np_sbar" sense="maak" tense="past" word="maakte" wvorm="pv"/>
+              <node begin="32" cat="whsub" end="41" id="50" rel="vc">
+                <node begin="32" cat="np" end="34" id="51" index="2" rel="whd">
+                  <node begin="32" buiging="met-e" end="33" frame="determiner(welke,rwh,nmod,pro,yparg)" id="52" infl="welke" lcat="detp" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" sense="welk" vwtype="vb" wh="rwh" word="welke"/>
+                  <node begin="33" end="34" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="53" lcat="np" lemma="kunstenaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kunstenaar" sense="kunstenaar" word="kunstenaar"/>
+                </node>
+                <node begin="32" cat="ssub" end="41" id="54" rel="body">
+                  <node begin="32" end="34" id="55" index="2" rel="su"/>
+                  <node begin="39" end="40" frame="verb(hebben,past(sg),aux_psp_hebben)" id="56" infl="sg" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past" word="had" wvorm="pv"/>
+                  <node begin="32" cat="ppart" end="41" id="57" rel="vc">
+                    <node begin="32" end="34" id="58" index="2" rel="su"/>
+                    <node begin="34" cat="np" end="36" id="59" rel="obj1">
+                      <node begin="34" end="35" frame="determiner(de)" id="60" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="35" end="36" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="61" lcat="np" lemma="opdracht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="opdracht" sense="opdracht" word="opdracht"/>
+                    </node>
+                    <node begin="36" cat="mwu" end="39" id="62" mwu_root="in de wacht" mwu_sense="in de wacht" rel="svp">
+                      <node begin="36" end="37" frame="fixed_part([in,de,wacht])" id="63" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+                      <node begin="37" end="38" frame="fixed_part([in,de,wacht])" id="64" lcat="fixed" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="fixed" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" sense="de" word="de"/>
+                      <node begin="38" end="39" frame="fixed_part([in,de,wacht])" genus="zijd" getal="ev" graad="basis" id="65" lcat="fixed" lemma="wacht" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="wacht" sense="wacht" word="wacht"/>
+                    </node>
+                    <node begin="40" buiging="zonder" end="41" frame="verb(hebben,psp,fixed([[in,de,wacht],acc],norm_passive))" id="66" infl="psp" lcat="ppart" lemma="slepen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sleep" sc="fixed([[in,de,wacht],acc],norm_passive)" sense="in-de-wacht-sleep" word="gesleept" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="41" cat="pp" end="49" id="67" rel="mod">
+                <node begin="41" end="42" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="68" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                <node begin="42" cat="np" end="49" id="69" rel="obj1">
+                  <node begin="42" end="43" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="70" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="43" buiging="zonder" end="44" frame="v_noun(intransitive)" getal-n="zonder-n" id="71" lcat="np" lemma="maken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="maak" sc="intransitive" sense="maak" special="v_noun" word="maken" wvorm="inf"/>
+                  <node begin="44" cat="pp" end="49" id="72" rel="mod">
+                    <node begin="44" end="45" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="73" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="45" cat="np" end="49" id="74" rel="obj1">
+                      <node begin="45" end="46" frame="determiner(een)" id="75" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                      <node begin="46" cat="mwu" end="49" id="76" mwu_root="Nationaal Monument Slavernijverleden" mwu_sense="Nationaal Monument Slavernijverleden" rel="hd">
+                        <node begin="46" end="47" frame="proper_name(sg,'ORG')" id="77" lcat="np" lemma="Nationaal" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nationaal" sense="Nationaal" spectype="deeleigen" word="Nationaal"/>
+                        <node begin="47" end="48" frame="proper_name(sg,'ORG')" id="78" lcat="np" lemma="Monument" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Monument" sense="Monument" spectype="deeleigen" word="Monument"/>
+                        <node begin="48" end="49" frame="proper_name(sg,'ORG')" id="79" lcat="np" lemma="Slavernijverleden" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Slavernijverleden" sense="Slavernijverleden" spectype="deeleigen" word="Slavernijverleden"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="49" end="50" frame="punct(punt)" id="80" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De herdenkingsdag werd ook in Amsterdam en Den Haag gevierd , maar de bijeenkomst in Rotterdam was dit keer de belangrijkste , omdat minister van Boxtel ( integratiezaken ) er bekend maakte welke kunstenaar de opdracht in de wacht had gesleept voor het maken van een Nationaal Monument Slavernijverleden .</sentence>
+  <comments>
+    <comment>Q#10|De herdenkingsdag werd ook in Amsterdam en Den Haag gevierd , maar de bijeenkomst in Rotterdam was dit keer de belangrijkste , omdat minister van Boxtel ( integratiezaken ) er bekend maakte welke kunstenaar de opdracht in de wacht had gesleept voor het maken van een Nationaal Monument Slavernijverleden .|1|1|-19.291565219600006</comment>
+  </comments>
+</alpino_ds>

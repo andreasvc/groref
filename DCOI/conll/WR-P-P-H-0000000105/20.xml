@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" case="both" def="def" end="1" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" genus="fem" getal="ev" id="2" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" rnum="sg" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="Ze"/>
+      <node begin="1" end="2" frame="verb(zijn,past(sg),ld_pp)" id="3" infl="sg" lcat="smain" lemma="verhuizen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verhuis" sc="ld_pp" sense="verhuis" stype="declarative" tense="past" word="verhuisde" wvorm="pv"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="6" lcat="np" lemma="Schijndel" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Schijndel" sense="Schijndel" word="Schijndel"/>
+      </node>
+      <node begin="4" cat="pp" end="6" id="7" rel="ld">
+        <node begin="4" end="5" frame="preposition(naar,[toe])" id="8" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+        <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="9" lcat="np" lemma="Rotterdam" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Rotterdam" sense="Rotterdam" word="Rotterdam"/>
+      </node>
+      <node begin="6" cat="oti" end="14" id="10" rel="mod">
+        <node begin="6" end="7" frame="complementizer(om)" id="11" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="7" cat="ti" end="14" id="12" rel="body">
+          <node begin="11" end="12" frame="complementizer(te)" id="13" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="7" cat="inf" end="14" id="14" rel="body">
+            <node begin="12" buiging="zonder" end="13" frame="verb('hebben/zijn',inf,aux(inf))" id="15" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+            <node begin="7" cat="inf" end="14" id="16" rel="vc">
+              <node aform="compar" begin="7" buiging="zonder" end="8" frame="adjective(meer)" graad="comp" id="17" infl="meer" lcat="np" lemma="meer" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="obj1" rnum="sg" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+              <node begin="8" cat="pp" end="11" id="18" rel="mod">
+                <node begin="8" end="9" frame="preposition(met,[mee,[en,al]])" id="19" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                <node begin="9" cat="np" end="11" id="20" rel="obj1">
+                  <node begin="9" buiging="zonder" end="10" frame="determiner(pron)" getal="ev" id="21" infl="pron" lcat="detp" lemma="haar" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="haar" sense="haar" status="vol" vwtype="bez" word="haar"/>
+                  <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="kop_vrouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kop_vrouw" sense="kop_vrouw" word="kopvrouw"/>
+                </node>
+              </node>
+              <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,transitive)" id="23" infl="inf" lcat="inf" lemma="trainen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="train" sc="transitive" sense="train" word="trainen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Ze verhuisde van Schijndel naar Rotterdam om meer met haar kopvrouw te kunnen trainen .</sentence>
+  <comments>
+    <comment>Q#20|Ze verhuisde van Schijndel naar Rotterdam om meer met haar kopvrouw te kunnen trainen .|1|1|-5.285743974779999</comment>
+  </comments>
+</alpino_ds>

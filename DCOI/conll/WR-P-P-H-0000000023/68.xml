@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="6" end="7" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="12" end="13" frame="punct(haak_open)" id="3" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="15" end="16" frame="punct(haak_sluit)" id="4" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="22" id="5" rel="--">
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,passive)" id="6" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="22" id="7" rel="vc">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" id="8" infl="no_e" lcat="ap" lemma="nauwgezet" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="nauwgezet" sense="nauwgezet" vform="adj" word="Nauwgezet"/>
+        <node begin="3" cat="np" end="6" id="9" rel="mod">
+          <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="maart" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="maart" sense="maart" special="tmp" word="maart"/>
+          <node begin="4" cat="np" end="6" id="11" rel="mod">
+            <node begin="4" buiging="zonder" end="5" frame="determiner(het,nwh,nmod,pro,nparg)" id="12" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+            <node begin="5" end="6" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+          </node>
+        </node>
+        <node begin="7" cat="mwu" end="9" id="14" mwu_root="in kaart" mwu_sense="in kaart" rel="svp">
+          <node begin="7" end="8" frame="fixed_part([in,kaart])" id="15" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="8" end="9" frame="fixed_part([in,kaart])" genus="zijd" getal="ev" graad="basis" id="16" lcat="fixed" lemma="kaart" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="kaart" sense="kaart" word="kaart"/>
+        </node>
+        <node begin="9" buiging="zonder" end="10" frame="verb(hebben,psp,fixed([[in,kaart],sbar],imp_passive))" id="17" infl="psp" lcat="ppart" lemma="brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng" sc="fixed([[in,kaart],sbar],imp_passive)" sense="in-kaart-breng" word="gebracht" wvorm="vd"/>
+        <node begin="10" cat="whsub" end="22" id="18" rel="vc">
+          <node begin="10" cat="pp" end="17" id="19" index="1" rel="whd">
+            <node begin="10" end="11" frame="preposition(op,[af,na])" id="20" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="11" cat="np" end="17" id="21" rel="obj1">
+              <node begin="11" buiging="met-e" end="12" frame="determiner(welke,rwh,nmod,pro,yparg)" id="22" infl="welke" lcat="detp" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" sense="welk" vwtype="vb" wh="rwh" word="welke"/>
+              <node begin="13" cat="ap" end="15" id="23" rel="mod">
+                <node begin="13" end="14" frame="intensifier" id="24" lcat="advp" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" sense="te" special="intensifier" word="te"/>
+                <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" id="25" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="groot" sense="groot" vform="adj" word="grote"/>
+              </node>
+              <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="voet" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="voet" sense="voet" word="voet"/>
+            </node>
+          </node>
+          <node begin="10" cat="ssub" end="22" id="27" rel="body">
+            <node begin="17" cat="np" end="20" id="28" index="2" rel="su">
+              <node begin="17" end="18" frame="determiner(de)" id="29" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="18" buiging="met-e" end="19" frame="adjective(e)" graad="basis" id="30" infl="e" lcat="ap" lemma="voormalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voormalig" sense="voormalig" vform="adj" word="voormalige"/>
+              <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="regering_Wijdenbosch" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering_Wijdenbosch" sense="regering_Wijdenbosch" word="regering-Wijdenbosch"/>
+            </node>
+            <node begin="20" end="21" frame="verb(hebben,sg_heeft,aux_psp_hebben)" id="32" infl="sg_heeft" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+            <node begin="10" cat="ppart" end="22" id="33" rel="vc">
+              <node begin="10" end="17" id="34" index="1" rel="pc"/>
+              <node begin="17" end="20" id="35" index="2" rel="su"/>
+              <node begin="21" buiging="zonder" end="22" frame="verb(hebben,psp,pc_pp(op))" id="36" infl="psp" lcat="ppart" lemma="leven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leef" sc="pc_pp(op)" sense="leef-op" word="geleefd" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" id="37" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Nauwgezet is - maart dit jaar - in kaart gebracht op welke ( te grote ) voet de voormalige regering-Wijdenbosch heeft geleefd .</sentence>
+  <comments>
+    <comment>Q#68|Nauwgezet is - maart dit jaar - in kaart gebracht op welke ( te grote ) voet de voormalige regering-Wijdenbosch heeft geleefd .|1|1|-5.841120715900001</comment>
+  </comments>
+</alpino_ds>

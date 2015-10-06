@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="4" lcat="np" lemma="monument" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="monument" sense="monument" word="monument"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,modal_not_u,aux(inf))" id="5" infl="modal_not_u" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="present" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="11" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" frame="verb(unacc,inf,te_passive)" id="8" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="te_passive" sense="ben" word="zijn" wvorm="inf"/>
+        <node begin="0" cat="ti" end="11" id="9" rel="vc">
+          <node begin="4" end="5" frame="complementizer(te)" id="10" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="11" id="11" rel="body">
+            <node begin="0" end="2" id="12" index="1" rel="obj1"/>
+            <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" id="13" infl="no_e" lcat="ap" lemma="spoedig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="spoedig" sense="spoedig" vform="adj" word="spoedig"/>
+            <node begin="5" buiging="zonder" end="6" frame="verb(hebben,inf(no_e),transitive_ndev_ndev)" id="14" infl="inf(no_e)" lcat="inf" lemma="zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zie" sc="transitive_ndev_ndev" sense="zie" word="zien" wvorm="inf"/>
+            <node begin="7" cat="pp" end="11" id="15" rel="mod">
+              <node begin="7" end="8" frame="preposition(in,[])" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="8" cat="np" end="11" id="17" rel="obj1">
+                <node begin="8" end="9" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="19" infl="e" lcat="ap" lemma="Amsterdams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amsterdams" sense="Amsterdams" vform="adj" word="Amsterdamse"/>
+                <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="20" lcat="np" lemma="Oosterpark" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Oosterpark" sense="Oosterpark" word="Oosterpark"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het monument zal spoedig te zien zijn in het Amsterdamse Oosterpark .</sentence>
+  <comments>
+    <comment>Q#16|Het monument zal spoedig te zien zijn in het Amsterdamse Oosterpark .|1|1|0.6315966610399995</comment>
+  </comments>
+</alpino_ds>

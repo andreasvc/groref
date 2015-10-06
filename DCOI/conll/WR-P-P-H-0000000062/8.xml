@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="59" id="0" rel="top">
+    <node begin="23" end="24" frame="punct(aanhaal_both)" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="26" end="27" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="28" end="29" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="46" end="47" frame="punct(dubb_punt)" id="4" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="49" end="50" frame="punct(komma)" id="5" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="51" end="52" frame="punct(aanhaal_both)" id="6" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="conj" end="57" id="7" rel="--">
+      <node begin="0" cat="smain" end="15" id="8" rel="cnj">
+        <node begin="0" end="1" frame="er_adverb(om)" id="9" lcat="pp" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarom" sense="daarom" special="er" word="Daarom"/>
+        <node begin="1" end="2" frame="verb(hebben,sg3,subj_control(wk_te))" id="10" infl="sg3" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="subj_control(wk_te)" sense="sta" stype="declarative" tense="present" word="staat" wvorm="pv"/>
+        <node begin="2" cat="mwu" end="4" id="11" index="1" mwu_root="Mildred Clark" mwu_sense="Mildred Clark" rel="su">
+          <node begin="2" end="3" frame="proper_name(both,'LOC')" id="12" lcat="np" lemma="Mildred" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mildred" sense="Mildred" spectype="deeleigen" word="Mildred"/>
+          <node begin="3" end="4" frame="proper_name(both,'LOC')" id="13" lcat="np" lemma="Clark" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Clark" sense="Clark" spectype="deeleigen" word="Clark"/>
+        </node>
+        <node begin="2" cat="ti" end="15" id="14" rel="vc">
+          <node begin="13" end="14" frame="complementizer(te)" id="15" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="2" cat="inf" end="15" id="16" rel="body">
+            <node begin="2" end="4" id="17" index="1" rel="su"/>
+            <node begin="4" cat="pp" end="11" id="18" rel="mod">
+              <node begin="4" end="5" frame="preposition(met,[mee,[en,al]])" id="19" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="5" cat="np" end="11" id="20" rel="obj1">
+                <node begin="5" buiging="zonder" end="6" frame="determiner(pron)" getal="ev" id="21" infl="pron" lcat="detp" lemma="haar" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="haar" sense="haar" status="vol" vwtype="bez" word="haar"/>
+                <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="familie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="familie" sense="familie" word="familie"/>
+                <node begin="7" cat="pp" end="11" id="23" rel="mod">
+                  <node begin="7" end="8" frame="preposition(in,[])" id="24" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="8" cat="np" end="11" id="25" rel="obj1">
+                    <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" id="26" infl="e" lcat="ap" lemma="traditioneel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="traditioneel" sense="traditioneel" vform="adj" word="traditionele"/>
+                    <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="27" infl="e" lcat="ap" lemma="Surinaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Surinaams" sense="Surinaams" vform="adj" word="Surinaamse"/>
+                    <node begin="10" end="11" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="28" lcat="np" lemma="gewaad" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gewaad" sense="gewaad" word="gewaden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="11" end="12" frame="adverb" id="29" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+            <node begin="12" end="13" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="30" lcat="np" lemma="uur" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="uur" sense="uur" special="tmp" word="uren"/>
+            <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,transitive)" id="31" infl="inf" lcat="inf" lemma="wachten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wacht" sc="transitive" sense="wacht" word="wachten" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="15" end="16" frame="conj(tot)" id="32" lcat="vg" lemma="tot" pos="vg" postag="VZ(init)" pt="vz" rel="crd" root="tot" sense="tot" vztype="init" word="tot"/>
+      <node begin="16" cat="du" end="57" id="33" rel="cnj">
+        <node begin="16" cat="smain" end="28" id="34" rel="tag">
+          <node begin="16" cat="pp" end="22" id="35" rel="mod">
+            <node begin="16" end="17" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="36" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="17" cat="np" end="22" id="37" rel="obj1">
+              <node begin="17" end="18" frame="determiner(de)" id="38" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="18" cat="mwu" end="20" id="39" mwu_root="St. Laurenskerk" mwu_sense="St. Laurenskerk" rel="hd">
+                <node begin="18" end="19" frame="proper_name(both,'LOC')" id="40" lcat="np" lemma="St." neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="St." sense="St." spectype="deeleigen" word="St."/>
+                <node begin="19" end="20" frame="proper_name(both,'LOC')" id="41" lcat="np" lemma="Laurenskerk" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Laurenskerk" sense="Laurenskerk" spectype="deeleigen" word="Laurenskerk"/>
+              </node>
+              <node begin="20" cat="pp" end="22" id="42" rel="mod">
+                <node begin="20" end="21" frame="preposition(in,[])" id="43" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="21" end="22" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="44" lcat="np" lemma="Rotterdam" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Rotterdam" sense="Rotterdam" word="Rotterdam"/>
+              </node>
+            </node>
+          </node>
+          <node begin="22" cat="np" end="26" id="45" rel="su">
+            <node begin="22" end="23" frame="determiner(de)" id="46" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="24" cat="mwu" end="26" id="47" mwu_root="Bigi Spikri" mwu_sense="Bigi Spikri" rel="hd">
+              <node begin="24" end="25" frame="proper_name(both)" id="48" lcat="np" lemma="Bigi" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bigi" sense="Bigi" spectype="deeleigen" word="Bigi"/>
+              <node begin="25" end="26" frame="proper_name(both)" id="49" lcat="np" lemma="Spikri" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Spikri" sense="Spikri" spectype="deeleigen" word="Spikri"/>
+            </node>
+          </node>
+          <node begin="27" end="28" frame="verb(zijn,sg3,dip_sbar)" id="50" infl="sg3" lcat="smain" lemma="beginnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="begin" sc="dip_sbar" sense="begin" stype="declarative" tense="present" word="begint" wvorm="pv"/>
+        </node>
+        <node begin="29" cat="du" end="57" id="51" rel="nucl">
+          <node begin="29" cat="np" end="46" id="52" rel="tag">
+            <node begin="29" end="30" frame="determiner(de)" id="53" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="30" buiging="met-e" end="31" frame="adjective(e)" graad="basis" id="54" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" sense="groot" vform="adj" word="grote"/>
+            <node begin="31" end="32" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="55" lcat="np" lemma="optocht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="optocht" sense="optocht" word="optocht"/>
+            <node begin="32" cat="pp" end="46" id="56" rel="mod">
+              <node begin="32" end="33" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="57" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="33" cat="np" end="46" id="58" rel="obj1">
+                <node begin="33" end="34" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="59" lcat="np" lemma="trots" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="trots" sense="trots" word="trots"/>
+                <node begin="34" cat="pp" end="46" id="60" rel="mod">
+                  <node begin="34" end="35" frame="preposition(tijdens,[])" id="61" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+                  <node begin="35" cat="np" end="46" id="62" rel="obj1">
+                    <node begin="35" end="36" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="63" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                    <node aform="base" begin="36" buiging="met-e" end="37" frame="adjective(e)" graad="basis" id="64" infl="e" lcat="ap" lemma="Surinaams_Antilliaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Surinaams_Antilliaans" sense="Surinaams_Antilliaans" vform="adj" word="Surinaams-Antilliaanse"/>
+                    <node begin="37" end="38" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="65" lcat="np" lemma="feest" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="feest" sense="feest" word="feest"/>
+                    <node begin="38" cat="pp" end="46" id="66" rel="mod">
+                      <node begin="38" cat="mwu" end="41" id="67" mwu_root="ter ere van" mwu_sense="ter ere van" rel="hd">
+                        <node begin="38" end="39" frame="preposition([ter,ere,van],[])" id="68" lcat="pp" lemma="ter" pos="prep" postag="VZ(versm)" pt="vz" rel="mwp" root="ter" sense="ter" vztype="versm" word="ter"/>
+                        <node begin="39" end="40" frame="preposition([ter,ere,van],[])" getal="ev" graad="basis" id="69" lcat="pp" lemma="ere" naamval="dat" ntype="soort" pos="prep" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="ere" sense="ere" word="ere"/>
+                        <node begin="40" end="41" frame="preposition([ter,ere,van],[])" id="70" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+                      </node>
+                      <node begin="41" cat="np" end="46" id="71" rel="obj1">
+                        <node begin="41" end="42" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="72" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                        <node begin="42" end="43" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="73" lcat="np" lemma="einde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="einde" sense="einde" special="tmp" word="einde"/>
+                        <node begin="43" cat="pp" end="46" id="74" rel="mod">
+                          <node begin="43" end="44" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="75" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                          <node begin="44" cat="np" end="46" id="76" rel="obj1">
+                            <node begin="44" end="45" frame="determiner(de)" id="77" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                            <node begin="45" end="46" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="78" lcat="np" lemma="slaaf_tijd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="slaaf_tijd" sense="slaaf_tijd" special="tmp" word="slaventijd"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="47" cat="conj" end="57" id="79" rel="nucl">
+            <node begin="47" cat="mwu" end="49" id="80" mwu_root="Keti Koti" mwu_sense="Keti Koti" rel="cnj">
+              <node begin="47" end="48" frame="proper_name(sg,'PER')" id="81" lcat="np" lemma="Keti" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Keti" sense="Keti" spectype="deeleigen" word="Keti"/>
+              <node begin="48" end="49" frame="proper_name(sg,'PER')" id="82" lcat="np" lemma="Koti" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Koti" sense="Koti" spectype="deeleigen" word="Koti"/>
+            </node>
+            <node begin="50" conjtype="neven" end="51" frame="conj(oftewel)" id="83" lcat="vg" lemma="oftewel" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="oftewel" sense="oftewel" word="oftewel"/>
+            <node begin="52" cat="np" end="57" id="84" rel="cnj">
+              <node begin="52" end="53" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="85" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="53" buiging="zonder" end="54" frame="v_noun(intransitive)" getal-n="zonder-n" id="86" lcat="np" lemma="verbreken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="verbreek" sc="intransitive" sense="verbreek" special="v_noun" word="verbreken" wvorm="inf"/>
+              <node begin="54" cat="pp" end="57" id="87" rel="mod">
+                <node begin="54" end="55" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="88" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="55" cat="np" end="57" id="89" rel="obj1">
+                  <node begin="55" end="56" frame="determiner(de)" id="90" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="56" end="57" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="91" lcat="np" lemma="keten" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="keten" sense="keten" word="ketenen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="57" end="58" frame="punct(aanhaal_both)" id="92" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="58" end="59" frame="punct(punt)" id="93" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Daarom staat Mildred Clark met haar familie in traditionele Surinaamse gewaden al uren te wachten tot voor de St. Laurenskerk in Rotterdam de &apos; Bigi Spikri &apos; begint , de grote optocht van trots tijdens het Surinaams-Antilliaanse feest ter ere van het einde van de slaventijd : Keti Koti , oftewel &apos; het verbreken van de ketenen &apos; .</sentence>
+  <comments>
+    <comment>Q#8|Daarom staat Mildred Clark met haar familie in traditionele Surinaamse gewaden al uren te wachten tot voor de St. Laurenskerk in Rotterdam de &apos; Bigi Spikri &apos; begint , de grote optocht van trots tijdens het Surinaams-Antilliaanse feest ter ere van het einde van de slaventijd : Keti Koti , oftewel &apos; het verbreken van de ketenen &apos; .|1|1|12.546476501840006</comment>
+  </comments>
+</alpino_ds>

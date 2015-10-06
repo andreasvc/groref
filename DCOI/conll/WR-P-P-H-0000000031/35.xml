@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="4" lcat="np" lemma="besluit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="besluit" sense="besluit" word="besluit"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="6" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node begin="3" end="4" frame="determiner(de)" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="4" end="5" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="CSF" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="CSF" sense="CSF" word="CSF"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,sg3,pc_pp(op))" id="10" infl="sg3" lcat="smain" lemma="lijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lijk" sc="pc_pp(op)" sense="lijk-op" stype="declarative" tense="present" word="lijkt" wvorm="pv"/>
+      <node begin="6" cat="pp" end="16" id="11" rel="pc">
+        <node begin="6" end="7" frame="preposition(op,[af,na])" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="7" cat="np" end="16" id="13" rel="obj1">
+          <node begin="7" end="8" frame="determiner(een)" id="14" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="8" end="9" frame="noun(de,count,sg,vp)" gen="de" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="poging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="poging" sc="vp" sense="poging" word="poging"/>
+          <node begin="9" cat="ti" end="16" id="16" rel="vc">
+            <node begin="14" end="15" frame="complementizer(te)" id="17" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="9" cat="inf" end="16" id="18" rel="body">
+              <node begin="9" cat="conj" end="14" id="19" rel="obj1">
+                <node begin="9" cat="np" end="11" id="20" rel="cnj">
+                  <node begin="9" end="10" frame="determiner(de)" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="kool" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kool" sense="kool" word="kool"/>
+                </node>
+                <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="12" cat="np" end="14" id="24" rel="cnj">
+                  <node begin="12" end="13" frame="determiner(de)" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="geit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="geit" sense="geit" word="geit"/>
+                </node>
+              </node>
+              <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,transitive)" id="27" infl="inf" lcat="inf" lemma="sparen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="spaar" sc="transitive" sense="spaar" word="sparen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="28" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het besluit van de CSF lijkt op een poging de kool en de geit te sparen .</sentence>
+  <comments>
+    <comment>Q#35|Het besluit van de CSF lijkt op een poging de kool en de geit te sparen .|1|1|-7.54362153978</comment>
+  </comments>
+</alpino_ds>

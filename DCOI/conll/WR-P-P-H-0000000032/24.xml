@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="number(hoofd(pl_num))" id="3" infl="pl_num" lcat="detp" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" sense="drie" special="hoofd" word="Drie"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="4" lcat="np" lemma="vrouw" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vrouw" sense="vrouw" word="vrouwen"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="6" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" id="8" infl="e" lcat="ap" lemma="middelbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="middelbaar" sense="middelbaar" vform="adj" word="middelbare"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="leeftijd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="leeftijd" sense="leeftijd" word="leeftijd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(unacc,pl,passive)" id="10" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="worden" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="11" rel="vc">
+        <node begin="0" end="5" id="12" index="1" rel="obj1"/>
+        <node begin="6" end="7" frame="particle(achterna)" id="13" lcat="part" lemma="achterna" pos="part" postag="BW()" pt="bw" rel="svp" root="achterna" sense="achterna" word="achterna"/>
+        <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,part_transitive(achterna))" id="14" infl="psp" lcat="ppart" lemma="achterna_zitten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zit_achterna" sc="part_transitive(achterna)" sense="zit_achterna" word="gezeten" wvorm="vd"/>
+        <node begin="8" cat="cp" end="14" id="15" rel="mod">
+          <node begin="8" conjtype="onder" end="9" frame="complementizer" id="16" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="omdat"/>
+          <node begin="9" cat="ssub" end="14" id="17" rel="body">
+            <node begin="9" case="nom" def="def" end="10" frame="pronoun(nwh,thi,both,de,nom,def)" gen="de" getal="mv" id="18" index="2" lcat="np" lemma="zij" naamval="nomin" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" rnum="pl" root="zij" sense="zij" status="vol" vwtype="pers" wh="nwh" word="zij"/>
+            <node begin="10" end="11" frame="het_noun" genus="onz" getal="ev" id="19" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="pobj1" root="het" sense="het" special="het" status="red" vwtype="pers" word="het"/>
+            <node begin="11" end="12" frame="verb(hebben,past(pl),vp_obj)" id="20" infl="pl" lcat="ssub" lemma="wagen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="waag" sc="vp_obj" sense="waag" tense="past" word="waagden" wvorm="pv"/>
+            <node begin="9" cat="ti" end="14" id="21" rel="vc">
+              <node begin="12" end="13" frame="complementizer(te)" id="22" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+              <node begin="9" cat="inf" end="14" id="23" rel="body">
+                <node begin="9" end="10" id="24" index="2" rel="su"/>
+                <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,intransitive)" id="25" infl="inf" lcat="inf" lemma="protesteren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="protesteer" sc="intransitive" sense="protesteer" word="protesteren" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Drie vrouwen van middelbare leeftijd worden achterna gezeten omdat zij het waagden te protesteren .</sentence>
+  <comments>
+    <comment>Q#24|Drie vrouwen van middelbare leeftijd worden achterna gezeten omdat zij het waagden te protesteren .|1|1|-7.775033956439999</comment>
+  </comments>
+</alpino_ds>

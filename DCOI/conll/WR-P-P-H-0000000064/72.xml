@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="2" lcat="du" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" sc="root" sense="want" word="Want"/>
+      <node begin="1" cat="smain" end="8" id="3" rel="nucl">
+        <node begin="1" cat="np" end="4" id="4" rel="su">
+          <node begin="1" end="2" frame="modal_adverb" id="5" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sc="modal" sense="ook" word="ook"/>
+          <node begin="2" end="3" frame="determiner(de)" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="nominalized_adjective" getal-n="mv-n" graad="basis" id="7" lcat="np" lemma="gelovig" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" rnum="pl" root="gelovig" sense="gelovig" special="a_noun" word="gelovigen"/>
+        </node>
+        <node begin="4" end="5" frame="verb(hebben,pl,pc_pp(met))" id="8" infl="pl" lcat="smain" lemma="worstelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="worstel" sc="pc_pp(met)" sense="worstel-met" stype="declarative" tense="present" word="worstelen" wvorm="pv"/>
+        <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(sentadv))" graad="basis" id="9" infl="no_e" lcat="ap" lemma="natuurlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="natuurlijk" sense="natuurlijk" vform="adj" word="natuurlijk"/>
+        <node begin="5" cat="pp" end="8" id="10" rel="pc">
+          <node begin="5" end="6" frame="er_loc_adverb" getal="getal" id="11" lcat="advp" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" sense="daar" special="er_loc" status="vol" vwtype="aanw" word="daar"/>
+          <node begin="7" end="8" frame="preposition(met,[mee],extracted_np)" id="12" lcat="pp" lemma="met" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="met" sc="extracted_np" sense="met" vztype="fin" word="mee"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" id="13" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Want ook de gelovigen worstelen daar natuurlijk mee .</sentence>
+  <comments>
+    <comment>Q#72|Want ook de gelovigen worstelen daar natuurlijk mee .|1|1|-7.8117450932400025</comment>
+  </comments>
+</alpino_ds>
