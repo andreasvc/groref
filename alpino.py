@@ -3,11 +3,15 @@ import sys
 
 def parse(xmlFile):
     tmpFile = open('tmp', 'w')
+    firstLine = True
     for line in open(xmlFile, 'r'):
-        if len(line) > 1:
-            tmpFile.write(line.split('\t')[6] + ' ')
+        if firstLine:
+            firstLine = False
         else:
-            tmpFile.write('\n\n')
+            if len(line) > 1:
+                tmpFile.write(line.split('\t')[6] + ' ')
+            else:
+                tmpFile.write('\n\n')
     tmpFile.close()
     
     folder = xmlFile[:30]
