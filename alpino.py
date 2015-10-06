@@ -1,24 +1,7 @@
 import os
 import sys
 
-def write(xmlFile, dep):
-    if dep:
-        parseFile = open(xmlFile + '.dep', 'w')
-        sentIdx = 1
-        for line in open('tmp2', 'r'):
-            if int(line.split('|')[3]) == sentIdx:
-                parseFile.write(line)
-            else:
-                sentIdx += 1
-                parseFile.write('\n')
-        parseFile.close()
-    else:
-        parseFile = open(xmlFile + '.con', 'w')
-        for line in open('tmp2', 'r'):
-            parseFile.write(line)
-        parseFile.close()
-
-def parse(xmlFile, dep):
+def parse(xmlFile):
     tmpFile = open('tmp', 'w')
     for line in open(xmlFile, 'r'):
         if len(line) > 1:
@@ -26,17 +9,17 @@ def parse(xmlFile, dep):
         else:
             tmpFile.write('\n\n')
     tmpFile.close()
-    if dep:
-        os.system('cat tmp | Alpino number_analyses=1 end_hook=triples -parse > tmp2')
-    else:
-        os.system('cat tmp | Alpino number_analyses=1 end_hook=syntax -parse > tmp2')
-    write(xmlFile, dep)
+    
+    folder = xmlFile[:30]
+    print(folder)
+    os.mkdir(folder)
+    
+    os.system('cat tmp | Alpino number_analyses=1 end_hook=xml -flag treebank ' + folder + ' -parse')
 
 def runAlpino(working):
     tmpPath = 'tmp'
     for xmlFile in os.listdir(working):
-        parse(working+xmlFile, True)
-        parse(working+xmlFile, False)
+        parse(working+xmlFile)
 
 if __name__ == '__main__':
     runAlpino('DCOI/conll/')
