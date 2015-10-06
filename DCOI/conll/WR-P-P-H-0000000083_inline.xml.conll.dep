@@ -1,0 +1,234 @@
+top/top|top/hd|token/[0,1]|1
+token/[0,1]|hd/app|AMSTERDAM/[1,2]|1
+token/[0,1]|-- / --|(-)/[2,3]|1
+
+,/[6,7]|-- / --|,/[10,11]|2
+,/[6,7]|-- / --|(-)/[17,18]|2
+,/[6,7]|-- / --|(-)/[19,20]|2
+,/[6,7]|-- / --|moet/[1,2]|2
+moet/[1,2]|hd/su|Joegoslavië/[0,1]|2
+moet/[1,2]|hd/vc|besteed/[3,4]|2
+besteed/[3,4]|hd/su|Joegoslavië/[0,1]|2
+besteed/[3,4]|hd/obj1|meer/[2,3]|2
+besteed/[3,4]|hd/pc|aan/[4,5]|2
+aan/[4,5]|hd/obj1|onderwijs/[5,6]|2
+moet/[1,2]|nucl/tag|aldus/[7,8]|2
+aldus/[7,8]|hd/obj1|Wereldbank/[9,10]|2
+Wereldbank/[9,10]|hd/det|de/[8,9]|2
+Wereldbank/[9,10]|hd/mod|die/[11,12]|2
+die/[11,12]|rhd/body|zie/[15,16]|2
+zie/[15,16]|hd/su|die/[11,12]|2
+zie/[15,16]|hd/mod|echter/[12,13]|2
+zie/[15,16]|hd/mod|ook/[13,14]|2
+zie/[15,16]|hd/obj1|mogelijkheid/[14,15]|2
+mogelijkheid/[14,15]|hd/mod|voor/[16,17]|2
+voor/[16,17]|hd/obj1|bezuiniging/[20,21]|2
+bezuiniging/[20,21]|hd/mod|opmerkelijk/[18,19]|2
+,/[6,7]|-- / --|./[21,22]|2
+
+kan_toe/[6,7]|hd/su|onderwijs/[3,4]|3
+onderwijs/[3,4]|hd/mod|onder andere/[0,2]|3
+onderwijs/[3,4]|hd/det|het/[2,3]|3
+onderwijs/[3,4]|hd/mod|voor/[4,5]|3
+voor/[4,5]|hd/obj1|minderheid/[5,6]|3
+kan_toe/[6,7]|hd/mod|wel/[7,8]|3
+kan_toe/[6,7]|hd/pc|met/[8,9]|3
+met/[8,9]|hd/obj1|minder/[9,10]|3
+kan_toe/[6,7]|hd/svp|toe/[10,11]|3
+kan_toe/[6,7]|-- / --|./[11,12]|3
+
+blijk/[1,2]|hd/su|Joegoslavië/[0,1]|4
+blijk/[1,2]|hd/vc|te/[3,4]|4
+te/[3,4]|cmp/body|ben/[4,5]|4
+ben/[4,5]|hd/su|Joegoslavië/[0,1]|4
+ben/[4,5]|hd/predc|koploper/[2,3]|4
+koploper/[2,3]|hd/mod|in/[5,6]|4
+in/[5,6]|hd/obj1|onderwijs/[7,8]|4
+onderwijs/[7,8]|hd/det|het/[6,7]|4
+onderwijs/[7,8]|hd/mod|in/[8,9]|4
+in/[8,9]|hd/obj1|minderheid_taal/[9,10]|4
+blijk/[1,2]|-- / --|./[10,11]|4
+
+heb/[4,5]|hd/mod|volgens/[0,1]|5
+volgens/[0,1]|hd/obj1|grond_wet/[3,4]|5
+grond_wet/[3,4]|hd/det|de/[1,2]|5
+grond_wet/[3,4]|hd/mod|Joegoslavisch/[2,3]|5
+heb/[4,5]|hd/su|minderheid/[6,7]|5
+minderheid/[6,7]|hd/det|alle/[5,6]|5
+heb/[4,5]|hd/obj1|recht/[7,8]|5
+recht/[7,8]|hd/mod|op/[8,9]|5
+op/[8,9]|hd/obj1|onderwijs/[9,10]|5
+onderwijs/[9,10]|hd/mod|in/[10,11]|5
+in/[10,11]|hd/obj1|taal/[13,14]|5
+taal/[13,14]|hd/det|hun/[11,12]|5
+taal/[13,14]|hd/mod|eigen/[12,13]|5
+heb/[4,5]|-- / --|./[14,15]|5
+
+,/[21,22]|-- / --|,/[23,24]|6
+,/[21,22]|-- / --|,/[25,26]|6
+,/[21,22]|-- / --|,/[27,28]|6
+,/[21,22]|-- / --|ben/[1,2]|6
+ben/[1,2]|hd/predc|zo/[0,1]|6
+ben/[1,2]|hd/su|school/[9,10]|6
+school/[9,10]|hd/mod|en/[7,8]|6
+en/[7,8]|crd/cnj|laag/[6,7]|6
+laag/[6,7]|hd/mod|er/[2,3]|6
+laag/[6,7]|hd/mod|in/[3,4]|6
+in/[3,4]|hd/obj1|Servië/[4,5]|6
+Servië/[4,5]|hd/app|284/[5,6]|6
+en/[7,8]|crd/cnj|middelbaar/[8,9]|6
+middelbaar/[8,9]|hd/mod|er/[2,3]|6
+middelbaar/[8,9]|hd/mod|in/[3,4]|6
+school/[9,10]|hd/mod|waar/[10,11]|6
+waar/[10,11]|rhd/body|krijg/[17,18]|6
+krijg/[17,18]|hd/ld|waar/[10,11]|6
+krijg/[17,18]|hd/su|leerling/[11,12]|6
+krijg/[17,18]|hd/mod|bij/[12,13]|6
+bij/[12,13]|hd/obj1|vak/[15,16]|6
+vak/[15,16]|hd/det|de/[13,14]|6
+vak/[15,16]|hd/mod|meest/[14,15]|6
+krijg/[17,18]|hd/obj1|les/[16,17]|6
+krijg/[17,18]|hd/mod|in/[18,19]|6
+in/[18,19]|hd/obj1|of/[29,30]|6
+of/[29,30]|crd/cnj|Albanees/[20,21]|6
+Albanees/[20,21]|hd/det|het/[19,20]|6
+of/[29,30]|crd/cnj|Hongaars/[22,23]|6
+of/[29,30]|crd/cnj|Roemeens/[24,25]|6
+of/[29,30]|crd/cnj|Slowaaks/[26,27]|6
+of/[29,30]|crd/cnj|Rutheens/[28,29]|6
+of/[29,30]|crd/cnj|Bulgaars/[30,31]|6
+,/[21,22]|-- / --|./[31,32]|6
+
+ben/[1,2]|hd/su|Servisch/[0,1]|7
+ben/[1,2]|hd/mod|op/[2,3]|7
+op/[2,3]|hd/obj1|school/[4,5]|7
+school/[4,5]|hd/det|deze/[3,4]|7
+ben/[1,2]|hd/predc|taal/[7,8]|7
+taal/[7,8]|hd/det|de/[5,6]|7
+taal/[7,8]|hd/mod|tweede/[6,7]|7
+ben/[1,2]|-- / --|./[8,9]|7
+
+,/[7,8]|-- / --|,/[11,12]|8
+,/[7,8]|-- / --|en/[12,13]|8
+en/[12,13]|crd/cnj|zie/[3,4]|8
+zie/[3,4]|hd/obj1|voorziening/[2,3]|8
+voorziening/[2,3]|hd/mod|uitgebreid/[1,2]|8
+uitgebreid/[1,2]|hd/mod|dergelijk/[0,1]|8
+zie/[3,4]|hd/su|je/[4,5]|8
+zie/[3,4]|hd/mod|nergens/[6,7]|8
+nergens/[6,7]|hd/mod|vrijwel/[5,6]|8
+zie/[3,4]|nucl/tag|aldus/[8,9]|8
+aldus/[8,9]|hd/obj1|Wereldbank/[10,11]|8
+Wereldbank/[10,11]|hd/det|de/[9,10]|8
+en/[12,13]|crd/cnj|ga/[14,15]|8
+ga/[14,15]|hd/su|ze/[13,14]|8
+ga/[14,15]|hd/predc|ver/[16,17]|8
+ver/[16,17]|hd/mod|veel/[15,16]|8
+ver/[16,17]|hd/obcomp|dan/[17,18]|8
+dan/[17,18]|cmp/body|wat/[18,19]|8
+wat/[18,19]|whd/body|vereis/[26,27]|8
+vereis/[26,27]|hd/obj1|wat/[18,19]|8
+vereis/[26,27]|hd/su|handvest/[21,22]|8
+handvest/[21,22]|hd/det|het/[19,20]|8
+handvest/[21,22]|hd/mod|Europees/[20,21]|8
+handvest/[21,22]|hd/mod|voor/[22,23]|8
+voor/[22,23]|hd/obj1|Regionale en Minderheidstalen/[23,26]|8
+,/[7,8]|-- / --|./[27,28]|8
+
+,/[4,5]|-- / --|ben/[1,2]|9
+ben/[1,2]|hd/su|dat/[0,1]|9
+ben/[1,2]|hd/predc|maar/[5,6]|9
+maar/[5,6]|crd/cnj|mooi/[3,4]|9
+mooi/[3,4]|hd/mod|heel/[2,3]|9
+maar/[5,6]|crd/cnj|kostbaar/[7,8]|9
+kostbaar/[7,8]|hd/mod|ook/[6,7]|9
+,/[4,5]|-- / --|./[8,9]|9
+
+(/[5,6]|-- / --|)/[14,15]|10
+(/[5,6]|-- / --|,/[15,16]|10
+(/[5,6]|-- / --|ben/[2,3]|10
+ben/[2,3]|hd/su|klas/[1,2]|10
+klas/[1,2]|hd/det|de/[0,1]|10
+ben/[2,3]|hd/predc|klein/[4,5]|10
+klein/[4,5]|hd/mod|heel/[3,4]|10
+ben/[2,3]|nucl/sat|leerling/[13,14]|10
+leerling/[13,14]|hd/det|of/[11,12]|10
+of/[11,12]|crd/cnj|vier/[10,11]|10
+vier/[10,11]|hd/mod|soms/[6,7]|10
+vier/[10,11]|hd/mod|niet meer dan/[7,10]|10
+of/[11,12]|crd/cnj|vijf/[12,13]|10
+vijf/[12,13]|hd/mod|soms/[6,7]|10
+vijf/[12,13]|hd/mod|niet meer dan/[7,10]|10
+ben/[2,3]|dp/dp|ben/[20,21]|10
+ben/[20,21]|hd/su|oplage/[17,18]|10
+oplage/[17,18]|hd/det|de/[16,17]|10
+oplage/[17,18]|hd/mod|van/[18,19]|10
+van/[18,19]|hd/obj1|studie_boek/[19,20]|10
+ben/[20,21]|hd/mod|soms/[21,22]|10
+ben/[20,21]|hd/predc|minimaal/[22,23]|10
+(/[5,6]|-- / --|./[23,24]|10
+
+,/[13,14]|-- / --|maar/[14,15]|11
+maar/[14,15]|crd/cnj|ga/[2,3]|11
+ga/[2,3]|hd/su|Wereldbank/[1,2]|11
+Wereldbank/[1,2]|hd/det|de/[0,1]|11
+ga/[2,3]|hd/mod|niet/[3,4]|11
+ga/[2,3]|hd/predc|zover/[4,5]|11
+zover/[4,5]|hd/obcomp|te/[5,6]|11
+te/[5,6]|cmp/body|bepleit/[6,7]|11
+bepleit/[6,7]|hd/vc|dat/[7,8]|11
+dat/[7,8]|cmp/body|kan/[12,13]|11
+kan/[12,13]|hd/su|het/[8,9]|11
+kan/[12,13]|hd/mod|wel/[9,10]|11
+kan/[12,13]|hd/predc|minder/[11,12]|11
+minder/[11,12]|hd/mod|wat/[10,11]|11
+maar/[14,15]|crd/cnj|stel_voor/[15,16]|11
+stel_voor/[15,16]|hd/su|Wereldbank/[1,2]|11
+stel_voor/[15,16]|hd/mod|wel/[16,17]|11
+stel_voor/[15,16]|hd/svp|voor/[18,19]|11
+stel_voor/[15,16]|hd/obj1|maatregel/[17,18]|11
+maatregel/[17,18]|hd/vc|om/[19,20]|11
+om/[19,20]|cmp/body|te/[22,23]|11
+te/[22,23]|cmp/body|verhoog/[23,24]|11
+verhoog/[23,24]|hd/obj1|efficiëntie/[21,22]|11
+efficiëntie/[21,22]|hd/det|de/[20,21]|11
+,/[13,14]|-- / --|./[24,25]|11
+
+denk/[1,2]|hd/su|ze/[0,1]|12
+denk/[1,2]|hd/pc|aan/[2,3]|12
+aan/[2,3]|hd/obj1|voeg_samen/[4,5]|12
+voeg_samen/[4,5]|hd/det|het/[3,4]|12
+voeg_samen/[4,5]|hd/mod|van/[5,6]|12
+van/[5,6]|hd/obj1|school/[6,7]|12
+denk/[1,2]|-- / --|./[7,8]|12
+
+,/[3,4]|-- / --|maar/[4,5]|13
+maar/[4,5]|crd/cnj|bespaar/[1,2]|13
+bespaar/[1,2]|hd/su|dat/[0,1]|13
+bespaar/[1,2]|hd/obj1|kosten/[2,3]|13
+maar/[4,5]|crd/cnj|beteken/[10,11]|13
+beteken/[10,11]|hd/mod|als/[5,6]|13
+als/[5,6]|cmp/body|word/[8,9]|13
+word/[8,9]|hd/su|maatregel/[7,8]|13
+maatregel/[7,8]|hd/det|de/[6,7]|13
+word/[8,9]|hd/vc|voer_door/[9,10]|13
+voer_door/[9,10]|hd/obj1|maatregel/[7,8]|13
+beteken/[10,11]|hd/su|het/[11,12]|13
+beteken/[10,11]|hd/vc|dat/[12,13]|13
+dat/[12,13]|cmp/body|moet/[25,26]|13
+moet/[25,26]|hd/su|leerling/[14,15]|13
+leerling/[14,15]|hd/det|de/[13,14]|13
+leerling/[14,15]|hd/mod|die/[15,16]|13
+die/[15,16]|rhd/body|kies/[16,17]|13
+kies/[16,17]|hd/su|die/[15,16]|13
+kies/[16,17]|hd/pc|voor/[17,18]|13
+voor/[17,18]|hd/obj1|onderwijs/[18,19]|13
+onderwijs/[18,19]|hd/mod|in/[19,20]|13
+in/[19,20]|hd/obj1|taal/[22,23]|13
+taal/[22,23]|hd/det|hun/[20,21]|13
+taal/[22,23]|hd/mod|eigen/[21,22]|13
+moet/[25,26]|hd/vc|reis/[26,27]|13
+reis/[26,27]|hd/su|leerling/[14,15]|13
+reis/[26,27]|hd/mod|veel/[23,24]|13
+reis/[26,27]|hd/mod|ver/[24,25]|13
+,/[3,4]|-- / --|./[27,28]|13
