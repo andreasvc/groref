@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(dubb_punt)" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="21" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="tag">
+        <node begin="0" cat="np" end="6" id="4" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="gebruiker" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gebruiker" sense="gebruiker" word="gebruiker"/>
+          <node begin="2" cat="pp" end="6" id="7" rel="mod">
+            <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="3" cat="np" end="6" id="9" rel="obj1">
+              <node begin="3" end="4" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="10" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" id="11" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+              <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="12" lcat="np" lemma="besturing_systeem" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="besturing_systeem" sense="besturing_systeem" word="besturingssysteem"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" frame="verb(hebben,sg3,tr_sbar)" id="13" infl="sg3" lcat="smain" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" stype="declarative" tense="present" word="zegt" wvorm="pv"/>
+      </node>
+      <node begin="8" cat="smain" end="21" id="14" rel="nucl">
+        <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="15" index="1" lcat="np" lemma="analist" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="analist" sense="analist" word="Analisten"/>
+        <node begin="9" end="10" frame="verb(hebben,pl,aux_psp_hebben)" id="16" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+        <node begin="8" cat="ppart" end="21" id="17" rel="vc">
+          <node begin="8" end="9" id="18" index="1" rel="su"/>
+          <node begin="10" end="11" frame="adverb" id="19" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+          <node begin="11" buiging="zonder" end="12" frame="verb(hebben,psp,pc_pp(op))" id="20" infl="psp" lcat="ppart" lemma="wijzen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="wijs" sc="pc_pp(op)" sense="wijs-op" word="gewezen" wvorm="vd"/>
+          <node begin="12" cat="pp" end="21" id="21" rel="pc">
+            <node begin="12" end="13" frame="preposition(op,[af,na])" id="22" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="13" cat="conj" end="21" id="23" rel="obj1">
+              <node begin="15" conjtype="neven" end="16" frame="conj(en)" id="24" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="13" cat="np" end="21" id="25" rel="cnj">
+                <node begin="13" end="14" frame="determiner(de)" id="26" index="2" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="27" lcat="np" lemma="verbetering" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="verbetering" sense="verbetering" word="verbeteringen"/>
+                <node begin="17" cat="pp" end="21" id="28" index="3" rel="mod">
+                  <node begin="17" end="18" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="29" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="18" cat="np" end="21" id="30" rel="obj1">
+                    <node begin="18" end="19" frame="determiner(de)" id="31" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node aform="base" begin="19" buiging="met-e" end="20" frame="adjective(e)" graad="basis" id="32" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+                    <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="33" lcat="np" lemma="versie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="versie" sense="versie" word="versie"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="13" cat="np" end="21" id="34" rel="cnj">
+                <node begin="13" end="14" id="35" index="2" rel="det"/>
+                <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="36" lcat="np" lemma="tekortkoming" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tekortkoming" sense="tekortkoming" word="tekortkomingen"/>
+                <node begin="17" end="21" id="37" index="3" rel="mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" id="38" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Een gebruiker van het nieuwe besturingssysteem zegt : Analisten hebben al gewezen op de verbeteringen en tekortkomingen van de nieuwe versie .</sentence>
+  <comments>
+    <comment>Q#9|Een gebruiker van het nieuwe besturingssysteem zegt : Analisten hebben al gewezen op de verbeteringen en tekortkomingen van de nieuwe versie .|1|1|-5.679681518680004</comment>
+  </comments>
+</alpino_ds>

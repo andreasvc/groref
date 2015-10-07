@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="21" id="2" rel="--">
+      <node begin="0" cat="advp" end="3" id="3" rel="mod">
+        <node begin="0" buiging="zonder" end="1" frame="tmp_app_noun" graad="comp" id="4" lcat="advp" lemma="eerder" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="eerder" sense="eerder" special="tmp_app" word="Eerder"/>
+        <node begin="1" cat="np" end="3" id="5" rel="mod">
+          <node begin="1" buiging="zonder" end="2" frame="determiner(het,nwh,nmod,pro,nparg)" id="6" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+          <node begin="2" end="3" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="7" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),transitive)" id="8" infl="sg" lcat="smain" lemma="openen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="open" sc="transitive" sense="open" stype="declarative" tense="past" word="opende" wvorm="pv"/>
+      <node begin="4" end="5" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="5" cat="np" end="21" id="10" rel="obj1">
+        <node begin="5" end="6" frame="determiner(een)" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="6" end="7" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="datum_center" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="datum_center" sense="datum_center" word="datacenter"/>
+        <node begin="7" cat="pp" end="21" id="13" rel="mod">
+          <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="8" cat="np" end="21" id="15" rel="obj1">
+            <node begin="8" end="9" frame="number(hoofd(pl_num))" id="16" infl="pl_num" lcat="detp" lemma="46.500" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="46.500" sense="46.500" special="hoofd" word="46.500"/>
+            <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="17" infl="e" lcat="ap" lemma="vierkant" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vierkant" sense="vierkant" vform="adj" word="vierkante"/>
+            <node begin="10" end="11" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="meter" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="meter" sense="meter" special="meas_mod" word="meter"/>
+            <node begin="11" cat="pp" end="14" id="19" rel="mod">
+              <node begin="11" end="12" frame="preposition(in,[])" id="20" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="12" cat="mwu" end="14" id="21" mwu_root="North Carolina" mwu_sense="North Carolina" rel="obj1">
+                <node begin="12" end="13" frame="proper_name(sg,'LOC')" id="22" lcat="np" lemma="North" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="North" sense="North" spectype="deeleigen" word="North"/>
+                <node begin="13" end="14" frame="proper_name(sg,'LOC')" id="23" lcat="np" lemma="Carolina" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Carolina" sense="Carolina" spectype="deeleigen" word="Carolina"/>
+              </node>
+            </node>
+            <node begin="15" cat="rel" end="21" id="24" rel="mod">
+              <node begin="15" end="16" frame="waar_adverb(met)" id="25" index="1" lcat="pp" lemma="waarmee" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarmee" sense="waarmee" special="waar" word="waarmee"/>
+              <node begin="15" cat="ssub" end="21" id="26" rel="body">
+                <node begin="16" case="both" def="def" end="17" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" id="27" index="2" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" rnum="pl" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+                <node begin="19" end="20" frame="verb(zijn,pl,aux(inf))" id="28" infl="pl" lcat="ssub" lemma="gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="present" word="gaan" wvorm="pv"/>
+                <node begin="15" cat="inf" end="21" id="29" rel="vc">
+                  <node begin="15" end="16" id="30" index="1" rel="mod"/>
+                  <node begin="16" end="17" id="31" index="2" rel="su"/>
+                  <node begin="17" cat="np" end="19" id="32" rel="obj1">
+                    <node begin="17" buiging="met-e" end="18" frame="determiner(de,nwh,nmod,pro,nparg)" id="33" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="deze"/>
+                    <node begin="18" end="19" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="34" lcat="np" lemma="service" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="service" sense="service" word="service"/>
+                  </node>
+                  <node begin="20" buiging="zonder" end="21" frame="verb(hebben,inf,ninv(transitive,part_transitive(aan)))" id="35" infl="inf" lcat="inf" lemma="aan_bieden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bied_aan" sc="part_transitive(aan)" sense="bied_aan" word="aanbieden" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" id="36" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Eerder dit jaar opende Apple een datacenter van 46.500 vierkante meter in North Carolina , waarmee ze deze service gaan aanbieden .</sentence>
+  <comments>
+    <comment>Q#25|Eerder dit jaar opende Apple een datacenter van 46.500 vierkante meter in North Carolina , waarmee ze deze service gaan aanbieden .|1|1|-8.746116687540004</comment>
+  </comments>
+</alpino_ds>

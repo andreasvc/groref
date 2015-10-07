@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(ondanks,[])" id="3" lcat="pp" lemma="ondanks" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="ondanks" sense="ondanks" vztype="init" word="Ondanks"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" buiging="met-e" end="2" frame="determiner(de,nwh,nmod,pro,nparg)" id="5" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="deze"/>
+          <node begin="2" end="3" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="6" lcat="np" lemma="kenmerk" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kenmerk" sense="kenmerk" word="kenmerken"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,pl,copula)" id="7" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="4" end="5" frame="er_vp_adverb" getal="getal" id="8" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="5" cat="np" end="15" id="9" rel="su">
+        <node begin="5" end="6" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" id="10" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+        <node begin="6" cat="rel" end="15" id="11" rel="mod">
+          <node begin="6" case="no_obl" end="7" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="12" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="6" cat="ssub" end="15" id="13" rel="body">
+            <node begin="6" end="7" id="14" index="1" rel="su"/>
+            <node begin="7" end="8" frame="verb(hebben,pl,tr_sbar)" id="15" infl="pl" lcat="ssub" lemma="zeggen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present" word="zeggen" wvorm="pv"/>
+            <node begin="8" cat="cp" end="15" id="16" rel="vc">
+              <node begin="8" conjtype="onder" end="9" frame="complementizer(dat)" id="17" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+              <node begin="9" cat="ssub" end="15" id="18" rel="body">
+                <node begin="9" cat="np" end="11" id="19" rel="su">
+                  <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="20" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="21" lcat="np" lemma="scherm" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="scherm" sense="scherm" word="scherm"/>
+                </node>
+                <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" id="22" infl="no_e" lcat="ap" lemma="waarschijnlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="waarschijnlijk" sense="waarschijnlijk" vform="adj" word="waarschijnlijk"/>
+                <node begin="12" cat="ap" end="14" id="23" rel="predc">
+                  <node begin="12" end="13" frame="intensifier" id="24" lcat="advp" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" sense="te" special="intensifier" word="te"/>
+                  <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(no_e(adv))" graad="basis" id="25" infl="no_e" lcat="ap" lemma="klein" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="klein" sense="klein" vform="adj" word="klein"/>
+                </node>
+                <node begin="14" end="15" frame="verb(unacc,sg_heeft,copula)" id="26" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" cat="oti" end="20" id="27" rel="predc">
+        <node begin="15" end="16" frame="complementizer(om)" id="28" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="16" cat="ti" end="20" id="29" rel="body">
+          <node begin="18" end="19" frame="complementizer(te)" id="30" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="16" cat="inf" end="20" id="31" rel="body">
+            <node begin="16" cat="np" end="18" id="32" rel="obj1">
+              <node begin="16" buiging="zonder" end="17" frame="determiner(wat,nwh,mod,pro,yparg)" graad="basis" id="33" infl="wat" lcat="detp" lemma="voldoende" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="voldoende" sense="voldoende" wh="nwh" word="voldoende"/>
+              <node begin="17" end="18" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="34" lcat="np" lemma="kijk_plezier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kijk_plezier" sense="kijk_plezier" word="kijkplezier"/>
+            </node>
+            <node begin="19" buiging="zonder" end="20" frame="verb(hebben,inf,np_np)" id="35" infl="inf" lcat="inf" lemma="bieden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bied" sc="np_np" sense="bied" word="bieden" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" id="36" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Ondanks deze kenmerken zijn er mensen die zeggen dat het scherm waarschijnlijk te klein is om voldoende kijkplezier te bieden .</sentence>
+  <comments>
+    <comment>Q#8|Ondanks deze kenmerken zijn er mensen die zeggen dat het scherm waarschijnlijk te klein is om voldoende kijkplezier te bieden .|1|1|-9.543346859099998</comment>
+  </comments>
+</alpino_ds>

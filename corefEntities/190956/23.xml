@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="37" id="0" rel="top">
+    <node begin="16" end="17" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="36" id="2" rel="--">
+      <node begin="2" end="3" frame="verb(hebben,modal_not_u,aux(inf))" id="3" infl="modal_not_u" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="present" word="zal" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="4" index="1" rel="su">
+        <node begin="3" end="4" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+      </node>
+      <node begin="0" cat="inf" end="36" id="7" rel="vc">
+        <node begin="0" cat="pp" end="2" id="8" rel="mod">
+          <node begin="0" end="1" frame="preposition(in,[])" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+          <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="Amerika" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Amerika" sense="Amerika" word="Amerika"/>
+        </node>
+        <node begin="3" end="5" id="11" index="1" rel="su"/>
+        <node begin="8" buiging="zonder" end="9" frame="verb(unacc,inf,copula)" id="12" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="copula" sense="ben" word="zijn" wvorm="inf"/>
+        <node begin="5" cat="np" end="16" id="13" rel="predc">
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="4" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="4" sense="4" word="4"/>
+          <node begin="6" cat="ap" end="8" id="15" rel="mod">
+            <node aform="base" begin="6" end="7" frame="adjective(pred(both))" id="16" infl="pred" lcat="ap" lemma="alleen" pos="adj" postag="BW()" pt="bw" rel="mod" root="alleen" sense="alleen" vform="adj" word="alleen"/>
+            <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(postn_no_e(nonadv))" graad="basis" id="17" infl="no_e" lcat="ap" lemma="verkrijgbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="verkrijgbaar" sense="verkrijgbaar" vform="adj" word="verkrijgbaar"/>
+          </node>
+          <node begin="9" cat="pp" end="16" id="18" rel="mod">
+            <node begin="9" end="10" frame="preposition(in,[])" id="19" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="10" cat="np" end="16" id="20" rel="obj1">
+              <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="combinatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="combinatie" sense="combinatie" word="combinatie"/>
+              <node begin="11" cat="pp" end="16" id="22" rel="mod">
+                <node begin="11" end="12" frame="preposition(met,[mee,[en,al]])" id="23" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                <node begin="12" cat="np" end="16" id="24" rel="obj1">
+                  <node begin="12" end="13" frame="determiner(een)" id="25" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="13" cat="mwu" end="16" id="26" mwu_root="AT &amp; T-abonnement" mwu_sense="AT &amp; T-abonnement" rel="hd">
+                    <node begin="13" end="14" frame="proper_name(both,'ORG')" id="27" lcat="np" lemma="AT" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="AT" sense="AT" spectype="deeleigen" word="AT"/>
+                    <node begin="14" end="15" frame="proper_name(both,'ORG')" id="28" lcat="np" lemma="&amp;" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="&amp;" sense="&amp;" spectype="deeleigen" word="&amp;"/>
+                    <node begin="15" end="16" frame="proper_name(both,'ORG')" id="29" lcat="np" lemma="T-abonnement" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="T-abonnement" sense="T-abonnement" spectype="deeleigen" word="T-abonnement"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="17" cat="pp" end="36" id="30" rel="mod">
+          <node begin="17" end="18" frame="preposition(ondanks,[])" id="31" lcat="pp" lemma="ondanks" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="ondanks" sense="ondanks" vztype="init" word="ondanks"/>
+          <node begin="18" cat="np" end="36" id="32" rel="obj1">
+            <node begin="18" end="19" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="33" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="19" end="20" frame="noun(het,count,sg,sbar)" gen="het" genus="onz" getal="ev" graad="basis" id="34" lcat="np" lemma="feit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="feit" sc="sbar" sense="feit" word="feit"/>
+            <node begin="20" cat="cp" end="36" id="35" rel="vc">
+              <node begin="20" conjtype="onder" end="21" frame="complementizer(dat)" id="36" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+              <node begin="21" cat="ssub" end="36" id="37" rel="body">
+                <node begin="22" end="23" frame="verb(unacc,sg_heeft,passive)" id="38" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" tense="present" word="is" wvorm="pv"/>
+                <node begin="21" cat="ppart" end="36" id="39" rel="vc">
+                  <node begin="21" end="22" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="40" index="2" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj2" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+                  <node begin="23" buiging="zonder" end="24" frame="verb(hebben,psp,np_vp_obj)" id="41" infl="psp" lcat="ppart" lemma="vragen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vraag" sc="np_vp_obj" sense="vraag" word="gevraagd" wvorm="vd"/>
+                  <node begin="21" cat="oti" end="36" id="42" rel="vc">
+                    <node begin="24" end="25" frame="complementizer(om)" id="43" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+                    <node begin="21" cat="ti" end="36" id="44" rel="body">
+                      <node begin="29" end="30" frame="complementizer(te)" id="45" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                      <node begin="21" cat="inf" end="36" id="46" rel="body">
+                        <node begin="21" end="22" id="47" index="2" rel="su"/>
+                        <node begin="25" cat="np" end="27" id="48" rel="obj1">
+                          <node begin="25" end="26" frame="determiner(de)" id="49" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                          <node begin="26" end="27" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="50" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+                        </node>
+                        <node begin="27" end="28" frame="sentence_adverb" id="51" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+                        <node begin="30" buiging="zonder" end="31" frame="verb(hebben,inf,pred_np)" id="52" infl="inf" lcat="inf" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak" sc="pred_np" sense="maak" word="maken" wvorm="inf"/>
+                        <node begin="28" cat="ap" end="36" id="53" rel="predc">
+                          <node aform="base" begin="28" buiging="zonder" end="29" frame="adjective(no_e(nonadv),pp(voor))" graad="basis" id="54" infl="no_e" lcat="ap" lemma="beschikbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="beschikbaar" sc="pp(voor)" sense="beschikbaar-voor" vform="adj" word="beschikbaar"/>
+                          <node begin="31" cat="pp" end="36" id="55" rel="pc">
+                            <node begin="31" end="32" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="56" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                            <node begin="32" cat="np" end="36" id="57" rel="obj1">
+                              <node aform="compar" begin="32" buiging="met-e" end="33" frame="adjective(ere)" graad="basis" id="58" infl="e" lcat="ap" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" sense="ander" vform="adj" word="andere"/>
+                              <node begin="33" end="34" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="59" lcat="np" lemma="provider" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="provider" sense="provider" word="providers"/>
+                              <node begin="34" cat="cp" end="36" id="60" rel="mod">
+                                <node begin="34" conjtype="onder" end="35" frame="complementizer(zoals)" id="61" lcat="cp" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" sc="zoals" sense="zoals" word="zoals"/>
+                                <node begin="35" end="36" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="62" lcat="np" lemma="Verizon" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="body" rnum="sg" root="Verizon" sense="Verizon" word="Verizon"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="36" end="37" frame="punct(punt)" id="63" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In Amerika zal de iPhone 4 alleen verkrijgbaar zijn in combinatie met een AT &amp; T-abonnement , ondanks het feit dat Apple is gevraagd om de iPhone ook beschikbaar te maken voor andere providers zoals Verizon .</sentence>
+  <comments>
+    <comment>Q#23|In Amerika zal de iPhone 4 alleen verkrijgbaar zijn in combinatie met een AT &amp; T-abonnement , ondanks het feit dat Apple is gevraagd om de iPhone ook beschikbaar te maken voor andere providers zoals Verizon .|1|1|-8.441011718600004</comment>
+  </comments>
+</alpino_ds>

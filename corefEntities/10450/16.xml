@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="22" id="2" rel="--">
+      <node begin="0" end="1" frame="adverb" id="3" lcat="advp" lemma="vervolgens" pos="adv" postag="BW()" pt="bw" rel="dp" root="vervolgens" sense="vervolgens" word="Vervolgens"/>
+      <node begin="1" cat="sv1" end="22" id="4" rel="dp">
+        <node begin="1" end="2" frame="verb(hebben,past(sg),np_sbar)" id="5" infl="sg" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" sc="np_sbar" sense="zeg" stype="topic_drop" tense="past" word="zei" wvorm="pv"/>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="6" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj2" rnum="pl" root="job" sense="job" word="Jobs"/>
+        <node begin="3" cat="cp" end="22" id="7" rel="vc">
+          <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" id="8" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="4" cat="ssub" end="22" id="9" rel="body">
+            <node begin="17" cat="np" end="20" id="10" index="1" rel="su">
+              <node begin="17" end="18" frame="number(hoofd(pl_num))" id="11" infl="pl_num" lcat="detp" lemma="2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="2" sense="2" special="hoofd" word="2"/>
+              <node begin="18" end="19" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="12" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+              <node begin="19" end="20" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="13" lcat="np" lemma="exemplaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="exemplaar" sense="exemplaar" word="exemplaren"/>
+            </node>
+            <node begin="20" end="21" frame="verb(unacc,pl,passive)" id="14" infl="pl" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" tense="present" word="zijn" wvorm="pv"/>
+            <node begin="4" cat="ppart" end="22" id="15" rel="vc">
+              <node begin="4" cat="pp" end="8" id="16" rel="mod">
+                <node begin="4" end="5" frame="preposition(in,[])" id="17" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="5" cat="np" end="8" id="18" rel="obj1">
+                  <node begin="5" end="6" frame="determiner(de)" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="6" end="7" frame="number(hoofd(pl_num))" id="20" infl="pl_num" lcat="detp" lemma="6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="6" sense="6" special="hoofd" word="6"/>
+                  <node begin="7" end="8" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="21" lcat="np" lemma="week" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="week" sense="week" special="tmp" word="weken"/>
+                </node>
+              </node>
+              <node begin="8" cat="cp" end="14" id="22" rel="mod">
+                <node begin="8" end="9" frame="complementizer" id="23" lcat="cp" lemma="sinds" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="sinds" sense="sinds" vztype="init" word="sinds"/>
+                <node begin="9" cat="ssub" end="14" id="24" rel="body">
+                  <node begin="9" end="10" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="Tiger" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Tiger" sense="Tiger" word="Tiger"/>
+                  <node begin="10" cat="pp" end="13" id="26" rel="ld">
+                    <node begin="10" end="11" frame="preposition(op,[af,na])" id="27" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                    <node begin="11" cat="np" end="13" id="28" rel="obj1">
+                      <node begin="11" end="12" frame="determiner(de)" id="29" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="markt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="markt" sense="markt" word="markt"/>
+                    </node>
+                  </node>
+                  <node begin="13" end="14" frame="verb(unacc,sg_heeft,ld_pp)" id="31" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="ld_pp" sense="ben" tense="present" word="is" wvorm="pv"/>
+                </node>
+              </node>
+              <node begin="15" end="16" frame="er_vp_adverb" getal="getal" id="32" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="16" end="17" frame="adverb" id="33" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+              <node begin="17" end="20" id="34" index="1" rel="obj1"/>
+              <node begin="21" buiging="zonder" end="22" frame="verb(hebben,psp,transitive)" id="35" infl="psp" lcat="ppart" lemma="verkopen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verkoop" sc="transitive" sense="verkoop" word="verkocht" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" id="36" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Vervolgens zei Jobs dat in de 6 weken sinds Tiger op de markt is , er al 2 miljoen exemplaren zijn verkocht .</sentence>
+  <comments>
+    <comment>Q#16|Vervolgens zei Jobs dat in de 6 weken sinds Tiger op de markt is , er al 2 miljoen exemplaren zijn verkocht .|1|2|5.867009693119995</comment>
+  </comments>
+</alpino_ds>

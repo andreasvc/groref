@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="13" end="14" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="15" end="16" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="17" end="18" frame="punct(aanhaal_links)" id="3" lcat="--" lemma="‘" pos="punct" postag="LET()" pt="let" rel="--" root="‘" sense="‘" special="aanhaal_links" word="‘"/>
+    <node begin="0" cat="conj" end="23" id="4" rel="--">
+      <node begin="0" cat="smain" end="8" id="5" rel="cnj">
+        <node begin="0" cat="np" end="2" id="6" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="scherm_indeling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="scherm_indeling" sense="scherm_indeling" word="schermindeling"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(op))" id="9" infl="sg3" lcat="smain" lemma="lijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lijk" sc="pc_pp(op)" sense="lijk-op" tense="present" word="lijkt" wvorm="pv"/>
+        <node begin="3" cat="pp" end="8" id="10" rel="pc">
+          <node begin="3" end="4" frame="preposition(op,[af,na])" id="11" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="4" cat="np" end="8" id="12" rel="obj1">
+            <node begin="4" end="5" frame="determiner(de,nwh,nmod,pro,nparg)" getal="getal" id="13" infl="de" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="hd" rnum="sg" root="die" sense="die" status="vol" vwtype="aanw" wh="nwh" word="die"/>
+            <node begin="5" cat="pp" end="8" id="14" rel="mod">
+              <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="15" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="6" cat="np" end="8" id="16" rel="obj1">
+                <node begin="6" end="7" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" frame="conj(en)" id="19" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="23" id="20" rel="cnj">
+        <node begin="0" end="2" id="21" index="1" rel="su"/>
+        <node begin="9" end="10" frame="verb(hebben,sg3,np_np)" id="22" infl="sg3" lcat="smain" lemma="bieden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bied" sc="np_np" sense="bied" tense="present" word="biedt" wvorm="pv"/>
+        <node begin="10" cat="np" end="22" id="23" rel="obj2">
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="toegang" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="toegang" sense="toegang" word="toegang"/>
+          <node begin="11" cat="pp" end="22" id="25" rel="mod">
+            <node begin="11" end="12" frame="preposition(tot,[toe,[aan,toe]])" id="26" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+            <node begin="12" cat="conj" end="22" id="27" rel="obj1">
+              <node begin="12" end="13" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="28" lcat="np" lemma="muziek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="muziek" sense="muziek" word="muziek"/>
+              <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="29" lcat="np" lemma="video" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="video" sense="video" word="video"/>
+              <node begin="16" cat="np" end="19" id="30" rel="cnj">
+                <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="foto" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="foto" sense="foto" word="foto"/>
+                <node begin="18" end="19" frame="proper_name(both)" genus="genus" getal="ev" graad="basis" id="32" lcat="np" lemma="s" naamval="stan" neclass="MISC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="app" root="s" sense="s" word="s"/>
+              </node>
+              <node begin="19" conjtype="neven" end="20" frame="conj(en)" id="33" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="20" cat="np" end="22" id="34" rel="cnj">
+                <node begin="20" end="21" frame="determiner(de)" id="35" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="21" end="22" frame="proper_name(sg)" genus="zijd" getal="ev" graad="basis" id="36" lcat="np" lemma="iTunes" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iTunes" sense="iTunes" word="iTunes"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="22" end="23" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="37" lcat="np" lemma="Store" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Store" sense="Store" word="Store"/>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" id="38" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De schermindeling lijkt op die van de iPhone en biedt toegang tot muziek , video , foto ‘ s en de iTunes Store .</sentence>
+  <comments>
+    <comment>Q#11|De schermindeling lijkt op die van de iPhone en biedt toegang tot muziek , video , foto ‘ s en de iTunes Store .|1|1|7.159099209500013</comment>
+  </comments>
+</alpino_ds>

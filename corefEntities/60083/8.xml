@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="12" end="13" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="18" id="3" rel="--">
+      <node begin="0" cat="smain" end="8" id="4" rel="nucl">
+        <node begin="0" cat="np" end="3" id="5" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(ende(padv))" id="7" infl="e" lcat="ppres" lemma="komen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="kom" sense="kom" vform="gerund" word="komende" wvorm="od"/>
+          <node begin="2" end="3" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="8" lcat="np" lemma="jaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaren"/>
+        </node>
+        <node begin="3" end="4" frame="verb(unacc,pl,intransitive)" id="9" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="intransitive" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+        <node begin="4" cat="np" end="6" id="10" rel="mod">
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" id="11" infl="e" lcat="ap" lemma="spannend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="spannend" sense="spannend" vform="adj" word="spannende"/>
+          <node begin="5" end="6" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="12" lcat="np" lemma="tijd" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tijd" sense="tijd" special="tmp" word="tijden"/>
+        </node>
+        <node begin="6" cat="pp" end="8" id="13" rel="mod">
+          <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="14" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="7" case="dat_acc" def="def" end="8" frame="pronoun(nwh,fir,pl,de,dat_acc,def)" gen="de" getal="mv" id="15" lcat="np" lemma="ons" naamval="obl" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,mv)" pt="vnw" rel="obj1" rnum="pl" root="ons" sense="ons" status="vol" vwtype="pr" wh="nwh" word="ons"/>
+        </node>
+      </node>
+      <node begin="9" cat="sv1" end="18" id="16" rel="tag">
+        <node begin="9" end="10" frame="verb(hebben,past(sg),tr_sbar)" id="17" infl="sg" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="past" word="zei" wvorm="pv"/>
+        <node begin="10" cat="np" end="18" id="18" rel="su">
+          <node begin="10" cat="mwu" end="12" id="19" mwu_root="Neil Aspinall" mwu_sense="Neil Aspinall" rel="hd">
+            <node begin="10" end="11" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Neil" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Neil" sense="Neil" spectype="deeleigen" word="Neil"/>
+            <node begin="11" end="12" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="Aspinall" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Aspinall" sense="Aspinall" spectype="deeleigen" word="Aspinall"/>
+          </node>
+          <node begin="13" cat="np" end="18" id="22" rel="app">
+            <node begin="13" end="14" frame="determiner(de)" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="manager" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="manager" sense="manager" word="manager"/>
+            <node begin="15" cat="pp" end="18" id="25" rel="mod">
+              <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="26" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="16" cat="mwu" end="18" id="27" mwu_root="Apple Corps" mwu_sense="Apple Corps" rel="obj1">
+                <node begin="16" end="17" frame="proper_name(both,'ORG')" id="28" lcat="np" lemma="Apple" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+                <node begin="17" end="18" frame="proper_name(both,'ORG')" id="29" lcat="np" lemma="Corps" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Corps" sense="Corps" spectype="deeleigen" word="Corps"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" id="30" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De komende jaren zijn spannende tijden voor ons , zei Neil Aspinall , de manager van Apple Corps .</sentence>
+  <comments>
+    <comment>Q#8|De komende jaren zijn spannende tijden voor ons , zei Neil Aspinall , de manager van Apple Corps .|1|1|1.2588487899799932</comment>
+  </comments>
+</alpino_ds>

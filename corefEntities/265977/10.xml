@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="10" end="11" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="14" end="15" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="0" cat="mwu" end="3" id="4" mwu_root="Werknemer Phil Schiller" mwu_sense="Werknemer Phil Schiller" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Werknemer" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Werknemer" sense="Werknemer" spectype="deeleigen" word="Werknemer"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Phil" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Phil" sense="Phil" spectype="deeleigen" word="Phil"/>
+        <node begin="2" end="3" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Schiller" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Schiller" sense="Schiller" spectype="deeleigen" word="Schiller"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),transitive)" id="8" infl="sg" lcat="smain" lemma="bespreken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bespreek" sc="transitive" sense="bespreek" stype="declarative" tense="past" word="besprak" wvorm="pv"/>
+      <node begin="4" cat="conj" end="19" id="9" rel="obj1">
+        <node begin="6" conjtype="neven" end="7" frame="conj(en)" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="4" cat="np" end="19" id="11" rel="cnj">
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" id="12" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="13" lcat="np" lemma="multitouch_handeling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="multitouch_handeling" sense="multitouch_handeling" word="multitouch-handelingen"/>
+          <node begin="15" cat="rel" end="19" id="14" index="1" rel="mod">
+            <node begin="15" case="no_obl" end="16" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="15" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="15" cat="ssub" end="19" id="16" rel="body">
+              <node begin="15" end="16" id="17" index="2" rel="su"/>
+              <node begin="16" cat="np" end="18" id="18" rel="obj1">
+                <node aform="base" begin="16" buiging="zonder" end="17" frame="adjective(both(adv))" graad="basis" id="19" infl="both" lcat="ap" lemma="open" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="open" sense="open" vform="adj" word="open"/>
+                <node begin="17" end="18" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="20" lcat="np" lemma="toepassing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="toepassing" sense="toepassing" word="toepassingen"/>
+              </node>
+              <node begin="18" end="19" frame="verb(hebben,sg3,ninv(transitive,part_transitive(weer)))" id="21" infl="sg3" lcat="ssub" lemma="weer_geven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geef_weer" sc="part_transitive(weer)" sense="geef_weer" tense="present" word="weergeeft" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" cat="np" end="19" id="22" rel="cnj">
+          <node begin="7" end="8" frame="determiner(een)" id="23" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" id="24" infl="e" lcat="ap" lemma="dynamisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="dynamisch" sense="dynamisch" vform="adj" word="dynamische"/>
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="taak_manager" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="taak_manager" sense="taak_manager" word="taakmanager"/>
+          <node begin="11" cat="ppart" end="14" id="26" rel="mod">
+            <node begin="11" cat="mwu" end="13" id="27" mwu_root="Mission Control" mwu_sense="Mission Control" rel="obj1">
+              <node begin="11" end="12" frame="proper_name(sg,'PER')" id="28" lcat="np" lemma="Mission" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mission" sense="Mission" spectype="deeleigen" word="Mission"/>
+              <node begin="12" end="13" frame="proper_name(sg,'PER')" id="29" lcat="np" lemma="Control" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Control" sense="Control" spectype="deeleigen" word="Control"/>
+            </node>
+            <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(ge_both(adv),transitive)" id="30" infl="both" lcat="ppart" lemma="geheten" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geheten" sc="transitive" sense="geheten" vform="psp" word="geheten" wvorm="vd"/>
+          </node>
+          <node begin="15" end="19" id="31" index="1" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Werknemer Phil Schiller besprak nieuwe multitouch-handelingen en een dynamische taakmanager , Mission Control geheten , die open toepassingen weergeeft .</sentence>
+  <comments>
+    <comment>Q#10|Werknemer Phil Schiller besprak nieuwe multitouch-handelingen en een dynamische taakmanager , Mission Control geheten , die open toepassingen weergeeft .|1|1|6.925966969080001</comment>
+  </comments>
+</alpino_ds>

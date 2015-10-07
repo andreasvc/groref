@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="conj" end="17" id="1" rel="--">
+      <node begin="0" cat="smain" end="6" id="2" rel="cnj">
+        <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,fir,pl,de,nom,def,wkpro)" gen="de" getal="mv" id="3" index="1" lcat="np" lemma="we" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" rnum="pl" root="we" sense="we" special="wkpro" status="red" vwtype="pers" wh="nwh" word="We"/>
+        <node begin="1" end="2" frame="verb(hebben,pl,np_np)" id="4" infl="pl" lcat="smain" lemma="wensen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wens" sc="np_np" sense="wens" tense="present" word="wensen" wvorm="pv"/>
+        <node begin="2" cat="mwu" end="4" id="5" mwu_root="Apple Inc." mwu_sense="Apple Inc." rel="obj2">
+          <node begin="2" end="3" frame="proper_name(both,'ORG')" id="6" lcat="np" lemma="Apple" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+          <node begin="3" end="4" frame="proper_name(both,'ORG')" id="7" lcat="np" lemma="Inc." neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Inc." sense="Inc." spectype="deeleigen" word="Inc."/>
+        </node>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(odet_adv))" graad="basis" id="9" infl="no_e" lcat="ap" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" sense="veel" vform="adj" vwtype="onbep" word="veel"/>
+          <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="succes" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="succes" sense="succes" word="succes"/>
+        </node>
+      </node>
+      <node begin="6" conjtype="neven" end="7" frame="conj(en)" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="17" id="12" rel="cnj">
+        <node begin="0" end="1" id="13" index="1" rel="su"/>
+        <node begin="7" end="8" frame="verb(hebben,pl,refl_pc_pp(op))" id="14" infl="pl" lcat="smain" lemma="verheugen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verheug" sc="refl_pc_pp(op)" sense="zich-verheug-op" tense="present" word="verheugen" wvorm="pv"/>
+        <node begin="8" end="9" frame="reflexive(fir,pl)" getal="mv" id="15" lcat="np" lemma="ons" naamval="obl" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,mv)" pt="vnw" refl="refl" rel="se" rnum="pl" root="ons" sense="ons" status="vol" vwtype="pr" word="ons"/>
+        <node begin="9" cat="pp" end="17" id="16" rel="pc">
+          <node begin="9" end="10" frame="preposition(op,[af,na])" id="17" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="10" cat="np" end="17" id="18" rel="obj1">
+            <node begin="10" cat="ap" end="13" id="19" rel="mod">
+              <node begin="10" cat="np" end="12" id="20" rel="mod">
+                <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" id="21" infl="e" lcat="ap" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,basis)" pt="vnw" rel="mod" root="veel" sense="veel" vform="adj" vwtype="onbep" word="vele"/>
+                <node begin="11" end="12" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="22" lcat="np" lemma="jaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaren"/>
+              </node>
+              <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(e)" graad="basis" id="23" infl="e" lcat="ap" lemma="vrede_vol" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="vrede_vol" sense="vrede_vol" vform="adj" word="vredevolle"/>
+            </node>
+            <node begin="13" end="14" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="samenwerking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="samenwerking" sense="samenwerking" word="samenwerking"/>
+            <node begin="14" cat="pp" end="17" id="25" rel="mod">
+              <node begin="14" end="15" frame="preposition(met,[mee,[en,al]])" id="26" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="15" cat="np" end="17" id="27" rel="obj1">
+                <node begin="15" end="16" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="28" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="16" end="17" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="29" lcat="np" lemma="bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bedrijf" sense="bedrijf" word="bedrijf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" id="30" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>We wensen Apple Inc. veel succes en verheugen ons op vele jaren vredevolle samenwerking met het bedrijf .</sentence>
+  <comments>
+    <comment>Q#9|We wensen Apple Inc. veel succes en verheugen ons op vele jaren vredevolle samenwerking met het bedrijf .|1|1|-2.196878372360004</comment>
+  </comments>
+</alpino_ds>

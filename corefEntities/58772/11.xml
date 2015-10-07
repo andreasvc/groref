@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="netto_winst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="netto_winst" sense="netto_winst" word="nettowinst"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),meas)" id="5" infl="sg" lcat="smain" lemma="bedragen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bedraag" sc="meas" sense="bedraag" stype="declarative" tense="past" word="bedroeg" wvorm="pv"/>
+      <node begin="3" cat="mwu" end="5" id="6" mwu_root="$ 1,14" mwu_sense="$ 1,14" rel="me">
+        <node begin="3" end="4" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="$" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="$" sense="$" special="amount_meas_mod" word="$"/>
+        <node begin="4" end="5" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="1,14" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="1,14" sense="1,14" special="amount_meas_mod" word="1,14"/>
+      </node>
+      <node begin="5" cat="pp" end="7" id="9" rel="mod">
+        <node begin="5" end="6" frame="preposition(per,[])" id="10" lcat="pp" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" sense="per" vztype="init" word="per"/>
+        <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="aandeel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="aandeel" sense="aandeel" word="aandeel"/>
+      </node>
+      <node begin="7" cat="cp" end="16" id="12" rel="mod">
+        <node begin="7" conjtype="onder" end="8" frame="complementizer" id="13" lcat="cp" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" sense="terwijl" word="terwijl"/>
+        <node begin="8" cat="ssub" end="16" id="14" rel="body">
+          <node begin="8" cat="mwu" end="10" id="15" mwu_root="Wall Street" mwu_sense="Wall Street" rel="su">
+            <node begin="8" end="9" frame="proper_name(sg,'LOC')" id="16" lcat="np" lemma="Wall" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wall" sense="Wall" spectype="deeleigen" word="Wall"/>
+            <node begin="9" end="10" frame="proper_name(sg,'LOC')" id="17" lcat="np" lemma="Street" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Street" sense="Street" spectype="deeleigen" word="Street"/>
+          </node>
+          <node begin="10" end="11" frame="adverb" id="18" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="11" cat="np" end="15" id="19" rel="obj1">
+            <node begin="11" cat="detp" end="14" id="20" rel="det">
+              <node begin="11" cat="mwu" end="13" id="21" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+                <node begin="11" buiging="zonder" end="12" frame="pre_num_adv(both)" graad="comp" id="22" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+                <node begin="12" conjtype="onder" end="13" frame="pre_num_adv(both)" id="23" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+              </node>
+              <node begin="13" end="14" frame="number(hoofd(pl_num))" id="24" infl="pl_num" lcat="detp" lemma="77" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="77" sense="77" special="hoofd" word="77"/>
+            </node>
+            <node begin="14" end="15" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="25" lcat="np" lemma="cent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="cent" sense="cent" special="meas_mod" word="cent"/>
+          </node>
+          <node begin="15" end="16" frame="verb(hebben,past(sg),transitive)" id="26" infl="sg" lcat="ssub" lemma="verwachten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verwacht" sc="transitive" sense="verwacht" tense="past" word="verwachtte" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De nettowinst bedroeg $ 1,14 per aandeel terwijl Wall Street niet meer dan 77 cent verwachtte .</sentence>
+  <comments>
+    <comment>Q#11|De nettowinst bedroeg $ 1,14 per aandeel terwijl Wall Street niet meer dan 77 cent verwachtte .|1|1|-3.5362374845400026</comment>
+  </comments>
+</alpino_ds>

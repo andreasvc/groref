@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="0" cat="smain" end="24" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" id="3" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="4" id="4" rel="obj1">
+          <node begin="1" end="2" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" id="6" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="versie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="versie" sense="versie" word="versie"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg,refl_pc_pp(op))" id="8" infl="sg" lcat="smain" lemma="richten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="richt" sc="refl_pc_pp(op)" sense="zich-richt-op" stype="declarative" tense="present" word="richt" wvorm="pv"/>
+      <node begin="5" end="6" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="6" end="7" frame="reflexive(u_thi,both)" getal="getal" id="10" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="7" cat="pp" end="9" id="11" rel="pc">
+        <node begin="7" end="8" frame="preposition(op,[af,na])" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="8" end="9" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="enterprise_functionaliteit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="enterprise_functionaliteit" sense="enterprise_functionaliteit" word="enterprise-functionaliteit"/>
+      </node>
+      <node begin="9" cat="oti" end="15" id="14" rel="mod">
+        <node begin="9" end="10" frame="complementizer(om)" id="15" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="10" cat="ti" end="15" id="16" rel="body">
+          <node begin="10" end="11" frame="complementizer(te)" id="17" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="11" cat="inf" end="15" id="18" rel="body">
+            <node begin="11" buiging="zonder" end="12" frame="verb('hebben/zijn',inf,aux(inf))" id="19" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+            <node begin="12" cat="inf" end="15" id="20" rel="vc">
+              <node begin="12" buiging="zonder" end="13" frame="verb(hebben,inf,pc_pp(met))" id="21" infl="inf" lcat="inf" lemma="concurreren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="concurreer" sc="pc_pp(met)" sense="concurreer-met" word="concurreren" wvorm="inf"/>
+              <node begin="13" cat="pp" end="15" id="22" rel="pc">
+                <node begin="13" end="14" frame="preposition(met,[mee,[en,al]])" id="23" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="24" lcat="np" lemma="rivaal" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="rivaal" sense="rivaal" word="rivalen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" cat="cp" end="24" id="25" rel="predm">
+        <node begin="15" end="16" frame="complementizer(als)" id="26" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+        <node begin="16" cat="conj" end="24" id="27" rel="body">
+          <node begin="16" cat="np" end="19" id="28" rel="cnj">
+            <node begin="16" end="17" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="29" lcat="np" lemma="BlackBerry" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="BlackBerry" sense="BlackBerry" word="BlackBerry"/>
+            <node begin="17" cat="pp" end="19" id="30" rel="mod">
+              <node begin="17" end="18" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="31" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="18" end="19" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" id="32" lcat="np" lemma="RIM" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="RIM" sense="RIM" word="RIM"/>
+            </node>
+          </node>
+          <node begin="19" conjtype="neven" end="20" frame="conj(en)" id="33" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="20" cat="np" end="24" id="34" rel="cnj">
+            <node begin="20" cat="mwu" end="22" id="35" mwu_root="Windows Mobile" mwu_sense="Windows Mobile" rel="hd">
+              <node begin="20" end="21" frame="proper_name(sg,'PER')" id="36" lcat="np" lemma="Windows" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Windows" sense="Windows" spectype="deeleigen" word="Windows"/>
+              <node begin="21" end="22" frame="proper_name(sg,'PER')" id="37" lcat="np" lemma="Mobile" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mobile" sense="Mobile" spectype="deeleigen" word="Mobile"/>
+            </node>
+            <node begin="22" cat="pp" end="24" id="38" rel="mod">
+              <node begin="22" end="23" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="39" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="23" end="24" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="40" lcat="np" lemma="Microsoft" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Microsoft" sense="Microsoft" word="Microsoft"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" id="41" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In de nieuwe versie richt Apple zich op enterprise-functionaliteit om te kunnen concurreren met rivalen als BlackBerry van RIM en Windows Mobile van Microsoft .</sentence>
+  <comments>
+    <comment>Q#14|In de nieuwe versie richt Apple zich op enterprise-functionaliteit om te kunnen concurreren met rivalen als BlackBerry van RIM en Windows Mobile van Microsoft .|1|1|-6.818805468440004</comment>
+  </comments>
+</alpino_ds>

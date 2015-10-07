@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="18" end="19" frame="punct(aanhaal_links)" id="1" lcat="--" lemma="‘" pos="punct" postag="LET()" pt="let" rel="--" root="‘" sense="‘" special="aanhaal_links" word="‘"/>
+    <node begin="23" end="24" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="38" id="3" rel="--">
+      <node begin="0" cat="pp" end="8" id="4" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="8" id="6" rel="obj1">
+          <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="2" end="3" frame="number(rang)" id="8" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+          <node begin="3" end="4" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="9" lcat="np" lemma="kwartaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kwartaal" sense="kwartaal" special="tmp" word="kwartaal"/>
+          <node begin="4" cat="pp" end="8" id="10" rel="mod">
+            <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="11" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="5" cat="np" end="8" id="12" rel="obj1">
+              <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="13" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="14" infl="e" lcat="ap" lemma="financieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="financieel" sense="financieel" vform="adj" word="financiële"/>
+              <node begin="7" end="8" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="15" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(hebben,past(sg),np_np)" id="16" infl="sg" lcat="smain" lemma="verkopen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verkoop" sc="np_np" sense="verkoop" stype="declarative" tense="past" word="verkocht" wvorm="pv"/>
+      <node begin="9" cat="mwu" end="11" id="17" mwu_root="Apple Inc." mwu_sense="Apple Inc." rel="su">
+        <node begin="9" end="10" frame="proper_name(both,'ORG')" id="18" lcat="np" lemma="Apple" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+        <node begin="10" end="11" frame="proper_name(both,'ORG')" id="19" lcat="np" lemma="Inc." neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Inc." sense="Inc." spectype="deeleigen" word="Inc."/>
+      </node>
+      <node begin="11" cat="conj" end="20" id="20" rel="obj2">
+        <node begin="11" cat="np" end="16" id="21" rel="cnj">
+          <node begin="11" cat="detp" end="14" id="22" rel="det">
+            <node begin="11" cat="mwu" end="13" id="23" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+              <node begin="11" buiging="zonder" end="12" frame="pre_num_adv(both)" graad="comp" id="24" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+              <node begin="12" conjtype="onder" end="13" frame="pre_num_adv(both)" id="25" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+            </node>
+            <node begin="13" end="14" frame="number(hoofd(pl_num))" id="26" infl="pl_num" lcat="detp" lemma="21" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="21" sense="21" special="hoofd" word="21"/>
+          </node>
+          <node begin="14" end="15" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="27" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+          <node begin="15" end="16" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="28" lcat="np" lemma="iPod_speler" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="iPod_speler" sense="iPod_speler" word="iPod-spelers"/>
+        </node>
+        <node begin="16" conjtype="neven" end="17" frame="conj(en)" id="29" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="17" cat="np" end="20" id="30" rel="cnj">
+          <node begin="17" end="18" frame="adverb" id="31" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" sense="zo" word="zo"/>
+          <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="32" lcat="np" lemma="n" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="n" sense="n" word="n"/>
+        </node>
+      </node>
+      <node begin="20" cat="np" end="38" id="33" rel="obj1">
+        <node begin="20" end="21" frame="number(hoofd(both))" id="34" infl="both" lcat="detp" lemma="1,6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1,6" sense="1,6" special="hoofd" word="1,6"/>
+        <node begin="21" end="22" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" id="35" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+        <node begin="22" end="23" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="36" lcat="np" lemma="computer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="computer" sense="computer" word="computers"/>
+        <node begin="24" cat="np" end="38" id="37" rel="app">
+          <node begin="24" end="25" frame="determiner(een)" id="38" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="25" end="26" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="39" lcat="np" lemma="groei" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="groei" sense="groei" word="groei"/>
+          <node begin="26" cat="pp" end="38" id="40" rel="mod">
+            <node begin="26" end="27" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="41" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="27" cat="conj" end="38" id="42" rel="obj1">
+              <node begin="27" conjtype="neven" end="28" frame="left_conj(en)" id="43" lcat="vg" lemma="respectievelijk" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="respectievelijk" sense="respectievelijk" special="left" word="respectievelijk"/>
+              <node begin="28" cat="np" end="30" id="44" rel="cnj">
+                <node begin="28" end="29" frame="number(hoofd(pl_num))" id="45" infl="pl_num" lcat="detp" lemma="28" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="28" sense="28" special="hoofd" word="28"/>
+                <node begin="29" end="30" frame="meas_mod_noun(both,count,meas)" gen="both" id="46" lcat="np" lemma="procent" num="meas" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" rnum="pl" root="procent" sense="procent" special="meas_mod" spectype="symb" word="%"/>
+              </node>
+              <node begin="30" conjtype="neven" end="31" frame="conj(en)" id="47" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="31" cat="np" end="38" id="48" rel="cnj">
+                <node begin="31" end="32" frame="number(hoofd(pl_num))" id="49" infl="pl_num" lcat="detp" lemma="50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="50" sense="50" special="hoofd" word="50"/>
+                <node begin="32" end="33" frame="meas_mod_noun(both,count,meas)" gen="both" id="50" lcat="np" lemma="procent" num="meas" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" rnum="pl" root="procent" sense="procent" special="meas_mod" spectype="symb" word="%"/>
+                <node begin="33" cat="pp" end="38" id="51" rel="mod">
+                  <node begin="33" cat="mwu" end="36" id="52" mwu_root="ten opzichte van" mwu_sense="ten opzichte van" rel="hd">
+                    <node begin="33" end="34" frame="preposition([ten,opzichte,van],[])" id="53" lcat="pp" lemma="ten" pos="prep" postag="VZ(versm)" pt="vz" rel="mwp" root="ten" sense="ten" vztype="versm" word="ten"/>
+                    <node begin="34" end="35" frame="preposition([ten,opzichte,van],[])" getal="ev" graad="basis" id="54" lcat="pp" lemma="opzichte" naamval="dat" ntype="soort" pos="prep" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="opzichte" sense="opzichte" word="opzichte"/>
+                    <node begin="35" end="36" frame="preposition([ten,opzichte,van],[])" id="55" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+                  </node>
+                  <node begin="36" cat="np" end="38" id="56" rel="obj1">
+                    <node aform="base" begin="36" buiging="zonder" end="37" frame="adjective(no_e(nonadv))" graad="basis" id="57" infl="no_e" lcat="ap" lemma="vorig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vorig" sense="vorig" vform="adj" word="vorig"/>
+                    <node begin="37" end="38" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="58" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="38" end="39" frame="punct(punt)" id="59" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In het eerste kwartaal van het financiële jaar verkocht Apple Inc. meer dan 21 miljoen iPod-spelers en zo ‘ n 1,6 miljoen computers , een groei van respectievelijk 28 % en 50 % ten opzichte van vorig jaar .</sentence>
+  <comments>
+    <comment>Q#12|In het eerste kwartaal van het financiële jaar verkocht Apple Inc. meer dan 21 miljoen iPod-spelers en zo ‘ n 1,6 miljoen computers , een groei van respectievelijk 28 % en 50 % ten opzichte van vorig jaar .|1|1|-7.660689206040017</comment>
+  </comments>
+</alpino_ds>

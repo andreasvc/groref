@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="23" id="2" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="3" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="Het"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,er_pp_sbar(op))" id="4" infl="sg3" lcat="smain" lemma="lijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lijk" sc="er_pp_sbar(op)" sense="lijk-op" stype="declarative" tense="present" word="lijkt" wvorm="pv"/>
+      <node begin="2" cat="pp" end="23" id="5" rel="pc">
+        <node begin="2" end="3" frame="er_adverb(op)" id="6" lcat="pp" lemma="erop" pos="pp" postag="BW()" pt="bw" rel="hd" root="erop" sense="erop" special="er" word="erop"/>
+        <node begin="3" cat="cp" end="23" id="7" rel="vc">
+          <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" id="8" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="4" cat="ssub" end="23" id="9" rel="body">
+            <node begin="6" end="7" frame="tmp_adverb" id="10" lcat="advp" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" sense="vandaag" special="tmp" word="vandaag"/>
+            <node begin="7" end="8" frame="verb(unacc,past(pl),intransitive)" id="11" infl="pl" lcat="ssub" lemma="ontstaan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ontsta" sc="intransitive" sense="ontsta" tense="past" word="ontstonden" wvorm="pv"/>
+            <node begin="8" cat="pp" end="14" id="12" rel="mod">
+              <node begin="8" end="9" frame="preposition(in,[])" id="13" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="9" cat="conj" end="14" id="14" rel="obj1">
+                <node begin="9" cat="np" end="11" id="15" rel="cnj">
+                  <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="16" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="transactie_goedkeuring_proces" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="transactie_goedkeuring_proces" sense="transactie_goedkeuring_proces" word="transactiegoedkeuringsproces"/>
+                </node>
+                <node begin="12" cat="np" end="14" id="18" rel="cnj">
+                  <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="19" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="13" end="14" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" id="20" lcat="np" lemma="punt" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="punt" sense="punt" special="meas_mod" word="punt"/>
+                </node>
+              </node>
+            </node>
+            <node begin="4" cat="np" end="23" id="21" rel="su">
+              <node begin="4" end="5" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="23" lcat="np" lemma="hapering" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="hapering" sense="hapering" word="haperingen"/>
+              <node begin="14" cat="rel" end="23" id="24" rel="mod">
+                <node begin="14" end="15" frame="er_wh_loc_adverb" getal="getal" id="25" index="1" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+                <node begin="14" cat="ssub" end="23" id="26" rel="body">
+                  <node begin="14" end="15" id="27" index="1" rel="mod"/>
+                  <node begin="15" end="16" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="28" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+                  <node begin="16" end="17" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="29" lcat="np" lemma="gegeven" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="gegeven" sense="gegeven" word="gegevens"/>
+                  <node begin="17" end="18" frame="verb(hebben,sg3,ninv(so_pp_np,part_so_pp_np(over)))" id="30" infl="sg3" lcat="ssub" lemma="over_dragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="draag_over" sc="part_so_pp_np(over)" sense="draag_over" tense="present" word="overdraagt" wvorm="pv"/>
+                  <node begin="18" cat="pp" end="23" id="31" rel="obj2">
+                    <node begin="18" end="19" frame="preposition(aan,[vooraf])" id="32" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+                    <node begin="19" cat="np" end="23" id="33" rel="obj1">
+                      <node begin="19" end="20" frame="determiner(de)" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="20" cat="mwu" end="23" id="35" mwu_root="AT &amp; T-servers" mwu_sense="AT &amp; T-servers" rel="hd">
+                        <node begin="20" end="21" frame="proper_name(both,'ORG')" id="36" lcat="np" lemma="AT" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="AT" sense="AT" spectype="deeleigen" word="AT"/>
+                        <node begin="21" end="22" frame="proper_name(both,'ORG')" id="37" lcat="np" lemma="&amp;" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="&amp;" sense="&amp;" spectype="deeleigen" word="&amp;"/>
+                        <node begin="22" end="23" frame="proper_name(both,'ORG')" id="38" lcat="np" lemma="T-servers" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="T-servers" sense="T-servers" spectype="deeleigen" word="T-servers"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Het lijkt erop dat de haperingen vandaag ontstonden in het transactiegoedkeuringsproces , het punt waar Apple gegevens overdraagt aan de AT &amp; T-servers .</sentence>
+  <comments>
+    <comment>Q#8|Het lijkt erop dat de haperingen vandaag ontstonden in het transactiegoedkeuringsproces , het punt waar Apple gegevens overdraagt aan de AT &amp; T-servers .|1|1|-3.6298680693199987</comment>
+  </comments>
+</alpino_ds>

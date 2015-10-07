@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="21" id="3" rel="--">
+      <node begin="0" cat="smain" end="18" id="4" rel="cnj">
+        <node begin="0" cat="pp" end="8" id="5" rel="mod">
+          <node begin="0" end="1" frame="preposition(tijdens,[])" id="6" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="Tijdens"/>
+          <node begin="1" cat="np" end="8" id="7" rel="obj1">
+            <node begin="1" buiging="zonder" end="2" frame="determiner(pron)" getal="ev" id="8" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="speech" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="speech" sense="speech" word="speech"/>
+            <node begin="4" cat="rel" end="8" id="10" rel="mod">
+              <node begin="4" case="no_obl" end="5" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="11" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="4" cat="ssub" end="8" id="12" rel="body">
+                <node begin="4" end="5" id="13" index="1" rel="su"/>
+                <node begin="5" cat="np" end="7" id="14" rel="me">
+                  <node begin="5" end="6" frame="number(hoofd(pl_num))" id="15" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+                  <node begin="6" end="7" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="uur" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="uur" sense="uur" special="tmp" word="uur"/>
+                </node>
+                <node begin="7" end="8" frame="verb(hebben,past(sg),meas)" id="17" infl="sg" lcat="ssub" lemma="duren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="duur" sc="meas" sense="duur" tense="past" word="duurde" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="10" frame="verb(hebben,past(sg),tr_sbar)" id="18" infl="sg" lcat="smain" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" stype="declarative" tense="past" word="zei" wvorm="pv"/>
+        <node begin="10" case="nom" def="def" end="11" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="19" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+        <node begin="11" cat="cp" end="18" id="20" rel="vc">
+          <node begin="11" conjtype="onder" end="12" frame="complementizer(dat)" id="21" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="12" cat="ssub" end="18" id="22" rel="body">
+            <node begin="12" end="13" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="``Apple" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="``Apple" sense="``Apple" word="``Apple"/>
+            <node begin="13" end="14" frame="tmp_adverb" id="24" lcat="advp" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" sense="vandaag" special="tmp" word="vandaag"/>
+            <node begin="14" cat="np" end="16" id="25" rel="obj1">
+              <node begin="14" end="15" frame="determiner(de)" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="telefoon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="telefoon" sense="telefoon" word="telefoon"/>
+            </node>
+            <node begin="16" end="17" frame="adverb" id="28" lcat="advp" lemma="opnieuw" pos="adv" postag="BW()" pt="bw" rel="mod" root="opnieuw" sense="opnieuw" word="opnieuw"/>
+            <node begin="17" end="18" frame="verb(hebben,sg3,ninv(transitive,part_transitive(uit)))" id="29" infl="sg3" lcat="ssub" lemma="uit_vinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vind_uit" sc="part_transitive(uit)" sense="vind_uit" tense="present" word="uitvindt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="18" conjtype="neven" end="19" frame="conj(en)" id="30" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="19" cat="smain" end="21" id="31" rel="cnj">
+        <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="32" lcat="np" lemma="geschiedenis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="geschiedenis" sense="geschiedenis" word="geschiedenis"/>
+        <node begin="20" end="21" frame="verb(hebben,sg3,intransitive)" id="33" infl="sg3" lcat="smain" lemma="schrijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="schrijf" sc="intransitive" sense="schrijf" stype="declarative" tense="present" word="schrijft" wvorm="pv"/>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(aanhaal_both)" id="34" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="22" end="23" frame="punct(aanhaal_both)" id="35" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="23" end="24" frame="punct(punt)" id="36" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Tijdens zijn speech , die twee uur duurde , zei hij dat ``Apple vandaag de telefoon opnieuw uitvindt en geschiedenis schrijft &apos; &apos; .</sentence>
+  <comments>
+    <comment>Q#9|Tijdens zijn speech , die twee uur duurde , zei hij dat ``Apple vandaag de telefoon opnieuw uitvindt en geschiedenis schrijft &apos; &apos; .|1|1|-5.4989830049999995</comment>
+  </comments>
+</alpino_ds>

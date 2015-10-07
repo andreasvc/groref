@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="20" end="21" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="21" end="22" frame="punct(ligg_streep)" id="3" lcat="--" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="25" end="26" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="26" end="27" frame="punct(ligg_streep)" id="5" lcat="--" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="smain" end="30" id="6" rel="--">
+      <node begin="0" cat="np" end="3" id="7" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="9" mwu_root="iPhone_3GS" mwu_sense="iPhone_3GS" rel="hd">
+          <node begin="1" end="2" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+          <node begin="2" end="3" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="3GS" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="3GS" sense="3GS" word="3GS"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,modal_not_u,aux(inf))" id="12" infl="modal_not_u" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="present" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="30" id="13" rel="vc">
+        <node begin="0" end="3" id="14" index="1" rel="su"/>
+        <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(postn_no_e(nonadv))" graad="basis" id="15" infl="no_e" lcat="ap" lemma="verkrijgbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="verkrijgbaar" sense="verkrijgbaar" vform="adj" word="verkrijgbaar"/>
+        <node begin="5" buiging="zonder" end="6" frame="verb(unacc,inf,copula)" id="16" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="copula" sense="ben" word="zijn" wvorm="inf"/>
+        <node begin="6" cat="pp" end="30" id="17" rel="mod">
+          <node begin="6" end="7" frame="preposition(in,[])" id="18" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="7" cat="np" end="30" id="19" rel="obj1">
+            <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="20" lcat="np" lemma="model" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="model" sense="model" word="modellen"/>
+            <node begin="8" cat="pp" end="14" id="21" rel="mod">
+              <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="22" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="9" cat="conj" end="14" id="23" rel="obj1">
+                <node begin="9" cat="np" end="11" id="24" rel="cnj">
+                  <node begin="9" end="10" frame="number(hoofd(pl_num))" id="25" infl="pl_num" lcat="detp" lemma="16" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="16" sense="16" special="hoofd" word="16"/>
+                  <node begin="10" end="11" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="giga_byte" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="giga_byte" sense="giga_byte" special="meas_mod" word="GB"/>
+                </node>
+                <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="27" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="12" cat="np" end="14" id="28" rel="cnj">
+                  <node begin="12" end="13" frame="number(hoofd(pl_num))" id="29" infl="pl_num" lcat="detp" lemma="32" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="32" sense="32" special="hoofd" word="32"/>
+                  <node begin="13" end="14" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="giga_byte" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="giga_byte" sense="giga_byte" special="meas_mod" word="GB"/>
+                </node>
+              </node>
+            </node>
+            <node begin="15" cat="rel" end="30" id="31" rel="mod">
+              <node begin="15" case="no_obl" end="16" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="32" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="15" cat="ssub" end="30" id="33" rel="body">
+                <node begin="15" end="16" id="34" index="2" rel="su"/>
+                <node begin="27" end="28" frame="verb(hebben,pl,aux(inf))" id="35" infl="pl" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present" word="zullen" wvorm="pv"/>
+                <node begin="15" cat="inf" end="30" id="36" rel="vc">
+                  <node begin="15" end="16" id="37" index="2" rel="su"/>
+                  <node begin="28" buiging="zonder" end="29" frame="verb(zijn,inf(no_e),aux(inf))" id="38" infl="inf(no_e)" lcat="inf" lemma="gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga" sc="aux(inf)" sense="ga" word="gaan" wvorm="inf"/>
+                  <node begin="15" cat="inf" end="30" id="39" rel="vc">
+                    <node begin="15" end="16" id="40" index="2" rel="su"/>
+                    <node begin="16" cat="conj" end="25" id="41" rel="me">
+                      <node begin="16" conjtype="neven" end="17" frame="left_conj(en)" id="42" lcat="vg" lemma="respectievelijk" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="respectievelijk" sense="respectievelijk" special="left" word="respectievelijk"/>
+                      <node begin="17" cat="np" end="20" id="43" rel="cnj">
+                        <node begin="17" end="18" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="44" lcat="np" lemma="US" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" rnum="sg" root="US" sense="US" word="US"/>
+                        <node begin="18" cat="mwu" end="20" id="45" mwu_root="$ 199" mwu_sense="$ 199" rel="hd">
+                          <node begin="18" end="19" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="46" lcat="np" lemma="$" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="$" sense="$" special="amount_meas_mod" word="$"/>
+                          <node begin="19" end="20" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="47" lcat="np" lemma="199" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="199" sense="199" special="amount_meas_mod" word="199"/>
+                        </node>
+                      </node>
+                      <node begin="22" conjtype="neven" end="23" frame="conj(en)" id="48" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                      <node begin="23" cat="mwu" end="25" id="49" mwu_root="$ 299" mwu_sense="$ 299" rel="cnj">
+                        <node begin="23" end="24" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="50" lcat="np" lemma="$" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="$" sense="$" special="amount_meas_mod" word="$"/>
+                        <node begin="24" end="25" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="51" lcat="np" lemma="299" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="299" sense="299" special="amount_meas_mod" word="299"/>
+                      </node>
+                    </node>
+                    <node begin="29" buiging="zonder" end="30" frame="verb(hebben,inf,meas)" id="52" infl="inf" lcat="inf" lemma="kosten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kost" sc="meas" sense="kost" word="kosten" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" id="53" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De iPhone 3GS zal verkrijgbaar zijn in modellen van 16 GB en 32 GB , die respectievelijk US $ 199 , - en $ 299 , - zullen gaan kosten .</sentence>
+  <comments>
+    <comment>Q#8|De iPhone 3GS zal verkrijgbaar zijn in modellen van 16 GB en 32 GB , die respectievelijk US $ 199 , - en $ 299 , - zullen gaan kosten .|1|1|-1.7721391624800042</comment>
+  </comments>
+</alpino_ds>

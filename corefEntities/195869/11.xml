@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="20" end="21" frame="punct(komma)" id="1" lcat="--" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="23" id="2" rel="--">
+      <node begin="0" cat="conj" end="20" id="3" rel="dp">
+        <node begin="0" cat="smain" end="15" id="4" rel="cnj">
+          <node begin="0" cat="np" end="11" id="5" index="1" rel="su">
+            <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="6" lcat="np" lemma="consument" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="consument" sense="consument" word="Consumenten"/>
+            <node begin="1" cat="rel" end="11" id="7" rel="mod">
+              <node begin="1" case="no_obl" end="2" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="8" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="1" cat="ssub" end="11" id="9" rel="body">
+                <node begin="1" end="2" id="10" index="2" rel="su"/>
+                <node begin="2" cat="advp" end="4" id="11" rel="mod">
+                  <node begin="2" end="3" frame="modal_adverb" id="12" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sc="modal" sense="nog" word="nog"/>
+                  <node begin="3" end="4" frame="adverb" id="13" lcat="advp" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="hd" root="steeds" sense="steeds" word="steeds"/>
+                </node>
+                <node begin="4" end="5" frame="adverb" id="14" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+                <node begin="6" end="7" frame="verb(unacc,pl,copula)" id="15" infl="pl" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="zijn" wvorm="pv"/>
+                <node begin="5" cat="ap" end="11" id="16" rel="predc">
+                  <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(both(padv),pp(over))" graad="basis" id="17" infl="both" lcat="ap" lemma="tevreden" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="tevreden" sc="pp(over)" sense="tevreden-over" vform="adj" word="tevreden"/>
+                  <node begin="7" cat="pp" end="11" id="18" rel="pc">
+                    <node begin="7" end="8" frame="preposition(over,[heen])" id="19" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+                    <node begin="8" cat="np" end="11" id="20" rel="obj1">
+                      <node begin="8" end="9" frame="determiner(de)" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+                      <node begin="10" end="11" frame="number(hoofd(pl_num))" id="23" infl="pl_num" lcat="detp" lemma="4" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="4" sense="4" special="hoofd" word="4"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="11" end="12" frame="verb(hebben,pl,modifier(aux(inf)))" id="24" infl="pl" lcat="smain" lemma="mogen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" tense="present" word="mogen" wvorm="pv"/>
+          <node begin="0" cat="inf" end="15" id="25" rel="vc">
+            <node begin="0" end="11" id="26" index="1" rel="su"/>
+            <node begin="12" cat="np" end="14" id="27" rel="obj1">
+              <node begin="12" end="13" frame="determiner(de)" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="29" lcat="np" lemma="telefoon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="telefoon" sense="telefoon" word="telefoon"/>
+            </node>
+            <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,ninv(transitive,part_transitive(terug)))" id="30" infl="inf" lcat="inf" lemma="terug_brengen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="breng_terug" sc="part_transitive(terug)" sense="breng_terug" word="terugbrengen" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="15" conjtype="neven" end="16" frame="conj(en)" id="31" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="0" cat="smain" end="20" id="32" rel="cnj">
+          <node begin="0" end="11" id="33" index="1" rel="su"/>
+          <node begin="16" end="17" frame="verb(hebben,pl,part_transitive(terug))" id="34" infl="pl" lcat="smain" lemma="terug_krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg_terug" sc="part_transitive(terug)" sense="krijg_terug" tense="present" word="krijgen" wvorm="pv"/>
+          <node begin="17" cat="np" end="19" id="35" rel="obj1">
+            <node begin="17" buiging="zonder" end="18" frame="determiner(pron)" getal="mv" id="36" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="18" end="19" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="37" lcat="np" lemma="geld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="geld" sense="geld" word="geld"/>
+          </node>
+          <node begin="19" end="20" frame="particle(terug)" id="38" lcat="part" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" sense="terug" word="terug"/>
+        </node>
+      </node>
+      <node begin="21" cat="sv1" end="23" id="39" rel="dp">
+        <node begin="21" end="22" frame="verb(hebben,past(sg),transitive)" id="40" infl="sg" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" sc="transitive" sense="zeg" stype="topic_drop" tense="past" word="zei" wvorm="pv"/>
+        <node begin="22" end="23" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="41" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="job" sense="job" word="Jobs"/>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" id="42" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Consumenten die nog steeds niet tevreden zijn over de iPhone 4 mogen de telefoon terugbrengen en krijgen hun geld terug , zei Jobs .</sentence>
+  <comments>
+    <comment>Q#11|Consumenten die nog steeds niet tevreden zijn over de iPhone 4 mogen de telefoon terugbrengen en krijgen hun geld terug , zei Jobs .|1|2|-6.237645099960003</comment>
+  </comments>
+</alpino_ds>
