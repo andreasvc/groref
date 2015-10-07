@@ -1,30 +1,30 @@
 import os
 import sys
 
-def parse(xmlFile):
+def parse(conllFile, tokenIdx, nameCut):
     tmpFile = open('tmp', 'w')
-    firstLine = True
-    for line in open(xmlFile, 'r'):
-        if firstLine:
-            firstLine = False
+    for line in open(conllFile, 'r'):
+        if line.startswith('doc_id'):
+            pass
         else:
-            if len(line) > 1:
-                tmpFile.write(line.split('\t')[6] + ' ')
+            if len(line.split('\t')) > 1:
+                tmpFile.write(line.split('\t')[tokenIdx] + ' ')
             else:
                 tmpFile.write('\n\n')
     tmpFile.close()
     
-    folder = xmlFile[:30]
+    folder = conllFile[:conllFile.find('_')]
     print(folder)
     os.mkdir(folder)
     
     os.system('cat tmp | Alpino number_analyses=1 end_hook=xml -flag treebank ' + folder + ' -parse')
 
-def runAlpino(working):
+def runAlpino(working, tokenIdx, nameCut):
     tmpPath = 'tmp'
-    for xmlFile in os.listdir(working):
-        parse(working+xmlFile)
+    for conllFile in os.listdir(working):
+        parse(working+conllFile, tokenIdx, nameCut)
 
 if __name__ == '__main__':
-    runAlpino('DCOI/conll/')
+    #runAlpino('DCOI/conll/', 6, 30)
+    #runAlpino('corefEntities/', 1, 21)
 
