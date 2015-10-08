@@ -1,0 +1,57 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 593, 600 209210
+Repeated mention in the response: 143, 143 5858
+
+====== TOTALS =======
+Identification of Mentions: Recall: (230 / 270) 85.18%	Precision: (230 / 267) 86.14%	F1: 85.66%
+--------------------------------------------------------------------------
+Coreference: Recall: (7 / 98) 7.14%	Precision: (7 / 89) 7.86%	F1: 7.48%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 593, 600 209210
+Repeated mention in the response: 143, 143 5858
+
+====== TOTALS =======
+Identification of Mentions: Recall: (230 / 270) 85.18%	Precision: (230 / 267) 86.14%	F1: 85.66%
+--------------------------------------------------------------------------
+Coreference: Recall: (133.023809523809 / 271) 49.08%	Precision: (160 / 267) 59.92%	F1: 53.96%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 593, 600 209210
+Repeated mention in the response: 143, 143 5858
+
+====== TOTALS =======
+Identification of Mentions: Recall: (230 / 270) 85.18%	Precision: (230 / 267) 86.14%	F1: 85.66%
+--------------------------------------------------------------------------
+Coreference: Recall: (118 / 271) 43.54%	Precision: (118 / 267) 44.19%	F1: 43.86%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 593, 600 209210
+Repeated mention in the response: 143, 143 5858
+
+====== TOTALS =======
+Identification of Mentions: Recall: (230 / 270) 85.18%	Precision: (230 / 267) 86.14%	F1: 85.66%
+--------------------------------------------------------------------------
+Coreference: Recall: (86.6171717171718 / 173) 50.06%	Precision: (86.6171717171718 / 178) 48.66%	F1: 49.35%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 593, 600 209210
+Repeated mention in the response: 143, 143 5858
+
+====== TOTALS =======
+Identification of Mentions: Recall: (230 / 270) 85.18%	Precision: (230 / 267) 86.14%	F1: 85.66%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (7 / 1172) 0.59%	Precision: (7 / 89) 7.86%	F1: 1.11%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (25106 / 35144) 71.43%	Precision: (25106 / 35422) 70.87%	F1: 71.15%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.360173919258765 / 1) 36.01%	Precision: (0.393710123651968 / 1) 39.37%	F1: 36.13%
+--------------------------------------------------------------------------

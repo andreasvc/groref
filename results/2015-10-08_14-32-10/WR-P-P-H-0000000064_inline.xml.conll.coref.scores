@@ -1,0 +1,50 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 350, 353 155156
+Repeated mention in the key: 690, 696 236237
+Repeated mention in the key: 704, 705 241243
+Repeated mention in the response: 103, 120 9595
+Repeated mention in the response: 103, 120 9595
+Repeated mention in the response: 103, 120 9595
+
+====== TOTALS =======
+Identification of Mentions: Recall: (261 / 339) 76.99%	Precision: (261 / 306) 85.29%	F1: 80.93%
+--------------------------------------------------------------------------
+Coreference: Recall: (8 / 129) 6.2%	Precision: (8 / 102) 7.84%	F1: 6.92%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 350, 353 155156
+Repeated mention in the key: 690, 696 236237
+Repeated mention in the key: 704, 705 241243
+Repeated mention in the response: 103, 120 9595
+Repeated mention in the response: 103, 120 9595
+Repeated mention in the response: 103, 120 9595
+
+====== TOTALS =======
+Identification of Mentions: Recall: (261 / 339) 76.99%	Precision: (261 / 306) 85.29%	F1: 80.93%
+--------------------------------------------------------------------------
+Coreference: Recall: (155.351515151515 / 342) 45.42%	Precision: (181 / 306) 59.15%	F1: 51.38%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 350, 353 155156
+Repeated mention in the key: 690, 696 236237
+Repeated mention in the key: 704, 705 241243
+Repeated mention in the response: 103, 120 9595
+Repeated mention in the response: 103, 120 9595
+Repeated mention in the response: 103, 120 9595
+
+====== TOTALS =======
+Identification of Mentions: Recall: (261 / 339) 76.99%	Precision: (261 / 306) 85.29%	F1: 80.93%
+--------------------------------------------------------------------------
+Coreference: Recall: (136 / 342) 39.76%	Precision: (136 / 306) 44.44%	F1: 41.97%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 350, 353 155156
+Repeated mention in the key: 690, 696 236237
+Repeated mention in the key: 704, 705 241243
+Repeated mention in the response: 103, 120 9595
+Repeated mention in the response: 103, 120 9595

@@ -1,0 +1,67 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 33, 34 1820
+Repeated mention in the key: 55, 58 2130
+Repeated mention in the key: 55, 58 3031
+Repeated mention in the key: 66, 70 3233
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 71) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 24) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 33, 34 1820
+Repeated mention in the key: 55, 58 2130
+Repeated mention in the key: 55, 58 3031
+Repeated mention in the key: 66, 70 3233
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 71) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 75) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 33, 34 1820
+Repeated mention in the key: 55, 58 2130
+Repeated mention in the key: 55, 58 3031
+Repeated mention in the key: 66, 70 3233
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 71) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 75) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 33, 34 1820
+Repeated mention in the key: 55, 58 2130
+Repeated mention in the key: 55, 58 3031
+Repeated mention in the key: 66, 70 3233
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 71) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 51) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 33, 34 1820
+Repeated mention in the key: 55, 58 2130
+Repeated mention in the key: 55, 58 3031
+Repeated mention in the key: 66, 70 3233
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 71) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (0 / 60) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (0 / 2434) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+BLANC: Recall: (0 / 1) 0%	Precision: (0 / 1) 0%	F1: 0%
+--------------------------------------------------------------------------

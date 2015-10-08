@@ -1,0 +1,57 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 229) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 109) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 229) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 231) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 229) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 231) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 229) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 122) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (0 / 229) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (0 / 703) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (0 / 25405) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+BLANC: Recall: (0 / 1) 0%	Precision: (0 / 1) 0%	F1: 0%
+--------------------------------------------------------------------------

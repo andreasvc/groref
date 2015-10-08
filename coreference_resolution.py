@@ -151,10 +151,10 @@ def initialize_clusters(mention_list):
 	return cluster_list
 	
 # Creates conll-formatted output with the clustering information
-def generate_conll(sentenceDict, docName, mention_list, output_filename):
+def generate_conll(sentenceDict, docName, mention_list, output_filename, doc_tags):
 	output_file = open(output_filename, 'w')
 	docName = docName.split('/')[-1].split('_')[0]
-	if args.doc_tags:
+	if doc_tags:
 		output_file.write('#begin document (' + docName + '); part 000\n')	
 	for key in sorted(sentenceDict.keys()): # Cycle through sentences
 		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
@@ -177,7 +177,7 @@ def generate_conll(sentenceDict, docName, mention_list, output_filename):
 			output_file.write(docName + '\t' + str(key) + '\t' + '0\t' + '0\t' + '0\t' +
 			'0\t' + token.encode('utf-8') + '\t' + corefLabel + '\n')
 		output_file.write('\n')
-	if args.doc_tags:
+	if doc_tags:
 		output_file.write('#end document')	
 
 # Function that takes two mentions, and merges the clusters they are part of
@@ -226,7 +226,7 @@ def main(input_file, output_file, doc_tags):
 	# Do coreference resolution
 	sieveDummy() # Apply dummy sieve
 	# Generate output
-	generate_conll(sentenceDict, input_file, mention_list, output_file)	
+	generate_conll(sentenceDict, input_file, mention_list, output_file, doc_tags)	
 
 if __name__ == '__main__':
 	# Parse input arguments

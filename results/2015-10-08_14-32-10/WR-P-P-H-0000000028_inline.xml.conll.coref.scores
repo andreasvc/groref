@@ -1,0 +1,87 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 28, 29 811
+Repeated mention in the key: 33, 34 1214
+Repeated mention in the key: 112, 117 3738
+Repeated mention in the key: 351, 356 103104
+Repeated mention in the key: 787, 790 259260
+Repeated mention in the key: 816, 831 270271
+Repeated mention in the key: 1028, 1040 153317
+Repeated mention in the key: 1167, 1176 340341
+
+====== TOTALS =======
+Identification of Mentions: Recall: (261 / 352) 74.14%	Precision: (261 / 352) 74.14%	F1: 74.14%
+--------------------------------------------------------------------------
+Coreference: Recall: (4 / 92) 4.34%	Precision: (4 / 117) 3.41%	F1: 3.82%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 28, 29 811
+Repeated mention in the key: 33, 34 1214
+Repeated mention in the key: 112, 117 3738
+Repeated mention in the key: 351, 356 103104
+Repeated mention in the key: 787, 790 259260
+Repeated mention in the key: 816, 831 270271
+Repeated mention in the key: 1028, 1040 153317
+Repeated mention in the key: 1167, 1176 340341
+
+====== TOTALS =======
+Identification of Mentions: Recall: (261 / 352) 74.14%	Precision: (261 / 352) 74.14%	F1: 74.14%
+--------------------------------------------------------------------------
+Coreference: Recall: (186.396296296296 / 360) 51.77%	Precision: (179.5 / 352) 50.99%	F1: 51.38%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 28, 29 811
+Repeated mention in the key: 33, 34 1214
+Repeated mention in the key: 112, 117 3738
+Repeated mention in the key: 351, 356 103104
+Repeated mention in the key: 787, 790 259260
+Repeated mention in the key: 816, 831 270271
+Repeated mention in the key: 1028, 1040 153317
+Repeated mention in the key: 1167, 1176 340341
+
+====== TOTALS =======
+Identification of Mentions: Recall: (261 / 352) 74.14%	Precision: (261 / 352) 74.14%	F1: 74.14%
+--------------------------------------------------------------------------
+Coreference: Recall: (166 / 360) 46.11%	Precision: (166 / 352) 47.15%	F1: 46.62%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 28, 29 811
+Repeated mention in the key: 33, 34 1214
+Repeated mention in the key: 112, 117 3738
+Repeated mention in the key: 351, 356 103104
+Repeated mention in the key: 787, 790 259260
+Repeated mention in the key: 816, 831 270271
+Repeated mention in the key: 1028, 1040 153317
+Repeated mention in the key: 1167, 1176 340341
+
+====== TOTALS =======
+Identification of Mentions: Recall: (261 / 352) 74.14%	Precision: (261 / 352) 74.14%	F1: 74.14%
+--------------------------------------------------------------------------
+Coreference: Recall: (123.155463502015 / 268) 45.95%	Precision: (123.155463502015 / 235) 52.4%	F1: 48.96%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 28, 29 811
+Repeated mention in the key: 33, 34 1214
+Repeated mention in the key: 112, 117 3738
+Repeated mention in the key: 351, 356 103104
+Repeated mention in the key: 787, 790 259260
+Repeated mention in the key: 816, 831 270271
+Repeated mention in the key: 1028, 1040 153317
+Repeated mention in the key: 1167, 1176 340341
+
+====== TOTALS =======
+Identification of Mentions: Recall: (261 / 352) 74.14%	Precision: (261 / 352) 74.14%	F1: 74.14%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (4 / 528) 0.75%	Precision: (4 / 117) 3.41%	F1: 1.24%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (33499 / 61287) 54.65%	Precision: (33499 / 61659) 54.32%	F1: 54.49%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.277084010104471 / 1) 27.7%	Precision: (0.288741302972802 / 1) 28.87%	F1: 27.86%
+--------------------------------------------------------------------------

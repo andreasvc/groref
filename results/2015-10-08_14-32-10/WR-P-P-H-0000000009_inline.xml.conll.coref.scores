@@ -1,0 +1,57 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 342, 342 99109
+Repeated mention in the key: 349, 349 36110
+
+====== TOTALS =======
+Identification of Mentions: Recall: (103 / 123) 83.73%	Precision: (103 / 125) 82.4%	F1: 83.06%
+--------------------------------------------------------------------------
+Coreference: Recall: (3 / 48) 6.25%	Precision: (3 / 42) 7.14%	F1: 6.66%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 342, 342 99109
+Repeated mention in the key: 349, 349 36110
+
+====== TOTALS =======
+Identification of Mentions: Recall: (103 / 123) 83.73%	Precision: (103 / 125) 82.4%	F1: 83.06%
+--------------------------------------------------------------------------
+Coreference: Recall: (58.9645161290323 / 125) 47.17%	Precision: (73.8333333333333 / 125) 59.06%	F1: 52.45%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 342, 342 99109
+Repeated mention in the key: 349, 349 36110
+
+====== TOTALS =======
+Identification of Mentions: Recall: (103 / 123) 83.73%	Precision: (103 / 125) 82.4%	F1: 83.06%
+--------------------------------------------------------------------------
+Coreference: Recall: (55 / 125) 44%	Precision: (55 / 125) 44%	F1: 44%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 342, 342 99109
+Repeated mention in the key: 349, 349 36110
+
+====== TOTALS =======
+Identification of Mentions: Recall: (103 / 123) 83.73%	Precision: (103 / 125) 82.4%	F1: 83.06%
+--------------------------------------------------------------------------
+Coreference: Recall: (38.7426406926407 / 77) 50.31%	Precision: (38.7426406926407 / 83) 46.67%	F1: 48.42%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 342, 342 99109
+Repeated mention in the key: 349, 349 36110
+
+====== TOTALS =======
+Identification of Mentions: Recall: (103 / 123) 83.73%	Precision: (103 / 125) 82.4%	F1: 83.06%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (4 / 506) 0.79%	Precision: (4 / 43) 9.3%	F1: 1.45%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (4790 / 7034) 68.09%	Precision: (4790 / 7707) 62.15%	F1: 64.98%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.344441622340276 / 1) 34.44%	Precision: (0.357268083077601 / 1) 35.72%	F1: 33.22%
+--------------------------------------------------------------------------
