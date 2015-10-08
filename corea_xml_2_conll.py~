@@ -20,7 +20,7 @@ def processMarkable(parent_markable, id_list):
 	if 'id' in parent_markable.attrib: # Check whether actual markable, or sentence
 		mention_id = re.findall('[0-9]+', parent_markable.attrib['id'])[0] # Extract mention id
 		if 'type' in parent_markable.attrib: # Check whether it is coreferent
-			if parent_markable.attrib['type'] in coref_types: # Check for right type of coreference
+			if parent_markable.attrib['type'] in coref_types and 'ref' in parent_markable.attrib: # Check for right type of coreference
 				ref = parent_markable.attrib['ref']
 				if ref != 'empty':
 					ref_id = re.findall('[0-9]+', ref)[0]
@@ -104,6 +104,7 @@ if __name__ == '__main__':
 			conll_writer = csv.writer(conll_file,  delimiter = '\t', quoting = csv.QUOTE_NONE, quotechar='')
 			if args.print_header:
 				conll_writer.writerow(header)
+			docName = filename.split('_')[0]
 			if args.doc_tags:
 				conll_writer.writerow(['#begin document (' + filename + '); part 000'])
 			
