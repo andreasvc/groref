@@ -42,7 +42,6 @@ def read_conll_file(fname):
 # Read in xml-files containing parses for sentences in document, return list of per-sentence XML trees
 def read_xml_parse_files(fname):
 	xml_tree_list = []
-#	dir_name = fname[:-17] + '/'
 	dir_name = fname.split('_')[0] + '/'
 	xml_file_list = os.listdir(dir_name)
 	for xml_file in sorted(xml_file_list):
@@ -153,7 +152,7 @@ def initialize_clusters(mention_list):
 # Creates conll-formatted output with the clustering information
 def generate_conll(sentenceDict, docName, mention_list, output_filename):
 	output_file = open(output_filename, 'w')
-	docName = docName.split('/')[-1][:-6]
+	docName = docName.split('/')[-1].split('_')[0]
 	if args.doc_tags:
 		output_file.write('#begin document (' + docName + '); part 000\n')	
 	for key in sorted(sentenceDict.keys()): # Cycle through sentences
