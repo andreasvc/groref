@@ -26,5 +26,5 @@ def runAlpino(working, tokenIdx, nameCut):
 
 if __name__ == '__main__':
     #runAlpino('DCOI/conll/', 6, 30)
-    #runAlpino('corefEntities/', 1, 21)
+    #runAlpino('clinDevData/', 1, 21)
 
