@@ -35,14 +35,15 @@ def read_conll_file(fname):
 	for line in open(fname, 'r'):
 		split_line = line.strip().split('\t')
 		if len(split_line) > 1:
-			if split_line[0] != 'doc_id': # Skip header
+			if split_line[0] != 'doc_id' and line[0] != '#': # Skip header and/or document tags
 				conll_list.append(split_line)
 	return conll_list
 	
 # Read in xml-files containing parses for sentences in document, return list of per-sentence XML trees
 def read_xml_parse_files(fname):
 	xml_tree_list = []
-	dir_name = fname[:-17] + '/'
+#	dir_name = fname[:-17] + '/'
+	dir_name = fname.split('_')[0] + '/'
 	xml_file_list = os.listdir(dir_name)
 	for xml_file in sorted(xml_file_list):
 		if re.search('[0-9].xml', xml_file):
@@ -81,6 +82,10 @@ def stitch_names(mention_list):
 			idx += 1
 	return stitched_mention_list
 	
+# Sort mentions in list by sentNum, begin, end
+def sort_mentions(mention_list):
+	return sorted(mention_list, key = lambda x: (x.sentNum, x.begin, x.end))
+
 # Mention detection sieve, selects all NPs, pronouns, names		
 def detect_mentions(conll_list, tree_list, docFilename):
 	global mentionID, sentenceDict
@@ -118,6 +123,8 @@ def detect_mentions(conll_list, tree_list, docFilename):
 			mention_list.append(new_ment)
 	# Stitch together split name-type mentions
 	mention_list = stitch_names(mention_list)
+	# Sort list properly
+	mention_list = sort_mentions(mention_list)
 	return mention_list
 
 # Human-readable printing of the output of the mention detection sieve	
@@ -147,6 +154,8 @@ def initialize_clusters(mention_list):
 def generate_conll(sentenceDict, docName, mention_list, output_filename):
 	output_file = open(output_filename, 'w')
 	docName = docName.split('/')[-1][:-6]
+	if args.doc_tags:
+		output_file.write('#begin document (' + docName + '); part 000\n')	
 	for key in sorted(sentenceDict.keys()): # Cycle through sentences
 		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
 			corefLabel = ''
@@ -165,16 +174,45 @@ def generate_conll(sentenceDict, docName, mention_list, output_filename):
 						corefLabel += ')'
 			if not corefLabel: # Tokens outside of mentions get a dash
 				corefLabel = '-'
-			output_file.write(docName + '\t' + str(key) + '\t' +  token.encode('utf-8') + '\t' + corefLabel + '\n')
-#			print docName + '\t' + str(key) + '\t' +  token + '\t' + corefLabel
+			output_file.write(docName + '\t' + str(key) + '\t' + '0\t' + '0\t' + '0\t' +
+			'0\t' + token.encode('utf-8') + '\t' + corefLabel + '\n')
 		output_file.write('\n')
-#		print ''
+	if args.doc_tags:
+		output_file.write('#end document')	
+
+# Function that takes two mentions, and merges the clusters they are part of
+def mergeClustersByMentions(mention1, mention2):
+	global cluster_list, mention_list
+	if mention1.clusterID == mention2.clusterID: # Cannot merge if mentions are part of same cluster
+		return
+	for idx, cluster in enumerate(cluster_list): # Find clusters by ID, could be more efficient
+		if mention1.clusterID == cluster.ID:
+			cluster1 = cluster
+		if mention2.clusterID == cluster.ID:
+			cluster2 = cluster
+			cluster2_idx = idx
+	# Put all mentions of cluster2 in cluster1
+	for mentionID in cluster2.mentionList:
+		cluster1.mentionList.append(mentionID)
+		for mention in mention_list:
+			if mention.ID == mentionID:
+				mention.clusterID = cluster1.ID
+	del cluster_list[cluster2_idx]
+	
+
+# Dummy sieve that links each second mention to the preceding mention, for testing purposes (output/evaluation)
+def sieveDummy():
+	global mention_list, cluster_list
+	for idx, mention in enumerate(mention_list):
+		if idx % 3 == 1:
+			mergeClustersByMentions(mention, mention_list[idx-2])
 	
 if __name__ == '__main__':
 	# Parse input argument
 	parser = argparse.ArgumentParser()
 	parser.add_argument('input_file', type=str, help='Path to a file, in .conll format, with .dep and .con parse, to be resolved')
 	parser.add_argument('output_file', type = str, help = 'The path of where the output should go, e.g. WR77.xml.coref')
+	parser.add_argument('--docTags', help = 'If this flag is given, a begin and end document is printed at first and last line of output', dest = 'doc_tags', action = 'store_true')
 	args = parser.parse_args()
 	# Read input files
 	try:
@@ -185,10 +223,9 @@ if __name__ == '__main__':
 	print 'Number of xml parse trees found: %d' % (len(xml_tree_list))
 	mentionID = 0 # Initialize mentionID
 	sentenceDict = {} # Initialize dictionary containing sentence strings
+	# TODO: Change mention_list to a dictionary, to be able to find mentions by ID? (same goes for clusters)
 	mention_list = detect_mentions(conll_list, xml_tree_list, args.input_file)
 	print_mentions_inline(sentenceDict, mention_list)		
 	cluster_list = initialize_clusters(mention_list)
-	generate_conll(sentenceDict, args.input_file, mention_list, args.output_file)
-
-	
-	
+	sieveDummy() # Apply dummy sieve
+	generate_conll(sentenceDict, args.input_file, mention_list, args.output_file)	
