@@ -1,0 +1,62 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 574, 579 193194
+Repeated mention in the key: 957, 968 304305
+Repeated mention in the key: 1145, 1156 334335
+
+====== TOTALS =======
+Identification of Mentions: Recall: (284 / 364) 78.02%	Precision: (284 / 346) 82.08%	F1: 80%
+--------------------------------------------------------------------------
+Coreference: Recall: (6 / 136) 4.41%	Precision: (6 / 115) 5.21%	F1: 4.78%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 574, 579 193194
+Repeated mention in the key: 957, 968 304305
+Repeated mention in the key: 1145, 1156 334335
+
+====== TOTALS =======
+Identification of Mentions: Recall: (284 / 364) 78.02%	Precision: (284 / 346) 82.08%	F1: 80%
+--------------------------------------------------------------------------
+Coreference: Recall: (178.526456876457 / 367) 48.64%	Precision: (197 / 346) 56.93%	F1: 52.46%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 574, 579 193194
+Repeated mention in the key: 957, 968 304305
+Repeated mention in the key: 1145, 1156 334335
+
+====== TOTALS =======
+Identification of Mentions: Recall: (284 / 364) 78.02%	Precision: (284 / 346) 82.08%	F1: 80%
+--------------------------------------------------------------------------
+Coreference: Recall: (176 / 367) 47.95%	Precision: (176 / 346) 50.86%	F1: 49.36%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 574, 579 193194
+Repeated mention in the key: 957, 968 304305
+Repeated mention in the key: 1145, 1156 334335
+
+====== TOTALS =======
+Identification of Mentions: Recall: (284 / 364) 78.02%	Precision: (284 / 346) 82.08%	F1: 80%
+--------------------------------------------------------------------------
+Coreference: Recall: (127.359309655862 / 231) 55.13%	Precision: (127.359309655862 / 231) 55.13%	F1: 55.13%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 574, 579 193194
+Repeated mention in the key: 957, 968 304305
+Repeated mention in the key: 1145, 1156 334335
+
+====== TOTALS =======
+Identification of Mentions: Recall: (284 / 364) 78.02%	Precision: (284 / 346) 82.08%	F1: 80%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (6 / 858) 0.69%	Precision: (6 / 115) 5.21%	F1: 1.23%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (39566 / 65211) 60.67%	Precision: (39566 / 59570) 66.41%	F1: 63.41%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.30686556699806 / 1) 30.68%	Precision: (0.358183649487997 / 1) 35.81%	F1: 32.32%
+--------------------------------------------------------------------------
