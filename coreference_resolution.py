@@ -42,7 +42,8 @@ def read_conll_file(fname):
 # Read in xml-files containing parses for sentences in document, return list of per-sentence XML trees
 def read_xml_parse_files(fname):
 	xml_tree_list = []
-	dir_name = fname.split('_')[0] + '/'
+	print fname
+	dir_name = '/'.join(fname.split('/')[0:-1]) + '/' + fname.split('/')[-1].split('_')[0] + '/'
 	xml_file_list = os.listdir(dir_name)
 	for xml_file in sorted(xml_file_list):
 		if re.search('[0-9].xml', xml_file):
@@ -205,26 +206,34 @@ def sieveDummy():
 	for idx, mention in enumerate(mention_list):
 		if idx % 3 == 1:
 			mergeClustersByMentions(mention, mention_list[idx-2])
-	
+
+def main(input_file, output_file, doc_tags):
+	# Read input files
+	try:
+		conll_list = read_conll_file(input_file)
+	except IOError:
+		print 'CoNLL input file not found: %s' % (input_file)
+	xml_tree_list = read_xml_parse_files(input_file)
+	print 'Number of xml parse trees found: %d' % (len(xml_tree_list))
+	global mentionID, mention_list, sentenceDict, cluster_list
+	mentionID = 0 # Initialize mentionID
+	sentenceDict = {} # Initialize dictionary containing sentence strings
+	# TODO: Change mention_list to a dictionary, to be able to find mentions by ID? (same goes for clusters)
+	# Do mention detection
+	mention_list = detect_mentions(conll_list, xml_tree_list, input_file)
+	print_mentions_inline(sentenceDict, mention_list)		
+	cluster_list = initialize_clusters(mention_list)
+	# Do coreference resolution
+	sieveDummy() # Apply dummy sieve
+	# Generate output
+	generate_conll(sentenceDict, input_file, mention_list, output_file)	
+
 if __name__ == '__main__':
-	# Parse input argument
+	# Parse input arguments
 	parser = argparse.ArgumentParser()
 	parser.add_argument('input_file', type=str, help='Path to a file, in .conll format, with .dep and .con parse, to be resolved')
 	parser.add_argument('output_file', type = str, help = 'The path of where the output should go, e.g. WR77.xml.coref')
 	parser.add_argument('--docTags', help = 'If this flag is given, a begin and end document is printed at first and last line of output', dest = 'doc_tags', action = 'store_true')
 	args = parser.parse_args()
-	# Read input files
-	try:
-		conll_list = read_conll_file(args.input_file)
-	except IOError:
-		print 'CoNLL input file not found: %s' % (args.input_file)
-	xml_tree_list = read_xml_parse_files(args.input_file)
-	print 'Number of xml parse trees found: %d' % (len(xml_tree_list))
-	mentionID = 0 # Initialize mentionID
-	sentenceDict = {} # Initialize dictionary containing sentence strings
-	# TODO: Change mention_list to a dictionary, to be able to find mentions by ID? (same goes for clusters)
-	mention_list = detect_mentions(conll_list, xml_tree_list, args.input_file)
-	print_mentions_inline(sentenceDict, mention_list)		
-	cluster_list = initialize_clusters(mention_list)
-	sieveDummy() # Apply dummy sieve
-	generate_conll(sentenceDict, args.input_file, mention_list, args.output_file)	
+	main(args.input_file, args.output_file, args.doc_tags)
+
