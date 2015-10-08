@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000075_inline.xml); part 000
 WR-P-P-H-0000000075_inline.xml	1	1	1	1	1	SINT	(1
 WR-P-P-H-0000000075_inline.xml	1	1	1	2	2	PETERSBURG	1)
 WR-P-P-H-0000000075_inline.xml	1	1	1	3	3	-	-
@@ -67,3 +67,4 @@ WR-P-P-H-0000000075_inline.xml	1	5	5	21	61	te	-
 WR-P-P-H-0000000075_inline.xml	1	5	5	22	62	gooien	-
 WR-P-P-H-0000000075_inline.xml	1	5	5	23	63	.	-
 
+#end document

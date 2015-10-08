@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000104_inline.xml); part 000
 WR-P-P-H-0000000104_inline.xml	1	1	1	1	1	ROTTERDAM	(1)
 WR-P-P-H-0000000104_inline.xml	1	1	1	2	2	-	-
 WR-P-P-H-0000000104_inline.xml	1	1	1	3	3	Voor	-
@@ -114,3 +114,4 @@ WR-P-P-H-0000000104_inline.xml	3	3	7	7	106	boeddhistische	34
 WR-P-P-H-0000000104_inline.xml	3	3	7	8	107	meditatie	34)
 WR-P-P-H-0000000104_inline.xml	3	3	7	9	108	.	-
 
+#end document

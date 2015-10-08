@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000039_inline.xml); part 000
 WR-P-P-H-0000000039_inline.xml	1	1	1	1	1	LONDEN	(1)
 WR-P-P-H-0000000039_inline.xml	1	1	1	2	2	-	-
 
@@ -42,13 +42,13 @@ WR-P-P-H-0000000039_inline.xml	1	4	4	10	37	''	-
 
 WR-P-P-H-0000000039_inline.xml	2	1	5	1	38	Zaterdag	(11)
 WR-P-P-H-0000000039_inline.xml	2	1	5	2	39	plaatste	-
-WR-P-P-H-0000000039_inline.xml	2	1	5	3	40	de	(4)
-WR-P-P-H-0000000039_inline.xml	2	1	5	4	41	meest	(4)
-WR-P-P-H-0000000039_inline.xml	2	1	5	5	42	onzichtbare	(4)
-WR-P-P-H-0000000039_inline.xml	2	1	5	6	43	vrouw	(4)
-WR-P-P-H-0000000039_inline.xml	2	1	5	7	44	van	(4)
-WR-P-P-H-0000000039_inline.xml	2	1	5	8	45	1.89	(4)|(13
-WR-P-P-H-0000000039_inline.xml	2	1	5	9	46	meter	(4)|13)
+WR-P-P-H-0000000039_inline.xml	2	1	5	3	40	de	(4
+WR-P-P-H-0000000039_inline.xml	2	1	5	4	41	meest	4
+WR-P-P-H-0000000039_inline.xml	2	1	5	5	42	onzichtbare	4
+WR-P-P-H-0000000039_inline.xml	2	1	5	6	43	vrouw	4
+WR-P-P-H-0000000039_inline.xml	2	1	5	7	44	van	4
+WR-P-P-H-0000000039_inline.xml	2	1	5	8	45	1.89	4|(13
+WR-P-P-H-0000000039_inline.xml	2	1	5	9	46	meter	4)|13)
 WR-P-P-H-0000000039_inline.xml	2	1	5	10	47	zich	(14)
 WR-P-P-H-0000000039_inline.xml	2	1	5	11	48	zonder	-
 WR-P-P-H-0000000039_inline.xml	2	1	5	12	49	problemen	(15)
@@ -106,8 +106,8 @@ WR-P-P-H-0000000039_inline.xml	3	1	9	2	96	om	26
 WR-P-P-H-0000000039_inline.xml	3	1	9	3	97	te	26
 WR-P-P-H-0000000039_inline.xml	3	1	9	4	98	verliezen	26)
 WR-P-P-H-0000000039_inline.xml	3	1	9	5	99	kent	-
-WR-P-P-H-0000000039_inline.xml	3	1	9	6	100	de	(4)
-WR-P-P-H-0000000039_inline.xml	3	1	9	7	101	Amerikaanse	(4)
+WR-P-P-H-0000000039_inline.xml	3	1	9	6	100	de	(4
+WR-P-P-H-0000000039_inline.xml	3	1	9	7	101	Amerikaanse	4)
 WR-P-P-H-0000000039_inline.xml	3	1	9	8	102	in	-
 WR-P-P-H-0000000039_inline.xml	3	1	9	9	103	ieder	(28
 WR-P-P-H-0000000039_inline.xml	3	1	9	10	104	geval	28)
@@ -175,10 +175,10 @@ WR-P-P-H-0000000039_inline.xml	4	1	13	10	161	het	(42
 WR-P-P-H-0000000039_inline.xml	4	1	13	11	162	mogelijke	42
 WR-P-P-H-0000000039_inline.xml	4	1	13	12	163	pensioen	42
 WR-P-P-H-0000000039_inline.xml	4	1	13	13	164	van	42
-WR-P-P-H-0000000039_inline.xml	4	1	13	14	165	de	42|(4)
-WR-P-P-H-0000000039_inline.xml	4	1	13	15	166	voormalige	42|(4)
-WR-P-P-H-0000000039_inline.xml	4	1	13	16	167	nummer	42|(4)
-WR-P-P-H-0000000039_inline.xml	4	1	13	17	168	één	42)|(4)|(44)
+WR-P-P-H-0000000039_inline.xml	4	1	13	14	165	de	42|(4
+WR-P-P-H-0000000039_inline.xml	4	1	13	15	166	voormalige	42|4
+WR-P-P-H-0000000039_inline.xml	4	1	13	16	167	nummer	42|4
+WR-P-P-H-0000000039_inline.xml	4	1	13	17	168	één	42)|4)|(44)
 WR-P-P-H-0000000039_inline.xml	4	1	13	18	169	.	-
 
 WR-P-P-H-0000000039_inline.xml	4	2	14	1	170	Ze	(4)
@@ -297,9 +297,9 @@ WR-P-P-H-0000000039_inline.xml	6	2	24	3	272	eerst	-
 WR-P-P-H-0000000039_inline.xml	6	2	24	4	273	sinds	-
 WR-P-P-H-0000000039_inline.xml	6	2	24	5	274	1993	(76)
 WR-P-P-H-0000000039_inline.xml	6	2	24	6	275	miste	-
-WR-P-P-H-0000000039_inline.xml	6	2	24	7	276	de	(4)
-WR-P-P-H-0000000039_inline.xml	6	2	24	8	277	consciëntieuze	(4)
-WR-P-P-H-0000000039_inline.xml	6	2	24	9	278	prof	(4)
+WR-P-P-H-0000000039_inline.xml	6	2	24	7	276	de	(4
+WR-P-P-H-0000000039_inline.xml	6	2	24	8	277	consciëntieuze	4
+WR-P-P-H-0000000039_inline.xml	6	2	24	9	278	prof	4)
 WR-P-P-H-0000000039_inline.xml	6	2	24	10	279	een	(67
 WR-P-P-H-0000000039_inline.xml	6	2	24	11	280	Grand	67
 WR-P-P-H-0000000039_inline.xml	6	2	24	12	281	Slam	67)
@@ -444,8 +444,8 @@ WR-P-P-H-0000000039_inline.xml	8	3	34	9	408	?	-
 WR-P-P-H-0000000039_inline.xml	8	4	35	1	409	Ik	(108)
 WR-P-P-H-0000000039_inline.xml	8	4	35	2	410	ben	-
 WR-P-P-H-0000000039_inline.xml	8	4	35	3	411	pas	-
-WR-P-P-H-0000000039_inline.xml	8	4	35	4	412	25	(108)
-WR-P-P-H-0000000039_inline.xml	8	4	35	5	413	jaar	(108)
+WR-P-P-H-0000000039_inline.xml	8	4	35	4	412	25	(108
+WR-P-P-H-0000000039_inline.xml	8	4	35	5	413	jaar	108)
 WR-P-P-H-0000000039_inline.xml	8	4	35	6	414	en	-
 WR-P-P-H-0000000039_inline.xml	8	4	35	7	415	toch	-
 WR-P-P-H-0000000039_inline.xml	8	4	35	8	416	heb	-
@@ -479,11 +479,11 @@ WR-P-P-H-0000000039_inline.xml	8	5	36	11	441	''	-
 WR-P-P-H-0000000039_inline.xml	9	1	37	1	442	,,	-
 WR-P-P-H-0000000039_inline.xml	9	1	37	2	443	Het	(123)
 WR-P-P-H-0000000039_inline.xml	9	1	37	3	444	is	-
-WR-P-P-H-0000000039_inline.xml	9	1	37	4	445	een	(123)
-WR-P-P-H-0000000039_inline.xml	9	1	37	5	446	moeilijke	(123)
-WR-P-P-H-0000000039_inline.xml	9	1	37	6	447	manier	(123)
-WR-P-P-H-0000000039_inline.xml	9	1	37	7	448	van	(123)
-WR-P-P-H-0000000039_inline.xml	9	1	37	8	449	leven	(123)|(126)
+WR-P-P-H-0000000039_inline.xml	9	1	37	4	445	een	(123
+WR-P-P-H-0000000039_inline.xml	9	1	37	5	446	moeilijke	123
+WR-P-P-H-0000000039_inline.xml	9	1	37	6	447	manier	123
+WR-P-P-H-0000000039_inline.xml	9	1	37	7	448	van	123
+WR-P-P-H-0000000039_inline.xml	9	1	37	8	449	leven	123)|(126)
 WR-P-P-H-0000000039_inline.xml	9	1	37	9	450	,	-
 WR-P-P-H-0000000039_inline.xml	9	1	37	10	451	zeker	-
 WR-P-P-H-0000000039_inline.xml	9	1	37	11	452	voor	-
@@ -639,9 +639,9 @@ WR-P-P-H-0000000039_inline.xml	11	3	49	12	588	?	-
 WR-P-P-H-0000000039_inline.xml	11	4	50	1	589	Je	(108)
 WR-P-P-H-0000000039_inline.xml	11	4	50	2	590	bent	-
 WR-P-P-H-0000000039_inline.xml	11	4	50	3	591	pas	-
-WR-P-P-H-0000000039_inline.xml	11	4	50	4	592	halverwege	(108)
-WR-P-P-H-0000000039_inline.xml	11	4	50	5	593	de	(108)
-WR-P-P-H-0000000039_inline.xml	11	4	50	6	594	twintig	(108)
+WR-P-P-H-0000000039_inline.xml	11	4	50	4	592	halverwege	(108
+WR-P-P-H-0000000039_inline.xml	11	4	50	5	593	de	108
+WR-P-P-H-0000000039_inline.xml	11	4	50	6	594	twintig	108)
 WR-P-P-H-0000000039_inline.xml	11	4	50	7	595	.	-
 
 WR-P-P-H-0000000039_inline.xml	11	5	51	1	596	Maar	-
@@ -780,17 +780,17 @@ WR-P-P-H-0000000039_inline.xml	13	2	58	8	721	Patty	206|(234
 WR-P-P-H-0000000039_inline.xml	13	2	58	9	722	Schnyder	206)|234)
 WR-P-P-H-0000000039_inline.xml	13	2	58	10	723	.	-
 
-WR-P-P-H-0000000039_inline.xml	13	3	59	1	724	De	(108)
-WR-P-P-H-0000000039_inline.xml	13	3	59	2	725	Wimbledon-winnares	(108)
-WR-P-P-H-0000000039_inline.xml	13	3	59	3	726	van	(108)
-WR-P-P-H-0000000039_inline.xml	13	3	59	4	727	1999	(108)|(208)
+WR-P-P-H-0000000039_inline.xml	13	3	59	1	724	De	(108
+WR-P-P-H-0000000039_inline.xml	13	3	59	2	725	Wimbledon-winnares	108
+WR-P-P-H-0000000039_inline.xml	13	3	59	3	726	van	108
+WR-P-P-H-0000000039_inline.xml	13	3	59	4	727	1999	108)|(208)
 WR-P-P-H-0000000039_inline.xml	13	3	59	5	728	e-mailt	-
 WR-P-P-H-0000000039_inline.xml	13	3	59	6	729	ondertussen	-
 WR-P-P-H-0000000039_inline.xml	13	3	59	7	730	iedere	(209
 WR-P-P-H-0000000039_inline.xml	13	3	59	8	731	dag	209)
 WR-P-P-H-0000000039_inline.xml	13	3	59	9	732	met	-
-WR-P-P-H-0000000039_inline.xml	13	3	59	10	733	Corina	(230)
-WR-P-P-H-0000000039_inline.xml	13	3	59	11	734	Morariu	(230)
+WR-P-P-H-0000000039_inline.xml	13	3	59	10	733	Corina	(230
+WR-P-P-H-0000000039_inline.xml	13	3	59	11	734	Morariu	230)
 WR-P-P-H-0000000039_inline.xml	13	3	59	12	735	.	-
 
 WR-P-P-H-0000000039_inline.xml	14	1	60	1	736	,,	-
@@ -824,8 +824,8 @@ WR-P-P-H-0000000039_inline.xml	14	3	62	8	761	beeld	219
 WR-P-P-H-0000000039_inline.xml	14	3	62	9	762	heb	219
 WR-P-P-H-0000000039_inline.xml	14	3	62	10	763	van	219
 WR-P-P-H-0000000039_inline.xml	14	3	62	11	764	wat	219
-WR-P-P-H-0000000039_inline.xml	14	3	62	12	765	deze	219|(7)
-WR-P-P-H-0000000039_inline.xml	14	3	62	13	766	baan	219|(7)
+WR-P-P-H-0000000039_inline.xml	14	3	62	12	765	deze	219|(7
+WR-P-P-H-0000000039_inline.xml	14	3	62	13	766	baan	219|7)
 WR-P-P-H-0000000039_inline.xml	14	3	62	14	767	inhoudt	219
 WR-P-P-H-0000000039_inline.xml	14	3	62	15	768	,	219
 WR-P-P-H-0000000039_inline.xml	14	3	62	16	769	en	219
@@ -842,9 +842,9 @@ WR-P-P-H-0000000039_inline.xml	14	3	62	26	779	''	-
 
 WR-P-P-H-0000000039_inline.xml	15	1	63	1	780	Davenport	(108)
 WR-P-P-H-0000000039_inline.xml	15	1	63	2	781	bestookt	-
-WR-P-P-H-0000000039_inline.xml	15	1	63	3	782	haar	(234)|(108)
-WR-P-P-H-0000000039_inline.xml	15	1	63	4	783	tegenstandster	(234)
-WR-P-P-H-0000000039_inline.xml	15	1	63	5	784	Schnyder	(234)
+WR-P-P-H-0000000039_inline.xml	15	1	63	3	782	haar	(234|(108)
+WR-P-P-H-0000000039_inline.xml	15	1	63	4	783	tegenstandster	234
+WR-P-P-H-0000000039_inline.xml	15	1	63	5	784	Schnyder	234)
 WR-P-P-H-0000000039_inline.xml	15	1	63	6	785	met	-
 WR-P-P-H-0000000039_inline.xml	15	1	63	7	786	een	(226
 WR-P-P-H-0000000039_inline.xml	15	1	63	8	787	venijnige	226
@@ -854,3 +854,4 @@ WR-P-P-H-0000000039_inline.xml	15	1	63	10	789	.	-
 WR-P-P-H-0000000039_inline.xml	16	1	64	1	790	FOTO	(227)
 WR-P-P-H-0000000039_inline.xml	16	1	64	2	791	REUTERS	(228
 
+#end document

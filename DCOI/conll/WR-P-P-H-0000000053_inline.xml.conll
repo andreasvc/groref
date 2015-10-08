@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000053_inline.xml); part 000
 WR-P-P-H-0000000053_inline.xml	1	1	1	1	1	KATOWICE	(1)
 WR-P-P-H-0000000053_inline.xml	1	1	1	2	2	-	-
 
@@ -178,8 +178,8 @@ WR-P-P-H-0000000053_inline.xml	3	3	10	18	167	naar	-
 WR-P-P-H-0000000053_inline.xml	3	3	10	19	168	Spanje	(46)
 WR-P-P-H-0000000053_inline.xml	3	3	10	20	169	.	-
 
-WR-P-P-H-0000000053_inline.xml	4	1	11	1	170	De	(41)
-WR-P-P-H-0000000053_inline.xml	4	1	11	2	171	Brazilianen	(41)
+WR-P-P-H-0000000053_inline.xml	4	1	11	1	170	De	(41
+WR-P-P-H-0000000053_inline.xml	4	1	11	2	171	Brazilianen	41)
 WR-P-P-H-0000000053_inline.xml	4	1	11	3	172	wonnen	-
 WR-P-P-H-0000000053_inline.xml	4	1	11	4	173	de	(48|(104
 WR-P-P-H-0000000053_inline.xml	4	1	11	5	174	twaalfde	48|104
@@ -194,14 +194,14 @@ WR-P-P-H-0000000053_inline.xml	4	2	12	1	181	In	-
 WR-P-P-H-0000000053_inline.xml	4	2	12	2	182	de	(50|(105
 WR-P-P-H-0000000053_inline.xml	4	2	12	3	183	finale	50|105)
 WR-P-P-H-0000000053_inline.xml	4	2	12	4	184	van	50
-WR-P-P-H-0000000053_inline.xml	4	2	12	5	185	het	50|(51|(4)
-WR-P-P-H-0000000053_inline.xml	4	2	12	6	186	evenement	50|51|(4)
+WR-P-P-H-0000000053_inline.xml	4	2	12	5	185	het	50|(51|(4
+WR-P-P-H-0000000053_inline.xml	4	2	12	6	186	evenement	50|51|4)
 WR-P-P-H-0000000053_inline.xml	4	2	12	7	187	in	50|51
 WR-P-P-H-0000000053_inline.xml	4	2	12	8	188	Katowice	50)|51)|(4)
 WR-P-P-H-0000000053_inline.xml	4	2	12	9	189	had	-
-WR-P-P-H-0000000053_inline.xml	4	2	12	10	190	de	(41)
-WR-P-P-H-0000000053_inline.xml	4	2	12	11	191	Zuid-Amerikaanse	(41)
-WR-P-P-H-0000000053_inline.xml	4	2	12	12	192	ploeg	(41)
+WR-P-P-H-0000000053_inline.xml	4	2	12	10	190	de	(41
+WR-P-P-H-0000000053_inline.xml	4	2	12	11	191	Zuid-Amerikaanse	41
+WR-P-P-H-0000000053_inline.xml	4	2	12	12	192	ploeg	41)
 WR-P-P-H-0000000053_inline.xml	4	2	12	13	193	geen	(54
 WR-P-P-H-0000000053_inline.xml	4	2	12	14	194	enkele	54
 WR-P-P-H-0000000053_inline.xml	4	2	12	15	195	moeite	54)
@@ -224,17 +224,17 @@ WR-P-P-H-0000000053_inline.xml	4	3	13	11	209	.	-
 WR-P-P-H-0000000053_inline.xml	5	1	14	1	210	De	(50
 WR-P-P-H-0000000053_inline.xml	5	1	14	2	211	finale	50)
 WR-P-P-H-0000000053_inline.xml	5	1	14	3	212	was	-
-WR-P-P-H-0000000053_inline.xml	5	1	14	4	213	geen	(50)
-WR-P-P-H-0000000053_inline.xml	5	1	14	5	214	spannende	(50)
-WR-P-P-H-0000000053_inline.xml	5	1	14	6	215	aangelegenheid	(50)
+WR-P-P-H-0000000053_inline.xml	5	1	14	4	213	geen	(50
+WR-P-P-H-0000000053_inline.xml	5	1	14	5	214	spannende	50
+WR-P-P-H-0000000053_inline.xml	5	1	14	6	215	aangelegenheid	50)
 WR-P-P-H-0000000053_inline.xml	5	1	14	7	216	.	-
 
-WR-P-P-H-0000000053_inline.xml	5	2	15	1	217	Het	(41)
-WR-P-P-H-0000000053_inline.xml	5	2	15	2	218	in	(41)
-WR-P-P-H-0000000053_inline.xml	5	2	15	3	219	Polen	(41)|(63)
-WR-P-P-H-0000000053_inline.xml	5	2	15	4	220	nog	(41)
-WR-P-P-H-0000000053_inline.xml	5	2	15	5	221	ongeslagen	(41)
-WR-P-P-H-0000000053_inline.xml	5	2	15	6	222	Brazilië	(41)
+WR-P-P-H-0000000053_inline.xml	5	2	15	1	217	Het	(41
+WR-P-P-H-0000000053_inline.xml	5	2	15	2	218	in	41
+WR-P-P-H-0000000053_inline.xml	5	2	15	3	219	Polen	41|(63)
+WR-P-P-H-0000000053_inline.xml	5	2	15	4	220	nog	41
+WR-P-P-H-0000000053_inline.xml	5	2	15	5	221	ongeslagen	41
+WR-P-P-H-0000000053_inline.xml	5	2	15	6	222	Brazilië	41)
 WR-P-P-H-0000000053_inline.xml	5	2	15	7	223	,	-
 WR-P-P-H-0000000053_inline.xml	5	2	15	8	224	in	-
 WR-P-P-H-0000000053_inline.xml	5	2	15	9	225	1993	(64)
@@ -245,9 +245,9 @@ WR-P-P-H-0000000053_inline.xml	5	2	15	13	229	en	-
 WR-P-P-H-0000000053_inline.xml	5	2	15	14	230	laatst	-
 WR-P-P-H-0000000053_inline.xml	5	2	15	15	231	winnaar	(65|(107)
 WR-P-P-H-0000000053_inline.xml	5	2	15	16	232	van	65
-WR-P-P-H-0000000053_inline.xml	5	2	15	17	233	de	65|(4)
-WR-P-P-H-0000000053_inline.xml	5	2	15	18	234	World	65|(4)
-WR-P-P-H-0000000053_inline.xml	5	2	15	19	235	League	65)|(4)
+WR-P-P-H-0000000053_inline.xml	5	2	15	17	233	de	65|(4
+WR-P-P-H-0000000053_inline.xml	5	2	15	18	234	World	65|4
+WR-P-P-H-0000000053_inline.xml	5	2	15	19	235	League	65)|4)
 WR-P-P-H-0000000053_inline.xml	5	2	15	20	236	,	-
 WR-P-P-H-0000000053_inline.xml	5	2	15	21	237	was	-
 WR-P-P-H-0000000053_inline.xml	5	2	15	22	238	voor	-
@@ -326,8 +326,8 @@ WR-P-P-H-0000000053_inline.xml	7	2	20	6	305	Spelen	85|86
 WR-P-P-H-0000000053_inline.xml	7	2	20	7	306	in	85|86
 WR-P-P-H-0000000053_inline.xml	7	2	20	8	307	Sydney	85)|86)|(87)
 WR-P-P-H-0000000053_inline.xml	7	2	20	9	308	vloog	-
-WR-P-P-H-0000000053_inline.xml	7	2	20	10	309	de	(55)
-WR-P-P-H-0000000053_inline.xml	7	2	20	11	310	ploeg	(55)
+WR-P-P-H-0000000053_inline.xml	7	2	20	10	309	de	(55
+WR-P-P-H-0000000053_inline.xml	7	2	20	11	310	ploeg	55)
 WR-P-P-H-0000000053_inline.xml	7	2	20	12	311	er	(90)
 WR-P-P-H-0000000053_inline.xml	7	2	20	13	312	in	-
 WR-P-P-H-0000000053_inline.xml	7	2	20	14	313	de	(86
@@ -360,3 +360,4 @@ WR-P-P-H-0000000053_inline.xml	7	3	21	16	338	opnieuw	-
 WR-P-P-H-0000000053_inline.xml	7	3	21	17	339	uit	-
 WR-P-P-H-0000000053_inline.xml	7	3	21	18	340	.	-
 
+#end document

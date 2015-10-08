@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000082_inline.xml); part 000
 WR-P-P-H-0000000082_inline.xml	1	1	1	1	1	AUGSBURG	(1)
 WR-P-P-H-0000000082_inline.xml	1	1	1	2	2	-	-
 
@@ -72,3 +72,4 @@ WR-P-P-H-0000000082_inline.xml	1	6	6	7	65	Smederevo	(6)
 WR-P-P-H-0000000082_inline.xml	1	6	6	8	66	levend	-
 WR-P-P-H-0000000082_inline.xml	1	6	6	9	67	.	-
 
+#end document

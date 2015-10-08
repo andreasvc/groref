@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000043_inline.xml); part 000
 WR-P-P-H-0000000043_inline.xml	1	1	1	1	1	SALZBURG	(1)
 WR-P-P-H-0000000043_inline.xml	1	1	1	2	2	-	-
 
@@ -96,3 +96,4 @@ WR-P-P-H-0000000043_inline.xml	1	7	7	26	88	Europese	27
 WR-P-P-H-0000000043_inline.xml	1	7	7	27	89	integratie	27)
 WR-P-P-H-0000000043_inline.xml	1	7	7	28	90	.	-
 
+#end document

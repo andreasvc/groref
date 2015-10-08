@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000078_inline.xml); part 000
 WR-P-P-H-0000000078_inline.xml	1	1	1	1	1	YAOUNDE	(1)
 WR-P-P-H-0000000078_inline.xml	1	1	1	2	2	-	-
 
@@ -72,3 +72,4 @@ WR-P-P-H-0000000078_inline.xml	1	4	4	14	67	op	-
 WR-P-P-H-0000000078_inline.xml	1	4	4	15	68	zak	(28)
 WR-P-P-H-0000000078_inline.xml	1	4	4	16	69	.	-
 
+#end document

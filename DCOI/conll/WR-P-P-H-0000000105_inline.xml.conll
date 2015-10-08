@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000105_inline.xml); part 000
 WR-P-P-H-0000000105_inline.xml	1	1	1	1	1	NIJMEGEN	(1)
 WR-P-P-H-0000000105_inline.xml	1	1	1	2	2	-	-
 
@@ -582,3 +582,4 @@ WR-P-P-H-0000000105_inline.xml	10	1	41	3	540	JUINEN	152)
 WR-P-P-H-0000000105_inline.xml	10	1	41	4	541	,	-
 WR-P-P-H-0000000105_inline.xml	10	1	41	5	542	ANP	(153
 
+#end document

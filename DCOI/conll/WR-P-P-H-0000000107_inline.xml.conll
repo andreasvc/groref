@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000107_inline.xml); part 000
 WR-P-P-H-0000000107_inline.xml	1	1	1	1	1	LEEUWARDEN	(1)
 WR-P-P-H-0000000107_inline.xml	1	1	1	2	2	-	-
 
@@ -57,3 +57,4 @@ WR-P-P-H-0000000107_inline.xml	1	4	4	24	52	waren	-
 WR-P-P-H-0000000107_inline.xml	1	4	4	25	53	uitgekomen	-
 WR-P-P-H-0000000107_inline.xml	1	4	4	26	54	.	-
 
+#end document

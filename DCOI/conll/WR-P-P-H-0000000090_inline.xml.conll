@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000090_inline.xml); part 000
 WR-P-P-H-0000000090_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
 WR-P-P-H-0000000090_inline.xml	1	1	1	2	2	-	-
 
@@ -103,19 +103,19 @@ WR-P-P-H-0000000090_inline.xml	4	1	5	6	97	is	-
 WR-P-P-H-0000000090_inline.xml	4	1	5	7	98	het	(21
 WR-P-P-H-0000000090_inline.xml	4	1	5	8	99	apparaat	21
 WR-P-P-H-0000000090_inline.xml	4	1	5	9	100	waarmee	21
-WR-P-P-H-0000000090_inline.xml	4	1	5	10	101	de	21|(6)
-WR-P-P-H-0000000090_inline.xml	4	1	5	11	102	tests	21|(6)
+WR-P-P-H-0000000090_inline.xml	4	1	5	10	101	de	21|(6
+WR-P-P-H-0000000090_inline.xml	4	1	5	11	102	tests	21|6)
 WR-P-P-H-0000000090_inline.xml	4	1	5	12	103	moeten	21
 WR-P-P-H-0000000090_inline.xml	4	1	5	13	104	worden	21
 WR-P-P-H-0000000090_inline.xml	4	1	5	14	105	uitgevoerd	21)
-WR-P-P-H-0000000090_inline.xml	4	1	5	15	106	een	(21)
-WR-P-P-H-0000000090_inline.xml	4	1	5	16	107	nieuwe	(21)
-WR-P-P-H-0000000090_inline.xml	4	1	5	17	108	versie	(21)
-WR-P-P-H-0000000090_inline.xml	4	1	5	18	109	van	(21)
-WR-P-P-H-0000000090_inline.xml	4	1	5	19	110	de	(21)|(7
-WR-P-P-H-0000000090_inline.xml	4	1	5	20	111	wat	(21)|7
-WR-P-P-H-0000000090_inline.xml	4	1	5	21	112	oudere	(21)|7
-WR-P-P-H-0000000090_inline.xml	4	1	5	22	113	leugendetector	(21)|7)
+WR-P-P-H-0000000090_inline.xml	4	1	5	15	106	een	(21
+WR-P-P-H-0000000090_inline.xml	4	1	5	16	107	nieuwe	21
+WR-P-P-H-0000000090_inline.xml	4	1	5	17	108	versie	21
+WR-P-P-H-0000000090_inline.xml	4	1	5	18	109	van	21
+WR-P-P-H-0000000090_inline.xml	4	1	5	19	110	de	21|(7
+WR-P-P-H-0000000090_inline.xml	4	1	5	20	111	wat	21|7
+WR-P-P-H-0000000090_inline.xml	4	1	5	21	112	oudere	21|7
+WR-P-P-H-0000000090_inline.xml	4	1	5	22	113	leugendetector	21)|7)
 WR-P-P-H-0000000090_inline.xml	4	1	5	23	114	.	-
 
 WR-P-P-H-0000000090_inline.xml	4	2	6	1	115	,,	-
@@ -157,8 +157,8 @@ WR-P-P-H-0000000090_inline.xml	5	1	7	15	149	kunnen	-
 WR-P-P-H-0000000090_inline.xml	5	1	7	16	150	voorspellen	-
 WR-P-P-H-0000000090_inline.xml	5	1	7	17	151	in	-
 WR-P-P-H-0000000090_inline.xml	5	1	7	18	152	hoeverre	-
-WR-P-P-H-0000000090_inline.xml	5	1	7	19	153	een	(3)
-WR-P-P-H-0000000090_inline.xml	5	1	7	20	154	zedendelinquent	(3)
+WR-P-P-H-0000000090_inline.xml	5	1	7	19	153	een	(3
+WR-P-P-H-0000000090_inline.xml	5	1	7	20	154	zedendelinquent	3)
 WR-P-P-H-0000000090_inline.xml	5	1	7	21	155	na	-
 WR-P-P-H-0000000090_inline.xml	5	1	7	22	156	zijn	(47|(3)
 WR-P-P-H-0000000090_inline.xml	5	1	7	23	157	tbs	47)
@@ -198,3 +198,4 @@ WR-P-P-H-0000000090_inline.xml	6	1	9	1	188	*	-
 WR-P-P-H-0000000090_inline.xml	6	1	9	2	189	DE	(58
 WR-P-P-H-0000000090_inline.xml	6	1	9	3	190	ONDERKRANT	58
 
+#end document

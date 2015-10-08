@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000083_inline.xml); part 000
 WR-P-P-H-0000000083_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
 WR-P-P-H-0000000083_inline.xml	1	1	1	2	2	-	-
 
@@ -104,9 +104,9 @@ WR-P-P-H-0000000083_inline.xml	3	1	7	2	96	is	-
 WR-P-P-H-0000000083_inline.xml	3	1	7	3	97	op	-
 WR-P-P-H-0000000083_inline.xml	3	1	7	4	98	deze	(22
 WR-P-P-H-0000000083_inline.xml	3	1	7	5	99	scholen	22)
-WR-P-P-H-0000000083_inline.xml	3	1	7	6	100	de	(2)
-WR-P-P-H-0000000083_inline.xml	3	1	7	7	101	tweede	(2)
-WR-P-P-H-0000000083_inline.xml	3	1	7	8	102	taal	(2)
+WR-P-P-H-0000000083_inline.xml	3	1	7	6	100	de	(2
+WR-P-P-H-0000000083_inline.xml	3	1	7	7	101	tweede	2
+WR-P-P-H-0000000083_inline.xml	3	1	7	8	102	taal	2)
 WR-P-P-H-0000000083_inline.xml	3	1	7	9	103	.	-
 
 WR-P-P-H-0000000083_inline.xml	3	2	8	1	104	Dergelijk	(65
@@ -148,8 +148,8 @@ WR-P-P-H-0000000083_inline.xml	4	1	9	7	138	ook	-
 WR-P-P-H-0000000083_inline.xml	4	1	9	8	139	kostbaar	-
 WR-P-P-H-0000000083_inline.xml	4	1	9	9	140	.	-
 
-WR-P-P-H-0000000083_inline.xml	4	2	10	1	141	De	(18)
-WR-P-P-H-0000000083_inline.xml	4	2	10	2	142	klassen	(18)
+WR-P-P-H-0000000083_inline.xml	4	2	10	1	141	De	(18
+WR-P-P-H-0000000083_inline.xml	4	2	10	2	142	klassen	18)
 WR-P-P-H-0000000083_inline.xml	4	2	10	3	143	zijn	-
 WR-P-P-H-0000000083_inline.xml	4	2	10	4	144	heel	-
 WR-P-P-H-0000000083_inline.xml	4	2	10	5	145	klein	-
@@ -173,8 +173,8 @@ WR-P-P-H-0000000083_inline.xml	4	2	10	22	162	soms	-
 WR-P-P-H-0000000083_inline.xml	4	2	10	23	163	minimaal	-
 WR-P-P-H-0000000083_inline.xml	4	2	10	24	164	.	-
 
-WR-P-P-H-0000000083_inline.xml	5	1	11	1	165	De	(66)
-WR-P-P-H-0000000083_inline.xml	5	1	11	2	166	Wereldbank	(66)
+WR-P-P-H-0000000083_inline.xml	5	1	11	1	165	De	(66
+WR-P-P-H-0000000083_inline.xml	5	1	11	2	166	Wereldbank	66)
 WR-P-P-H-0000000083_inline.xml	5	1	11	3	167	gaat	-
 WR-P-P-H-0000000083_inline.xml	5	1	11	4	168	niet	-
 WR-P-P-H-0000000083_inline.xml	5	1	11	5	169	zover	-
@@ -214,8 +214,8 @@ WR-P-P-H-0000000083_inline.xml	5	3	13	3	200	kosten	(56)
 WR-P-P-H-0000000083_inline.xml	5	3	13	4	201	,	-
 WR-P-P-H-0000000083_inline.xml	5	3	13	5	202	maar	-
 WR-P-P-H-0000000083_inline.xml	5	3	13	6	203	als	-
-WR-P-P-H-0000000083_inline.xml	5	3	13	7	204	de	(6)
-WR-P-P-H-0000000083_inline.xml	5	3	13	8	205	maatregelen	(6)
+WR-P-P-H-0000000083_inline.xml	5	3	13	7	204	de	(6
+WR-P-P-H-0000000083_inline.xml	5	3	13	8	205	maatregelen	6)
 WR-P-P-H-0000000083_inline.xml	5	3	13	9	206	worden	-
 WR-P-P-H-0000000083_inline.xml	5	3	13	10	207	doorgevoerd	-
 WR-P-P-H-0000000083_inline.xml	5	3	13	11	208	betekent	-
@@ -237,3 +237,4 @@ WR-P-P-H-0000000083_inline.xml	5	3	13	26	223	moeten	-
 WR-P-P-H-0000000083_inline.xml	5	3	13	27	224	reizen	-
 WR-P-P-H-0000000083_inline.xml	5	3	13	28	225	.	-
 
+#end document

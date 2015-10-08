@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000072_inline.xml); part 000
 WR-P-P-H-0000000072_inline.xml	1	1	1	1	1	SAPPORO	(1)
 WR-P-P-H-0000000072_inline.xml	1	1	1	2	2	-	-
 
@@ -19,9 +19,9 @@ WR-P-P-H-0000000072_inline.xml	1	3	3	1	15	De	(3
 WR-P-P-H-0000000072_inline.xml	1	3	3	2	16	Japanse	3
 WR-P-P-H-0000000072_inline.xml	1	3	3	3	17	international	3)
 WR-P-P-H-0000000072_inline.xml	1	3	3	4	18	was	-
-WR-P-P-H-0000000072_inline.xml	1	3	3	5	19	de	(3)
-WR-P-P-H-0000000072_inline.xml	1	3	3	6	20	opvallendste	(3)
-WR-P-P-H-0000000072_inline.xml	1	3	3	7	21	speler	(3)
+WR-P-P-H-0000000072_inline.xml	1	3	3	5	19	de	(3
+WR-P-P-H-0000000072_inline.xml	1	3	3	6	20	opvallendste	3
+WR-P-P-H-0000000072_inline.xml	1	3	3	7	21	speler	3)
 WR-P-P-H-0000000072_inline.xml	1	3	3	8	22	in	-
 WR-P-P-H-0000000072_inline.xml	1	3	3	9	23	de	(7
 WR-P-P-H-0000000072_inline.xml	1	3	3	10	24	interland	7
@@ -65,8 +65,8 @@ WR-P-P-H-0000000072_inline.xml	1	6	6	6	58	naar	-
 WR-P-P-H-0000000072_inline.xml	1	6	6	7	59	Rotterdam	(17)
 WR-P-P-H-0000000072_inline.xml	1	6	6	8	60	.	-
 
-WR-P-P-H-0000000072_inline.xml	1	7	7	1	61	De	(3)
-WR-P-P-H-0000000072_inline.xml	1	7	7	2	62	middenvelder	(3)
+WR-P-P-H-0000000072_inline.xml	1	7	7	1	61	De	(3
+WR-P-P-H-0000000072_inline.xml	1	7	7	2	62	middenvelder	3)
 WR-P-P-H-0000000072_inline.xml	1	7	7	3	63	drukte	-
 WR-P-P-H-0000000072_inline.xml	1	7	7	4	64	zijn	(19|(3)
 WR-P-P-H-0000000072_inline.xml	1	7	7	5	65	stempel	19)
@@ -77,3 +77,4 @@ WR-P-P-H-0000000072_inline.xml	1	7	7	9	69	tegen	7
 WR-P-P-H-0000000072_inline.xml	1	7	7	10	70	Paraguay	7)|(8)
 WR-P-P-H-0000000072_inline.xml	1	7	7	11	71	.	-
 
+#end document

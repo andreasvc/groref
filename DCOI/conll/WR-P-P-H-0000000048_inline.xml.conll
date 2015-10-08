@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000048_inline.xml); part 000
 WR-P-P-H-0000000048_inline.xml	1	1	1	1	1	Eén	(1
 WR-P-P-H-0000000048_inline.xml	1	1	1	2	2	deelneemster	1)
 WR-P-P-H-0000000048_inline.xml	1	1	1	3	3	wordt	-
@@ -62,8 +62,8 @@ WR-P-P-H-0000000048_inline.xml	2	2	4	9	57	,	-
 WR-P-P-H-0000000048_inline.xml	2	2	4	10	58	klonk	-
 WR-P-P-H-0000000048_inline.xml	2	2	4	11	59	het	(16)
 WR-P-P-H-0000000048_inline.xml	2	2	4	12	60	op	-
-WR-P-P-H-0000000048_inline.xml	2	2	4	13	61	de	(7)
-WR-P-P-H-0000000048_inline.xml	2	2	4	14	62	conferentie	(7)
+WR-P-P-H-0000000048_inline.xml	2	2	4	13	61	de	(7
+WR-P-P-H-0000000048_inline.xml	2	2	4	14	62	conferentie	7)
 WR-P-P-H-0000000048_inline.xml	2	2	4	15	63	dit	-
 WR-P-P-H-0000000048_inline.xml	2	2	4	16	64	weekeinde	-
 WR-P-P-H-0000000048_inline.xml	2	2	4	17	65	in	-
@@ -85,8 +85,8 @@ WR-P-P-H-0000000048_inline.xml	2	4	6	1	78	De	(21
 WR-P-P-H-0000000048_inline.xml	2	4	6	2	79	rk	21
 WR-P-P-H-0000000048_inline.xml	2	4	6	3	80	kerkleiding	21)
 WR-P-P-H-0000000048_inline.xml	2	4	6	4	81	werkte	-
-WR-P-P-H-0000000048_inline.xml	2	4	6	5	82	het	(7)
-WR-P-P-H-0000000048_inline.xml	2	4	6	6	83	congres	(7)
+WR-P-P-H-0000000048_inline.xml	2	4	6	5	82	het	(7
+WR-P-P-H-0000000048_inline.xml	2	4	6	6	83	congres	7)
 WR-P-P-H-0000000048_inline.xml	2	4	6	7	84	tegen	-
 WR-P-P-H-0000000048_inline.xml	2	4	6	8	85	:	-
 WR-P-P-H-0000000048_inline.xml	2	4	6	9	86	een	(23
@@ -246,23 +246,23 @@ WR-P-P-H-0000000048_inline.xml	5	1	14	3	231	Nobelprijswinnaar	61
 WR-P-P-H-0000000048_inline.xml	5	1	14	4	232	M.C.	61
 WR-P-P-H-0000000048_inline.xml	5	1	14	5	233	Maguire	61)
 WR-P-P-H-0000000048_inline.xml	5	1	14	6	234	opende	-
-WR-P-P-H-0000000048_inline.xml	5	1	14	7	235	de	(7)
-WR-P-P-H-0000000048_inline.xml	5	1	14	8	236	conferentie	(7)
-WR-P-P-H-0000000048_inline.xml	5	1	14	9	237	in	(7)
-WR-P-P-H-0000000048_inline.xml	5	1	14	10	238	het	(7)|(63
-WR-P-P-H-0000000048_inline.xml	5	1	14	11	239	land	(7)|63
-WR-P-P-H-0000000048_inline.xml	5	1	14	12	240	van	(7)|63
-WR-P-P-H-0000000048_inline.xml	5	1	14	13	241	Tipperary	(7)|63)|(368)
+WR-P-P-H-0000000048_inline.xml	5	1	14	7	235	de	(7
+WR-P-P-H-0000000048_inline.xml	5	1	14	8	236	conferentie	7
+WR-P-P-H-0000000048_inline.xml	5	1	14	9	237	in	7
+WR-P-P-H-0000000048_inline.xml	5	1	14	10	238	het	7|(63
+WR-P-P-H-0000000048_inline.xml	5	1	14	11	239	land	7|63
+WR-P-P-H-0000000048_inline.xml	5	1	14	12	240	van	7|63
+WR-P-P-H-0000000048_inline.xml	5	1	14	13	241	Tipperary	7)|63)|(368)
 WR-P-P-H-0000000048_inline.xml	5	1	14	14	242	.	-
 
 WR-P-P-H-0000000048_inline.xml	5	2	15	1	243	Zelf	-
 WR-P-P-H-0000000048_inline.xml	5	2	15	2	244	heeft	-
 WR-P-P-H-0000000048_inline.xml	5	2	15	3	245	ze	(61)
-WR-P-P-H-0000000048_inline.xml	5	2	15	4	246	geen	(61)
-WR-P-P-H-0000000048_inline.xml	5	2	15	5	247	roeping	(61)
-WR-P-P-H-0000000048_inline.xml	5	2	15	6	248	tot	(61)
-WR-P-P-H-0000000048_inline.xml	5	2	15	7	249	het	(61)|(67
-WR-P-P-H-0000000048_inline.xml	5	2	15	8	250	priesterambt	(61)|67)
+WR-P-P-H-0000000048_inline.xml	5	2	15	4	246	geen	(61
+WR-P-P-H-0000000048_inline.xml	5	2	15	5	247	roeping	61
+WR-P-P-H-0000000048_inline.xml	5	2	15	6	248	tot	61
+WR-P-P-H-0000000048_inline.xml	5	2	15	7	249	het	61|(67
+WR-P-P-H-0000000048_inline.xml	5	2	15	8	250	priesterambt	61)|67)
 WR-P-P-H-0000000048_inline.xml	5	2	15	9	251	,	-
 WR-P-P-H-0000000048_inline.xml	5	2	15	10	252	maar	-
 WR-P-P-H-0000000048_inline.xml	5	2	15	11	253	haar	(34|(61)
@@ -285,9 +285,9 @@ WR-P-P-H-0000000048_inline.xml	5	3	16	6	268	wel	-
 WR-P-P-H-0000000048_inline.xml	5	3	16	7	269	van	-
 WR-P-P-H-0000000048_inline.xml	5	3	16	8	270	.	-
 
-WR-P-P-H-0000000048_inline.xml	5	4	17	1	271	De	(21)
-WR-P-P-H-0000000048_inline.xml	5	4	17	2	272	rk	(21)
-WR-P-P-H-0000000048_inline.xml	5	4	17	3	273	kerk	(21)
+WR-P-P-H-0000000048_inline.xml	5	4	17	1	271	De	(21
+WR-P-P-H-0000000048_inline.xml	5	4	17	2	272	rk	21
+WR-P-P-H-0000000048_inline.xml	5	4	17	3	273	kerk	21)
 WR-P-P-H-0000000048_inline.xml	5	4	17	4	274	kan	-
 WR-P-P-H-0000000048_inline.xml	5	4	17	5	275	het	(15
 WR-P-P-H-0000000048_inline.xml	5	4	17	6	276	'	15
@@ -298,10 +298,10 @@ WR-P-P-H-0000000048_inline.xml	5	4	17	10	280	tegen	15
 WR-P-P-H-0000000048_inline.xml	5	4	17	11	281	vrouwen	15)|(34)
 WR-P-P-H-0000000048_inline.xml	5	4	17	12	282	'	-
 WR-P-P-H-0000000048_inline.xml	5	4	17	13	283	,	-
-WR-P-P-H-0000000048_inline.xml	5	4	17	14	284	ja	(15)
-WR-P-P-H-0000000048_inline.xml	5	4	17	15	285	zelfs	(15)
-WR-P-P-H-0000000048_inline.xml	5	4	17	16	286	'	(15)
-WR-P-P-H-0000000048_inline.xml	5	4	17	17	287	misbruik	(15)
+WR-P-P-H-0000000048_inline.xml	5	4	17	14	284	ja	(15
+WR-P-P-H-0000000048_inline.xml	5	4	17	15	285	zelfs	15
+WR-P-P-H-0000000048_inline.xml	5	4	17	16	286	'	15
+WR-P-P-H-0000000048_inline.xml	5	4	17	17	287	misbruik	15)
 WR-P-P-H-0000000048_inline.xml	5	4	17	18	288	'	-
 WR-P-P-H-0000000048_inline.xml	5	4	17	19	289	toch	-
 WR-P-P-H-0000000048_inline.xml	5	4	17	20	290	niet	-
@@ -335,8 +335,8 @@ WR-P-P-H-0000000048_inline.xml	5	6	19	3	315	kan	-
 WR-P-P-H-0000000048_inline.xml	5	6	19	4	316	af	-
 WR-P-P-H-0000000048_inline.xml	5	6	19	5	317	.	-
 
-WR-P-P-H-0000000048_inline.xml	6	1	20	1	318	De	(361)
-WR-P-P-H-0000000048_inline.xml	6	1	20	2	319	WOW	(361)
+WR-P-P-H-0000000048_inline.xml	6	1	20	1	318	De	(361
+WR-P-P-H-0000000048_inline.xml	6	1	20	2	319	WOW	361)
 WR-P-P-H-0000000048_inline.xml	6	1	20	3	320	vierde	-
 WR-P-P-H-0000000048_inline.xml	6	1	20	4	321	dit	-
 WR-P-P-H-0000000048_inline.xml	6	1	20	5	322	weekeinde	-
@@ -345,22 +345,22 @@ WR-P-P-H-0000000048_inline.xml	6	1	20	7	324	eerste	84
 WR-P-P-H-0000000048_inline.xml	6	1	20	8	325	lustrum	84)
 WR-P-P-H-0000000048_inline.xml	6	1	20	9	326	.	-
 
-WR-P-P-H-0000000048_inline.xml	6	2	21	1	327	De	(86|(361)
-WR-P-P-H-0000000048_inline.xml	6	2	21	2	328	organisatie	86|(361)
+WR-P-P-H-0000000048_inline.xml	6	2	21	1	327	De	(86|(361
+WR-P-P-H-0000000048_inline.xml	6	2	21	2	328	organisatie	86|361)
 WR-P-P-H-0000000048_inline.xml	6	2	21	3	329	,	86
-WR-P-P-H-0000000048_inline.xml	6	2	21	4	330	een	86|(361)
-WR-P-P-H-0000000048_inline.xml	6	2	21	5	331	internationaal	86|(361)
-WR-P-P-H-0000000048_inline.xml	6	2	21	6	332	netwerk	86|(361)
-WR-P-P-H-0000000048_inline.xml	6	2	21	7	333	opgezet	86|(361)
-WR-P-P-H-0000000048_inline.xml	6	2	21	8	334	na	86|(361)
-WR-P-P-H-0000000048_inline.xml	6	2	21	9	335	de	86|(361)|(88
-WR-P-P-H-0000000048_inline.xml	6	2	21	10	336	eerste	86|(361)|88
-WR-P-P-H-0000000048_inline.xml	6	2	21	11	337	Europese	86|(361)|88
-WR-P-P-H-0000000048_inline.xml	6	2	21	12	338	vrouwensynode	86|(361)|88
-WR-P-P-H-0000000048_inline.xml	6	2	21	13	339	in	86|(361)|88
-WR-P-P-H-0000000048_inline.xml	6	2	21	14	340	Oostenrijk	86|(361)|88|(89)
-WR-P-P-H-0000000048_inline.xml	6	2	21	15	341	(	86|(361)|88
-WR-P-P-H-0000000048_inline.xml	6	2	21	16	342	1996	86)|(361)|88)|(90)
+WR-P-P-H-0000000048_inline.xml	6	2	21	4	330	een	86|(361
+WR-P-P-H-0000000048_inline.xml	6	2	21	5	331	internationaal	86|361
+WR-P-P-H-0000000048_inline.xml	6	2	21	6	332	netwerk	86|361
+WR-P-P-H-0000000048_inline.xml	6	2	21	7	333	opgezet	86|361
+WR-P-P-H-0000000048_inline.xml	6	2	21	8	334	na	86|361
+WR-P-P-H-0000000048_inline.xml	6	2	21	9	335	de	86|361|(88
+WR-P-P-H-0000000048_inline.xml	6	2	21	10	336	eerste	86|361|88
+WR-P-P-H-0000000048_inline.xml	6	2	21	11	337	Europese	86|361|88
+WR-P-P-H-0000000048_inline.xml	6	2	21	12	338	vrouwensynode	86|361|88
+WR-P-P-H-0000000048_inline.xml	6	2	21	13	339	in	86|361|88
+WR-P-P-H-0000000048_inline.xml	6	2	21	14	340	Oostenrijk	86|361|88|(89)
+WR-P-P-H-0000000048_inline.xml	6	2	21	15	341	(	86|361|88
+WR-P-P-H-0000000048_inline.xml	6	2	21	16	342	1996	86)|361)|88)|(90)
 WR-P-P-H-0000000048_inline.xml	6	2	21	17	343	)	-
 WR-P-P-H-0000000048_inline.xml	6	2	21	18	344	,	-
 WR-P-P-H-0000000048_inline.xml	6	2	21	19	345	wil	-
@@ -380,8 +380,8 @@ WR-P-P-H-0000000048_inline.xml	6	2	21	32	358	.	-
 
 WR-P-P-H-0000000048_inline.xml	6	3	22	1	359	Daarmee	-
 WR-P-P-H-0000000048_inline.xml	6	3	22	2	360	keert	-
-WR-P-P-H-0000000048_inline.xml	6	3	22	3	361	de	(361)
-WR-P-P-H-0000000048_inline.xml	6	3	22	4	362	WOW	(361)
+WR-P-P-H-0000000048_inline.xml	6	3	22	3	361	de	(361
+WR-P-P-H-0000000048_inline.xml	6	3	22	4	362	WOW	361)
 WR-P-P-H-0000000048_inline.xml	6	3	22	5	363	zich	(96)
 WR-P-P-H-0000000048_inline.xml	6	3	22	6	364	niet	-
 WR-P-P-H-0000000048_inline.xml	6	3	22	7	365	alleen	-
@@ -396,8 +396,8 @@ WR-P-P-H-0000000048_inline.xml	6	3	22	15	373	een	(98
 WR-P-P-H-0000000048_inline.xml	6	3	22	16	374	flinke	98
 WR-P-P-H-0000000048_inline.xml	6	3	22	17	375	aanvaring	98
 WR-P-P-H-0000000048_inline.xml	6	3	22	18	376	met	98
-WR-P-P-H-0000000048_inline.xml	6	3	22	19	377	de	98|(21)
-WR-P-P-H-0000000048_inline.xml	6	3	22	20	378	moederkerk	98)|(21)
+WR-P-P-H-0000000048_inline.xml	6	3	22	19	377	de	98|(21
+WR-P-P-H-0000000048_inline.xml	6	3	22	20	378	moederkerk	98)|21)
 WR-P-P-H-0000000048_inline.xml	6	3	22	21	379	.	-
 
 WR-P-P-H-0000000048_inline.xml	7	1	23	1	380	In	-
@@ -590,16 +590,16 @@ WR-P-P-H-0000000048_inline.xml	9	1	31	41	558	Geest	142)
 WR-P-P-H-0000000048_inline.xml	9	1	31	42	559	.	-
 
 WR-P-P-H-0000000048_inline.xml	9	2	32	1	560	Voor	-
-WR-P-P-H-0000000048_inline.xml	9	2	32	2	561	de	(126)
-WR-P-P-H-0000000048_inline.xml	9	2	32	3	562	non	(126)
+WR-P-P-H-0000000048_inline.xml	9	2	32	2	561	de	(126
+WR-P-P-H-0000000048_inline.xml	9	2	32	3	562	non	126)
 WR-P-P-H-0000000048_inline.xml	9	2	32	4	563	is	-
 WR-P-P-H-0000000048_inline.xml	9	2	32	5	564	de	(144
 WR-P-P-H-0000000048_inline.xml	9	2	32	6	565	parallel	144
 WR-P-P-H-0000000048_inline.xml	9	2	32	7	566	met	144
-WR-P-P-H-0000000048_inline.xml	9	2	32	8	567	haar	144|(21)|(126)
-WR-P-P-H-0000000048_inline.xml	9	2	32	9	568	eigen	144|(21)
-WR-P-P-H-0000000048_inline.xml	9	2	32	10	569	rk	144|(21)
-WR-P-P-H-0000000048_inline.xml	9	2	32	11	570	kerk	144)|(21)
+WR-P-P-H-0000000048_inline.xml	9	2	32	8	567	haar	144|(21|(126)
+WR-P-P-H-0000000048_inline.xml	9	2	32	9	568	eigen	144|21
+WR-P-P-H-0000000048_inline.xml	9	2	32	10	569	rk	144|21
+WR-P-P-H-0000000048_inline.xml	9	2	32	11	570	kerk	144)|21)
 WR-P-P-H-0000000048_inline.xml	9	2	32	12	571	treffend	-
 WR-P-P-H-0000000048_inline.xml	9	2	32	13	572	en	-
 WR-P-P-H-0000000048_inline.xml	9	2	32	14	573	vraagt	-
@@ -692,8 +692,8 @@ WR-P-P-H-0000000048_inline.xml	9	6	36	13	655	als	169
 WR-P-P-H-0000000048_inline.xml	9	6	36	14	656	Chittister	169)|(126)
 WR-P-P-H-0000000048_inline.xml	9	6	36	15	657	.	-
 
-WR-P-P-H-0000000048_inline.xml	10	1	37	1	658	De	(361)
-WR-P-P-H-0000000048_inline.xml	10	1	37	2	659	WOW	(361)
+WR-P-P-H-0000000048_inline.xml	10	1	37	1	658	De	(361
+WR-P-P-H-0000000048_inline.xml	10	1	37	2	659	WOW	361)
 WR-P-P-H-0000000048_inline.xml	10	1	37	3	660	pleit	-
 WR-P-P-H-0000000048_inline.xml	10	1	37	4	661	nu	-
 WR-P-P-H-0000000048_inline.xml	10	1	37	5	662	voor	-
@@ -869,8 +869,8 @@ WR-P-P-H-0000000048_inline.xml	12	1	44	10	824	het	(224
 WR-P-P-H-0000000048_inline.xml	12	1	44	11	825	argument	224
 WR-P-P-H-0000000048_inline.xml	12	1	44	12	826	waarmee	224
 WR-P-P-H-0000000048_inline.xml	12	1	44	13	827	'	224
-WR-P-P-H-0000000048_inline.xml	12	1	44	14	828	de	224|(21)
-WR-P-P-H-0000000048_inline.xml	12	1	44	15	829	kerk	224|(21)
+WR-P-P-H-0000000048_inline.xml	12	1	44	14	828	de	224|(21
+WR-P-P-H-0000000048_inline.xml	12	1	44	15	829	kerk	224|21)
 WR-P-P-H-0000000048_inline.xml	12	1	44	16	830	'	224
 WR-P-P-H-0000000048_inline.xml	12	1	44	17	831	nee	224|(226)
 WR-P-P-H-0000000048_inline.xml	12	1	44	18	832	zegt	224)
@@ -912,8 +912,8 @@ WR-P-P-H-0000000048_inline.xml	12	3	46	12	865	rechten	235|236|237)
 WR-P-P-H-0000000048_inline.xml	12	3	46	13	866	die	235|236
 WR-P-P-H-0000000048_inline.xml	12	3	46	14	867	ook	235|236
 WR-P-P-H-0000000048_inline.xml	12	3	46	15	868	in	235|236
-WR-P-P-H-0000000048_inline.xml	12	3	46	16	869	de	235|236|(21)
-WR-P-P-H-0000000048_inline.xml	12	3	46	17	870	kerk	235|236|(21)
+WR-P-P-H-0000000048_inline.xml	12	3	46	16	869	de	235|236|(21
+WR-P-P-H-0000000048_inline.xml	12	3	46	17	870	kerk	235|236|21)
 WR-P-P-H-0000000048_inline.xml	12	3	46	18	871	doordringt	235)|236)
 WR-P-P-H-0000000048_inline.xml	12	3	46	19	872	.	-
 
@@ -958,14 +958,14 @@ WR-P-P-H-0000000048_inline.xml	12	5	48	14	909	.	-
 
 WR-P-P-H-0000000048_inline.xml	13	1	49	1	910	Wijngaards	(366)
 WR-P-P-H-0000000048_inline.xml	13	1	49	2	911	wil	-
-WR-P-P-H-0000000048_inline.xml	13	1	49	3	912	het	(224)
-WR-P-P-H-0000000048_inline.xml	13	1	49	4	913	verzet	(224)
-WR-P-P-H-0000000048_inline.xml	13	1	49	5	914	tegen	(224)
-WR-P-P-H-0000000048_inline.xml	13	1	49	6	915	de	(224)|(103
-WR-P-P-H-0000000048_inline.xml	13	1	49	7	916	vrouw	(224)|103
-WR-P-P-H-0000000048_inline.xml	13	1	49	8	917	in	(224)|103
-WR-P-P-H-0000000048_inline.xml	13	1	49	9	918	het	(224)|103|(254
-WR-P-P-H-0000000048_inline.xml	13	1	49	10	919	priesterambt	(224)|103)|254)
+WR-P-P-H-0000000048_inline.xml	13	1	49	3	912	het	(224
+WR-P-P-H-0000000048_inline.xml	13	1	49	4	913	verzet	224
+WR-P-P-H-0000000048_inline.xml	13	1	49	5	914	tegen	224
+WR-P-P-H-0000000048_inline.xml	13	1	49	6	915	de	224|(103
+WR-P-P-H-0000000048_inline.xml	13	1	49	7	916	vrouw	224|103
+WR-P-P-H-0000000048_inline.xml	13	1	49	8	917	in	224|103
+WR-P-P-H-0000000048_inline.xml	13	1	49	9	918	het	224|103|(254
+WR-P-P-H-0000000048_inline.xml	13	1	49	10	919	priesterambt	224)|103)|254)
 WR-P-P-H-0000000048_inline.xml	13	1	49	11	920	ontmantelen	-
 WR-P-P-H-0000000048_inline.xml	13	1	49	12	921	.	-
 
@@ -994,8 +994,8 @@ WR-P-P-H-0000000048_inline.xml	13	3	51	8	942	blanken	259)
 WR-P-P-H-0000000048_inline.xml	13	3	51	9	943	doordrongen	-
 WR-P-P-H-0000000048_inline.xml	13	3	51	10	944	,	-
 WR-P-P-H-0000000048_inline.xml	13	3	51	11	945	viel	-
-WR-P-P-H-0000000048_inline.xml	13	3	51	12	946	het	(224)
-WR-P-P-H-0000000048_inline.xml	13	3	51	13	947	vooroordeel	(224)
+WR-P-P-H-0000000048_inline.xml	13	3	51	12	946	het	(224
+WR-P-P-H-0000000048_inline.xml	13	3	51	13	947	vooroordeel	224)
 WR-P-P-H-0000000048_inline.xml	13	3	51	14	948	in	-
 WR-P-P-H-0000000048_inline.xml	13	3	51	15	949	duigen	-
 WR-P-P-H-0000000048_inline.xml	13	3	51	16	950	.	-
@@ -1072,9 +1072,9 @@ WR-P-P-H-0000000048_inline.xml	13	5	53	28	1018	vroeger	(282
 WR-P-P-H-0000000048_inline.xml	13	5	53	29	1019	eeuwen	282)
 WR-P-P-H-0000000048_inline.xml	13	5	53	30	1020	wel	-
 WR-P-P-H-0000000048_inline.xml	13	5	53	31	1021	degelijk	-
-WR-P-P-H-0000000048_inline.xml	13	5	53	32	1022	een	(8)
-WR-P-P-H-0000000048_inline.xml	13	5	53	33	1023	volledige	(8)
-WR-P-P-H-0000000048_inline.xml	13	5	53	34	1024	diakenwijding	(8)
+WR-P-P-H-0000000048_inline.xml	13	5	53	32	1022	een	(8
+WR-P-P-H-0000000048_inline.xml	13	5	53	33	1023	volledige	8
+WR-P-P-H-0000000048_inline.xml	13	5	53	34	1024	diakenwijding	8)
 WR-P-P-H-0000000048_inline.xml	13	5	53	35	1025	ontvangen	-
 WR-P-P-H-0000000048_inline.xml	13	5	53	36	1026	.	-
 WR-P-P-H-0000000048_inline.xml	13	5	53	37	1027	''	-
@@ -1122,10 +1122,10 @@ WR-P-P-H-0000000048_inline.xml	14	3	56	5	1065	op	-
 WR-P-P-H-0000000048_inline.xml	14	3	56	6	1066	zijn	(294|(366)
 WR-P-P-H-0000000048_inline.xml	14	3	56	7	1067	program	294)
 WR-P-P-H-0000000048_inline.xml	14	3	56	8	1068	:	-
-WR-P-P-H-0000000048_inline.xml	14	3	56	9	1069	de	(21)
-WR-P-P-H-0000000048_inline.xml	14	3	56	10	1070	hele	(21)
-WR-P-P-H-0000000048_inline.xml	14	3	56	11	1071	rk	(21)
-WR-P-P-H-0000000048_inline.xml	14	3	56	12	1072	kerk	(21)
+WR-P-P-H-0000000048_inline.xml	14	3	56	9	1069	de	(21
+WR-P-P-H-0000000048_inline.xml	14	3	56	10	1070	hele	21
+WR-P-P-H-0000000048_inline.xml	14	3	56	11	1071	rk	21
+WR-P-P-H-0000000048_inline.xml	14	3	56	12	1072	kerk	21)
 WR-P-P-H-0000000048_inline.xml	14	3	56	13	1073	moet	-
 WR-P-P-H-0000000048_inline.xml	14	3	56	14	1074	op	-
 WR-P-P-H-0000000048_inline.xml	14	3	56	15	1075	de	(297
@@ -1147,8 +1147,8 @@ WR-P-P-H-0000000048_inline.xml	15	1	57	8	1089	bij	-
 WR-P-P-H-0000000048_inline.xml	15	1	57	9	1090	zijn	(300|(366)
 WR-P-P-H-0000000048_inline.xml	15	1	57	10	1091	afscheid	300
 WR-P-P-H-0000000048_inline.xml	15	1	57	11	1092	van	300
-WR-P-P-H-0000000048_inline.xml	15	1	57	12	1093	de	300|(21)
-WR-P-P-H-0000000048_inline.xml	15	1	57	13	1094	kerk	300)|(21)
+WR-P-P-H-0000000048_inline.xml	15	1	57	12	1093	de	300|(21
+WR-P-P-H-0000000048_inline.xml	15	1	57	13	1094	kerk	300)|21)
 WR-P-P-H-0000000048_inline.xml	15	1	57	14	1095	zei	-
 WR-P-P-H-0000000048_inline.xml	15	1	57	15	1096	:	-
 WR-P-P-H-0000000048_inline.xml	15	1	57	16	1097	,,	-
@@ -1157,11 +1157,11 @@ WR-P-P-H-0000000048_inline.xml	15	1	57	18	1099	ben	-
 WR-P-P-H-0000000048_inline.xml	15	1	57	19	1100	mijn	(304|(366)
 WR-P-P-H-0000000048_inline.xml	15	1	57	20	1101	hele	304
 WR-P-P-H-0000000048_inline.xml	15	1	57	21	1102	leven	304)
-WR-P-P-H-0000000048_inline.xml	15	1	57	22	1103	een	(366)
-WR-P-P-H-0000000048_inline.xml	15	1	57	23	1104	toegewijd	(366)
-WR-P-P-H-0000000048_inline.xml	15	1	57	24	1105	en	(366)
-WR-P-P-H-0000000048_inline.xml	15	1	57	25	1106	rechtzinnig	(366)
-WR-P-P-H-0000000048_inline.xml	15	1	57	26	1107	katholiek	(366)
+WR-P-P-H-0000000048_inline.xml	15	1	57	22	1103	een	(366
+WR-P-P-H-0000000048_inline.xml	15	1	57	23	1104	toegewijd	366
+WR-P-P-H-0000000048_inline.xml	15	1	57	24	1105	en	366
+WR-P-P-H-0000000048_inline.xml	15	1	57	25	1106	rechtzinnig	366
+WR-P-P-H-0000000048_inline.xml	15	1	57	26	1107	katholiek	366)
 WR-P-P-H-0000000048_inline.xml	15	1	57	27	1108	geweest	-
 WR-P-P-H-0000000048_inline.xml	15	1	57	28	1109	en	-
 WR-P-P-H-0000000048_inline.xml	15	1	57	29	1110	wil	-
@@ -1257,8 +1257,8 @@ WR-P-P-H-0000000048_inline.xml	17	1	60	38	1196	jaren	330|331
 WR-P-P-H-0000000048_inline.xml	17	1	60	39	1197	zeventig	330)|331)|(332)
 WR-P-P-H-0000000048_inline.xml	17	1	60	40	1198	.	-
 
-WR-P-P-H-0000000048_inline.xml	18	1	61	1	1199	De	(8)
-WR-P-P-H-0000000048_inline.xml	18	1	61	2	1200	vrouwenwijding	(8)
+WR-P-P-H-0000000048_inline.xml	18	1	61	1	1199	De	(8
+WR-P-P-H-0000000048_inline.xml	18	1	61	2	1200	vrouwenwijding	8)
 WR-P-P-H-0000000048_inline.xml	18	1	61	3	1201	moeten	-
 WR-P-P-H-0000000048_inline.xml	18	1	61	4	1202	we	(333)
 WR-P-P-H-0000000048_inline.xml	18	1	61	5	1203	warm	-
@@ -1321,8 +1321,8 @@ WR-P-P-H-0000000048_inline.xml	18	4	64	5	1256	de	347|(348
 WR-P-P-H-0000000048_inline.xml	18	4	64	6	1257	bierkaai	347)|348)
 WR-P-P-H-0000000048_inline.xml	18	4	64	7	1258	,	-
 WR-P-P-H-0000000048_inline.xml	18	4	64	8	1259	maar	-
-WR-P-P-H-0000000048_inline.xml	18	4	64	9	1260	de	(21)
-WR-P-P-H-0000000048_inline.xml	18	4	64	10	1261	kerk	(21)
+WR-P-P-H-0000000048_inline.xml	18	4	64	9	1260	de	(21
+WR-P-P-H-0000000048_inline.xml	18	4	64	10	1261	kerk	21)
 WR-P-P-H-0000000048_inline.xml	18	4	64	11	1262	is	-
 WR-P-P-H-0000000048_inline.xml	18	4	64	12	1263	wel	-
 WR-P-P-H-0000000048_inline.xml	18	4	64	13	1264	vaker	-
@@ -1379,3 +1379,4 @@ WR-P-P-H-0000000048_inline.xml	19	4	68	11	1310	rijp	358)
 WR-P-P-H-0000000048_inline.xml	19	4	68	12	1311	.	-
 WR-P-P-H-0000000048_inline.xml	19	4	68	13	1312	''	-
 
+#end document

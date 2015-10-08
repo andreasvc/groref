@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000093_inline.xml); part 000
 WR-P-P-H-0000000093_inline.xml	1	1	1	1	1	MARKELO	(1)
 WR-P-P-H-0000000093_inline.xml	1	1	1	2	2	-	-
 
@@ -53,8 +53,8 @@ WR-P-P-H-0000000093_inline.xml	2	2	4	9	48	geiser	19|20)|21)
 WR-P-P-H-0000000093_inline.xml	2	2	4	10	49	en	19
 WR-P-P-H-0000000093_inline.xml	2	2	4	11	50	onvoldoende	19|(22
 WR-P-P-H-0000000093_inline.xml	2	2	4	12	51	ventilatie	19)|22)
-WR-P-P-H-0000000093_inline.xml	2	2	4	13	52	de	(2)
-WR-P-P-H-0000000093_inline.xml	2	2	4	14	53	meisjes	(2)
+WR-P-P-H-0000000093_inline.xml	2	2	4	13	52	de	(2
+WR-P-P-H-0000000093_inline.xml	2	2	4	14	53	meisjes	2)
 WR-P-P-H-0000000093_inline.xml	2	2	4	15	54	fataal	-
 WR-P-P-H-0000000093_inline.xml	2	2	4	16	55	is	-
 WR-P-P-H-0000000093_inline.xml	2	2	4	17	56	geworden	-
@@ -65,14 +65,14 @@ WR-P-P-H-0000000093_inline.xml	3	1	5	2	59	vader	24
 WR-P-P-H-0000000093_inline.xml	3	1	5	3	60	van	24
 WR-P-P-H-0000000093_inline.xml	3	1	5	4	61	een	24|(25
 WR-P-P-H-0000000093_inline.xml	3	1	5	5	62	van	24|25
-WR-P-P-H-0000000093_inline.xml	3	1	5	6	63	de	24|25|(2)
-WR-P-P-H-0000000093_inline.xml	3	1	5	7	64	meisjes	24)|25)|(2)
+WR-P-P-H-0000000093_inline.xml	3	1	5	6	63	de	24|25|(2
+WR-P-P-H-0000000093_inline.xml	3	1	5	7	64	meisjes	24)|25)|2)
 WR-P-P-H-0000000093_inline.xml	3	1	5	8	65	zag	-
 WR-P-P-H-0000000093_inline.xml	3	1	5	9	66	door	-
 WR-P-P-H-0000000093_inline.xml	3	1	5	10	67	een	(27
 WR-P-P-H-0000000093_inline.xml	3	1	5	11	68	raampje	27)
-WR-P-P-H-0000000093_inline.xml	3	1	5	12	69	beide	(2)
-WR-P-P-H-0000000093_inline.xml	3	1	5	13	70	slachtoffertjes	(2)
+WR-P-P-H-0000000093_inline.xml	3	1	5	12	69	beide	(2
+WR-P-P-H-0000000093_inline.xml	3	1	5	13	70	slachtoffertjes	2)
 WR-P-P-H-0000000093_inline.xml	3	1	5	14	71	bewusteloos	-
 WR-P-P-H-0000000093_inline.xml	3	1	5	15	72	op	-
 WR-P-P-H-0000000093_inline.xml	3	1	5	16	73	de	(29
@@ -99,8 +99,8 @@ WR-P-P-H-0000000093_inline.xml	3	2	6	11	92	in	33
 WR-P-P-H-0000000093_inline.xml	3	2	6	12	93	het	33|(34
 WR-P-P-H-0000000093_inline.xml	3	2	6	13	94	ziekenhuis	33)|34)
 WR-P-P-H-0000000093_inline.xml	3	2	6	14	95	bleken	-
-WR-P-P-H-0000000093_inline.xml	3	2	6	15	96	de	(2)
-WR-P-P-H-0000000093_inline.xml	3	2	6	16	97	meisjes	(2)
+WR-P-P-H-0000000093_inline.xml	3	2	6	15	96	de	(2
+WR-P-P-H-0000000093_inline.xml	3	2	6	16	97	meisjes	2)
 WR-P-P-H-0000000093_inline.xml	3	2	6	17	98	te	-
 WR-P-P-H-0000000093_inline.xml	3	2	6	18	99	zijn	-
 WR-P-P-H-0000000093_inline.xml	3	2	6	19	100	overleden	-
@@ -114,3 +114,4 @@ WR-P-P-H-0000000093_inline.xml	3	3	7	5	106	de	(36
 WR-P-P-H-0000000093_inline.xml	3	3	7	6	107	zaak	36)
 WR-P-P-H-0000000093_inline.xml	3	3	7	7	108	.	-
 
+#end document

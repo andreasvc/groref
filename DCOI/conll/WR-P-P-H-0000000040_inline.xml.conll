@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000040_inline.xml); part 000
 WR-P-P-H-0000000040_inline.xml	1	1	1	1	1	DUBLIN	(1)
 WR-P-P-H-0000000040_inline.xml	1	1	1	2	2	-	-
 
@@ -143,3 +143,4 @@ WR-P-P-H-0000000040_inline.xml	5	1	10	8	132	GRAAG	-
 WR-P-P-H-0000000040_inline.xml	5	1	10	9	133	PRIESTER	(4)
 WR-P-P-H-0000000040_inline.xml	5	1	10	10	134	WORDEN	-
 
+#end document

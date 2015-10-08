@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000008_inline.xml); part 000
 WR-P-P-H-0000000008_inline.xml	1	1	1	1	1	TENERIFE	(1)
 WR-P-P-H-0000000008_inline.xml	1	1	1	2	2	-	-
 
@@ -69,3 +69,4 @@ WR-P-P-H-0000000008_inline.xml	1	6	6	13	62	het	(18
 WR-P-P-H-0000000008_inline.xml	1	6	6	14	63	WK	18)
 WR-P-P-H-0000000008_inline.xml	1	6	6	15	64	.	-
 
+#end document

@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000097_inline.xml); part 000
 WR-P-P-H-0000000097_inline.xml	1	1	1	1	1	NIJMEGEN	(1|(2)
 WR-P-P-H-0000000097_inline.xml	1	1	1	2	2	,	1
 WR-P-P-H-0000000097_inline.xml	1	1	1	3	3	KARLSRUHE	1)|(3)
@@ -92,8 +92,9 @@ WR-P-P-H-0000000097_inline.xml	1	4	4	9	87	de	25|(8
 WR-P-P-H-0000000097_inline.xml	1	4	4	10	88	studente	25)|8)
 WR-P-P-H-0000000097_inline.xml	1	4	4	11	89	werden	-
 WR-P-P-H-0000000097_inline.xml	1	4	4	12	90	uit	-
-WR-P-P-H-0000000097_inline.xml	1	4	4	13	91	het	(31)
-WR-P-P-H-0000000097_inline.xml	1	4	4	14	92	busje	(31)
+WR-P-P-H-0000000097_inline.xml	1	4	4	13	91	het	(31
+WR-P-P-H-0000000097_inline.xml	1	4	4	14	92	busje	31)
 WR-P-P-H-0000000097_inline.xml	1	4	4	15	93	geslingerd	-
 WR-P-P-H-0000000097_inline.xml	1	4	4	16	94	.	-
 
+#end document

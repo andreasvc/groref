@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000092_inline.xml); part 000
 WR-P-P-H-0000000092_inline.xml	1	1	1	1	1	BELFAST	(1)
 WR-P-P-H-0000000092_inline.xml	1	1	1	2	2	-	-
 
@@ -48,9 +48,9 @@ WR-P-P-H-0000000092_inline.xml	2	1	4	1	43	Door	-
 WR-P-P-H-0000000092_inline.xml	2	1	4	2	44	het	(13
 WR-P-P-H-0000000092_inline.xml	2	1	4	3	45	aftreden	13
 WR-P-P-H-0000000092_inline.xml	2	1	4	4	46	van	13
-WR-P-P-H-0000000092_inline.xml	2	1	4	5	47	de	13|(2)
-WR-P-P-H-0000000092_inline.xml	2	1	4	6	48	protestantse	13|(2)
-WR-P-P-H-0000000092_inline.xml	2	1	4	7	49	Trimble	13)|(2)
+WR-P-P-H-0000000092_inline.xml	2	1	4	5	47	de	13|(2
+WR-P-P-H-0000000092_inline.xml	2	1	4	6	48	protestantse	13|2
+WR-P-P-H-0000000092_inline.xml	2	1	4	7	49	Trimble	13)|2)
 WR-P-P-H-0000000092_inline.xml	2	1	4	8	50	is	-
 WR-P-P-H-0000000092_inline.xml	2	1	4	9	51	er	-
 WR-P-P-H-0000000092_inline.xml	2	1	4	10	52	een	(12
@@ -200,8 +200,8 @@ WR-P-P-H-0000000092_inline.xml	4	1	9	5	190	Trimble	(2)
 WR-P-P-H-0000000092_inline.xml	4	1	9	6	191	erop	-
 WR-P-P-H-0000000092_inline.xml	4	1	9	7	192	gokt	-
 WR-P-P-H-0000000092_inline.xml	4	1	9	8	193	dat	-
-WR-P-P-H-0000000092_inline.xml	4	1	9	9	194	het	(7)
-WR-P-P-H-0000000092_inline.xml	4	1	9	10	195	IRA	(7)
+WR-P-P-H-0000000092_inline.xml	4	1	9	9	194	het	(7
+WR-P-P-H-0000000092_inline.xml	4	1	9	10	195	IRA	7)
 WR-P-P-H-0000000092_inline.xml	4	1	9	11	196	door	-
 WR-P-P-H-0000000092_inline.xml	4	1	9	12	197	zijn	(52|(2)
 WR-P-P-H-0000000092_inline.xml	4	1	9	13	198	vertrek	52)
@@ -212,8 +212,8 @@ WR-P-P-H-0000000092_inline.xml	4	1	9	17	202	komt	-
 WR-P-P-H-0000000092_inline.xml	4	1	9	18	203	te	-
 WR-P-P-H-0000000092_inline.xml	4	1	9	19	204	staan	-
 WR-P-P-H-0000000092_inline.xml	4	1	9	20	205	dat	-
-WR-P-P-H-0000000092_inline.xml	4	1	9	21	206	de	(7)
-WR-P-P-H-0000000092_inline.xml	4	1	9	22	207	organisatie	(7)
+WR-P-P-H-0000000092_inline.xml	4	1	9	21	206	de	(7
+WR-P-P-H-0000000092_inline.xml	4	1	9	22	207	organisatie	7)
 WR-P-P-H-0000000092_inline.xml	4	1	9	23	208	alsnog	-
 WR-P-P-H-0000000092_inline.xml	4	1	9	24	209	overstag	-
 WR-P-P-H-0000000092_inline.xml	4	1	9	25	210	gaat	-
@@ -245,8 +245,8 @@ WR-P-P-H-0000000092_inline.xml	4	2	10	23	234	hard	58
 WR-P-P-H-0000000092_inline.xml	4	2	10	24	235	genoeg	58
 WR-P-P-H-0000000092_inline.xml	4	2	10	25	236	opstelt	58
 WR-P-P-H-0000000092_inline.xml	4	2	10	26	237	tegenover	58
-WR-P-P-H-0000000092_inline.xml	4	2	10	27	238	het	58|(7)
-WR-P-P-H-0000000092_inline.xml	4	2	10	28	239	Ira	58)|(7)
+WR-P-P-H-0000000092_inline.xml	4	2	10	27	238	het	58|(7
+WR-P-P-H-0000000092_inline.xml	4	2	10	28	239	Ira	58)|7)
 WR-P-P-H-0000000092_inline.xml	4	2	10	29	240	.	-
 
 WR-P-P-H-0000000092_inline.xml	4	3	11	1	241	Maar	-
@@ -257,13 +257,13 @@ WR-P-P-H-0000000092_inline.xml	4	3	11	5	245	die	29
 WR-P-P-H-0000000092_inline.xml	4	3	11	6	246	deel	29
 WR-P-P-H-0000000092_inline.xml	4	3	11	7	247	uitmaakt	29
 WR-P-P-H-0000000092_inline.xml	4	3	11	8	248	van	29
-WR-P-P-H-0000000092_inline.xml	4	3	11	9	249	de	29|(16)
-WR-P-P-H-0000000092_inline.xml	4	3	11	10	250	regering	29)|(16)
+WR-P-P-H-0000000092_inline.xml	4	3	11	9	249	de	29|(16
+WR-P-P-H-0000000092_inline.xml	4	3	11	10	250	regering	29)|16)
 WR-P-P-H-0000000092_inline.xml	4	3	11	11	251	,	-
 WR-P-P-H-0000000092_inline.xml	4	3	11	12	252	waarschuwt	-
 WR-P-P-H-0000000092_inline.xml	4	3	11	13	253	dat	-
-WR-P-P-H-0000000092_inline.xml	4	3	11	14	254	het	(7)
-WR-P-P-H-0000000092_inline.xml	4	3	11	15	255	Ira	(7)
+WR-P-P-H-0000000092_inline.xml	4	3	11	14	254	het	(7
+WR-P-P-H-0000000092_inline.xml	4	3	11	15	255	Ira	7)
 WR-P-P-H-0000000092_inline.xml	4	3	11	16	256	zich	(68)
 WR-P-P-H-0000000092_inline.xml	4	3	11	17	257	niet	-
 WR-P-P-H-0000000092_inline.xml	4	3	11	18	258	laat	-
@@ -390,3 +390,4 @@ WR-P-P-H-0000000092_inline.xml	6	1	15	28	373	.	-
 WR-P-P-H-0000000092_inline.xml	7	1	16	1	374	FOTO	(99)
 WR-P-P-H-0000000092_inline.xml	7	1	16	2	375	REUTERS	(100
 
+#end document

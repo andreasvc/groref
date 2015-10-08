@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000087_inline.xml); part 000
 WR-P-P-H-0000000087_inline.xml	1	1	1	1	1	WASHINGTON	(1)
 WR-P-P-H-0000000087_inline.xml	1	1	1	2	2	-	-
 
@@ -97,9 +97,9 @@ WR-P-P-H-0000000087_inline.xml	3	1	7	2	89	woordvoerster	22)
 WR-P-P-H-0000000087_inline.xml	3	1	7	3	90	zei	-
 WR-P-P-H-0000000087_inline.xml	3	1	7	4	91	gisteren	-
 WR-P-P-H-0000000087_inline.xml	3	1	7	5	92	dat	-
-WR-P-P-H-0000000087_inline.xml	3	1	7	6	93	de	(2)
-WR-P-P-H-0000000087_inline.xml	3	1	7	7	94	60-jarige	(2)
-WR-P-P-H-0000000087_inline.xml	3	1	7	8	95	Cheney	(2)
+WR-P-P-H-0000000087_inline.xml	3	1	7	6	93	de	(2
+WR-P-P-H-0000000087_inline.xml	3	1	7	7	94	60-jarige	2
+WR-P-P-H-0000000087_inline.xml	3	1	7	8	95	Cheney	2)
 WR-P-P-H-0000000087_inline.xml	3	1	7	9	96	vandaag	-
 WR-P-P-H-0000000087_inline.xml	3	1	7	10	97	gewoon	-
 WR-P-P-H-0000000087_inline.xml	3	1	7	11	98	van	-
@@ -120,3 +120,4 @@ WR-P-P-H-0000000087_inline.xml	3	2	8	5	111	zin	(26)
 WR-P-P-H-0000000087_inline.xml	3	2	8	6	112	in	-
 WR-P-P-H-0000000087_inline.xml	3	2	8	7	113	''	-
 
+#end document

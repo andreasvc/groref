@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000016_inline.xml); part 000
 WR-P-P-H-0000000016_inline.xml	1	1	1	1	1	TORONTO	(1)
 WR-P-P-H-0000000016_inline.xml	1	1	1	2	2	-	-
 
@@ -52,3 +52,4 @@ WR-P-P-H-0000000016_inline.xml	1	4	4	15	47	144	13
 WR-P-P-H-0000000016_inline.xml	1	4	4	16	48	runs	13)
 WR-P-P-H-0000000016_inline.xml	1	4	4	17	49	.	-
 
+#end document

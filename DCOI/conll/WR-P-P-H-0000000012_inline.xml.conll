@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000012_inline.xml); part 000
 WR-P-P-H-0000000012_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
 WR-P-P-H-0000000012_inline.xml	1	1	1	2	2	-	-
 
@@ -54,8 +54,8 @@ WR-P-P-H-0000000012_inline.xml	2	1	4	11	49	-	14
 WR-P-P-H-0000000012_inline.xml	2	1	4	12	50	1	14
 WR-P-P-H-0000000012_inline.xml	2	1	4	13	51	zege	14)
 WR-P-P-H-0000000012_inline.xml	2	1	4	14	52	,	-
-WR-P-P-H-0000000012_inline.xml	2	1	4	15	53	de	(2)
-WR-P-P-H-0000000012_inline.xml	2	1	4	16	54	Nederlanders	(2)
+WR-P-P-H-0000000012_inline.xml	2	1	4	15	53	de	(2
+WR-P-P-H-0000000012_inline.xml	2	1	4	16	54	Nederlanders	2)
 WR-P-P-H-0000000012_inline.xml	2	1	4	17	55	dropen	-
 WR-P-P-H-0000000012_inline.xml	2	1	4	18	56	gefrustreerd	-
 WR-P-P-H-0000000012_inline.xml	2	1	4	19	57	en	-
@@ -110,8 +110,8 @@ WR-P-P-H-0000000012_inline.xml	3	1	6	10	103	het	(4
 WR-P-P-H-0000000012_inline.xml	3	1	6	11	104	toernooi	4)
 WR-P-P-H-0000000012_inline.xml	3	1	6	12	105	toezien	-
 WR-P-P-H-0000000012_inline.xml	3	1	6	13	106	hoe	-
-WR-P-P-H-0000000012_inline.xml	3	1	6	14	107	zijn	(2)|(26)
-WR-P-P-H-0000000012_inline.xml	3	1	6	15	108	ploeg	(2)
+WR-P-P-H-0000000012_inline.xml	3	1	6	14	107	zijn	(2|(26)
+WR-P-P-H-0000000012_inline.xml	3	1	6	15	108	ploeg	2)
 WR-P-P-H-0000000012_inline.xml	3	1	6	16	109	op	-
 WR-P-P-H-0000000012_inline.xml	3	1	6	17	110	vele	(30
 WR-P-P-H-0000000012_inline.xml	3	1	6	18	111	fronten	30)
@@ -176,8 +176,8 @@ WR-P-P-H-0000000012_inline.xml	4	2	9	12	165	.	-
 WR-P-P-H-0000000012_inline.xml	4	3	10	1	166	Saviola	(45)
 WR-P-P-H-0000000012_inline.xml	4	3	10	2	167	was	-
 WR-P-P-H-0000000012_inline.xml	4	3	10	3	168	bij	-
-WR-P-P-H-0000000012_inline.xml	4	3	10	4	169	de	(40)
-WR-P-P-H-0000000012_inline.xml	4	3	10	5	170	Zuid-Amerikanen	(40)
+WR-P-P-H-0000000012_inline.xml	4	3	10	4	169	de	(40
+WR-P-P-H-0000000012_inline.xml	4	3	10	5	170	Zuid-Amerikanen	40)
 WR-P-P-H-0000000012_inline.xml	4	3	10	6	171	met	-
 WR-P-P-H-0000000012_inline.xml	4	3	10	7	172	drie	(47
 WR-P-P-H-0000000012_inline.xml	4	3	10	8	173	treffers	47)
@@ -207,26 +207,26 @@ WR-P-P-H-0000000012_inline.xml	5	1	12	2	194	Rosario	(13)
 WR-P-P-H-0000000012_inline.xml	5	1	12	3	195	trof	-
 WR-P-P-H-0000000012_inline.xml	5	1	12	4	196	Oranje	(2)
 WR-P-P-H-0000000012_inline.xml	5	1	12	5	197	gisteren	-
-WR-P-P-H-0000000012_inline.xml	5	1	12	6	198	een	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	7	199	opponent	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	8	200	die	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	9	201	zich	(10)|(56)
-WR-P-P-H-0000000012_inline.xml	5	1	12	10	202	even	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	11	203	moeizaam	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	12	204	(	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	13	205	met	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	14	206	vier	(10)|(57
-WR-P-P-H-0000000012_inline.xml	5	1	12	15	207	punten	(10)|57
-WR-P-P-H-0000000012_inline.xml	5	1	12	16	208	uit	(10)|57
-WR-P-P-H-0000000012_inline.xml	5	1	12	17	209	drie	(10)|57|(58
-WR-P-P-H-0000000012_inline.xml	5	1	12	18	210	duels	(10)|57)|58)
-WR-P-P-H-0000000012_inline.xml	5	1	12	19	211	)	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	20	212	door	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	21	213	de	(10)|(59
-WR-P-P-H-0000000012_inline.xml	5	1	12	22	214	eerste	(10)|59
-WR-P-P-H-0000000012_inline.xml	5	1	12	23	215	ronde	(10)|59)
-WR-P-P-H-0000000012_inline.xml	5	1	12	24	216	had	(10)
-WR-P-P-H-0000000012_inline.xml	5	1	12	25	217	geworsteld	(10)
+WR-P-P-H-0000000012_inline.xml	5	1	12	6	198	een	(10
+WR-P-P-H-0000000012_inline.xml	5	1	12	7	199	opponent	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	8	200	die	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	9	201	zich	10|(56)
+WR-P-P-H-0000000012_inline.xml	5	1	12	10	202	even	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	11	203	moeizaam	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	12	204	(	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	13	205	met	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	14	206	vier	10|(57
+WR-P-P-H-0000000012_inline.xml	5	1	12	15	207	punten	10|57
+WR-P-P-H-0000000012_inline.xml	5	1	12	16	208	uit	10|57
+WR-P-P-H-0000000012_inline.xml	5	1	12	17	209	drie	10|57|(58
+WR-P-P-H-0000000012_inline.xml	5	1	12	18	210	duels	10|57)|58)
+WR-P-P-H-0000000012_inline.xml	5	1	12	19	211	)	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	20	212	door	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	21	213	de	10|(59
+WR-P-P-H-0000000012_inline.xml	5	1	12	22	214	eerste	10|59
+WR-P-P-H-0000000012_inline.xml	5	1	12	23	215	ronde	10|59)
+WR-P-P-H-0000000012_inline.xml	5	1	12	24	216	had	10
+WR-P-P-H-0000000012_inline.xml	5	1	12	25	217	geworsteld	10)
 WR-P-P-H-0000000012_inline.xml	5	1	12	26	218	.	-
 
 WR-P-P-H-0000000012_inline.xml	5	2	13	1	219	Daarin	-
@@ -245,8 +245,8 @@ WR-P-P-H-0000000012_inline.xml	5	3	14	1	230	In	-
 WR-P-P-H-0000000012_inline.xml	5	3	14	2	231	de	(63
 WR-P-P-H-0000000012_inline.xml	5	3	14	3	232	kwartfinale	63)
 WR-P-P-H-0000000012_inline.xml	5	3	14	4	233	hadden	-
-WR-P-P-H-0000000012_inline.xml	5	3	14	5	234	de	(10)
-WR-P-P-H-0000000012_inline.xml	5	3	14	6	235	Egyptenaren	(10)
+WR-P-P-H-0000000012_inline.xml	5	3	14	5	234	de	(10
+WR-P-P-H-0000000012_inline.xml	5	3	14	6	235	Egyptenaren	10)
 WR-P-P-H-0000000012_inline.xml	5	3	14	7	236	echter	-
 WR-P-P-H-0000000012_inline.xml	5	3	14	8	237	redelijk	-
 WR-P-P-H-0000000012_inline.xml	5	3	14	9	238	overtuigend	-
@@ -291,9 +291,9 @@ WR-P-P-H-0000000012_inline.xml	6	2	16	3	274	werd	-
 WR-P-P-H-0000000012_inline.xml	6	2	16	4	275	danig	-
 WR-P-P-H-0000000012_inline.xml	6	2	16	5	276	beproefd	-
 WR-P-P-H-0000000012_inline.xml	6	2	16	6	277	door	-
-WR-P-P-H-0000000012_inline.xml	6	2	16	7	278	de	(10)
-WR-P-P-H-0000000012_inline.xml	6	2	16	8	279	dartele	(10)
-WR-P-P-H-0000000012_inline.xml	6	2	16	9	280	Egyptenaren	(10)
+WR-P-P-H-0000000012_inline.xml	6	2	16	7	278	de	(10
+WR-P-P-H-0000000012_inline.xml	6	2	16	8	279	dartele	10
+WR-P-P-H-0000000012_inline.xml	6	2	16	9	280	Egyptenaren	10)
 WR-P-P-H-0000000012_inline.xml	6	2	16	10	281	.	-
 
 WR-P-P-H-0000000012_inline.xml	6	3	17	1	282	Nederland	(2)
@@ -309,9 +309,9 @@ WR-P-P-H-0000000012_inline.xml	6	3	17	10	291	.	-
 
 WR-P-P-H-0000000012_inline.xml	7	1	18	1	292	Desondanks	-
 WR-P-P-H-0000000012_inline.xml	7	1	18	2	293	sloot	-
-WR-P-P-H-0000000012_inline.xml	7	1	18	3	294	het	(2)
-WR-P-P-H-0000000012_inline.xml	7	1	18	4	295	Nederlands	(2)
-WR-P-P-H-0000000012_inline.xml	7	1	18	5	296	team	(2)
+WR-P-P-H-0000000012_inline.xml	7	1	18	3	294	het	(2
+WR-P-P-H-0000000012_inline.xml	7	1	18	4	295	Nederlands	2
+WR-P-P-H-0000000012_inline.xml	7	1	18	5	296	team	2)
 WR-P-P-H-0000000012_inline.xml	7	1	18	6	297	de	(75
 WR-P-P-H-0000000012_inline.xml	7	1	18	7	298	eerste	75
 WR-P-P-H-0000000012_inline.xml	7	1	18	8	299	helft	75)
@@ -350,15 +350,15 @@ WR-P-P-H-0000000012_inline.xml	8	1	19	4	330	nog	-
 WR-P-P-H-0000000012_inline.xml	8	1	19	5	331	een	(81
 WR-P-P-H-0000000012_inline.xml	8	1	19	6	332	beloning	81
 WR-P-P-H-0000000012_inline.xml	8	1	19	7	333	voor	81
-WR-P-P-H-0000000012_inline.xml	8	1	19	8	334	een	81|(23)
-WR-P-P-H-0000000012_inline.xml	8	1	19	9	335	van	81|(23)
-WR-P-P-H-0000000012_inline.xml	8	1	19	10	336	de	81|(23)|(83
-WR-P-P-H-0000000012_inline.xml	8	1	19	11	337	weinige	81|(23)|83
-WR-P-P-H-0000000012_inline.xml	8	1	19	12	338	constante	81|(23)|83
-WR-P-P-H-0000000012_inline.xml	8	1	19	13	339	Nederlandse	81|(23)|83
-WR-P-P-H-0000000012_inline.xml	8	1	19	14	340	spelers	81|(23)|83
-WR-P-P-H-0000000012_inline.xml	8	1	19	15	341	in	81|(23)|83
-WR-P-P-H-0000000012_inline.xml	8	1	19	16	342	Argentinië	81)|(23)|83)|(84)
+WR-P-P-H-0000000012_inline.xml	8	1	19	8	334	een	81|(23
+WR-P-P-H-0000000012_inline.xml	8	1	19	9	335	van	81|23
+WR-P-P-H-0000000012_inline.xml	8	1	19	10	336	de	81|23|(83
+WR-P-P-H-0000000012_inline.xml	8	1	19	11	337	weinige	81|23|83
+WR-P-P-H-0000000012_inline.xml	8	1	19	12	338	constante	81|23|83
+WR-P-P-H-0000000012_inline.xml	8	1	19	13	339	Nederlandse	81|23|83
+WR-P-P-H-0000000012_inline.xml	8	1	19	14	340	spelers	81|23|83
+WR-P-P-H-0000000012_inline.xml	8	1	19	15	341	in	81|23|83
+WR-P-P-H-0000000012_inline.xml	8	1	19	16	342	Argentinië	81)|23)|83)|(84)
 WR-P-P-H-0000000012_inline.xml	8	1	19	17	343	,	-
 WR-P-P-H-0000000012_inline.xml	8	1	19	18	344	maar	-
 WR-P-P-H-0000000012_inline.xml	8	1	19	19	345	niet	-
@@ -369,9 +369,9 @@ WR-P-P-H-0000000012_inline.xml	8	1	19	23	349	het	(12
 WR-P-P-H-0000000012_inline.xml	8	1	19	24	350	duel	12)
 WR-P-P-H-0000000012_inline.xml	8	1	19	25	351	uitgerekend	-
 WR-P-P-H-0000000012_inline.xml	8	1	19	26	352	voor	-
-WR-P-P-H-0000000012_inline.xml	8	1	19	27	353	Van	(23)
-WR-P-P-H-0000000012_inline.xml	8	1	19	28	354	der	(23)
-WR-P-P-H-0000000012_inline.xml	8	1	19	29	355	Vaart	(23)
+WR-P-P-H-0000000012_inline.xml	8	1	19	27	353	Van	(23
+WR-P-P-H-0000000012_inline.xml	8	1	19	28	354	der	23
+WR-P-P-H-0000000012_inline.xml	8	1	19	29	355	Vaart	23)
 WR-P-P-H-0000000012_inline.xml	8	1	19	30	356	een	(87
 WR-P-P-H-0000000012_inline.xml	8	1	19	31	357	dramatische	87
 WR-P-P-H-0000000012_inline.xml	8	1	19	32	358	wending	87)
@@ -385,8 +385,8 @@ WR-P-P-H-0000000012_inline.xml	9	1	20	5	364	de	89|(90
 WR-P-P-H-0000000012_inline.xml	9	1	20	6	365	tweede	89|90
 WR-P-P-H-0000000012_inline.xml	9	1	20	7	366	helft	89)|90)
 WR-P-P-H-0000000012_inline.xml	9	1	20	8	367	werd	-
-WR-P-P-H-0000000012_inline.xml	9	1	20	9	368	de	(23)
-WR-P-P-H-0000000012_inline.xml	9	1	20	10	369	ajacied	(23)
+WR-P-P-H-0000000012_inline.xml	9	1	20	9	368	de	(23
+WR-P-P-H-0000000012_inline.xml	9	1	20	10	369	ajacied	23)
 WR-P-P-H-0000000012_inline.xml	9	1	20	11	370	uit	-
 WR-P-P-H-0000000012_inline.xml	9	1	20	12	371	het	(91
 WR-P-P-H-0000000012_inline.xml	9	1	20	13	372	veld	91)
@@ -398,9 +398,9 @@ WR-P-P-H-0000000012_inline.xml	9	1	20	18	377	scheidsrechter	92
 WR-P-P-H-0000000012_inline.xml	9	1	20	19	378	Martin	92)
 WR-P-P-H-0000000012_inline.xml	9	1	20	20	379	.	-
 
-WR-P-P-H-0000000012_inline.xml	9	2	21	1	380	Van	(23)
-WR-P-P-H-0000000012_inline.xml	9	2	21	2	381	der	(23)
-WR-P-P-H-0000000012_inline.xml	9	2	21	3	382	Vaart	(23)
+WR-P-P-H-0000000012_inline.xml	9	2	21	1	380	Van	(23
+WR-P-P-H-0000000012_inline.xml	9	2	21	2	381	der	23
+WR-P-P-H-0000000012_inline.xml	9	2	21	3	382	Vaart	23)
 WR-P-P-H-0000000012_inline.xml	9	2	21	4	383	werd	-
 WR-P-P-H-0000000012_inline.xml	9	2	21	5	384	na	-
 WR-P-P-H-0000000012_inline.xml	9	2	21	6	385	een	(94
@@ -425,10 +425,10 @@ WR-P-P-H-0000000012_inline.xml	9	3	22	8	402	.	-
 
 WR-P-P-H-0000000012_inline.xml	9	4	23	1	403	Oranje	(2)
 WR-P-P-H-0000000012_inline.xml	9	4	23	2	404	,	-
-WR-P-P-H-0000000012_inline.xml	9	4	23	3	405	topscorer	(2)
-WR-P-P-H-0000000012_inline.xml	9	4	23	4	406	in	(2)
-WR-P-P-H-0000000012_inline.xml	9	4	23	5	407	het	(2)|(101
-WR-P-P-H-0000000012_inline.xml	9	4	23	6	408	kaarten-klassement	(2)|101)
+WR-P-P-H-0000000012_inline.xml	9	4	23	3	405	topscorer	(2
+WR-P-P-H-0000000012_inline.xml	9	4	23	4	406	in	2
+WR-P-P-H-0000000012_inline.xml	9	4	23	5	407	het	2|(101
+WR-P-P-H-0000000012_inline.xml	9	4	23	6	408	kaarten-klassement	2)|101)
 WR-P-P-H-0000000012_inline.xml	9	4	23	7	409	,	-
 WR-P-P-H-0000000012_inline.xml	9	4	23	8	410	had	-
 WR-P-P-H-0000000012_inline.xml	9	4	23	9	411	zich	(102)
@@ -452,9 +452,9 @@ WR-P-P-H-0000000012_inline.xml	10	1	24	9	427	de	(106
 WR-P-P-H-0000000012_inline.xml	10	1	24	10	428	tweede	106
 WR-P-P-H-0000000012_inline.xml	10	1	24	11	429	tegenslag	106
 WR-P-P-H-0000000012_inline.xml	10	1	24	12	430	voor	106
-WR-P-P-H-0000000012_inline.xml	10	1	24	13	431	de	106|(2)
-WR-P-P-H-0000000012_inline.xml	10	1	24	14	432	Nederlandse	106|(2)
-WR-P-P-H-0000000012_inline.xml	10	1	24	15	433	talenten	106)|(2)
+WR-P-P-H-0000000012_inline.xml	10	1	24	13	431	de	106|(2
+WR-P-P-H-0000000012_inline.xml	10	1	24	14	432	Nederlandse	106|2
+WR-P-P-H-0000000012_inline.xml	10	1	24	15	433	talenten	106)|2)
 WR-P-P-H-0000000012_inline.xml	10	1	24	16	434	.	-
 
 WR-P-P-H-0000000012_inline.xml	10	2	25	1	435	Egypte	(10)
@@ -499,8 +499,8 @@ WR-P-P-H-0000000012_inline.xml	10	3	26	19	472	Van	114|115
 WR-P-P-H-0000000012_inline.xml	10	3	26	20	473	Dieren	114|115
 WR-P-P-H-0000000012_inline.xml	10	3	26	21	474	die	114|115
 WR-P-P-H-0000000012_inline.xml	10	3	26	22	475	door	114|115
-WR-P-P-H-0000000012_inline.xml	10	3	26	23	476	Van	114|115|(26)
-WR-P-P-H-0000000012_inline.xml	10	3	26	24	477	Gaal	114|115|(26)
+WR-P-P-H-0000000012_inline.xml	10	3	26	23	476	Van	114|115|(26
+WR-P-P-H-0000000012_inline.xml	10	3	26	24	477	Gaal	114|115|26)
 WR-P-P-H-0000000012_inline.xml	10	3	26	25	478	al	114|115
 WR-P-P-H-0000000012_inline.xml	10	3	26	26	479	voor	114|115
 WR-P-P-H-0000000012_inline.xml	10	3	26	27	480	rust	114|115|(117)
@@ -510,8 +510,8 @@ WR-P-P-H-0000000012_inline.xml	10	3	26	30	483	.	-
 
 WR-P-P-H-0000000012_inline.xml	10	4	27	1	484	Daarmee	-
 WR-P-P-H-0000000012_inline.xml	10	4	27	2	485	toonde	-
-WR-P-P-H-0000000012_inline.xml	10	4	27	3	486	de	(26)
-WR-P-P-H-0000000012_inline.xml	10	4	27	4	487	coach	(26)
+WR-P-P-H-0000000012_inline.xml	10	4	27	3	486	de	(26
+WR-P-P-H-0000000012_inline.xml	10	4	27	4	487	coach	26)
 WR-P-P-H-0000000012_inline.xml	10	4	27	5	488	dat	-
 WR-P-P-H-0000000012_inline.xml	10	4	27	6	489	het	(119)
 WR-P-P-H-0000000012_inline.xml	10	4	27	7	490	opnieuw	-
@@ -522,9 +522,9 @@ WR-P-P-H-0000000012_inline.xml	10	4	27	11	494	wens	120)
 WR-P-P-H-0000000012_inline.xml	10	4	27	12	495	verliep	-
 WR-P-P-H-0000000012_inline.xml	10	4	27	13	496	.	-
 
-WR-P-P-H-0000000012_inline.xml	11	1	28	1	497	Het	(2)
-WR-P-P-H-0000000012_inline.xml	11	1	28	2	498	aangeslagen	(2)
-WR-P-P-H-0000000012_inline.xml	11	1	28	3	499	Oranje	(2)
+WR-P-P-H-0000000012_inline.xml	11	1	28	1	497	Het	(2
+WR-P-P-H-0000000012_inline.xml	11	1	28	2	498	aangeslagen	2
+WR-P-P-H-0000000012_inline.xml	11	1	28	3	499	Oranje	2)
 WR-P-P-H-0000000012_inline.xml	11	1	28	4	500	deinsde	-
 WR-P-P-H-0000000012_inline.xml	11	1	28	5	501	,	-
 WR-P-P-H-0000000012_inline.xml	11	1	28	6	502	zoals	-
@@ -537,10 +537,10 @@ WR-P-P-H-0000000012_inline.xml	11	1	28	12	508	jeugdtoernooi	4)
 WR-P-P-H-0000000012_inline.xml	11	1	28	13	509	,	-
 WR-P-P-H-0000000012_inline.xml	11	1	28	14	510	terug	-
 WR-P-P-H-0000000012_inline.xml	11	1	28	15	511	voor	-
-WR-P-P-H-0000000012_inline.xml	11	1	28	16	512	een	(10)
-WR-P-P-H-0000000012_inline.xml	11	1	28	17	513	allerminst	(10)
-WR-P-P-H-0000000012_inline.xml	11	1	28	18	514	gerenommeerde	(10)
-WR-P-P-H-0000000012_inline.xml	11	1	28	19	515	tegenstander	(10)
+WR-P-P-H-0000000012_inline.xml	11	1	28	16	512	een	(10
+WR-P-P-H-0000000012_inline.xml	11	1	28	17	513	allerminst	10
+WR-P-P-H-0000000012_inline.xml	11	1	28	18	514	gerenommeerde	10
+WR-P-P-H-0000000012_inline.xml	11	1	28	19	515	tegenstander	10)
 WR-P-P-H-0000000012_inline.xml	11	1	28	20	516	.	-
 
 WR-P-P-H-0000000012_inline.xml	11	2	29	1	517	In	-
@@ -548,8 +548,8 @@ WR-P-P-H-0000000012_inline.xml	11	2	29	2	518	de	(125
 WR-P-P-H-0000000012_inline.xml	11	2	29	3	519	68ste	125
 WR-P-P-H-0000000012_inline.xml	11	2	29	4	520	minuut	125)
 WR-P-P-H-0000000012_inline.xml	11	2	29	5	521	namen	-
-WR-P-P-H-0000000012_inline.xml	11	2	29	6	522	de	(10)
-WR-P-P-H-0000000012_inline.xml	11	2	29	7	523	Egyptenaren	(10)
+WR-P-P-H-0000000012_inline.xml	11	2	29	6	522	de	(10
+WR-P-P-H-0000000012_inline.xml	11	2	29	7	523	Egyptenaren	10)
 WR-P-P-H-0000000012_inline.xml	11	2	29	8	524	een	(127
 WR-P-P-H-0000000012_inline.xml	11	2	29	9	525	luid	127
 WR-P-P-H-0000000012_inline.xml	11	2	29	10	526	bejubelde	127
@@ -605,17 +605,17 @@ WR-P-P-H-0000000012_inline.xml	12	2	32	2	572	de	(136
 WR-P-P-H-0000000012_inline.xml	12	2	32	3	573	meeste	136
 WR-P-P-H-0000000012_inline.xml	12	2	32	4	574	pijn	136)
 WR-P-P-H-0000000012_inline.xml	12	2	32	5	575	deed	-
-WR-P-P-H-0000000012_inline.xml	12	2	32	6	576	het	(2)
-WR-P-P-H-0000000012_inline.xml	12	2	32	7	577	gedesillusioneerde	(2)
-WR-P-P-H-0000000012_inline.xml	12	2	32	8	578	Oranje	(2)
+WR-P-P-H-0000000012_inline.xml	12	2	32	6	576	het	(2
+WR-P-P-H-0000000012_inline.xml	12	2	32	7	577	gedesillusioneerde	2
+WR-P-P-H-0000000012_inline.xml	12	2	32	8	578	Oranje	2)
 WR-P-P-H-0000000012_inline.xml	12	2	32	9	579	zichzelf	(2)
 WR-P-P-H-0000000012_inline.xml	12	2	32	10	580	.	-
 
-WR-P-P-H-0000000012_inline.xml	12	3	33	1	581	De	(2)
-WR-P-P-H-0000000012_inline.xml	12	3	33	2	582	ploeg	(2)
+WR-P-P-H-0000000012_inline.xml	12	3	33	1	581	De	(2
+WR-P-P-H-0000000012_inline.xml	12	3	33	2	582	ploeg	2)
 WR-P-P-H-0000000012_inline.xml	12	3	33	3	583	beëindigde	-
-WR-P-P-H-0000000012_inline.xml	12	3	33	4	584	het	(4)
-WR-P-P-H-0000000012_inline.xml	12	3	33	5	585	toernooi	(4)
+WR-P-P-H-0000000012_inline.xml	12	3	33	4	584	het	(4
+WR-P-P-H-0000000012_inline.xml	12	3	33	5	585	toernooi	4)
 WR-P-P-H-0000000012_inline.xml	12	3	33	6	586	zelfs	-
 WR-P-P-H-0000000012_inline.xml	12	3	33	7	587	met	-
 WR-P-P-H-0000000012_inline.xml	12	3	33	8	588	negen	(141
@@ -637,9 +637,9 @@ WR-P-P-H-0000000012_inline.xml	12	3	33	23	603	'	-
 WR-P-P-H-0000000012_inline.xml	12	3	33	24	604	zag	-
 WR-P-P-H-0000000012_inline.xml	12	3	33	25	605	.	-
 
-WR-P-P-H-0000000012_inline.xml	13	1	34	1	606	Van	(23)
-WR-P-P-H-0000000012_inline.xml	13	1	34	2	607	der	(23)
-WR-P-P-H-0000000012_inline.xml	13	1	34	3	608	Vaart	(23)
+WR-P-P-H-0000000012_inline.xml	13	1	34	1	606	Van	(23
+WR-P-P-H-0000000012_inline.xml	13	1	34	2	607	der	23
+WR-P-P-H-0000000012_inline.xml	13	1	34	3	608	Vaart	23)
 WR-P-P-H-0000000012_inline.xml	13	1	34	4	609	loopt	-
 WR-P-P-H-0000000012_inline.xml	13	1	34	5	610	juichend	-
 WR-P-P-H-0000000012_inline.xml	13	1	34	6	611	weg	-
@@ -651,3 +651,4 @@ WR-P-P-H-0000000012_inline.xml	13	1	34	10	615	.	-
 WR-P-P-H-0000000012_inline.xml	14	1	35	1	616	FOTO	(149)
 WR-P-P-H-0000000012_inline.xml	14	1	35	2	617	REUTERS	(150
 
+#end document

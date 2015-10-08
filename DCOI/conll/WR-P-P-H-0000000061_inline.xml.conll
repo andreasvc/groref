@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000061_inline.xml); part 000
 WR-P-P-H-0000000061_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
 WR-P-P-H-0000000061_inline.xml	1	1	1	2	2	-	-
 
@@ -215,8 +215,8 @@ WR-P-P-H-0000000061_inline.xml	5	1	14	1	200	,,	-
 WR-P-P-H-0000000061_inline.xml	5	1	14	2	201	Alleen	-
 WR-P-P-H-0000000061_inline.xml	5	1	14	3	202	als	-
 WR-P-P-H-0000000061_inline.xml	5	1	14	4	203	aan	-
-WR-P-P-H-0000000061_inline.xml	5	1	14	5	204	alle	(20)
-WR-P-P-H-0000000061_inline.xml	5	1	14	6	205	criteria	(20)
+WR-P-P-H-0000000061_inline.xml	5	1	14	5	204	alle	(20
+WR-P-P-H-0000000061_inline.xml	5	1	14	6	205	criteria	20)
 WR-P-P-H-0000000061_inline.xml	5	1	14	7	206	is	-
 WR-P-P-H-0000000061_inline.xml	5	1	14	8	207	voldaan	-
 WR-P-P-H-0000000061_inline.xml	5	1	14	9	208	,	-
@@ -240,8 +240,8 @@ WR-P-P-H-0000000061_inline.xml	5	2	15	3	224	een	(34
 WR-P-P-H-0000000061_inline.xml	5	2	15	4	225	hond	34)
 WR-P-P-H-0000000061_inline.xml	5	2	15	5	226	gedeeltelijk	-
 WR-P-P-H-0000000061_inline.xml	5	2	15	6	227	aan	-
-WR-P-P-H-0000000061_inline.xml	5	2	15	7	228	het	(20)
-WR-P-P-H-0000000061_inline.xml	5	2	15	8	229	regelement	(20)
+WR-P-P-H-0000000061_inline.xml	5	2	15	7	228	het	(20
+WR-P-P-H-0000000061_inline.xml	5	2	15	8	229	regelement	20)
 WR-P-P-H-0000000061_inline.xml	5	2	15	9	230	,	-
 WR-P-P-H-0000000061_inline.xml	5	2	15	10	231	dan	-
 WR-P-P-H-0000000061_inline.xml	5	2	15	11	232	zal	-
@@ -291,9 +291,9 @@ WR-P-P-H-0000000061_inline.xml	5	4	17	18	273	stamboom	95)
 WR-P-P-H-0000000061_inline.xml	5	4	17	19	274	voorzien	-
 WR-P-P-H-0000000061_inline.xml	5	4	17	20	275	.	-
 
-WR-P-P-H-0000000061_inline.xml	6	1	18	1	276	De	(20)
-WR-P-P-H-0000000061_inline.xml	6	1	18	2	277	nieuwe	(20)
-WR-P-P-H-0000000061_inline.xml	6	1	18	3	278	fokregels	(20)
+WR-P-P-H-0000000061_inline.xml	6	1	18	1	276	De	(20
+WR-P-P-H-0000000061_inline.xml	6	1	18	2	277	nieuwe	20
+WR-P-P-H-0000000061_inline.xml	6	1	18	3	278	fokregels	20)
 WR-P-P-H-0000000061_inline.xml	6	1	18	4	279	zijn	-
 WR-P-P-H-0000000061_inline.xml	6	1	18	5	280	versneld	-
 WR-P-P-H-0000000061_inline.xml	6	1	18	6	281	ingevoerd	-
@@ -344,10 +344,10 @@ WR-P-P-H-0000000061_inline.xml	6	3	20	3	323	eerder	-
 WR-P-P-H-0000000061_inline.xml	6	3	20	4	324	kenbaar	-
 WR-P-P-H-0000000061_inline.xml	6	3	20	5	325	dat	-
 WR-P-P-H-0000000061_inline.xml	6	3	20	6	326	hij	(22)
-WR-P-P-H-0000000061_inline.xml	6	3	20	7	327	de	(25)
-WR-P-P-H-0000000061_inline.xml	6	3	20	8	328	vier	(25)
-WR-P-P-H-0000000061_inline.xml	6	3	20	9	329	geoormerkte	(25)
-WR-P-P-H-0000000061_inline.xml	6	3	20	10	330	bijtrassen	(25)
+WR-P-P-H-0000000061_inline.xml	6	3	20	7	327	de	(25
+WR-P-P-H-0000000061_inline.xml	6	3	20	8	328	vier	25
+WR-P-P-H-0000000061_inline.xml	6	3	20	9	329	geoormerkte	25
+WR-P-P-H-0000000061_inline.xml	6	3	20	10	330	bijtrassen	25)
 WR-P-P-H-0000000061_inline.xml	6	3	20	11	331	uit	-
 WR-P-P-H-0000000061_inline.xml	6	3	20	12	332	de	(81
 WR-P-P-H-0000000061_inline.xml	6	3	20	13	333	samenleving	81)
@@ -390,3 +390,4 @@ WR-P-P-H-0000000061_inline.xml	7	1	22	16	367	te	-
 WR-P-P-H-0000000061_inline.xml	7	1	22	17	368	voorkomen	-
 WR-P-P-H-0000000061_inline.xml	7	1	22	18	369	.	-
 
+#end document

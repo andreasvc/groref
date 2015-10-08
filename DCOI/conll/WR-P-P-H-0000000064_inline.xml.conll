@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000064_inline.xml); part 000
 WR-P-P-H-0000000064_inline.xml	1	1	1	1	1	Gereformeerde	(1
 WR-P-P-H-0000000064_inline.xml	1	1	1	2	2	kerk	1
 WR-P-P-H-0000000064_inline.xml	1	1	1	3	3	De	1
@@ -67,8 +67,8 @@ WR-P-P-H-0000000064_inline.xml	2	3	6	5	60	ontzettend	-
 WR-P-P-H-0000000064_inline.xml	2	3	6	6	61	leuk	-
 WR-P-P-H-0000000064_inline.xml	2	3	6	7	62	gevonden	-
 WR-P-P-H-0000000064_inline.xml	2	3	6	8	63	:	-
-WR-P-P-H-0000000064_inline.xml	2	3	6	9	64	onze	(6)|(9)
-WR-P-P-H-0000000064_inline.xml	2	3	6	10	65	zoon	(6)
+WR-P-P-H-0000000064_inline.xml	2	3	6	9	64	onze	(6|(9)
+WR-P-P-H-0000000064_inline.xml	2	3	6	10	65	zoon	6)
 WR-P-P-H-0000000064_inline.xml	2	3	6	11	66	weer	-
 WR-P-P-H-0000000064_inline.xml	2	3	6	12	67	eens	-
 WR-P-P-H-0000000064_inline.xml	2	3	6	13	68	naar	-
@@ -100,9 +100,9 @@ WR-P-P-H-0000000064_inline.xml	3	1	8	6	91	de	(4
 WR-P-P-H-0000000064_inline.xml	3	1	8	7	92	preek	4)
 WR-P-P-H-0000000064_inline.xml	3	1	8	8	93	begonnen	-
 WR-P-P-H-0000000064_inline.xml	3	1	8	9	94	als	-
-WR-P-P-H-0000000064_inline.xml	3	1	8	10	95	de	(6)
-WR-P-P-H-0000000064_inline.xml	3	1	8	11	96	verloren	(6)
-WR-P-P-H-0000000064_inline.xml	3	1	8	12	97	zoon	(6)
+WR-P-P-H-0000000064_inline.xml	3	1	8	10	95	de	(6
+WR-P-P-H-0000000064_inline.xml	3	1	8	11	96	verloren	6
+WR-P-P-H-0000000064_inline.xml	3	1	8	12	97	zoon	6)
 WR-P-P-H-0000000064_inline.xml	3	1	8	13	98	aanschuift	-
 WR-P-P-H-0000000064_inline.xml	3	1	8	14	99	,	-
 WR-P-P-H-0000000064_inline.xml	3	1	8	15	100	een	(25
@@ -153,8 +153,8 @@ WR-P-P-H-0000000064_inline.xml	3	3	10	8	141	''	-
 WR-P-P-H-0000000064_inline.xml	4	1	11	1	142	,,	-
 WR-P-P-H-0000000064_inline.xml	4	1	11	2	143	Hoe	-
 WR-P-P-H-0000000064_inline.xml	4	1	11	3	144	moet	-
-WR-P-P-H-0000000064_inline.xml	4	1	11	4	145	de	(1)
-WR-P-P-H-0000000064_inline.xml	4	1	11	5	146	kerk	(1)
+WR-P-P-H-0000000064_inline.xml	4	1	11	4	145	de	(1
+WR-P-P-H-0000000064_inline.xml	4	1	11	5	146	kerk	1)
 WR-P-P-H-0000000064_inline.xml	4	1	11	6	147	eruit	-
 WR-P-P-H-0000000064_inline.xml	4	1	11	7	148	zien	-
 WR-P-P-H-0000000064_inline.xml	4	1	11	8	149	''	-
@@ -199,8 +199,8 @@ WR-P-P-H-0000000064_inline.xml	4	3	13	7	185	in	50
 WR-P-P-H-0000000064_inline.xml	4	3	13	8	186	hoeverre	50
 WR-P-P-H-0000000064_inline.xml	4	3	13	9	187	het	50|(51)
 WR-P-P-H-0000000064_inline.xml	4	3	13	10	188	in	50
-WR-P-P-H-0000000064_inline.xml	4	3	13	11	189	de	50|(1)
-WR-P-P-H-0000000064_inline.xml	4	3	13	12	190	kerk	50|(1)
+WR-P-P-H-0000000064_inline.xml	4	3	13	11	189	de	50|(1
+WR-P-P-H-0000000064_inline.xml	4	3	13	12	190	kerk	50|1)
 WR-P-P-H-0000000064_inline.xml	4	3	13	13	191	draait	50
 WR-P-P-H-0000000064_inline.xml	4	3	13	14	192	om	50
 WR-P-P-H-0000000064_inline.xml	4	3	13	15	193	dogma's	50|(53)
@@ -289,8 +289,8 @@ WR-P-P-H-0000000064_inline.xml	5	3	17	7	271	weer	-
 WR-P-P-H-0000000064_inline.xml	5	3	17	8	272	bij	-
 WR-P-P-H-0000000064_inline.xml	5	3	17	9	273	Schoon	(5)
 WR-P-P-H-0000000064_inline.xml	5	3	17	10	274	naar	-
-WR-P-P-H-0000000064_inline.xml	5	3	17	11	275	de	(1)
-WR-P-P-H-0000000064_inline.xml	5	3	17	12	276	kerk	(1)
+WR-P-P-H-0000000064_inline.xml	5	3	17	11	275	de	(1
+WR-P-P-H-0000000064_inline.xml	5	3	17	12	276	kerk	1)
 WR-P-P-H-0000000064_inline.xml	5	3	17	13	277	gaan	-
 WR-P-P-H-0000000064_inline.xml	5	3	17	14	278	om	-
 WR-P-P-H-0000000064_inline.xml	5	3	17	15	279	te	-
@@ -405,8 +405,8 @@ WR-P-P-H-0000000064_inline.xml	6	6	24	15	379	''	-
 WR-P-P-H-0000000064_inline.xml	7	1	25	1	380	,,	-
 WR-P-P-H-0000000064_inline.xml	7	1	25	2	381	Meebidden	(103
 WR-P-P-H-0000000064_inline.xml	7	1	25	3	382	met	103
-WR-P-P-H-0000000064_inline.xml	7	1	25	4	383	ds.	103|(5)
-WR-P-P-H-0000000064_inline.xml	7	1	25	5	384	Schoon	103)|(5)
+WR-P-P-H-0000000064_inline.xml	7	1	25	4	383	ds.	103|(5
+WR-P-P-H-0000000064_inline.xml	7	1	25	5	384	Schoon	103)|5)
 WR-P-P-H-0000000064_inline.xml	7	1	25	6	385	kan	-
 WR-P-P-H-0000000064_inline.xml	7	1	25	7	386	ik	(6)
 WR-P-P-H-0000000064_inline.xml	7	1	25	8	387	niet	-
@@ -687,8 +687,8 @@ WR-P-P-H-0000000064_inline.xml	9	6	45	1	641	Bovendien	-
 WR-P-P-H-0000000064_inline.xml	9	6	45	2	642	gaat	-
 WR-P-P-H-0000000064_inline.xml	9	6	45	3	643	het	(178)
 WR-P-P-H-0000000064_inline.xml	9	6	45	4	644	bij	-
-WR-P-P-H-0000000064_inline.xml	9	6	45	5	645	het	(161)
-WR-P-P-H-0000000064_inline.xml	9	6	45	6	646	avondmaal	(161)
+WR-P-P-H-0000000064_inline.xml	9	6	45	5	645	het	(161
+WR-P-P-H-0000000064_inline.xml	9	6	45	6	646	avondmaal	161)
 WR-P-P-H-0000000064_inline.xml	9	6	45	7	647	om	-
 WR-P-P-H-0000000064_inline.xml	9	6	45	8	648	een	(180
 WR-P-P-H-0000000064_inline.xml	9	6	45	9	649	gebaar	180)
@@ -717,9 +717,9 @@ WR-P-P-H-0000000064_inline.xml	9	7	46	16	670	meezingen	186)
 WR-P-P-H-0000000064_inline.xml	9	7	46	17	671	.	-
 WR-P-P-H-0000000064_inline.xml	9	7	46	18	672	''	-
 
-WR-P-P-H-0000000064_inline.xml	10	1	47	1	673	De	(1)
-WR-P-P-H-0000000064_inline.xml	10	1	47	2	674	De	(1)
-WR-P-P-H-0000000064_inline.xml	10	1	47	3	675	Veste-gemeente	(1)
+WR-P-P-H-0000000064_inline.xml	10	1	47	1	673	De	(1
+WR-P-P-H-0000000064_inline.xml	10	1	47	2	674	De	1
+WR-P-P-H-0000000064_inline.xml	10	1	47	3	675	Veste-gemeente	1)
 WR-P-P-H-0000000064_inline.xml	10	1	47	4	676	weet	-
 WR-P-P-H-0000000064_inline.xml	10	1	47	5	677	wat	(188)
 WR-P-P-H-0000000064_inline.xml	10	1	47	6	678	zingen	-
@@ -785,16 +785,16 @@ WR-P-P-H-0000000064_inline.xml	10	4	50	11	734	het	(208
 WR-P-P-H-0000000064_inline.xml	10	4	50	12	735	hoofd	208)
 WR-P-P-H-0000000064_inline.xml	10	4	50	13	736	leren	-
 WR-P-P-H-0000000064_inline.xml	10	4	50	14	737	-	-
-WR-P-P-H-0000000064_inline.xml	10	4	50	15	738	het	(336)
-WR-P-P-H-0000000064_inline.xml	10	4	50	16	739	lied	(336)
-WR-P-P-H-0000000064_inline.xml	10	4	50	17	740	dat	(336)
-WR-P-P-H-0000000064_inline.xml	10	4	50	18	741	zondag	(336)|(210)
-WR-P-P-H-0000000064_inline.xml	10	4	50	19	742	in	(336)
-WR-P-P-H-0000000064_inline.xml	10	4	50	20	743	de	(336)|(1)
-WR-P-P-H-0000000064_inline.xml	10	4	50	21	744	De	(336)|(1)
-WR-P-P-H-0000000064_inline.xml	10	4	50	22	745	Veste-kerk	(336)|(1)
-WR-P-P-H-0000000064_inline.xml	10	4	50	23	746	werd	(336)
-WR-P-P-H-0000000064_inline.xml	10	4	50	24	747	gezongen	(336)
+WR-P-P-H-0000000064_inline.xml	10	4	50	15	738	het	(336
+WR-P-P-H-0000000064_inline.xml	10	4	50	16	739	lied	336
+WR-P-P-H-0000000064_inline.xml	10	4	50	17	740	dat	336
+WR-P-P-H-0000000064_inline.xml	10	4	50	18	741	zondag	336|(210)
+WR-P-P-H-0000000064_inline.xml	10	4	50	19	742	in	336
+WR-P-P-H-0000000064_inline.xml	10	4	50	20	743	de	336|(1
+WR-P-P-H-0000000064_inline.xml	10	4	50	21	744	De	336|1
+WR-P-P-H-0000000064_inline.xml	10	4	50	22	745	Veste-kerk	336|1)
+WR-P-P-H-0000000064_inline.xml	10	4	50	23	746	werd	336
+WR-P-P-H-0000000064_inline.xml	10	4	50	24	747	gezongen	336)
 WR-P-P-H-0000000064_inline.xml	10	4	50	25	748	.	-
 
 WR-P-P-H-0000000064_inline.xml	10	5	51	1	749	Het	(212|(337
@@ -834,8 +834,8 @@ WR-P-P-H-0000000064_inline.xml	10	6	52	8	781	,	-
 WR-P-P-H-0000000064_inline.xml	10	6	52	9	782	maar	-
 WR-P-P-H-0000000064_inline.xml	10	6	52	10	783	niet	-
 WR-P-P-H-0000000064_inline.xml	10	6	52	11	784	in	-
-WR-P-P-H-0000000064_inline.xml	10	6	52	12	785	de	(1)
-WR-P-P-H-0000000064_inline.xml	10	6	52	13	786	kerk	(1)
+WR-P-P-H-0000000064_inline.xml	10	6	52	12	785	de	(1
+WR-P-P-H-0000000064_inline.xml	10	6	52	13	786	kerk	1)
 WR-P-P-H-0000000064_inline.xml	10	6	52	14	787	.	-
 
 WR-P-P-H-0000000064_inline.xml	10	7	53	1	788	Dan	-
@@ -925,8 +925,8 @@ WR-P-P-H-0000000064_inline.xml	11	3	57	14	867	liederen	241
 WR-P-P-H-0000000064_inline.xml	11	3	57	15	868	zoals	241
 WR-P-P-H-0000000064_inline.xml	11	3	57	16	869	die	241|(242)
 WR-P-P-H-0000000064_inline.xml	11	3	57	17	870	in	241
-WR-P-P-H-0000000064_inline.xml	11	3	57	18	871	De	241|(1)
-WR-P-P-H-0000000064_inline.xml	11	3	57	19	872	Veste	241|(1)
+WR-P-P-H-0000000064_inline.xml	11	3	57	18	871	De	241|(1
+WR-P-P-H-0000000064_inline.xml	11	3	57	19	872	Veste	241|1)
 WR-P-P-H-0000000064_inline.xml	11	3	57	20	873	worden	241
 WR-P-P-H-0000000064_inline.xml	11	3	57	21	874	gezongen	241)
 WR-P-P-H-0000000064_inline.xml	11	3	57	22	875	.	-
@@ -1026,8 +1026,8 @@ WR-P-P-H-0000000064_inline.xml	13	4	64	9	961	al	-
 WR-P-P-H-0000000064_inline.xml	13	4	64	10	962	verschrikkelijk	-
 WR-P-P-H-0000000064_inline.xml	13	4	64	11	963	bang	-
 WR-P-P-H-0000000064_inline.xml	13	4	64	12	964	voor	-
-WR-P-P-H-0000000064_inline.xml	13	4	64	13	965	de	(257)
-WR-P-P-H-0000000064_inline.xml	13	4	64	14	966	dood	(257)
+WR-P-P-H-0000000064_inline.xml	13	4	64	13	965	de	(257
+WR-P-P-H-0000000064_inline.xml	13	4	64	14	966	dood	257)
 WR-P-P-H-0000000064_inline.xml	13	4	64	15	967	.	-
 
 WR-P-P-H-0000000064_inline.xml	13	5	65	1	968	Het	(268)
@@ -1180,8 +1180,8 @@ WR-P-P-H-0000000064_inline.xml	15	1	74	7	1105	volgens	-
 WR-P-P-H-0000000064_inline.xml	15	1	74	8	1106	Beute	(6)
 WR-P-P-H-0000000064_inline.xml	15	1	74	9	1107	niet	-
 WR-P-P-H-0000000064_inline.xml	15	1	74	10	1108	in	-
-WR-P-P-H-0000000064_inline.xml	15	1	74	11	1109	De	(1)
-WR-P-P-H-0000000064_inline.xml	15	1	74	12	1110	Veste	(1)
+WR-P-P-H-0000000064_inline.xml	15	1	74	11	1109	De	(1
+WR-P-P-H-0000000064_inline.xml	15	1	74	12	1110	Veste	1)
 WR-P-P-H-0000000064_inline.xml	15	1	74	13	1111	zijn	-
 WR-P-P-H-0000000064_inline.xml	15	1	74	14	1112	.	-
 
@@ -1273,3 +1273,4 @@ WR-P-P-H-0000000064_inline.xml	15	7	80	12	1192	hogere	329)|330)
 WR-P-P-H-0000000064_inline.xml	15	7	80	13	1193	.	-
 WR-P-P-H-0000000064_inline.xml	15	7	80	14	1194	''	-
 
+#end document

@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000096_inline.xml); part 000
 WR-P-P-H-0000000096_inline.xml	1	1	1	1	1	ROTTERDAM	(1)
 WR-P-P-H-0000000096_inline.xml	1	1	1	2	2	-	-
 
@@ -37,24 +37,24 @@ WR-P-P-H-0000000096_inline.xml	1	3	3	14	32	.	-
 WR-P-P-H-0000000096_inline.xml	2	1	4	1	33	Betrouwbare	(10
 WR-P-P-H-0000000096_inline.xml	2	1	4	2	34	bronnen	10
 WR-P-P-H-0000000096_inline.xml	2	1	4	3	35	binnen	10
-WR-P-P-H-0000000096_inline.xml	2	1	4	4	36	de	10|(2)|(50
-WR-P-P-H-0000000096_inline.xml	2	1	4	5	37	Rotterdamse	10|(2)|50
-WR-P-P-H-0000000096_inline.xml	2	1	4	6	38	eredivisieclub	10)|(2)|50)
+WR-P-P-H-0000000096_inline.xml	2	1	4	4	36	de	10|(2|(50
+WR-P-P-H-0000000096_inline.xml	2	1	4	5	37	Rotterdamse	10|2|50
+WR-P-P-H-0000000096_inline.xml	2	1	4	6	38	eredivisieclub	10)|2)|50)
 WR-P-P-H-0000000096_inline.xml	2	1	4	7	39	bevestigden	-
 WR-P-P-H-0000000096_inline.xml	2	1	4	8	40	gisteravond	-
 WR-P-P-H-0000000096_inline.xml	2	1	4	9	41	dat	-
 WR-P-P-H-0000000096_inline.xml	2	1	4	10	42	Rijkaard	(4)|(51)|(50)
-WR-P-P-H-0000000096_inline.xml	2	1	4	11	43	de	(4)
-WR-P-P-H-0000000096_inline.xml	2	1	4	12	44	belangrijkste	(4)
-WR-P-P-H-0000000096_inline.xml	2	1	4	13	45	kandidaat	(4)
+WR-P-P-H-0000000096_inline.xml	2	1	4	11	43	de	(4
+WR-P-P-H-0000000096_inline.xml	2	1	4	12	44	belangrijkste	4
+WR-P-P-H-0000000096_inline.xml	2	1	4	13	45	kandidaat	4)
 WR-P-P-H-0000000096_inline.xml	2	1	4	14	46	is	-
-WR-P-P-H-0000000096_inline.xml	2	1	4	15	47	om	(4)
-WR-P-P-H-0000000096_inline.xml	2	1	4	16	48	Willem	(4)|(14
-WR-P-P-H-0000000096_inline.xml	2	1	4	17	49	van	(4)|14
-WR-P-P-H-0000000096_inline.xml	2	1	4	18	50	Hanegem	(4)|14)
-WR-P-P-H-0000000096_inline.xml	2	1	4	19	51	op	(4)
-WR-P-P-H-0000000096_inline.xml	2	1	4	20	52	te	(4)
-WR-P-P-H-0000000096_inline.xml	2	1	4	21	53	volgen	(4)
+WR-P-P-H-0000000096_inline.xml	2	1	4	15	47	om	(4
+WR-P-P-H-0000000096_inline.xml	2	1	4	16	48	Willem	4|(14
+WR-P-P-H-0000000096_inline.xml	2	1	4	17	49	van	4|14
+WR-P-P-H-0000000096_inline.xml	2	1	4	18	50	Hanegem	4|14)
+WR-P-P-H-0000000096_inline.xml	2	1	4	19	51	op	4
+WR-P-P-H-0000000096_inline.xml	2	1	4	20	52	te	4
+WR-P-P-H-0000000096_inline.xml	2	1	4	21	53	volgen	4)
 WR-P-P-H-0000000096_inline.xml	2	1	4	22	54	.	-
 
 WR-P-P-H-0000000096_inline.xml	2	2	5	1	55	De	(15
@@ -108,8 +108,8 @@ WR-P-P-H-0000000096_inline.xml	3	2	7	17	100	moeten	-
 WR-P-P-H-0000000096_inline.xml	3	2	7	18	101	spelen	-
 WR-P-P-H-0000000096_inline.xml	3	2	7	19	102	.	-
 
-WR-P-P-H-0000000096_inline.xml	3	3	8	1	103	Van	(14)
-WR-P-P-H-0000000096_inline.xml	3	3	8	2	104	Hanegem	(14)
+WR-P-P-H-0000000096_inline.xml	3	3	8	1	103	Van	(14
+WR-P-P-H-0000000096_inline.xml	3	3	8	2	104	Hanegem	14)
 WR-P-P-H-0000000096_inline.xml	3	3	8	3	105	nam	-
 WR-P-P-H-0000000096_inline.xml	3	3	8	4	106	het	(5)
 WR-P-P-H-0000000096_inline.xml	3	3	8	5	107	in	-
@@ -153,20 +153,20 @@ WR-P-P-H-0000000096_inline.xml	5	1	11	1	141	Rijkaard	(4)
 WR-P-P-H-0000000096_inline.xml	5	1	11	2	142	was	-
 WR-P-P-H-0000000096_inline.xml	5	1	11	3	143	twee	(40
 WR-P-P-H-0000000096_inline.xml	5	1	11	4	144	jaar	40)
-WR-P-P-H-0000000096_inline.xml	5	1	11	5	145	bondscoach	(4)
-WR-P-P-H-0000000096_inline.xml	5	1	11	6	146	van	(4)
-WR-P-P-H-0000000096_inline.xml	5	1	11	7	147	Oranje	(4)|(42
-WR-P-P-H-0000000096_inline.xml	5	1	11	8	148	,	(4)|42
-WR-P-P-H-0000000096_inline.xml	5	1	11	9	149	waarmee	(4)|42
-WR-P-P-H-0000000096_inline.xml	5	1	11	10	150	hij	(4)|42|(4)
-WR-P-P-H-0000000096_inline.xml	5	1	11	11	151	tijdens	(4)|42
-WR-P-P-H-0000000096_inline.xml	5	1	11	12	152	Euro	(4)|42|(44
-WR-P-P-H-0000000096_inline.xml	5	1	11	13	153	2000	(4)|42|44)
-WR-P-P-H-0000000096_inline.xml	5	1	11	14	154	in	(4)|42
-WR-P-P-H-0000000096_inline.xml	5	1	11	15	155	de	(4)|42|(45
-WR-P-P-H-0000000096_inline.xml	5	1	11	16	156	halve	(4)|42|45
-WR-P-P-H-0000000096_inline.xml	5	1	11	17	157	finale	(4)|42|45)
-WR-P-P-H-0000000096_inline.xml	5	1	11	18	158	strandde	(4)|42)
+WR-P-P-H-0000000096_inline.xml	5	1	11	5	145	bondscoach	(4
+WR-P-P-H-0000000096_inline.xml	5	1	11	6	146	van	4
+WR-P-P-H-0000000096_inline.xml	5	1	11	7	147	Oranje	4|(42
+WR-P-P-H-0000000096_inline.xml	5	1	11	8	148	,	4|42
+WR-P-P-H-0000000096_inline.xml	5	1	11	9	149	waarmee	4|42
+WR-P-P-H-0000000096_inline.xml	5	1	11	10	150	hij	4|42|4
+WR-P-P-H-0000000096_inline.xml	5	1	11	11	151	tijdens	4|42
+WR-P-P-H-0000000096_inline.xml	5	1	11	12	152	Euro	4|42|(44
+WR-P-P-H-0000000096_inline.xml	5	1	11	13	153	2000	4|42|44)
+WR-P-P-H-0000000096_inline.xml	5	1	11	14	154	in	4|42
+WR-P-P-H-0000000096_inline.xml	5	1	11	15	155	de	4|42|(45
+WR-P-P-H-0000000096_inline.xml	5	1	11	16	156	halve	4|42|45
+WR-P-P-H-0000000096_inline.xml	5	1	11	17	157	finale	4|42|45)
+WR-P-P-H-0000000096_inline.xml	5	1	11	18	158	strandde	4)|42)
 WR-P-P-H-0000000096_inline.xml	5	1	11	19	159	.	-
 
 WR-P-P-H-0000000096_inline.xml	5	2	12	1	160	Sindsdien	-
@@ -186,3 +186,4 @@ WR-P-P-H-0000000096_inline.xml	5	2	12	14	173	vooral	48|(49
 WR-P-P-H-0000000096_inline.xml	5	2	12	15	174	Italiaanse	48)|49)
 WR-P-P-H-0000000096_inline.xml	5	2	12	16	175	.	-
 
+#end document

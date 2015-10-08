@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000010_inline.xml); part 000
 WR-P-P-H-0000000010_inline.xml	1	1	1	1	1	WHALLEY	(1)
 WR-P-P-H-0000000010_inline.xml	1	1	1	2	2	-	-
 WR-P-P-H-0000000010_inline.xml	1	1	1	3	3	Rev	(2)
@@ -55,9 +55,9 @@ WR-P-P-H-0000000010_inline.xml	2	2	4	9	50	dertig	14|(16
 WR-P-P-H-0000000010_inline.xml	2	2	4	10	51	minuten	14)|16)
 WR-P-P-H-0000000010_inline.xml	2	2	4	11	52	.	-
 
-WR-P-P-H-0000000010_inline.xml	2	3	5	1	53	De	(3)
-WR-P-P-H-0000000010_inline.xml	2	3	5	2	54	Britse	(3)
-WR-P-P-H-0000000010_inline.xml	2	3	5	3	55	preektijger	(3)
+WR-P-P-H-0000000010_inline.xml	2	3	5	1	53	De	(3
+WR-P-P-H-0000000010_inline.xml	2	3	5	2	54	Britse	3
+WR-P-P-H-0000000010_inline.xml	2	3	5	3	55	preektijger	3)
 WR-P-P-H-0000000010_inline.xml	2	3	5	4	56	hoopt	-
 WR-P-P-H-0000000010_inline.xml	2	3	5	5	57	nu	-
 WR-P-P-H-0000000010_inline.xml	2	3	5	6	58	op	-
@@ -75,8 +75,8 @@ WR-P-P-H-0000000010_inline.xml	2	4	6	1	68	Met	-
 WR-P-P-H-0000000010_inline.xml	2	4	6	2	69	de	(21
 WR-P-P-H-0000000010_inline.xml	2	4	6	3	70	stunt	21)
 WR-P-P-H-0000000010_inline.xml	2	4	6	4	71	wil	-
-WR-P-P-H-0000000010_inline.xml	2	4	6	5	72	de	(3)
-WR-P-P-H-0000000010_inline.xml	2	4	6	6	73	priester	(3)
+WR-P-P-H-0000000010_inline.xml	2	4	6	5	72	de	(3
+WR-P-P-H-0000000010_inline.xml	2	4	6	6	73	priester	3)
 WR-P-P-H-0000000010_inline.xml	2	4	6	7	74	geld	(22)
 WR-P-P-H-0000000010_inline.xml	2	4	6	8	75	binnenhalen	-
 WR-P-P-H-0000000010_inline.xml	2	4	6	9	76	voor	-
@@ -84,8 +84,8 @@ WR-P-P-H-0000000010_inline.xml	2	4	6	10	77	zijn	(23|(3)
 WR-P-P-H-0000000010_inline.xml	2	4	6	11	78	parochie	23)
 WR-P-P-H-0000000010_inline.xml	2	4	6	12	79	.	-
 
-WR-P-P-H-0000000010_inline.xml	3	1	7	1	80	Oud-testamenticus	(3)
-WR-P-P-H-0000000010_inline.xml	3	1	7	2	81	Sterry	(3)
+WR-P-P-H-0000000010_inline.xml	3	1	7	1	80	Oud-testamenticus	(3
+WR-P-P-H-0000000010_inline.xml	3	1	7	2	81	Sterry	3)
 WR-P-P-H-0000000010_inline.xml	3	1	7	3	82	begon	-
 WR-P-P-H-0000000010_inline.xml	3	1	7	4	83	de	(21
 WR-P-P-H-0000000010_inline.xml	3	1	7	5	84	recordpoging	21)
@@ -100,8 +100,8 @@ WR-P-P-H-0000000010_inline.xml	3	1	7	13	92	.	-
 
 WR-P-P-H-0000000010_inline.xml	3	2	8	1	93	Hij	(3)
 WR-P-P-H-0000000010_inline.xml	3	2	8	2	94	eindigde	-
-WR-P-P-H-0000000010_inline.xml	3	2	8	3	95	de	(21)
-WR-P-P-H-0000000010_inline.xml	3	2	8	4	96	marathonsessie	(21)
+WR-P-P-H-0000000010_inline.xml	3	2	8	3	95	de	(21
+WR-P-P-H-0000000010_inline.xml	3	2	8	4	96	marathonsessie	21)
 WR-P-P-H-0000000010_inline.xml	3	2	8	5	97	zaterdag	(31)
 WR-P-P-H-0000000010_inline.xml	3	2	8	6	98	met	-
 WR-P-P-H-0000000010_inline.xml	3	2	8	7	99	het	(32
@@ -113,8 +113,8 @@ WR-P-P-H-0000000010_inline.xml	3	2	8	12	104	de	32|33|(34
 WR-P-P-H-0000000010_inline.xml	3	2	8	13	105	leeuwenkuil	32)|33)|34)
 WR-P-P-H-0000000010_inline.xml	3	2	8	14	106	.	-
 
-WR-P-P-H-0000000010_inline.xml	4	1	9	1	107	De	(3)
-WR-P-P-H-0000000010_inline.xml	4	1	9	2	108	priester	(3)
+WR-P-P-H-0000000010_inline.xml	4	1	9	1	107	De	(3
+WR-P-P-H-0000000010_inline.xml	4	1	9	2	108	priester	3)
 WR-P-P-H-0000000010_inline.xml	4	1	9	3	109	mocht	-
 WR-P-P-H-0000000010_inline.xml	4	1	9	4	110	zichzelf	(3)
 WR-P-P-H-0000000010_inline.xml	4	1	9	5	111	niet	-
@@ -164,3 +164,4 @@ WR-P-P-H-0000000010_inline.xml	4	3	11	14	152	record	45|13)
 WR-P-P-H-0000000010_inline.xml	4	3	11	15	153	brak	45)
 WR-P-P-H-0000000010_inline.xml	4	3	11	16	154	.	-
 
+#end document

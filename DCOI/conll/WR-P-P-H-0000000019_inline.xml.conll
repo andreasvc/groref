@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000019_inline.xml); part 000
 WR-P-P-H-0000000019_inline.xml	1	1	1	1	1	De	(1
 WR-P-P-H-0000000019_inline.xml	1	1	1	2	2	corruptie	1
 WR-P-P-H-0000000019_inline.xml	1	1	1	3	3	van	1
@@ -269,15 +269,15 @@ WR-P-P-H-0000000019_inline.xml	5	1	17	10	251	zo'n	(67
 WR-P-P-H-0000000019_inline.xml	5	1	17	11	252	deal	67)
 WR-P-P-H-0000000019_inline.xml	5	1	17	12	253	.	-
 
-WR-P-P-H-0000000019_inline.xml	5	2	18	1	254	Dusan	(15)
-WR-P-P-H-0000000019_inline.xml	5	2	18	2	255	-	(15)
-WR-P-P-H-0000000019_inline.xml	5	2	18	3	256	midden	(15)|(69|(70
-WR-P-P-H-0000000019_inline.xml	5	2	18	4	257	veertig	(15)|69|70)|(71)
-WR-P-P-H-0000000019_inline.xml	5	2	18	5	258	,	(15)|69
-WR-P-P-H-0000000019_inline.xml	5	2	18	6	259	kaal	(15)|69
-WR-P-P-H-0000000019_inline.xml	5	2	18	7	260	,	(15)|69
-WR-P-P-H-0000000019_inline.xml	5	2	18	8	261	sjofel	(15)|69
-WR-P-P-H-0000000019_inline.xml	5	2	18	9	262	gekleed	(15)|69)
+WR-P-P-H-0000000019_inline.xml	5	2	18	1	254	Dusan	(15
+WR-P-P-H-0000000019_inline.xml	5	2	18	2	255	-	15
+WR-P-P-H-0000000019_inline.xml	5	2	18	3	256	midden	15|(69|(70
+WR-P-P-H-0000000019_inline.xml	5	2	18	4	257	veertig	15|69|70)|(71)
+WR-P-P-H-0000000019_inline.xml	5	2	18	5	258	,	15|69
+WR-P-P-H-0000000019_inline.xml	5	2	18	6	259	kaal	15|69
+WR-P-P-H-0000000019_inline.xml	5	2	18	7	260	,	15|69
+WR-P-P-H-0000000019_inline.xml	5	2	18	8	261	sjofel	15|69
+WR-P-P-H-0000000019_inline.xml	5	2	18	9	262	gekleed	15)|69)
 WR-P-P-H-0000000019_inline.xml	5	2	18	10	263	-	-
 WR-P-P-H-0000000019_inline.xml	5	2	18	11	264	wil	-
 WR-P-P-H-0000000019_inline.xml	5	2	18	12	265	het	(72)
@@ -546,9 +546,9 @@ WR-P-P-H-0000000019_inline.xml	7	6	30	8	515	5	(146
 WR-P-P-H-0000000019_inline.xml	7	6	30	9	516	oktober	146
 WR-P-P-H-0000000019_inline.xml	7	6	30	10	517	vorig	146|(147
 WR-P-P-H-0000000019_inline.xml	7	6	30	11	518	jaar	146)|147)
-WR-P-P-H-0000000019_inline.xml	7	6	30	12	519	oppositiestad	(13)
-WR-P-P-H-0000000019_inline.xml	7	6	30	13	520	bij	(13)
-WR-P-P-H-0000000019_inline.xml	7	6	30	14	521	uitstek	(13)|(149)
+WR-P-P-H-0000000019_inline.xml	7	6	30	12	519	oppositiestad	(13
+WR-P-P-H-0000000019_inline.xml	7	6	30	13	520	bij	13
+WR-P-P-H-0000000019_inline.xml	7	6	30	14	521	uitstek	13)|(149)
 WR-P-P-H-0000000019_inline.xml	7	6	30	15	522	,	-
 WR-P-P-H-0000000019_inline.xml	7	6	30	16	523	de	(150
 WR-P-P-H-0000000019_inline.xml	7	6	30	17	524	scholen	150)
@@ -656,9 +656,9 @@ WR-P-P-H-0000000019_inline.xml	13	1	38	9	617	van	176
 WR-P-P-H-0000000019_inline.xml	13	1	38	10	618	de	176|(177
 WR-P-P-H-0000000019_inline.xml	13	1	38	11	619	beroepsbevolking	176|177
 WR-P-P-H-0000000019_inline.xml	13	1	38	12	620	van	176|177
-WR-P-P-H-0000000019_inline.xml	13	1	38	13	621	Servië	176|177|(87)|(179)
-WR-P-P-H-0000000019_inline.xml	13	1	38	14	622	en	176|177|(87)
-WR-P-P-H-0000000019_inline.xml	13	1	38	15	623	Montenegro	176)|177)|(87)|(180)
+WR-P-P-H-0000000019_inline.xml	13	1	38	13	621	Servië	176|177|(87|(179)
+WR-P-P-H-0000000019_inline.xml	13	1	38	14	622	en	176|177|87
+WR-P-P-H-0000000019_inline.xml	13	1	38	15	623	Montenegro	176)|177)|87)|(180)
 WR-P-P-H-0000000019_inline.xml	13	1	38	16	624	blijft	-
 WR-P-P-H-0000000019_inline.xml	13	1	38	17	625	inmiddels	-
 WR-P-P-H-0000000019_inline.xml	13	1	38	18	626	ver	-
@@ -701,8 +701,8 @@ WR-P-P-H-0000000019_inline.xml	14	1	40	10	660	te	187
 WR-P-P-H-0000000019_inline.xml	14	1	40	11	661	verbeteren	187)
 WR-P-P-H-0000000019_inline.xml	14	1	40	12	662	,	-
 WR-P-P-H-0000000019_inline.xml	14	1	40	13	663	aldus	-
-WR-P-P-H-0000000019_inline.xml	14	1	40	14	664	de	(84)
-WR-P-P-H-0000000019_inline.xml	14	1	40	15	665	Wereldbank	(84)
+WR-P-P-H-0000000019_inline.xml	14	1	40	14	664	de	(84
+WR-P-P-H-0000000019_inline.xml	14	1	40	15	665	Wereldbank	84)
 WR-P-P-H-0000000019_inline.xml	14	1	40	16	666	.	-
 
 WR-P-P-H-0000000019_inline.xml	14	2	41	1	667	Niet	-
@@ -897,3 +897,4 @@ WR-P-P-H-0000000019_inline.xml	17	6	52	11	844	dus	-
 WR-P-P-H-0000000019_inline.xml	17	6	52	12	845	niet	-
 WR-P-P-H-0000000019_inline.xml	17	6	52	13	846	.	-
 
+#end document

@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000077_inline.xml); part 000
 WR-P-P-H-0000000077_inline.xml	1	1	1	1	1	Door	-
 WR-P-P-H-0000000077_inline.xml	1	1	1	2	2	de	(3
 WR-P-P-H-0000000077_inline.xml	1	1	1	3	3	afwezigheid	3
@@ -184,13 +184,13 @@ WR-P-P-H-0000000077_inline.xml	4	2	7	7	176	te	-
 WR-P-P-H-0000000077_inline.xml	4	2	7	8	177	zullen	-
 WR-P-P-H-0000000077_inline.xml	4	2	7	9	178	verschijnen	-
 WR-P-P-H-0000000077_inline.xml	4	2	7	10	179	bij	-
-WR-P-P-H-0000000077_inline.xml	4	2	7	11	180	de	(2)
-WR-P-P-H-0000000077_inline.xml	4	2	7	12	181	verenigde	(2)
-WR-P-P-H-0000000077_inline.xml	4	2	7	13	182	vergadering	(2)
-WR-P-P-H-0000000077_inline.xml	4	2	7	14	183	die	(2)
-WR-P-P-H-0000000077_inline.xml	4	2	7	15	184	morgen	(2)
-WR-P-P-H-0000000077_inline.xml	4	2	7	16	185	wordt	(2)
-WR-P-P-H-0000000077_inline.xml	4	2	7	17	186	gehouden	(2)
+WR-P-P-H-0000000077_inline.xml	4	2	7	11	180	de	(2
+WR-P-P-H-0000000077_inline.xml	4	2	7	12	181	verenigde	2
+WR-P-P-H-0000000077_inline.xml	4	2	7	13	182	vergadering	2
+WR-P-P-H-0000000077_inline.xml	4	2	7	14	183	die	2
+WR-P-P-H-0000000077_inline.xml	4	2	7	15	184	morgen	2
+WR-P-P-H-0000000077_inline.xml	4	2	7	16	185	wordt	2
+WR-P-P-H-0000000077_inline.xml	4	2	7	17	186	gehouden	2)
 WR-P-P-H-0000000077_inline.xml	4	2	7	18	187	.	-
 
 WR-P-P-H-0000000077_inline.xml	4	3	8	1	188	De	(40
@@ -253,12 +253,12 @@ WR-P-P-H-0000000077_inline.xml	5	1	10	10	242	Kant	(48)
 WR-P-P-H-0000000077_inline.xml	5	1	10	11	243	te	-
 WR-P-P-H-0000000077_inline.xml	5	1	10	12	244	pakken	-
 WR-P-P-H-0000000077_inline.xml	5	1	10	13	245	op	-
-WR-P-P-H-0000000077_inline.xml	5	1	10	14	246	de	(34)
-WR-P-P-H-0000000077_inline.xml	5	1	10	15	247	procedures	(34)
+WR-P-P-H-0000000077_inline.xml	5	1	10	14	246	de	(34
+WR-P-P-H-0000000077_inline.xml	5	1	10	15	247	procedures	34)
 WR-P-P-H-0000000077_inline.xml	5	1	10	16	248	.	-
 
-WR-P-P-H-0000000077_inline.xml	5	2	11	1	249	De	(34)
-WR-P-P-H-0000000077_inline.xml	5	2	11	2	250	regels	(34)
+WR-P-P-H-0000000077_inline.xml	5	2	11	1	249	De	(34
+WR-P-P-H-0000000077_inline.xml	5	2	11	2	250	regels	34)
 WR-P-P-H-0000000077_inline.xml	5	2	11	3	251	zijn	-
 WR-P-P-H-0000000077_inline.xml	5	2	11	4	252	zo	-
 WR-P-P-H-0000000077_inline.xml	5	2	11	5	253	,	-
@@ -275,16 +275,16 @@ WR-P-P-H-0000000077_inline.xml	5	2	11	15	263	vóór	-
 WR-P-P-H-0000000077_inline.xml	5	2	11	16	264	gestemd	-
 WR-P-P-H-0000000077_inline.xml	5	2	11	17	265	.	-
 
-WR-P-P-H-0000000077_inline.xml	5	3	12	1	266	De	(40)
-WR-P-P-H-0000000077_inline.xml	5	3	12	2	267	SP	(40)
+WR-P-P-H-0000000077_inline.xml	5	3	12	1	266	De	(40
+WR-P-P-H-0000000077_inline.xml	5	3	12	2	267	SP	40)
 WR-P-P-H-0000000077_inline.xml	5	3	12	3	268	moet	-
 WR-P-P-H-0000000077_inline.xml	5	3	12	4	269	vooraf	-
 WR-P-P-H-0000000077_inline.xml	5	3	12	5	270	aan	-
 WR-P-P-H-0000000077_inline.xml	5	3	12	6	271	de	(59
 WR-P-P-H-0000000077_inline.xml	5	3	12	7	272	voorzitter	59
 WR-P-P-H-0000000077_inline.xml	5	3	12	8	273	van	59
-WR-P-P-H-0000000077_inline.xml	5	3	12	9	274	de	59|(2)
-WR-P-P-H-0000000077_inline.xml	5	3	12	10	275	vergadering	59)|(2)
+WR-P-P-H-0000000077_inline.xml	5	3	12	9	274	de	59|(2
+WR-P-P-H-0000000077_inline.xml	5	3	12	10	275	vergadering	59)|2)
 WR-P-P-H-0000000077_inline.xml	5	3	12	11	276	doorgeven	-
 WR-P-P-H-0000000077_inline.xml	5	3	12	12	277	dat	-
 WR-P-P-H-0000000077_inline.xml	5	3	12	13	278	ze	(40)
@@ -312,8 +312,8 @@ WR-P-P-H-0000000077_inline.xml	5	4	13	16	298	een	(66
 WR-P-P-H-0000000077_inline.xml	5	4	13	17	299	tegenstem	66)
 WR-P-P-H-0000000077_inline.xml	5	4	13	18	300	-	-
 WR-P-P-H-0000000077_inline.xml	5	4	13	19	301	hoewel	-
-WR-P-P-H-0000000077_inline.xml	5	4	13	20	302	de	(40)
-WR-P-P-H-0000000077_inline.xml	5	4	13	21	303	SP	(40)
+WR-P-P-H-0000000077_inline.xml	5	4	13	20	302	de	(40
+WR-P-P-H-0000000077_inline.xml	5	4	13	21	303	SP	40)
 WR-P-P-H-0000000077_inline.xml	5	4	13	22	304	liever	-
 WR-P-P-H-0000000077_inline.xml	5	4	13	23	305	blanco	-
 WR-P-P-H-0000000077_inline.xml	5	4	13	24	306	zou	-
@@ -375,8 +375,8 @@ WR-P-P-H-0000000077_inline.xml	6	2	15	17	358	.	-
 WR-P-P-H-0000000077_inline.xml	6	3	16	1	359	Zolang	-
 WR-P-P-H-0000000077_inline.xml	6	3	16	2	360	kroonprins	(10
 WR-P-P-H-0000000077_inline.xml	6	3	16	3	361	Willem-Alexander	10)
-WR-P-P-H-0000000077_inline.xml	6	3	16	4	362	geen	(10)
-WR-P-P-H-0000000077_inline.xml	6	3	16	5	363	koning	(10)
+WR-P-P-H-0000000077_inline.xml	6	3	16	4	362	geen	(10
+WR-P-P-H-0000000077_inline.xml	6	3	16	5	363	koning	10)
 WR-P-P-H-0000000077_inline.xml	6	3	16	6	364	is	-
 WR-P-P-H-0000000077_inline.xml	6	3	16	7	365	,	-
 WR-P-P-H-0000000077_inline.xml	6	3	16	8	366	is	-
@@ -434,11 +434,11 @@ WR-P-P-H-0000000077_inline.xml	6	4	17	25	416	buitenlanden	104)
 WR-P-P-H-0000000077_inline.xml	6	4	17	26	417	normaal	-
 WR-P-P-H-0000000077_inline.xml	6	4	17	27	418	is	-
 WR-P-P-H-0000000077_inline.xml	6	4	17	28	419	dat	-
-WR-P-P-H-0000000077_inline.xml	6	4	17	29	420	de	(6)
-WR-P-P-H-0000000077_inline.xml	6	4	17	30	421	vrouw	(6)
-WR-P-P-H-0000000077_inline.xml	6	4	17	31	422	van	(6)
-WR-P-P-H-0000000077_inline.xml	6	4	17	32	423	een	(6)|(10)
-WR-P-P-H-0000000077_inline.xml	6	4	17	33	424	koning	(6)|(10)
+WR-P-P-H-0000000077_inline.xml	6	4	17	29	420	de	(6
+WR-P-P-H-0000000077_inline.xml	6	4	17	30	421	vrouw	6
+WR-P-P-H-0000000077_inline.xml	6	4	17	31	422	van	6
+WR-P-P-H-0000000077_inline.xml	6	4	17	32	423	een	6|(10
+WR-P-P-H-0000000077_inline.xml	6	4	17	33	424	koning	6)|10)
 WR-P-P-H-0000000077_inline.xml	6	4	17	34	425	koningin	(6)
 WR-P-P-H-0000000077_inline.xml	6	4	17	35	426	is	-
 WR-P-P-H-0000000077_inline.xml	6	4	17	36	427	.	-
@@ -498,10 +498,10 @@ WR-P-P-H-0000000077_inline.xml	7	2	20	18	477	'	-
 WR-P-P-H-0000000077_inline.xml	7	2	20	19	478	genoemd	-
 WR-P-P-H-0000000077_inline.xml	7	2	20	20	479	.	-
 
-WR-P-P-H-0000000077_inline.xml	7	3	21	1	480	De	(10)
-WR-P-P-H-0000000077_inline.xml	7	3	21	2	481	vrouw	(10)
-WR-P-P-H-0000000077_inline.xml	7	3	21	3	482	van	(10)
-WR-P-P-H-0000000077_inline.xml	7	3	21	4	483	Willem-Alexander	(10)|(128)
+WR-P-P-H-0000000077_inline.xml	7	3	21	1	480	De	(10
+WR-P-P-H-0000000077_inline.xml	7	3	21	2	481	vrouw	10
+WR-P-P-H-0000000077_inline.xml	7	3	21	3	482	van	10
+WR-P-P-H-0000000077_inline.xml	7	3	21	4	483	Willem-Alexander	10)|(128)
 WR-P-P-H-0000000077_inline.xml	7	3	21	5	484	krijgt	-
 WR-P-P-H-0000000077_inline.xml	7	3	21	6	485	dus	-
 WR-P-P-H-0000000077_inline.xml	7	3	21	7	486	de	(129
@@ -511,10 +511,10 @@ WR-P-P-H-0000000077_inline.xml	7	3	21	10	489	,	-
 WR-P-P-H-0000000077_inline.xml	7	3	21	11	490	maar	-
 WR-P-P-H-0000000077_inline.xml	7	3	21	12	491	ze	(10)
 WR-P-P-H-0000000077_inline.xml	7	3	21	13	492	wordt	-
-WR-P-P-H-0000000077_inline.xml	7	3	21	14	493	geen	(10)
-WR-P-P-H-0000000077_inline.xml	7	3	21	15	494	prinses	(10)|(179
-WR-P-P-H-0000000077_inline.xml	7	3	21	16	495	van	(10)|179
-WR-P-P-H-0000000077_inline.xml	7	3	21	17	496	Oranje	(10)|179)|(132)
+WR-P-P-H-0000000077_inline.xml	7	3	21	14	493	geen	(10
+WR-P-P-H-0000000077_inline.xml	7	3	21	15	494	prinses	10|(179
+WR-P-P-H-0000000077_inline.xml	7	3	21	16	495	van	10|179
+WR-P-P-H-0000000077_inline.xml	7	3	21	17	496	Oranje	10)|179)|(132)
 WR-P-P-H-0000000077_inline.xml	7	3	21	18	497	.	-
 
 WR-P-P-H-0000000077_inline.xml	7	4	22	1	498	Die	(179
@@ -522,12 +522,12 @@ WR-P-P-H-0000000077_inline.xml	7	4	22	2	499	titel	179)
 WR-P-P-H-0000000077_inline.xml	7	4	22	3	500	is	-
 WR-P-P-H-0000000077_inline.xml	7	4	22	4	501	gereserveerd	-
 WR-P-P-H-0000000077_inline.xml	7	4	22	5	502	voor	-
-WR-P-P-H-0000000077_inline.xml	7	4	22	6	503	de	(134|(136|(135
-WR-P-P-H-0000000077_inline.xml	7	4	22	7	504	'	134|136|135
-WR-P-P-H-0000000077_inline.xml	7	4	22	8	505	vermoedelijke	134|136|135
-WR-P-P-H-0000000077_inline.xml	7	4	22	9	506	troonopvolger	134|136|135)
-WR-P-P-H-0000000077_inline.xml	7	4	22	10	507	of	134|136
-WR-P-P-H-0000000077_inline.xml	7	4	22	11	508	opvolgster	134)|136)
+WR-P-P-H-0000000077_inline.xml	7	4	22	6	503	de	(136|(135
+WR-P-P-H-0000000077_inline.xml	7	4	22	7	504	'	136|135
+WR-P-P-H-0000000077_inline.xml	7	4	22	8	505	vermoedelijke	136|135
+WR-P-P-H-0000000077_inline.xml	7	4	22	9	506	troonopvolger	136|135)
+WR-P-P-H-0000000077_inline.xml	7	4	22	10	507	of	136
+WR-P-P-H-0000000077_inline.xml	7	4	22	11	508	opvolgster	136)
 WR-P-P-H-0000000077_inline.xml	7	4	22	12	509	'	-
 WR-P-P-H-0000000077_inline.xml	7	4	22	13	510	.	-
 
@@ -562,23 +562,23 @@ WR-P-P-H-0000000077_inline.xml	7	6	24	15	537	het	(145
 WR-P-P-H-0000000077_inline.xml	7	6	24	16	538	maatschappelijk	145
 WR-P-P-H-0000000077_inline.xml	7	6	24	17	539	verkeer	145)
 WR-P-P-H-0000000077_inline.xml	7	6	24	18	540	wél	-
-WR-P-P-H-0000000077_inline.xml	7	6	24	19	541	prinses	(6)
-WR-P-P-H-0000000077_inline.xml	7	6	24	20	542	van	(6)
-WR-P-P-H-0000000077_inline.xml	7	6	24	21	543	Oranje	(6)|(147)
+WR-P-P-H-0000000077_inline.xml	7	6	24	19	541	prinses	(6
+WR-P-P-H-0000000077_inline.xml	7	6	24	20	542	van	6
+WR-P-P-H-0000000077_inline.xml	7	6	24	21	543	Oranje	6)|(147)
 WR-P-P-H-0000000077_inline.xml	7	6	24	22	544	wordt	-
 WR-P-P-H-0000000077_inline.xml	7	6	24	23	545	genoemd	-
 WR-P-P-H-0000000077_inline.xml	7	6	24	24	546	,	-
 WR-P-P-H-0000000077_inline.xml	7	6	24	25	547	heeft	-
 WR-P-P-H-0000000077_inline.xml	7	6	24	26	548	bij	-
-WR-P-P-H-0000000077_inline.xml	7	6	24	27	549	diverse	(177)
-WR-P-P-H-0000000077_inline.xml	7	6	24	28	550	fracties	(177)
+WR-P-P-H-0000000077_inline.xml	7	6	24	27	549	diverse	(177
+WR-P-P-H-0000000077_inline.xml	7	6	24	28	550	fracties	177)
 WR-P-P-H-0000000077_inline.xml	7	6	24	29	551	verwarring	(149)
 WR-P-P-H-0000000077_inline.xml	7	6	24	30	552	gezaaid	-
 WR-P-P-H-0000000077_inline.xml	7	6	24	31	553	.	-
 
-WR-P-P-H-0000000077_inline.xml	8	1	25	1	554	GroenLinks	(177)|(151)
-WR-P-P-H-0000000077_inline.xml	8	1	25	2	555	en	(177)
-WR-P-P-H-0000000077_inline.xml	8	1	25	3	556	D66	(177)|(152)
+WR-P-P-H-0000000077_inline.xml	8	1	25	1	554	GroenLinks	(177|(151)
+WR-P-P-H-0000000077_inline.xml	8	1	25	2	555	en	177
+WR-P-P-H-0000000077_inline.xml	8	1	25	3	556	D66	177)|(152)
 WR-P-P-H-0000000077_inline.xml	8	1	25	4	557	verwonderen	-
 WR-P-P-H-0000000077_inline.xml	8	1	25	5	558	zich	(177)
 WR-P-P-H-0000000077_inline.xml	8	1	25	6	559	erover	-
@@ -600,8 +600,8 @@ WR-P-P-H-0000000077_inline.xml	8	2	26	3	573	een	(157
 WR-P-P-H-0000000077_inline.xml	8	2	26	4	574	bewuste	157
 WR-P-P-H-0000000077_inline.xml	8	2	26	5	575	keuze	157
 WR-P-P-H-0000000077_inline.xml	8	2	26	6	576	van	157
-WR-P-P-H-0000000077_inline.xml	8	2	26	7	577	de	157|(81)
-WR-P-P-H-0000000077_inline.xml	8	2	26	8	578	regering	157)|(81)
+WR-P-P-H-0000000077_inline.xml	8	2	26	7	577	de	157|(81
+WR-P-P-H-0000000077_inline.xml	8	2	26	8	578	regering	157)|81)
 WR-P-P-H-0000000077_inline.xml	8	2	26	9	579	?	-
 
 WR-P-P-H-0000000077_inline.xml	8	3	27	1	580	Het	(160)
@@ -658,8 +658,8 @@ WR-P-P-H-0000000077_inline.xml	9	2	29	5	628	bij	-
 WR-P-P-H-0000000077_inline.xml	9	2	29	6	629	naturalisatie	(168)
 WR-P-P-H-0000000077_inline.xml	9	2	29	7	630	gebruik	(172)
 WR-P-P-H-0000000077_inline.xml	9	2	29	8	631	dat	-
-WR-P-P-H-0000000077_inline.xml	9	2	29	9	632	de	(6)
-WR-P-P-H-0000000077_inline.xml	9	2	29	10	633	namen	(6)
+WR-P-P-H-0000000077_inline.xml	9	2	29	9	632	de	(6
+WR-P-P-H-0000000077_inline.xml	9	2	29	10	633	namen	6)
 WR-P-P-H-0000000077_inline.xml	9	2	29	11	634	zo	-
 WR-P-P-H-0000000077_inline.xml	9	2	29	12	635	weinig	-
 WR-P-P-H-0000000077_inline.xml	9	2	29	13	636	mogelijk	-
@@ -679,3 +679,4 @@ WR-P-P-H-0000000077_inline.xml	9	3	30	9	648	streepje	165)
 WR-P-P-H-0000000077_inline.xml	9	3	30	10	649	blijft	-
 WR-P-P-H-0000000077_inline.xml	9	3	30	11	650	.	-
 
+#end document

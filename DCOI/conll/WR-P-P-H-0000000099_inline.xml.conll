@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000099_inline.xml); part 000
 WR-P-P-H-0000000099_inline.xml	1	1	1	1	1	Maar	(1|(3
 WR-P-P-H-0000000099_inline.xml	1	1	1	2	2	liefst	1|3
 WR-P-P-H-0000000099_inline.xml	1	1	1	3	3	11892	1|3)
@@ -51,8 +51,8 @@ WR-P-P-H-0000000099_inline.xml	2	1	3	10	47	een	(15
 WR-P-P-H-0000000099_inline.xml	2	1	3	11	48	drugsprobleem	15)
 WR-P-P-H-0000000099_inline.xml	2	1	3	12	49	.	-
 
-WR-P-P-H-0000000099_inline.xml	2	2	4	1	50	Het	(6)
-WR-P-P-H-0000000099_inline.xml	2	2	4	2	51	land	(6)
+WR-P-P-H-0000000099_inline.xml	2	2	4	1	50	Het	(6
+WR-P-P-H-0000000099_inline.xml	2	2	4	2	51	land	6)
 WR-P-P-H-0000000099_inline.xml	2	2	4	3	52	telt	-
 WR-P-P-H-0000000099_inline.xml	2	2	4	4	53	zeker	(17|(18
 WR-P-P-H-0000000099_inline.xml	2	2	4	5	54	1,2	17|18
@@ -90,8 +90,8 @@ WR-P-P-H-0000000099_inline.xml	2	2	4	36	85	bevolking	21)|15)|24)|25)
 WR-P-P-H-0000000099_inline.xml	2	2	4	37	86	.	-
 
 WR-P-P-H-0000000099_inline.xml	2	3	5	1	87	Bij	-
-WR-P-P-H-0000000099_inline.xml	2	3	5	2	88	die	(15)
-WR-P-P-H-0000000099_inline.xml	2	3	5	3	89	cijfers	(15)
+WR-P-P-H-0000000099_inline.xml	2	3	5	2	88	die	(15
+WR-P-P-H-0000000099_inline.xml	2	3	5	3	89	cijfers	15)
 WR-P-P-H-0000000099_inline.xml	2	3	5	4	90	wordt	-
 WR-P-P-H-0000000099_inline.xml	2	3	5	5	91	geen	(26
 WR-P-P-H-0000000099_inline.xml	2	3	5	6	92	onderscheid	26)
@@ -148,9 +148,9 @@ WR-P-P-H-0000000099_inline.xml	2	5	7	19	140	en	40|41
 WR-P-P-H-0000000099_inline.xml	2	5	7	20	141	de	40|41|(43
 WR-P-P-H-0000000099_inline.xml	2	5	7	21	142	beperkingen	40|41|43
 WR-P-P-H-0000000099_inline.xml	2	5	7	22	143	die	40|41|43
-WR-P-P-H-0000000099_inline.xml	2	5	7	23	144	de	40|41|43|(6)
-WR-P-P-H-0000000099_inline.xml	2	5	7	24	145	islamitische	40|41|43|(6)
-WR-P-P-H-0000000099_inline.xml	2	5	7	25	146	republiek	40|41|43|(6)
+WR-P-P-H-0000000099_inline.xml	2	5	7	23	144	de	40|41|43|(6
+WR-P-P-H-0000000099_inline.xml	2	5	7	24	145	islamitische	40|41|43|6
+WR-P-P-H-0000000099_inline.xml	2	5	7	25	146	republiek	40|41|43|6)
 WR-P-P-H-0000000099_inline.xml	2	5	7	26	147	hen	40|41|43|(89)
 WR-P-P-H-0000000099_inline.xml	2	5	7	27	148	oplegt	40)|41)|43)
 WR-P-P-H-0000000099_inline.xml	2	5	7	28	149	.	-
@@ -229,8 +229,8 @@ WR-P-P-H-0000000099_inline.xml	4	1	11	9	217	een	70|(71
 WR-P-P-H-0000000099_inline.xml	4	1	11	10	218	hard	70|71
 WR-P-P-H-0000000099_inline.xml	4	1	11	11	219	beleid	70|71
 WR-P-P-H-0000000099_inline.xml	4	1	11	12	220	tegen	70|71
-WR-P-P-H-0000000099_inline.xml	4	1	11	13	221	de	70|71|(56)
-WR-P-P-H-0000000099_inline.xml	4	1	11	14	222	drugsmokkel	70)|71)|(56)
+WR-P-P-H-0000000099_inline.xml	4	1	11	13	221	de	70|71|(56
+WR-P-P-H-0000000099_inline.xml	4	1	11	14	222	drugsmokkel	70)|71)|56)
 WR-P-P-H-0000000099_inline.xml	4	1	11	15	223	.	-
 
 WR-P-P-H-0000000099_inline.xml	4	2	12	1	224	Vrijwel	-
@@ -244,14 +244,14 @@ WR-P-P-H-0000000099_inline.xml	4	2	12	8	231	bij	73|74
 WR-P-P-H-0000000099_inline.xml	4	2	12	9	232	het	73|74|(75
 WR-P-P-H-0000000099_inline.xml	4	2	12	10	233	onderscheppen	73|74|75
 WR-P-P-H-0000000099_inline.xml	4	2	12	11	234	van	73|74|75
-WR-P-P-H-0000000099_inline.xml	4	2	12	12	235	partijen	73|74|75|(56)
-WR-P-P-H-0000000099_inline.xml	4	2	12	13	236	van	73|74|75|(56)
-WR-P-P-H-0000000099_inline.xml	4	2	12	14	237	soms	73|74|75|(56)|(77|(78
-WR-P-P-H-0000000099_inline.xml	4	2	12	15	238	wel	73|74|75|(56)|77|78
-WR-P-P-H-0000000099_inline.xml	4	2	12	16	239	een	73|74|75|(56)|77|78
-WR-P-P-H-0000000099_inline.xml	4	2	12	17	240	ton	73|74|75|(56)|77|78)
-WR-P-P-H-0000000099_inline.xml	4	2	12	18	241	of	73|74|75|(56)|77
-WR-P-P-H-0000000099_inline.xml	4	2	12	19	242	meer	73)|74)|75)|(56)|77)|(79)
+WR-P-P-H-0000000099_inline.xml	4	2	12	12	235	partijen	73|74|75|(56
+WR-P-P-H-0000000099_inline.xml	4	2	12	13	236	van	73|74|75|56
+WR-P-P-H-0000000099_inline.xml	4	2	12	14	237	soms	73|74|75|56|(77|(78
+WR-P-P-H-0000000099_inline.xml	4	2	12	15	238	wel	73|74|75|56|77|78
+WR-P-P-H-0000000099_inline.xml	4	2	12	16	239	een	73|74|75|56|77|78
+WR-P-P-H-0000000099_inline.xml	4	2	12	17	240	ton	73|74|75|56|77|78)
+WR-P-P-H-0000000099_inline.xml	4	2	12	18	241	of	73|74|75|56|77
+WR-P-P-H-0000000099_inline.xml	4	2	12	19	242	meer	73)|74)|75)|56)|77)|(79)
 WR-P-P-H-0000000099_inline.xml	4	2	12	20	243	.	-
 
 WR-P-P-H-0000000099_inline.xml	4	3	13	1	244	Iran	(6)
@@ -282,3 +282,4 @@ WR-P-P-H-0000000099_inline.xml	4	4	14	12	267	hun	85|(86|(83)
 WR-P-P-H-0000000099_inline.xml	4	4	14	13	268	vonnis	85)|86)
 WR-P-P-H-0000000099_inline.xml	4	4	14	14	269	.	-
 
+#end document

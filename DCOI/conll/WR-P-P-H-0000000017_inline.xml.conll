@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000017_inline.xml); part 000
 WR-P-P-H-0000000017_inline.xml	1	1	1	1	1	Mr.	(1
 WR-P-P-H-0000000017_inline.xml	1	1	1	2	2	J.W.	1
 WR-P-P-H-0000000017_inline.xml	1	1	1	3	3	Weck	1)
@@ -23,29 +23,29 @@ WR-P-P-H-0000000017_inline.xml	1	2	2	2	20	is	-
 WR-P-P-H-0000000017_inline.xml	1	2	2	3	21	sinds	-
 WR-P-P-H-0000000017_inline.xml	1	2	2	4	22	januari	(7
 WR-P-P-H-0000000017_inline.xml	1	2	2	5	23	1999	7)
-WR-P-P-H-0000000017_inline.xml	1	2	2	6	24	directeur-generaal	(1)
-WR-P-P-H-0000000017_inline.xml	1	2	2	7	25	Telecommunicatie	(1)
-WR-P-P-H-0000000017_inline.xml	1	2	2	8	26	en	(1)
-WR-P-P-H-0000000017_inline.xml	1	2	2	9	27	Post	(1)
-WR-P-P-H-0000000017_inline.xml	1	2	2	10	28	bij	(1)
-WR-P-P-H-0000000017_inline.xml	1	2	2	11	29	het	(1)|(9
-WR-P-P-H-0000000017_inline.xml	1	2	2	12	30	ministerie	(1)|9
-WR-P-P-H-0000000017_inline.xml	1	2	2	13	31	van	(1)|9
-WR-P-P-H-0000000017_inline.xml	1	2	2	14	32	verkeer	(1)|9|(10|(11)
-WR-P-P-H-0000000017_inline.xml	1	2	2	15	33	en	(1)|9|10
-WR-P-P-H-0000000017_inline.xml	1	2	2	16	34	waterstaat	(1)|9)|10)|(12)
+WR-P-P-H-0000000017_inline.xml	1	2	2	6	24	directeur-generaal	(1
+WR-P-P-H-0000000017_inline.xml	1	2	2	7	25	Telecommunicatie	1
+WR-P-P-H-0000000017_inline.xml	1	2	2	8	26	en	1
+WR-P-P-H-0000000017_inline.xml	1	2	2	9	27	Post	1
+WR-P-P-H-0000000017_inline.xml	1	2	2	10	28	bij	1
+WR-P-P-H-0000000017_inline.xml	1	2	2	11	29	het	1|(9
+WR-P-P-H-0000000017_inline.xml	1	2	2	12	30	ministerie	1|9
+WR-P-P-H-0000000017_inline.xml	1	2	2	13	31	van	1|9
+WR-P-P-H-0000000017_inline.xml	1	2	2	14	32	verkeer	1|9|(10|(11)
+WR-P-P-H-0000000017_inline.xml	1	2	2	15	33	en	1|9|10
+WR-P-P-H-0000000017_inline.xml	1	2	2	16	34	waterstaat	1)|9)|10)|(12)
 WR-P-P-H-0000000017_inline.xml	1	2	2	17	35	.	-
 
 WR-P-P-H-0000000017_inline.xml	1	3	3	1	36	Daarvoor	-
 WR-P-P-H-0000000017_inline.xml	1	3	3	2	37	was	-
 WR-P-P-H-0000000017_inline.xml	1	3	3	3	38	hij	(1)
-WR-P-P-H-0000000017_inline.xml	1	3	3	4	39	directeur-generaal	(1)
-WR-P-P-H-0000000017_inline.xml	1	3	3	5	40	Rijksluchtvaartdienst	(1)
+WR-P-P-H-0000000017_inline.xml	1	3	3	4	39	directeur-generaal	(1
+WR-P-P-H-0000000017_inline.xml	1	3	3	5	40	Rijksluchtvaartdienst	1)
 WR-P-P-H-0000000017_inline.xml	1	3	3	6	41	.	-
 
 WR-P-P-H-0000000017_inline.xml	1	4	4	1	42	In	-
-WR-P-P-H-0000000017_inline.xml	1	4	4	2	43	die	(1)
-WR-P-P-H-0000000017_inline.xml	1	4	4	3	44	functie	(1)
+WR-P-P-H-0000000017_inline.xml	1	4	4	2	43	die	(1
+WR-P-P-H-0000000017_inline.xml	1	4	4	3	44	functie	1)
 WR-P-P-H-0000000017_inline.xml	1	4	4	4	45	is	-
 WR-P-P-H-0000000017_inline.xml	1	4	4	5	46	hij	(1)
 WR-P-P-H-0000000017_inline.xml	1	4	4	6	47	februari	(17
@@ -73,19 +73,20 @@ WR-P-P-H-0000000017_inline.xml	1	5	5	13	67	.	-
 
 WR-P-P-H-0000000017_inline.xml	1	6	6	1	68	Weck	(1)
 WR-P-P-H-0000000017_inline.xml	1	6	6	2	69	wordt	-
-WR-P-P-H-0000000017_inline.xml	1	6	6	3	70	de	(1)
-WR-P-P-H-0000000017_inline.xml	1	6	6	4	71	opvolger	(1)
-WR-P-P-H-0000000017_inline.xml	1	6	6	5	72	van	(1)
-WR-P-P-H-0000000017_inline.xml	1	6	6	6	73	dr.	(1)|(24
-WR-P-P-H-0000000017_inline.xml	1	6	6	7	74	B.	(1)|24
-WR-P-P-H-0000000017_inline.xml	1	6	6	8	75	Plesch	(1)|24
-WR-P-P-H-0000000017_inline.xml	1	6	6	9	76	,	(1)|24
-WR-P-P-H-0000000017_inline.xml	1	6	6	10	77	die	(1)|24
-WR-P-P-H-0000000017_inline.xml	1	6	6	11	78	management-consultant	(1)|24|24
-WR-P-P-H-0000000017_inline.xml	1	6	6	12	79	in	(1)|24
-WR-P-P-H-0000000017_inline.xml	1	6	6	13	80	het	(1)|24|(26
-WR-P-P-H-0000000017_inline.xml	1	6	6	14	81	bedrijfsleven	(1)|24|26)
-WR-P-P-H-0000000017_inline.xml	1	6	6	15	82	is	(1)|24
-WR-P-P-H-0000000017_inline.xml	1	6	6	16	83	geworden	(1)|24)
+WR-P-P-H-0000000017_inline.xml	1	6	6	3	70	de	(1
+WR-P-P-H-0000000017_inline.xml	1	6	6	4	71	opvolger	1
+WR-P-P-H-0000000017_inline.xml	1	6	6	5	72	van	1
+WR-P-P-H-0000000017_inline.xml	1	6	6	6	73	dr.	1|(24
+WR-P-P-H-0000000017_inline.xml	1	6	6	7	74	B.	1|24
+WR-P-P-H-0000000017_inline.xml	1	6	6	8	75	Plesch	1|24
+WR-P-P-H-0000000017_inline.xml	1	6	6	9	76	,	1|24
+WR-P-P-H-0000000017_inline.xml	1	6	6	10	77	die	1|24
+WR-P-P-H-0000000017_inline.xml	1	6	6	11	78	management-consultant	1|24|24
+WR-P-P-H-0000000017_inline.xml	1	6	6	12	79	in	1|24
+WR-P-P-H-0000000017_inline.xml	1	6	6	13	80	het	1|24|(26
+WR-P-P-H-0000000017_inline.xml	1	6	6	14	81	bedrijfsleven	1|24|26)
+WR-P-P-H-0000000017_inline.xml	1	6	6	15	82	is	1|24
+WR-P-P-H-0000000017_inline.xml	1	6	6	16	83	geworden	1)|24)
 WR-P-P-H-0000000017_inline.xml	1	6	6	17	84	.	-
 
+#end document

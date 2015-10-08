@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000014_inline.xml); part 000
 WR-P-P-H-0000000014_inline.xml	1	1	1	1	1	Als	-
 WR-P-P-H-0000000014_inline.xml	1	1	1	2	2	ik	(1)
 WR-P-P-H-0000000014_inline.xml	1	1	1	3	3	kwaad	(2)
@@ -447,3 +447,4 @@ WR-P-P-H-0000000014_inline.xml	3	10	20	24	426	de	114|(115
 WR-P-P-H-0000000014_inline.xml	3	10	20	25	427	sloot	114)|115)
 WR-P-P-H-0000000014_inline.xml	3	10	20	26	428	!	-
 
+#end document

@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000002_inline.xml); part 000
 WR-P-P-H-0000000002_inline.xml	1	1	1	1	1	Oud-minister	(1
 WR-P-P-H-0000000002_inline.xml	1	1	1	2	2	van	1
 WR-P-P-H-0000000002_inline.xml	1	1	1	3	3	justitie	1|(2)
@@ -142,14 +142,14 @@ WR-P-P-H-0000000002_inline.xml	1	6	6	15	135	steun	(36)
 WR-P-P-H-0000000002_inline.xml	1	6	6	16	136	ontvangen	-
 WR-P-P-H-0000000002_inline.xml	1	6	6	17	137	"	-
 WR-P-P-H-0000000002_inline.xml	1	6	6	18	138	aldus	-
-WR-P-P-H-0000000002_inline.xml	1	6	6	19	139	mr.	(1)
-WR-P-P-H-0000000002_inline.xml	1	6	6	20	140	Polak	(1)
+WR-P-P-H-0000000002_inline.xml	1	6	6	19	139	mr.	(1
+WR-P-P-H-0000000002_inline.xml	1	6	6	20	140	Polak	1)
 WR-P-P-H-0000000002_inline.xml	1	6	6	21	141	,	-
-WR-P-P-H-0000000002_inline.xml	1	6	6	22	142	lid	(1)
-WR-P-P-H-0000000002_inline.xml	1	6	6	23	143	van	(1)
-WR-P-P-H-0000000002_inline.xml	1	6	6	24	144	de	(1)|(39
-WR-P-P-H-0000000002_inline.xml	1	6	6	25	145	Eerste	(1)|39
-WR-P-P-H-0000000002_inline.xml	1	6	6	26	146	Kamer	(1)|39)
+WR-P-P-H-0000000002_inline.xml	1	6	6	22	142	lid	(1
+WR-P-P-H-0000000002_inline.xml	1	6	6	23	143	van	1
+WR-P-P-H-0000000002_inline.xml	1	6	6	24	144	de	1|(39
+WR-P-P-H-0000000002_inline.xml	1	6	6	25	145	Eerste	1|39
+WR-P-P-H-0000000002_inline.xml	1	6	6	26	146	Kamer	1)|39)
 WR-P-P-H-0000000002_inline.xml	1	6	6	27	147	.	-
 
 WR-P-P-H-0000000002_inline.xml	2	1	7	1	148	(	-
@@ -158,3 +158,4 @@ WR-P-P-H-0000000002_inline.xml	2	1	7	3	150	juni	40
 WR-P-P-H-0000000002_inline.xml	2	1	7	4	151	1976	40)
 WR-P-P-H-0000000002_inline.xml	2	1	7	5	152	)	-
 
+#end document

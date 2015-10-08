@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000085_inline.xml); part 000
 WR-P-P-H-0000000085_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
 WR-P-P-H-0000000085_inline.xml	1	1	1	2	2	-	-
 
@@ -44,8 +44,8 @@ WR-P-P-H-0000000085_inline.xml	1	3	3	22	40	aids	7)|10)|12)|(14)
 WR-P-P-H-0000000085_inline.xml	1	3	3	23	41	.	-
 
 WR-P-P-H-0000000085_inline.xml	1	4	4	1	42	Van	-
-WR-P-P-H-0000000085_inline.xml	1	4	4	2	43	het	(5)
-WR-P-P-H-0000000085_inline.xml	1	4	4	3	44	geld	(5)
+WR-P-P-H-0000000085_inline.xml	1	4	4	2	43	het	(5
+WR-P-P-H-0000000085_inline.xml	1	4	4	3	44	geld	5)
 WR-P-P-H-0000000085_inline.xml	1	4	4	4	45	worden	-
 WR-P-P-H-0000000085_inline.xml	1	4	4	5	46	onder	-
 WR-P-P-H-0000000085_inline.xml	1	4	4	6	47	meer	-
@@ -58,3 +58,4 @@ WR-P-P-H-0000000085_inline.xml	1	4	4	12	53	miljoen	17
 WR-P-P-H-0000000085_inline.xml	1	4	4	13	54	aidswezen	17)|(18)
 WR-P-P-H-0000000085_inline.xml	1	4	4	14	55	.	-
 
+#end document

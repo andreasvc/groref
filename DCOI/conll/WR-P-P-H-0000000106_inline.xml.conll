@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000106_inline.xml); part 000
 WR-P-P-H-0000000106_inline.xml	1	1	1	1	1	ALMELO	(1)
 WR-P-P-H-0000000106_inline.xml	1	1	1	2	2	-	-
 
@@ -62,3 +62,4 @@ WR-P-P-H-0000000106_inline.xml	1	4	4	16	57	woningen	17)
 WR-P-P-H-0000000106_inline.xml	1	4	4	17	58	verlaten	-
 WR-P-P-H-0000000106_inline.xml	1	4	4	18	59	.	-
 
+#end document

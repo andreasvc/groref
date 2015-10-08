@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000084_inline.xml); part 000
 WR-P-P-H-0000000084_inline.xml	1	1	1	1	1	BUENOS	(1
 WR-P-P-H-0000000084_inline.xml	1	1	1	2	2	AIRES	1)
 WR-P-P-H-0000000084_inline.xml	1	1	1	3	3	-	-
@@ -59,3 +59,4 @@ WR-P-P-H-0000000084_inline.xml	1	4	4	29	54	en	11|12|14|19|13|15|16
 WR-P-P-H-0000000084_inline.xml	1	4	4	30	55	1983	11)|12)|14)|19)|13)|15)|16)|(18)
 WR-P-P-H-0000000084_inline.xml	1	4	4	31	56	.	-
 
+#end document

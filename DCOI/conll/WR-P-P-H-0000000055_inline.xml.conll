@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000055_inline.xml); part 000
 WR-P-P-H-0000000055_inline.xml	1	1	1	1	1	*	-
 WR-P-P-H-0000000055_inline.xml	1	1	1	2	2	Een	(1
 WR-P-P-H-0000000055_inline.xml	1	1	1	3	3	jaar	1)
@@ -82,20 +82,20 @@ WR-P-P-H-0000000055_inline.xml	2	1	3	34	78	ze	(25)
 WR-P-P-H-0000000055_inline.xml	2	1	3	35	79	deugden	-
 WR-P-P-H-0000000055_inline.xml	2	1	3	36	80	.	-
 
-WR-P-P-H-0000000055_inline.xml	3	1	4	1	81	Een	(16)
-WR-P-P-H-0000000055_inline.xml	3	1	4	2	82	wondermiddel	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	1	81	Een	(16
+WR-P-P-H-0000000055_inline.xml	3	1	4	2	82	wondermiddel	16)
 WR-P-P-H-0000000055_inline.xml	3	1	4	3	83	lijkt	-
 WR-P-P-H-0000000055_inline.xml	3	1	4	4	84	het	(16)
 WR-P-P-H-0000000055_inline.xml	3	1	4	5	85	zeker	-
 WR-P-P-H-0000000055_inline.xml	3	1	4	6	86	,	-
-WR-P-P-H-0000000055_inline.xml	3	1	4	7	87	zo'n	(16)
-WR-P-P-H-0000000055_inline.xml	3	1	4	8	88	apparaat	(16)
-WR-P-P-H-0000000055_inline.xml	3	1	4	9	89	dat	(16)
-WR-P-P-H-0000000055_inline.xml	3	1	4	10	90	kan	(16)
-WR-P-P-H-0000000055_inline.xml	3	1	4	11	91	vaststellen	(16)
-WR-P-P-H-0000000055_inline.xml	3	1	4	12	92	of	(16)
-WR-P-P-H-0000000055_inline.xml	3	1	4	13	93	iemand	(16)|(29)
-WR-P-P-H-0000000055_inline.xml	3	1	4	14	94	liegt	(16)
+WR-P-P-H-0000000055_inline.xml	3	1	4	7	87	zo'n	(16
+WR-P-P-H-0000000055_inline.xml	3	1	4	8	88	apparaat	16
+WR-P-P-H-0000000055_inline.xml	3	1	4	9	89	dat	16
+WR-P-P-H-0000000055_inline.xml	3	1	4	10	90	kan	16
+WR-P-P-H-0000000055_inline.xml	3	1	4	11	91	vaststellen	16
+WR-P-P-H-0000000055_inline.xml	3	1	4	12	92	of	16
+WR-P-P-H-0000000055_inline.xml	3	1	4	13	93	iemand	16|(29)
+WR-P-P-H-0000000055_inline.xml	3	1	4	14	94	liegt	16)
 WR-P-P-H-0000000055_inline.xml	3	1	4	15	95	.	-
 
 WR-P-P-H-0000000055_inline.xml	3	2	5	1	96	Maar	-
@@ -104,8 +104,8 @@ WR-P-P-H-0000000055_inline.xml	3	2	5	3	98	de	(30
 WR-P-P-H-0000000055_inline.xml	3	2	5	4	99	meeste	30
 WR-P-P-H-0000000055_inline.xml	3	2	5	5	100	wonderen	30)
 WR-P-P-H-0000000055_inline.xml	3	2	5	6	101	bestaat	-
-WR-P-P-H-0000000055_inline.xml	3	2	5	7	102	de	(16)
-WR-P-P-H-0000000055_inline.xml	3	2	5	8	103	leugendetector	(16)
+WR-P-P-H-0000000055_inline.xml	3	2	5	7	102	de	(16
+WR-P-P-H-0000000055_inline.xml	3	2	5	8	103	leugendetector	16)
 WR-P-P-H-0000000055_inline.xml	3	2	5	9	104	dan	-
 WR-P-P-H-0000000055_inline.xml	3	2	5	10	105	ook	-
 WR-P-P-H-0000000055_inline.xml	3	2	5	11	106	niet	-
@@ -254,9 +254,9 @@ WR-P-P-H-0000000055_inline.xml	4	2	11	6	242	hooggerechtshof	66)
 WR-P-P-H-0000000055_inline.xml	4	2	11	7	243	dat	-
 WR-P-P-H-0000000055_inline.xml	4	2	11	8	244	het	(32
 WR-P-P-H-0000000055_inline.xml	4	2	11	9	245	apparaat	32)
-WR-P-P-H-0000000055_inline.xml	4	2	11	10	246	geen	(32)
-WR-P-P-H-0000000055_inline.xml	4	2	11	11	247	bruikbaar	(32)
-WR-P-P-H-0000000055_inline.xml	4	2	11	12	248	bewijsmiddel	(32)
+WR-P-P-H-0000000055_inline.xml	4	2	11	10	246	geen	(32
+WR-P-P-H-0000000055_inline.xml	4	2	11	11	247	bruikbaar	32
+WR-P-P-H-0000000055_inline.xml	4	2	11	12	248	bewijsmiddel	32)
 WR-P-P-H-0000000055_inline.xml	4	2	11	13	249	was	-
 WR-P-P-H-0000000055_inline.xml	4	2	11	14	250	.	-
 
@@ -337,8 +337,8 @@ WR-P-P-H-0000000055_inline.xml	5	2	16	3	320	nu	-
 WR-P-P-H-0000000055_inline.xml	5	2	16	4	321	eenmaal	-
 WR-P-P-H-0000000055_inline.xml	5	2	16	5	322	begrijpen	-
 WR-P-P-H-0000000055_inline.xml	5	2	16	6	323	hoe	-
-WR-P-P-H-0000000055_inline.xml	5	2	16	7	324	een	(16)
-WR-P-P-H-0000000055_inline.xml	5	2	16	8	325	leugendetector	(16)
+WR-P-P-H-0000000055_inline.xml	5	2	16	7	324	een	(16
+WR-P-P-H-0000000055_inline.xml	5	2	16	8	325	leugendetector	16)
 WR-P-P-H-0000000055_inline.xml	5	2	16	9	326	werkt	-
 WR-P-P-H-0000000055_inline.xml	5	2	16	10	327	,	-
 WR-P-P-H-0000000055_inline.xml	5	2	16	11	328	en	-
@@ -383,3 +383,4 @@ WR-P-P-H-0000000055_inline.xml	5	4	18	19	364	extra	99)
 WR-P-P-H-0000000055_inline.xml	5	4	18	20	365	slaan	-
 WR-P-P-H-0000000055_inline.xml	5	4	18	21	366	.	-
 
+#end document

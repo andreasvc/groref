@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000024_inline.xml); part 000
 WR-P-P-H-0000000024_inline.xml	1	1	1	1	1	KERKRADE	(1)
 WR-P-P-H-0000000024_inline.xml	1	1	1	2	2	-	-
 
@@ -275,8 +275,8 @@ WR-P-P-H-0000000024_inline.xml	6	3	16	3	258	juli	84)
 WR-P-P-H-0000000024_inline.xml	6	3	16	4	259	hebben	-
 WR-P-P-H-0000000024_inline.xml	6	3	16	5	260	de	(85
 WR-P-P-H-0000000024_inline.xml	6	3	16	6	261	Kerkraders	85
-WR-P-P-H-0000000024_inline.xml	6	3	16	7	262	hun	(1)|85)
-WR-P-P-H-0000000024_inline.xml	6	3	16	8	263	stad	(1)
+WR-P-P-H-0000000024_inline.xml	6	3	16	7	262	hun	(1|85)
+WR-P-P-H-0000000024_inline.xml	6	3	16	8	263	stad	1)
 WR-P-P-H-0000000024_inline.xml	6	3	16	9	264	weer	-
 WR-P-P-H-0000000024_inline.xml	6	3	16	10	265	voor	-
 WR-P-P-H-0000000024_inline.xml	6	3	16	11	266	zichzelf	(88)
@@ -303,3 +303,4 @@ WR-P-P-H-0000000024_inline.xml	8	1	18	1	284	FOTO	(95)
 WR-P-P-H-0000000024_inline.xml	8	1	18	2	285	CHRIS	(96
 WR-P-P-H-0000000024_inline.xml	8	1	18	3	286	KEULEN	96
 
+#end document

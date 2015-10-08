@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000101_inline.xml); part 000
 WR-P-P-H-0000000101_inline.xml	1	1	1	1	1	DEN	(1
 WR-P-P-H-0000000101_inline.xml	1	1	1	2	2	HAM	1)
 WR-P-P-H-0000000101_inline.xml	1	1	1	3	3	-	-
@@ -101,3 +101,4 @@ WR-P-P-H-0000000101_inline.xml	1	8	8	5	92	naar	-
 WR-P-P-H-0000000101_inline.xml	1	8	8	6	93	huis	(32)
 WR-P-P-H-0000000101_inline.xml	1	8	8	7	94	.	-
 
+#end document

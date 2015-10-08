@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000011_inline.xml); part 000
 WR-P-P-H-0000000011_inline.xml	1	1	1	1	1	LONDEN	(1)
 WR-P-P-H-0000000011_inline.xml	1	1	1	2	2	-	-
 
@@ -56,16 +56,17 @@ WR-P-P-H-0000000011_inline.xml	1	4	4	1	51	De	(16
 WR-P-P-H-0000000011_inline.xml	1	4	4	2	52	Britse	16
 WR-P-P-H-0000000011_inline.xml	1	4	4	3	53	bond	16)
 WR-P-P-H-0000000011_inline.xml	1	4	4	4	54	schrijft	-
-WR-P-P-H-0000000011_inline.xml	1	4	4	5	55	de	(8)
-WR-P-P-H-0000000011_inline.xml	1	4	4	6	56	wereldrecordhouder	(8)
-WR-P-P-H-0000000011_inline.xml	1	4	4	7	57	op	(8)
-WR-P-P-H-0000000011_inline.xml	1	4	4	8	58	dit	(8)|(18
-WR-P-P-H-0000000011_inline.xml	1	4	4	9	59	nummer	(8)|18)
+WR-P-P-H-0000000011_inline.xml	1	4	4	5	55	de	(8
+WR-P-P-H-0000000011_inline.xml	1	4	4	6	56	wereldrecordhouder	8
+WR-P-P-H-0000000011_inline.xml	1	4	4	7	57	op	8
+WR-P-P-H-0000000011_inline.xml	1	4	4	8	58	dit	8|(18
+WR-P-P-H-0000000011_inline.xml	1	4	4	9	59	nummer	8)|18)
 WR-P-P-H-0000000011_inline.xml	1	4	4	10	60	alsnog	-
 WR-P-P-H-0000000011_inline.xml	1	4	4	11	61	in	-
 WR-P-P-H-0000000011_inline.xml	1	4	4	12	62	voor	-
-WR-P-P-H-0000000011_inline.xml	1	4	4	13	63	de	(5)
-WR-P-P-H-0000000011_inline.xml	1	4	4	14	64	50	(5)
-WR-P-P-H-0000000011_inline.xml	1	4	4	15	65	vrij	(5)
+WR-P-P-H-0000000011_inline.xml	1	4	4	13	63	de	(5
+WR-P-P-H-0000000011_inline.xml	1	4	4	14	64	50	5
+WR-P-P-H-0000000011_inline.xml	1	4	4	15	65	vrij	5)
 WR-P-P-H-0000000011_inline.xml	1	4	4	16	66	.	-
 
+#end document

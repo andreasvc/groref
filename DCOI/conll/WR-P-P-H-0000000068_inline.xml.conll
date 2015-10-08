@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000068_inline.xml); part 000
 WR-P-P-H-0000000068_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
 WR-P-P-H-0000000068_inline.xml	1	1	1	2	2	-	-
 
@@ -67,8 +67,8 @@ WR-P-P-H-0000000068_inline.xml	2	4	6	10	60	thuis	-
 WR-P-P-H-0000000068_inline.xml	2	4	6	11	61	zit	-
 WR-P-P-H-0000000068_inline.xml	2	4	6	12	62	.	-
 
-WR-P-P-H-0000000068_inline.xml	2	5	7	1	63	Het	(2)
-WR-P-P-H-0000000068_inline.xml	2	5	7	2	64	concern	(2)
+WR-P-P-H-0000000068_inline.xml	2	5	7	1	63	Het	(2
+WR-P-P-H-0000000068_inline.xml	2	5	7	2	64	concern	2)
 WR-P-P-H-0000000068_inline.xml	2	5	7	3	65	bevestigt	-
 WR-P-P-H-0000000068_inline.xml	2	5	7	4	66	dat	-
 WR-P-P-H-0000000068_inline.xml	2	5	7	5	67	Stuyts	(18)
@@ -107,9 +107,9 @@ WR-P-P-H-0000000068_inline.xml	3	1	9	5	97	aan	-
 WR-P-P-H-0000000068_inline.xml	3	1	9	6	98	de	(27|(3
 WR-P-P-H-0000000068_inline.xml	3	1	9	7	99	ombouwactiviteiten	27|3)
 WR-P-P-H-0000000068_inline.xml	3	1	9	8	100	die	27
-WR-P-P-H-0000000068_inline.xml	3	1	9	9	101	het	27|(2)
-WR-P-P-H-0000000068_inline.xml	3	1	9	10	102	noodlijdende	27|(2)
-WR-P-P-H-0000000068_inline.xml	3	1	9	11	103	concern	27|(2)
+WR-P-P-H-0000000068_inline.xml	3	1	9	9	101	het	27|(2
+WR-P-P-H-0000000068_inline.xml	3	1	9	10	102	noodlijdende	27|2
+WR-P-P-H-0000000068_inline.xml	3	1	9	11	103	concern	27|2)
 WR-P-P-H-0000000068_inline.xml	3	1	9	12	104	uit	27
 WR-P-P-H-0000000068_inline.xml	3	1	9	13	105	het	27|(29
 WR-P-P-H-0000000068_inline.xml	3	1	9	14	106	slop	27|29)
@@ -125,8 +125,8 @@ WR-P-P-H-0000000068_inline.xml	3	2	10	5	114	nauwelijks	-
 WR-P-P-H-0000000068_inline.xml	3	2	10	6	115	nog	-
 WR-P-P-H-0000000068_inline.xml	3	2	10	7	116	groei	(31)
 WR-P-P-H-0000000068_inline.xml	3	2	10	8	117	in	-
-WR-P-P-H-0000000068_inline.xml	3	2	10	9	118	het	(2)
-WR-P-P-H-0000000068_inline.xml	3	2	10	10	119	concern	(2)
+WR-P-P-H-0000000068_inline.xml	3	2	10	9	118	het	(2
+WR-P-P-H-0000000068_inline.xml	3	2	10	10	119	concern	2)
 WR-P-P-H-0000000068_inline.xml	3	2	10	11	120	en	-
 WR-P-P-H-0000000068_inline.xml	3	2	10	12	121	kelderde	-
 WR-P-P-H-0000000068_inline.xml	3	2	10	13	122	de	(33
@@ -170,8 +170,8 @@ WR-P-P-H-0000000068_inline.xml	3	5	13	6	156	een	45|43
 WR-P-P-H-0000000068_inline.xml	3	5	13	7	157	klein	45|43
 WR-P-P-H-0000000068_inline.xml	3	5	13	8	158	onderdeel	45|43
 WR-P-P-H-0000000068_inline.xml	3	5	13	9	159	van	45|43|(48
-WR-P-P-H-0000000068_inline.xml	3	5	13	10	160	het	45|43|48|(2)
-WR-P-P-H-0000000068_inline.xml	3	5	13	11	161	Laurusconcern	45|43|48)|(2)
+WR-P-P-H-0000000068_inline.xml	3	5	13	10	160	het	45|43|48|(2
+WR-P-P-H-0000000068_inline.xml	3	5	13	11	161	Laurusconcern	45|43|48)|2)
 WR-P-P-H-0000000068_inline.xml	3	5	13	12	162	,	45|43
 WR-P-P-H-0000000068_inline.xml	3	5	13	13	163	maar	45|43
 WR-P-P-H-0000000068_inline.xml	3	5	13	14	164	wel	45|43
@@ -278,18 +278,18 @@ WR-P-P-H-0000000068_inline.xml	5	1	19	1	258	Zes	(77
 WR-P-P-H-0000000068_inline.xml	5	1	19	2	259	weken	77)
 WR-P-P-H-0000000068_inline.xml	5	1	19	3	260	later	-
 WR-P-P-H-0000000068_inline.xml	5	1	19	4	261	blijkt	-
-WR-P-P-H-0000000068_inline.xml	5	1	19	5	262	de	(40)
-WR-P-P-H-0000000068_inline.xml	5	1	19	6	263	nieuwe	(40)
-WR-P-P-H-0000000068_inline.xml	5	1	19	7	264	formule	(40)
-WR-P-P-H-0000000068_inline.xml	5	1	19	8	265	,	(40)
-WR-P-P-H-0000000068_inline.xml	5	1	19	9	266	die	(40)
-WR-P-P-H-0000000068_inline.xml	5	1	19	10	267	zich	(40)|(75)
-WR-P-P-H-0000000068_inline.xml	5	1	19	11	268	zou	(40)
-WR-P-P-H-0000000068_inline.xml	5	1	19	12	269	kenmerken	(40)
-WR-P-P-H-0000000068_inline.xml	5	1	19	13	270	door	(40)
-WR-P-P-H-0000000068_inline.xml	5	1	19	14	271	een	(40)|(76
-WR-P-P-H-0000000068_inline.xml	5	1	19	15	272	on-Nederlandse	(40)|76
-WR-P-P-H-0000000068_inline.xml	5	1	19	16	273	service	(40)|76)
+WR-P-P-H-0000000068_inline.xml	5	1	19	5	262	de	(40
+WR-P-P-H-0000000068_inline.xml	5	1	19	6	263	nieuwe	40
+WR-P-P-H-0000000068_inline.xml	5	1	19	7	264	formule	40
+WR-P-P-H-0000000068_inline.xml	5	1	19	8	265	,	40
+WR-P-P-H-0000000068_inline.xml	5	1	19	9	266	die	40
+WR-P-P-H-0000000068_inline.xml	5	1	19	10	267	zich	40|(75)
+WR-P-P-H-0000000068_inline.xml	5	1	19	11	268	zou	40
+WR-P-P-H-0000000068_inline.xml	5	1	19	12	269	kenmerken	40
+WR-P-P-H-0000000068_inline.xml	5	1	19	13	270	door	40
+WR-P-P-H-0000000068_inline.xml	5	1	19	14	271	een	40|(76
+WR-P-P-H-0000000068_inline.xml	5	1	19	15	272	on-Nederlandse	40|76
+WR-P-P-H-0000000068_inline.xml	5	1	19	16	273	service	40)|76)
 WR-P-P-H-0000000068_inline.xml	5	1	19	17	274	,	-
 WR-P-P-H-0000000068_inline.xml	5	1	19	18	275	niet	-
 WR-P-P-H-0000000068_inline.xml	5	1	19	19	276	goed	-
@@ -370,19 +370,19 @@ WR-P-P-H-0000000068_inline.xml	6	1	23	8	346	besteden	-
 WR-P-P-H-0000000068_inline.xml	6	1	23	9	347	de	(78
 WR-P-P-H-0000000068_inline.xml	6	1	23	10	348	klanten	78
 WR-P-P-H-0000000068_inline.xml	6	1	23	11	349	van	78
-WR-P-P-H-0000000068_inline.xml	6	1	23	12	350	de	78|(40)
-WR-P-P-H-0000000068_inline.xml	6	1	23	13	351	nieuwe	78|(40)
-WR-P-P-H-0000000068_inline.xml	6	1	23	14	352	Konmar	78)|(40)
+WR-P-P-H-0000000068_inline.xml	6	1	23	12	350	de	78|(40
+WR-P-P-H-0000000068_inline.xml	6	1	23	13	351	nieuwe	78|40
+WR-P-P-H-0000000068_inline.xml	6	1	23	14	352	Konmar	78)|40)
 WR-P-P-H-0000000068_inline.xml	6	1	23	15	353	per	-
 WR-P-P-H-0000000068_inline.xml	6	1	23	16	354	bezoek	(94)
 WR-P-P-H-0000000068_inline.xml	6	1	23	17	355	guldens	(95)
 WR-P-P-H-0000000068_inline.xml	6	1	23	18	356	minder	-
 WR-P-P-H-0000000068_inline.xml	6	1	23	19	357	dan	-
 WR-P-P-H-0000000068_inline.xml	6	1	23	20	358	in	-
-WR-P-P-H-0000000068_inline.xml	6	1	23	21	359	de	(43)
-WR-P-P-H-0000000068_inline.xml	6	1	23	22	360	Konmar	(43)
-WR-P-P-H-0000000068_inline.xml	6	1	23	23	361	oude	(43)|(97
-WR-P-P-H-0000000068_inline.xml	6	1	23	24	362	stijl	(43)|97)
+WR-P-P-H-0000000068_inline.xml	6	1	23	21	359	de	(43
+WR-P-P-H-0000000068_inline.xml	6	1	23	22	360	Konmar	43
+WR-P-P-H-0000000068_inline.xml	6	1	23	23	361	oude	43|(97
+WR-P-P-H-0000000068_inline.xml	6	1	23	24	362	stijl	43)|97)
 WR-P-P-H-0000000068_inline.xml	6	1	23	25	363	.	-
 
 WR-P-P-H-0000000068_inline.xml	6	2	24	1	364	Dat	(98)
@@ -393,10 +393,10 @@ WR-P-P-H-0000000068_inline.xml	6	2	24	5	368	er	(100)
 WR-P-P-H-0000000068_inline.xml	6	2	24	6	369	vanuit	-
 WR-P-P-H-0000000068_inline.xml	6	2	24	7	370	ging	-
 WR-P-P-H-0000000068_inline.xml	6	2	24	8	371	dat	-
-WR-P-P-H-0000000068_inline.xml	6	2	24	9	372	de	(40)|(121
-WR-P-P-H-0000000068_inline.xml	6	2	24	10	373	Konmars	(40)|121)
-WR-P-P-H-0000000068_inline.xml	6	2	24	11	374	nieuwe	(40)|(102
-WR-P-P-H-0000000068_inline.xml	6	2	24	12	375	stijl	(40)|102)
+WR-P-P-H-0000000068_inline.xml	6	2	24	9	372	de	(40|(121
+WR-P-P-H-0000000068_inline.xml	6	2	24	10	373	Konmars	40|121)
+WR-P-P-H-0000000068_inline.xml	6	2	24	11	374	nieuwe	40|(102
+WR-P-P-H-0000000068_inline.xml	6	2	24	12	375	stijl	40)|102)
 WR-P-P-H-0000000068_inline.xml	6	2	24	13	376	een	(103
 WR-P-P-H-0000000068_inline.xml	6	2	24	14	377	omzetstijging	103
 WR-P-P-H-0000000068_inline.xml	6	2	24	15	378	van	103
@@ -435,10 +435,10 @@ WR-P-P-H-0000000068_inline.xml	7	1	26	3	408	kennelijk	-
 WR-P-P-H-0000000068_inline.xml	7	1	26	4	409	niet	-
 WR-P-P-H-0000000068_inline.xml	7	1	26	5	410	lukt	-
 WR-P-P-H-0000000068_inline.xml	7	1	26	6	411	is	-
-WR-P-P-H-0000000068_inline.xml	7	1	26	7	412	het	(18)
-WR-P-P-H-0000000068_inline.xml	7	1	26	8	413	verantwoordelijke	(18)
-WR-P-P-H-0000000068_inline.xml	7	1	26	9	414	directielid	(18)
-WR-P-P-H-0000000068_inline.xml	7	1	26	10	415	Stuyts	(18)
+WR-P-P-H-0000000068_inline.xml	7	1	26	7	412	het	(18
+WR-P-P-H-0000000068_inline.xml	7	1	26	8	413	verantwoordelijke	18
+WR-P-P-H-0000000068_inline.xml	7	1	26	9	414	directielid	18
+WR-P-P-H-0000000068_inline.xml	7	1	26	10	415	Stuyts	18)
 WR-P-P-H-0000000068_inline.xml	7	1	26	11	416	naar	-
 WR-P-P-H-0000000068_inline.xml	7	1	26	12	417	huis	(113)
 WR-P-P-H-0000000068_inline.xml	7	1	26	13	418	gestuurd	-
@@ -480,3 +480,4 @@ WR-P-P-H-0000000068_inline.xml	7	3	28	22	451	moeten	118
 WR-P-P-H-0000000068_inline.xml	7	3	28	23	452	worden	118)
 WR-P-P-H-0000000068_inline.xml	7	3	28	24	453	.	-
 
+#end document

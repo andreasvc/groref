@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000032_inline.xml); part 000
 WR-P-P-H-0000000032_inline.xml	1	1	1	1	1	De	(1
 WR-P-P-H-0000000032_inline.xml	1	1	1	2	2	allereerste	1
 WR-P-P-H-0000000032_inline.xml	1	1	1	3	3	'	1
@@ -94,9 +94,9 @@ WR-P-P-H-0000000032_inline.xml	2	1	5	17	88	dachten	-
 WR-P-P-H-0000000032_inline.xml	2	1	5	18	89	de	(23
 WR-P-P-H-0000000032_inline.xml	2	1	5	19	90	organisatoren	23
 WR-P-P-H-0000000032_inline.xml	2	1	5	20	91	van	23
-WR-P-P-H-0000000032_inline.xml	2	1	5	21	92	de	23|(1)
-WR-P-P-H-0000000032_inline.xml	2	1	5	22	93	gay	23|(1)
-WR-P-P-H-0000000032_inline.xml	2	1	5	23	94	parade	23)|(1)
+WR-P-P-H-0000000032_inline.xml	2	1	5	21	92	de	23|(1
+WR-P-P-H-0000000032_inline.xml	2	1	5	22	93	gay	23|1
+WR-P-P-H-0000000032_inline.xml	2	1	5	23	94	parade	23)|1)
 WR-P-P-H-0000000032_inline.xml	2	1	5	24	95	.	-
 
 WR-P-P-H-0000000032_inline.xml	2	2	6	1	96	Ze	(23)
@@ -110,27 +110,27 @@ WR-P-P-H-0000000032_inline.xml	2	3	7	2	102	extremiteiten	27|28
 WR-P-P-H-0000000032_inline.xml	2	3	7	3	103	in	27|28
 WR-P-P-H-0000000032_inline.xml	2	3	7	4	104	leer	27|28)|(29)
 WR-P-P-H-0000000032_inline.xml	2	3	7	5	105	,	27
-WR-P-P-H-0000000032_inline.xml	2	3	7	6	106	geen	27|(1)
-WR-P-P-H-0000000032_inline.xml	2	3	7	7	107	bloot	27|(1)
+WR-P-P-H-0000000032_inline.xml	2	3	7	6	106	geen	27|(1
+WR-P-P-H-0000000032_inline.xml	2	3	7	7	107	bloot	27|1)
 WR-P-P-H-0000000032_inline.xml	2	3	7	8	108	,	27
 WR-P-P-H-0000000032_inline.xml	2	3	7	9	109	maar	27
-WR-P-P-H-0000000032_inline.xml	2	3	7	10	110	een	27|(1)
-WR-P-P-H-0000000032_inline.xml	2	3	7	11	111	eenvoudige	27|(1)
-WR-P-P-H-0000000032_inline.xml	2	3	7	12	112	optocht	27|(1)
-WR-P-P-H-0000000032_inline.xml	2	3	7	13	113	met	27|(1)
-WR-P-P-H-0000000032_inline.xml	2	3	7	14	114	ballonnen	27|(1)|(32|(33)
-WR-P-P-H-0000000032_inline.xml	2	3	7	15	115	en	27|(1)|32
-WR-P-P-H-0000000032_inline.xml	2	3	7	16	116	vrolijke	27|(1)|32|(34
-WR-P-P-H-0000000032_inline.xml	2	3	7	17	117	teksten	27|(1)|32|34
-WR-P-P-H-0000000032_inline.xml	2	3	7	18	118	op	27|(1)|32|34
-WR-P-P-H-0000000032_inline.xml	2	3	7	19	119	knullig	27|(1)|32|34|(35
-WR-P-P-H-0000000032_inline.xml	2	3	7	20	120	getimmerde	27|(1)|32|34|35
-WR-P-P-H-0000000032_inline.xml	2	3	7	21	121	borden	27)|(1)|32)|34)|35)
+WR-P-P-H-0000000032_inline.xml	2	3	7	10	110	een	27|(1
+WR-P-P-H-0000000032_inline.xml	2	3	7	11	111	eenvoudige	27|1
+WR-P-P-H-0000000032_inline.xml	2	3	7	12	112	optocht	27|1
+WR-P-P-H-0000000032_inline.xml	2	3	7	13	113	met	27|1
+WR-P-P-H-0000000032_inline.xml	2	3	7	14	114	ballonnen	27|1|(32|(33)
+WR-P-P-H-0000000032_inline.xml	2	3	7	15	115	en	27|1|32
+WR-P-P-H-0000000032_inline.xml	2	3	7	16	116	vrolijke	27|1|32|(34
+WR-P-P-H-0000000032_inline.xml	2	3	7	17	117	teksten	27|1|32|34
+WR-P-P-H-0000000032_inline.xml	2	3	7	18	118	op	27|1|32|34
+WR-P-P-H-0000000032_inline.xml	2	3	7	19	119	knullig	27|1|32|34|(35
+WR-P-P-H-0000000032_inline.xml	2	3	7	20	120	getimmerde	27|1|32|34|35
+WR-P-P-H-0000000032_inline.xml	2	3	7	21	121	borden	27)|1)|32)|34)|35)
 WR-P-P-H-0000000032_inline.xml	2	3	7	22	122	.	-
 
 WR-P-P-H-0000000032_inline.xml	3	1	8	1	123	Maar	-
-WR-P-P-H-0000000032_inline.xml	3	1	8	2	124	de	(1)
-WR-P-P-H-0000000032_inline.xml	3	1	8	3	125	parade	(1)
+WR-P-P-H-0000000032_inline.xml	3	1	8	2	124	de	(1
+WR-P-P-H-0000000032_inline.xml	3	1	8	3	125	parade	1)
 WR-P-P-H-0000000032_inline.xml	3	1	8	4	126	wordt	-
 WR-P-P-H-0000000032_inline.xml	3	1	8	5	127	's	-
 WR-P-P-H-0000000032_inline.xml	3	1	8	6	128	middags	-
@@ -185,10 +185,10 @@ WR-P-P-H-0000000032_inline.xml	3	3	10	20	174	tenslotte	47
 WR-P-P-H-0000000032_inline.xml	3	3	10	21	175	stoelen	47)|(50)
 WR-P-P-H-0000000032_inline.xml	3	3	10	22	176	.	-
 
-WR-P-P-H-0000000032_inline.xml	3	4	11	1	177	Mannen	(10)
-WR-P-P-H-0000000032_inline.xml	3	4	11	2	178	in	(10)
-WR-P-P-H-0000000032_inline.xml	3	4	11	3	179	zwarte	(10)|(52
-WR-P-P-H-0000000032_inline.xml	3	4	11	4	180	jacks	(10)|52)
+WR-P-P-H-0000000032_inline.xml	3	4	11	1	177	Mannen	(10
+WR-P-P-H-0000000032_inline.xml	3	4	11	2	178	in	10
+WR-P-P-H-0000000032_inline.xml	3	4	11	3	179	zwarte	10|(52
+WR-P-P-H-0000000032_inline.xml	3	4	11	4	180	jacks	10)|52)
 WR-P-P-H-0000000032_inline.xml	3	4	11	5	181	communiceren	-
 WR-P-P-H-0000000032_inline.xml	3	4	11	6	182	per	-
 WR-P-P-H-0000000032_inline.xml	3	4	11	7	183	portofoon	(53)
@@ -197,32 +197,32 @@ WR-P-P-H-0000000032_inline.xml	3	4	11	8	184	.	-
 WR-P-P-H-0000000032_inline.xml	3	5	12	1	185	Hoogstwaarschijnlijk	-
 WR-P-P-H-0000000032_inline.xml	3	5	12	2	186	zijn	-
 WR-P-P-H-0000000032_inline.xml	3	5	12	3	187	het	(10)
-WR-P-P-H-0000000032_inline.xml	3	5	12	4	188	jongens	(10)
-WR-P-P-H-0000000032_inline.xml	3	5	12	5	189	van	(10)
-WR-P-P-H-0000000032_inline.xml	3	5	12	6	190	Vojislav	(10)|(56
-WR-P-P-H-0000000032_inline.xml	3	5	12	7	191	Seselj	(10)|56)
-WR-P-P-H-0000000032_inline.xml	3	5	12	8	192	,	(10)
-WR-P-P-H-0000000032_inline.xml	3	5	12	9	193	de	(10)|(56|(135
-WR-P-P-H-0000000032_inline.xml	3	5	12	10	194	ultra-nationalistische	(10)|56|135
-WR-P-P-H-0000000032_inline.xml	3	5	12	11	195	leider	(10)|56|135
-WR-P-P-H-0000000032_inline.xml	3	5	12	12	196	van	(10)|56|135
-WR-P-P-H-0000000032_inline.xml	3	5	12	13	197	de	(10)|56|135|(58
-WR-P-P-H-0000000032_inline.xml	3	5	12	14	198	Radicale	(10)|56|135|58
-WR-P-P-H-0000000032_inline.xml	3	5	12	15	199	Partij	(10)|56|135|58)
-WR-P-P-H-0000000032_inline.xml	3	5	12	16	200	die	(10)|56|135
-WR-P-P-H-0000000032_inline.xml	3	5	12	17	201	zijn	(10)|56|135|(59|135
-WR-P-P-H-0000000032_inline.xml	3	5	12	18	202	uiterste	(10)|56|135|59
-WR-P-P-H-0000000032_inline.xml	3	5	12	19	203	best	(10)|56|135|59)
-WR-P-P-H-0000000032_inline.xml	3	5	12	20	204	doet	(10)|56|135
-WR-P-P-H-0000000032_inline.xml	3	5	12	21	205	Servië	(10)|56|135|(61)
-WR-P-P-H-0000000032_inline.xml	3	5	12	22	206	op	(10)|56|135
-WR-P-P-H-0000000032_inline.xml	3	5	12	23	207	wat	(10)|56|135|(62
-WR-P-P-H-0000000032_inline.xml	3	5	12	24	208	voor	(10)|56|135|62
-WR-P-P-H-0000000032_inline.xml	3	5	12	25	209	manier	(10)|56|135|62
-WR-P-P-H-0000000032_inline.xml	3	5	12	26	210	dan	(10)|56|135|62
-WR-P-P-H-0000000032_inline.xml	3	5	12	27	211	ook	(10)|56|135|62)
-WR-P-P-H-0000000032_inline.xml	3	5	12	28	212	te	(10)|56|135
-WR-P-P-H-0000000032_inline.xml	3	5	12	29	213	destabiliseren	(10)|56)|135)
+WR-P-P-H-0000000032_inline.xml	3	5	12	4	188	jongens	(10
+WR-P-P-H-0000000032_inline.xml	3	5	12	5	189	van	10
+WR-P-P-H-0000000032_inline.xml	3	5	12	6	190	Vojislav	10|(56
+WR-P-P-H-0000000032_inline.xml	3	5	12	7	191	Seselj	10|56)
+WR-P-P-H-0000000032_inline.xml	3	5	12	8	192	,	10
+WR-P-P-H-0000000032_inline.xml	3	5	12	9	193	de	10|(56|(135
+WR-P-P-H-0000000032_inline.xml	3	5	12	10	194	ultra-nationalistische	10|56|135
+WR-P-P-H-0000000032_inline.xml	3	5	12	11	195	leider	10|56|135
+WR-P-P-H-0000000032_inline.xml	3	5	12	12	196	van	10|56|135
+WR-P-P-H-0000000032_inline.xml	3	5	12	13	197	de	10|56|135|(58
+WR-P-P-H-0000000032_inline.xml	3	5	12	14	198	Radicale	10|56|135|58
+WR-P-P-H-0000000032_inline.xml	3	5	12	15	199	Partij	10|56|135|58)
+WR-P-P-H-0000000032_inline.xml	3	5	12	16	200	die	10|56|135
+WR-P-P-H-0000000032_inline.xml	3	5	12	17	201	zijn	10|56|135|(59|135
+WR-P-P-H-0000000032_inline.xml	3	5	12	18	202	uiterste	10|56|135|59
+WR-P-P-H-0000000032_inline.xml	3	5	12	19	203	best	10|56|135|59)
+WR-P-P-H-0000000032_inline.xml	3	5	12	20	204	doet	10|56|135
+WR-P-P-H-0000000032_inline.xml	3	5	12	21	205	Servië	10|56|135|(61)
+WR-P-P-H-0000000032_inline.xml	3	5	12	22	206	op	10|56|135
+WR-P-P-H-0000000032_inline.xml	3	5	12	23	207	wat	10|56|135|(62
+WR-P-P-H-0000000032_inline.xml	3	5	12	24	208	voor	10|56|135|62
+WR-P-P-H-0000000032_inline.xml	3	5	12	25	209	manier	10|56|135|62
+WR-P-P-H-0000000032_inline.xml	3	5	12	26	210	dan	10|56|135|62
+WR-P-P-H-0000000032_inline.xml	3	5	12	27	211	ook	10|56|135|62)
+WR-P-P-H-0000000032_inline.xml	3	5	12	28	212	te	10|56|135
+WR-P-P-H-0000000032_inline.xml	3	5	12	29	213	destabiliseren	10)|56)|135)
 WR-P-P-H-0000000032_inline.xml	3	5	12	30	214	.	-
 
 WR-P-P-H-0000000032_inline.xml	4	1	13	1	215	Homoseksualiteit	(44)
@@ -257,17 +257,17 @@ WR-P-P-H-0000000032_inline.xml	5	1	15	6	241	plein	38)
 WR-P-P-H-0000000032_inline.xml	5	1	15	7	242	nadert	-
 WR-P-P-H-0000000032_inline.xml	5	1	15	8	243	,	-
 WR-P-P-H-0000000032_inline.xml	5	1	15	9	244	rent	-
-WR-P-P-H-0000000032_inline.xml	5	1	15	10	245	de	(10)
-WR-P-P-H-0000000032_inline.xml	5	1	15	11	246	horde	(10)
-WR-P-P-H-0000000032_inline.xml	5	1	15	12	247	jongeren	(10)|(70)
+WR-P-P-H-0000000032_inline.xml	5	1	15	10	245	de	(10
+WR-P-P-H-0000000032_inline.xml	5	1	15	11	246	horde	10
+WR-P-P-H-0000000032_inline.xml	5	1	15	12	247	jongeren	10)|(70)
 WR-P-P-H-0000000032_inline.xml	5	1	15	13	248	erheen	-
 WR-P-P-H-0000000032_inline.xml	5	1	15	14	249	.	-
 
 WR-P-P-H-0000000032_inline.xml	5	2	16	1	250	Svetlana	(5)
 WR-P-P-H-0000000032_inline.xml	5	2	16	2	251	is	-
-WR-P-P-H-0000000032_inline.xml	5	2	16	3	252	het	(5)
-WR-P-P-H-0000000032_inline.xml	5	2	16	4	253	eerste	(5)
-WR-P-P-H-0000000032_inline.xml	5	2	16	5	254	slachtoffer	(5)
+WR-P-P-H-0000000032_inline.xml	5	2	16	3	252	het	(5
+WR-P-P-H-0000000032_inline.xml	5	2	16	4	253	eerste	5
+WR-P-P-H-0000000032_inline.xml	5	2	16	5	254	slachtoffer	5)
 WR-P-P-H-0000000032_inline.xml	5	2	16	6	255	.	-
 
 WR-P-P-H-0000000032_inline.xml	5	3	17	1	256	Ze	(5)
@@ -320,8 +320,8 @@ WR-P-P-H-0000000032_inline.xml	5	5	19	11	300	White	86|87
 WR-P-P-H-0000000032_inline.xml	5	5	19	12	301	Power	86)|87)
 WR-P-P-H-0000000032_inline.xml	5	5	19	13	302	.	-
 
-WR-P-P-H-0000000032_inline.xml	5	6	20	1	303	De	(10)
-WR-P-P-H-0000000032_inline.xml	5	6	20	2	304	jongeren	(10)
+WR-P-P-H-0000000032_inline.xml	5	6	20	1	303	De	(10
+WR-P-P-H-0000000032_inline.xml	5	6	20	2	304	jongeren	10)
 WR-P-P-H-0000000032_inline.xml	5	6	20	3	305	hebben	-
 WR-P-P-H-0000000032_inline.xml	5	6	20	4	306	echter	-
 WR-P-P-H-0000000032_inline.xml	5	6	20	5	307	alweer	-
@@ -425,16 +425,16 @@ WR-P-P-H-0000000032_inline.xml	7	1	27	10	397	vijf	(109
 WR-P-P-H-0000000032_inline.xml	7	1	27	11	398	zwaargewonden	109)
 WR-P-P-H-0000000032_inline.xml	7	1	27	12	399	.	-
 
-WR-P-P-H-0000000032_inline.xml	7	2	28	1	400	Veel	(89)
-WR-P-P-H-0000000032_inline.xml	7	2	28	2	401	meer	(89)
-WR-P-P-H-0000000032_inline.xml	7	2	28	3	402	mensen	(89)
-WR-P-P-H-0000000032_inline.xml	7	2	28	4	403	met	(89)
-WR-P-P-H-0000000032_inline.xml	7	2	28	5	404	builen	(89)|(111|(112)
-WR-P-P-H-0000000032_inline.xml	7	2	28	6	405	,	(89)|111
-WR-P-P-H-0000000032_inline.xml	7	2	28	7	406	schrammen	(89)|111|(113)
-WR-P-P-H-0000000032_inline.xml	7	2	28	8	407	en	(89)|111
-WR-P-P-H-0000000032_inline.xml	7	2	28	9	408	blauwe	(89)|111|(114
-WR-P-P-H-0000000032_inline.xml	7	2	28	10	409	plekken	(89)|111)|114)
+WR-P-P-H-0000000032_inline.xml	7	2	28	1	400	Veel	(89
+WR-P-P-H-0000000032_inline.xml	7	2	28	2	401	meer	89
+WR-P-P-H-0000000032_inline.xml	7	2	28	3	402	mensen	89
+WR-P-P-H-0000000032_inline.xml	7	2	28	4	403	met	89
+WR-P-P-H-0000000032_inline.xml	7	2	28	5	404	builen	89|(111|(112)
+WR-P-P-H-0000000032_inline.xml	7	2	28	6	405	,	89|111
+WR-P-P-H-0000000032_inline.xml	7	2	28	7	406	schrammen	89|111|(113)
+WR-P-P-H-0000000032_inline.xml	7	2	28	8	407	en	89|111
+WR-P-P-H-0000000032_inline.xml	7	2	28	9	408	blauwe	89|111|(114
+WR-P-P-H-0000000032_inline.xml	7	2	28	10	409	plekken	89)|111)|114)
 WR-P-P-H-0000000032_inline.xml	7	2	28	11	410	hebben	-
 WR-P-P-H-0000000032_inline.xml	7	2	28	12	411	zich	(115)
 WR-P-P-H-0000000032_inline.xml	7	2	28	13	412	echter	-
@@ -495,3 +495,4 @@ WR-P-P-H-0000000032_inline.xml	8	3	32	16	462	kan	132
 WR-P-P-H-0000000032_inline.xml	8	3	32	17	463	uitbrengen	132)
 WR-P-P-H-0000000032_inline.xml	8	3	32	18	464	.	-
 
+#end document

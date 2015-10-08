@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000076_inline.xml); part 000
 WR-P-P-H-0000000076_inline.xml	1	1	1	1	1	ALMERE	(1)
 WR-P-P-H-0000000076_inline.xml	1	1	1	2	2	-	-
 
@@ -74,12 +74,12 @@ WR-P-P-H-0000000076_inline.xml	1	8	8	2	65	gaat	-
 WR-P-P-H-0000000076_inline.xml	1	8	8	3	66	hier	-
 WR-P-P-H-0000000076_inline.xml	1	8	8	4	67	niet	-
 WR-P-P-H-0000000076_inline.xml	1	8	8	5	68	om	-
-WR-P-P-H-0000000076_inline.xml	1	8	8	6	69	lieve	(5)
-WR-P-P-H-0000000076_inline.xml	1	8	8	7	70	luistermuziek	(5)
+WR-P-P-H-0000000076_inline.xml	1	8	8	6	69	lieve	(5
+WR-P-P-H-0000000076_inline.xml	1	8	8	7	70	luistermuziek	5)
 WR-P-P-H-0000000076_inline.xml	1	8	8	8	71	maar	-
 WR-P-P-H-0000000076_inline.xml	1	8	8	9	72	om	-
-WR-P-P-H-0000000076_inline.xml	1	8	8	10	73	stevige	(5)
-WR-P-P-H-0000000076_inline.xml	1	8	8	11	74	kleuterpop	(5)
+WR-P-P-H-0000000076_inline.xml	1	8	8	10	73	stevige	(5
+WR-P-P-H-0000000076_inline.xml	1	8	8	11	74	kleuterpop	5)
 WR-P-P-H-0000000076_inline.xml	1	8	8	12	75	.	-
 
 WR-P-P-H-0000000076_inline.xml	2	1	9	1	76	Na	-
@@ -157,11 +157,11 @@ WR-P-P-H-0000000076_inline.xml	2	4	12	3	144	in	-
 WR-P-P-H-0000000076_inline.xml	2	4	12	4	145	Almere	(3)
 WR-P-P-H-0000000076_inline.xml	2	4	12	5	146	.	-
 
-WR-P-P-H-0000000076_inline.xml	2	5	13	1	147	Zanger	(41|(4)
-WR-P-P-H-0000000076_inline.xml	2	5	13	2	148	en	41|(4)
-WR-P-P-H-0000000076_inline.xml	2	5	13	3	149	percussionist	41|(4)|(42
-WR-P-P-H-0000000076_inline.xml	2	5	13	4	150	Gino	41|(4)|42
-WR-P-P-H-0000000076_inline.xml	2	5	13	5	151	Weijsters	41)|(4)|42)
+WR-P-P-H-0000000076_inline.xml	2	5	13	1	147	Zanger	(41|(4
+WR-P-P-H-0000000076_inline.xml	2	5	13	2	148	en	41|4
+WR-P-P-H-0000000076_inline.xml	2	5	13	3	149	percussionist	41|4|(42
+WR-P-P-H-0000000076_inline.xml	2	5	13	4	150	Gino	41|4|42
+WR-P-P-H-0000000076_inline.xml	2	5	13	5	151	Weijsters	41)|4)|42)
 WR-P-P-H-0000000076_inline.xml	2	5	13	6	152	zet	-
 WR-P-P-H-0000000076_inline.xml	2	5	13	7	153	in	-
 WR-P-P-H-0000000076_inline.xml	2	5	13	8	154	met	-
@@ -200,12 +200,12 @@ WR-P-P-H-0000000076_inline.xml	3	1	14	3	185	verbazend	-
 WR-P-P-H-0000000076_inline.xml	3	1	14	4	186	,	-
 WR-P-P-H-0000000076_inline.xml	3	1	14	5	187	want	-
 WR-P-P-H-0000000076_inline.xml	3	1	14	6	188	van	-
-WR-P-P-H-0000000076_inline.xml	3	1	14	7	189	de	(4)|(53
-WR-P-P-H-0000000076_inline.xml	3	1	14	8	190	teksten	(4)|53)
-WR-P-P-H-0000000076_inline.xml	3	1	14	9	191	en	(4)
-WR-P-P-H-0000000076_inline.xml	3	1	14	10	192	de	(4)|(54
-WR-P-P-H-0000000076_inline.xml	3	1	14	11	193	muzikale	(4)|54
-WR-P-P-H-0000000076_inline.xml	3	1	14	12	194	arrangementen	(4)|54)
+WR-P-P-H-0000000076_inline.xml	3	1	14	7	189	de	(4|(53
+WR-P-P-H-0000000076_inline.xml	3	1	14	8	190	teksten	4|53)
+WR-P-P-H-0000000076_inline.xml	3	1	14	9	191	en	4
+WR-P-P-H-0000000076_inline.xml	3	1	14	10	192	de	4|(54
+WR-P-P-H-0000000076_inline.xml	3	1	14	11	193	muzikale	4|54
+WR-P-P-H-0000000076_inline.xml	3	1	14	12	194	arrangementen	4)|54)
 WR-P-P-H-0000000076_inline.xml	3	1	14	13	195	kunnen	-
 WR-P-P-H-0000000076_inline.xml	3	1	14	14	196	er	-
 WR-P-P-H-0000000076_inline.xml	3	1	14	15	197	wel	-
@@ -222,10 +222,10 @@ WR-P-P-H-0000000076_inline.xml	3	2	15	4	206	daarin	-
 WR-P-P-H-0000000076_inline.xml	3	2	15	5	207	de	(57
 WR-P-P-H-0000000076_inline.xml	3	2	15	6	208	kracht	57
 WR-P-P-H-0000000076_inline.xml	3	2	15	7	209	van	57
-WR-P-P-H-0000000076_inline.xml	3	2	15	8	210	De	57|(4)
-WR-P-P-H-0000000076_inline.xml	3	2	15	9	211	Band	57|(4)
-WR-P-P-H-0000000076_inline.xml	3	2	15	10	212	Krijgt	57|(4)
-WR-P-P-H-0000000076_inline.xml	3	2	15	11	213	Kinderen	57)|(4)
+WR-P-P-H-0000000076_inline.xml	3	2	15	8	210	De	57|(4
+WR-P-P-H-0000000076_inline.xml	3	2	15	9	211	Band	57|4
+WR-P-P-H-0000000076_inline.xml	3	2	15	10	212	Krijgt	57|4
+WR-P-P-H-0000000076_inline.xml	3	2	15	11	213	Kinderen	57)|4)
 WR-P-P-H-0000000076_inline.xml	3	2	15	12	214	.	-
 
 WR-P-P-H-0000000076_inline.xml	3	3	16	1	215	Het	(4)
@@ -398,8 +398,8 @@ WR-P-P-H-0000000076_inline.xml	4	4	23	16	374	een	(107
 WR-P-P-H-0000000076_inline.xml	4	4	23	17	375	jongerenconcert	107)
 WR-P-P-H-0000000076_inline.xml	4	4	23	18	376	dan	-
 WR-P-P-H-0000000076_inline.xml	4	4	23	19	377	bij	-
-WR-P-P-H-0000000076_inline.xml	4	4	23	20	378	een	(4)
-WR-P-P-H-0000000076_inline.xml	4	4	23	21	379	kleuterconcert	(4)
+WR-P-P-H-0000000076_inline.xml	4	4	23	20	378	een	(4
+WR-P-P-H-0000000076_inline.xml	4	4	23	21	379	kleuterconcert	4)
 WR-P-P-H-0000000076_inline.xml	4	4	23	22	380	.	-
 
 WR-P-P-H-0000000076_inline.xml	4	5	24	1	381	De	(94
@@ -423,8 +423,8 @@ WR-P-P-H-0000000076_inline.xml	4	5	24	17	397	.	-
 WR-P-P-H-0000000076_inline.xml	4	6	25	1	398	De	(115
 WR-P-P-H-0000000076_inline.xml	4	6	25	2	399	cd	115
 WR-P-P-H-0000000076_inline.xml	4	6	25	3	400	van	115
-WR-P-P-H-0000000076_inline.xml	4	6	25	4	401	de	115|(4)
-WR-P-P-H-0000000076_inline.xml	4	6	25	5	402	band	115)|(4)
+WR-P-P-H-0000000076_inline.xml	4	6	25	4	401	de	115|(4
+WR-P-P-H-0000000076_inline.xml	4	6	25	5	402	band	115)|4)
 WR-P-P-H-0000000076_inline.xml	4	6	25	6	403	laat	-
 WR-P-P-H-0000000076_inline.xml	4	6	25	7	404	meer	(117
 WR-P-P-H-0000000076_inline.xml	4	6	25	8	405	variatie	117
@@ -462,17 +462,17 @@ WR-P-P-H-0000000076_inline.xml	4	8	27	8	434	meer	128
 WR-P-P-H-0000000076_inline.xml	4	8	27	9	435	schwung	128)
 WR-P-P-H-0000000076_inline.xml	4	8	27	10	436	.	-
 
-WR-P-P-H-0000000076_inline.xml	5	1	28	1	437	De	(4)
-WR-P-P-H-0000000076_inline.xml	5	1	28	2	438	Band	(4)
-WR-P-P-H-0000000076_inline.xml	5	1	28	3	439	Krijgt	(4)
-WR-P-P-H-0000000076_inline.xml	5	1	28	4	440	Kinderen	(4)
+WR-P-P-H-0000000076_inline.xml	5	1	28	1	437	De	(4
+WR-P-P-H-0000000076_inline.xml	5	1	28	2	438	Band	4
+WR-P-P-H-0000000076_inline.xml	5	1	28	3	439	Krijgt	4
+WR-P-P-H-0000000076_inline.xml	5	1	28	4	440	Kinderen	4)
 WR-P-P-H-0000000076_inline.xml	5	1	28	5	441	is	-
 WR-P-P-H-0000000076_inline.xml	5	1	28	6	442	inderdaad	-
-WR-P-P-H-0000000076_inline.xml	5	1	28	7	443	een	(4)
-WR-P-P-H-0000000076_inline.xml	5	1	28	8	444	band	(4)
-WR-P-P-H-0000000076_inline.xml	5	1	28	9	445	die	(4)
-WR-P-P-H-0000000076_inline.xml	5	1	28	10	446	kinderen	(4)|(131)
-WR-P-P-H-0000000076_inline.xml	5	1	28	11	447	kreeg	(4)
+WR-P-P-H-0000000076_inline.xml	5	1	28	7	443	een	(4
+WR-P-P-H-0000000076_inline.xml	5	1	28	8	444	band	4
+WR-P-P-H-0000000076_inline.xml	5	1	28	9	445	die	4
+WR-P-P-H-0000000076_inline.xml	5	1	28	10	446	kinderen	4|(131)
+WR-P-P-H-0000000076_inline.xml	5	1	28	11	447	kreeg	4)
 WR-P-P-H-0000000076_inline.xml	5	1	28	12	448	,	-
 WR-P-P-H-0000000076_inline.xml	5	1	28	13	449	vertelt	-
 WR-P-P-H-0000000076_inline.xml	5	1	28	14	450	Gino	(88
@@ -482,17 +482,17 @@ WR-P-P-H-0000000076_inline.xml	5	1	28	16	452	.	-
 WR-P-P-H-0000000076_inline.xml	5	2	29	1	453	,,	-
 WR-P-P-H-0000000076_inline.xml	5	2	29	2	454	We	(88)
 WR-P-P-H-0000000076_inline.xml	5	2	29	3	455	zijn	-
-WR-P-P-H-0000000076_inline.xml	5	2	29	4	456	muzikanten	(88)
-WR-P-P-H-0000000076_inline.xml	5	2	29	5	457	,	(88)
-WR-P-P-H-0000000076_inline.xml	5	2	29	6	458	die	(88)
-WR-P-P-H-0000000076_inline.xml	5	2	29	7	459	het	(88)|(135
-WR-P-P-H-0000000076_inline.xml	5	2	29	8	460	bekende	(88)|135
-WR-P-P-H-0000000076_inline.xml	5	2	29	9	461	traject	(88)|135
-WR-P-P-H-0000000076_inline.xml	5	2	29	10	462	in	(88)|135
-WR-P-P-H-0000000076_inline.xml	5	2	29	11	463	het	(88)|135|(136
-WR-P-P-H-0000000076_inline.xml	5	2	29	12	464	popcircuit	(88)|135)|136)
-WR-P-P-H-0000000076_inline.xml	5	2	29	13	465	hebben	(88)
-WR-P-P-H-0000000076_inline.xml	5	2	29	14	466	doorlopen	(88)
+WR-P-P-H-0000000076_inline.xml	5	2	29	4	456	muzikanten	(88
+WR-P-P-H-0000000076_inline.xml	5	2	29	5	457	,	88
+WR-P-P-H-0000000076_inline.xml	5	2	29	6	458	die	88
+WR-P-P-H-0000000076_inline.xml	5	2	29	7	459	het	88|(135
+WR-P-P-H-0000000076_inline.xml	5	2	29	8	460	bekende	88|135
+WR-P-P-H-0000000076_inline.xml	5	2	29	9	461	traject	88|135
+WR-P-P-H-0000000076_inline.xml	5	2	29	10	462	in	88|135
+WR-P-P-H-0000000076_inline.xml	5	2	29	11	463	het	88|135|(136
+WR-P-P-H-0000000076_inline.xml	5	2	29	12	464	popcircuit	88|135)|136)
+WR-P-P-H-0000000076_inline.xml	5	2	29	13	465	hebben	88
+WR-P-P-H-0000000076_inline.xml	5	2	29	14	466	doorlopen	88)
 WR-P-P-H-0000000076_inline.xml	5	2	29	15	467	.	-
 
 WR-P-P-H-0000000076_inline.xml	5	3	30	1	468	Je	(137)
@@ -537,8 +537,8 @@ WR-P-P-H-0000000076_inline.xml	5	4	31	22	504	.	-
 WR-P-P-H-0000000076_inline.xml	5	5	32	1	505	Muziek	(148|(149)
 WR-P-P-H-0000000076_inline.xml	5	5	32	2	506	maken	148
 WR-P-P-H-0000000076_inline.xml	5	5	32	3	507	met	148
-WR-P-P-H-0000000076_inline.xml	5	5	32	4	508	deze	148|(4)
-WR-P-P-H-0000000076_inline.xml	5	5	32	5	509	band	148)|(4)
+WR-P-P-H-0000000076_inline.xml	5	5	32	4	508	deze	148|(4
+WR-P-P-H-0000000076_inline.xml	5	5	32	5	509	band	148)|4)
 WR-P-P-H-0000000076_inline.xml	5	5	32	6	510	past	-
 WR-P-P-H-0000000076_inline.xml	5	5	32	7	511	beter	-
 WR-P-P-H-0000000076_inline.xml	5	5	32	8	512	bij	-
@@ -562,10 +562,10 @@ WR-P-P-H-0000000076_inline.xml	5	5	32	24	528	''	-
 WR-P-P-H-0000000076_inline.xml	6	1	33	1	529	Bovendien	-
 WR-P-P-H-0000000076_inline.xml	6	1	33	2	530	is	-
 WR-P-P-H-0000000076_inline.xml	6	1	33	3	531	'	-
-WR-P-P-H-0000000076_inline.xml	6	1	33	4	532	Nederpop	(5)
-WR-P-P-H-0000000076_inline.xml	6	1	33	5	533	'	(5)
-WR-P-P-H-0000000076_inline.xml	6	1	33	6	534	voor	(5)
-WR-P-P-H-0000000076_inline.xml	6	1	33	7	535	kleuters	(5)|(156)
+WR-P-P-H-0000000076_inline.xml	6	1	33	4	532	Nederpop	(5
+WR-P-P-H-0000000076_inline.xml	6	1	33	5	533	'	5
+WR-P-P-H-0000000076_inline.xml	6	1	33	6	534	voor	5
+WR-P-P-H-0000000076_inline.xml	6	1	33	7	535	kleuters	5)|(156)
 WR-P-P-H-0000000076_inline.xml	6	1	33	8	536	een	(157
 WR-P-P-H-0000000076_inline.xml	6	1	33	9	537	gat	157
 WR-P-P-H-0000000076_inline.xml	6	1	33	10	538	in	157
@@ -610,8 +610,8 @@ WR-P-P-H-0000000076_inline.xml	6	3	35	19	574	te	-
 WR-P-P-H-0000000076_inline.xml	6	3	35	20	575	zingen	-
 WR-P-P-H-0000000076_inline.xml	6	3	35	21	576	.	-
 
-WR-P-P-H-0000000076_inline.xml	6	4	36	1	577	De	(4)
-WR-P-P-H-0000000076_inline.xml	6	4	36	2	578	kinderband	(4)
+WR-P-P-H-0000000076_inline.xml	6	4	36	1	577	De	(4
+WR-P-P-H-0000000076_inline.xml	6	4	36	2	578	kinderband	4)
 WR-P-P-H-0000000076_inline.xml	6	4	36	3	579	koos	-
 WR-P-P-H-0000000076_inline.xml	6	4	36	4	580	daarom	-
 WR-P-P-H-0000000076_inline.xml	6	4	36	5	581	voor	-
@@ -690,10 +690,10 @@ WR-P-P-H-0000000076_inline.xml	6	8	40	13	649	hebben	188)
 WR-P-P-H-0000000076_inline.xml	6	8	40	14	650	.	-
 WR-P-P-H-0000000076_inline.xml	6	8	40	15	651	''	-
 
-WR-P-P-H-0000000076_inline.xml	7	1	41	1	652	De	(4)
-WR-P-P-H-0000000076_inline.xml	7	1	41	2	653	Band	(4)
-WR-P-P-H-0000000076_inline.xml	7	1	41	3	654	Krijgt	(4)
-WR-P-P-H-0000000076_inline.xml	7	1	41	4	655	Kinderen	(4)
+WR-P-P-H-0000000076_inline.xml	7	1	41	1	652	De	(4
+WR-P-P-H-0000000076_inline.xml	7	1	41	2	653	Band	4
+WR-P-P-H-0000000076_inline.xml	7	1	41	3	654	Krijgt	4
+WR-P-P-H-0000000076_inline.xml	7	1	41	4	655	Kinderen	4)
 WR-P-P-H-0000000076_inline.xml	7	1	41	5	656	speelt	-
 WR-P-P-H-0000000076_inline.xml	7	1	41	6	657	7/7	(193|(194
 WR-P-P-H-0000000076_inline.xml	7	1	41	7	658	in	193|194
@@ -711,3 +711,4 @@ WR-P-P-H-0000000076_inline.xml	7	2	42	4	668	website	198|199
 WR-P-P-H-0000000076_inline.xml	7	2	42	5	669	www.debandkrijgt	198|199|(200
 WR-P-P-H-0000000076_inline.xml	7	2	42	6	670	kinderen.nl	198|199|200
 
+#end document

@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000060_inline.xml); part 000
 WR-P-P-H-0000000060_inline.xml	1	1	1	1	1	BOGOTA	(1)
 WR-P-P-H-0000000060_inline.xml	1	1	1	2	2	-	-
 
@@ -72,3 +72,4 @@ WR-P-P-H-0000000060_inline.xml	1	5	5	11	66	voornaamste	21|25|23
 WR-P-P-H-0000000060_inline.xml	1	5	5	12	67	inkomstenbronnen	21)|25)|23)
 WR-P-P-H-0000000060_inline.xml	1	5	5	13	68	.	-
 
+#end document

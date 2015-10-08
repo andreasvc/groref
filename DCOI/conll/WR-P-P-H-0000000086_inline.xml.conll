@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000086_inline.xml); part 000
 WR-P-P-H-0000000086_inline.xml	1	1	1	1	1	MILAAN	(1)
 WR-P-P-H-0000000086_inline.xml	1	1	1	2	2	-	-
 
@@ -91,3 +91,4 @@ WR-P-P-H-0000000086_inline.xml	1	7	7	12	83	enige	28)|29)
 WR-P-P-H-0000000086_inline.xml	1	7	7	13	84	.	-
 WR-P-P-H-0000000086_inline.xml	1	7	7	14	85	''	-
 
+#end document

@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000003_inline.xml); part 000
 WR-P-P-H-0000000003_inline.xml	1	1	1	1	1	Na	-
 WR-P-P-H-0000000003_inline.xml	1	1	1	2	2	een	(1
 WR-P-P-H-0000000003_inline.xml	1	1	1	3	3	slappe	1
@@ -141,12 +141,12 @@ WR-P-P-H-0000000003_inline.xml	3	3	11	1	129	"	-
 WR-P-P-H-0000000003_inline.xml	3	3	11	2	130	Dit	(36)
 WR-P-P-H-0000000003_inline.xml	3	3	11	3	131	vind	-
 WR-P-P-H-0000000003_inline.xml	3	3	11	4	132	ik	(40)
-WR-P-P-H-0000000003_inline.xml	3	3	11	5	133	een	(36)
-WR-P-P-H-0000000003_inline.xml	3	3	11	6	134	van	(36)
-WR-P-P-H-0000000003_inline.xml	3	3	11	7	135	de	(36)|(42
-WR-P-P-H-0000000003_inline.xml	3	3	11	8	136	meest	(36)|42
-WR-P-P-H-0000000003_inline.xml	3	3	11	9	137	ondergewaardeerde	(36)|42
-WR-P-P-H-0000000003_inline.xml	3	3	11	10	138	fondsen	(36)|42)
+WR-P-P-H-0000000003_inline.xml	3	3	11	5	133	een	(36
+WR-P-P-H-0000000003_inline.xml	3	3	11	6	134	van	36
+WR-P-P-H-0000000003_inline.xml	3	3	11	7	135	de	36|(42
+WR-P-P-H-0000000003_inline.xml	3	3	11	8	136	meest	36|42
+WR-P-P-H-0000000003_inline.xml	3	3	11	9	137	ondergewaardeerde	36|42
+WR-P-P-H-0000000003_inline.xml	3	3	11	10	138	fondsen	36)|42)
 WR-P-P-H-0000000003_inline.xml	3	3	11	11	139	.	-
 
 WR-P-P-H-0000000003_inline.xml	3	4	12	1	140	Daar	-
@@ -300,3 +300,4 @@ WR-P-P-H-0000000003_inline.xml	9	1	23	7	276	17,4	80|(81
 WR-P-P-H-0000000003_inline.xml	9	1	23	8	277	%	80)|81)
 WR-P-P-H-0000000003_inline.xml	9	1	23	9	278	)	-
 
+#end document

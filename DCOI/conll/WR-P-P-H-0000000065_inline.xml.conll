@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000065_inline.xml); part 000
 WR-P-P-H-0000000065_inline.xml	1	1	1	1	1	Het	(1
 WR-P-P-H-0000000065_inline.xml	1	1	1	2	2	Azorenhogedrukgebied	1)
 WR-P-P-H-0000000065_inline.xml	1	1	1	3	3	wordt	-
@@ -105,9 +105,9 @@ WR-P-P-H-0000000065_inline.xml	1	8	8	1	96	Minder	-
 WR-P-P-H-0000000065_inline.xml	1	8	8	2	97	gunstig	-
 WR-P-P-H-0000000065_inline.xml	1	8	8	3	98	is	-
 WR-P-P-H-0000000065_inline.xml	1	8	8	4	99	dat	-
-WR-P-P-H-0000000065_inline.xml	1	8	8	5	100	de	(1)
-WR-P-P-H-0000000065_inline.xml	1	8	8	6	101	atmosferische	(1)
-WR-P-P-H-0000000065_inline.xml	1	8	8	7	102	vrijbuiter	(1)
+WR-P-P-H-0000000065_inline.xml	1	8	8	5	100	de	(1
+WR-P-P-H-0000000065_inline.xml	1	8	8	6	101	atmosferische	1
+WR-P-P-H-0000000065_inline.xml	1	8	8	7	102	vrijbuiter	1)
 WR-P-P-H-0000000065_inline.xml	1	8	8	8	103	in	-
 WR-P-P-H-0000000065_inline.xml	1	8	8	9	104	het	(34
 WR-P-P-H-0000000065_inline.xml	1	8	8	10	105	weekeinde	34)
@@ -120,8 +120,8 @@ WR-P-P-H-0000000065_inline.xml	1	8	8	16	111	.	-
 
 WR-P-P-H-0000000065_inline.xml	1	9	9	1	112	Daarmee	-
 WR-P-P-H-0000000065_inline.xml	1	9	9	2	113	dreigt	-
-WR-P-P-H-0000000065_inline.xml	1	9	9	3	114	het	(1)
-WR-P-P-H-0000000065_inline.xml	1	9	9	4	115	systeem	(1)
+WR-P-P-H-0000000065_inline.xml	1	9	9	3	114	het	(1
+WR-P-P-H-0000000065_inline.xml	1	9	9	4	115	systeem	1)
 WR-P-P-H-0000000065_inline.xml	1	9	9	5	116	de	(37
 WR-P-P-H-0000000065_inline.xml	1	9	9	6	117	deur	37
 WR-P-P-H-0000000065_inline.xml	1	9	9	7	118	open	37
@@ -292,11 +292,11 @@ WR-P-P-H-0000000065_inline.xml	3	2	17	7	274	omschreven	-
 WR-P-P-H-0000000065_inline.xml	3	2	17	8	275	.	-
 
 WR-P-P-H-0000000065_inline.xml	3	3	18	1	276	Na	-
-WR-P-P-H-0000000065_inline.xml	3	3	18	2	277	de	(71)
-WR-P-P-H-0000000065_inline.xml	3	3	18	3	278	buien	(71)
+WR-P-P-H-0000000065_inline.xml	3	3	18	2	277	de	(71
+WR-P-P-H-0000000065_inline.xml	3	3	18	3	278	buien	71)
 WR-P-P-H-0000000065_inline.xml	3	3	18	4	279	brak	-
-WR-P-P-H-0000000065_inline.xml	3	3	18	5	280	de	(71)
-WR-P-P-H-0000000065_inline.xml	3	3	18	6	281	bewolking	(71)
+WR-P-P-H-0000000065_inline.xml	3	3	18	5	280	de	(71
+WR-P-P-H-0000000065_inline.xml	3	3	18	6	281	bewolking	71)
 WR-P-P-H-0000000065_inline.xml	3	3	18	7	282	en	-
 WR-P-P-H-0000000065_inline.xml	3	3	18	8	283	deed	-
 WR-P-P-H-0000000065_inline.xml	3	3	18	9	284	het	(89)
@@ -376,8 +376,8 @@ WR-P-P-H-0000000065_inline.xml	3	7	23	10	352	31	(109
 WR-P-P-H-0000000065_inline.xml	3	7	23	11	353	mm.	109
 
 WR-P-P-H-0000000065_inline.xml	3	7	24	1	354	Voor	-
-WR-P-P-H-0000000065_inline.xml	3	7	24	2	355	het	(124)
-WR-P-P-H-0000000065_inline.xml	3	7	24	3	356	koufront	(124)
+WR-P-P-H-0000000065_inline.xml	3	7	24	2	355	het	(124
+WR-P-P-H-0000000065_inline.xml	3	7	24	3	356	koufront	124)
 WR-P-P-H-0000000065_inline.xml	3	7	24	4	357	nog	-
 WR-P-P-H-0000000065_inline.xml	3	7	24	5	358	wel	-
 WR-P-P-H-0000000065_inline.xml	3	7	24	6	359	de	(111
@@ -422,3 +422,4 @@ WR-P-P-H-0000000065_inline.xml	3	8	25	28	396	.	-
 
 WR-P-P-H-0000000065_inline.xml	4	1	26	1	397	www.trouw.nl/weer	(122
 
+#end document

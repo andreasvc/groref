@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000071_inline.xml); part 000
 WR-P-P-H-0000000071_inline.xml	1	1	1	1	1	De	(1
 WR-P-P-H-0000000071_inline.xml	1	1	1	2	2	abrikoos	1)
 WR-P-P-H-0000000071_inline.xml	1	1	1	3	3	dankt	-
@@ -36,8 +36,8 @@ WR-P-P-H-0000000071_inline.xml	1	2	2	22	32	.	-
 WR-P-P-H-0000000071_inline.xml	1	3	3	1	33	Zij	(5)
 WR-P-P-H-0000000071_inline.xml	1	3	3	2	34	dachten	-
 WR-P-P-H-0000000071_inline.xml	1	3	3	3	35	dat	-
-WR-P-P-H-0000000071_inline.xml	1	3	3	4	36	de	(1)
-WR-P-P-H-0000000071_inline.xml	1	3	3	5	37	abrikoos	(1)
+WR-P-P-H-0000000071_inline.xml	1	3	3	4	36	de	(1
+WR-P-P-H-0000000071_inline.xml	1	3	3	5	37	abrikoos	1)
 WR-P-P-H-0000000071_inline.xml	1	3	3	6	38	uit	-
 WR-P-P-H-0000000071_inline.xml	1	3	3	7	39	Armenië	(11)
 WR-P-P-H-0000000071_inline.xml	1	3	3	8	40	kwam	-
@@ -46,8 +46,8 @@ WR-P-P-H-0000000071_inline.xml	1	3	3	10	42	en	-
 WR-P-P-H-0000000071_inline.xml	1	3	3	11	43	noemden	-
 WR-P-P-H-0000000071_inline.xml	1	3	3	12	44	deze	(1)
 WR-P-P-H-0000000071_inline.xml	1	3	3	13	45	daarom	-
-WR-P-P-H-0000000071_inline.xml	1	3	3	14	46	prunus	(1)
-WR-P-P-H-0000000071_inline.xml	1	3	3	15	47	anneniaca	(1)
+WR-P-P-H-0000000071_inline.xml	1	3	3	14	46	prunus	(1
+WR-P-P-H-0000000071_inline.xml	1	3	3	15	47	anneniaca	1)
 WR-P-P-H-0000000071_inline.xml	1	3	3	16	48	:	-
 WR-P-P-H-0000000071_inline.xml	1	3	3	17	49	'	-
 WR-P-P-H-0000000071_inline.xml	1	3	3	18	50	Armeense	-
@@ -68,13 +68,13 @@ WR-P-P-H-0000000071_inline.xml	1	4	4	9	62	.	-
 WR-P-P-H-0000000071_inline.xml	2	1	5	1	63	In	-
 WR-P-P-H-0000000071_inline.xml	2	1	5	2	64	werkelijkheid	(16)
 WR-P-P-H-0000000071_inline.xml	2	1	5	3	65	stamt	-
-WR-P-P-H-0000000071_inline.xml	2	1	5	4	66	de	(1)|(129
-WR-P-P-H-0000000071_inline.xml	2	1	5	5	67	abrikoos	(1)|129)
-WR-P-P-H-0000000071_inline.xml	2	1	5	6	68	,	(1)
-WR-P-P-H-0000000071_inline.xml	2	1	5	7	69	althans	(1)
-WR-P-P-H-0000000071_inline.xml	2	1	5	8	70	de	(1)|(18
-WR-P-P-H-0000000071_inline.xml	2	1	5	9	71	wilde	(1)|18
-WR-P-P-H-0000000071_inline.xml	2	1	5	10	72	voorloper	(1)|18)
+WR-P-P-H-0000000071_inline.xml	2	1	5	4	66	de	(1|(129
+WR-P-P-H-0000000071_inline.xml	2	1	5	5	67	abrikoos	1|129)
+WR-P-P-H-0000000071_inline.xml	2	1	5	6	68	,	1
+WR-P-P-H-0000000071_inline.xml	2	1	5	7	69	althans	1
+WR-P-P-H-0000000071_inline.xml	2	1	5	8	70	de	1|(18
+WR-P-P-H-0000000071_inline.xml	2	1	5	9	71	wilde	1|18
+WR-P-P-H-0000000071_inline.xml	2	1	5	10	72	voorloper	1)|18)
 WR-P-P-H-0000000071_inline.xml	2	1	5	11	73	,	-
 WR-P-P-H-0000000071_inline.xml	2	1	5	12	74	uit	-
 WR-P-P-H-0000000071_inline.xml	2	1	5	13	75	het	(19
@@ -87,8 +87,8 @@ WR-P-P-H-0000000071_inline.xml	2	2	6	2	80	waren	-
 WR-P-P-H-0000000071_inline.xml	2	2	6	3	81	de	(21
 WR-P-P-H-0000000071_inline.xml	2	2	6	4	82	Chinezen	21
 WR-P-P-H-0000000071_inline.xml	2	2	6	5	83	die	21
-WR-P-P-H-0000000071_inline.xml	2	2	6	6	84	de	21|(1)
-WR-P-P-H-0000000071_inline.xml	2	2	6	7	85	vrucht	21|(1)
+WR-P-P-H-0000000071_inline.xml	2	2	6	6	84	de	21|(1
+WR-P-P-H-0000000071_inline.xml	2	2	6	7	85	vrucht	21|1)
 WR-P-P-H-0000000071_inline.xml	2	2	6	8	86	meer	21
 WR-P-P-H-0000000071_inline.xml	2	2	6	9	87	dan	21
 WR-P-P-H-0000000071_inline.xml	2	2	6	10	88	2000	21|(23)
@@ -104,8 +104,8 @@ WR-P-P-H-0000000071_inline.xml	2	3	7	2	96	toedoen	(26
 WR-P-P-H-0000000071_inline.xml	2	3	7	3	97	van	26
 WR-P-P-H-0000000071_inline.xml	2	3	7	4	98	zijdehandelaren	26)|(27)
 WR-P-P-H-0000000071_inline.xml	2	3	7	5	99	verspreidde	-
-WR-P-P-H-0000000071_inline.xml	2	3	7	6	100	de	(1)
-WR-P-P-H-0000000071_inline.xml	2	3	7	7	101	abrikoos	(1)
+WR-P-P-H-0000000071_inline.xml	2	3	7	6	100	de	(1
+WR-P-P-H-0000000071_inline.xml	2	3	7	7	101	abrikoos	1)
 WR-P-P-H-0000000071_inline.xml	2	3	7	8	102	zich	(1)
 WR-P-P-H-0000000071_inline.xml	2	3	7	9	103	daarna	-
 WR-P-P-H-0000000071_inline.xml	2	3	7	10	104	westwaarts	-
@@ -124,10 +124,10 @@ WR-P-P-H-0000000071_inline.xml	2	3	7	22	116	,	34
 WR-P-P-H-0000000071_inline.xml	2	3	7	23	117	waar	34
 WR-P-P-H-0000000071_inline.xml	2	3	7	24	118	men	34|(130)
 WR-P-P-H-0000000071_inline.xml	2	3	7	25	119	van	34
-WR-P-P-H-0000000071_inline.xml	2	3	7	26	120	een	34|(1)
-WR-P-P-H-0000000071_inline.xml	2	3	7	27	121	'	34|(1)
-WR-P-P-H-0000000071_inline.xml	2	3	7	28	122	gele	34|(1)
-WR-P-P-H-0000000071_inline.xml	2	3	7	29	123	pruim	34|(1)
+WR-P-P-H-0000000071_inline.xml	2	3	7	26	120	een	34|(1
+WR-P-P-H-0000000071_inline.xml	2	3	7	27	121	'	34|1
+WR-P-P-H-0000000071_inline.xml	2	3	7	28	122	gele	34|1
+WR-P-P-H-0000000071_inline.xml	2	3	7	29	123	pruim	34|1)
 WR-P-P-H-0000000071_inline.xml	2	3	7	30	124	'	34
 WR-P-P-H-0000000071_inline.xml	2	3	7	31	125	sprak	34)
 WR-P-P-H-0000000071_inline.xml	2	3	7	32	126	.	-
@@ -144,8 +144,8 @@ WR-P-P-H-0000000071_inline.xml	2	4	8	9	135	en	39
 WR-P-P-H-0000000071_inline.xml	2	4	8	10	136	Rome	39)|(41)
 WR-P-P-H-0000000071_inline.xml	2	4	8	11	137	kennis	-
 WR-P-P-H-0000000071_inline.xml	2	4	8	12	138	met	-
-WR-P-P-H-0000000071_inline.xml	2	4	8	13	139	de	(1)
-WR-P-P-H-0000000071_inline.xml	2	4	8	14	140	vrucht	(1)
+WR-P-P-H-0000000071_inline.xml	2	4	8	13	139	de	(1
+WR-P-P-H-0000000071_inline.xml	2	4	8	14	140	vrucht	1)
 WR-P-P-H-0000000071_inline.xml	2	4	8	15	141	.	-
 
 WR-P-P-H-0000000071_inline.xml	3	1	9	1	142	De	(43
@@ -159,8 +159,8 @@ WR-P-P-H-0000000071_inline.xml	3	1	9	8	149	de	44|(45
 WR-P-P-H-0000000071_inline.xml	3	1	9	9	150	vroeg-zomerse	44|45
 WR-P-P-H-0000000071_inline.xml	3	1	9	10	151	bloei	44|45
 WR-P-P-H-0000000071_inline.xml	3	1	9	11	152	van	44|45
-WR-P-P-H-0000000071_inline.xml	3	1	9	12	153	de	44|45|(1)
-WR-P-P-H-0000000071_inline.xml	3	1	9	13	154	abrikoos	44)|45)|(1)
+WR-P-P-H-0000000071_inline.xml	3	1	9	12	153	de	44|45|(1
+WR-P-P-H-0000000071_inline.xml	3	1	9	13	154	abrikoos	44)|45)|1)
 WR-P-P-H-0000000071_inline.xml	3	1	9	14	155	en	-
 WR-P-P-H-0000000071_inline.xml	3	1	9	15	156	noemden	-
 WR-P-P-H-0000000071_inline.xml	3	1	9	16	157	deze	(1)
@@ -454,3 +454,4 @@ WR-P-P-H-0000000071_inline.xml	9	1	23	21	430	vuurtje	128)
 WR-P-P-H-0000000071_inline.xml	9	1	23	22	431	staan	-
 WR-P-P-H-0000000071_inline.xml	9	1	23	23	432	.	-
 
+#end document

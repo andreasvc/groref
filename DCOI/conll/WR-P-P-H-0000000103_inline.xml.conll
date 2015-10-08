@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000103_inline.xml); part 000
 WR-P-P-H-0000000103_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
 WR-P-P-H-0000000103_inline.xml	1	1	1	2	2	-	-
 
@@ -558,3 +558,4 @@ WR-P-P-H-0000000103_inline.xml	7	3	24	13	533	gelaten	-
 WR-P-P-H-0000000103_inline.xml	7	3	24	14	534	hadden	-
 WR-P-P-H-0000000103_inline.xml	7	3	24	15	535	.	-
 
+#end document

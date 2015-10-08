@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000030_inline.xml); part 000
 WR-P-P-H-0000000030_inline.xml	1	1	1	1	1	RIJSWIJK	(1)
 WR-P-P-H-0000000030_inline.xml	1	1	1	2	2	-	-
 
@@ -109,7 +109,8 @@ WR-P-P-H-0000000030_inline.xml	1	8	8	11	100	enkele	(36
 WR-P-P-H-0000000030_inline.xml	1	8	8	12	101	kwartieren	36)
 WR-P-P-H-0000000030_inline.xml	1	8	8	13	102	,	-
 WR-P-P-H-0000000030_inline.xml	1	8	8	14	103	aldus	-
-WR-P-P-H-0000000030_inline.xml	1	8	8	15	104	de	(14)
-WR-P-P-H-0000000030_inline.xml	1	8	8	16	105	woordvoerster	(14)
+WR-P-P-H-0000000030_inline.xml	1	8	8	15	104	de	(14
+WR-P-P-H-0000000030_inline.xml	1	8	8	16	105	woordvoerster	14)
 WR-P-P-H-0000000030_inline.xml	1	8	8	17	106	.	-
 
+#end document

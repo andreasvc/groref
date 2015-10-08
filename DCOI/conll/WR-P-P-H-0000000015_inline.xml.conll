@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000015_inline.xml); part 000
 WR-P-P-H-0000000015_inline.xml	1	1	1	1	1	AMSTERDAM	(1)
 WR-P-P-H-0000000015_inline.xml	1	1	1	2	2	-	-
 
@@ -80,14 +80,14 @@ WR-P-P-H-0000000015_inline.xml	2	2	5	21	74	was	-
 WR-P-P-H-0000000015_inline.xml	2	2	5	22	75	volgens	-
 WR-P-P-H-0000000015_inline.xml	2	2	5	23	76	de	(21
 WR-P-P-H-0000000015_inline.xml	2	2	5	24	77	jury	21)
-WR-P-P-H-0000000015_inline.xml	2	2	5	25	78	de	(2)
-WR-P-P-H-0000000015_inline.xml	2	2	5	26	79	beste	(2)
-WR-P-P-H-0000000015_inline.xml	2	2	5	27	80	acteur	(2)
-WR-P-P-H-0000000015_inline.xml	2	2	5	28	81	die	(2)
-WR-P-P-H-0000000015_inline.xml	2	2	5	29	82	tijdens	(2)
-WR-P-P-H-0000000015_inline.xml	2	2	5	30	83	het	(2)|(15
-WR-P-P-H-0000000015_inline.xml	2	2	5	31	84	festival	(2)|15)
-WR-P-P-H-0000000015_inline.xml	2	2	5	32	85	optrad	(2)
+WR-P-P-H-0000000015_inline.xml	2	2	5	25	78	de	(2
+WR-P-P-H-0000000015_inline.xml	2	2	5	26	79	beste	2
+WR-P-P-H-0000000015_inline.xml	2	2	5	27	80	acteur	2
+WR-P-P-H-0000000015_inline.xml	2	2	5	28	81	die	2
+WR-P-P-H-0000000015_inline.xml	2	2	5	29	82	tijdens	2
+WR-P-P-H-0000000015_inline.xml	2	2	5	30	83	het	2|(15
+WR-P-P-H-0000000015_inline.xml	2	2	5	31	84	festival	2|15)
+WR-P-P-H-0000000015_inline.xml	2	2	5	32	85	optrad	2)
 WR-P-P-H-0000000015_inline.xml	2	2	5	33	86	.	-
 
 WR-P-P-H-0000000015_inline.xml	2	3	6	1	87	Hij	(2)
@@ -145,3 +145,4 @@ WR-P-P-H-0000000015_inline.xml	2	5	8	22	136	de	34|37|39|41
 WR-P-P-H-0000000015_inline.xml	2	5	8	23	137	Podiumkunsten	34)|37)|39)|41)
 WR-P-P-H-0000000015_inline.xml	2	5	8	24	138	.	-
 
+#end document

@@ -1,4 +1,4 @@
-doc_id	paragraph_id	paragraph_sentence_id	doc_sentence_id	sentence_token_id	doc_token_id	token	coref_id
+#begin document (WR-P-P-H-0000000001_inline.xml); part 000
 WR-P-P-H-0000000001_inline.xml	1	1	1	1	1	De	(1
 WR-P-P-H-0000000001_inline.xml	1	1	1	2	2	zon	1)
 WR-P-P-H-0000000001_inline.xml	1	1	1	3	3	verzuimt	-
@@ -322,8 +322,8 @@ WR-P-P-H-0000000001_inline.xml	4	4	25	3	296	nu	-
 WR-P-P-H-0000000001_inline.xml	4	4	25	4	297	het	(88
 WR-P-P-H-0000000001_inline.xml	4	4	25	5	298	lot	88
 WR-P-P-H-0000000001_inline.xml	4	4	25	6	299	van	88
-WR-P-P-H-0000000001_inline.xml	4	4	25	7	300	hun	88|(50)|(84)
-WR-P-P-H-0000000001_inline.xml	4	4	25	8	301	vader	88)|(50)
+WR-P-P-H-0000000001_inline.xml	4	4	25	7	300	hun	88|(50|(84)
+WR-P-P-H-0000000001_inline.xml	4	4	25	8	301	vader	88)|50)
 WR-P-P-H-0000000001_inline.xml	4	4	25	9	302	.	-
 
 WR-P-P-H-0000000001_inline.xml	4	5	26	1	303	En	-
@@ -336,8 +336,8 @@ WR-P-P-H-0000000001_inline.xml	4	5	26	7	309	boerenleven	92)
 WR-P-P-H-0000000001_inline.xml	4	5	26	8	310	"	-
 WR-P-P-H-0000000001_inline.xml	4	5	26	9	311	,	-
 WR-P-P-H-0000000001_inline.xml	4	5	26	10	312	vertelt	-
-WR-P-P-H-0000000001_inline.xml	4	5	26	11	313	Nedim	(50)
-WR-P-P-H-0000000001_inline.xml	4	5	26	12	314	Acar	(50)
+WR-P-P-H-0000000001_inline.xml	4	5	26	11	313	Nedim	(50
+WR-P-P-H-0000000001_inline.xml	4	5	26	12	314	Acar	50)
 WR-P-P-H-0000000001_inline.xml	4	5	26	13	315	.	-
 
 WR-P-P-H-0000000001_inline.xml	5	1	27	1	316	We	(54)
@@ -459,8 +459,8 @@ WR-P-P-H-0000000001_inline.xml	6	3	34	16	424	technologische	119|122
 WR-P-P-H-0000000001_inline.xml	6	3	34	17	425	achterstand	119)|122)
 WR-P-P-H-0000000001_inline.xml	6	3	34	18	426	.	-
 
-WR-P-P-H-0000000001_inline.xml	6	4	35	1	427	De	(63)
-WR-P-P-H-0000000001_inline.xml	6	4	35	2	428	overheid	(63)
+WR-P-P-H-0000000001_inline.xml	6	4	35	1	427	De	(63
+WR-P-P-H-0000000001_inline.xml	6	4	35	2	428	overheid	63)
 WR-P-P-H-0000000001_inline.xml	6	4	35	3	429	is	-
 WR-P-P-H-0000000001_inline.xml	6	4	35	4	430	tot	-
 WR-P-P-H-0000000001_inline.xml	6	4	35	5	431	nu	-
@@ -485,9 +485,9 @@ WR-P-P-H-0000000001_inline.xml	6	5	36	12	448	wereldmarkt	125|126)|127)
 WR-P-P-H-0000000001_inline.xml	6	5	36	13	449	lagen	125)
 WR-P-P-H-0000000001_inline.xml	6	5	36	14	450	.	-
 
-WR-P-P-H-0000000001_inline.xml	6	6	37	1	451	De	(63)
-WR-P-P-H-0000000001_inline.xml	6	6	37	2	452	Turkse	(63)
-WR-P-P-H-0000000001_inline.xml	6	6	37	3	453	staat	(63)
+WR-P-P-H-0000000001_inline.xml	6	6	37	1	451	De	(63
+WR-P-P-H-0000000001_inline.xml	6	6	37	2	452	Turkse	63
+WR-P-P-H-0000000001_inline.xml	6	6	37	3	453	staat	63)
 WR-P-P-H-0000000001_inline.xml	6	6	37	4	454	heeft	-
 WR-P-P-H-0000000001_inline.xml	6	6	37	5	455	de	(129
 WR-P-P-H-0000000001_inline.xml	6	6	37	6	456	graanboeren	129)
@@ -521,14 +521,14 @@ WR-P-P-H-0000000001_inline.xml	7	1	39	2	481	die	(135
 WR-P-P-H-0000000001_inline.xml	7	1	39	3	482	gulle	135
 WR-P-P-H-0000000001_inline.xml	7	1	39	4	483	hand	135
 WR-P-P-H-0000000001_inline.xml	7	1	39	5	484	van	135
-WR-P-P-H-0000000001_inline.xml	7	1	39	6	485	een	135|(63)
-WR-P-P-H-0000000001_inline.xml	7	1	39	7	486	Turkse	135|(63)
-WR-P-P-H-0000000001_inline.xml	7	1	39	8	487	overheid	135|(63)
-WR-P-P-H-0000000001_inline.xml	7	1	39	9	488	die	135|(63)
-WR-P-P-H-0000000001_inline.xml	7	1	39	10	489	in	135|(63)
-WR-P-P-H-0000000001_inline.xml	7	1	39	11	490	de	135|(63)|(137
-WR-P-P-H-0000000001_inline.xml	7	1	39	12	491	schulden	135|(63)|137)
-WR-P-P-H-0000000001_inline.xml	7	1	39	13	492	zwemt	135)|(63)
+WR-P-P-H-0000000001_inline.xml	7	1	39	6	485	een	135|(63
+WR-P-P-H-0000000001_inline.xml	7	1	39	7	486	Turkse	135|63
+WR-P-P-H-0000000001_inline.xml	7	1	39	8	487	overheid	135|63
+WR-P-P-H-0000000001_inline.xml	7	1	39	9	488	die	135|63
+WR-P-P-H-0000000001_inline.xml	7	1	39	10	489	in	135|63
+WR-P-P-H-0000000001_inline.xml	7	1	39	11	490	de	135|63|(137
+WR-P-P-H-0000000001_inline.xml	7	1	39	12	491	schulden	135|63|137)
+WR-P-P-H-0000000001_inline.xml	7	1	39	13	492	zwemt	135)|63)
 WR-P-P-H-0000000001_inline.xml	7	1	39	14	493	?	-
 
 WR-P-P-H-0000000001_inline.xml	7	2	40	1	494	Econoom	(138
@@ -536,8 +536,8 @@ WR-P-P-H-0000000001_inline.xml	7	2	40	2	495	Mehmet	138
 WR-P-P-H-0000000001_inline.xml	7	2	40	3	496	Altah	138)
 WR-P-P-H-0000000001_inline.xml	7	2	40	4	497	:	-
 WR-P-P-H-0000000001_inline.xml	7	2	40	5	498	"	-
-WR-P-P-H-0000000001_inline.xml	7	2	40	6	499	De	(115)
-WR-P-P-H-0000000001_inline.xml	7	2	40	7	500	boeren	(115)
+WR-P-P-H-0000000001_inline.xml	7	2	40	6	499	De	(115
+WR-P-P-H-0000000001_inline.xml	7	2	40	7	500	boeren	115)
 WR-P-P-H-0000000001_inline.xml	7	2	40	8	501	zijn	-
 WR-P-P-H-0000000001_inline.xml	7	2	40	9	502	machtig	-
 WR-P-P-H-0000000001_inline.xml	7	2	40	10	503	in	-
@@ -553,8 +553,8 @@ WR-P-P-H-0000000001_inline.xml	7	3	41	6	511	macht	141|142)
 WR-P-P-H-0000000001_inline.xml	7	3	41	7	512	wil	141
 WR-P-P-H-0000000001_inline.xml	7	3	41	8	513	blijven	141)
 WR-P-P-H-0000000001_inline.xml	7	3	41	9	514	moet	-
-WR-P-P-H-0000000001_inline.xml	7	3	41	10	515	de	(115)
-WR-P-P-H-0000000001_inline.xml	7	3	41	11	516	boeren	(115)
+WR-P-P-H-0000000001_inline.xml	7	3	41	10	515	de	(115
+WR-P-P-H-0000000001_inline.xml	7	3	41	11	516	boeren	115)
 WR-P-P-H-0000000001_inline.xml	7	3	41	12	517	zoet	-
 WR-P-P-H-0000000001_inline.xml	7	3	41	13	518	houden	-
 WR-P-P-H-0000000001_inline.xml	7	3	41	14	519	.	-
@@ -564,11 +564,11 @@ WR-P-P-H-0000000001_inline.xml	7	4	42	2	521	hun	(144|(115)
 WR-P-P-H-0000000001_inline.xml	7	4	42	3	522	grote	144
 WR-P-P-H-0000000001_inline.xml	7	4	42	4	523	aantal	144)
 WR-P-P-H-0000000001_inline.xml	7	4	42	5	524	beslissen	-
-WR-P-P-H-0000000001_inline.xml	7	4	42	6	525	de	(115)
-WR-P-P-H-0000000001_inline.xml	7	4	42	7	526	boeren	(115)
+WR-P-P-H-0000000001_inline.xml	7	4	42	6	525	de	(115
+WR-P-P-H-0000000001_inline.xml	7	4	42	7	526	boeren	115)
 WR-P-P-H-0000000001_inline.xml	7	4	42	8	527	wie	(147)
-WR-P-P-H-0000000001_inline.xml	7	4	42	9	528	de	(35)
-WR-P-P-H-0000000001_inline.xml	7	4	42	10	529	verkiezingen	(35)
+WR-P-P-H-0000000001_inline.xml	7	4	42	9	528	de	(35
+WR-P-P-H-0000000001_inline.xml	7	4	42	10	529	verkiezingen	35)
 WR-P-P-H-0000000001_inline.xml	7	4	42	11	530	gaan	-
 WR-P-P-H-0000000001_inline.xml	7	4	42	12	531	winnen	-
 WR-P-P-H-0000000001_inline.xml	7	4	42	13	532	.	-
@@ -812,8 +812,8 @@ WR-P-P-H-0000000001_inline.xml	10	2	55	8	755	?	-
 WR-P-P-H-0000000001_inline.xml	10	3	56	1	756	De	(206
 WR-P-P-H-0000000001_inline.xml	10	3	56	2	757	toestand	206
 WR-P-P-H-0000000001_inline.xml	10	3	56	3	758	van	206
-WR-P-P-H-0000000001_inline.xml	10	3	56	4	759	de	206|(115)
-WR-P-P-H-0000000001_inline.xml	10	3	56	5	760	boeren	206)|(115)
+WR-P-P-H-0000000001_inline.xml	10	3	56	4	759	de	206|(115
+WR-P-P-H-0000000001_inline.xml	10	3	56	5	760	boeren	206)|115)
 WR-P-P-H-0000000001_inline.xml	10	3	56	6	761	is	-
 WR-P-P-H-0000000001_inline.xml	10	3	56	7	762	belabberd	-
 WR-P-P-H-0000000001_inline.xml	10	3	56	8	763	,	-
@@ -854,8 +854,8 @@ WR-P-P-H-0000000001_inline.xml	10	5	58	6	795	de	(217
 WR-P-P-H-0000000001_inline.xml	10	5	58	7	796	steden	217)
 WR-P-P-H-0000000001_inline.xml	10	5	58	8	797	,	-
 WR-P-P-H-0000000001_inline.xml	10	5	58	9	798	zodat	-
-WR-P-P-H-0000000001_inline.xml	10	5	58	10	799	de	(115)
-WR-P-P-H-0000000001_inline.xml	10	5	58	11	800	boeren	(115)
+WR-P-P-H-0000000001_inline.xml	10	5	58	10	799	de	(115
+WR-P-P-H-0000000001_inline.xml	10	5	58	11	800	boeren	115)
 WR-P-P-H-0000000001_inline.xml	10	5	58	12	801	daar	-
 WR-P-P-H-0000000001_inline.xml	10	5	58	13	802	aan	-
 WR-P-P-H-0000000001_inline.xml	10	5	58	14	803	de	(219
@@ -985,8 +985,8 @@ WR-P-P-H-0000000001_inline.xml	12	2	67	13	917	met	250
 WR-P-P-H-0000000001_inline.xml	12	2	67	14	918	belastinggeld	250)|(251)
 WR-P-P-H-0000000001_inline.xml	12	2	67	15	919	.	-
 
-WR-P-P-H-0000000001_inline.xml	12	3	68	1	920	De	(115)
-WR-P-P-H-0000000001_inline.xml	12	3	68	2	921	boeren	(115)
+WR-P-P-H-0000000001_inline.xml	12	3	68	1	920	De	(115
+WR-P-P-H-0000000001_inline.xml	12	3	68	2	921	boeren	115)
 WR-P-P-H-0000000001_inline.xml	12	3	68	3	922	moeten	-
 WR-P-P-H-0000000001_inline.xml	12	3	68	4	923	kunnen	-
 WR-P-P-H-0000000001_inline.xml	12	3	68	5	924	concurreren	-
@@ -1063,15 +1063,15 @@ WR-P-P-H-0000000001_inline.xml	12	8	73	11	988	.	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	1	989	Kurmus	(224)
 WR-P-P-H-0000000001_inline.xml	13	1	74	2	990	wil	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	3	991	weliswaar	-
-WR-P-P-H-0000000001_inline.xml	13	1	74	4	992	de	(115)
-WR-P-P-H-0000000001_inline.xml	13	1	74	5	993	boeren	(115)
+WR-P-P-H-0000000001_inline.xml	13	1	74	4	992	de	(115
+WR-P-P-H-0000000001_inline.xml	13	1	74	5	993	boeren	115)
 WR-P-P-H-0000000001_inline.xml	13	1	74	6	994	niet	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	7	995	meer	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	8	996	financieren	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	9	997	,	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	10	998	maar	-
-WR-P-P-H-0000000001_inline.xml	13	1	74	11	999	de	(170)
-WR-P-P-H-0000000001_inline.xml	13	1	74	12	1000	overheid	(170)
+WR-P-P-H-0000000001_inline.xml	13	1	74	11	999	de	(170
+WR-P-P-H-0000000001_inline.xml	13	1	74	12	1000	overheid	170)
 WR-P-P-H-0000000001_inline.xml	13	1	74	13	1001	krijgt	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	14	1002	te	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	15	1003	maken	-
@@ -1082,8 +1082,8 @@ WR-P-P-H-0000000001_inline.xml	13	1	74	19	1007	richting	272
 WR-P-P-H-0000000001_inline.xml	13	1	74	20	1008	grote	272|(273
 WR-P-P-H-0000000001_inline.xml	13	1	74	21	1009	steden	272)|273)
 WR-P-P-H-0000000001_inline.xml	13	1	74	22	1010	als	-
-WR-P-P-H-0000000001_inline.xml	13	1	74	23	1011	de	(115)
-WR-P-P-H-0000000001_inline.xml	13	1	74	24	1012	boeren	(115)
+WR-P-P-H-0000000001_inline.xml	13	1	74	23	1011	de	(115
+WR-P-P-H-0000000001_inline.xml	13	1	74	24	1012	boeren	115)
 WR-P-P-H-0000000001_inline.xml	13	1	74	25	1013	marktprijzen	(275)
 WR-P-P-H-0000000001_inline.xml	13	1	74	26	1014	krijgen	-
 WR-P-P-H-0000000001_inline.xml	13	1	74	27	1015	voor	-
@@ -1161,8 +1161,8 @@ WR-P-P-H-0000000001_inline.xml	14	4	79	2	1081	is	-
 WR-P-P-H-0000000001_inline.xml	14	4	79	3	1082	niet	-
 WR-P-P-H-0000000001_inline.xml	14	4	79	4	1083	verstandig	-
 WR-P-P-H-0000000001_inline.xml	14	4	79	5	1084	om	-
-WR-P-P-H-0000000001_inline.xml	14	4	79	6	1085	de	(115)
-WR-P-P-H-0000000001_inline.xml	14	4	79	7	1086	boeren	(115)
+WR-P-P-H-0000000001_inline.xml	14	4	79	6	1085	de	(115
+WR-P-P-H-0000000001_inline.xml	14	4	79	7	1086	boeren	115)
 WR-P-P-H-0000000001_inline.xml	14	4	79	8	1087	te	-
 WR-P-P-H-0000000001_inline.xml	14	4	79	9	1088	duperen	-
 WR-P-P-H-0000000001_inline.xml	14	4	79	10	1089	.	-
@@ -1180,9 +1180,9 @@ WR-P-P-H-0000000001_inline.xml	14	5	80	10	1099	erbij	296)
 WR-P-P-H-0000000001_inline.xml	14	5	80	11	1100	?	-
 WR-P-P-H-0000000001_inline.xml	14	5	80	12	1101	"	-
 
-WR-P-P-H-0000000001_inline.xml	15	1	81	1	1102	Econoom	(138)
-WR-P-P-H-0000000001_inline.xml	15	1	81	2	1103	Mehmet	(138)
-WR-P-P-H-0000000001_inline.xml	15	1	81	3	1104	Altan	(138)
+WR-P-P-H-0000000001_inline.xml	15	1	81	1	1102	Econoom	(138
+WR-P-P-H-0000000001_inline.xml	15	1	81	2	1103	Mehmet	138
+WR-P-P-H-0000000001_inline.xml	15	1	81	3	1104	Altan	138)
 WR-P-P-H-0000000001_inline.xml	15	1	81	4	1105	vreest	-
 WR-P-P-H-0000000001_inline.xml	15	1	81	5	1106	dat	-
 WR-P-P-H-0000000001_inline.xml	15	1	81	6	1107	alles	(300)
@@ -1242,8 +1242,8 @@ WR-P-P-H-0000000001_inline.xml	16	1	84	4	1157	aan	312
 WR-P-P-H-0000000001_inline.xml	16	1	84	5	1158	het	312|(313
 WR-P-P-H-0000000001_inline.xml	16	1	84	6	1159	graanveld	312)|313)
 WR-P-P-H-0000000001_inline.xml	16	1	84	7	1160	gaat	-
-WR-P-P-H-0000000001_inline.xml	16	1	84	8	1161	Nedim	(50)
-WR-P-P-H-0000000001_inline.xml	16	1	84	9	1162	Acar	(50)
+WR-P-P-H-0000000001_inline.xml	16	1	84	8	1161	Nedim	(50
+WR-P-P-H-0000000001_inline.xml	16	1	84	9	1162	Acar	50)
 WR-P-P-H-0000000001_inline.xml	16	1	84	10	1163	terug	-
 WR-P-P-H-0000000001_inline.xml	16	1	84	11	1164	naar	-
 WR-P-P-H-0000000001_inline.xml	16	1	84	12	1165	het	(315
@@ -1265,8 +1265,8 @@ WR-P-P-H-0000000001_inline.xml	16	2	85	8	1179	en	-
 WR-P-P-H-0000000001_inline.xml	16	2	85	9	1180	laten	-
 WR-P-P-H-0000000001_inline.xml	16	2	85	10	1181	weten	-
 WR-P-P-H-0000000001_inline.xml	16	2	85	11	1182	wat	(320)
-WR-P-P-H-0000000001_inline.xml	16	2	85	12	1183	de	(170)
-WR-P-P-H-0000000001_inline.xml	16	2	85	13	1184	overheid	(170)
+WR-P-P-H-0000000001_inline.xml	16	2	85	12	1183	de	(170
+WR-P-P-H-0000000001_inline.xml	16	2	85	13	1184	overheid	170)
 WR-P-P-H-0000000001_inline.xml	16	2	85	14	1185	als	-
 WR-P-P-H-0000000001_inline.xml	16	2	85	15	1186	eerste	(322)
 WR-P-P-H-0000000001_inline.xml	16	2	85	16	1187	zou	-
@@ -1298,13 +1298,13 @@ WR-P-P-H-0000000001_inline.xml	16	3	86	10	1211	zal	-
 WR-P-P-H-0000000001_inline.xml	16	3	86	11	1212	gebeuren	-
 WR-P-P-H-0000000001_inline.xml	16	3	86	12	1213	.	-
 
-WR-P-P-H-0000000001_inline.xml	16	4	87	1	1214	De	(170)
-WR-P-P-H-0000000001_inline.xml	16	4	87	2	1215	Turkse	(170)
-WR-P-P-H-0000000001_inline.xml	16	4	87	3	1216	regering	(170)
+WR-P-P-H-0000000001_inline.xml	16	4	87	1	1214	De	(170
+WR-P-P-H-0000000001_inline.xml	16	4	87	2	1215	Turkse	170
+WR-P-P-H-0000000001_inline.xml	16	4	87	3	1216	regering	170)
 WR-P-P-H-0000000001_inline.xml	16	4	87	4	1217	komt	-
 WR-P-P-H-0000000001_inline.xml	16	4	87	5	1218	met	-
-WR-P-P-H-0000000001_inline.xml	16	4	87	6	1219	zo'n	(323)
-WR-P-P-H-0000000001_inline.xml	16	4	87	7	1220	cadeautje	(323)
+WR-P-P-H-0000000001_inline.xml	16	4	87	6	1219	zo'n	(323
+WR-P-P-H-0000000001_inline.xml	16	4	87	7	1220	cadeautje	323)
 WR-P-P-H-0000000001_inline.xml	16	4	87	8	1221	altijd	-
 WR-P-P-H-0000000001_inline.xml	16	4	87	9	1222	pas	-
 WR-P-P-H-0000000001_inline.xml	16	4	87	10	1223	vlak	-
@@ -1320,3 +1320,4 @@ WR-P-P-H-0000000001_inline.xml	17	1	88	3	1230	.	-
 WR-P-P-H-0000000001_inline.xml	18	1	89	1	1231	FOTO	(333
 WR-P-P-H-0000000001_inline.xml	18	1	89	2	1232	ABC	333
 
+#end document
