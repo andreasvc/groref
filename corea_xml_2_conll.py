@@ -56,6 +56,9 @@ def postProcessTokenArray(tokenArray, coreferential_ids, no_inner = False):
 					if mention_id not in tokenArray[idx+1][1:] and not set(original_mention_ids).intersection(set(tokenArray[idx+1][1:])):
 						token[idx2] += ')'
 						seenList.remove(mention_id)
+				else:
+					token[idx2] += ')'
+					seenList.remove(mention_id)
 		if len(token) == 1: # Add dash for tokens not part of a mention
 			token.append('-')
 		tokenArray[idx] = [token[0], '|'.join(token[1:])]
