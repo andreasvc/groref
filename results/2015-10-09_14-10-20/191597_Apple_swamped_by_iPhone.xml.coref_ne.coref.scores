@@ -1,0 +1,52 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the response: 40, 45 1010
+
+====== TOTALS =======
+Identification of Mentions: Recall: (11 / 19) 57.89%	Precision: (11 / 16) 68.75%	F1: 62.85%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 7) 0%	Precision: (0 / 6) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the response: 40, 45 1010
+
+====== TOTALS =======
+Identification of Mentions: Recall: (11 / 19) 57.89%	Precision: (11 / 16) 68.75%	F1: 62.85%
+--------------------------------------------------------------------------
+Coreference: Recall: (6.75 / 19) 35.52%	Precision: (7.5 / 16) 46.87%	F1: 40.41%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the response: 40, 45 1010
+
+====== TOTALS =======
+Identification of Mentions: Recall: (11 / 19) 57.89%	Precision: (11 / 16) 68.75%	F1: 62.85%
+--------------------------------------------------------------------------
+Coreference: Recall: (7 / 19) 36.84%	Precision: (7 / 16) 43.75%	F1: 39.99%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the response: 40, 45 1010
+
+====== TOTALS =======
+Identification of Mentions: Recall: (11 / 19) 57.89%	Precision: (11 / 16) 68.75%	F1: 62.85%
+--------------------------------------------------------------------------
+Coreference: Recall: (4.9 / 12) 40.83%	Precision: (4.9 / 10) 48.99%	F1: 44.54%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the response: 40, 45 1010
+
+====== TOTALS =======
+Identification of Mentions: Recall: (11 / 19) 57.89%	Precision: (11 / 16) 68.75%	F1: 62.85%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (0 / 10) 0%	Precision: (0 / 7) 0%	F1: 0%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (48 / 161) 29.81%	Precision: (48 / 113) 42.47%	F1: 35.03%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.149068322981366 / 1) 14.9%	Precision: (0.212389380530973 / 1) 21.23%	F1: 17.51%
+--------------------------------------------------------------------------
