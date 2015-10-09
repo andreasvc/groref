@@ -32,20 +32,26 @@ class Cluster:
 # Read in conll file, return list of lists containing a single word + annotation
 def read_conll_file(fname):
 	conll_list = []
+	num_sentences = 0
 	for line in open(fname, 'r'):
 		split_line = line.strip().split('\t')
 		if len(split_line) > 1:
 			if split_line[0] != 'doc_id' and line[0] != '#': # Skip header and/or document tags
 				conll_list.append(split_line)
-	return conll_list
+		if not line.strip(): # Empty line equals new sentence
+			num_sentences += 1
+	return conll_list, num_sentences
 	
 # Read in xml-files containing parses for sentences in document, return list of per-sentence XML trees
 def read_xml_parse_files(fname):
 	xml_tree_list = []
-	print fname
 	dir_name = '/'.join(fname.split('/')[0:-1]) + '/' + fname.split('/')[-1].split('_')[0] + '/'
 	xml_file_list = os.listdir(dir_name)
-	for xml_file in sorted(xml_file_list):
+	# Sort list of filenames naturally (by number, not by alphabet)
+	xml_file_list = [xml_file[:-4] for xml_file in xml_file_list]
+	xml_file_list.sort(key=int)
+	xml_file_list = [xml_file + '.xml' for xml_file in xml_file_list]
+	for xml_file in xml_file_list:
 		if re.search('[0-9].xml', xml_file):
 			try:
 				tree = ET.parse(dir_name + xml_file)
@@ -208,13 +214,15 @@ def sieveDummy():
 			mergeClustersByMentions(mention, mention_list[idx-2])
 
 def main(input_file, output_file, doc_tags):
+	num_sentences = 9999 # Number of sentences for which to read in parses
 	# Read input files
 	try:
-		conll_list = read_conll_file(input_file)
+		conll_list, num_sentences = read_conll_file(input_file)
 	except IOError:
 		print 'CoNLL input file not found: %s' % (input_file)
-	xml_tree_list = read_xml_parse_files(input_file)
-	print 'Number of xml parse trees found: %d' % (len(xml_tree_list))
+	print num_sentences 
+	xml_tree_list = read_xml_parse_files(input_file)[:num_sentences]
+	print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
 	global mentionID, mention_list, sentenceDict, cluster_list
 	mentionID = 0 # Initialize mentionID
 	sentenceDict = {} # Initialize dictionary containing sentence strings

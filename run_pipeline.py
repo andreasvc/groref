@@ -24,11 +24,13 @@ def processDocument(filename):
 		isClinData = False
 	if isClinData:
 		preprocess_clin_data.preprocess_file(filename)
-	coreference_resolution.main(filename, output_filename, True)
+#	coreference_resolution.main(filename, output_filename, True)
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
+			coreference_resolution.main(filename + '.forscorer', output_filename, True)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename, "none"], stdout = scores_file)
 		else:
+			coreference_resolution.main(filename, output_filename, True)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
 		
 def processDirectory(dirname):
@@ -56,7 +58,7 @@ def postProcessScores(scores_dir):
 				for line in scores_file:
 					if re.search('^METRIC', line):
 						metric = re.split(' ', line)[-1][:-2] # Extract metric name
-					if not scores[docName]['md']: # Avoid filling entry 5 times
+					if scores[docName]['md'] == [0, 1, 0, 0, 1, 0, 0]: # Avoid filling entry 5 times
 						if re.search('^Identification', line):
 							values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
 							scores[docName]['md'] = values[0:6] + values[7:] # At index 6 is the '1' from 'F1', so ignore
@@ -110,7 +112,6 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('target', type=str, help='Path to a file or directory, in .conll format, for which to do coreference resolution.')
 	args = parser.parse_args()
-	args.target += '/'
 	# Put output in timestamped sub-folder of results/
 	timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 	print 'Timestamp for this run is: %s' % timestamp
@@ -118,8 +119,8 @@ if __name__ == '__main__':
 	    os.system('mkdir results/')
 	if not timestamp in os.listdir('results/'):
 		os.system('mkdir results/' + timestamp)
-	
 	if os.path.isdir(args.target):
+		args.target += '/'
 		processDirectory(args.target)
 	elif os.path.isfile(args.target):
 		processDocument(args.target)
