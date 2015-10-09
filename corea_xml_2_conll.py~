@@ -106,7 +106,7 @@ if __name__ == '__main__':
 				conll_writer.writerow(header)
 			docName = filename.split('_')[0]
 			if args.doc_tags:
-				conll_writer.writerow(['#begin document (' + filename + '); part 000'])
+				conll_writer.writerow(['#begin document (' + docName + '); part 000'])
 			
 			coreferential_ids = {} # dict containing mappings of ids which corefer
 			doc_token_id = 0
@@ -137,7 +137,7 @@ if __name__ == '__main__':
 						token[1] = '|'.join(new_IDs)
 						if not new_IDs: # If empty
 							token[1] = '-'
-					conll_writer.writerow([filename, paragraph_id, sentence_id, doc_sentence_id, sentence_token_id, doc_token_id, token[0].encode('utf-8')] + token[1:])
+					conll_writer.writerow([docName, paragraph_id, sentence_id, doc_sentence_id, sentence_token_id, doc_token_id, token[0].encode('utf-8')] + token[1:])
 				conll_writer.writerow([])
 			if args.doc_tags:
 				conll_writer.writerow(['#end document'])

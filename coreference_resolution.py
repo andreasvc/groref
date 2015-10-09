@@ -147,7 +147,7 @@ def print_mentions_inline(sentenceDict, mention_list):
 						print ']',
 					if idx + 1 == sentLength and mention.end == sentLength:
 						closingBrackets += '] '
-			print token,
+			print token.encode('utf-8'),
 			print closingBrackets,
 		print ''
 
