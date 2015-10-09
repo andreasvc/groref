@@ -82,8 +82,14 @@ def postProcessScores(scores_dir):
 	print scores
 	print totals
 	for metric in totals:
-		totals[metric][2] = totals[metric][0] / totals[metric][1] * 100
-		totals[metric][5] = totals[metric][3] / totals[metric][4] * 100
+		try:
+			totals[metric][2] = totals[metric][0] / totals[metric][1] * 100
+		except ZeroDivisionError:
+			totals[metric][2] = 0
+		try:
+			totals[metric][5] = totals[metric][3] / totals[metric][4] * 100
+		except ZeroDivisionError:
+			totals[metric][5] = 0
 		try:
 			totals[metric][6] = 2 * totals[metric][2] * totals[metric][5] / (totals[metric][2] + totals[metric][5])
 		except ZeroDivisionError:
