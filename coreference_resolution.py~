@@ -135,7 +135,12 @@ def detect_mentions(conll_list, tree_list, docFilename):
 
 # Human-readable printing of the output of the mention detection sieve	
 def print_mentions_inline(sentenceDict, mention_list):
+#	for mention in mention_list:
+#		print mention.__dict__
 	for sentNum in sentenceDict:
+		print sentNum, len(sentenceDict[sentNum].split(' '))
+		sentLength = len(sentenceDict[sentNum].split(' '))
+		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
 		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
 			for mention in mention_list:
 				if mention.sentNum == sentNum:
@@ -143,7 +148,10 @@ def print_mentions_inline(sentenceDict, mention_list):
 						print '[',
 					if mention.end == idx:
 						print ']',
+					if idx + 1 == sentLength and mention.end == sentLength:
+						closingBrackets += '] '
 			print token,
+			print closingBrackets,
 		print ''
 
 # Creates a cluster for each mention, fills in features
@@ -221,8 +229,8 @@ def main(input_file, output_file, doc_tags):
 	except IOError:
 		print 'CoNLL input file not found: %s' % (input_file)
 	print num_sentences 
-	xml_tree_list = read_xml_parse_files(input_file)
-	print 'Number of xml parse trees found: %d' % (len(xml_tree_list))
+	xml_tree_list = read_xml_parse_files(input_file)[:num_sentences]
+	print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
 	global mentionID, mention_list, sentenceDict, cluster_list
 	mentionID = 0 # Initialize mentionID
 	sentenceDict = {} # Initialize dictionary containing sentence strings

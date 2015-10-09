@@ -136,6 +136,8 @@ def detect_mentions(conll_list, tree_list, docFilename):
 # Human-readable printing of the output of the mention detection sieve	
 def print_mentions_inline(sentenceDict, mention_list):
 	for sentNum in sentenceDict:
+		sentLength = len(sentenceDict[sentNum].split(' '))
+		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
 		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
 			for mention in mention_list:
 				if mention.sentNum == sentNum:
@@ -143,7 +145,10 @@ def print_mentions_inline(sentenceDict, mention_list):
 						print '[',
 					if mention.end == idx:
 						print ']',
+					if idx + 1 == sentLength and mention.end == sentLength:
+						closingBrackets += '] '
 			print token,
+			print closingBrackets,
 		print ''
 
 # Creates a cluster for each mention, fills in features
