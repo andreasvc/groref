@@ -1,0 +1,57 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 610, 620 217218
+Repeated mention in the key: 1130, 1135 357358
+
+====== TOTALS =======
+Identification of Mentions: Recall: (385 / 540) 71.29%	Precision: (385 / 479) 80.37%	F1: 75.56%
+--------------------------------------------------------------------------
+Coreference: Recall: (4 / 108) 3.7%	Precision: (4 / 160) 2.5%	F1: 2.98%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 610, 620 217218
+Repeated mention in the key: 1130, 1135 357358
+
+====== TOTALS =======
+Identification of Mentions: Recall: (385 / 540) 71.29%	Precision: (385 / 479) 80.37%	F1: 75.56%
+--------------------------------------------------------------------------
+Coreference: Recall: (287.892857142857 / 542) 53.11%	Precision: (257.166666666667 / 479) 53.68%	F1: 53.4%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 610, 620 217218
+Repeated mention in the key: 1130, 1135 357358
+
+====== TOTALS =======
+Identification of Mentions: Recall: (385 / 540) 71.29%	Precision: (385 / 479) 80.37%	F1: 75.56%
+--------------------------------------------------------------------------
+Coreference: Recall: (237 / 542) 43.72%	Precision: (237 / 479) 49.47%	F1: 46.42%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 610, 620 217218
+Repeated mention in the key: 1130, 1135 357358
+
+====== TOTALS =======
+Identification of Mentions: Recall: (385 / 540) 71.29%	Precision: (385 / 479) 80.37%	F1: 75.56%
+--------------------------------------------------------------------------
+Coreference: Recall: (177.253846153846 / 434) 40.84%	Precision: (177.253846153846 / 319) 55.56%	F1: 47.07%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 610, 620 217218
+Repeated mention in the key: 1130, 1135 357358
+
+====== TOTALS =======
+Identification of Mentions: Recall: (385 / 540) 71.29%	Precision: (385 / 479) 80.37%	F1: 75.56%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (4 / 591) 0.67%	Precision: (4 / 161) 2.48%	F1: 1.06%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (73266 / 144941) 50.54%	Precision: (73266 / 114320) 64.08%	F1: 56.51%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.256128314816609 / 1) 25.61%	Precision: (0.332864977463283 / 1) 33.28%	F1: 28.79%
+--------------------------------------------------------------------------

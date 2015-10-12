@@ -234,10 +234,12 @@ def main(input_file, output_file, doc_tags):
 	# TODO: Change mention_list to a dictionary, to be able to find mentions by ID? (same goes for clusters)
 	# Do mention detection
 	mention_list = detect_mentions(conll_list, xml_tree_list, input_file)
+	for mention in mention_list:
+		print mention.ID
 	print_mentions_inline(sentenceDict, mention_list)		
 	cluster_list = initialize_clusters(mention_list)
 	# Do coreference resolution
-#	sieveDummy() # Apply dummy sieve
+	sieveDummy() # Apply dummy sieve
 	# Generate output
 	generate_conll(sentenceDict, input_file, mention_list, output_file, doc_tags)	
 

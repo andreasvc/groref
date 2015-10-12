@@ -96,6 +96,7 @@ def sort_mentions(mention_list):
 def detect_mentions(conll_list, tree_list, docFilename):
 	global mentionID, sentenceDict
 	mention_list = []
+	mention_dict = {}
 	for tree in tree_list:
 		sentNum = tree.find('comments').find('comment').text
 		sentNum = re.findall('#[0-9]+', sentNum)[0][1:]
