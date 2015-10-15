@@ -34,6 +34,7 @@ def read_conll_file(fname):
 	conll_list = []
 	num_sentences = 0
 	for line in open(fname, 'r'):
+		print line
 		split_line = line.strip().split('\t')
 		if len(split_line) > 1:
 			if split_line[0] != 'doc_id' and line[0] != '#': # Skip header and/or document tags
@@ -51,6 +52,7 @@ def read_xml_parse_files(fname):
 	xml_file_list = [xml_file[:-4] for xml_file in xml_file_list]
 	xml_file_list.sort(key=int)
 	xml_file_list = [xml_file + '.xml' for xml_file in xml_file_list]
+	print xml_file_list
 	for xml_file in xml_file_list:
 		if re.search('[0-9].xml', xml_file):
 			try:
@@ -223,8 +225,8 @@ def mergeClustersByMentionIDs(idx1, idx2):
 # Dummy sieve that links each second mention to the preceding mention, for testing purposes (output/evaluation)
 def sieveDummy():
 	for idx, mention_id in enumerate(mention_id_list):
-		if idx % 3 == 2: # Link every third mention with the mention 2 positions back in the list
-			mergeClustersByMentionIDs(mention_id_list[idx], mention_id_list[idx-2])
+		if idx % 2 == 1: # Link every second mention with the mention 1 position back in the list
+			mergeClustersByMentionIDs(mention_id_list[idx], mention_id_list[idx-1])
 
 def main(input_file, output_file, doc_tags, verbosity):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses
@@ -245,7 +247,6 @@ def main(input_file, output_file, doc_tags, verbosity):
 	## mention_dict contains the actual mentions, format: {id: Mention}
 	## cluster_list contains all clusters, in a list
 	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity)
-	print sentenceDict
 	if verbosity == 'high':
 		print_mentions_inline(sentenceDict)		
 	cluster_list = initialize_clusters()

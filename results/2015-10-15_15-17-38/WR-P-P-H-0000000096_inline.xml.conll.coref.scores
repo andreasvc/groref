@@ -1,0 +1,62 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 35, 37 318
+Repeated mention in the key: 41, 41 719
+Repeated mention in the key: 41, 41 1921
+
+====== TOTALS =======
+Identification of Mentions: Recall: (36 / 48) 75%	Precision: (36 / 48) 75%	F1: 75%
+--------------------------------------------------------------------------
+Coreference: Recall: (1 / 18) 5.55%	Precision: (1 / 24) 4.16%	F1: 4.76%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 35, 37 318
+Repeated mention in the key: 41, 41 719
+Repeated mention in the key: 41, 41 1921
+
+====== TOTALS =======
+Identification of Mentions: Recall: (36 / 48) 75%	Precision: (36 / 48) 75%	F1: 75%
+--------------------------------------------------------------------------
+Coreference: Recall: (23.625 / 51) 46.32%	Precision: (19.5 / 48) 40.62%	F1: 43.28%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 35, 37 318
+Repeated mention in the key: 41, 41 719
+Repeated mention in the key: 41, 41 1921
+
+====== TOTALS =======
+Identification of Mentions: Recall: (36 / 48) 75%	Precision: (36 / 48) 75%	F1: 75%
+--------------------------------------------------------------------------
+Coreference: Recall: (23 / 51) 45.09%	Precision: (23 / 48) 47.91%	F1: 46.46%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 35, 37 318
+Repeated mention in the key: 41, 41 719
+Repeated mention in the key: 41, 41 1921
+
+====== TOTALS =======
+Identification of Mentions: Recall: (36 / 48) 75%	Precision: (36 / 48) 75%	F1: 75%
+--------------------------------------------------------------------------
+Coreference: Recall: (12.8666666666667 / 33) 38.98%	Precision: (12.8666666666667 / 24) 53.61%	F1: 45.14%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 35, 37 318
+Repeated mention in the key: 41, 41 719
+Repeated mention in the key: 41, 41 1921
+
+====== TOTALS =======
+Identification of Mentions: Recall: (36 / 48) 75%	Precision: (36 / 48) 75%	F1: 75%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (2 / 45) 4.44%	Precision: (2 / 24) 8.33%	F1: 5.79%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (597 / 1097) 54.42%	Precision: (597 / 1104) 54.07%	F1: 54.24%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.2943279651575 / 1) 29.43%	Precision: (0.312047101449275 / 1) 31.2%	F1: 30.02%
+--------------------------------------------------------------------------

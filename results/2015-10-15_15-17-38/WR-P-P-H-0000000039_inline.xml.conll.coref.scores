@@ -1,0 +1,62 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 181, 189 6768
+Repeated mention in the key: 181, 189 6869
+Repeated mention in the response: 181, 189 6969
+
+====== TOTALS =======
+Identification of Mentions: Recall: (191 / 231) 82.68%	Precision: (191 / 208) 91.82%	F1: 87.01%
+--------------------------------------------------------------------------
+Coreference: Recall: (9 / 80) 11.25%	Precision: (9 / 103) 8.73%	F1: 9.83%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 181, 189 6768
+Repeated mention in the key: 181, 189 6869
+Repeated mention in the response: 181, 189 6969
+
+====== TOTALS =======
+Identification of Mentions: Recall: (191 / 231) 82.68%	Precision: (191 / 208) 91.82%	F1: 87.01%
+--------------------------------------------------------------------------
+Coreference: Recall: (122.029813218391 / 233) 52.37%	Precision: (105.5 / 208) 50.72%	F1: 51.53%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 181, 189 6768
+Repeated mention in the key: 181, 189 6869
+Repeated mention in the response: 181, 189 6969
+
+====== TOTALS =======
+Identification of Mentions: Recall: (191 / 231) 82.68%	Precision: (191 / 208) 91.82%	F1: 87.01%
+--------------------------------------------------------------------------
+Coreference: Recall: (96 / 233) 41.2%	Precision: (96 / 208) 46.15%	F1: 43.53%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 181, 189 6768
+Repeated mention in the key: 181, 189 6869
+Repeated mention in the response: 181, 189 6969
+
+====== TOTALS =======
+Identification of Mentions: Recall: (191 / 231) 82.68%	Precision: (191 / 208) 91.82%	F1: 87.01%
+--------------------------------------------------------------------------
+Coreference: Recall: (59.646679316888 / 153) 38.98%	Precision: (59.646679316888 / 105) 56.8%	F1: 46.23%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 181, 189 6768
+Repeated mention in the key: 181, 189 6869
+Repeated mention in the response: 181, 189 6969
+
+====== TOTALS =======
+Identification of Mentions: Recall: (191 / 231) 82.68%	Precision: (191 / 208) 91.82%	F1: 87.01%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (9 / 928) 0.96%	Precision: (9 / 103) 8.73%	F1: 1.74%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (17241 / 25638) 67.24%	Precision: (17241 / 21425) 80.47%	F1: 73.26%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.341088314153829 / 1) 34.1%	Precision: (0.446046379898268 / 1) 44.6%	F1: 37.5%
+--------------------------------------------------------------------------

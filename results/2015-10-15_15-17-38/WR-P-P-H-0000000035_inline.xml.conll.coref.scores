@@ -1,0 +1,57 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 102, 110 4546
+Repeated mention in the key: 285, 289 9192
+
+====== TOTALS =======
+Identification of Mentions: Recall: (95 / 131) 72.51%	Precision: (95 / 123) 77.23%	F1: 74.8%
+--------------------------------------------------------------------------
+Coreference: Recall: (3 / 29) 10.34%	Precision: (3 / 61) 4.91%	F1: 6.66%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 102, 110 4546
+Repeated mention in the key: 285, 289 9192
+
+====== TOTALS =======
+Identification of Mentions: Recall: (95 / 131) 72.51%	Precision: (95 / 123) 77.23%	F1: 74.8%
+--------------------------------------------------------------------------
+Coreference: Recall: (70.5357142857143 / 133) 53.03%	Precision: (51 / 123) 41.46%	F1: 46.54%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 102, 110 4546
+Repeated mention in the key: 285, 289 9192
+
+====== TOTALS =======
+Identification of Mentions: Recall: (95 / 131) 72.51%	Precision: (95 / 123) 77.23%	F1: 74.8%
+--------------------------------------------------------------------------
+Coreference: Recall: (59 / 133) 44.36%	Precision: (59 / 123) 47.96%	F1: 46.09%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 102, 110 4546
+Repeated mention in the key: 285, 289 9192
+
+====== TOTALS =======
+Identification of Mentions: Recall: (95 / 131) 72.51%	Precision: (95 / 123) 77.23%	F1: 74.8%
+--------------------------------------------------------------------------
+Coreference: Recall: (35.8777777777778 / 104) 34.49%	Precision: (35.8777777777778 / 62) 57.86%	F1: 43.22%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 102, 110 4546
+Repeated mention in the key: 285, 289 9192
+
+====== TOTALS =======
+Identification of Mentions: Recall: (95 / 131) 72.51%	Precision: (95 / 123) 77.23%	F1: 74.8%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (3 / 54) 5.55%	Precision: (3 / 61) 4.91%	F1: 5.21%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (4386 / 8463) 51.82%	Precision: (4386 / 7442) 58.93%	F1: 55.15%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.286905746583166 / 1) 28.69%	Precision: (0.319269013705993 / 1) 31.92%	F1: 30.18%
+--------------------------------------------------------------------------

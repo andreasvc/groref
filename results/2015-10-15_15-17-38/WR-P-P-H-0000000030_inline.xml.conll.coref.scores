@@ -1,0 +1,67 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 6, 10 56
+Repeated mention in the key: 24, 44 1920
+Repeated mention in the key: 24, 44 2021
+Repeated mention in the response: 24, 44 2121
+
+====== TOTALS =======
+Identification of Mentions: Recall: (22 / 36) 61.11%	Precision: (22 / 26) 84.61%	F1: 70.96%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 14) 0%	Precision: (0 / 12) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 6, 10 56
+Repeated mention in the key: 24, 44 1920
+Repeated mention in the key: 24, 44 2021
+Repeated mention in the response: 24, 44 2121
+
+====== TOTALS =======
+Identification of Mentions: Recall: (22 / 36) 61.11%	Precision: (22 / 26) 84.61%	F1: 70.96%
+--------------------------------------------------------------------------
+Coreference: Recall: (15.5 / 39) 39.74%	Precision: (11.5 / 26) 44.23%	F1: 41.86%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 6, 10 56
+Repeated mention in the key: 24, 44 1920
+Repeated mention in the key: 24, 44 2021
+Repeated mention in the response: 24, 44 2121
+
+====== TOTALS =======
+Identification of Mentions: Recall: (22 / 36) 61.11%	Precision: (22 / 26) 84.61%	F1: 70.96%
+--------------------------------------------------------------------------
+Coreference: Recall: (11 / 39) 28.2%	Precision: (11 / 26) 42.3%	F1: 33.84%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 6, 10 56
+Repeated mention in the key: 24, 44 1920
+Repeated mention in the key: 24, 44 2021
+Repeated mention in the response: 24, 44 2121
+
+====== TOTALS =======
+Identification of Mentions: Recall: (22 / 36) 61.11%	Precision: (22 / 26) 84.61%	F1: 70.96%
+--------------------------------------------------------------------------
+Coreference: Recall: (6.83333333333333 / 25) 27.33%	Precision: (6.83333333333333 / 14) 48.8%	F1: 35.04%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 6, 10 56
+Repeated mention in the key: 24, 44 1920
+Repeated mention in the key: 24, 44 2021
+Repeated mention in the response: 24, 44 2121
+
+====== TOTALS =======
+Identification of Mentions: Recall: (22 / 36) 61.11%	Precision: (22 / 26) 84.61%	F1: 70.96%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (0 / 22) 0%	Precision: (0 / 12) 0%	F1: 0%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (211 / 610) 34.59%	Precision: (211 / 313) 67.41%	F1: 45.72%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.172950819672131 / 1) 17.29%	Precision: (0.337060702875399 / 1) 33.7%	F1: 22.86%
+--------------------------------------------------------------------------

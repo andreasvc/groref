@@ -1,0 +1,57 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 350, 354 106107
+Repeated mention in the key: 360, 365 108112
+
+====== TOTALS =======
+Identification of Mentions: Recall: (105 / 122) 86.06%	Precision: (105 / 128) 82.03%	F1: 84%
+--------------------------------------------------------------------------
+Coreference: Recall: (0 / 38) 0%	Precision: (0 / 64) 0%	F1: 0%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 350, 354 106107
+Repeated mention in the key: 360, 365 108112
+
+====== TOTALS =======
+Identification of Mentions: Recall: (105 / 122) 86.06%	Precision: (105 / 128) 82.03%	F1: 84%
+--------------------------------------------------------------------------
+Coreference: Recall: (70.8333333333333 / 124) 57.12%	Precision: (52.5 / 128) 41.01%	F1: 47.74%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 350, 354 106107
+Repeated mention in the key: 360, 365 108112
+
+====== TOTALS =======
+Identification of Mentions: Recall: (105 / 122) 86.06%	Precision: (105 / 128) 82.03%	F1: 84%
+--------------------------------------------------------------------------
+Coreference: Recall: (59 / 124) 47.58%	Precision: (59 / 128) 46.09%	F1: 46.82%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 350, 354 106107
+Repeated mention in the key: 360, 365 108112
+
+====== TOTALS =======
+Identification of Mentions: Recall: (105 / 122) 86.06%	Precision: (105 / 128) 82.03%	F1: 84%
+--------------------------------------------------------------------------
+Coreference: Recall: (34.8222222222222 / 86) 40.49%	Precision: (34.8222222222222 / 64) 54.4%	F1: 46.42%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 350, 354 106107
+Repeated mention in the key: 360, 365 108112
+
+====== TOTALS =======
+Identification of Mentions: Recall: (105 / 122) 86.06%	Precision: (105 / 128) 82.03%	F1: 84%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (0 / 69) 0%	Precision: (0 / 64) 0%	F1: 0%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (5357 / 7317) 73.21%	Precision: (5357 / 8064) 66.43%	F1: 69.65%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.36606532731994 / 1) 36.6%	Precision: (0.332155257936508 / 1) 33.21%	F1: 34.82%
+--------------------------------------------------------------------------

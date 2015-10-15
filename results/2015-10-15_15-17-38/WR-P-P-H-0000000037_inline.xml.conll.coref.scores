@@ -1,0 +1,62 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 104, 107 109114
+Repeated mention in the key: 1001, 1012 319320
+Repeated mention in the key: 1302, 1306 270378
+
+====== TOTALS =======
+Identification of Mentions: Recall: (305 / 379) 80.47%	Precision: (305 / 373) 81.76%	F1: 81.11%
+--------------------------------------------------------------------------
+Coreference: Recall: (15 / 140) 10.71%	Precision: (15 / 186) 8.06%	F1: 9.2%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 104, 107 109114
+Repeated mention in the key: 1001, 1012 319320
+Repeated mention in the key: 1302, 1306 270378
+
+====== TOTALS =======
+Identification of Mentions: Recall: (305 / 379) 80.47%	Precision: (305 / 373) 81.76%	F1: 81.11%
+--------------------------------------------------------------------------
+Coreference: Recall: (183.129674796748 / 382) 47.93%	Precision: (167.5 / 373) 44.9%	F1: 46.37%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 104, 107 109114
+Repeated mention in the key: 1001, 1012 319320
+Repeated mention in the key: 1302, 1306 270378
+
+====== TOTALS =======
+Identification of Mentions: Recall: (305 / 379) 80.47%	Precision: (305 / 373) 81.76%	F1: 81.11%
+--------------------------------------------------------------------------
+Coreference: Recall: (146 / 382) 38.21%	Precision: (146 / 373) 39.14%	F1: 38.67%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 104, 107 109114
+Repeated mention in the key: 1001, 1012 319320
+Repeated mention in the key: 1302, 1306 270378
+
+====== TOTALS =======
+Identification of Mentions: Recall: (305 / 379) 80.47%	Precision: (305 / 373) 81.76%	F1: 81.11%
+--------------------------------------------------------------------------
+Coreference: Recall: (87.9357142857144 / 242) 36.33%	Precision: (87.9357142857144 / 187) 47.02%	F1: 40.99%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 104, 107 109114
+Repeated mention in the key: 1001, 1012 319320
+Repeated mention in the key: 1302, 1306 270378
+
+====== TOTALS =======
+Identification of Mentions: Recall: (305 / 379) 80.47%	Precision: (305 / 373) 81.76%	F1: 81.11%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (15 / 3426) 0.43%	Precision: (15 / 186) 8.06%	F1: 0.83%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (43472 / 68215) 63.72%	Precision: (43472 / 69192) 62.82%	F1: 63.27%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.320828737253299 / 1) 32.08%	Precision: (0.354462943692912 / 1) 35.44%	F1: 32.05%
+--------------------------------------------------------------------------

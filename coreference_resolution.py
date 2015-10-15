@@ -223,8 +223,8 @@ def mergeClustersByMentionIDs(idx1, idx2):
 # Dummy sieve that links each second mention to the preceding mention, for testing purposes (output/evaluation)
 def sieveDummy():
 	for idx, mention_id in enumerate(mention_id_list):
-		if idx % 3 == 2: # Link every third mention with the mention 2 positions back in the list
-			mergeClustersByMentionIDs(mention_id_list[idx], mention_id_list[idx-2])
+		if idx % 2 == 1: # Link every second mention with the mention 1 position back in the list
+			mergeClustersByMentionIDs(mention_id_list[idx], mention_id_list[idx-1])
 
 def main(input_file, output_file, doc_tags, verbosity):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses

@@ -1,0 +1,67 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 40, 41 1617
+Repeated mention in the key: 104, 105 2246
+Repeated mention in the key: 516, 521 176177
+Repeated mention in the key: 655, 659 205213
+
+====== TOTALS =======
+Identification of Mentions: Recall: (157 / 226) 69.46%	Precision: (157 / 182) 86.26%	F1: 76.96%
+--------------------------------------------------------------------------
+Coreference: Recall: (2 / 61) 3.27%	Precision: (2 / 91) 2.19%	F1: 2.63%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 40, 41 1617
+Repeated mention in the key: 104, 105 2246
+Repeated mention in the key: 516, 521 176177
+Repeated mention in the key: 655, 659 205213
+
+====== TOTALS =======
+Identification of Mentions: Recall: (157 / 226) 69.46%	Precision: (157 / 182) 86.26%	F1: 76.96%
+--------------------------------------------------------------------------
+Coreference: Recall: (108.354578754579 / 230) 47.11%	Precision: (80.5 / 182) 44.23%	F1: 45.62%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 40, 41 1617
+Repeated mention in the key: 104, 105 2246
+Repeated mention in the key: 516, 521 176177
+Repeated mention in the key: 655, 659 205213
+
+====== TOTALS =======
+Identification of Mentions: Recall: (157 / 226) 69.46%	Precision: (157 / 182) 86.26%	F1: 76.96%
+--------------------------------------------------------------------------
+Coreference: Recall: (85 / 230) 36.95%	Precision: (85 / 182) 46.7%	F1: 41.26%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 40, 41 1617
+Repeated mention in the key: 104, 105 2246
+Repeated mention in the key: 516, 521 176177
+Repeated mention in the key: 655, 659 205213
+
+====== TOTALS =======
+Identification of Mentions: Recall: (157 / 226) 69.46%	Precision: (157 / 182) 86.26%	F1: 76.96%
+--------------------------------------------------------------------------
+Coreference: Recall: (52.1746031746031 / 169) 30.87%	Precision: (52.1746031746031 / 91) 57.33%	F1: 40.13%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 40, 41 1617
+Repeated mention in the key: 104, 105 2246
+Repeated mention in the key: 516, 521 176177
+Repeated mention in the key: 655, 659 205213
+
+====== TOTALS =======
+Identification of Mentions: Recall: (157 / 226) 69.46%	Precision: (157 / 182) 86.26%	F1: 76.96%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (2 / 245) 0.81%	Precision: (2 / 91) 2.19%	F1: 1.19%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (12005 / 25208) 47.62%	Precision: (12005 / 16380) 73.29%	F1: 57.73%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.242200483811424 / 1) 24.22%	Precision: (0.377442002442002 / 1) 37.74%	F1: 29.46%
+--------------------------------------------------------------------------

@@ -1,0 +1,57 @@
+version: 8.01 /home/p268448/clin26/conll_scorer/lib/CorScorer.pm
+
+METRIC muc:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (179 / 229) 78.16%	Precision: (179 / 225) 79.55%	F1: 78.85%
+--------------------------------------------------------------------------
+Coreference: Recall: (3 / 109) 2.75%	Precision: (3 / 112) 2.67%	F1: 2.71%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (179 / 229) 78.16%	Precision: (179 / 225) 79.55%	F1: 78.85%
+--------------------------------------------------------------------------
+Coreference: Recall: (88.1237373737374 / 231) 38.14%	Precision: (93 / 225) 41.33%	F1: 39.67%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (179 / 229) 78.16%	Precision: (179 / 225) 79.55%	F1: 78.85%
+--------------------------------------------------------------------------
+Coreference: Recall: (81 / 231) 35.06%	Precision: (81 / 225) 36%	F1: 35.52%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (179 / 229) 78.16%	Precision: (179 / 225) 79.55%	F1: 78.85%
+--------------------------------------------------------------------------
+Coreference: Recall: (46.1776057276057 / 122) 37.85%	Precision: (46.1776057276057 / 113) 40.86%	F1: 39.3%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+Repeated mention in the key: 406, 411 157158
+Repeated mention in the key: 464, 467 171172
+
+====== TOTALS =======
+Identification of Mentions: Recall: (179 / 229) 78.16%	Precision: (179 / 225) 79.55%	F1: 78.85%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (3 / 703) 0.42%	Precision: (3 / 112) 2.67%	F1: 0.73%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (15324 / 25405) 60.31%	Precision: (15324 / 25088) 61.08%	F1: 60.69%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.303727887035151 / 1) 30.37%	Precision: (0.318797831632653 / 1) 31.87%	F1: 30.71%
+--------------------------------------------------------------------------
