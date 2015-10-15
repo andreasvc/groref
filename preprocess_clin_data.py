@@ -18,13 +18,16 @@ def preprocess_file(filename):
 	docName = filename.split('/')[-1].split('_')[0]
 	output_file.write('#begin document (' + docName + '); part 000\n') # Add in document tags
 	for line in input_file:
-		if line.strip():
-			output_file.write(docName + '\t' + '0\t'*4) # Add in document name and dummy columns
-		else:
-			sentence_counter += 1
-		if sentence_counter == 6: # Officially 5 sentences, but first 6 because of  '9	06-Mar-08	_' kind of stuff
-			break
-		output_file.write(line)
+		if line[0] != '#':
+			if line.strip():
+				output_file.write(docName + '\t' + '0\t'*4) # Add in document name and dummy columns
+			else:
+				sentence_counter += 1
+			if sentence_counter == 6: # Officially 5 sentences, but first 6 because of  '9	06-Mar-08	_' kind of stuff
+				break
+			output_file.write('\t'.join(line.split('\t')[1:]))
+		if not line.strip():
+			output_file.write('\n')
 	output_file.write('#end document')  # Add in document tags
 
 if __name__ == '__main__':

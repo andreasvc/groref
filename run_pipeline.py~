@@ -26,8 +26,8 @@ def processDocument(filename, verbosity):
 		preprocess_clin_data.preprocess_file(filename)
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
-			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity)
-			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename, "none"], stdout = scores_file)
+			coreference_resolution.main(filename, output_filename, True, verbosity)
+			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
 		else:
 			coreference_resolution.main(filename, output_filename, True, verbosity)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
