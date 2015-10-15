@@ -1,709 +1,141 @@
-1	Apple	(195)
-2	onthult	_
-3	iPhone	(185
-4	4	185)
-5	en	_
-6	iOS	(196
-7	4	196)
-8	tijdens	_
-9	Worldwide	_
-10	Developers	_
-11	Conference	_
-12	2010	_
+#begin document (190956_Apple_unveils_iPhone_4.xml.coref_ne);
+190956_Apple_unveils_iPhone_4.xml.coref_ne	1	Apple	(195)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	2	onthult	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	3	iPhone	(185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	4	4	185)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	5	en	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	6	iOS	(196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	7	4	196)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	8	tijdens	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	9	Worldwide	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	10	Developers	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	11	Conference	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	12	2010	_
 
-13	08-Jun-10	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	13	08-Jun-10	_
 
-14	Tijdens	_
-15	de	_
-16	Apple	_
-17	Worldwide	_
-18	Developers	_
-19	Conference	_
-20	(	_
-21	WWDC	_
-22	)	_
-23	onthulde	_
-24	CEO	(190
-25	Steve	190
-26	Jobs	190)
-27	gisteren	_
-28	de	(185
-29	iPhone	185
-30	4	185)
-31	en	_
-32	het	(196
-33	nieuwe	196
-34	iOS	196
-35	4	196
-36	besturingssysteem	196|196)
-37	voor	196
-38	Apple	(195)|(199|196
-39	mobiele	196|199
-40	apparaten	199)|196)
-41	.	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	14	Tijdens	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	15	de	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	16	Apple	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	17	Worldwide	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	18	Developers	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	19	Conference	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	20	(	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	21	WWDC	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	22	)	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	23	onthulde	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	24	CEO	(190
+190956_Apple_unveils_iPhone_4.xml.coref_ne	25	Steve	190
+190956_Apple_unveils_iPhone_4.xml.coref_ne	26	Jobs	190)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	27	gisteren	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	28	de	(185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	29	iPhone	185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	30	4	185)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	31	en	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	32	het	(196|(196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	33	nieuwe	196|196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	34	iOS	196|196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	35	4	196|196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	36	besturingssysteem	196)|196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	37	voor	196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	38	Apple	(195)|(199|196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	39	mobiele	199|196
+190956_Apple_unveils_iPhone_4.xml.coref_ne	40	apparaten	199)|196)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	41	.	_
 
-42	Het	_
-43	was	_
-44	een	_
-45	langverwachte	_
-46	maar	_
-47	niet	_
-48	enorm	_
-49	verrassende	_
-50	aankondiging	_
-51	.	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	42	Het	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	43	was	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	44	een	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	45	langverwachte	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	46	maar	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	47	niet	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	48	enorm	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	49	verrassende	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	50	aankondiging	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	51	.	_
 
-52	Technologieblog	(194
-53	Gizmodo	194)
-54	kreeg	_
-55	in	_
-56	april	_
-57	een	(185
-58	prototype	185
-59	van	185
-60	de	185|(185
-61	nieuwe	185
-62	telefoon	185)
-63	en	_
-64	publiceerde	_
-65	gedetailleerde	(61
-66	informatie	61)
-67	online	_
-68	.	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	52	Technologieblog	(194
+190956_Apple_unveils_iPhone_4.xml.coref_ne	53	Gizmodo	194)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	54	kreeg	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	55	in	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	56	april	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	57	een	(185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	58	prototype	185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	59	van	185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	60	de	185|(185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	61	nieuwe	185|185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	62	telefoon	185)|185)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	63	en	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	64	publiceerde	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	65	gedetailleerde	(61
+190956_Apple_unveils_iPhone_4.xml.coref_ne	66	informatie	61)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	67	online	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	68	.	_
 
-69	"	_
-70	Tijdens	_
-71	de	_
-72	introductie	_
-73	van	_
-74	de	(185
-75	iPhone	185
-76	4	185)
-77	op	_
-78	de	_
-79	jaarlijkse	_
-80	conferentie	_
-81	begon	_
-82	Jobs	(190)
-83	met	_
-84	een	_
-85	verwijzing	_
-86	naar	_
-87	dit	_
-88	incident	_
-89	en	_
-90	zei	_
-91	hij	(190)
-92	:	_
-93	"	_
-94	"	_
-95	Onderbreek	_
-96	me	(190)
-97	maar	_
-98	als	_
-99	je	(190)
-100	dit	_
-101	al	_
-102	hebt	_
-103	gezien	_
-104	.	_
-105	"	_
-106	"	_
-107	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	69	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	70	Tijdens	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	71	de	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	72	introductie	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	73	van	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	74	de	(185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	75	iPhone	185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	76	4	185)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	77	op	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	78	de	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	79	jaarlijkse	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	80	conferentie	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	81	begon	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	82	Jobs	(190)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	83	met	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	84	een	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	85	verwijzing	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	86	naar	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	87	dit	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	88	incident	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	89	en	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	90	zei	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	91	hij	(190)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	92	:	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	93	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	94	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	95	Onderbreek	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	96	me	(190)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	97	maar	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	98	als	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	99	je	(190)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	100	dit	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	101	al	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	102	hebt	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	103	gezien	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	104	.	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	105	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	106	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	107	"	_
 
-108	"	(185
-109	De	185
-110	nieuwe	185
-111	iPhone	185)
-112	werd	_
-113	door	_
-114	Jobs	(190)
-115	geloofd	_
-116	als	_
-117	"	_
-118	"	_
-119	de	_
-120	grootste	_
-121	sprong	_
-122	die	_
-123	we	_
-124	sinds	_
-125	de	_
-126	oorspronkelijke	_
-127	iPhone	_
-128	hebben	_
-129	gemaakt	_
-130	.	_
-131	"	_
-132	"	_
-133	"	_
-
-134	"	(185
-135	De	185
-136	telefoon	185)
-137	is	_
-138	maar	_
-139	9,3	_
-140	millimeter	_
-141	(	_
-142	0,37	_
-143	inch	_
-144	)	_
-145	dik	_
-146	,	_
-147	waarmee	_
-148	het	(185)
-149	"	_
-150	"	_
-151	de	(185
-152	dunste	185
-153	smartphone	185
-154	op	185
-155	aarde	185)
-156	"	_
-157	"	_
-158	is	_
-159	;	_
-160	24	_
-161	procent	_
-162	dunner	_
-163	dan	_
-164	het	_
-165	eerdere	_
-166	iPhone	_
-167	3GS	_
-168	model	_
-169	.	_
-170	"	_
-
-171	De	(185
-172	iPhone	185
-173	4	185)
-174	heeft	_
-175	een	_
-176	nieuw	_
-177	roestvrijstalen	_
-178	frame	_
-179	dat	_
-180	als	_
-181	antenne	_
-182	dienstdoet	_
-183	en	_
-184	volgens	_
-185	Apple	_
-186	de	_
-187	signaalontvangst	_
-188	verbetert	_
-189	,	_
-190	waardoor	_
-191	potentieel	_
-192	het	_
-193	aantal	_
-194	verbroken	_
-195	gesprekken	_
-196	zal	_
-197	verminderen	_
-198	.	_
-
-199	"	(185
-200	Het	185)
-201	heeft	_
-202	ook	_
-203	een	_
-204	nieuw	_
-205	scherm	_
-206	dat	_
-207	"	_
-208	"	_
-209	retina	_
-210	display	_
-211	"	_
-212	"	_
-213	is	_
-214	genoemd	_
-215	en	_
-216	beelden	_
-217	met	_
-218	326	_
-219	pixels	_
-220	per	_
-221	inch	_
-222	weergeeft	_
-223	.	_
-224	"	_
-
-225	Tijdens	_
-226	zijn	_
-227	keynote	_
-228	demonstreerde	_
-229	Jobs	(190)
-230	ook	_
-231	de	_
-232	nieuwe	_
-233	interne	_
-234	gyroscoop	_
-235	.	_
-
-236	Alhoewel	_
-237	nu	_
-238	de	_
-239	snellere	_
-240	A4-processor	_
-241	van	_
-242	Apple	_
-243	(	_
-244	die	_
-245	voor	_
-246	het	_
-247	eerst	_
-248	werd	_
-249	gebruikt	_
-250	in	_
-251	de	_
-252	iPad-tablet	_
-253	)	_
-254	is	_
-255	ingebouwd	_
-256	,	_
-257	heeft	_
-258	de	(185
-259	iPhone	185
-260	4	185)
-261	volgens	_
-262	Apple	_
-263	zeven	_
-264	uur	_
-265	3G	_
-266	gesprekstijd	_
-267	,	_
-268	twee	_
-269	uur	_
-270	meer	_
-271	dan	_
-272	de	_
-273	3GS	_
-274	.	_
-
-275	Naast	_
-276	de	_
-277	ontwerpkenmerken	_
-278	toonde	_
-279	Jobs	(190)
-280	ook	_
-281	de	_
-282	nieuwe	_
-283	videocall-functionaliteit	_
-284	.	_
-
-285	Deze	_
-286	functie	_
-287	wordt	_
-288	FaceTime	_
-289	genoemd	_
-290	en	_
-291	maakt	_
-292	via	_
-293	Wi-Fi	_
-294	verbinding	_
-295	met	_
-296	andere	(185
-297	iPhone	185
-298	4-toestellen	185)
-299	.	_
-
-300	De	(185
-301	telefoon	185)
-302	is	_
-303	voorzien	_
-304	van	_
-305	twee	_
-306	camera	_
-307	‘	_
-308	s	_
-309	:	_
-310	een	_
-311	aan	_
-312	de	_
-313	voorkant	_
-314	voor	_
-315	videochats	_
-316	en	_
-317	een	_
-318	aan	_
-319	de	_
-320	achterkant	_
-321	om	_
-322	foto	_
-323	‘	_
-324	s	_
-325	en	_
-326	andere	_
-327	videobeelden	_
-328	op	_
-329	te	_
-330	nemen	_
-331	.	_
-
-332	De	_
-333	camera	_
-334	op	_
-335	de	_
-336	achterkant	_
-337	heeft	_
-338	een	_
-339	resolutie	_
-340	van	_
-341	five	_
-342	megapixel	_
-343	,	_
-344	kan	_
-345	high-definition	_
-346	videobeelden	_
-347	opnemen	_
-348	en	_
-349	is	_
-350	voorzien	_
-351	van	_
-352	een	_
-353	LED-flash	_
-354	.	_
-
-355	De	(185
-356	iPhone	185
-357	4	185)
-358	draait	_
-359	op	_
-360	het	_
-361	iOS4	_
-362	,	_
-363	het	_
-364	meest	_
-365	recente	_
-366	mobiele	_
-367	besturingssysteem	_
-368	van	_
-369	Apple	_
-370	.	_
-
-371	"	_
-372	Het	_
-373	voormalige	_
-374	"	_
-375	"	_
-376	iPhone	_
-377	OS	_
-378	"	_
-379	"	_
-380	werd	_
-381	in	_
-382	april	_
-383	als	_
-384	iOS	_
-385	4	_
-386	door	_
-387	Apple	_
-388	geïntroduceerd	_
-389	en	_
-390	omvat	_
-391	multitasking-functionaliteit	_
-392	.	_
-393	"	_
-
-394	"	(190
-395	Jobs	190)
-396	noemde	_
-397	de	_
-398	nieuwe	_
-399	software	_
-400	"	_
-401	"	_
-402	het	_
-403	meest	_
-404	geavanceerde	_
-405	mobiele	_
-406	besturingssysteem	_
-407	ter	_
-408	wereld	_
-409	.	_
-410	"	_
-411	"	_
-412	"	_
-413	iOS	_
-414	ondersteunt	_
-415	de	_
-416	nieuwe	_
-417	mobiele	_
-418	reclameservice	_
-419	van	_
-420	Apple	_
-421	,	_
-422	die	_
-423	iAd	_
-424	heet	_
-425	en	_
-426	per	_
-427	1	_
-428	juli	_
-429	beschikbaar	_
-430	is.	_
-431	iPhone	(185
-432	4	185)
-433	is	_
-434	vanaf	_
-435	24	_
-436	juni	_
-437	verkrijgbaar	_
-438	in	_
-439	de	_
-440	Verenigde	_
-441	Staten	_
-442	,	_
-443	Engeland	_
-444	,	_
-445	Frankrijk	_
-446	,	_
-447	Duitsland	_
-448	en	_
-449	Japan	_
-450	.	_
-
-451	De	(185
-452	telefoon	185)
-453	wordt	_
-454	in	_
-455	twee	_
-456	kleuren	_
-457	(	_
-458	zwart	_
-459	en	_
-460	wit	_
-461	)	_
-462	en	_
-463	twee	_
-464	opslagcapaciteiten	_
-465	uitgebracht	_
-466	.	_
-
-467	De	(185
-468	versie	185
-469	van	185
-470	16	185
-471	GB	185)
-472	kost	_
-473	US	_
-474	$	_
-475	199	_
-476	,	_
-477	-	_
-478	en	_
-479	de	(185
-480	versie	185
-481	van	185
-482	32	185
-483	GB	185)
-484	US	_
-485	$	_
-486	299	_
-487	,	_
-488	-	_
-489	.	_
-
-490	De	_
-491	prijs	_
-492	van	_
-493	de	_
-494	iPhone	_
-495	3GS	_
-496	wordt	_
-497	verlaagd	_
-498	tot	_
-499	US	_
-500	$	_
-501	99	_
-502	,	_
-503	-	_
-504	en	_
-505	de	(291
-506	iPhone	291
-507	3G	291)
-508	wordt	_
-509	uit	_
-510	de	_
-511	handel	_
-512	genomen.	_
-513	iOS	_
-514	zal	_
-515	vanaf	_
-516	21	_
-517	juni	_
-518	als	_
-519	gratis	_
-520	update	_
-521	beschikbaar	_
-522	worden	_
-523	gesteld	_
-524	aan	_
-525	gebruikers	_
-526	van	_
-527	compatibele	_
-528	oudere	_
-529	Apple-apparaten	_
-530	(	_
-531	waaronder	_
-532	ook	_
-533	de	_
-534	3GS	_
-535	)	_
-536	.	_
-
-537	In	_
-538	Amerika	_
-539	zal	_
-540	de	(185
-541	iPhone	185
-542	4	185)
-543	alleen	_
-544	verkrijgbaar	_
-545	zijn	_
-546	in	_
-547	combinatie	_
-548	met	_
-549	een	_
-550	AT	_
-551	&	_
-552	T-abonnement	_
-553	,	_
-554	ondanks	_
-555	het	_
-556	feit	_
-557	dat	_
-558	Apple	_
-559	is	_
-560	gevraagd	_
-561	om	_
-562	de	(185
-563	iPhone	185)
-564	ook	_
-565	beschikbaar	_
-566	te	_
-567	maken	_
-568	voor	_
-569	andere	_
-570	providers	_
-571	zoals	_
-572	Verizon	_
-573	.	_
-
-574	Qua	_
-575	concurrentie	_
-576	is	_
-577	de	_
-578	BlackBerry	_
-579	op	_
-580	dit	_
-581	moment	_
-582	nog	_
-583	steeds	_
-584	de	_
-585	populairste	_
-586	smartphone	_
-587	.	_
-
-588	Apple	_
-589	krijgt	_
-590	ook	_
-591	stevige	_
-592	concurrentie	_
-593	van	_
-594	het	_
-595	Android	_
-596	besturingssysteem	_
-597	van	_
-598	webgigant	_
-599	Google	_
-600	en	_
-601	webOS	_
-602	van	_
-603	Palm	_
-604	.	_
-
-605	Eerder	_
-606	dit	_
-607	jaar	_
-608	werden	_
-609	meer	_
-610	Android-telefoons	_
-611	verkocht	_
-612	dan	_
-613	iPhones	_
-614	.	_
-
-615	"	_
-616	Meer	_
-617	dan	_
-618	de	_
-619	helft	_
-620	van	_
-621	alle	_
-622	mensen	_
-623	die	_
-624	in	_
-625	de	_
-626	Verenigde	_
-627	Staten	_
-628	met	_
-629	een	_
-630	mobiele	_
-631	browser	_
-632	op	_
-633	het	_
-634	internet	_
-635	surfen	_
-636	,	_
-637	gebruikt	_
-638	echter	_
-639	een	_
-640	iPhone	_
-641	.	_
-
-642	Jobs	(190)
-643	gaf	_
-644	ook	_
-645	aan	_
-646	dat	_
-647	meer	_
-648	dan	_
-649	vijf	_
-650	miljard	_
-651	iOS-toepassingen	_
-652	,	_
-653	die	_
-654	"	_
-655	"	_
-656	apps	_
-657	"	_
-658	"	_
-659	worden	_
-660	genoemd	_
-661	,	_
-662	zijn	_
-663	verkocht	_
-664	in	_
-665	de	_
-666	Apple	_
-667	App	_
-668	Store	_
-669	.	_
-670	"	_
-
-671	De	_
-672	App	_
-673	Store	_
-674	biedt	_
-675	momenteel	_
-676	ongeveer	_
-677	225.000	_
-678	verschillende	_
-679	apps	_
-680	aan	_
-681	.	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	108	"	(185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	109	De	185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	110	nieuwe	185
+190956_Apple_unveils_iPhone_4.xml.coref_ne	111	iPhone	185)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	112	werd	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	113	door	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	114	Jobs	(190)
+190956_Apple_unveils_iPhone_4.xml.coref_ne	115	geloofd	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	116	als	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	117	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	118	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	119	de	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	120	grootste	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	121	sprong	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	122	die	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	123	we	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	124	sinds	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	125	de	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	126	oorspronkelijke	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	127	iPhone	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	128	hebben	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	129	gemaakt	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	130	.	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	131	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	132	"	_
+190956_Apple_unveils_iPhone_4.xml.coref_ne	133	"	_
+#end document

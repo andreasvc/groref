@@ -1,228 +1,135 @@
-1	Apple	(102)
-2	introduceert	_
-3	programma	(107)
-4	om	_
-5	iPod-volume	(106)|(94)
-6	te	_
-7	begrenzen	_
+#begin document (37961_Apple_releases_program.xml.coref_ne);
+37961_Apple_releases_program.xml.coref_ne	1	Apple	(102)
+37961_Apple_releases_program.xml.coref_ne	2	introduceert	_
+37961_Apple_releases_program.xml.coref_ne	3	programma	(107)
+37961_Apple_releases_program.xml.coref_ne	4	om	_
+37961_Apple_releases_program.xml.coref_ne	5	iPod-volume	(106)
+37961_Apple_releases_program.xml.coref_ne	6	te	_
+37961_Apple_releases_program.xml.coref_ne	7	begrenzen	_
 
-8	05-Apr-06	_
+37961_Apple_releases_program.xml.coref_ne	8	05-Apr-06	_
 
-9	Apple	(102)
-10	heeft	_
-11	een	(107
-12	applicatie	107)
-13	uitgebracht	_
-14	,	_
-15	die	_
-16	het	(106
-17	volume	106
-18	van	106
-19	de	(94|106
-20	iPod	106|94
-21	draagbare	106|94
-22	muziekspelers	94)|106)
-23	beperkt	_
-24	.	_
+37961_Apple_releases_program.xml.coref_ne	9	Apple	(102)
+37961_Apple_releases_program.xml.coref_ne	10	heeft	_
+37961_Apple_releases_program.xml.coref_ne	11	een	(107
+37961_Apple_releases_program.xml.coref_ne	12	applicatie	107)
+37961_Apple_releases_program.xml.coref_ne	13	uitgebracht	_
+37961_Apple_releases_program.xml.coref_ne	14	,	_
+37961_Apple_releases_program.xml.coref_ne	15	die	_
+37961_Apple_releases_program.xml.coref_ne	16	het	(106
+37961_Apple_releases_program.xml.coref_ne	17	volume	106
+37961_Apple_releases_program.xml.coref_ne	18	van	106
+37961_Apple_releases_program.xml.coref_ne	19	de	106|(94
+37961_Apple_releases_program.xml.coref_ne	20	iPod	106|94
+37961_Apple_releases_program.xml.coref_ne	21	draagbare	106|94
+37961_Apple_releases_program.xml.coref_ne	22	muziekspelers	106)|94)
+37961_Apple_releases_program.xml.coref_ne	23	beperkt	_
+37961_Apple_releases_program.xml.coref_ne	24	.	_
 
-25	De	_
-26	software-update	(107)
-27	,	_
-28	iPod	(107
-29	Software	107
-30	1.1.1	107)
-31	,	_
-32	werkt	_
-33	op	_
-34	de	_
-35	iPod	(94
-36	Nano	94)
-37	en	_
-38	de	_
-39	Video-versie	94)
-40	.	_
+37961_Apple_releases_program.xml.coref_ne	25	De	_
+37961_Apple_releases_program.xml.coref_ne	26	software-update	(107)
+37961_Apple_releases_program.xml.coref_ne	27	,	_
+37961_Apple_releases_program.xml.coref_ne	28	iPod	(107
+37961_Apple_releases_program.xml.coref_ne	29	Software	107
+37961_Apple_releases_program.xml.coref_ne	30	1.1.1	107)
+37961_Apple_releases_program.xml.coref_ne	31	,	_
+37961_Apple_releases_program.xml.coref_ne	32	werkt	_
+37961_Apple_releases_program.xml.coref_ne	33	op	_
+37961_Apple_releases_program.xml.coref_ne	34	de	_
+37961_Apple_releases_program.xml.coref_ne	35	iPod	(94|(94
+37961_Apple_releases_program.xml.coref_ne	36	Nano	94)
+37961_Apple_releases_program.xml.coref_ne	37	en	_
+37961_Apple_releases_program.xml.coref_ne	38	de	_
+37961_Apple_releases_program.xml.coref_ne	39	Video-versie	94)
+37961_Apple_releases_program.xml.coref_ne	40	.	_
 
-41	Apple	(102)
-42	bracht	_
-43	het	(107
-44	programma	107)
-45	uit	_
-46	als	_
-47	reactie	_
-48	op	_
-49	klachten	_
-50	dat	_
-51	het	(102)
-52	niet	_
-53	de	_
-54	nodige	_
-55	maatregelen	_
-56	had	_
-57	genomen	_
-58	om	_
-59	gehoorverlies	_
-60	bij	_
-61	iPod-gebruikers	(108)|(94)
-62	tegen	_
-63	te	_
-64	gaan	_
-65	.	_
+37961_Apple_releases_program.xml.coref_ne	41	Apple	(102)
+37961_Apple_releases_program.xml.coref_ne	42	bracht	_
+37961_Apple_releases_program.xml.coref_ne	43	het	(107
+37961_Apple_releases_program.xml.coref_ne	44	programma	107)
+37961_Apple_releases_program.xml.coref_ne	45	uit	_
+37961_Apple_releases_program.xml.coref_ne	46	als	_
+37961_Apple_releases_program.xml.coref_ne	47	reactie	_
+37961_Apple_releases_program.xml.coref_ne	48	op	_
+37961_Apple_releases_program.xml.coref_ne	49	klachten	_
+37961_Apple_releases_program.xml.coref_ne	50	dat	_
+37961_Apple_releases_program.xml.coref_ne	51	het	(102)
+37961_Apple_releases_program.xml.coref_ne	52	niet	_
+37961_Apple_releases_program.xml.coref_ne	53	de	_
+37961_Apple_releases_program.xml.coref_ne	54	nodige	_
+37961_Apple_releases_program.xml.coref_ne	55	maatregelen	_
+37961_Apple_releases_program.xml.coref_ne	56	had	_
+37961_Apple_releases_program.xml.coref_ne	57	genomen	_
+37961_Apple_releases_program.xml.coref_ne	58	om	_
+37961_Apple_releases_program.xml.coref_ne	59	gehoorverlies	_
+37961_Apple_releases_program.xml.coref_ne	60	bij	_
+37961_Apple_releases_program.xml.coref_ne	61	iPod-gebruikers	(108)
+37961_Apple_releases_program.xml.coref_ne	62	tegen	_
+37961_Apple_releases_program.xml.coref_ne	63	te	_
+37961_Apple_releases_program.xml.coref_ne	64	gaan	_
+37961_Apple_releases_program.xml.coref_ne	65	.	_
 
-66	In	_
-67	Californië	(99)
-68	werd	_
-69	in	_
-70	januari	_
-71	een	_
-72	groepsactie	_
-73	tegen	_
-74	Apple	(102)
-75	aangespannen	_
-76	over	_
-77	claims	_
-78	dat	_
-79	gebruik	_
-80	van	_
-81	de	(94
-82	iPod	94)
-83	gehoorverlies	_
-84	had	_
-85	veroorzaakt	_
-86	.	_
+37961_Apple_releases_program.xml.coref_ne	66	In	_
+37961_Apple_releases_program.xml.coref_ne	67	Californië	(99)
+37961_Apple_releases_program.xml.coref_ne	68	werd	_
+37961_Apple_releases_program.xml.coref_ne	69	in	_
+37961_Apple_releases_program.xml.coref_ne	70	januari	_
+37961_Apple_releases_program.xml.coref_ne	71	een	_
+37961_Apple_releases_program.xml.coref_ne	72	groepsactie	_
+37961_Apple_releases_program.xml.coref_ne	73	tegen	_
+37961_Apple_releases_program.xml.coref_ne	74	Apple	(102)
+37961_Apple_releases_program.xml.coref_ne	75	aangespannen	_
+37961_Apple_releases_program.xml.coref_ne	76	over	_
+37961_Apple_releases_program.xml.coref_ne	77	claims	_
+37961_Apple_releases_program.xml.coref_ne	78	dat	_
+37961_Apple_releases_program.xml.coref_ne	79	gebruik	_
+37961_Apple_releases_program.xml.coref_ne	80	van	_
+37961_Apple_releases_program.xml.coref_ne	81	de	(94
+37961_Apple_releases_program.xml.coref_ne	82	iPod	94)
+37961_Apple_releases_program.xml.coref_ne	83	gehoorverlies	_
+37961_Apple_releases_program.xml.coref_ne	84	had	_
+37961_Apple_releases_program.xml.coref_ne	85	veroorzaakt	_
+37961_Apple_releases_program.xml.coref_ne	86	.	_
 
-87	"	_
-88	Greg	_
-89	Joswiak	_
-90	,	_
-91	internationaal	_
-92	vice-president	_
-93	marketing	_
-94	voor	_
-95	de	(94
-96	iPod	94)
-97	bij	_
-98	Apple	_
-99	,	_
-100	zei	_
-101	dat	_
-102	deze	_
-103	patch	_
-104	beschikbaar	_
-105	is	_
-106	voor	_
-107	mensen	_
-108	die	_
-109	"	_
-110	"	_
-111	een	_
-112	gebruiksvriendelijke	_
-113	mogelijkheid	_
-114	wensen	_
-115	om	_
-116	hun	_
-117	eigen	_
-118	,	_
-119	persoonlijke	_
-120	volumegrens	_
-121	in	_
-122	te	_
-123	stellen	_
-124	.	_
-125	"	_
-126	"	_
-127	"	_
-
-128	De	_
-129	patch	_
-130	kan	_
-131	gratis	_
-132	worden	_
-133	gedownload	_
-134	.	_
-
-135	De	_
-136	software	_
-137	kan	_
-138	ook	_
-139	worden	_
-140	gebruikt	_
-141	met	_
-142	ouderlijk	_
-143	toezicht	_
-144	,	_
-145	zodat	_
-146	kinderen	_
-147	het	_
-148	volume	_
-149	niet	_
-150	kunnen	_
-151	aanpassen	_
-152	.	_
-
-153	Op	_
-154	iPods	(94)
-155	die	_
-156	in	_
-157	Frankrijk	_
-158	worden	_
-159	verkocht	_
-160	zit	_
-161	al	_
-162	een	_
-163	volumebegrenzing	_
-164	omdat	_
-165	geluiden	_
-166	harder	_
-167	dan	_
-168	100	_
-169	decibel	_
-170	(	_
-171	dB	_
-172	)	_
-173	wettelijk	_
-174	zijn	_
-175	verboden	_
-176	.	_
-
-177	De	_
-178	American	_
-179	Speech	_
-180	Language	_
-181	Hearing	_
-182	Association	_
-183	publiceerde	_
-184	een	_
-185	studie	_
-186	waaruit	_
-187	blijkt	_
-188	dat	_
-189	het	_
-190	volume	_
-191	van	_
-192	de	(94
-193	iPod	94)
-194	(	_
-195	en	_
-196	andere	_
-197	mp3-spelers	_
-198	)	_
-199	120	_
-200	dB	_
-201	bedraagt	_
-202	,	_
-203	wat	_
-204	kan	_
-205	worden	_
-206	vergeleken	_
-207	met	_
-208	een	_
-209	live	_
-210	concert	_
-211	.	_
-
-212	Een	_
-213	pistoolschot	_
-214	is	_
-215	140	_
-216	dB	_
-217	.	_
+37961_Apple_releases_program.xml.coref_ne	87	"	_
+37961_Apple_releases_program.xml.coref_ne	88	Greg	_
+37961_Apple_releases_program.xml.coref_ne	89	Joswiak	_
+37961_Apple_releases_program.xml.coref_ne	90	,	_
+37961_Apple_releases_program.xml.coref_ne	91	internationaal	_
+37961_Apple_releases_program.xml.coref_ne	92	vice-president	_
+37961_Apple_releases_program.xml.coref_ne	93	marketing	_
+37961_Apple_releases_program.xml.coref_ne	94	voor	_
+37961_Apple_releases_program.xml.coref_ne	95	de	(94
+37961_Apple_releases_program.xml.coref_ne	96	iPod	94)
+37961_Apple_releases_program.xml.coref_ne	97	bij	_
+37961_Apple_releases_program.xml.coref_ne	98	Apple	_
+37961_Apple_releases_program.xml.coref_ne	99	,	_
+37961_Apple_releases_program.xml.coref_ne	100	zei	_
+37961_Apple_releases_program.xml.coref_ne	101	dat	_
+37961_Apple_releases_program.xml.coref_ne	102	deze	_
+37961_Apple_releases_program.xml.coref_ne	103	patch	_
+37961_Apple_releases_program.xml.coref_ne	104	beschikbaar	_
+37961_Apple_releases_program.xml.coref_ne	105	is	_
+37961_Apple_releases_program.xml.coref_ne	106	voor	_
+37961_Apple_releases_program.xml.coref_ne	107	mensen	_
+37961_Apple_releases_program.xml.coref_ne	108	die	_
+37961_Apple_releases_program.xml.coref_ne	109	"	_
+37961_Apple_releases_program.xml.coref_ne	110	"	_
+37961_Apple_releases_program.xml.coref_ne	111	een	_
+37961_Apple_releases_program.xml.coref_ne	112	gebruiksvriendelijke	_
+37961_Apple_releases_program.xml.coref_ne	113	mogelijkheid	_
+37961_Apple_releases_program.xml.coref_ne	114	wensen	_
+37961_Apple_releases_program.xml.coref_ne	115	om	_
+37961_Apple_releases_program.xml.coref_ne	116	hun	_
+37961_Apple_releases_program.xml.coref_ne	117	eigen	_
+37961_Apple_releases_program.xml.coref_ne	118	,	_
+37961_Apple_releases_program.xml.coref_ne	119	persoonlijke	_
+37961_Apple_releases_program.xml.coref_ne	120	volumegrens	_
+37961_Apple_releases_program.xml.coref_ne	121	in	_
+37961_Apple_releases_program.xml.coref_ne	122	te	_
+37961_Apple_releases_program.xml.coref_ne	123	stellen	_
+37961_Apple_releases_program.xml.coref_ne	124	.	_
+37961_Apple_releases_program.xml.coref_ne	125	"	_
+37961_Apple_releases_program.xml.coref_ne	126	"	_
+37961_Apple_releases_program.xml.coref_ne	127	"	_
+#end document

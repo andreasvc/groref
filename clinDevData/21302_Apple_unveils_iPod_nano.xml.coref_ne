@@ -1,381 +1,135 @@
-1	Apple	(105)
-2	onthult	_
-3	iPod	(106
-4	nano	106)
+#begin document (21302_Apple_unveils_iPod_nano.xml.coref_ne);
+21302_Apple_unveils_iPod_nano.xml.coref_ne	1	Apple	(105)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	2	onthult	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	3	iPod	(106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	4	nano	106)
 
-5	07-Sep-05	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	5	07-Sep-05	_
 
-6	Apple	(105)
-7	onthulde	_
-8	vandaag	_
-9	zijn	(105)
-10	laatste	(106
-11	aanwinst	106
-12	in	106
-13	de	106
-14	iPod-collectie	106)
-15	,	_
-16	de	(106
-17	iPod	106
-18	nano	106)
-19	.	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	6	Apple	(105)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	7	onthulde	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	8	vandaag	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	9	zijn	(105)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	10	laatste	(106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	11	aanwinst	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	12	in	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	13	de	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	14	iPod-collectie	106)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	15	,	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	16	de	(106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	17	iPod	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	18	nano	106)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	19	.	_
 
-20	Dit	_
-21	werd	_
-22	vandaag	_
-23	aangekondigd	_
-24	tijdens	_
-25	een	_
-26	speciaal	_
-27	muziekevenement	_
-28	dat	_
-29	door	_
-30	Apple	(105)
-31	in	_
-32	het	(101
-33	Moscone	101
-34	West	101
-35	Convention	101
-36	Center	101)
-37	in	_
-38	San	(104
-39	Francisco	104)
-40	werd	_
-41	georganiseerd	_
-42	.	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	20	Dit	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	21	werd	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	22	vandaag	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	23	aangekondigd	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	24	tijdens	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	25	een	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	26	speciaal	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	27	muziekevenement	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	28	dat	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	29	door	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	30	Apple	(105)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	31	in	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	32	het	(101
+21302_Apple_unveils_iPod_nano.xml.coref_ne	33	Moscone	101
+21302_Apple_unveils_iPod_nano.xml.coref_ne	34	West	101
+21302_Apple_unveils_iPod_nano.xml.coref_ne	35	Convention	101
+21302_Apple_unveils_iPod_nano.xml.coref_ne	36	Center	101)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	37	in	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	38	San	(104
+21302_Apple_unveils_iPod_nano.xml.coref_ne	39	Francisco	104)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	40	werd	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	41	georganiseerd	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	42	.	_
 
-43	De	(106
-44	iPod	106
-45	Nano	106)
-46	is	_
-47	verkrijgbaar	_
-48	in	_
-49	twee	_
-50	kleuren	_
-51	,	_
-52	wit	_
-53	en	_
-54	zwart	_
-55	,	_
-56	en	_
-57	twee	_
-58	maten	_
-59	,	_
-60	2	_
-61	GB	_
-62	en	_
-63	4	_
-64	GB	_
-65	,	_
-66	waarop	_
-67	respectievelijk	_
-68	500	_
-69	en	_
-70	1.000	_
-71	nummers	_
-72	kunnen	_
-73	worden	_
-74	opgeslagen	_
-75	tegen	_
-76	een	(50
-77	prijs	50
-78	van	50
-79	respectievelijk	50
-80	USD	50
-81	199	50
-82	,	50
-83	-	50
-84	en	50
-85	USD	50
-86	249	50
-87	,	50
-88	-	50)
-89	.	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	43	De	(106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	44	iPod	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	45	Nano	106)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	46	is	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	47	verkrijgbaar	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	48	in	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	49	twee	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	50	kleuren	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	51	,	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	52	wit	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	53	en	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	54	zwart	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	55	,	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	56	en	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	57	twee	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	58	maten	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	59	,	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	60	2	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	61	GB	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	62	en	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	63	4	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	64	GB	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	65	,	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	66	waarop	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	67	respectievelijk	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	68	500	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	69	en	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	70	1.000	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	71	nummers	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	72	kunnen	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	73	worden	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	74	opgeslagen	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	75	tegen	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	76	een	(50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	77	prijs	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	78	van	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	79	respectievelijk	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	80	USD	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	81	199	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	82	,	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	83	-	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	84	en	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	85	USD	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	86	249	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	87	,	50
+21302_Apple_unveils_iPod_nano.xml.coref_ne	88	-	50)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	89	.	_
 
-90	De	(106
-91	iPod	106
-92	nano	106)
-93	is	_
-94	na	_
-95	de	(108
-96	Shuffle	108)
-97	,	_
-98	die	_
-99	in	_
-100	januari	_
-101	werd	_
-102	geïntroduceerd	_
-103	,	_
-104	het	(106
-105	tweede	106
-106	model	106
-107	in	106
-108	de	106
-109	iPod-familie	106)
-110	dat	_
-111	is	_
-112	uitgerust	_
-113	met	_
-114	flashgeheugen	(52)
-115	.	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	90	De	(106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	91	iPod	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	92	nano	106)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	93	is	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	94	na	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	95	de	(108
+21302_Apple_unveils_iPod_nano.xml.coref_ne	96	Shuffle	108)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	97	,	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	98	die	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	99	in	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	100	januari	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	101	werd	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	102	geïntroduceerd	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	103	,	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	104	het	(106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	105	tweede	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	106	model	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	107	in	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	108	de	106
+21302_Apple_unveils_iPod_nano.xml.coref_ne	109	iPod-familie	106)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	110	dat	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	111	is	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	112	uitgerust	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	113	met	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	114	flashgeheugen	(52)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	115	.	_
 
-116	De	_
-117	iPod	_
-118	nano	_
-119	vervangt	_
-120	de	_
-121	vergelijkbare	_
-122	iPod	_
-123	Mini	_
-124	in	_
-125	de	_
-126	iPod-collectie	(118)
-127	.	_
-
-128	De	_
-129	maximale	_
-130	capaciteit	_
-131	van	_
-132	de	_
-133	iPod	_
-134	nano	_
-135	is	_
-136	2	_
-137	GB	_
-138	minder	_
-139	dan	_
-140	die	_
-141	van	_
-142	de	_
-143	laatste	_
-144	versie	_
-145	van	_
-146	de	_
-147	iPod	_
-148	Mini	_
-149	,	_
-150	waarop	_
-151	6	_
-152	GB	_
-153	kon	_
-154	worden	_
-155	opgeslagen	_
-156	voor	_
-157	dezelfde	_
-158	prijs	_
-159	van	_
-160	USD	_
-161	249	_
-162	,	_
-163	-	_
-164	.	_
-
-165	Apple	_
-166	kondigde	_
-167	ook	_
-168	een	_
-169	mobiele	_
-170	telefoon	_
-171	aan	_
-172	die	_
-173	kan	_
-174	worden	_
-175	gebruikt	_
-176	met	_
-177	iTunes	(130)
-178	,	_
-179	de	_
-180	Motorola	_
-181	ROKR	_
-182	E1	_
-183	,	_
-184	die	_
-185	in	_
-186	de	_
-187	V.	_
-188	S.	_
-189	exclusief	_
-190	verkrijgbaar	_
-191	zal	_
-192	zijn	_
-193	via	_
-194	Cingular	_
-195	Wireless	_
-196	en	_
-197	in	_
-198	Engeland	_
-199	via	_
-200	Virgin	_
-201	.	_
-
-202	De	_
-203	ROKR	_
-204	heeft	_
-205	een	_
-206	kleurenscherm	_
-207	waarop	_
-208	albumcovers	_
-209	kunnen	_
-210	worden	_
-211	weergegeven	_
-212	en	_
-213	is	_
-214	voorzien	_
-215	van	_
-216	ingebouwde	_
-217	stereospeakers	_
-218	en	_
-219	een	_
-220	stereokoptelefoon	_
-221	die	_
-222	met	_
-223	een	_
-224	microfoon	_
-225	ook	_
-226	als	_
-227	mobiele	_
-228	headset	_
-229	kan	_
-230	worden	_
-231	gebruikt	_
-232	.	_
-
-233	Gebruikers	_
-234	kunnen	_
-235	via	_
-236	een	_
-237	USB	_
-238	1.1-verbinding	_
-239	de	_
-240	mobiele	_
-241	telefoon	_
-242	willekeurig	_
-243	automatisch	_
-244	laten	_
-245	vullen	_
-246	of	_
-247	deze	_
-248	zelf	_
-249	vullen	_
-250	met	_
-251	afspeellijsten	_
-252	voor	_
-253	muziek	_
-254	,	_
-255	luisterboeken	_
-256	en	_
-257	Podcasts	_
-258	vanuit	_
-259	hun	_
-260	iTunes	(130)
-261	bibliotheek	_
-262	.	_
-
-263	De	_
-264	Motorola	_
-265	ROKR	_
-266	pauzeert	_
-267	automatisch	_
-268	de	_
-269	muziek	_
-270	wanneer	_
-271	de	_
-272	gebruiker	_
-273	een	_
-274	telefoongesprek	_
-275	beantwoordt	_
-276	en	_
-277	er	_
-278	kan	_
-279	muziek	_
-280	worden	_
-281	afgespeeld	_
-282	tijdens	_
-283	het	_
-284	sms-en	_
-285	of	_
-286	wanneer	_
-287	een	_
-288	foto	_
-289	wordt	_
-290	genomen	_
-291	.	_
-
-292	De	_
-293	telefoon	_
-294	kost	_
-295	USD	_
-296	250	_
-297	,	_
-298	-	_
-299	in	_
-300	combinatie	_
-301	met	_
-302	een	_
-303	abonnement	_
-304	van	_
-305	twee	_
-306	jaar	_
-307	.	_
-
-308	Tijdens	_
-309	het	_
-310	evenement	_
-311	werd	_
-312	ook	_
-313	een	(130
-314	nieuwe	130
-315	versie	130
-316	5	130
-317	van	130
-318	iTunes	130)|(130)
-319	aangekondigd	_
-320	.	_
-
-321	Naast	_
-322	een	_
-323	nieuwe	_
-324	uitstraling	_
-325	biedt	_
-326	iTunes	(130)
-327	nu	_
-328	ook	_
-329	een	_
-330	willekeurige	_
-331	afspeelmodus	_
-332	die	_
-333	door	_
-334	de	_
-335	gebruiker	_
-336	kan	_
-337	worden	_
-338	ingesteld	_
-339	,	_
-340	een	_
-341	betere	_
-342	zoekfunctie	_
-343	voor	_
-344	de	_
-345	Bibliotheek	_
-346	en	_
-347	Music	_
-348	Store	_
-349	en	_
-350	verbeterde	_
-351	oudercontrole	_
-352	op	_
-353	songs	_
-354	met	_
-355	expliciete	_
-356	teksten	_
-357	in	_
-358	de	(130
-359	iTunes	130
-360	Music	130
-361	Store	130)
-362	en	_
-363	de	_
-364	inhoud	_
-365	van	_
-366	Podcasts	_
-367	.	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	116	De	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	117	iPod	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	118	nano	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	119	vervangt	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	120	de	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	121	vergelijkbare	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	122	iPod	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	123	Mini	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	124	in	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	125	de	_
+21302_Apple_unveils_iPod_nano.xml.coref_ne	126	iPod-collectie	(118)
+21302_Apple_unveils_iPod_nano.xml.coref_ne	127	.	_
+#end document

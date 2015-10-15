@@ -1,213 +1,159 @@
-1	Apple	(138
-2	Inc.	138)
-3	en	_
-4	Apple	(105
-5	Corps	105)
-6	lossen	_
-7	handelsmerkconflict	_
-8	op	_
+#begin document (60083_Apple_Corps_resolve.xml.coref_ne);
+60083_Apple_Corps_resolve.xml.coref_ne	1	Apple	(138
+60083_Apple_Corps_resolve.xml.coref_ne	2	Inc.	138)
+60083_Apple_Corps_resolve.xml.coref_ne	3	en	_
+60083_Apple_Corps_resolve.xml.coref_ne	4	Apple	(105
+60083_Apple_Corps_resolve.xml.coref_ne	5	Corps	105)
+60083_Apple_Corps_resolve.xml.coref_ne	6	lossen	_
+60083_Apple_Corps_resolve.xml.coref_ne	7	handelsmerkconflict	_
+60083_Apple_Corps_resolve.xml.coref_ne	8	op	_
 
-9	06-Feb-07	_
+60083_Apple_Corps_resolve.xml.coref_ne	9	06-Feb-07	_
 
-10	Apple	(138
-11	Inc.	138)
-12	kondigde	_
-13	maandag	_
-14	aan	_
-15	dat	_
-16	het	(138)
-17	zijn	(138)
-18	decennialange	_
-19	conflict	_
-20	met	_
-21	Apple	(105
-22	Corps	105)
-23	,	_
-24	de	(105
-25	platenmaatschappij	105
-26	van	105
-27	de	105|(135
-28	Beatles	135)|105)
-29	,	_
-30	heeft	_
-31	opgelost	_
-32	.	_
+60083_Apple_Corps_resolve.xml.coref_ne	10	Apple	(138
+60083_Apple_Corps_resolve.xml.coref_ne	11	Inc.	138)
+60083_Apple_Corps_resolve.xml.coref_ne	12	kondigde	_
+60083_Apple_Corps_resolve.xml.coref_ne	13	maandag	_
+60083_Apple_Corps_resolve.xml.coref_ne	14	aan	_
+60083_Apple_Corps_resolve.xml.coref_ne	15	dat	_
+60083_Apple_Corps_resolve.xml.coref_ne	16	het	(138)
+60083_Apple_Corps_resolve.xml.coref_ne	17	zijn	(138)
+60083_Apple_Corps_resolve.xml.coref_ne	18	decennialange	_
+60083_Apple_Corps_resolve.xml.coref_ne	19	conflict	_
+60083_Apple_Corps_resolve.xml.coref_ne	20	met	_
+60083_Apple_Corps_resolve.xml.coref_ne	21	Apple	(105
+60083_Apple_Corps_resolve.xml.coref_ne	22	Corps	105)
+60083_Apple_Corps_resolve.xml.coref_ne	23	,	_
+60083_Apple_Corps_resolve.xml.coref_ne	24	de	(105
+60083_Apple_Corps_resolve.xml.coref_ne	25	platenmaatschappij	105
+60083_Apple_Corps_resolve.xml.coref_ne	26	van	105
+60083_Apple_Corps_resolve.xml.coref_ne	27	de	(135|105
+60083_Apple_Corps_resolve.xml.coref_ne	28	Beatles	135)|105)
+60083_Apple_Corps_resolve.xml.coref_ne	29	,	_
+60083_Apple_Corps_resolve.xml.coref_ne	30	heeft	_
+60083_Apple_Corps_resolve.xml.coref_ne	31	opgelost	_
+60083_Apple_Corps_resolve.xml.coref_ne	32	.	_
 
-33	Volgens	_
-34	de	_
-35	nieuwe	_
-36	overeenkomst	_
-37	is	_
-38	Apple	(138
-39	Inc.	138)
-40	de	(138
-41	eigenaar	138
-42	van	138
-43	alle	138|(136
-44	Apple	138|136
-45	handelsmerken	138)|136)
-46	,	_
-47	waarvan	_
-48	er	_
-49	een	_
-50	aantal	_
-51	in	_
-52	licentie	_
-53	aan	_
-54	Apple	(105
-55	Corps	105)
-56	wordt	_
-57	gegeven	_
-58	,	_
-59	en	_
-60	blijft	_
-61	Apple	(138
-62	Inc.	138)
-63	de	(136
-64	naam	136)
-65	en	_
-66	het	(136
-67	logo	136)
-68	gebruiken	_
-69	op	_
-70	de	(103
-71	iTunes	103
-72	muziekservice	103)
-73	.	_
+60083_Apple_Corps_resolve.xml.coref_ne	33	Volgens	_
+60083_Apple_Corps_resolve.xml.coref_ne	34	de	_
+60083_Apple_Corps_resolve.xml.coref_ne	35	nieuwe	_
+60083_Apple_Corps_resolve.xml.coref_ne	36	overeenkomst	_
+60083_Apple_Corps_resolve.xml.coref_ne	37	is	_
+60083_Apple_Corps_resolve.xml.coref_ne	38	Apple	(138
+60083_Apple_Corps_resolve.xml.coref_ne	39	Inc.	138)
+60083_Apple_Corps_resolve.xml.coref_ne	40	de	(138
+60083_Apple_Corps_resolve.xml.coref_ne	41	eigenaar	138
+60083_Apple_Corps_resolve.xml.coref_ne	42	van	138
+60083_Apple_Corps_resolve.xml.coref_ne	43	alle	138|(136
+60083_Apple_Corps_resolve.xml.coref_ne	44	Apple	138|136
+60083_Apple_Corps_resolve.xml.coref_ne	45	handelsmerken	138)|136)
+60083_Apple_Corps_resolve.xml.coref_ne	46	,	_
+60083_Apple_Corps_resolve.xml.coref_ne	47	waarvan	_
+60083_Apple_Corps_resolve.xml.coref_ne	48	er	_
+60083_Apple_Corps_resolve.xml.coref_ne	49	een	_
+60083_Apple_Corps_resolve.xml.coref_ne	50	aantal	_
+60083_Apple_Corps_resolve.xml.coref_ne	51	in	_
+60083_Apple_Corps_resolve.xml.coref_ne	52	licentie	_
+60083_Apple_Corps_resolve.xml.coref_ne	53	aan	_
+60083_Apple_Corps_resolve.xml.coref_ne	54	Apple	(105
+60083_Apple_Corps_resolve.xml.coref_ne	55	Corps	105)
+60083_Apple_Corps_resolve.xml.coref_ne	56	wordt	_
+60083_Apple_Corps_resolve.xml.coref_ne	57	gegeven	_
+60083_Apple_Corps_resolve.xml.coref_ne	58	,	_
+60083_Apple_Corps_resolve.xml.coref_ne	59	en	_
+60083_Apple_Corps_resolve.xml.coref_ne	60	blijft	_
+60083_Apple_Corps_resolve.xml.coref_ne	61	Apple	(138
+60083_Apple_Corps_resolve.xml.coref_ne	62	Inc.	138)
+60083_Apple_Corps_resolve.xml.coref_ne	63	de	(136
+60083_Apple_Corps_resolve.xml.coref_ne	64	naam	136)
+60083_Apple_Corps_resolve.xml.coref_ne	65	en	_
+60083_Apple_Corps_resolve.xml.coref_ne	66	het	(136
+60083_Apple_Corps_resolve.xml.coref_ne	67	logo	136)
+60083_Apple_Corps_resolve.xml.coref_ne	68	gebruiken	_
+60083_Apple_Corps_resolve.xml.coref_ne	69	op	_
+60083_Apple_Corps_resolve.xml.coref_ne	70	de	(103
+60083_Apple_Corps_resolve.xml.coref_ne	71	iTunes	103
+60083_Apple_Corps_resolve.xml.coref_ne	72	muziekservice	103)
+60083_Apple_Corps_resolve.xml.coref_ne	73	.	_
 
-74	Deze	_
-75	nieuwe	_
-76	overeenkomst	_
-77	vervangt	_
-78	de	_
-79	regeling	_
-80	die	_
-81	de	(105
-82	twee	105
-83	bedrijven	105)
-84	in	_
-85	1991	_
-86	troffen	_
-87	,	_
-88	waarin	_
-89	de	_
-90	context	_
-91	voor	_
-92	gebruik	_
-93	van	_
-94	het	_
-95	Apple	_
-96	handelsmerk	_
-97	werd	_
-98	vastgelegd	_
-99	.	_
+60083_Apple_Corps_resolve.xml.coref_ne	74	Deze	_
+60083_Apple_Corps_resolve.xml.coref_ne	75	nieuwe	_
+60083_Apple_Corps_resolve.xml.coref_ne	76	overeenkomst	_
+60083_Apple_Corps_resolve.xml.coref_ne	77	vervangt	_
+60083_Apple_Corps_resolve.xml.coref_ne	78	de	_
+60083_Apple_Corps_resolve.xml.coref_ne	79	regeling	_
+60083_Apple_Corps_resolve.xml.coref_ne	80	die	_
+60083_Apple_Corps_resolve.xml.coref_ne	81	de	(105
+60083_Apple_Corps_resolve.xml.coref_ne	82	twee	105
+60083_Apple_Corps_resolve.xml.coref_ne	83	bedrijven	105)
+60083_Apple_Corps_resolve.xml.coref_ne	84	in	_
+60083_Apple_Corps_resolve.xml.coref_ne	85	1991	_
+60083_Apple_Corps_resolve.xml.coref_ne	86	troffen	_
+60083_Apple_Corps_resolve.xml.coref_ne	87	,	_
+60083_Apple_Corps_resolve.xml.coref_ne	88	waarin	_
+60083_Apple_Corps_resolve.xml.coref_ne	89	de	_
+60083_Apple_Corps_resolve.xml.coref_ne	90	context	_
+60083_Apple_Corps_resolve.xml.coref_ne	91	voor	_
+60083_Apple_Corps_resolve.xml.coref_ne	92	gebruik	_
+60083_Apple_Corps_resolve.xml.coref_ne	93	van	_
+60083_Apple_Corps_resolve.xml.coref_ne	94	het	_
+60083_Apple_Corps_resolve.xml.coref_ne	95	Apple	_
+60083_Apple_Corps_resolve.xml.coref_ne	96	handelsmerk	_
+60083_Apple_Corps_resolve.xml.coref_ne	97	werd	_
+60083_Apple_Corps_resolve.xml.coref_ne	98	vastgelegd	_
+60083_Apple_Corps_resolve.xml.coref_ne	99	.	_
 
-100	We	(138)
-101	zijn	_
-102	gek	_
-103	op	_
-104	de	(135
-105	Beatles	135)
-106	en	_
-107	het	_
-108	was	_
-109	pijnlijk	_
-110	om	_
-111	met	_
-112	ze	(135)
-113	in	_
-114	conflict	_
-115	te	_
-116	zijn	_
-117	over	_
-118	deze	(136
-119	handelsmerken	136)
-120	,	_
-121	zei	_
-122	Steve	(104
-123	Jobs	104|104)
-124	,	104
-125	de	104
-126	CEO	104
-127	van	104
-128	Apple	104|(138
-129	Inc	138)|104)
-130	..	_
+60083_Apple_Corps_resolve.xml.coref_ne	100	We	(138)
+60083_Apple_Corps_resolve.xml.coref_ne	101	zijn	_
+60083_Apple_Corps_resolve.xml.coref_ne	102	gek	_
+60083_Apple_Corps_resolve.xml.coref_ne	103	op	_
+60083_Apple_Corps_resolve.xml.coref_ne	104	de	(135
+60083_Apple_Corps_resolve.xml.coref_ne	105	Beatles	135)
+60083_Apple_Corps_resolve.xml.coref_ne	106	en	_
+60083_Apple_Corps_resolve.xml.coref_ne	107	het	_
+60083_Apple_Corps_resolve.xml.coref_ne	108	was	_
+60083_Apple_Corps_resolve.xml.coref_ne	109	pijnlijk	_
+60083_Apple_Corps_resolve.xml.coref_ne	110	om	_
+60083_Apple_Corps_resolve.xml.coref_ne	111	met	_
+60083_Apple_Corps_resolve.xml.coref_ne	112	ze	(135)
+60083_Apple_Corps_resolve.xml.coref_ne	113	in	_
+60083_Apple_Corps_resolve.xml.coref_ne	114	conflict	_
+60083_Apple_Corps_resolve.xml.coref_ne	115	te	_
+60083_Apple_Corps_resolve.xml.coref_ne	116	zijn	_
+60083_Apple_Corps_resolve.xml.coref_ne	117	over	_
+60083_Apple_Corps_resolve.xml.coref_ne	118	deze	(136
+60083_Apple_Corps_resolve.xml.coref_ne	119	handelsmerken	136)
+60083_Apple_Corps_resolve.xml.coref_ne	120	,	_
+60083_Apple_Corps_resolve.xml.coref_ne	121	zei	_
+60083_Apple_Corps_resolve.xml.coref_ne	122	Steve	(104|(104
+60083_Apple_Corps_resolve.xml.coref_ne	123	Jobs	104)|104
+60083_Apple_Corps_resolve.xml.coref_ne	124	,	104
+60083_Apple_Corps_resolve.xml.coref_ne	125	de	104
+60083_Apple_Corps_resolve.xml.coref_ne	126	CEO	104
+60083_Apple_Corps_resolve.xml.coref_ne	127	van	104
+60083_Apple_Corps_resolve.xml.coref_ne	128	Apple	104|(138
+60083_Apple_Corps_resolve.xml.coref_ne	129	Inc	104)|138)
+60083_Apple_Corps_resolve.xml.coref_ne	130	..	_
 
-131	Het	_
-132	is	_
-133	heel	_
-134	fijn	_
-135	het	_
-136	op	_
-137	deze	_
-138	positieve	_
-139	manier	_
-140	te	_
-141	kunnen	_
-142	oplossen	_
-143	en	_
-144	verdere	_
-145	onenigheid	_
-146	in	_
-147	de	_
-148	toekomst	_
-149	te	_
-150	voorkomen	_
-151	.	_
-
-152	De	_
-153	komende	_
-154	jaren	_
-155	zijn	_
-156	spannende	_
-157	tijden	_
-158	voor	_
-159	ons	_
-160	,	_
-161	zei	_
-162	Neil	_
-163	Aspinall	_
-164	,	_
-165	de	_
-166	manager	_
-167	van	_
-168	Apple	_
-169	Corps	_
-170	.	_
-
-171	We	(105)
-172	wensen	_
-173	Apple	_
-174	Inc.	_
-175	veel	_
-176	succes	_
-177	en	_
-178	verheugen	_
-179	ons	_
-180	op	_
-181	vele	_
-182	jaren	_
-183	vredevolle	_
-184	samenwerking	_
-185	met	_
-186	het	_
-187	bedrijf	_
-188	.	_
-
-189	Het	_
-190	is	_
-191	niet	_
-192	bekend	_
-193	of	_
-194	de	_
-195	muziekcatalogus	_
-196	van	_
-197	de	_
-198	Beatles	_
-199	deel	_
-200	uitmaakt	_
-201	van	_
-202	de	_
-203	deal	_
-204	.	_
+60083_Apple_Corps_resolve.xml.coref_ne	131	Het	_
+60083_Apple_Corps_resolve.xml.coref_ne	132	is	_
+60083_Apple_Corps_resolve.xml.coref_ne	133	heel	_
+60083_Apple_Corps_resolve.xml.coref_ne	134	fijn	_
+60083_Apple_Corps_resolve.xml.coref_ne	135	het	_
+60083_Apple_Corps_resolve.xml.coref_ne	136	op	_
+60083_Apple_Corps_resolve.xml.coref_ne	137	deze	_
+60083_Apple_Corps_resolve.xml.coref_ne	138	positieve	_
+60083_Apple_Corps_resolve.xml.coref_ne	139	manier	_
+60083_Apple_Corps_resolve.xml.coref_ne	140	te	_
+60083_Apple_Corps_resolve.xml.coref_ne	141	kunnen	_
+60083_Apple_Corps_resolve.xml.coref_ne	142	oplossen	_
+60083_Apple_Corps_resolve.xml.coref_ne	143	en	_
+60083_Apple_Corps_resolve.xml.coref_ne	144	verdere	_
+60083_Apple_Corps_resolve.xml.coref_ne	145	onenigheid	_
+60083_Apple_Corps_resolve.xml.coref_ne	146	in	_
+60083_Apple_Corps_resolve.xml.coref_ne	147	de	_
+60083_Apple_Corps_resolve.xml.coref_ne	148	toekomst	_
+60083_Apple_Corps_resolve.xml.coref_ne	149	te	_
+60083_Apple_Corps_resolve.xml.coref_ne	150	voorkomen	_
+60083_Apple_Corps_resolve.xml.coref_ne	151	.	_
+#end document

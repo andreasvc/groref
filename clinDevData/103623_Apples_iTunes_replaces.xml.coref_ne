@@ -1,227 +1,174 @@
-1	iTunes	(123)
-2	van	_
-3	Apple	(150)
-4	verslaat	_
-5	Wal	(149
-6	-	149
-7	Mart	149)
-8	als	_
-9	grootste	(123
-10	muziekverkoper	123
-11	in	123
-12	de	123
-13	V.	123
-14	S.	123)
+#begin document (103623_Apples_iTunes_replaces.xml.coref_ne);
+103623_Apples_iTunes_replaces.xml.coref_ne	1	iTunes	(123)
+103623_Apples_iTunes_replaces.xml.coref_ne	2	van	_
+103623_Apples_iTunes_replaces.xml.coref_ne	3	Apple	(150)
+103623_Apples_iTunes_replaces.xml.coref_ne	4	verslaat	_
+103623_Apples_iTunes_replaces.xml.coref_ne	5	Wal	(149
+103623_Apples_iTunes_replaces.xml.coref_ne	6	-	149
+103623_Apples_iTunes_replaces.xml.coref_ne	7	Mart	149)
+103623_Apples_iTunes_replaces.xml.coref_ne	8	als	_
+103623_Apples_iTunes_replaces.xml.coref_ne	9	grootste	(123
+103623_Apples_iTunes_replaces.xml.coref_ne	10	muziekverkoper	123
+103623_Apples_iTunes_replaces.xml.coref_ne	11	in	123
+103623_Apples_iTunes_replaces.xml.coref_ne	12	de	123
+103623_Apples_iTunes_replaces.xml.coref_ne	13	V.	123
+103623_Apples_iTunes_replaces.xml.coref_ne	14	S.	123)
 
-15	09-Apr-08	_
+103623_Apples_iTunes_replaces.xml.coref_ne	15	09-Apr-08	_
 
-16	Afgelopen	_
-17	februari	_
-18	,	_
-19	vijf	_
-20	jaar	_
-21	na	_
-22	de	_
-23	introductie	_
-24	,	_
-25	haalde	_
-26	de	(123
-27	iTunes	123
-28	muziekdownloadservice	123
-29	van	123
-30	Apple	123|(150
-31	Computer	123)|150)
-32	,	_
-33	Wal	(149
-34	-	149
-35	Mart	149)
-36	in	_
-37	,	_
-38	waarmee	_
-39	het	(150
-40	bedrijf	150)
-41	de	(150
-42	grootste	150
-43	muziekverkoper	150
-44	in	150
-45	de	150
-46	Verenigde	(155|150
-47	Staten	150)|155)
-48	is	_
-49	.	_
+103623_Apples_iTunes_replaces.xml.coref_ne	16	Afgelopen	_
+103623_Apples_iTunes_replaces.xml.coref_ne	17	februari	_
+103623_Apples_iTunes_replaces.xml.coref_ne	18	,	_
+103623_Apples_iTunes_replaces.xml.coref_ne	19	vijf	_
+103623_Apples_iTunes_replaces.xml.coref_ne	20	jaar	_
+103623_Apples_iTunes_replaces.xml.coref_ne	21	na	_
+103623_Apples_iTunes_replaces.xml.coref_ne	22	de	_
+103623_Apples_iTunes_replaces.xml.coref_ne	23	introductie	_
+103623_Apples_iTunes_replaces.xml.coref_ne	24	,	_
+103623_Apples_iTunes_replaces.xml.coref_ne	25	haalde	_
+103623_Apples_iTunes_replaces.xml.coref_ne	26	de	(123
+103623_Apples_iTunes_replaces.xml.coref_ne	27	iTunes	123
+103623_Apples_iTunes_replaces.xml.coref_ne	28	muziekdownloadservice	123
+103623_Apples_iTunes_replaces.xml.coref_ne	29	van	123
+103623_Apples_iTunes_replaces.xml.coref_ne	30	Apple	123|(150
+103623_Apples_iTunes_replaces.xml.coref_ne	31	Computer	123)|150)
+103623_Apples_iTunes_replaces.xml.coref_ne	32	,	_
+103623_Apples_iTunes_replaces.xml.coref_ne	33	Wal	(149
+103623_Apples_iTunes_replaces.xml.coref_ne	34	-	149
+103623_Apples_iTunes_replaces.xml.coref_ne	35	Mart	149)
+103623_Apples_iTunes_replaces.xml.coref_ne	36	in	_
+103623_Apples_iTunes_replaces.xml.coref_ne	37	,	_
+103623_Apples_iTunes_replaces.xml.coref_ne	38	waarmee	_
+103623_Apples_iTunes_replaces.xml.coref_ne	39	het	(150
+103623_Apples_iTunes_replaces.xml.coref_ne	40	bedrijf	150)
+103623_Apples_iTunes_replaces.xml.coref_ne	41	de	(150
+103623_Apples_iTunes_replaces.xml.coref_ne	42	grootste	150
+103623_Apples_iTunes_replaces.xml.coref_ne	43	muziekverkoper	150
+103623_Apples_iTunes_replaces.xml.coref_ne	44	in	150
+103623_Apples_iTunes_replaces.xml.coref_ne	45	de	150
+103623_Apples_iTunes_replaces.xml.coref_ne	46	Verenigde	150|(155
+103623_Apples_iTunes_replaces.xml.coref_ne	47	Staten	150)|155)
+103623_Apples_iTunes_replaces.xml.coref_ne	48	is	_
+103623_Apples_iTunes_replaces.xml.coref_ne	49	.	_
 
-50	Dit	_
-51	blijkt	_
-52	uit	_
-53	cijfers	(72)
-54	die	_
-55	op	_
-56	3	_
-57	april	_
-58	werden	_
-59	gepubliceerd	_
-60	door	_
-61	marktonderzoekbureau	(148
-62	NPD	148
-63	Group	148)
-64	.	_
+103623_Apples_iTunes_replaces.xml.coref_ne	50	Dit	_
+103623_Apples_iTunes_replaces.xml.coref_ne	51	blijkt	_
+103623_Apples_iTunes_replaces.xml.coref_ne	52	uit	_
+103623_Apples_iTunes_replaces.xml.coref_ne	53	cijfers	(72)
+103623_Apples_iTunes_replaces.xml.coref_ne	54	die	_
+103623_Apples_iTunes_replaces.xml.coref_ne	55	op	_
+103623_Apples_iTunes_replaces.xml.coref_ne	56	3	_
+103623_Apples_iTunes_replaces.xml.coref_ne	57	april	_
+103623_Apples_iTunes_replaces.xml.coref_ne	58	werden	_
+103623_Apples_iTunes_replaces.xml.coref_ne	59	gepubliceerd	_
+103623_Apples_iTunes_replaces.xml.coref_ne	60	door	_
+103623_Apples_iTunes_replaces.xml.coref_ne	61	marktonderzoekbureau	(148
+103623_Apples_iTunes_replaces.xml.coref_ne	62	NPD	148
+103623_Apples_iTunes_replaces.xml.coref_ne	63	Group	148)
+103623_Apples_iTunes_replaces.xml.coref_ne	64	.	_
 
-65	Het	(148
-66	bedrijf	148)
-67	zei	_
-68	dat	_
-69	sinds	_
-70	de	_
-71	start	_
-72	in	_
-73	2003	_
-74	meer	_
-75	dan	_
-76	4	(156
-77	miljard	156
-78	liedjes	156)
-79	waren	_
-80	gedownload	_
-81	in	_
-82	de	(123
-83	iTunes	123
-84	store	123)
-85	en	_
-86	dat	_
-87	de	(123
-88	store	123)
-89	sinds	_
-90	februari	_
-91	70	(156
-92	%	156
-93	van	156
-94	alle	156
-95	digitale	156
-96	muziek	156)
-97	verkoopt	_
-98	.	_
+103623_Apples_iTunes_replaces.xml.coref_ne	65	Het	(148
+103623_Apples_iTunes_replaces.xml.coref_ne	66	bedrijf	148)
+103623_Apples_iTunes_replaces.xml.coref_ne	67	zei	_
+103623_Apples_iTunes_replaces.xml.coref_ne	68	dat	_
+103623_Apples_iTunes_replaces.xml.coref_ne	69	sinds	_
+103623_Apples_iTunes_replaces.xml.coref_ne	70	de	_
+103623_Apples_iTunes_replaces.xml.coref_ne	71	start	_
+103623_Apples_iTunes_replaces.xml.coref_ne	72	in	_
+103623_Apples_iTunes_replaces.xml.coref_ne	73	2003	_
+103623_Apples_iTunes_replaces.xml.coref_ne	74	meer	_
+103623_Apples_iTunes_replaces.xml.coref_ne	75	dan	_
+103623_Apples_iTunes_replaces.xml.coref_ne	76	4	(156
+103623_Apples_iTunes_replaces.xml.coref_ne	77	miljard	156
+103623_Apples_iTunes_replaces.xml.coref_ne	78	liedjes	156)
+103623_Apples_iTunes_replaces.xml.coref_ne	79	waren	_
+103623_Apples_iTunes_replaces.xml.coref_ne	80	gedownload	_
+103623_Apples_iTunes_replaces.xml.coref_ne	81	in	_
+103623_Apples_iTunes_replaces.xml.coref_ne	82	de	(123
+103623_Apples_iTunes_replaces.xml.coref_ne	83	iTunes	123
+103623_Apples_iTunes_replaces.xml.coref_ne	84	store	123)
+103623_Apples_iTunes_replaces.xml.coref_ne	85	en	_
+103623_Apples_iTunes_replaces.xml.coref_ne	86	dat	_
+103623_Apples_iTunes_replaces.xml.coref_ne	87	de	(123
+103623_Apples_iTunes_replaces.xml.coref_ne	88	store	123)
+103623_Apples_iTunes_replaces.xml.coref_ne	89	sinds	_
+103623_Apples_iTunes_replaces.xml.coref_ne	90	februari	_
+103623_Apples_iTunes_replaces.xml.coref_ne	91	70	(156
+103623_Apples_iTunes_replaces.xml.coref_ne	92	%	156
+103623_Apples_iTunes_replaces.xml.coref_ne	93	van	156
+103623_Apples_iTunes_replaces.xml.coref_ne	94	alle	156
+103623_Apples_iTunes_replaces.xml.coref_ne	95	digitale	156
+103623_Apples_iTunes_replaces.xml.coref_ne	96	muziek	156)
+103623_Apples_iTunes_replaces.xml.coref_ne	97	verkoopt	_
+103623_Apples_iTunes_replaces.xml.coref_ne	98	.	_
 
-99	NPD	(148)
-100	zei	_
-101	dat	_
-102	de	(123
-103	iTunes	123
-104	store	123)
-105	volgens	_
-106	deze	(72
-107	cijfers	72)
-108	de	(147
-109	Amerikaanse	147|(155)
-110	elektronicaverkoper	147
-111	Best	147|(147
-112	Buy	147)
-113	voorbij	_
-114	streeft	_
-115	als	_
-116	op	(123
-117	een	123
-118	na	123
-119	grootste	123
-120	muziekverkoper	123
-121	in	123
-122	2007	123)
-123	.	_
+103623_Apples_iTunes_replaces.xml.coref_ne	99	NPD	(148)
+103623_Apples_iTunes_replaces.xml.coref_ne	100	zei	_
+103623_Apples_iTunes_replaces.xml.coref_ne	101	dat	_
+103623_Apples_iTunes_replaces.xml.coref_ne	102	de	(123
+103623_Apples_iTunes_replaces.xml.coref_ne	103	iTunes	123
+103623_Apples_iTunes_replaces.xml.coref_ne	104	store	123)
+103623_Apples_iTunes_replaces.xml.coref_ne	105	volgens	_
+103623_Apples_iTunes_replaces.xml.coref_ne	106	deze	(72
+103623_Apples_iTunes_replaces.xml.coref_ne	107	cijfers	72)
+103623_Apples_iTunes_replaces.xml.coref_ne	108	de	(147
+103623_Apples_iTunes_replaces.xml.coref_ne	109	Amerikaanse	(155)|147
+103623_Apples_iTunes_replaces.xml.coref_ne	110	elektronicaverkoper	147
+103623_Apples_iTunes_replaces.xml.coref_ne	111	Best	(147|147
+103623_Apples_iTunes_replaces.xml.coref_ne	112	Buy	147)|147)
+103623_Apples_iTunes_replaces.xml.coref_ne	113	voorbij	_
+103623_Apples_iTunes_replaces.xml.coref_ne	114	streeft	_
+103623_Apples_iTunes_replaces.xml.coref_ne	115	als	_
+103623_Apples_iTunes_replaces.xml.coref_ne	116	op	(123
+103623_Apples_iTunes_replaces.xml.coref_ne	117	een	123
+103623_Apples_iTunes_replaces.xml.coref_ne	118	na	123
+103623_Apples_iTunes_replaces.xml.coref_ne	119	grootste	123
+103623_Apples_iTunes_replaces.xml.coref_ne	120	muziekverkoper	123
+103623_Apples_iTunes_replaces.xml.coref_ne	121	in	123
+103623_Apples_iTunes_replaces.xml.coref_ne	122	2007	123)
+103623_Apples_iTunes_replaces.xml.coref_ne	123	.	_
 
-124	Volgens	_
-125	een	(154
-126	rapport	154)
-127	dat	_
-128	op	_
-129	2	_
-130	april	_
-131	op	_
-132	de	(153
-133	Amerikaanse	153|(155)
-134	nieuws	153
-135	-	153
-136	en	153
-137	informatiewebsite	153
-138	Ars	153|(153
-139	Technica	153)
-140	verscheen	_
-141	,	_
-142	gaf	_
-143	een	(146
-144	interne	146
-145	memo	146
-146	bij	146
-147	Apple	146)|(150)
-148	aan	_
-149	dat	_
-150	het	_
-151	bedrijf	_
-152	Wal	_
-153	-	_
-154	Mart	_
-155	begin	_
-156	dit	_
-157	jaar	_
-158	als	_
-159	grootste	(150
-160	muziekverkoper	150
-161	in	150
-162	de	150
-163	V.	(155|150
-164	S.	150)|155)
-165	passeerde	_
-166	.	_
-
-167	Hun	_
-168	schatting	_
-169	gaf	_
-170	aan	_
-171	dat	_
-172	iTunes	(123)
-173	per	_
-174	januari	_
-175	2008	_
-176	19	_
-177	procent	_
-178	van	_
-179	de	_
-180	Amerikaanse	_
-181	muziekmarkt	_
-182	in	_
-183	handen	_
-184	had	_
-185	,	_
-186	gevolgd	_
-187	door	_
-188	Wal	_
-189	-	_
-190	Mart	_
-191	met	_
-192	15	_
-193	procent	_
-194	en	_
-195	Best	_
-196	Buy	_
-197	met	_
-198	13	_
-199	procent	_
-200	.	_
-
-201	De	_
-202	top	_
-203	5	_
-204	werd	_
-205	gecompleteerd	_
-206	door	_
-207	Amazon.com	_
-208	en	_
-209	Target	_
-210	,	_
-211	die	_
-212	elk	_
-213	6	_
-214	procent	_
-215	van	_
-216	de	_
-217	markt	_
-218	hebben	_
-219	.	_
+103623_Apples_iTunes_replaces.xml.coref_ne	124	Volgens	_
+103623_Apples_iTunes_replaces.xml.coref_ne	125	een	(154
+103623_Apples_iTunes_replaces.xml.coref_ne	126	rapport	154)
+103623_Apples_iTunes_replaces.xml.coref_ne	127	dat	_
+103623_Apples_iTunes_replaces.xml.coref_ne	128	op	_
+103623_Apples_iTunes_replaces.xml.coref_ne	129	2	_
+103623_Apples_iTunes_replaces.xml.coref_ne	130	april	_
+103623_Apples_iTunes_replaces.xml.coref_ne	131	op	_
+103623_Apples_iTunes_replaces.xml.coref_ne	132	de	(153
+103623_Apples_iTunes_replaces.xml.coref_ne	133	Amerikaanse	153|(155)
+103623_Apples_iTunes_replaces.xml.coref_ne	134	nieuws	153
+103623_Apples_iTunes_replaces.xml.coref_ne	135	-	153
+103623_Apples_iTunes_replaces.xml.coref_ne	136	en	153
+103623_Apples_iTunes_replaces.xml.coref_ne	137	informatiewebsite	153
+103623_Apples_iTunes_replaces.xml.coref_ne	138	Ars	153|(153
+103623_Apples_iTunes_replaces.xml.coref_ne	139	Technica	153)|153)
+103623_Apples_iTunes_replaces.xml.coref_ne	140	verscheen	_
+103623_Apples_iTunes_replaces.xml.coref_ne	141	,	_
+103623_Apples_iTunes_replaces.xml.coref_ne	142	gaf	_
+103623_Apples_iTunes_replaces.xml.coref_ne	143	een	(146
+103623_Apples_iTunes_replaces.xml.coref_ne	144	interne	146
+103623_Apples_iTunes_replaces.xml.coref_ne	145	memo	146
+103623_Apples_iTunes_replaces.xml.coref_ne	146	bij	146
+103623_Apples_iTunes_replaces.xml.coref_ne	147	Apple	146)|(150)
+103623_Apples_iTunes_replaces.xml.coref_ne	148	aan	_
+103623_Apples_iTunes_replaces.xml.coref_ne	149	dat	_
+103623_Apples_iTunes_replaces.xml.coref_ne	150	het	_
+103623_Apples_iTunes_replaces.xml.coref_ne	151	bedrijf	_
+103623_Apples_iTunes_replaces.xml.coref_ne	152	Wal	_
+103623_Apples_iTunes_replaces.xml.coref_ne	153	-	_
+103623_Apples_iTunes_replaces.xml.coref_ne	154	Mart	_
+103623_Apples_iTunes_replaces.xml.coref_ne	155	begin	_
+103623_Apples_iTunes_replaces.xml.coref_ne	156	dit	_
+103623_Apples_iTunes_replaces.xml.coref_ne	157	jaar	_
+103623_Apples_iTunes_replaces.xml.coref_ne	158	als	_
+103623_Apples_iTunes_replaces.xml.coref_ne	159	grootste	(150
+103623_Apples_iTunes_replaces.xml.coref_ne	160	muziekverkoper	150
+103623_Apples_iTunes_replaces.xml.coref_ne	161	in	150
+103623_Apples_iTunes_replaces.xml.coref_ne	162	de	150
+103623_Apples_iTunes_replaces.xml.coref_ne	163	V.	150|(155
+103623_Apples_iTunes_replaces.xml.coref_ne	164	S.	150)|155)
+103623_Apples_iTunes_replaces.xml.coref_ne	165	passeerde	_
+103623_Apples_iTunes_replaces.xml.coref_ne	166	.	_
+#end document

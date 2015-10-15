@@ -1,455 +1,116 @@
-1	Medeoprichter	(156
-2	van	156
-3	Apple	(161|156
-4	Inc.	156|161)
-5	Steve	156
-6	Jobs	156)
-7	overlijdt	_
-8	op	_
-9	56-jarige	_
-10	leeftijd	_
+#begin document (287096_Apple_Inc_co_founder.xml.coref_ne);
+287096_Apple_Inc_co_founder.xml.coref_ne	1	Medeoprichter	(156
+287096_Apple_Inc_co_founder.xml.coref_ne	2	van	156
+287096_Apple_Inc_co_founder.xml.coref_ne	3	Apple	(161|156
+287096_Apple_Inc_co_founder.xml.coref_ne	4	Inc.	161)|156
+287096_Apple_Inc_co_founder.xml.coref_ne	5	Steve	156
+287096_Apple_Inc_co_founder.xml.coref_ne	6	Jobs	156)
+287096_Apple_Inc_co_founder.xml.coref_ne	7	overlijdt	_
+287096_Apple_Inc_co_founder.xml.coref_ne	8	op	_
+287096_Apple_Inc_co_founder.xml.coref_ne	9	56-jarige	_
+287096_Apple_Inc_co_founder.xml.coref_ne	10	leeftijd	_
 
-11	06-Oct-11	_
+287096_Apple_Inc_co_founder.xml.coref_ne	11	06-Oct-11	_
 
-12	Steve	(156
-13	Jobs	156
-14	,	156
-15	de	156
-16	medeoprichter	156
-17	en	156
-18	voormalig	156
-19	chief	156
-20	executive	156
-21	officer	156
-22	van	156
-23	Apple	(161|156
-24	Inc.	156)|161)
-25	,	_
-26	overleed	_
-27	gisteren	_
-28	op	_
-29	56-jarige	_
-30	leeftijd	_
-31	volgens	_
-32	een	(42
-33	kennisgeving	42
-34	op	42
-35	de	(160|42
-36	website	160|42
-37	van	160|42
-38	het	160|42|(161
-39	bedrijf	160)|42)|161)
-40	.	_
+287096_Apple_Inc_co_founder.xml.coref_ne	12	Steve	(156
+287096_Apple_Inc_co_founder.xml.coref_ne	13	Jobs	156
+287096_Apple_Inc_co_founder.xml.coref_ne	14	,	156
+287096_Apple_Inc_co_founder.xml.coref_ne	15	de	156
+287096_Apple_Inc_co_founder.xml.coref_ne	16	medeoprichter	156
+287096_Apple_Inc_co_founder.xml.coref_ne	17	en	156
+287096_Apple_Inc_co_founder.xml.coref_ne	18	voormalig	156
+287096_Apple_Inc_co_founder.xml.coref_ne	19	chief	156
+287096_Apple_Inc_co_founder.xml.coref_ne	20	executive	156
+287096_Apple_Inc_co_founder.xml.coref_ne	21	officer	156
+287096_Apple_Inc_co_founder.xml.coref_ne	22	van	156
+287096_Apple_Inc_co_founder.xml.coref_ne	23	Apple	(161|156
+287096_Apple_Inc_co_founder.xml.coref_ne	24	Inc.	161)|156)
+287096_Apple_Inc_co_founder.xml.coref_ne	25	,	_
+287096_Apple_Inc_co_founder.xml.coref_ne	26	overleed	_
+287096_Apple_Inc_co_founder.xml.coref_ne	27	gisteren	_
+287096_Apple_Inc_co_founder.xml.coref_ne	28	op	_
+287096_Apple_Inc_co_founder.xml.coref_ne	29	56-jarige	_
+287096_Apple_Inc_co_founder.xml.coref_ne	30	leeftijd	_
+287096_Apple_Inc_co_founder.xml.coref_ne	31	volgens	_
+287096_Apple_Inc_co_founder.xml.coref_ne	32	een	(42
+287096_Apple_Inc_co_founder.xml.coref_ne	33	kennisgeving	42
+287096_Apple_Inc_co_founder.xml.coref_ne	34	op	42
+287096_Apple_Inc_co_founder.xml.coref_ne	35	de	42|(160
+287096_Apple_Inc_co_founder.xml.coref_ne	36	website	42|160
+287096_Apple_Inc_co_founder.xml.coref_ne	37	van	42|160
+287096_Apple_Inc_co_founder.xml.coref_ne	38	het	42|(161|160
+287096_Apple_Inc_co_founder.xml.coref_ne	39	bedrijf	42)|161)|160)
+287096_Apple_Inc_co_founder.xml.coref_ne	40	.	_
 
-41	Op	_
-42	24	_
-43	augustus	_
-44	trad	_
-45	hij	(156)
-46	terug	_
-47	als	_
-48	CEO	(156
-49	van	156
-50	Apple	156)|(161)
-51	.	_
+287096_Apple_Inc_co_founder.xml.coref_ne	41	Op	_
+287096_Apple_Inc_co_founder.xml.coref_ne	42	24	_
+287096_Apple_Inc_co_founder.xml.coref_ne	43	augustus	_
+287096_Apple_Inc_co_founder.xml.coref_ne	44	trad	_
+287096_Apple_Inc_co_founder.xml.coref_ne	45	hij	(156)
+287096_Apple_Inc_co_founder.xml.coref_ne	46	terug	_
+287096_Apple_Inc_co_founder.xml.coref_ne	47	als	_
+287096_Apple_Inc_co_founder.xml.coref_ne	48	CEO	(156
+287096_Apple_Inc_co_founder.xml.coref_ne	49	van	156
+287096_Apple_Inc_co_founder.xml.coref_ne	50	Apple	156)|(161)
+287096_Apple_Inc_co_founder.xml.coref_ne	51	.	_
 
-52	Hij	(156)
-53	vocht	_
-54	al	_
-55	sinds	_
-56	2004	_
-57	tegen	_
-58	alvleesklierkanker	(47)
-59	.	_
+287096_Apple_Inc_co_founder.xml.coref_ne	52	Hij	(156)
+287096_Apple_Inc_co_founder.xml.coref_ne	53	vocht	_
+287096_Apple_Inc_co_founder.xml.coref_ne	54	al	_
+287096_Apple_Inc_co_founder.xml.coref_ne	55	sinds	_
+287096_Apple_Inc_co_founder.xml.coref_ne	56	2004	_
+287096_Apple_Inc_co_founder.xml.coref_ne	57	tegen	_
+287096_Apple_Inc_co_founder.xml.coref_ne	58	alvleesklierkanker	(47)
+287096_Apple_Inc_co_founder.xml.coref_ne	59	.	_
 
-60	Jobs	(156)
-61	werd	_
-62	op	_
-63	24	_
-64	februari	_
-65	1955	_
-66	geboren	_
-67	in	_
-68	San	(159
-69	Francisco	159)
-70	en	_
-71	bouwde	_
-72	een	(161
-73	technologiebedrijf	161)
-74	op	_
-75	dat	(161)
-76	met	_
-77	een	(158
-78	marktwaarde	158
-79	van	158
-80	$	158
-81	348,8	158
-82	miljard	158)
-83	het	(161
-84	meest	161
-85	waardevolle	161
-86	bedrijf	161
-87	ter	161
-88	wereld	161)
-89	is	_
-90	.	_
+287096_Apple_Inc_co_founder.xml.coref_ne	60	Jobs	(156)
+287096_Apple_Inc_co_founder.xml.coref_ne	61	werd	_
+287096_Apple_Inc_co_founder.xml.coref_ne	62	op	_
+287096_Apple_Inc_co_founder.xml.coref_ne	63	24	_
+287096_Apple_Inc_co_founder.xml.coref_ne	64	februari	_
+287096_Apple_Inc_co_founder.xml.coref_ne	65	1955	_
+287096_Apple_Inc_co_founder.xml.coref_ne	66	geboren	_
+287096_Apple_Inc_co_founder.xml.coref_ne	67	in	_
+287096_Apple_Inc_co_founder.xml.coref_ne	68	San	(159
+287096_Apple_Inc_co_founder.xml.coref_ne	69	Francisco	159)
+287096_Apple_Inc_co_founder.xml.coref_ne	70	en	_
+287096_Apple_Inc_co_founder.xml.coref_ne	71	bouwde	_
+287096_Apple_Inc_co_founder.xml.coref_ne	72	een	(161
+287096_Apple_Inc_co_founder.xml.coref_ne	73	technologiebedrijf	161)
+287096_Apple_Inc_co_founder.xml.coref_ne	74	op	_
+287096_Apple_Inc_co_founder.xml.coref_ne	75	dat	(161)
+287096_Apple_Inc_co_founder.xml.coref_ne	76	met	_
+287096_Apple_Inc_co_founder.xml.coref_ne	77	een	(158
+287096_Apple_Inc_co_founder.xml.coref_ne	78	marktwaarde	158
+287096_Apple_Inc_co_founder.xml.coref_ne	79	van	158
+287096_Apple_Inc_co_founder.xml.coref_ne	80	$	158
+287096_Apple_Inc_co_founder.xml.coref_ne	81	348,8	158
+287096_Apple_Inc_co_founder.xml.coref_ne	82	miljard	158)
+287096_Apple_Inc_co_founder.xml.coref_ne	83	het	(161
+287096_Apple_Inc_co_founder.xml.coref_ne	84	meest	161
+287096_Apple_Inc_co_founder.xml.coref_ne	85	waardevolle	161
+287096_Apple_Inc_co_founder.xml.coref_ne	86	bedrijf	161
+287096_Apple_Inc_co_founder.xml.coref_ne	87	ter	161
+287096_Apple_Inc_co_founder.xml.coref_ne	88	wereld	161)
+287096_Apple_Inc_co_founder.xml.coref_ne	89	is	_
+287096_Apple_Inc_co_founder.xml.coref_ne	90	.	_
 
-91	Hij	(213)
-92	richtte	_
-93	Apple	_
-94	in	_
-95	1976	_
-96	op	_
-97	en	_
-98	bracht	_
-99	in	_
-100	1984	_
-101	de	_
-102	eerste	_
-103	personal	_
-104	computer	_
-105	op	_
-106	de	_
-107	markt	_
-108	.	_
-
-109	Een	_
-110	jaar	_
-111	later	_
-112	werd	_
-113	hij	(156)
-114	ontslagen	_
-115	en	_
-116	richtte	_
-117	hij	(156)
-118	NeXT	_
-119	op	_
-120	.	_
-
-121	In	_
-122	1986	_
-123	kocht	_
-124	hij	(156)
-125	Pixar	_
-126	,	_
-127	dat	_
-128	in	_
-129	2005	_
-130	werd	_
-131	overgenomen	_
-132	door	_
-133	Disney	_
-134	.	_
-
-135	In	_
-136	1996	_
-137	,	_
-138	na	_
-139	de	_
-140	overname	_
-141	van	_
-142	NeXT	_
-143	door	_
-144	Apple	_
-145	Computer	_
-146	,	_
-147	keerde	_
-148	Jobs	(156)
-149	terug	_
-150	bij	_
-151	Apple	_
-152	,	_
-153	waar	_
-154	hij	_
-155	korte	_
-156	tijd	_
-157	later	_
-158	weer	_
-159	de	_
-160	rol	_
-161	van	_
-162	CEO	_
-163	op	_
-164	zich	_
-165	nam	_
-166	.	_
-
-167	In	_
-168	1998	_
-169	introduceerde	_
-170	Apple	_
-171	de	_
-172	personal	_
-173	computer	_
-174	,	_
-175	in	_
-176	2001	_
-177	de	(156
-178	muziekspeler	156)
-179	en	_
-180	het	_
-181	jaar	_
-182	daarna	_
-183	werd	_
-184	het	_
-185	besturingssysteem	_
-186	op	_
-187	de	_
-188	markt	_
-189	gebracht	_
-190	.	_
-191	2007	_
-192	was	_
-193	het	_
-194	jaar	_
-195	van	_
-196	de	_
-197	smartphone	_
-198	gevolgd	_
-199	door	_
-200	de	_
-201	tablet	_
-202	in	_
-203	2010	_
-204	.	_
-
-205	"	_
-206	Een	_
-207	verklaring	_
-208	op	_
-209	de	_
-210	website	_
-211	van	_
-212	Apple	_
-213	,	_
-214	waar	_
-215	op	_
-216	de	_
-217	homepage	_
-218	momenteel	_
-219	een	_
-220	zwart-witfoto	_
-221	met	_
-222	de	_
-223	tekst	_
-224	"	_
-225	"	_
-226	Steve	(156
-227	Jobs	156)
-228	1955	_
-229	-	_
-230	2011	_
-231	"	_
-232	"	_
-233	te	_
-234	zien	_
-235	is	_
-236	,	_
-237	zegt	_
-238	het	_
-239	volgende	_
-240	:	_
-241	"	_
-242	Apple	_
-243	heeft	_
-244	een	(156
-245	visionair	156
-246	en	156
-247	creatief	156
-248	genie	156)
-249	verloren	_
-250	en	_
-251	de	_
-252	wereld	_
-253	een	(156
-254	fantastisch	156
-255	mens	156)
-256	.	_
-257	"	_
-
-258	Diegenen	_
-259	onder	_
-260	ons	_
-261	die	_
-262	het	_
-263	geluk	_
-264	hebben	_
-265	gehad	_
-266	Steve	(156)
-267	te	_
-268	kennen	_
-269	,	_
-270	hebben	_
-271	een	(156
-272	geliefde	156
-273	vriend	156)|156
-274	en	156
-275	inspirerende	156|(156
-276	mentor	156)
-277	verloren	_
-278	.	_
-
-279	Steve	(156)
-280	laat	_
-281	een	_
-282	bedrijf	_
-283	achter	_
-284	dat	_
-285	alleen	_
-286	hij	(156)
-287	had	_
-288	kunnen	_
-289	opbouwen	_
-290	en	_
-291	zijn	(156)
-292	geest	_
-293	zal	_
-294	voor	_
-295	altijd	_
-296	aan	_
-297	de	_
-298	basis	_
-299	van	_
-300	Apple	_
-301	blijven	_
-302	staan	_
-303	.	_
-304	"	_
-
-305	"	_
-306	De	_
-307	president	_
-308	van	_
-309	de	_
-310	Verenigde	_
-311	Staten	_
-312	zei	_
-313	het	_
-314	volgende	_
-315	:	_
-316	"	_
-317	"	_
-318	Steve	(156)
-319	was	_
-320	een	_
-321	van	_
-322	de	_
-323	grootste	_
-324	Amerikaanse	_
-325	uitvinders	_
-326	:	_
-327	dapper	_
-328	genoeg	_
-329	om	_
-330	anders	_
-331	te	_
-332	denken	_
-333	,	_
-334	stoutmoedig	_
-335	genoeg	_
-336	om	_
-337	te	_
-338	geloven	_
-339	dat	_
-340	hij	(156)
-341	de	_
-342	wereld	_
-343	kon	_
-344	veranderen	_
-345	en	_
-346	getalenteerd	_
-347	genoeg	_
-348	om	_
-349	dat	_
-350	ook	_
-351	werkelijk	_
-352	te	_
-353	doen	_
-354	"	_
-355	"	_
-356	.	_
-357	"	_
-
-358	"	_
-359	Apple	_
-360	's	_
-361	huidige	_
-362	CEO	_
-363	reageerde	_
-364	met	_
-365	een	_
-366	verklaring	_
-367	op	_
-368	zijn	_
-369	blog	_
-370	:	_
-371	"	_
-372	"	_
-373	De	_
-374	wereld	_
-375	ziet	_
-376	maar	_
-377	zelden	_
-378	iemand	_
-379	met	_
-380	de	_
-381	diepe	_
-382	invloed	_
-383	die	_
-384	Steve	(156)
-385	heeft	_
-386	gehad	_
-387	en	_
-388	die	_
-389	nog	_
-390	vele	_
-391	generaties	_
-392	voelbaar	_
-393	zal	_
-394	zijn.	_
-395	.	_
-396	..	_
-397	"	_
-
-398	"	_
-399	Ik	_
-400	zal	_
-401	Steve	_
-402	ontzettend	_
-403	missen	_
-404	.	_
-405	"	_
-406	"	_
-407	"	_
-
-408	"	_
-409	De	_
-410	huidige	_
-411	CEO	_
-412	van	_
-413	Microsoft	_
-414	uitte	_
-415	eveneens	_
-416	zijn	_
-417	condoleance	_
-418	en	_
-419	beschreef	_
-420	Jobs	(156)
-421	als	_
-422	"	_
-423	"	_
-424	een	(156
-425	van	156
-426	de	156
-427	oprichters	156
-428	van	156
-429	onze	156
-430	industrie	156)|156
-431	en	156
-432	een	156|(156
-433	echte	156
-434	visionair	156)
-435	"	_
-436	"	_
-437	.	_
-438	"	_
+287096_Apple_Inc_co_founder.xml.coref_ne	91	Hij	(213)
+287096_Apple_Inc_co_founder.xml.coref_ne	92	richtte	_
+287096_Apple_Inc_co_founder.xml.coref_ne	93	Apple	_
+287096_Apple_Inc_co_founder.xml.coref_ne	94	in	_
+287096_Apple_Inc_co_founder.xml.coref_ne	95	1976	_
+287096_Apple_Inc_co_founder.xml.coref_ne	96	op	_
+287096_Apple_Inc_co_founder.xml.coref_ne	97	en	_
+287096_Apple_Inc_co_founder.xml.coref_ne	98	bracht	_
+287096_Apple_Inc_co_founder.xml.coref_ne	99	in	_
+287096_Apple_Inc_co_founder.xml.coref_ne	100	1984	_
+287096_Apple_Inc_co_founder.xml.coref_ne	101	de	_
+287096_Apple_Inc_co_founder.xml.coref_ne	102	eerste	_
+287096_Apple_Inc_co_founder.xml.coref_ne	103	personal	_
+287096_Apple_Inc_co_founder.xml.coref_ne	104	computer	_
+287096_Apple_Inc_co_founder.xml.coref_ne	105	op	_
+287096_Apple_Inc_co_founder.xml.coref_ne	106	de	_
+287096_Apple_Inc_co_founder.xml.coref_ne	107	markt	_
+287096_Apple_Inc_co_founder.xml.coref_ne	108	.	_
+#end document

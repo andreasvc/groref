@@ -1,266 +1,124 @@
-1	Apple	(112)
-2	introduceert	_
-3	iPhone	(117)
-4	en	_
-5	Apple	(108
-6	TV	108)
+#begin document (58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne);
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	1	Apple	(112)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	2	introduceert	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	3	iPhone	(117)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	4	en	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	5	Apple	(108
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	6	TV	108)
 
-7	10-Jan-07	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	7	10-Jan-07	_
 
-8	Apple	(112
-9	Inc.	112)
-10	introduceerde	_
-11	vandaag	_
-12	de	(117
-13	langverwachte	117
-14	iPhone	117)
-15	tijdens	_
-16	de	_
-17	Macworld	_
-18	Conference	_
-19	in	_
-20	San	(114
-21	Francisco	114)
-22	.	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	8	Apple	(112
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	9	Inc.	112)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	10	introduceerde	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	11	vandaag	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	12	de	(117
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	13	langverwachte	117
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	14	iPhone	117)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	15	tijdens	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	16	de	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	17	Macworld	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	18	Conference	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	19	in	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	20	San	(114
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	21	Francisco	114)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	22	.	_
 
-23	De	(117
-24	iPhone	117)
-25	is	_
-26	volgens	_
-27	de	(110
-28	website	110
-29	van	110
-30	Apple	(112)|110)
-31	een	(117
-32	``revolutionaire	117
-33	mobiele	117
-34	telefoon	117)
-35	'	_
-36	'	_
-37	.	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	23	De	(117
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	24	iPhone	117)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	25	is	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	26	volgens	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	27	de	(110
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	28	website	110
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	29	van	110
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	30	Apple	110)|(112)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	31	een	(117
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	32	``revolutionaire	117
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	33	mobiele	117
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	34	telefoon	117)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	35	'	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	36	'	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	37	.	_
 
-38	Het	(117
-39	apparaat	117)
-40	lijkt	_
-41	te	_
-42	draaien	_
-43	op	_
-44	een	(109
-45	mobiele	109
-46	versie	109
-47	van	109
-48	Mac	109|(105
-49	OSX	105)|109)
-50	,	_
-51	het	(105
-52	besturingssysteem	105
-53	van	105
-54	Apple	105)
-55	.	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	38	Het	(117
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	39	apparaat	117)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	40	lijkt	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	41	te	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	42	draaien	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	43	op	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	44	een	(109
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	45	mobiele	109
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	46	versie	109
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	47	van	109
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	48	Mac	109|(105
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	49	OSX	109)|105)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	50	,	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	51	het	(105
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	52	besturingssysteem	105
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	53	van	105
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	54	Apple	105)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	55	.	_
 
-56	Het	(117)
-57	is	_
-58	ongeveer	_
-59	even	_
-60	groot	_
-61	als	_
-62	een	(100
-63	iPod	100
-64	van	100
-65	de	100
-66	vijfde	100
-67	generatie	100)
-68	en	_
-69	is	_
-70	voorzien	_
-71	van	_
-72	een	(116
-73	3,5-inch	116
-74	LCD	116
-75	touchscreen	116)
-76	waarmee	_
-77	alle	_
-78	functies	_
-79	van	_
-80	de	(117
-81	telefoon	117)
-82	worden	_
-83	bediend	_
-84	,	_
-85	waaronder	_
-86	het	_
-87	intoetsen	_
-88	van	_
-89	telefoonnummers	(50)
-90	en	_
-91	het	_
-92	voeren	_
-93	van	_
-94	gesprekken	(115)
-95	.	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	56	Het	(117)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	57	is	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	58	ongeveer	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	59	even	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	60	groot	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	61	als	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	62	een	(100
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	63	iPod	100
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	64	van	100
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	65	de	100
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	66	vijfde	100
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	67	generatie	100)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	68	en	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	69	is	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	70	voorzien	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	71	van	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	72	een	(116
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	73	3,5-inch	116
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	74	LCD	116
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	75	touchscreen	116)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	76	waarmee	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	77	alle	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	78	functies	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	79	van	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	80	de	(117
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	81	telefoon	117)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	82	worden	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	83	bediend	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	84	,	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	85	waaronder	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	86	het	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	87	intoetsen	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	88	van	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	89	telefoonnummers	(50)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	90	en	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	91	het	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	92	voeren	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	93	van	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	94	gesprekken	(115)
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	95	.	_
 
-96	De	_
-97	iPhone	_
-98	speelt	_
-99	muziek	_
-100	en	_
-101	films	_
-102	af	_
-103	,	_
-104	toont	_
-105	foto	_
-106	‘	_
-107	s	_
-108	en	_
-109	kan	_
-110	verbinding	_
-111	maken	_
-112	met	_
-113	een	_
-114	draadloos	_
-115	netwerk	_
-116	.	_
-
-117	Apple	(147
-118	CEO	147)|147
-119	Steve	147|(147
-120	Jobs	147)
-121	onthulde	_
-122	het	_
-123	apparaat	_
-124	door	_
-125	het	_
-126	podium	_
-127	op	_
-128	te	_
-129	lopen	_
-130	en	_
-131	de	_
-132	iPhone	_
-133	uit	_
-134	zijn	(147)
-135	broekzak	_
-136	te	_
-137	trekken	_
-138	.	_
-
-139	Tijdens	_
-140	zijn	(147)
-141	speech	_
-142	,	_
-143	die	_
-144	twee	_
-145	uur	_
-146	duurde	_
-147	,	_
-148	zei	_
-149	hij	(147)
-150	dat	_
-151	``Apple	_
-152	vandaag	_
-153	de	_
-154	telefoon	_
-155	opnieuw	_
-156	uitvindt	_
-157	en	_
-158	geschiedenis	_
-159	schrijft	_
-160	'	_
-161	'	_
-162	.	_
-
-163	Apple	_
-164	bracht	_
-165	vandaag	_
-166	ook	_
-167	de	_
-168	Apple	_
-169	TV	_
-170	,	_
-171	een	_
-172	Media	_
-173	Center-systeem	_
-174	uit	_
-175	.	_
-
-176	Het	_
-177	concurreert	_
-178	direct	_
-179	met	_
-180	het	_
-181	Media	_
-182	Center	_
-183	besturingssysteem	_
-184	van	_
-185	Microsoft	_
-186	.	_
-
-187	Apple	_
-188	benadert	_
-189	de	_
-190	mediacentermarkt	_
-191	op	_
-192	een	_
-193	andere	_
-194	manier	_
-195	:	_
-196	in	_
-197	plaats	_
-198	van	_
-199	content	_
-200	(	_
-201	zoals	_
-202	films	_
-203	,	_
-204	muziek	_
-205	en	_
-206	foto	_
-207	‘	_
-208	s	_
-209	)	_
-210	op	_
-211	te	_
-212	slaan	_
-213	op	_
-214	het	_
-215	apparaat	_
-216	,	_
-217	maakt	_
-218	Apple	_
-219	TV	_
-220	verbinding	_
-221	met	_
-222	een	_
-223	computer	_
-224	(	_
-225	Mac	_
-226	en	_
-227	Windows	_
-228	)	_
-229	via	_
-230	een	_
-231	draadloos	_
-232	netwerk	_
-233	en	_
-234	speelt	_
-235	de	_
-236	content	_
-237	af	_
-238	,	_
-239	die	_
-240	op	_
-241	de	_
-242	computer	_
-243	is	_
-244	opgeslagen	_
-245	.	_
-
-246	Zo	_
-247	kunnen	_
-248	gebruikers	_
-249	hun	_
-250	mediacontent	_
-251	aanzienlijk	_
-252	eenvoudiger	_
-253	organiseren	_
-254	.	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	96	De	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	97	iPhone	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	98	speelt	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	99	muziek	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	100	en	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	101	films	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	102	af	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	103	,	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	104	toont	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	105	foto	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	106	‘	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	107	s	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	108	en	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	109	kan	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	110	verbinding	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	111	maken	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	112	met	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	113	een	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	114	draadloos	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	115	netwerk	_
+58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne	116	.	_
+#end document

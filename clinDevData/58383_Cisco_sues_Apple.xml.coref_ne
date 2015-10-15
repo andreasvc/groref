@@ -1,201 +1,139 @@
-1	Cisco	(121)
-2	klaagt	_
-3	Apple	(116)
-4	aan	_
-5	wegens	_
-6	handelsmerk	(122
-7	iPhone	122)|(115)
+#begin document (58383_Cisco_sues_Apple.xml.coref_ne);
+58383_Cisco_sues_Apple.xml.coref_ne	1	Cisco	(121)
+58383_Cisco_sues_Apple.xml.coref_ne	2	klaagt	_
+58383_Cisco_sues_Apple.xml.coref_ne	3	Apple	(116)
+58383_Cisco_sues_Apple.xml.coref_ne	4	aan	_
+58383_Cisco_sues_Apple.xml.coref_ne	5	wegens	_
+58383_Cisco_sues_Apple.xml.coref_ne	6	handelsmerk	(122
+58383_Cisco_sues_Apple.xml.coref_ne	7	iPhone	(115)|122)
 
-8	12-Jan-07	_
+58383_Cisco_sues_Apple.xml.coref_ne	8	12-Jan-07	_
 
-9	De	(115
-10	iPhone	115)
-11	is	_
-12	alleen	_
-13	nog	_
-14	maar	_
-15	verschenen	_
-16	als	_
-17	prototype	(115)
-18	en	_
-19	is	_
-20	nu	_
-21	al	_
-22	controversieel	_
-23	.	_
+58383_Cisco_sues_Apple.xml.coref_ne	9	De	(115
+58383_Cisco_sues_Apple.xml.coref_ne	10	iPhone	115)
+58383_Cisco_sues_Apple.xml.coref_ne	11	is	_
+58383_Cisco_sues_Apple.xml.coref_ne	12	alleen	_
+58383_Cisco_sues_Apple.xml.coref_ne	13	nog	_
+58383_Cisco_sues_Apple.xml.coref_ne	14	maar	_
+58383_Cisco_sues_Apple.xml.coref_ne	15	verschenen	_
+58383_Cisco_sues_Apple.xml.coref_ne	16	als	_
+58383_Cisco_sues_Apple.xml.coref_ne	17	prototype	(115)
+58383_Cisco_sues_Apple.xml.coref_ne	18	en	_
+58383_Cisco_sues_Apple.xml.coref_ne	19	is	_
+58383_Cisco_sues_Apple.xml.coref_ne	20	nu	_
+58383_Cisco_sues_Apple.xml.coref_ne	21	al	_
+58383_Cisco_sues_Apple.xml.coref_ne	22	controversieel	_
+58383_Cisco_sues_Apple.xml.coref_ne	23	.	_
 
-24	Het	_
-25	conflict	_
-26	ontstond	_
-27	tussen	_
-28	Apple	(116
-29	Inc.	116)
-30	,	_
-31	de	_
-32	fabrikant	_
-33	van	_
-34	de	_
-35	iPhone	(115)
-36	(	_
-37	die	(115)
-38	op	_
-39	woensdag	_
-40	voor	_
-41	het	_
-42	eerst	_
-43	werd	_
-44	gepresenteerd	_
-45	)	_
-46	,	_
-47	en	_
-48	het	_
-49	in	_
-50	San	(119
-51	Jose	119)
-52	gevestigde	_
-53	Cisco	(121)
-54	,	_
-55	een	(121
-56	marktleider	121
-57	op	121
-58	het	121
-59	gebied	121
-60	van	121
-61	netwerk	121
-62	-	121
-63	en	121
-64	communicatiesystemen	121)
-65	.	_
+58383_Cisco_sues_Apple.xml.coref_ne	24	Het	_
+58383_Cisco_sues_Apple.xml.coref_ne	25	conflict	_
+58383_Cisco_sues_Apple.xml.coref_ne	26	ontstond	_
+58383_Cisco_sues_Apple.xml.coref_ne	27	tussen	_
+58383_Cisco_sues_Apple.xml.coref_ne	28	Apple	(116
+58383_Cisco_sues_Apple.xml.coref_ne	29	Inc.	116)
+58383_Cisco_sues_Apple.xml.coref_ne	30	,	_
+58383_Cisco_sues_Apple.xml.coref_ne	31	de	_
+58383_Cisco_sues_Apple.xml.coref_ne	32	fabrikant	_
+58383_Cisco_sues_Apple.xml.coref_ne	33	van	_
+58383_Cisco_sues_Apple.xml.coref_ne	34	de	_
+58383_Cisco_sues_Apple.xml.coref_ne	35	iPhone	(115)
+58383_Cisco_sues_Apple.xml.coref_ne	36	(	_
+58383_Cisco_sues_Apple.xml.coref_ne	37	die	(115)
+58383_Cisco_sues_Apple.xml.coref_ne	38	op	_
+58383_Cisco_sues_Apple.xml.coref_ne	39	woensdag	_
+58383_Cisco_sues_Apple.xml.coref_ne	40	voor	_
+58383_Cisco_sues_Apple.xml.coref_ne	41	het	_
+58383_Cisco_sues_Apple.xml.coref_ne	42	eerst	_
+58383_Cisco_sues_Apple.xml.coref_ne	43	werd	_
+58383_Cisco_sues_Apple.xml.coref_ne	44	gepresenteerd	_
+58383_Cisco_sues_Apple.xml.coref_ne	45	)	_
+58383_Cisco_sues_Apple.xml.coref_ne	46	,	_
+58383_Cisco_sues_Apple.xml.coref_ne	47	en	_
+58383_Cisco_sues_Apple.xml.coref_ne	48	het	_
+58383_Cisco_sues_Apple.xml.coref_ne	49	in	_
+58383_Cisco_sues_Apple.xml.coref_ne	50	San	(119
+58383_Cisco_sues_Apple.xml.coref_ne	51	Jose	119)
+58383_Cisco_sues_Apple.xml.coref_ne	52	gevestigde	_
+58383_Cisco_sues_Apple.xml.coref_ne	53	Cisco	(121)
+58383_Cisco_sues_Apple.xml.coref_ne	54	,	_
+58383_Cisco_sues_Apple.xml.coref_ne	55	een	(121
+58383_Cisco_sues_Apple.xml.coref_ne	56	marktleider	121
+58383_Cisco_sues_Apple.xml.coref_ne	57	op	121
+58383_Cisco_sues_Apple.xml.coref_ne	58	het	121
+58383_Cisco_sues_Apple.xml.coref_ne	59	gebied	121
+58383_Cisco_sues_Apple.xml.coref_ne	60	van	121
+58383_Cisco_sues_Apple.xml.coref_ne	61	netwerk	121
+58383_Cisco_sues_Apple.xml.coref_ne	62	-	121
+58383_Cisco_sues_Apple.xml.coref_ne	63	en	121
+58383_Cisco_sues_Apple.xml.coref_ne	64	communicatiesystemen	121)
+58383_Cisco_sues_Apple.xml.coref_ne	65	.	_
 
-66	Deze	(121
-67	laatste	121)
-68	claimt	_
-69	eigenaar	(121)
-70	te	_
-71	zijn	_
-72	van	_
-73	het	(122
-74	handelsmerk	122
-75	voor	122
-76	iPhone	122)|(115)
-77	en	_
-78	zegt	_
-79	bovendien	_
-80	apparaten	(115)
-81	onder	_
-82	dezelfde	(122
-83	naam	122)
-84	via	_
-85	een	(118
-86	van	118
-87	zijn	(121)|118
-88	divisies	118)
-89	te	_
-90	verkopen	_
-91	.	_
+58383_Cisco_sues_Apple.xml.coref_ne	66	Deze	(121
+58383_Cisco_sues_Apple.xml.coref_ne	67	laatste	121)
+58383_Cisco_sues_Apple.xml.coref_ne	68	claimt	_
+58383_Cisco_sues_Apple.xml.coref_ne	69	eigenaar	(121)
+58383_Cisco_sues_Apple.xml.coref_ne	70	te	_
+58383_Cisco_sues_Apple.xml.coref_ne	71	zijn	_
+58383_Cisco_sues_Apple.xml.coref_ne	72	van	_
+58383_Cisco_sues_Apple.xml.coref_ne	73	het	(122
+58383_Cisco_sues_Apple.xml.coref_ne	74	handelsmerk	122
+58383_Cisco_sues_Apple.xml.coref_ne	75	voor	122
+58383_Cisco_sues_Apple.xml.coref_ne	76	iPhone	(115)|122)
+58383_Cisco_sues_Apple.xml.coref_ne	77	en	_
+58383_Cisco_sues_Apple.xml.coref_ne	78	zegt	_
+58383_Cisco_sues_Apple.xml.coref_ne	79	bovendien	_
+58383_Cisco_sues_Apple.xml.coref_ne	80	apparaten	(115)
+58383_Cisco_sues_Apple.xml.coref_ne	81	onder	_
+58383_Cisco_sues_Apple.xml.coref_ne	82	dezelfde	(122
+58383_Cisco_sues_Apple.xml.coref_ne	83	naam	122)
+58383_Cisco_sues_Apple.xml.coref_ne	84	via	_
+58383_Cisco_sues_Apple.xml.coref_ne	85	een	(118
+58383_Cisco_sues_Apple.xml.coref_ne	86	van	118
+58383_Cisco_sues_Apple.xml.coref_ne	87	zijn	(121)|118
+58383_Cisco_sues_Apple.xml.coref_ne	88	divisies	118)
+58383_Cisco_sues_Apple.xml.coref_ne	89	te	_
+58383_Cisco_sues_Apple.xml.coref_ne	90	verkopen	_
+58383_Cisco_sues_Apple.xml.coref_ne	91	.	_
 
-92	Cisco	(121)
-93	zag	_
-94	reden	_
-95	een	_
-96	rechtszaak	_
-97	te	_
-98	starten	_
-99	tegen	_
-100	Apple	(116
-101	Inc.	116)
-102	om	_
-103	diens	(116)|(115
-104	apparaat	115)
-105	van	_
-106	de	_
-107	markt	_
-108	te	_
-109	halen	_
-110	.	_
+58383_Cisco_sues_Apple.xml.coref_ne	92	Cisco	(121)
+58383_Cisco_sues_Apple.xml.coref_ne	93	zag	_
+58383_Cisco_sues_Apple.xml.coref_ne	94	reden	_
+58383_Cisco_sues_Apple.xml.coref_ne	95	een	_
+58383_Cisco_sues_Apple.xml.coref_ne	96	rechtszaak	_
+58383_Cisco_sues_Apple.xml.coref_ne	97	te	_
+58383_Cisco_sues_Apple.xml.coref_ne	98	starten	_
+58383_Cisco_sues_Apple.xml.coref_ne	99	tegen	_
+58383_Cisco_sues_Apple.xml.coref_ne	100	Apple	(116
+58383_Cisco_sues_Apple.xml.coref_ne	101	Inc.	116)
+58383_Cisco_sues_Apple.xml.coref_ne	102	om	_
+58383_Cisco_sues_Apple.xml.coref_ne	103	diens	(116)|(115
+58383_Cisco_sues_Apple.xml.coref_ne	104	apparaat	115)
+58383_Cisco_sues_Apple.xml.coref_ne	105	van	_
+58383_Cisco_sues_Apple.xml.coref_ne	106	de	_
+58383_Cisco_sues_Apple.xml.coref_ne	107	markt	_
+58383_Cisco_sues_Apple.xml.coref_ne	108	te	_
+58383_Cisco_sues_Apple.xml.coref_ne	109	halen	_
+58383_Cisco_sues_Apple.xml.coref_ne	110	.	_
 
-111	Cisco	_
-112	verklaart	_
-113	dat	_
-114	het	_
-115	het	_
-116	handelsmerk	_
-117	verkreeg	_
-118	in	_
-119	2000	_
-120	bij	_
-121	de	_
-122	overname	_
-123	van	_
-124	het	_
-125	bedrijf	_
-126	Infogear	_
-127	Technology	_
-128	Corp	_
-129	in	_
-130	1996	_
-131	.	_
-
-132	Mark	_
-133	Chandler	_
-134	,	_
-135	Vice	_
-136	President	_
-137	en	_
-138	algemeen	_
-139	juridisch	_
-140	adviseur	_
-141	van	_
-142	het	_
-143	bedrijf	_
-144	,	_
-145	zei	_
-146	dat	_
-147	er	_
-148	geen	_
-149	twijfel	_
-150	bestond	_
-151	over	_
-152	de	_
-153	opwinding	_
-154	met	_
-155	betrekking	_
-156	tot	_
-157	het	_
-158	nieuwe	_
-159	apparaat	_
-160	van	_
-161	Apple	_
-162	maar	_
-163	dat	_
-164	er	_
-165	geen	_
-166	handelsmerk	_
-167	van	_
-168	Cisco	_
-169	mag	_
-170	worden	_
-171	gebruikt	_
-172	.	_
-
-173	De	_
-174	iPhone	_
-175	van	_
-176	Cisco	_
-177	is	_
-178	een	_
-179	apparaat	_
-180	waarmee	_
-181	gebruikers	_
-182	kunnen	_
-183	telefoneren	_
-184	via	_
-185	het	_
-186	Voice	_
-187	over	_
-188	Internet	_
-189	protocol	_
-190	(	_
-191	VoIP	_
-192	)	_
-193	.	_
+58383_Cisco_sues_Apple.xml.coref_ne	111	Cisco	_
+58383_Cisco_sues_Apple.xml.coref_ne	112	verklaart	_
+58383_Cisco_sues_Apple.xml.coref_ne	113	dat	_
+58383_Cisco_sues_Apple.xml.coref_ne	114	het	_
+58383_Cisco_sues_Apple.xml.coref_ne	115	het	_
+58383_Cisco_sues_Apple.xml.coref_ne	116	handelsmerk	_
+58383_Cisco_sues_Apple.xml.coref_ne	117	verkreeg	_
+58383_Cisco_sues_Apple.xml.coref_ne	118	in	_
+58383_Cisco_sues_Apple.xml.coref_ne	119	2000	_
+58383_Cisco_sues_Apple.xml.coref_ne	120	bij	_
+58383_Cisco_sues_Apple.xml.coref_ne	121	de	_
+58383_Cisco_sues_Apple.xml.coref_ne	122	overname	_
+58383_Cisco_sues_Apple.xml.coref_ne	123	van	_
+58383_Cisco_sues_Apple.xml.coref_ne	124	het	_
+58383_Cisco_sues_Apple.xml.coref_ne	125	bedrijf	_
+58383_Cisco_sues_Apple.xml.coref_ne	126	Infogear	_
+58383_Cisco_sues_Apple.xml.coref_ne	127	Technology	_
+58383_Cisco_sues_Apple.xml.coref_ne	128	Corp	_
+58383_Cisco_sues_Apple.xml.coref_ne	129	in	_
+58383_Cisco_sues_Apple.xml.coref_ne	130	1996	_
+58383_Cisco_sues_Apple.xml.coref_ne	131	.	_
+#end document
