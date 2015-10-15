@@ -38,7 +38,7 @@ def read_conll_file(fname):
 		if len(split_line) > 1:
 			if split_line[0] != 'doc_id' and line[0] != '#': # Skip header and/or document tags
 				conll_list.append(split_line)
-		if not line.strip(): # Empty line equals new sentence
+		if not line.strip() or line == '#end document': # Empty line equals new sentence
 			num_sentences += 1
 	return conll_list, num_sentences
 	
@@ -245,6 +245,7 @@ def main(input_file, output_file, doc_tags, verbosity):
 	## mention_dict contains the actual mentions, format: {id: Mention}
 	## cluster_list contains all clusters, in a list
 	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity)
+	print sentenceDict
 	if verbosity == 'high':
 		print_mentions_inline(sentenceDict)		
 	cluster_list = initialize_clusters()

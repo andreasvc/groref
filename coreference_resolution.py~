@@ -38,7 +38,7 @@ def read_conll_file(fname):
 		if len(split_line) > 1:
 			if split_line[0] != 'doc_id' and line[0] != '#': # Skip header and/or document tags
 				conll_list.append(split_line)
-		if not line.strip(): # Empty line equals new sentence
+		if not line.strip() or line == '#end document': # Empty line equals new sentence
 			num_sentences += 1
 	return conll_list, num_sentences
 	
@@ -106,15 +106,16 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 		sentNum = tree.find('comments').find('comment').text
 		sentNum = re.findall('#[0-9]+', sentNum)[0][1:]
 		# Extract mentions (NPs, pronouns, names)
-		print 'Detecting mentions in sentence number %s,' % (sentNum),
 		sentenceDict[int(sentNum)] = tree.find('sentence').text
-		np_list = tree.findall(".//node[@cat='np']")
-		print 'found %d NPs, ' % len(np_list),
-		pron_list = tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")
-		print '%d (possessive) pronouns, ' % len(pron_list),
+		np_list = tree.findall(".//node[@cat='np']")		
+		pron_list = tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")		
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
-		name_list = tree.findall(".//node[@pos='name']") 
-		print 'and %d (parts of) names.' % len(name_list)
+		name_list = tree.findall(".//node[@pos='name']") 		
+		if verbosity == 'high':
+			print 'Detecting mentions in sentence number %s,' % (sentNum),
+			print 'found %d NPs, ' % len(np_list),
+			print '%d (possessive) pronouns, ' % len(pron_list),
+			print 'and %d (parts of) names.' % len(name_list)
 		# Create Mention objects and fill in properties
 		for mention_node in np_list + pron_list + name_list:
 			new_ment = Mention(mentionID)
@@ -244,6 +245,7 @@ def main(input_file, output_file, doc_tags, verbosity):
 	## mention_dict contains the actual mentions, format: {id: Mention}
 	## cluster_list contains all clusters, in a list
 	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity)
+	print sentenceDict
 	if verbosity == 'high':
 		print_mentions_inline(sentenceDict)		
 	cluster_list = initialize_clusters()
