@@ -61,41 +61,46 @@ def read_xml_parse_files(fname):
 	return xml_tree_list
 
 # Stitch multi-word name mentions together
-def stitch_names(mention_list):
-	stitched_mention_list = []
+def stitch_names(mention_id_list, mention_dict):
+	stitched_mention_id_list = []
+	stitched_mention_dict = {}
 	idx = 0
-	# Assume all split names are sequential in mention_list
-	while idx < len(mention_list): 
-		if mention_list[idx].type == 'Name': # Ignore non-names
+	# Assume all split names are sequential in mention_id_list
+	while idx < len(mention_id_list):
+		mention_id = mention_id_list[idx] 
+		if mention_dict[mention_id].type == 'Name': # Ignore non-names
 			inc = 1 # How far to search ahead
 			continueSearch = True
 			while continueSearch:
-				if idx + inc < len(mention_list):
+				if idx + inc < len(mention_id_list):
+					lookup_mention_id = mention_id_list[idx + inc]
 					# Mentions should be part of same sentence
-					if mention_list[idx + inc].begin == mention_list[idx].end and mention_list[idx + inc].sentNum == mention_list[idx].sentNum:
-						mention_list[idx].end = mention_list[idx + inc].end
-						mention_list[idx].numTokens += mention_list[idx + inc].numTokens
-						mention_list[idx].tokenList += mention_list[idx + inc].tokenList
+					if mention_dict[lookup_mention_id].begin == mention_dict[mention_id].end and mention_dict[lookup_mention_id].sentNum == mention_dict[mention_id].sentNum:
+						mention_dict[mention_id].end = mention_dict[lookup_mention_id].end
+						mention_dict[mention_id].numTokens += mention_dict[lookup_mention_id].numTokens
+						mention_dict[mention_id].tokenList += mention_dict[lookup_mention_id].tokenList
 						inc += 1 # Stitched one part to the current mention, now check the mention after that
 					else:
 						continueSearch = False
 				else:
 					continueSearch = False
-			stitched_mention_list.append(mention_list[idx])
+			stitched_mention_id_list.append(mention_id)
 			idx += inc # If 3 parts stitched together, skip the subsequent 2 mentions
 		else:
-			stitched_mention_list.append(mention_list[idx])
+			stitched_mention_id_list.append(mention_id)
 			idx += 1
-	return stitched_mention_list
+	# Remove mentions that have been stitched together
+	stitched_mention_dict = {idx : mention_dict[idx] for idx in stitched_mention_id_list} 
+	return stitched_mention_id_list, stitched_mention_dict
 	
 # Sort mentions in list by sentNum, begin, end
-def sort_mentions(mention_list):
-	return sorted(mention_list, key = lambda x: (x.sentNum, x.begin, x.end))
+def sort_mentions(mention_id_list, mention_dict):
+	return sorted(mention_id_list, key = lambda x: (mention_dict[x].sentNum, mention_dict[x].begin, mention_dict[x].end))
 
 # Mention detection sieve, selects all NPs, pronouns, names		
 def detect_mentions(conll_list, tree_list, docFilename):
 	global mentionID, sentenceDict
-	mention_list = []
+	mention_id_list = []
 	mention_dict = {}
 	for tree in tree_list:
 		sentNum = tree.find('comments').find('comment').text
@@ -127,20 +132,21 @@ def detect_mentions(conll_list, tree_list, docFilename):
 				new_ment.type = 'Pronoun'
 			else:
 				new_ment.type = 'Name'
-			mention_list.append(new_ment)
+			mention_dict[new_ment.ID] = new_ment
+			mention_id_list.append(new_ment.ID)
 	# Stitch together split name-type mentions
-	mention_list = stitch_names(mention_list)
+	mention_id_list, mention_dict = stitch_names(mention_id_list, mention_dict)
 	# Sort list properly
-	mention_list = sort_mentions(mention_list)
-	return mention_list
+	mention_id_list = sort_mentions(mention_id_list, mention_dict)
+	return mention_id_list, mention_dict
 
 # Human-readable printing of the output of the mention detection sieve	
-def print_mentions_inline(sentenceDict, mention_list):
+def print_mentions_inline(sentenceDict):
 	for sentNum in sentenceDict:
 		sentLength = len(sentenceDict[sentNum].split(' '))
 		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
 		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
-			for mention in mention_list:
+			for mention_id, mention in mention_dict.iteritems():
 				if mention.sentNum == sentNum:
 					if mention.begin == idx:
 						print '[',
@@ -153,9 +159,9 @@ def print_mentions_inline(sentenceDict, mention_list):
 		print ''
 
 # Creates a cluster for each mention, fills in features
-def initialize_clusters(mention_list):
+def initialize_clusters():
 	cluster_list = []
-	for mention in mention_list:
+	for mention_id, mention in mention_dict.iteritems():
 		new_cluster = Cluster(mention.ID) # Initialize with same ID as initial mention
 		new_cluster.mentionList.append(mention.ID)
 		mention.clusterID = new_cluster.ID
@@ -163,7 +169,7 @@ def initialize_clusters(mention_list):
 	return cluster_list
 	
 # Creates conll-formatted output with the clustering information
-def generate_conll(sentenceDict, docName, mention_list, output_filename, doc_tags):
+def generate_conll(docName, output_filename, doc_tags):
 	output_file = open(output_filename, 'w')
 	docName = docName.split('/')[-1].split('_')[0]
 	if doc_tags:
@@ -171,7 +177,7 @@ def generate_conll(sentenceDict, docName, mention_list, output_filename, doc_tag
 	for key in sorted(sentenceDict.keys()): # Cycle through sentences
 		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
 			corefLabel = ''
-			for mention in mention_list: # Check all mentions, to see whether token is part of mention
+			for mention_id, mention in mention_dict.iteritems(): # Check all mentions, to see whether token is part of mention
 				if mention.sentNum == key:
 					if token_idx == mention.begin: # Start of mention, print a bracket
 						if corefLabel:
@@ -192,9 +198,10 @@ def generate_conll(sentenceDict, docName, mention_list, output_filename, doc_tag
 	if doc_tags:
 		output_file.write('#end document')	
 
-# Function that takes two mentions, and merges the clusters they are part of
-def mergeClustersByMentions(mention1, mention2):
-	global cluster_list, mention_list
+# Function that takes two mention ids, and merges the clusters they are part of
+def mergeClustersByMentionIDs(idx1, idx2):
+	mention1 = mention_dict[idx1]
+	mention2 = mention_dict[idx2]
 	if mention1.clusterID == mention2.clusterID: # Cannot merge if mentions are part of same cluster
 		return
 	for idx, cluster in enumerate(cluster_list): # Find clusters by ID, could be more efficient
@@ -206,7 +213,7 @@ def mergeClustersByMentions(mention1, mention2):
 	# Put all mentions of cluster2 in cluster1
 	for mentionID in cluster2.mentionList:
 		cluster1.mentionList.append(mentionID)
-		for mention in mention_list:
+		for mention_id, mention in mention_dict.iteritems():
 			if mention.ID == mentionID:
 				mention.clusterID = cluster1.ID
 	del cluster_list[cluster2_idx]
@@ -214,10 +221,9 @@ def mergeClustersByMentions(mention1, mention2):
 
 # Dummy sieve that links each second mention to the preceding mention, for testing purposes (output/evaluation)
 def sieveDummy():
-	global mention_list, cluster_list
-	for idx, mention in enumerate(mention_list):
-		if idx % 3 == 1:
-			mergeClustersByMentions(mention, mention_list[idx-2])
+	for idx, mention_id in enumerate(mention_id_list):
+		if idx % 3 == 2: # Link every third mention with the mention 2 positions back in the list
+			mergeClustersByMentionIDs(mention_id_list[idx], mention_id_list[idx-2])
 
 def main(input_file, output_file, doc_tags):
 	num_sentences = 9999 # Number of sentences for which to read in parses
@@ -229,18 +235,21 @@ def main(input_file, output_file, doc_tags):
 	print num_sentences 
 	xml_tree_list = read_xml_parse_files(input_file)[:num_sentences]
 	print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
-	global mentionID, mention_list, sentenceDict, cluster_list
+	global mentionID, mention_id_list, sentenceDict, cluster_list, mention_dict
 	mentionID = 0 # Initialize mentionID
 	sentenceDict = {} # Initialize dictionary containing sentence strings
-	# TODO: Change mention_list to a dictionary, to be able to find mentions by ID? (same goes for clusters)
-	# Do mention detection
-	mention_list = detect_mentions(conll_list, xml_tree_list, input_file)
-	print_mentions_inline(sentenceDict, mention_list)		
-	cluster_list = initialize_clusters(mention_list)
-	# Do coreference resolution
-	sieveDummy() # Apply dummy sieve
+	# Do mention detection, give back 2 global variables:
+	## mention_id_list contains list of mention IDs in right order, for traversing in sieves
+	## mention_dict contains the actual mentions, format: {id: Mention}
+	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file)
+	for idx in mention_id_list:
+		print mention_dict[idx].ID
+	print_mentions_inline(sentenceDict)		
+	cluster_list = initialize_clusters()
+	# Do coreference resolution, i.e. apply sieves
+	sieveDummy() # Apply dummy sieve, naming is reversed so all sieve function can start with sieve :)
 	# Generate output
-	generate_conll(sentenceDict, input_file, mention_list, output_file, doc_tags)	
+	generate_conll(input_file, output_file, doc_tags)	
 
 if __name__ == '__main__':
 	# Parse input arguments
