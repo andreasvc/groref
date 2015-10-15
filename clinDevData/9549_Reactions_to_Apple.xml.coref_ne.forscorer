@@ -1,169 +1,168 @@
 #begin document (9549); part 000
-9549	0	0	0	0	#begin document (9549_Reactions_to_Apple.xml.coref_ne);
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	1	Reacties	(81
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	2	op	81
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	3	OS	(209|81
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	4	X	209|81
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	5	Tiger	209|81
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	6	van	209|81
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	7	Apple	(114)|209)|81)
+9549	0	0	0	0	1	Reacties	(81
+9549	0	0	0	0	2	op	81
+9549	0	0	0	0	3	OS	(209|81
+9549	0	0	0	0	4	X	209|81
+9549	0	0	0	0	5	Tiger	209|81
+9549	0	0	0	0	6	van	209|81
+9549	0	0	0	0	7	Apple	(114)|209)|81)
 
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	8	07-May-05	_
+9549	0	0	0	0	8	07-May-05	_
 
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	9	In	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	10	chatrooms	(216)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	11	en	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	12	op	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	13	bulletin	(219
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	14	boards	219)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	15	wordt	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	16	door	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	17	gebruikers	(199|(84
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	18	en	199|84
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	19	fans	199)|84
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	20	van	84
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	21	Macintosh	84)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	22	veel	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	23	gepraat	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	24	over	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	25	Tiger	(209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	26	,	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	27	de	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	28	jongste	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	29	versie	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	30	van	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	31	Mac	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	32	OS	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	33	X	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	34	,	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	35	versie	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	36	10.4	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	37	,	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	38	van	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	39	Apple	(114|209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	40	Computer	114)|209)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	41	.	_
+9549	0	0	0	0	9	In	_
+9549	0	0	0	0	10	chatrooms	(216)
+9549	0	0	0	0	11	en	_
+9549	0	0	0	0	12	op	_
+9549	0	0	0	0	13	bulletin	(219
+9549	0	0	0	0	14	boards	219)
+9549	0	0	0	0	15	wordt	_
+9549	0	0	0	0	16	door	_
+9549	0	0	0	0	17	gebruikers	(199|(84
+9549	0	0	0	0	18	en	199|84
+9549	0	0	0	0	19	fans	199)|84
+9549	0	0	0	0	20	van	84
+9549	0	0	0	0	21	Macintosh	84)
+9549	0	0	0	0	22	veel	_
+9549	0	0	0	0	23	gepraat	_
+9549	0	0	0	0	24	over	_
+9549	0	0	0	0	25	Tiger	(209
+9549	0	0	0	0	26	,	209
+9549	0	0	0	0	27	de	209
+9549	0	0	0	0	28	jongste	209
+9549	0	0	0	0	29	versie	209
+9549	0	0	0	0	30	van	209
+9549	0	0	0	0	31	Mac	209
+9549	0	0	0	0	32	OS	209
+9549	0	0	0	0	33	X	209
+9549	0	0	0	0	34	,	209
+9549	0	0	0	0	35	versie	209
+9549	0	0	0	0	36	10.4	209
+9549	0	0	0	0	37	,	209
+9549	0	0	0	0	38	van	209
+9549	0	0	0	0	39	Apple	(114|209
+9549	0	0	0	0	40	Computer	114)|209)
+9549	0	0	0	0	41	.	_
 
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	42	"	(87|(200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	43	De	87|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	44	open-source	87|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	45	kernel	87|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	46	of	87|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	47	basis	87|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	48	van	87|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	49	het	87|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	50	systeem	87)|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	51	,	200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	52	"	200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	53	"	200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	54	Darwin	(87)|200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	55	"	200
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	56	"	200)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	57	en	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	58	alle	(88
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	59	functionaliteit	88
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	60	van	88
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	61	de	88|(218
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	62	gepatenteerde	88|218
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	63	Quartz	88|218
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	64	gebruikersinterface	88|218)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	65	van	88
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	66	Apple	88)|(114)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	67	,	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	68	de	(88
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	69	software	88
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	70	en	88
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	71	systeemtoepassingen	88)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	72	zijn	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	73	aan	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	74	diepgaand	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	75	onderzoek	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	76	en	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	77	verbetering	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	78	onderworpen	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	79	en	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	80	zijn	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	81	inmiddels	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	82	al	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	83	meer	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	84	dan	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	85	een	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	86	week	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	87	te	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	88	koop	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	89	.	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	90	"	_
+9549	0	0	0	0	42	"	(87|(200
+9549	0	0	0	0	43	De	87|200
+9549	0	0	0	0	44	open-source	87|200
+9549	0	0	0	0	45	kernel	87|200
+9549	0	0	0	0	46	of	87|200
+9549	0	0	0	0	47	basis	87|200
+9549	0	0	0	0	48	van	87|200
+9549	0	0	0	0	49	het	87|200
+9549	0	0	0	0	50	systeem	87)|200
+9549	0	0	0	0	51	,	200
+9549	0	0	0	0	52	"	200
+9549	0	0	0	0	53	"	200
+9549	0	0	0	0	54	Darwin	(87)|200
+9549	0	0	0	0	55	"	200
+9549	0	0	0	0	56	"	200)
+9549	0	0	0	0	57	en	_
+9549	0	0	0	0	58	alle	(88
+9549	0	0	0	0	59	functionaliteit	88
+9549	0	0	0	0	60	van	88
+9549	0	0	0	0	61	de	88|(218
+9549	0	0	0	0	62	gepatenteerde	88|218
+9549	0	0	0	0	63	Quartz	88|218
+9549	0	0	0	0	64	gebruikersinterface	88|218)
+9549	0	0	0	0	65	van	88
+9549	0	0	0	0	66	Apple	88)|(114)
+9549	0	0	0	0	67	,	_
+9549	0	0	0	0	68	de	(88
+9549	0	0	0	0	69	software	88
+9549	0	0	0	0	70	en	88
+9549	0	0	0	0	71	systeemtoepassingen	88)
+9549	0	0	0	0	72	zijn	_
+9549	0	0	0	0	73	aan	_
+9549	0	0	0	0	74	diepgaand	_
+9549	0	0	0	0	75	onderzoek	_
+9549	0	0	0	0	76	en	_
+9549	0	0	0	0	77	verbetering	_
+9549	0	0	0	0	78	onderworpen	_
+9549	0	0	0	0	79	en	_
+9549	0	0	0	0	80	zijn	_
+9549	0	0	0	0	81	inmiddels	_
+9549	0	0	0	0	82	al	_
+9549	0	0	0	0	83	meer	_
+9549	0	0	0	0	84	dan	_
+9549	0	0	0	0	85	een	_
+9549	0	0	0	0	86	week	_
+9549	0	0	0	0	87	te	_
+9549	0	0	0	0	88	koop	_
+9549	0	0	0	0	89	.	_
+9549	0	0	0	0	90	"	_
 
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	91	Apple	(114)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	92	meldt	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	93	dat	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	94	Tiger	(209)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	95	,	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	96	de	(209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	97	codenaam	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	98	van	209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	99	deze	209|(209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	100	release	209)|209)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	101	,	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	102	meer	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	103	dan	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	104	200	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	105	nieuwe	(214
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	106	functies	214)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	107	en	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	108	nieuwe	(203
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	109	versies	203
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	110	van	203
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	111	applicatiesoftware	(205)|203)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	112	,	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	113	zoals	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	114	de	(205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	115	e-mail	205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	116	client	205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	117	Mail	205)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	118	,	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	119	Safari	(205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	120	webbrowser	205)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	121	en	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	122	iChat	(205)|(205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	123	,	205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	124	de	(205|205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	125	audio	205|205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	126	-	205|205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	127	/	205|205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	128	video	205|205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	129	-	205|205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	130	/	205|205
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	131	sms-client	205)|205)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	132	,	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	133	omvat	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	134	.	_
+9549	0	0	0	0	91	Apple	(114)
+9549	0	0	0	0	92	meldt	_
+9549	0	0	0	0	93	dat	_
+9549	0	0	0	0	94	Tiger	(209)
+9549	0	0	0	0	95	,	_
+9549	0	0	0	0	96	de	(209
+9549	0	0	0	0	97	codenaam	209
+9549	0	0	0	0	98	van	209
+9549	0	0	0	0	99	deze	209|(209
+9549	0	0	0	0	100	release	209)|209)
+9549	0	0	0	0	101	,	_
+9549	0	0	0	0	102	meer	_
+9549	0	0	0	0	103	dan	_
+9549	0	0	0	0	104	200	_
+9549	0	0	0	0	105	nieuwe	(214
+9549	0	0	0	0	106	functies	214)
+9549	0	0	0	0	107	en	_
+9549	0	0	0	0	108	nieuwe	(203
+9549	0	0	0	0	109	versies	203
+9549	0	0	0	0	110	van	203
+9549	0	0	0	0	111	applicatiesoftware	(205)|203)
+9549	0	0	0	0	112	,	_
+9549	0	0	0	0	113	zoals	_
+9549	0	0	0	0	114	de	(205
+9549	0	0	0	0	115	e-mail	205
+9549	0	0	0	0	116	client	205
+9549	0	0	0	0	117	Mail	205)
+9549	0	0	0	0	118	,	_
+9549	0	0	0	0	119	Safari	(205
+9549	0	0	0	0	120	webbrowser	205)
+9549	0	0	0	0	121	en	_
+9549	0	0	0	0	122	iChat	(205)|(205
+9549	0	0	0	0	123	,	205
+9549	0	0	0	0	124	de	(205|205
+9549	0	0	0	0	125	audio	205|205
+9549	0	0	0	0	126	-	205|205
+9549	0	0	0	0	127	/	205|205
+9549	0	0	0	0	128	video	205|205
+9549	0	0	0	0	129	-	205|205
+9549	0	0	0	0	130	/	205|205
+9549	0	0	0	0	131	sms-client	205)|205)
+9549	0	0	0	0	132	,	_
+9549	0	0	0	0	133	omvat	_
+9549	0	0	0	0	134	.	_
 
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	135	Er	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	136	zitten	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	137	ook	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	138	geheel	(214
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	139	nieuwe	214
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	140	functies	214)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	141	in	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	142	deze	(209
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	143	release	209)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	144	:	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	145	Spotlight	(220)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	146	integreert	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	147	een	(220
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	148	zoekfunctie	220)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	149	in	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	150	de	(212
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	151	kern	212
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	152	van	212
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	153	het	(209|212
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	154	besturingssysteem	209)|212)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	155	en	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	156	gebruikt	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	157	meta-data	(210)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	158	in	_
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	159	het	(220
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	160	algoritme	220)
-9549	0	0	0	0	9549_Reactions_to_Apple.xml.coref_ne	161	.	_
+9549	0	0	0	0	135	Er	_
+9549	0	0	0	0	136	zitten	_
+9549	0	0	0	0	137	ook	_
+9549	0	0	0	0	138	geheel	(214
+9549	0	0	0	0	139	nieuwe	214
+9549	0	0	0	0	140	functies	214)
+9549	0	0	0	0	141	in	_
+9549	0	0	0	0	142	deze	(209
+9549	0	0	0	0	143	release	209)
+9549	0	0	0	0	144	:	_
+9549	0	0	0	0	145	Spotlight	(220)
+9549	0	0	0	0	146	integreert	_
+9549	0	0	0	0	147	een	(220
+9549	0	0	0	0	148	zoekfunctie	220)
+9549	0	0	0	0	149	in	_
+9549	0	0	0	0	150	de	(212
+9549	0	0	0	0	151	kern	212
+9549	0	0	0	0	152	van	212
+9549	0	0	0	0	153	het	(209|212
+9549	0	0	0	0	154	besturingssysteem	209)|212)
+9549	0	0	0	0	155	en	_
+9549	0	0	0	0	156	gebruikt	_
+9549	0	0	0	0	157	meta-data	(210)
+9549	0	0	0	0	158	in	_
+9549	0	0	0	0	159	het	(220
+9549	0	0	0	0	160	algoritme	220)
+9549	0	0	0	0	161	.	_
 #end document
