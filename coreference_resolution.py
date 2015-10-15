@@ -98,7 +98,7 @@ def sort_mentions(mention_id_list, mention_dict):
 	return sorted(mention_id_list, key = lambda x: (mention_dict[x].sentNum, mention_dict[x].begin, mention_dict[x].end))
 
 # Mention detection sieve, selects all NPs, pronouns, names		
-def detect_mentions(conll_list, tree_list, docFilename):
+def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 	global mentionID, sentenceDict
 	mention_id_list = []
 	mention_dict = {}
@@ -106,15 +106,16 @@ def detect_mentions(conll_list, tree_list, docFilename):
 		sentNum = tree.find('comments').find('comment').text
 		sentNum = re.findall('#[0-9]+', sentNum)[0][1:]
 		# Extract mentions (NPs, pronouns, names)
-		print 'Detecting mentions in sentence number %s,' % (sentNum),
 		sentenceDict[int(sentNum)] = tree.find('sentence').text
-		np_list = tree.findall(".//node[@cat='np']")
-		print 'found %d NPs, ' % len(np_list),
-		pron_list = tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")
-		print '%d (possessive) pronouns, ' % len(pron_list),
+		np_list = tree.findall(".//node[@cat='np']")		
+		pron_list = tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")		
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
-		name_list = tree.findall(".//node[@pos='name']") 
-		print 'and %d (parts of) names.' % len(name_list)
+		name_list = tree.findall(".//node[@pos='name']") 		
+		if verbosity == 'high':
+			print 'Detecting mentions in sentence number %s,' % (sentNum),
+			print 'found %d NPs, ' % len(np_list),
+			print '%d (possessive) pronouns, ' % len(pron_list),
+			print 'and %d (parts of) names.' % len(name_list)
 		# Create Mention objects and fill in properties
 		for mention_node in np_list + pron_list + name_list:
 			new_ment = Mention(mentionID)
@@ -225,26 +226,27 @@ def sieveDummy():
 		if idx % 3 == 2: # Link every third mention with the mention 2 positions back in the list
 			mergeClustersByMentionIDs(mention_id_list[idx], mention_id_list[idx-2])
 
-def main(input_file, output_file, doc_tags):
-	num_sentences = 9999 # Number of sentences for which to read in parses
+def main(input_file, output_file, doc_tags, verbosity):
+	num_sentences = 9999 # Maximum number of sentences for which to read in parses
 	# Read input files
 	try:
 		conll_list, num_sentences = read_conll_file(input_file)
 	except IOError:
 		print 'CoNLL input file not found: %s' % (input_file)
-	print num_sentences 
 	xml_tree_list = read_xml_parse_files(input_file)[:num_sentences]
-	print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
+	if verbosity == 'high':
+		print 'Number of sentences found: %d' % (num_sentences)
+		print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
 	global mentionID, mention_id_list, sentenceDict, cluster_list, mention_dict
 	mentionID = 0 # Initialize mentionID
 	sentenceDict = {} # Initialize dictionary containing sentence strings
-	# Do mention detection, give back 2 global variables:
+	# Do mention detection, give back 3 global variables:
 	## mention_id_list contains list of mention IDs in right order, for traversing in sieves
 	## mention_dict contains the actual mentions, format: {id: Mention}
-	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file)
-	for idx in mention_id_list:
-		print mention_dict[idx].ID
-	print_mentions_inline(sentenceDict)		
+	## cluster_list contains all clusters, in a list
+	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity)
+	if verbosity == 'high':
+		print_mentions_inline(sentenceDict)		
 	cluster_list = initialize_clusters()
 	# Do coreference resolution, i.e. apply sieves
 	sieveDummy() # Apply dummy sieve, naming is reversed so all sieve function can start with sieve :)
@@ -258,5 +260,5 @@ if __name__ == '__main__':
 	parser.add_argument('output_file', type = str, help = 'The path of where the output should go, e.g. WR77.xml.coref')
 	parser.add_argument('--docTags', help = 'If this flag is given, a begin and end document is printed at first and last line of output', dest = 'doc_tags', action = 'store_true')
 	args = parser.parse_args()
-	main(args.input_file, args.output_file, args.doc_tags)
+	main(args.input_file, args.output_file, args.doc_tags, verbosity)
 

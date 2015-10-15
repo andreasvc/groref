@@ -10,7 +10,7 @@ import argparse, os, re, subprocess, datetime
 import preprocess_clin_data
 import coreference_resolution
 
-def processDocument(filename):
+def processDocument(filename, verbosity):
 	''' Do preprocessing, coreference resolution and evaluation for a single 
 	document.
 	'''
@@ -24,25 +24,24 @@ def processDocument(filename):
 		isClinData = False
 	if isClinData:
 		preprocess_clin_data.preprocess_file(filename)
-#	coreference_resolution.main(filename, output_filename, True)
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
-			coreference_resolution.main(filename + '.forscorer', output_filename, True)
+			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename, "none"], stdout = scores_file)
 		else:
-			coreference_resolution.main(filename, output_filename, True)
+			coreference_resolution.main(filename, output_filename, True, verbosity)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
 		
-def processDirectory(dirname):
+def processDirectory(dirname, verbosity):
 	'''Do preprocessing, coreference resolution and evaluation for all 
 	documents in a directory.
 	'''
 	for filename in os.listdir(dirname):
 		if os.path.isfile(dirname + filename):
 			if re.search('.xml.coref_ne$', filename) or re.search('.xml.conll$', filename):
-				processDocument(dirname + filename)
+				processDocument(dirname + filename, verbosity)
 				
-def postProcessScores(scores_dir):
+def postProcessScores(scores_dir, verbosity):
 	''' Aggregates and formats evaluation scores of one or more documents,
 	outputs to 'scores_overall'-file
 	'''
@@ -79,8 +78,6 @@ def postProcessScores(scores_dir):
 		for metric in scores[document]:
 			if metric != 'conll':
 				totals[metric] = [val1 + val2 for val1, val2 in zip(totals[metric], scores[document][metric])]
-	print scores
-	print totals
 	for metric in totals:
 		try:
 			totals[metric][2] = totals[metric][0] / totals[metric][1] * 100
@@ -97,17 +94,21 @@ def postProcessScores(scores_dir):
 	totals['conll'] = [(totals['muc'][6] + totals['bcub'][6] + totals['ceafe'][6] ) / 3]
 	# Print scores to screen and file
 	with open(scores_dir + '/' + 'scores_overall', 'w') as out_file:
-		print '#########################################\nSCORES:'
+		if verbosity == 'high':
+			print '#########################################\nSCORES:'
+		else:
+			print 'SCORES:'
 		header = 'document name\t\tMD-p/r/f1\t\tMUC-p/r/f1\t\tBCUB-p/r/f1\t\tCEAFM-p/r/f1\t\tCEAFE-p/r/f1\t\tBLANC-p/r/f1\t\tCONLL-f1'
 		print header
 		out_file.write(header + '\n')
-		docName = document + (20 - len(document)) * ' '
 		for document in scores:
+			docName = document + (20 - len(document)) * ' '
 			a = scores[document]
 			scorestring = '%s\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % (docName,  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
 			print scorestring
 			out_file.write(scorestring + '\n')
-		print '##OVERALL:##'
+		if verbosity == 'high':
+			print '##OVERALL:##'
 		a = totals
 		scorestring = '%s\t\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
 		print scorestring
@@ -117,6 +118,7 @@ if __name__ == '__main__':
 	# Parse input arguments
 	parser = argparse.ArgumentParser()
 	parser.add_argument('target', type=str, help='Path to a file or directory, in .conll format, for which to do coreference resolution.')
+	parser.add_argument( '-v', '--verbosity', type = str, help = 'Verbosity of output, can be either "high" or "low", default is "high"', default = 'high')
 	args = parser.parse_args()
 	# Put output in timestamped sub-folder of results/
 	timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
@@ -127,13 +129,13 @@ if __name__ == '__main__':
 		os.system('mkdir results/' + timestamp)
 	if os.path.isdir(args.target):
 		args.target += '/'
-		processDirectory(args.target)
+		processDirectory(args.target, args.verbosity)
 	elif os.path.isfile(args.target):
-		processDocument(args.target)
+		processDocument(args.target, args.verbosity)
 	else:
 		print 'Incorrect input file or directory'
 		raise SystemExit
-	postProcessScores('results/' + timestamp)
+	postProcessScores('results/' + timestamp, args.verbosity)
 	print 'Timestamp for this run was: %s' % timestamp
 
 	
