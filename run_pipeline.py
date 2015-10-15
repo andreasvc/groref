@@ -92,13 +92,15 @@ def postProcessScores(scores_dir, verbosity):
 		except ZeroDivisionError:
 			totals[metric][6] = 0
 	totals['conll'] = [(totals['muc'][6] + totals['bcub'][6] + totals['ceafe'][6] ) / 3]
+	print scores
+	print totals
 	# Print scores to screen and file
 	with open(scores_dir + '/' + 'scores_overall', 'w') as out_file:
 		if verbosity == 'high':
 			print '#########################################\nSCORES:'
 		else:
 			print 'SCORES:'
-		header = 'document name\t\tMD-p/r/f1\t\tMUC-p/r/f1\t\tBCUB-p/r/f1\t\tCEAFM-p/r/f1\t\tCEAFE-p/r/f1\t\tBLANC-p/r/f1\t\tCONLL-f1'
+		header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBCUB-r/p/f1\t\tCEAFM-r/p/f1\t\tCEAFE-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
 		print header
 		out_file.write(header + '\n')
 		for document in scores:

@@ -245,7 +245,6 @@ def main(input_file, output_file, doc_tags, verbosity):
 	## mention_dict contains the actual mentions, format: {id: Mention}
 	## cluster_list contains all clusters, in a list
 	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity)
-	print sentenceDict
 	if verbosity == 'high':
 		print_mentions_inline(sentenceDict)		
 	cluster_list = initialize_clusters()

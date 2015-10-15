@@ -26,8 +26,8 @@ def processDocument(filename, verbosity):
 		preprocess_clin_data.preprocess_file(filename)
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
-			coreference_resolution.main(filename, output_filename, True, verbosity)
-			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
+			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity)
+			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename, "none"], stdout = scores_file)
 		else:
 			coreference_resolution.main(filename, output_filename, True, verbosity)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
@@ -92,6 +92,8 @@ def postProcessScores(scores_dir, verbosity):
 		except ZeroDivisionError:
 			totals[metric][6] = 0
 	totals['conll'] = [(totals['muc'][6] + totals['bcub'][6] + totals['ceafe'][6] ) / 3]
+	print scores
+	print totals
 	# Print scores to screen and file
 	with open(scores_dir + '/' + 'scores_overall', 'w') as out_file:
 		if verbosity == 'high':
