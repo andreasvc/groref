@@ -147,7 +147,8 @@ def print_mentions_inline(sentenceDict):
 		sentLength = len(sentenceDict[sentNum].split(' '))
 		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
 		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
-			for mention_id, mention in mention_dict.iteritems():
+			for mention_id in mention_id_list:
+				mention = mention_dict[mention_id]
 				if mention.sentNum == sentNum:
 					if mention.begin == idx:
 						print '[',

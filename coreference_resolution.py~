@@ -34,7 +34,6 @@ def read_conll_file(fname):
 	conll_list = []
 	num_sentences = 0
 	for line in open(fname, 'r'):
-		print line
 		split_line = line.strip().split('\t')
 		if len(split_line) > 1:
 			if split_line[0] != 'doc_id' and line[0] != '#': # Skip header and/or document tags
@@ -52,7 +51,6 @@ def read_xml_parse_files(fname):
 	xml_file_list = [xml_file[:-4] for xml_file in xml_file_list]
 	xml_file_list.sort(key=int)
 	xml_file_list = [xml_file + '.xml' for xml_file in xml_file_list]
-	print xml_file_list
 	for xml_file in xml_file_list:
 		if re.search('[0-9].xml', xml_file):
 			try:
@@ -149,9 +147,14 @@ def print_mentions_inline(sentenceDict):
 		sentLength = len(sentenceDict[sentNum].split(' '))
 		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
 		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
-			for mention_id, mention in mention_dict.iteritems():
+#			print idx,
+			for mention_id in mention_id_list:
+				mention = mention_dict[mention_id]
+#			for mention_id, mention in mention_dict.iteritems():
 				if mention.sentNum == sentNum:
 					if mention.begin == idx:
+#						print mention.begin,
+#						print mention.end,
 						print '[',
 					if mention.end == idx:
 						print ']',
