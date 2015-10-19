@@ -92,7 +92,25 @@ def stitch_names(mention_id_list, mention_dict):
 	# Remove mentions that have been stitched together
 	stitched_mention_dict = {idx : mention_dict[idx] for idx in stitched_mention_id_list} 
 	return stitched_mention_id_list, stitched_mention_dict
-	
+
+# remove duplicate mentions
+def remove_duplicates(mention_id_list, mention_dict):
+	remove_ids = []
+	for i in range(len(mention_id_list)): #sentnum, begin and end
+		this_sentNum = mention_dict[mention_id_list[i]].sentNum
+		this_begin = mention_dict[mention_id_list[i]].begin
+		this_end = mention_dict[mention_id_list[i]].end
+		for j in range(i+1, len(mention_id_list)):
+			if (this_sentNum == mention_dict[mention_id_list[j]].sentNum and 
+				this_begin == mention_dict[mention_id_list[j]].begin and 
+				this_end == mention_dict[mention_id_list[j]].end):
+				remove_ids.append(mention_id_list[i])
+				break
+	for remove_id in remove_ids:
+		mention_id_list.remove(remove_id)
+		del mention_dict[remove_id]
+	return mention_id_list, mention_dict
+
 # Sort mentions in list by sentNum, begin, end
 def sort_mentions(mention_id_list, mention_dict):
 	return sorted(mention_id_list, key = lambda x: (mention_dict[x].sentNum, mention_dict[x].begin, mention_dict[x].end))
@@ -150,10 +168,15 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 				new_ment.type = 'Pronoun'
 			else:
 				new_ment.type = 'Name'
+			#if len(tree.findall('.//node')) > 2: #TODO, why does this decrease recall?
 			mention_dict[new_ment.ID] = new_ment
 			mention_id_list.append(new_ment.ID)
+			#else:
+			#	print '-------------- ' + str(sentNum) + '\t' + docFilename
 	# Stitch together split name-type mentions
 	mention_id_list, mention_dict = stitch_names(mention_id_list, mention_dict)
+	#remove duplicates:
+	mention_id_list, mention_dict = remove_duplicates(mention_id_list, mention_dict)
 	# Sort list properly
 	mention_id_list = sort_mentions(mention_id_list, mention_dict)
 	return mention_id_list, mention_dict
