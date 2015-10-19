@@ -110,16 +110,17 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 		np_list = tree.findall(".//node[@cat='np']")
 		np2_list = tree.findall(".//node[@lcat='np'][@ntype='soort']")
 		detn_list = tree.findall(".//node[@pos='det']../node[@pos='noun']")
-		pron_list = tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")		
+		mwu_list = tree.findall(".//node[@cat='mwu']")
+		pron_list = tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
-		name_list = tree.findall(".//node[@pos='name']") 		
+		name_list = tree.findall(".//node[@pos='name']") 
 		if verbosity == 'high':
 			print 'Detecting mentions in sentence number %s,' % (sentNum),
 			print 'found %d NPs, ' % len(np_list),
 			print '%d (possessive) pronouns, ' % len(pron_list),
 			print 'and %d (parts of) names.' % len(name_list)
 		# Create Mention objects and fill in properties
-		for mention_node in np_list + pron_list + name_list + np2_list + detn_list:
+		for mention_node in np_list + pron_list + name_list + np2_list + detn_list + mwu_list:
 			new_ment = Mention(mentionID)
 			mentionID += 1
 			new_ment.sentNum = int(sentNum)
@@ -139,10 +140,12 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 				new_ment.begin = new_ment.begin - 1
 				new_ment.numTokens = new_ment.numTokens + 1
 				new_ment.tokenList.insert(0,'err')
-			if mention_node in np_list:
+			elif mention_node in np_list:
 				new_ment.type = 'NP'
 			elif mention_node in np2_list:
 				new_ment.type = 'NP2'
+			elif mention_node in mwu_list:
+				new_ment.type = 'MWU'
 			elif mention_node in pron_list:
 				new_ment.type = 'Pronoun'
 			else:
