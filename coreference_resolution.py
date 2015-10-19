@@ -129,6 +129,7 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 		np2_list = tree.findall(".//node[@lcat='np'][@ntype='soort']")
 		detn_list = tree.findall(".//node[@pos='det']../node[@pos='noun']")
 		mwu_list = tree.findall(".//node[@cat='mwu']")
+		du_list = tree.findall(".//node[@cat='du']")
 		pron_list = tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
 		name_list = tree.findall(".//node[@pos='name']") 
@@ -138,7 +139,7 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 			print '%d (possessive) pronouns, ' % len(pron_list),
 			print 'and %d (parts of) names.' % len(name_list)
 		# Create Mention objects and fill in properties
-		for mention_node in np_list + pron_list + name_list + np2_list + detn_list + mwu_list:
+		for mention_node in np_list + pron_list + name_list + np2_list + detn_list + mwu_list + du_list:
 			new_ment = Mention(mentionID)
 			mentionID += 1
 			new_ment.sentNum = int(sentNum)
@@ -164,6 +165,8 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 				new_ment.type = 'NP2'
 			elif mention_node in mwu_list:
 				new_ment.type = 'MWU'
+			elif mention_node in du_list:
+				new_ment.type = 'DU'
 			elif mention_node in pron_list:
 				new_ment.type = 'Pronoun'
 			else:
