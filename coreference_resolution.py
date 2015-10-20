@@ -21,6 +21,8 @@ class Mention:
 		self.end = 0 # Token ID of last token + 1
 		self.type = '' # Pronoun, NP or Name
 		self.clusterID = -1
+		self.head_beg = 0
+		self.head_end = 0
 		
 # Class for 'cluster'-objects
 class Cluster:
@@ -128,6 +130,10 @@ def make_mention(mention_node, mention_type, sentNum):
 	for node in mention_node.iter():
 		if "word" in node.attrib:
 			new_ment.tokenList.append(node.attrib["word"])
+	if mention_type == 'NP':
+		head_node = mention_node.find("./node[@rel='hd']")
+		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
+		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
 	return new_ment
 
 # Mention detection sieve, selects all NPs, pronouns, names		
@@ -137,6 +143,8 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 	mention_dict = {}
 	for tree in tree_list:
 		mention_list = []
+		token_nodes = tree.findall('.//node[@word]')
+		#TODO, gebruiken token_nodes voor dingen als determiners!
 		
 		sentNum = tree.find('comments').find('comment').text
 		sentNum = int(re.findall('#[0-9]+', sentNum)[0][1:])
