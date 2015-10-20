@@ -76,7 +76,7 @@ print (' Number of mentions:  ')
 print (num_ments)
 
 print (' Length of a mention measured in words:\n')
-for i in range(len(ment_length)):
+for i in range(20):
 	print (str(i+1) + ':\t' + str(ment_length[i]))
 
 #print ('\n Reference distance counted in number of words inbetween')
@@ -84,12 +84,12 @@ for i in range(len(ment_length)):
 #	print (str(i) + ':\t' + str(ref_dist_words[i]))
 
 print ('\n Reference distance counted in number of mentions inbetween')
-for i in range(len(ref_dist_ments)):
+for i in range(30):
 	print (str(i) + ':\t' + str(ref_dist_ments[i]))
 
 print ('\n Number of mentions per cluster')
-for i in range(len(num_ref)):
+for i in range(20):
 	print (str(i+1) + ':\t' + str(num_ref[i]))
 
-print '\n'
+print ('\n')
 
