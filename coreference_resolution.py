@@ -115,7 +115,7 @@ def remove_duplicates(mention_id_list, mention_dict):
 def sort_mentions(mention_id_list, mention_dict):
 	return sorted(mention_id_list, key = lambda x: (mention_dict[x].sentNum, mention_dict[x].begin, mention_dict[x].end))
 
-
+# Helper for detect_mentions()
 def make_mention(mention_node, mention_type, sentNum):
 	global mentionID
 	new_ment = Mention(mentionID)
@@ -178,13 +178,10 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
 		for mention_node in tree.findall(".//node[@pos='name']"):
 			mention_list.append(make_mention(mention_node, 'Name', sentNum))
-		#if len(tree.findall('.//node')) > 2: 
-		#TODO, why does this lower the recall?
-		for mention in mention_list:
-			mention_id_list.append(mention.ID)
-			mention_dict[mention.ID] = mention
-		else:
-			print docFilename, sentNum
+		if len(tree.findall('.//node')) > 2: 
+			for mention in mention_list:
+				mention_id_list.append(mention.ID)
+				mention_dict[mention.ID] = mention
 		if verbosity == 'high':
 			print 'Detecting mentions in sentence number %s' % (sentNum)
 			print 'NP:   %d' % (len(tree.findall(".//node[@cat='np']")))
@@ -203,7 +200,9 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 	if verbosity == 'high':
 		print 'found %d unique mentions' % (len(mention_id_list))
 		print 'and %d duplicates (which are removed)' % (bef_dup - len(mention_id_list))
-		
+	mention_id_list, mention_dict = optimize_precision(mention_id_list, mention_dict)
+	if verbosity == 'high':
+		print 'After focusing on precision: %d unique mentions' % len(mention_id_list)
 	return mention_id_list, mention_dict
 
 # Human-readable printing of the output of the mention detection sieve	
@@ -241,7 +240,6 @@ def generate_conll(docName, output_filename, doc_tags):
 	docName = docName.split('/')[-1].split('_')[0]
 	if doc_tags:
 		output_file.write('#begin document (' + docName + '); part 000\n')
-	print sentenceDict	
 	for key in sorted(sentenceDict.keys()): # Cycle through sentences
 		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
 			corefLabel = ''
