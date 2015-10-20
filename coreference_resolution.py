@@ -178,9 +178,13 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
 		for mention_node in tree.findall(".//node[@pos='name']"):
 			mention_list.append(make_mention(mention_node, 'Name', sentNum))
+		#if len(tree.findall('.//node')) > 2: 
+		#TODO, why does this lower the recall?
 		for mention in mention_list:
 			mention_id_list.append(mention.ID)
 			mention_dict[mention.ID] = mention
+		else:
+			print docFilename, sentNum
 		if verbosity == 'high':
 			print 'Detecting mentions in sentence number %s' % (sentNum)
 			print 'NP:   %d' % (len(tree.findall(".//node[@cat='np']")))
@@ -189,7 +193,6 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 			print 'MWU:  %d' % (len(tree.findall(".//node[@cat='mwu']")))
 			print 'DU:   %d' % (len(tree.findall(".//node[@cat='du']")))
 			print 'PRON: %d' % (len(tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")))
-			pass
 	# Stitch together split name-type mentions
 	mention_id_list, mention_dict = stitch_names(mention_id_list, mention_dict)
 	#remove duplicates:
