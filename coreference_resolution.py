@@ -115,37 +115,37 @@ def remove_duplicates(mention_id_list, mention_dict):
 def sort_mentions(mention_id_list, mention_dict):
 	return sorted(mention_id_list, key = lambda x: (mention_dict[x].sentNum, mention_dict[x].begin, mention_dict[x].end))
 
+
+def make_mention(mention_node, mention_type, sentNum):
+	global mentionID
+	new_ment = Mention(mentionID)
+	mentionID += 1
+	new_ment.type = mention_type
+	new_ment.begin = int(mention_node.attrib["begin"])
+	new_ment.end = int(mention_node.attrib["end"])
+	new_ment.numTokens = new_ment.end - new_ment.begin
+	new_ment.sentNum = sentNum
+	for node in mention_node.iter():
+		if "word" in node.attrib:
+			new_ment.tokenList.append(node.attrib["word"])
+	return new_ment
+
 # Mention detection sieve, selects all NPs, pronouns, names		
 def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 	global mentionID, sentenceDict
 	mention_id_list = []
 	mention_dict = {}
 	for tree in tree_list:
+		mention_list = []
+		
 		sentNum = tree.find('comments').find('comment').text
-		sentNum = re.findall('#[0-9]+', sentNum)[0][1:]
+		sentNum = int(re.findall('#[0-9]+', sentNum)[0][1:])
 		# Extract mentions (NPs, pronouns, names)
 		sentenceDict[int(sentNum)] = tree.find('sentence').text
-		np_list = tree.findall(".//node[@cat='np']")
-		np2_list = tree.findall(".//node[@lcat='np'][@ntype='soort']")
-		detn_list = tree.findall(".//node[@pos='det']../node[@pos='noun']")
-		mwu_list = tree.findall(".//node[@cat='mwu']")
-		du_list = tree.findall(".//node[@cat='du']")
-		pron_list = tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")
-		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
-		name_list = tree.findall(".//node[@pos='name']") 
-		if verbosity == 'high':
-			print 'Detecting mentions in sentence number %s,' % (sentNum),
-			print 'found %d NPs, ' % len(np_list),
-			print '%d (possessive) pronouns, ' % len(pron_list),
-			print 'and %d (parts of) names.' % len(name_list)
-		# Create Mention objects and fill in properties
-		for mention_node in np_list + pron_list + name_list + np2_list + detn_list + mwu_list + du_list:
-			new_ment = Mention(mentionID)
-			mentionID += 1
-			new_ment.sentNum = int(sentNum)
-			new_ment.begin = int(mention_node.attrib["begin"])
-			new_ment.end = int(mention_node.attrib["end"])
-			new_ment.numTokens = new_ment.end - new_ment.begin
+
+		for mention_node in tree.findall(".//node[@cat='np']"):
+			new_ment = make_mention(mention_node, 'NP', sentNum)
+			new_ment.tokenList = []
 			for node in mention_node.iter():
 				if "word" in node.attrib:
 					if 'pos' in node.attrib and node.attrib['pos'] == 'adv' and int(new_ment.begin) == int(node.attrib['begin']):
@@ -154,28 +154,42 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 						new_ment.numTokens = new_ment.numTokens - 1
 					else: 
 						new_ment.tokenList.append(node.attrib["word"])
-			if mention_node in detn_list:
-				new_ment.type = 'DetN'
-				new_ment.begin = new_ment.begin - 1
-				new_ment.numTokens = new_ment.numTokens + 1
-				new_ment.tokenList.insert(0,'err')
-			elif mention_node in np_list:
-				new_ment.type = 'NP'
-			elif mention_node in np2_list:
-				new_ment.type = 'NP2'
-			elif mention_node in mwu_list:
-				new_ment.type = 'MWU'
-			elif mention_node in du_list:
-				new_ment.type = 'DU'
-			elif mention_node in pron_list:
-				new_ment.type = 'Pronoun'
-			else:
-				new_ment.type = 'Name'
-			#if len(tree.findall('.//node')) > 2: #TODO, why does this decrease recall?
-			mention_dict[new_ment.ID] = new_ment
-			mention_id_list.append(new_ment.ID)
-			#else:
-			#	print '-------------- ' + str(sentNum) + '\t' + docFilename
+			mention_list.append(new_ment)
+
+		for mention_node in tree.findall(".//node[@lcat='np'][@ntype='soort']"):
+			mention_list.append(make_mention(mention_node, 'NP2', sentNum))
+
+		for mention_node in tree.findall(".//node[@pos='det']../node[@pos='noun']"):
+			new_ment = make_mention(mention_node, 'DetN', sentNum)
+			new_ment.begin = new_ment.begin - 1
+			new_ment.numTokens = new_ment.numTokens + 1
+			new_ment.tokenList.insert(0,'err')
+			mention_list.append(new_ment)
+
+		for mention_node in tree.findall(".//node[@cat='mwu']"):
+			mention_list.append(make_mention(mention_node, 'MWU', sentNum))
+
+		for mention_node in tree.findall(".//node[@cat='du']"):
+			mention_list.append(make_mention(mention_node, 'DU', sentNum))
+
+		for mention_node in tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']"):
+			mention_list.append(make_mention(mention_node, 'Pronoun', sentNum))
+			
+		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
+		for mention_node in tree.findall(".//node[@pos='name']"):
+			mention_list.append(make_mention(mention_node, 'Name', sentNum))
+		for mention in mention_list:
+			mention_id_list.append(mention.ID)
+			mention_dict[mention.ID] = mention
+		if verbosity == 'high':
+			print 'Detecting mentions in sentence number %s' % (sentNum)
+			print '%d NP:   ' % (len(tree.findall(".//node[@cat='np']")))
+			print '%d NP2:  ' % (len(tree.findall(".//node[@lcat='np'][@ntype='soort']")))
+			print '%d DetN: ' % (len(tree.findall(".//node[@pos='det']../node[@pos='noun']")))
+			print '%d MWU:  ' % (len(tree.findall(".//node[@cat='mwu']")))
+			print '%d DU:   ' % (len(tree.findall(".//node[@cat='du']")))
+			print '%d PRON: ' % (len(tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")))
+			pass
 	# Stitch together split name-type mentions
 	mention_id_list, mention_dict = stitch_names(mention_id_list, mention_dict)
 	#remove duplicates:
@@ -218,7 +232,8 @@ def generate_conll(docName, output_filename, doc_tags):
 	output_file = open(output_filename, 'w')
 	docName = docName.split('/')[-1].split('_')[0]
 	if doc_tags:
-		output_file.write('#begin document (' + docName + '); part 000\n')	
+		output_file.write('#begin document (' + docName + '); part 000\n')
+	print sentenceDict	
 	for key in sorted(sentenceDict.keys()): # Cycle through sentences
 		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
 			corefLabel = ''
