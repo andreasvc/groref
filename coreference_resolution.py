@@ -200,9 +200,6 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 	if verbosity == 'high':
 		print 'found %d unique mentions' % (len(mention_id_list))
 		print 'and %d duplicates (which are removed)' % (bef_dup - len(mention_id_list))
-	mention_id_list, mention_dict = optimize_precision(mention_id_list, mention_dict)
-	if verbosity == 'high':
-		print 'After focusing on precision: %d unique mentions' % len(mention_id_list)
 	return mention_id_list, mention_dict
 
 # Human-readable printing of the output of the mention detection sieve	
