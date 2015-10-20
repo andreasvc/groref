@@ -68,7 +68,7 @@ def stitch_names(mention_id_list, mention_dict):
 	# Assume all split names are sequential in mention_id_list
 	while idx < len(mention_id_list):
 		mention_id = mention_id_list[idx] 
-		if mention_dict[mention_id].type == 'Name': # Ignore non-names
+		if mention_dict[mention_id].type == "Name": # Ignore non-names
 			inc = 1 # How far to search ahead
 			continueSearch = True
 			while continueSearch:
@@ -183,19 +183,24 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 			mention_dict[mention.ID] = mention
 		if verbosity == 'high':
 			print 'Detecting mentions in sentence number %s' % (sentNum)
-			print '%d NP:   ' % (len(tree.findall(".//node[@cat='np']")))
-			print '%d NP2:  ' % (len(tree.findall(".//node[@lcat='np'][@ntype='soort']")))
-			print '%d DetN: ' % (len(tree.findall(".//node[@pos='det']../node[@pos='noun']")))
-			print '%d MWU:  ' % (len(tree.findall(".//node[@cat='mwu']")))
-			print '%d DU:   ' % (len(tree.findall(".//node[@cat='du']")))
-			print '%d PRON: ' % (len(tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")))
+			print 'NP:   %d' % (len(tree.findall(".//node[@cat='np']")))
+			print 'NP2:  %d' % (len(tree.findall(".//node[@lcat='np'][@ntype='soort']")))
+			print 'DetN: %d' % (len(tree.findall(".//node[@pos='det']../node[@pos='noun']")))
+			print 'MWU:  %d' % (len(tree.findall(".//node[@cat='mwu']")))
+			print 'DU:   %d' % (len(tree.findall(".//node[@cat='du']")))
+			print 'PRON: %d' % (len(tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")))
 			pass
 	# Stitch together split name-type mentions
 	mention_id_list, mention_dict = stitch_names(mention_id_list, mention_dict)
 	#remove duplicates:
+	bef_dup = len(mention_id_list)	
 	mention_id_list, mention_dict = remove_duplicates(mention_id_list, mention_dict)
 	# Sort list properly
 	mention_id_list = sort_mentions(mention_id_list, mention_dict)
+	if verbosity == 'high':
+		print 'found %d unique mentions' % (len(mention_id_list))
+		print 'and %d duplicates (which are removed)' % (bef_dup - len(mention_id_list))
+		
 	return mention_id_list, mention_dict
 
 # Human-readable printing of the output of the mention detection sieve	
