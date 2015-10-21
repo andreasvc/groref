@@ -166,9 +166,12 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 			if 'cat' not in mention_node.attrib and mention_node.attrib['rel'] == 'su':
 				mention_list.append(make_mention(mention_node, 'su', sentNum))
 		
+		for mention_node in tree.findall(".//node[@word][@ntype='soort'][@rel='obj1']"):
+			mention_list.append(make_mention(mention_node, 'noun', sentNum))
+	
 		for mention_node in tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']"):
 			mention_list.append(make_mention(mention_node, 'Pronoun', sentNum))
-			
+
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
 		for mention_node in tree.findall(".//node[@pos='name']"):
 			mention_list.append(make_mention(mention_node, 'Name', sentNum))

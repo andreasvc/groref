@@ -1,5 +1,6 @@
-import os, re
+import os, re, pickle
 import xml.etree.ElementTree as ET
+
 class Mention:
         def __init(self):
                 self.begin = 0
@@ -7,7 +8,9 @@ class Mention:
                 self.ID = 0
                 self.fileName = ''
 
+attr_list = []
 def find_rule(mention, parsefile):
+	global attributes
 	tree = ET.parse(parsefile)
 	subtrees = tree.findall('.//node[@begin="' + str(mention.begin) + '"][@end="' + str(mention.end) + '"]')
 	for subtree in subtrees:
@@ -21,7 +24,11 @@ def find_rule(mention, parsefile):
 			del attributes['word']
 			del attributes['lemma']
 			del attributes['root']
-			print attributes
+			if 'rel' in attributes and attributes['rel'] == 'su':
+				if ('pdtype' not in attributes or attributes['pdtype'] != 'pron') and 'frame' not in attributes or attributes['frame'] != 'determiner(pron)':
+					attr_list.append(attributes)
+				else:
+					print 'nee'
 			# add volgende/vorig en parent node, dan naar regels zoeken!
 		#else:
 			#if 'cat' in attributes and attributes['cat'] == 'mwu':
@@ -80,5 +87,4 @@ for co_file in os.listdir(data_dir):
 				sent_data = []
 		for i in range(len(sents_data)):
 	                find_mentions(sents_data[i], pars_folder + str(i+1) + '.xml', co_file)
-
-
+pickle.dump(attr_list, open('su.pickle','wb'))
