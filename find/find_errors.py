@@ -9,31 +9,19 @@ class Mention:
                 self.filename = ''
 		self.parsefile = ''
 atr = []
-def find_rule(mention):
+def find_attributes(mention, types):
 	global atr
 	tree = ET.parse(mention.parsefile)
 	subtrees = tree.findall('.//node[@begin="' + str(mention.begin) + '"][@end="' + str(mention.end) + '"]')
-	wordFound = False
 	for subtree in subtrees:
 		attributes = subtree.attrib
-		if 'word' in attributes:
-			del attributes['begin']
-			del attributes['end']
-			del attributes['id']
-			del attributes['sense']
-			del attributes['word']
-			del attributes['lemma']
-			del attributes['root']
-			if 'ntype' in attributes and attributes['ntype'] == 'soort' and 'rel' in attributes and attributes['rel'] == 'obj1':
-				atr.append(attributes)
-			pass
-		else:
-			wordFound = True
-			pass
+		if 'word' in attributes and 1 in types:
+			atr.append(attributes)
+                elif 2 in types:
+			atr.append(attributes)
 
-	if len(subtrees) == 0:
-		#print('not a node')
-		pass
+	if len(subtrees) == 0 and 3 in types:
+		atr.append([])
 
 def found(mention, mentionList):
 	for mentionItr in mentionList:
@@ -41,10 +29,10 @@ def found(mention, mentionList):
 			return True
 	return False
 
-def find_errors(mentions_gold, mentions_own):
+def find_errors(mentions_gold, mentions_own, types):
 	for mention in mentions_gold: #TODO, other way around for precision
 		if not found(mention, mentions_own):
-			  find_rule(mention)
+			  find_attributes(mention, types)
 
 
 def find_end(data, wordIdx, data_point):
@@ -96,12 +84,13 @@ def find_mentions(filename, co_file):
                 	                	mentions.append(new_ment)
 	return mentions
 
-gold_dir = '../clinDevData/'
-own_dir = '../results/res/'
-for co_file in os.listdir(gold_dir):
+def get_errors(types):
+    gold_dir = '../clinDevData/'
+    own_dir = '../results/res/'
+    for co_file in os.listdir(gold_dir):
         if co_file.endswith('_ne') :
 		mentions_gold = find_mentions(gold_dir + co_file, co_file)
 		mentions_own = find_mentions(own_dir + co_file + '.coref', co_file)
-		find_errors(mentions_gold, mentions_own)
-print(len(atr))
-pickle.dump(atr,open('err_word.pickle', 'wb'))
+		find_errors(mentions_gold, mentions_own, types)
+
+    return(atr)
