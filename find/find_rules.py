@@ -21,10 +21,11 @@ def find_rule(mention, parsefile):
 			del attributes['word']
 			del attributes['lemma']
 			del attributes['root']
+			print attributes
 			# add volgende/vorig en parent node, dan naar regels zoeken!
-		else:
-			if 'cat' in attributes and attributes['cat'] == 'mwu':
-				print int(attributes['end']) - int(attributes['begin'])
+		#else:
+			#if 'cat' in attributes and attributes['cat'] == 'mwu':
+			#	print int(attributes['end']) - int(attributes['begin'])
 			#if 'cat' in attributes and attributes['cat'] == 'np':
 			#	print attributes['rel']
 	if len(subtrees) == 0:
