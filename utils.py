@@ -6,18 +6,19 @@ import colorama as c
 def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id_list):
 	mention1 = mention_dict[idx1]
 	mention2 = mention_dict[idx2]
+	print idx1, idx2
 	if mention1.clusterID == mention2.clusterID: # Cannot merge if mentions are part of same cluster
 		return
 	cluster1 = cluster_dict[mention1.clusterID]
 	cluster2 = cluster_dict[mention2.clusterID]
 	# Put all mentions of cluster2 in cluster1
 	for mentionID in cluster2.mentionList:
-		cluster1.mentionList.append(mentionID)
+		cluster_dict[mention1.clusterID].mentionList.append(mentionID)
 		for mention_id, mention in mention_dict.iteritems():
 			if mention.ID == mentionID:
 				mention.clusterID = cluster1.ID
-	del cluster_dict[mention2.clusterID]
-	cluster_id_list.remove(mention2.clusterID)
+	del cluster_dict[cluster2.ID]
+	cluster_id_list.remove(cluster2.ID)
 	return cluster_dict, cluster_id_list
 	
 # Returns coloured text

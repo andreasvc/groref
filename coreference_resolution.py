@@ -143,6 +143,10 @@ def make_mention(mention_node, mention_type, sentNum):
 		new_ment.head_begin = len(new_ment.tokenList) - 1
 		new_ment.head_end = len(new_ment.tokenList)
 		new_ment.headWords = new_ment.tokenList[-1:]
+	if mention_type == 'noun':
+		new_ment.head_begin = 0
+		new_ment.head_end = 1
+		new_ment.headWords = [new_ment.tokenList[0]]
 	return new_ment
 
 # Mention detection sieve, selects all NPs, pronouns, names		
