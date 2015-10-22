@@ -7,6 +7,7 @@ input data and Alpino pars in xml as input, gives CoNLL-formatted output. """
 
 import os, argparse, re, sys
 import xml.etree.ElementTree as ET
+import colorama as c
 
 # Class for 'mention'-objects
 class Mention:
@@ -235,6 +236,21 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 		print 'and %d duplicates (which are removed)' % (bef_dup - len(mention_id_list))
 	return mention_id_list, mention_dict
 
+# Returns coloured text
+def colour_text(text, colour):
+	if colour.lower() == 'red':
+		return c.Fore.RED + text + c.Fore.RESET
+	elif colour.lower() == 'blue':
+		return c.Fore.BLUE + text + c.Fore.RESET	
+	elif colour.lower() == 'green':
+		return c.Fore.GREEN + text + c.Fore.RESET	
+	elif colour.lower() == 'white':
+		return c.Fore.WHITE + text + c.Fore.RESET
+	elif colour.lower() == 'yellow':
+		return c.Fore.YELLOW + text + c.Fore.RESET		
+	elif colour.lower() == 'cyan':
+		return c.Fore.CYAN + text + c.Fore.RESET	
+
 # Human-readable printing of the output of the mention detection sieve	
 def print_mentions_inline(sentenceDict):
 	for sentNum in sentenceDict:
@@ -245,15 +261,59 @@ def print_mentions_inline(sentenceDict):
 				mention = mention_dict[mention_id]
 				if mention.sentNum == sentNum:
 					if mention.begin == idx:
-						print '[',
+						print colour_text('[', 'red'),
+#						sys.stdout.write(colour_text('[', 'red'))						
 					if mention.end == idx:
-						print ']',
+						print colour_text(']', 'red'),
+#						sys.stdout.write(colour_text(']', 'red'))
 					if idx + 1 == sentLength and mention.end == sentLength:
 						closingBrackets += '] '
-			print token.encode('utf-8'),
-			print closingBrackets,
+			print colour_text(token.encode('utf-8'), 'white'),
+			print colour_text(closingBrackets, 'red'),
 		print ''
-
+		
+# Human-readable printing of a comparison between the output of the mention detection sieve	and the 'gold' standard
+# Green brackets are correct, gold/orange brackets are mention boundaries only found in the gold standard, and
+# red brackets are only found in our output
+def print_mention_analysis_inline(conll_list):
+	doc_token_id = -1
+	for sentNum in sentenceDict:
+		sentLength = len(sentenceDict[sentNum].split(' '))
+		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
+		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
+			gold_open = 0
+			gold_close = 0
+			resp_open = 0
+			resp_close = 0
+			doc_token_id += 1
+			for mention_id in mention_id_list:
+				mention = mention_dict[mention_id]
+				if mention.sentNum == sentNum:
+					if mention.begin == idx:
+						resp_open += 1				
+					if mention.end - 1 == idx:
+						resp_close += 1
+					elif idx + 1 == sentLength and mention.end == sentLength:
+						resp_close += 1
+			gold_open = len(re.findall('\(', conll_list[doc_token_id][-1]))
+			gold_close = len(re.findall('\)', conll_list[doc_token_id][-1]))
+			if gold_open >= resp_open:
+				sys.stdout.write((gold_open - resp_open) * colour_text('[', 'yellow'))
+				sys.stdout.write(resp_open * colour_text('[', 'green'))
+			else:
+				sys.stdout.write((resp_open - gold_open) * colour_text('[', 'red'))
+				sys.stdout.write(gold_open * colour_text('[', 'green'))
+				
+			print colour_text(token.encode('utf-8'), 'white'),		
+						
+			if gold_close >= resp_close:
+				sys.stdout.write((gold_close - resp_close) * colour_text(']', 'yellow'))
+				sys.stdout.write(resp_close * colour_text(']', 'green') + ' ')
+			else:
+				sys.stdout.write((resp_close - gold_close) * colour_text(']', 'red'))
+				sys.stdout.write(gold_close * colour_text(']', 'green') + ' ')								
+		print ''
+		
 # Creates a cluster for each mention, fills in features
 def initialize_clusters():
 	cluster_list = []
@@ -341,17 +401,20 @@ def main(input_file, output_file, doc_tags, verbosity):
 	## cluster_list contains all clusters, in a list
 	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity)
 	if verbosity == 'high':
-		print_mentions_inline(sentenceDict)		
+		print 'OUR MENTION OUTPUT:'
+		print_mentions_inline(sentenceDict)
+		print 'MENTION DETECTION OUTPUT VS. GOLD STANDARD:'
+		print_mention_analysis_inline(conll_list)								
 	cluster_list = initialize_clusters()
 	# Do coreference resolution, i.e. apply sieves
 	sieveDummy() # Apply dummy sieve, naming is reversed so all sieve function can start with sieve :)
 	# Generate output
-	generate_conll(input_file, output_file, doc_tags)	
+	generate_conll(input_file, output_file, doc_tags)
 
 if __name__ == '__main__':
 	# Parse input arguments
 	parser = argparse.ArgumentParser()
-	parser.add_argument('input_file', type=str, help='Path to a file, in .conll format, with .dep and .con parse, to be resolved')
+	parser.add_argument('input_file', type=str, help='Path to a file, in .conll format, to be resolved')
 	parser.add_argument('output_file', type = str, help = 'The path of where the output should go, e.g. WR77.xml.coref')
 	parser.add_argument('--docTags', help = 'If this flag is given, a begin and end document is printed at first and last line of output', dest = 'doc_tags', action = 'store_true')
 	args = parser.parse_args()

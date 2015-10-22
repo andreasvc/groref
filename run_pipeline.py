@@ -92,9 +92,9 @@ def postProcessScores(scores_dir, verbosity):
 		except ZeroDivisionError:
 			totals[metric][6] = 0
 	totals['conll'] = [(totals['muc'][6] + totals['bcub'][6] + totals['ceafe'][6] ) / 3]
-	if verbosity == 'high':
-		print scores
-		print totals
+
+#	print scores
+#	print totals
 	# Print scores to screen and file
 	with open(scores_dir + '/' + 'scores_overall', 'w') as out_file:
 		if verbosity == 'high':
@@ -111,7 +111,7 @@ def postProcessScores(scores_dir, verbosity):
 			print scorestring
 			out_file.write(scorestring + '\n')
 		if verbosity == 'high':
-			print '##OVERALL:##'
+			print 'OVERALL:'
 		a = totals
 		scorestring = '%s\t\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
 		print scorestring
