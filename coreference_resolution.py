@@ -7,7 +7,9 @@ input data and Alpino pars in xml as input, gives CoNLL-formatted output. """
 
 import os, argparse, re, sys
 import xml.etree.ElementTree as ET
-import colorama as c
+from utils import *
+from sieveDummy import sieveDummy
+from sieveHeadMatch1 import sieveHeadMatch1
 
 # Class for 'mention'-objects
 class Mention:
@@ -22,8 +24,9 @@ class Mention:
 		self.end = 0 # Token ID of last token + 1
 		self.type = '' # Pronoun, NP or Name
 		self.clusterID = -1
-		self.head_beg = 0
+		self.head_begin = 0
 		self.head_end = 0
+		self.headWords = []
 		
 # Class for 'cluster'-objects
 class Cluster:
@@ -131,10 +134,15 @@ def make_mention(mention_node, mention_type, sentNum):
 	for node in mention_node.iter():
 		if "word" in node.attrib:
 			new_ment.tokenList.append(node.attrib["word"])
-	if mention_type == 'NP':
+	if mention_type.lower()[:2] == 'np':
 		head_node = mention_node.find("./node[@rel='hd']")
 		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
 		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
+		new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
+	if mention_type == 'Name': # Add last part of names as headword
+		new_ment.head_begin = len(new_ment.tokenList) - 1
+		new_ment.head_end = len(new_ment.tokenList)
+		new_ment.headWords = new_ment.tokenList[-1:]
 	return new_ment
 
 # Mention detection sieve, selects all NPs, pronouns, names		
@@ -234,22 +242,7 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 	if verbosity == 'high':
 		print 'found %d unique mentions' % (len(mention_id_list))
 		print 'and %d duplicates (which are removed)' % (bef_dup - len(mention_id_list))
-	return mention_id_list, mention_dict
-
-# Returns coloured text
-def colour_text(text, colour):
-	if colour.lower() == 'red':
-		return c.Fore.RED + text + c.Fore.RESET
-	elif colour.lower() == 'blue':
-		return c.Fore.BLUE + text + c.Fore.RESET	
-	elif colour.lower() == 'green':
-		return c.Fore.GREEN + text + c.Fore.RESET	
-	elif colour.lower() == 'white':
-		return c.Fore.WHITE + text + c.Fore.RESET
-	elif colour.lower() == 'yellow':
-		return c.Fore.YELLOW + text + c.Fore.RESET		
-	elif colour.lower() == 'cyan':
-		return c.Fore.CYAN + text + c.Fore.RESET	
+	return mention_id_list, mention_dict	
 
 # Human-readable printing of the output of the mention detection sieve	
 def print_mentions_inline(sentenceDict):
@@ -354,33 +347,6 @@ def generate_conll(docName, output_filename, doc_tags):
 	if doc_tags:
 		output_file.write('#end document')	
 
-# Function that takes two mention ids, and merges the clusters they are part of
-def mergeClustersByMentionIDs(idx1, idx2):
-	mention1 = mention_dict[idx1]
-	mention2 = mention_dict[idx2]
-	if mention1.clusterID == mention2.clusterID: # Cannot merge if mentions are part of same cluster
-		return
-	for idx, cluster in enumerate(cluster_list): # Find clusters by ID, could be more efficient
-		if mention1.clusterID == cluster.ID:
-			cluster1 = cluster
-		if mention2.clusterID == cluster.ID:
-			cluster2 = cluster
-			cluster2_idx = idx
-	# Put all mentions of cluster2 in cluster1
-	for mentionID in cluster2.mentionList:
-		cluster1.mentionList.append(mentionID)
-		for mention_id, mention in mention_dict.iteritems():
-			if mention.ID == mentionID:
-				mention.clusterID = cluster1.ID
-	del cluster_list[cluster2_idx]
-	
-
-# Dummy sieve that links each second mention to the preceding mention, for testing purposes (output/evaluation)
-def sieveDummy():
-	for idx, mention_id in enumerate(mention_id_list):
-		if idx % 2 == 1: # Link every second mention with the mention 1 position back in the list
-			mergeClustersByMentionIDs(mention_id_list[idx], mention_id_list[idx-1])
-
 def main(input_file, output_file, doc_tags, verbosity):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses
 	# Read input files
@@ -406,8 +372,11 @@ def main(input_file, output_file, doc_tags, verbosity):
 		print 'MENTION DETECTION OUTPUT VS. GOLD STANDARD:'
 		print_mention_analysis_inline(conll_list)								
 	cluster_list = initialize_clusters()
-	# Do coreference resolution, i.e. apply sieves
-	sieveDummy() # Apply dummy sieve, naming is reversed so all sieve function can start with sieve :)
+	## APPLY SIEVES HERE
+	# Apply dummy sieve, naming is reversed so all sieve function can start with sieve :)
+#	mention_id_list, mention_dict, cluster_list = sieveDummy(mention_id_list, mention_dict, cluster_list) 
+	mention_id_list, mention_dict, cluster_list = sieveHeadMatch1(mention_id_list, mention_dict, cluster_list)
+	##
 	# Generate output
 	generate_conll(input_file, output_file, doc_tags)
 
