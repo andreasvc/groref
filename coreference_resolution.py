@@ -309,13 +309,15 @@ def print_mention_analysis_inline(conll_list):
 		
 # Creates a cluster for each mention, fills in features
 def initialize_clusters():
-	cluster_list = []
+	cluster_id_list = []
+	cluster_dict = {}
 	for mention_id, mention in mention_dict.iteritems():
 		new_cluster = Cluster(mention.ID) # Initialize with same ID as initial mention
 		new_cluster.mentionList.append(mention.ID)
 		mention.clusterID = new_cluster.ID
-		cluster_list.append(new_cluster)
-	return cluster_list
+		cluster_dict[new_cluster.ID] = new_cluster
+		cluster_id_list.append(new_cluster.ID)
+	return cluster_dict, cluster_id_list
 	
 # Creates conll-formatted output with the clustering information
 def generate_conll(docName, output_filename, doc_tags):
@@ -358,24 +360,24 @@ def main(input_file, output_file, doc_tags, verbosity):
 	if verbosity == 'high':
 		print 'Number of sentences found: %d' % (num_sentences)
 		print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
-	global mentionID, mention_id_list, sentenceDict, cluster_list, mention_dict
+	global mentionID, mention_id_list, sentenceDict, cluster_dict, mention_dict, cluster_id_list
 	mentionID = 0 # Initialize mentionID
 	sentenceDict = {} # Initialize dictionary containing sentence strings
 	# Do mention detection, give back 3 global variables:
 	## mention_id_list contains list of mention IDs in right order, for traversing in sieves
 	## mention_dict contains the actual mentions, format: {id: Mention}
-	## cluster_list contains all clusters, in a list
+	## cluster_dict contains all clusters, in a dict
 	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity)
 	if verbosity == 'high':
 		print 'OUR MENTION OUTPUT:'
 		print_mentions_inline(sentenceDict)
 		print 'MENTION DETECTION OUTPUT VS. GOLD STANDARD:'
 		print_mention_analysis_inline(conll_list)								
-	cluster_list = initialize_clusters()
+	cluster_dict, cluster_id_list = initialize_clusters()
 	## APPLY SIEVES HERE
 	# Apply dummy sieve, naming is reversed so all sieve function can start with sieve :)
-#	mention_id_list, mention_dict, cluster_list = sieveDummy(mention_id_list, mention_dict, cluster_list) 
-	mention_id_list, mention_dict, cluster_list = sieveHeadMatch1(mention_id_list, mention_dict, cluster_list)
+#	mention_id_list, mention_dict, cluster_dict, cluster_id_list = sieveDummy(mention_id_list, mention_dict, cluster_dict, cluster_id_list) 
+	mention_id_list, mention_dict, cluster_dict, cluster_id_list = sieveHeadMatch1(mention_id_list, mention_dict, cluster_dict, cluster_id_list)
 	##
 	# Generate output
 	generate_conll(input_file, output_file, doc_tags)

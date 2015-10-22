@@ -2,26 +2,23 @@
 
 import colorama as c
 
-# Function that takes two mention ids, and merges the clusters they are part of, returns cluster list
-def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_list):
+# Function that takes two mention ids, and merges the clusters they are part of, returns cluster dict and cluster_id_list
+def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id_list):
 	mention1 = mention_dict[idx1]
 	mention2 = mention_dict[idx2]
 	if mention1.clusterID == mention2.clusterID: # Cannot merge if mentions are part of same cluster
 		return
-	for idx, cluster in enumerate(cluster_list): # Find clusters by ID, could be more efficient
-		if mention1.clusterID == cluster.ID:
-			cluster1 = cluster
-		if mention2.clusterID == cluster.ID:
-			cluster2 = cluster
-			cluster2_idx = idx
+	cluster1 = cluster_dict[mention1.clusterID]
+	cluster2 = cluster_dict[mention2.clusterID]
 	# Put all mentions of cluster2 in cluster1
 	for mentionID in cluster2.mentionList:
 		cluster1.mentionList.append(mentionID)
 		for mention_id, mention in mention_dict.iteritems():
 			if mention.ID == mentionID:
 				mention.clusterID = cluster1.ID
-	del cluster_list[cluster2_idx]
-	return cluster_list
+	del cluster_dict[mention2.clusterID]
+	cluster_id_list.remove(mention2.clusterID)
+	return cluster_dict, cluster_id_list
 	
 # Returns coloured text
 def colour_text(text, colour):
