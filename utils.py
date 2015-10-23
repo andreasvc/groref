@@ -12,6 +12,32 @@ stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een',
 # First available mentionID
 mentionID = 0 
 
+### CLASSES ### 
+
+# Class for 'mention'-objects
+class Mention:
+	'Class of mentions, containing features, IDs, links, etc.'
+	def __init__(self, mentionID):
+		self.ID = mentionID # ID can be used for mention ordering, but then ID assignment needs to be more intelligent/different
+		self.sentNum = 0
+		self.tokenList = []
+		self.numTokens = 0
+		self.begin = 0 # Token ID of first token
+		self.end = 0 # Token ID of last token + 1
+		self.type = '' # Pronoun, NP or Name
+		self.clusterID = -1
+		self.head_begin = 0 # Token ID of first head word, within tokenList
+		self.head_end = 0
+		self.headWords = []
+		self.tokenAttribs = [] # List of dictionaries containing alpino output for each token/node
+		
+# Class for 'cluster'-objects
+class Cluster:
+	'Class of clusters, which contain features, an ID and a list of member-mentions-IDs'
+	def __init__(self, clusterID):
+		self.ID = clusterID
+		self.mentionList = []
+
 ### READING AND WRITING ###
 
 # Read in conll file, return list of lists containing a single word + annotation
@@ -82,7 +108,7 @@ def generate_conll(docName, output_filename, doc_tags, sentenceDict, mention_dic
 	if doc_tags:
 		output_file.write('#end document')	
 
-### SIEVE HELPERS ###
+### COREFERENCE SIEVE HELPERS ###
 
 # Function that takes two mention ids, and merges the clusters they are part of, returns cluster dict and cluster_id_list
 def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id_list):
@@ -112,6 +138,75 @@ def get_mention_id_list_per_sentence(mention_id_list, mention_dict):
 		else:
 			mention_ids_per_sentence[mention.sentNum] = [mention.ID]
 	return mention_ids_per_sentence
+	
+### MENTION DETECTION HELPERS ###
+	
+# Stitch multi-word name mentions together
+def stitch_names(mention_id_list, mention_dict):
+	stitched_mention_id_list = []
+	stitched_mention_dict = {}
+	idx = 0
+	# Assume all split names are sequential in mention_id_list
+	while idx < len(mention_id_list):
+		mention_id = mention_id_list[idx] 
+		if mention_dict[mention_id].type == "Name": # Ignore non-names
+			inc = 1 # How far to search ahead
+			continueSearch = True
+			while continueSearch:
+				if idx + inc < len(mention_id_list):
+					lookup_mention_id = mention_id_list[idx + inc]
+					# Mentions should be part of same sentence
+					if mention_dict[lookup_mention_id].begin == mention_dict[mention_id].end and mention_dict[lookup_mention_id].sentNum == mention_dict[mention_id].sentNum:
+						mention_dict[mention_id].end = mention_dict[lookup_mention_id].end
+						mention_dict[mention_id].numTokens += mention_dict[lookup_mention_id].numTokens
+						mention_dict[mention_id].tokenList += mention_dict[lookup_mention_id].tokenList
+						inc += 1 # Stitched one part to the current mention, now check the mention after that
+					else:
+						continueSearch = False
+				else:
+					continueSearch = False
+			stitched_mention_id_list.append(mention_id)
+			idx += inc # If 3 parts stitched together, skip the subsequent 2 mentions
+		else:
+			stitched_mention_id_list.append(mention_id)
+			idx += 1
+	# Remove mentions that have been stitched together
+	stitched_mention_dict = {idx : mention_dict[idx] for idx in stitched_mention_id_list} 
+	return stitched_mention_id_list, stitched_mention_dict
+
+# remove duplicate mentions
+def remove_duplicates(mention_id_list, mention_dict):
+	remove_ids = []
+	for i in range(len(mention_id_list)): #sentnum, begin and end
+		this_sentNum = mention_dict[mention_id_list[i]].sentNum
+		this_begin = mention_dict[mention_id_list[i]].begin
+		this_end = mention_dict[mention_id_list[i]].end
+		for j in range(i+1, len(mention_id_list)):
+			if (this_sentNum == mention_dict[mention_id_list[j]].sentNum and 
+				this_begin == mention_dict[mention_id_list[j]].begin and 
+				this_end == mention_dict[mention_id_list[j]].end):
+				remove_ids.append(mention_id_list[i])
+				break
+	for remove_id in remove_ids:
+		mention_id_list.remove(remove_id)
+		del mention_dict[remove_id]
+	return mention_id_list, mention_dict
+
+# Sort mentions in list by sentNum, begin, end
+def sort_mentions(mention_id_list, mention_dict):
+	return sorted(mention_id_list, key = lambda x: (mention_dict[x].sentNum, mention_dict[x].begin, mention_dict[x].end))	
+	
+# Creates a cluster for each mention, fills in features
+def initialize_clusters(mention_dict):
+	cluster_id_list = []
+	cluster_dict = {}
+	for mention_id, mention in mention_dict.iteritems():
+		new_cluster = Cluster(mention.ID) # Initialize with same ID as initial mention
+		new_cluster.mentionList.append(mention.ID)
+		mention.clusterID = new_cluster.ID
+		cluster_dict[new_cluster.ID] = new_cluster
+		cluster_id_list.append(new_cluster.ID)
+	return cluster_dict, cluster_id_list, mention_dict
 	
 ### MENTION PRINTING ###
 	
