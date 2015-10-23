@@ -1,4 +1,5 @@
 SCORES OVER TIME
 DATE/SYSTEM		MENTION DETECTION R/P/F1	MUC R/P/F1			CONLL F1	Comment
 Baseline:		xx.xx/xx.xx/xx.xx			xx.xx/xx.xx/xx.xx	xx.xx	
-23/10/2015		68.00/52.93/59.52			26.39/46.57/33.69	35.96		Only relaxed head matching sieve
+22/10/2015		68.00/52.93/59.52			26.39/46.57/33.69	35.96		Only relaxed head matching sieve
+23/10/2015		68.00/52.93/59.52			26.39/47.03/33.81	36.12		With 3 head-matching sieves

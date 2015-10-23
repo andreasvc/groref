@@ -1,9 +1,49 @@
 #!/usr/bin/env python
 
 import colorama as c
+import re, sys, os
+import xml.etree.ElementTree as ET
 
 # List of Dutch Stop words (http://www.ranks.nl/stopwords/dutch)
 stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een', 'en', 'er', 'had', 'heb', 'hem', 'het', 'hij', 'hoe', 'hun', 'ik ', 'in', 'is', 'je', 'kan', 'me', 'men', 'met', 'mij', 'nog', 'nu', 'of', 'ons', 'ook', 'te', 'tot', 'uit', 'van', 'was ', 'wat', 'we', 'wel', 'wij', 'zal', 'ze', 'zei', 'zij', 'zo', 'zou']
+
+# Read in conll file, return list of lists containing a single word + annotation
+def read_conll_file(fname):
+	conll_list = []
+	num_sentences = 0
+	for line in open(fname, 'r'):
+		split_line = line.strip().split('\t')
+		if len(split_line) > 1:
+			if split_line[0] != 'doc_id' and line[0] != '#': # Skip header and/or document tags
+				conll_list.append(split_line)
+		if not line.strip() or line == '#end document': # Empty line equals new sentence
+			num_sentences += 1
+	return conll_list, num_sentences
+	
+# Read in xml-files containing parses for sentences in document, return list of per-sentence XML trees
+def read_xml_parse_files(fname):
+	xml_tree_list = []
+	dir_name = '/'.join(fname.split('/')[0:-1]) + '/' + fname.split('/')[-1].split('_')[0] + '/'
+	xml_file_list = os.listdir(dir_name)
+	delete_list = []
+	for i in range (len(xml_file_list)):
+		if not xml_file_list[i].endswith('.xml'):
+			delete_list.append(i)
+	for i in range (len(delete_list)):
+		backwards = delete_list[(len(delete_list)-1)-i]
+		del xml_file_list[backwards]
+	# Sort list of filenames naturally (by number, not by alphabet)
+	xml_file_list = [xml_file[:-4] for xml_file in xml_file_list]
+	xml_file_list.sort(key=int)
+	xml_file_list = [xml_file + '.xml' for xml_file in xml_file_list]
+	for xml_file in xml_file_list:
+		if re.search('[0-9].xml', xml_file):
+			try:
+				tree = ET.parse(dir_name + xml_file)
+			except IOError:
+				print 'Parse file not found: %s' % (xml_file)
+		xml_tree_list.append(tree)
+	return xml_tree_list
 
 # Function that takes two mention ids, and merges the clusters they are part of, returns cluster dict and cluster_id_list
 def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id_list):
@@ -22,6 +62,96 @@ def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id
 	del cluster_dict[cluster2.ID]
 	cluster_id_list.remove(cluster2.ID)
 	return cluster_dict, cluster_id_list
+	
+# Human-readable printing of the output of the mention detection sieve	
+def print_mentions_inline(sentenceDict, mention_id_list, mention_dict):
+	for sentNum in sentenceDict:
+		sentLength = len(sentenceDict[sentNum].split(' '))
+		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
+		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
+			for mention_id in mention_id_list:
+				mention = mention_dict[mention_id]
+				if mention.sentNum == sentNum:
+					if mention.begin == idx:
+						print colour_text('[', 'red'),
+					if mention.end == idx:
+						print colour_text(']', 'red'),
+					if idx + 1 == sentLength and mention.end == sentLength:
+						closingBrackets += '] '
+			print colour_text(token.encode('utf-8'), 'white'),
+			print colour_text(closingBrackets, 'red'),
+		print ''
+		
+# Human-readable printing of a comparison between the output of the mention detection sieve	and the 'gold' standard
+# Green brackets are correct, gold/orange brackets are mention boundaries only found in the gold standard, and
+# red brackets are only found in our output
+def print_mention_analysis_inline(conll_list, sentenceDict, mention_id_list, mention_dict):
+	doc_token_id = -1
+	for sentNum in sentenceDict:
+		sentLength = len(sentenceDict[sentNum].split(' '))
+		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
+		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
+			gold_open = 0
+			gold_close = 0
+			resp_open = 0
+			resp_close = 0
+			doc_token_id += 1
+			for mention_id in mention_id_list:
+				mention = mention_dict[mention_id]
+				if mention.sentNum == sentNum:
+					if mention.begin == idx:
+						resp_open += 1				
+					if mention.end - 1 == idx:
+						resp_close += 1
+					elif idx + 1 == sentLength and mention.end == sentLength:
+						resp_close += 1
+			gold_open = len(re.findall('\(', conll_list[doc_token_id][-1]))
+			gold_close = len(re.findall('\)', conll_list[doc_token_id][-1]))
+			if gold_open >= resp_open:
+				sys.stdout.write((gold_open - resp_open) * colour_text('[', 'yellow'))
+				sys.stdout.write(resp_open * colour_text('[', 'green'))
+			else:
+				sys.stdout.write((resp_open - gold_open) * colour_text('[', 'red'))
+				sys.stdout.write(gold_open * colour_text('[', 'green'))
+				
+			print colour_text(token.encode('utf-8'), 'white'),		
+						
+			if gold_close >= resp_close:
+				sys.stdout.write((gold_close - resp_close) * colour_text(']', 'yellow'))
+				sys.stdout.write(resp_close * colour_text(']', 'green') + ' ')
+			else:
+				sys.stdout.write((resp_close - gold_close) * colour_text(']', 'red'))
+				sys.stdout.write(gold_close * colour_text(']', 'green') + ' ')								
+		print ''
+		
+# Human-readable printing of which mentions are clusterd by a given sieve
+# Pre-sieve cluster IDs are in light blue, post-sieve cluster IDs (if changed) are in green
+def print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict):
+	linkings = {}
+	for mention_id in mention_id_list:
+		if mention_dict[mention_id].clusterID != old_mention_dict[mention_id].clusterID:
+			linkings[old_mention_dict[mention_id].clusterID] = mention_dict[mention_id].clusterID
+	for sentNum in sentenceDict:
+		sentLength = len(sentenceDict[sentNum].split(' '))
+		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
+		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
+			for mention_id in mention_id_list:
+				mention = old_mention_dict[mention_id]
+				if mention.sentNum == sentNum:
+					if mention.begin == idx:
+						print colour_text('[', 'red'),
+						if mention.clusterID in linkings:
+							print colour_text(str(mention.clusterID), 'cyan'),
+							print colour_text(str(linkings[mention.clusterID]), 'green'),
+						else:
+							print colour_text(str(mention.clusterID), 'cyan'),						
+					if mention.end == idx:
+						print colour_text(']', 'red'),
+					if idx + 1 == sentLength and mention.end == sentLength:
+						closingBrackets += '] '			
+			print colour_text(token.encode('utf-8'), 'white'),
+			print colour_text(closingBrackets, 'red'),
+		print ''
 	
 # Returns coloured text
 def colour_text(text, colour):
