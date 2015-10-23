@@ -2,6 +2,9 @@
 
 import colorama as c
 
+# List of Dutch Stop words (http://www.ranks.nl/stopwords/dutch)
+stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een', 'en', 'er', 'had', 'heb', 'hem', 'het', 'hij', 'hoe', 'hun', 'ik ', 'in', 'is', 'je', 'kan', 'me', 'men', 'met', 'mij', 'nog', 'nu', 'of', 'ons', 'ook', 'te', 'tot', 'uit', 'van', 'was ', 'wat', 'we', 'wel', 'wij', 'zal', 'ze', 'zei', 'zij', 'zo', 'zou']
+
 # Function that takes two mention ids, and merges the clusters they are part of, returns cluster dict and cluster_id_list
 def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id_list):
 	mention1 = mention_dict[idx1]
