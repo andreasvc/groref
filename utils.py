@@ -9,7 +9,6 @@ stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een',
 def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id_list):
 	mention1 = mention_dict[idx1]
 	mention2 = mention_dict[idx2]
-	print idx1, idx2
 	if mention1.clusterID == mention2.clusterID: # Cannot merge if mentions are part of same cluster
 		return
 	cluster1 = cluster_dict[mention1.clusterID]
