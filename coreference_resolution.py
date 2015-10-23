@@ -9,7 +9,7 @@ import os, argparse, re, sys, copy
 import xml.etree.ElementTree as ET
 from utils import *
 from sieveDummy import sieveDummy
-from sieveHeadMatch1 import sieveHeadMatch1
+from sieveHeadMatch import sieveHeadMatch
 
 # Class for 'mention'-objects
 class Mention:
@@ -392,13 +392,21 @@ def main(input_file, output_file, doc_tags, verbosity):
 		print_mention_analysis_inline(conll_list)								
 	cluster_dict, cluster_id_list = initialize_clusters()
 	## APPLY SIEVES HERE
-	# Apply dummy sieve, naming is reversed so all sieve function can start with sieve :)
-#	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
-#		sieveDummy(mention_id_list, mention_dict, cluster_dict, cluster_id_list)
+	## strictest head matching sieve	
 	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
-		sieveHeadMatch1(mention_id_list, mention_dict, cluster_dict, cluster_id_list)
+		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 3)
 	print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
+	## more relaxed head matching sieve
+	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
+	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 2)
+	print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
+	## most relaxed head matching sieve
+	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
+	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 1)
+	print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes		
 	##
 	# Generate output
 	generate_conll(input_file, output_file, doc_tags)
