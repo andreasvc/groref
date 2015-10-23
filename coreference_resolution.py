@@ -54,6 +54,13 @@ def read_xml_parse_files(fname):
 	xml_tree_list = []
 	dir_name = '/'.join(fname.split('/')[0:-1]) + '/' + fname.split('/')[-1].split('_')[0] + '/'
 	xml_file_list = os.listdir(dir_name)
+	delete_list = []
+	for i in range (len(xml_file_list)):
+		if not xml_file_list[i].endswith('.xml'):
+			delete_list.append(i)
+	for i in range (len(delete_list)):
+		backwards = delete_list[(len(delete_list)-1)-i]
+		del xml_file_list[backwards]
 	# Sort list of filenames naturally (by number, not by alphabet)
 	xml_file_list = [xml_file[:-4] for xml_file in xml_file_list]
 	xml_file_list.sort(key=int)
