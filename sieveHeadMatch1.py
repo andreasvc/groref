@@ -15,6 +15,9 @@ def sieveHeadMatch1(mention_id_list, mention_dict, cluster_dict, cluster_id_list
 	for cluster_id in cluster_id_list[:]:
 		print 'looking at cluster: %d' % cluster_id
 		entityHeadMatch = False
+		wordInclusion = False
+		compModsOnly = False
+		NotIWithinI = True
 		madeLink = False # IF a link is made, go to the next cluster
 		if madeLink:
 			continue

@@ -5,7 +5,7 @@
 Based on the Stanford Coreference Resolution system. Requires CoNLL-formatted
 input data and Alpino pars in xml as input, gives CoNLL-formatted output. """
 
-import os, argparse, re, sys
+import os, argparse, re, sys, copy
 import xml.etree.ElementTree as ET
 from utils import *
 from sieveDummy import sieveDummy
@@ -311,6 +311,35 @@ def print_mention_analysis_inline(conll_list):
 				sys.stdout.write(gold_close * colour_text(']', 'green') + ' ')								
 		print ''
 		
+# Human-readable printing of which mentions are clusterd by a given sieve
+# Pre-sieve cluster IDs are in light blue, post-sieve cluster IDs (if changed) are in green
+def print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict):
+	linkings = {}
+	for mention_id in mention_id_list:
+		if mention_dict[mention_id].clusterID != old_mention_dict[mention_id].clusterID:
+			linkings[old_mention_dict[mention_id].clusterID] = mention_dict[mention_id].clusterID
+	for sentNum in sentenceDict:
+		sentLength = len(sentenceDict[sentNum].split(' '))
+		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
+		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
+			for mention_id in mention_id_list:
+				mention = old_mention_dict[mention_id]
+				if mention.sentNum == sentNum:
+					if mention.begin == idx:
+						print colour_text('[', 'red'),
+						if mention.clusterID in linkings:
+							print colour_text(str(mention.clusterID), 'cyan'),
+							print colour_text(str(linkings[mention.clusterID]), 'green'),
+						else:
+							print colour_text(str(mention.clusterID), 'cyan'),						
+					if mention.end == idx:
+						print colour_text(']', 'red'),
+					if idx + 1 == sentLength and mention.end == sentLength:
+						closingBrackets += '] '			
+			print colour_text(token.encode('utf-8'), 'white'),
+			print colour_text(closingBrackets, 'red'),
+		print ''
+		
 # Creates a cluster for each mention, fills in features
 def initialize_clusters():
 	cluster_id_list = []
@@ -380,8 +409,12 @@ def main(input_file, output_file, doc_tags, verbosity):
 	cluster_dict, cluster_id_list = initialize_clusters()
 	## APPLY SIEVES HERE
 	# Apply dummy sieve, naming is reversed so all sieve function can start with sieve :)
-#	mention_id_list, mention_dict, cluster_dict, cluster_id_list = sieveDummy(mention_id_list, mention_dict, cluster_dict, cluster_id_list) 
-	mention_id_list, mention_dict, cluster_dict, cluster_id_list = sieveHeadMatch1(mention_id_list, mention_dict, cluster_dict, cluster_id_list)
+#	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+#		sieveDummy(mention_id_list, mention_dict, cluster_dict, cluster_id_list)
+	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
+	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+		sieveHeadMatch1(mention_id_list, mention_dict, cluster_dict, cluster_id_list)
+	print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	##
 	# Generate output
 	generate_conll(input_file, output_file, doc_tags)
