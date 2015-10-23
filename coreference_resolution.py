@@ -120,8 +120,8 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 	return new_ment
 
 # Mention detection sieve, selects all NPs, pronouns, names		
-def detect_mentions(conll_list, tree_list, docFilename, verbosity):
-	global mentionID, sentenceDict
+def detect_mentions(conll_list, tree_list, docFilename, verbosity, sentenceDict):
+#	global mentionID, sentenceDict
 	mention_id_list = []
 	mention_dict = {}
 	for tree in tree_list:
@@ -212,36 +212,6 @@ def initialize_clusters(mention_dict):
 		cluster_dict[new_cluster.ID] = new_cluster
 		cluster_id_list.append(new_cluster.ID)
 	return cluster_dict, cluster_id_list, mention_dict
-	
-# Creates conll-formatted output with the clustering information
-def generate_conll(docName, output_filename, doc_tags):
-	output_file = open(output_filename, 'w')
-	docName = docName.split('/')[-1].split('_')[0]
-	if doc_tags:
-		output_file.write('#begin document (' + docName + '); part 000\n')
-	for key in sorted(sentenceDict.keys()): # Cycle through sentences
-		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
-			corefLabel = ''
-			for mention_id, mention in mention_dict.iteritems(): # Check all mentions, to see whether token is part of mention
-				if mention.sentNum == key:
-					if token_idx == mention.begin: # Start of mention, print a bracket
-						if corefLabel:
-							corefLabel += '|'
-						corefLabel += '('
-					if token_idx >= mention.begin and token_idx < mention.end:
-						if corefLabel:
-							if corefLabel[-1] != '(':
-								corefLabel += '|'
-						corefLabel += str(mention.clusterID)
-					if token_idx + 1 == mention.end: # End of mention, print a bracket
-						corefLabel += ')'
-			if not corefLabel: # Tokens outside of mentions get a dash
-				corefLabel = '-'
-			output_file.write(docName + '\t' + str(key) + '\t' + '0\t' + '0\t' + '0\t' +
-			'0\t' + token.encode('utf-8') + '\t' + corefLabel + '\n')
-		output_file.write('\n')
-	if doc_tags:
-		output_file.write('#end document')	
 
 def main(input_file, output_file, doc_tags, verbosity):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses
@@ -254,14 +224,12 @@ def main(input_file, output_file, doc_tags, verbosity):
 	if verbosity == 'high':
 		print 'Number of sentences found: %d' % (num_sentences)
 		print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
-	global mentionID, mention_id_list, sentenceDict, cluster_dict, mention_dict, cluster_id_list
-	mentionID = 0 # Initialize mentionID
 	sentenceDict = {} # Initialize dictionary containing sentence strings
 	# Do mention detection, give back 3 global variables:
 	## mention_id_list contains list of mention IDs in right order, for traversing in sieves
 	## mention_dict contains the actual mentions, format: {id: Mention}
 	## cluster_dict contains all clusters, in a dict
-	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity)
+	mention_id_list, mention_dict = detect_mentions(conll_list, xml_tree_list, input_file, verbosity, sentenceDict)
 	if verbosity == 'high':
 		print 'OUR MENTION OUTPUT:'
 		print_mentions_inline(sentenceDict, mention_id_list, mention_dict)
@@ -286,10 +254,9 @@ def main(input_file, output_file, doc_tags, verbosity):
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
 		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 1, verbosity)
 	if verbosity == 'high':		
-		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes		
-	##
-	# Generate output
-	generate_conll(input_file, output_file, doc_tags)
+		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict)  Print changes		
+	## Generate output
+	generate_conll(input_file, output_file, doc_tags, sentenceDict, mention_dict)
 
 if __name__ == '__main__':
 	# Parse input arguments

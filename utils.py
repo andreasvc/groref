@@ -4,8 +4,15 @@ import colorama as c
 import re, sys, os
 import xml.etree.ElementTree as ET
 
+### GLOBAL VARIABLES ###
+
 # List of Dutch Stop words (http://www.ranks.nl/stopwords/dutch)
 stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een', 'en', 'er', 'had', 'heb', 'hem', 'het', 'hij', 'hoe', 'hun', 'ik ', 'in', 'is', 'je', 'kan', 'me', 'men', 'met', 'mij', 'nog', 'nu', 'of', 'ons', 'ook', 'te', 'tot', 'uit', 'van', 'was ', 'wat', 'we', 'wel', 'wij', 'zal', 'ze', 'zei', 'zij', 'zo', 'zou']
+
+# First available mentionID
+mentionID = 0 
+
+### READING AND WRITING ###
 
 # Read in conll file, return list of lists containing a single word + annotation
 def read_conll_file(fname):
@@ -44,6 +51,38 @@ def read_xml_parse_files(fname):
 				print 'Parse file not found: %s' % (xml_file)
 		xml_tree_list.append(tree)
 	return xml_tree_list
+	
+# Creates conll-formatted output with the clustering information
+def generate_conll(docName, output_filename, doc_tags, sentenceDict, mention_dict):
+	output_file = open(output_filename, 'w')
+	docName = docName.split('/')[-1].split('_')[0]
+	if doc_tags:
+		output_file.write('#begin document (' + docName + '); part 000\n')
+	for key in sorted(sentenceDict.keys()): # Cycle through sentences
+		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
+			corefLabel = ''
+			for mention_id, mention in mention_dict.iteritems(): # Check all mentions, to see whether token is part of mention
+				if mention.sentNum == key:
+					if token_idx == mention.begin: # Start of mention, print a bracket
+						if corefLabel:
+							corefLabel += '|'
+						corefLabel += '('
+					if token_idx >= mention.begin and token_idx < mention.end:
+						if corefLabel:
+							if corefLabel[-1] != '(':
+								corefLabel += '|'
+						corefLabel += str(mention.clusterID)
+					if token_idx + 1 == mention.end: # End of mention, print a bracket
+						corefLabel += ')'
+			if not corefLabel: # Tokens outside of mentions get a dash
+				corefLabel = '-'
+			output_file.write(docName + '\t' + str(key) + '\t' + '0\t' + '0\t' + '0\t' +
+			'0\t' + token.encode('utf-8') + '\t' + corefLabel + '\n')
+		output_file.write('\n')
+	if doc_tags:
+		output_file.write('#end document')	
+
+### SIEVE HELPERS ###
 
 # Function that takes two mention ids, and merges the clusters they are part of, returns cluster dict and cluster_id_list
 def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id_list):
@@ -62,6 +101,19 @@ def mergeClustersByMentionIDs(idx1, idx2, mention_dict, cluster_dict, cluster_id
 	del cluster_dict[cluster2.ID]
 	cluster_id_list.remove(cluster2.ID)
 	return cluster_dict, cluster_id_list
+	
+# Takes mention_id_list, returns a dict, with mention_ids per sentence
+def get_mention_id_list_per_sentence(mention_id_list, mention_dict):
+	mention_ids_per_sentence = {}
+	for mention_id in mention_id_list:
+		mention = mention_dict[mention_id]
+		if mention.sentNum in mention_ids_per_sentence:
+			mention_ids_per_sentence[mention.sentNum].append(mention.ID)
+		else:
+			mention_ids_per_sentence[mention.sentNum] = [mention.ID]
+	return mention_ids_per_sentence
+	
+### MENTION PRINTING ###
 	
 # Human-readable printing of the output of the mention detection sieve	
 def print_mentions_inline(sentenceDict, mention_id_list, mention_dict):
@@ -172,14 +224,3 @@ def colour_text(text, colour):
 def print_all_mentions_ordered(mention_id_list, mention_dict):
 	for mention_id in mention_id_list:
 		print mention_dict[mention_id].__dict__
-		
-# Takes mention_id_list, returns a dict, with mention_ids per sentence
-def get_mention_id_list_per_sentence(mention_id_list, mention_dict):
-	mention_ids_per_sentence = {}
-	for mention_id in mention_id_list:
-		mention = mention_dict[mention_id]
-		if mention.sentNum in mention_ids_per_sentence:
-			mention_ids_per_sentence[mention.sentNum].append(mention.ID)
-		else:
-			mention_ids_per_sentence[mention.sentNum] = [mention.ID]
-	return mention_ids_per_sentence
