@@ -123,20 +123,21 @@ def sort_mentions(mention_id_list, mention_dict):
 	return sorted(mention_id_list, key = lambda x: (mention_dict[x].sentNum, mention_dict[x].begin, mention_dict[x].end))
 
 # Helper for detect_mentions()
-def make_mention(mention_node, mention_type, sentNum):
+def make_mention(begin, end, tree, mention_type, sentNum):
 	global mentionID
 	new_ment = Mention(mentionID)
 	mentionID += 1
 	new_ment.type = mention_type
-	new_ment.begin = int(mention_node.attrib["begin"])
-	new_ment.end = int(mention_node.attrib["end"])
+	new_ment.begin = int(begin)
+	new_ment.end = int(end)
 	new_ment.numTokens = new_ment.end - new_ment.begin
 	new_ment.sentNum = sentNum
-	for node in mention_node.iter():
-		if "word" in node.attrib:
+	for node in tree.findall(".//node[@word]"):
+		if int(node.attrib['begin']) >= int(begin) and int(node.attrib['end']) <= int(end):
 			new_ment.tokenList.append(node.attrib["word"])
 			new_ment.tokenAttribs.append(node.attrib)
 	if mention_type.lower()[:2] == 'np':
+		mention_node = tree.find(".//node[@cat='np'][@begin='" + begin + "'][@end='" + end + "']")
 		head_node = mention_node.find("./node[@rel='hd']")
 		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
 		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
@@ -168,29 +169,30 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 			len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
 			if mention_node.attrib['rel'] in np_rels and len_ment < 7: 
 				name = 'np_' + mention_node.attrib['rel']
-				mention_list.append(make_mention(mention_node, name, sentNum))
+				mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum))
 		
 		mwu_rels = ['obj1','su','cnj'] #hd 14/65 
 		for mention_node in tree.findall(".//node[@cat='mwu']"):
 			len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
 			if mention_node.attrib['rel'] in mwu_rels:# and len_ment < 3: 
 				name = 'mwu_' + mention_node.attrib['rel']
-				mention_list.append(make_mention(mention_node, 'mwu', sentNum))
+				mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum))
 
 		for mention_node in tree.findall(".//node"):
 			if 'cat' not in mention_node.attrib and mention_node.attrib['rel'] == 'su':
-				mention_list.append(make_mention(mention_node, 'su', sentNum))
+				mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'su', sentNum))
 		
 		for mention_node in tree.findall(".//node[@word][@ntype='soort'][@rel='obj1']"):
-			mention_list.append(make_mention(mention_node, 'noun', sentNum))
+			mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'noun', sentNum))
 	
 		for mention_node in tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']"):
-			mention_list.append(make_mention(mention_node, 'Pronoun', sentNum))
+			mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'Pronoun', sentNum))
 
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
 		for mention_node in tree.findall(".//node[@pos='name']"):
-			mention_list.append(make_mention(mention_node, 'Name', sentNum))
-	
+			mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'Name', sentNum))
+
+
 		#TODO, look at children nodes, vooral bij relaties met lage precisie!
 		
 		"""	
