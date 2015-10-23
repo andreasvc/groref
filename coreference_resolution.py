@@ -24,10 +24,10 @@ class Mention:
 		self.end = 0 # Token ID of last token + 1
 		self.type = '' # Pronoun, NP or Name
 		self.clusterID = -1
-		self.head_begin = 0
+		self.head_begin = 0 # Token ID of first head word, within tokenList
 		self.head_end = 0
 		self.headWords = []
-		self.attribs = {}
+		self.tokenAttribs = [] # List of dictionaries containing alpino output for each token/node
 		
 # Class for 'cluster'-objects
 class Cluster:
@@ -132,10 +132,10 @@ def make_mention(mention_node, mention_type, sentNum):
 	new_ment.end = int(mention_node.attrib["end"])
 	new_ment.numTokens = new_ment.end - new_ment.begin
 	new_ment.sentNum = sentNum
-	new_ment.attribs = mention_node.attrib
 	for node in mention_node.iter():
 		if "word" in node.attrib:
 			new_ment.tokenList.append(node.attrib["word"])
+			new_ment.tokenAttribs.append(node.attrib)
 	if mention_type.lower()[:2] == 'np':
 		head_node = mention_node.find("./node[@rel='hd']")
 		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
