@@ -27,6 +27,7 @@ class Mention:
 		self.head_begin = 0
 		self.head_end = 0
 		self.headWords = []
+		self.attribs = {}
 		
 # Class for 'cluster'-objects
 class Cluster:
@@ -131,6 +132,7 @@ def make_mention(mention_node, mention_type, sentNum):
 	new_ment.end = int(mention_node.attrib["end"])
 	new_ment.numTokens = new_ment.end - new_ment.begin
 	new_ment.sentNum = sentNum
+	new_ment.attribs = mention_node.attrib
 	for node in mention_node.iter():
 		if "word" in node.attrib:
 			new_ment.tokenList.append(node.attrib["word"])
@@ -188,9 +190,7 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
 		for mention_node in tree.findall(".//node[@pos='name']"):
 			mention_list.append(make_mention(mention_node, 'Name', sentNum))
-		
-		
-		
+	
 		#TODO, look at children nodes, vooral bij relaties met lage precisie!
 		
 		"""	
@@ -206,23 +206,7 @@ def detect_mentions(conll_list, tree_list, docFilename, verbosity):
 					else: 
 						new_ment.tokenList.append(node.attrib["word"])
 			mention_list.append(new_ment)
-		for mention_node in tree.findall(".//node[@lcat='np'][@ntype='soort']"):
-			mention_list.append(make_mention(mention_node, 'NP2', sentNum))
-
-		for mention_node in tree.findall(".//node[@pos='det']../node[@pos='noun']"):
-			new_ment = make_mention(mention_node, 'DetN', sentNum)
-			new_ment.begin = new_ment.begin - 1
-			new_ment.numTokens = new_ment.numTokens + 1
-			new_ment.tokenList.insert(0,'err')
-			mention_list.append(new_ment)
 		"""
-		
-		"""
-		for mention_node in tree.findall(".//node[@cat='mwu']"):
-			mention_list.append(make_mention(mention_node, 'MWU', sentNum))
-		"""
-		#for mention_node in tree.findall(".//node[@cat='du']"):
-		#	mention_list.append(make_mention(mention_node, 'DU', sentNum))
 
 		if len(tree.findall('.//node')) > 2: 
 			for mention in mention_list:
