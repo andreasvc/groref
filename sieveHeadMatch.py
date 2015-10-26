@@ -21,16 +21,14 @@ def sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list,
 		anaphor = mention_dict[cluster.mentionList[0]] # Only consider first mention in cluster for resolution
 		if not anaphor.headWords: # If no headwords, head-matching is not going to work
 			continue
-		# Find all words in the anaphoric mention
-		anaphorWords = []
-		for token in anaphor.tokenList:
-			if token not in stopWords:
-				anaphorWords.append(token)
-		# Find all modifiers in the anaphoric mention
+		# Find all words and modifiers in the anaphoric mention
 		anaphorMods = []
+		anaphorWords = []		
 		for tokenAttrib in anaphor.tokenAttribs:
+			if tokenAttrib["lemma"] not in stopWords:
+				anaphorWords.append(tokenAttrib["lemma"])
 			if tokenAttrib["rel"] == "mod":
-				anaphorMods.append(tokenAttrib["word"])
+				anaphorMods.append(tokenAttrib["lemma"])
 		# Cycle through sentences backwards
 		for sent_id in range(anaphor.sentNum, 0, -1): 
 			if madeLink:
@@ -46,17 +44,17 @@ def sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list,
 					candidateMentionMods = []
 					for tokenAttrib in mention_dict[candidate_mention_id].tokenAttribs:
 						if tokenAttrib['rel'] == "mod":
-							candidateMentionMods.append(tokenAttrib["word"])
+							candidateMentionMods.append(tokenAttrib["lemma"])
 					candidate_cluster = cluster_dict[mention_dict[candidate_mention_id].clusterID]
 					# Find all words in the candidate cluster
 					candidateWords = []
 					for ment_id in candidate_cluster.mentionList:
-						for token in mention_dict[ment_id].tokenList:
-							if token not in stopWords:
-								candidateWords.append(token)
+						for tokenAttrib in mention_dict[ment_id].tokenAttribs:
+							if tokenAttrib["lemma"] not in stopWords:
+								candidateWords.append(tokenAttrib["lemma"])
 						if set(anaphor.headWords).issubset(set(mention_dict[ment_id].headWords)): # Check for entityheadmatch
 							entityHeadMatch = True
-					if set(anaphorWords).issubset(set(candidateWords)):	# Check for word inclusion			
+					if set(anaphorWords).issubset(set(candidateWords)):	# Check for word inclusion		
 						wordInclusion = True				
 					if set(anaphorMods).issubset(set(candidateMentionMods)): # Check whether modifiers are compatible
 						compModsOnly = True
