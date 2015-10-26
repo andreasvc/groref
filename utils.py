@@ -140,61 +140,74 @@ def get_mention_id_list_per_sentence(mention_id_list, mention_dict):
 	return mention_ids_per_sentence
 	
 ### MENTION DETECTION HELPERS ###
-	
-# Stitch multi-word name mentions together
-def stitch_names(mention_id_list, mention_dict):
-	stitched_mention_id_list = []
-	stitched_mention_dict = {}
-	idx = 0
-	# Assume all split names are sequential in mention_id_list
-	while idx < len(mention_id_list):
-		mention_id = mention_id_list[idx] 
-		if mention_dict[mention_id].type == "Name": # Ignore non-names
-			inc = 1 # How far to search ahead
-			continueSearch = True
-			while continueSearch:
-				if idx + inc < len(mention_id_list):
-					lookup_mention_id = mention_id_list[idx + inc]
-					# Mentions should be part of same sentence
-					if mention_dict[lookup_mention_id].begin == mention_dict[mention_id].end and mention_dict[lookup_mention_id].sentNum == mention_dict[mention_id].sentNum:
-						mention_dict[mention_id].end = mention_dict[lookup_mention_id].end
-						mention_dict[mention_id].numTokens += mention_dict[lookup_mention_id].numTokens
-						mention_dict[mention_id].tokenList += mention_dict[lookup_mention_id].tokenList
-						inc += 1 # Stitched one part to the current mention, now check the mention after that
-					else:
-						continueSearch = False
-				else:
-					continueSearch = False
-			stitched_mention_id_list.append(mention_id)
-			idx += inc # If 3 parts stitched together, skip the subsequent 2 mentions
-		else:
-			stitched_mention_id_list.append(mention_id)
-			idx += 1
-	# Remove mentions that have been stitched together
-	stitched_mention_dict = {idx : mention_dict[idx] for idx in stitched_mention_id_list} 
-	return stitched_mention_id_list, stitched_mention_dict
+# Helper for mentionDetection()
+def make_mention(begin, end, tree, mention_type, sentNum):
+	global mentionID
+	new_ment = Mention(mentionID)
+	mentionID += 1
+	new_ment.type = mention_type
+	new_ment.begin = int(begin)
+	new_ment.end = int(end)
+	new_ment.numTokens = new_ment.end - new_ment.begin
+	new_ment.sentNum = sentNum
+	for node in tree.findall(".//node[@word]"):
+		if int(node.attrib['begin']) >= int(begin) and int(node.attrib['end']) <= int(end):
+			new_ment.tokenList.append(node.attrib["word"])
+			new_ment.tokenAttribs.append(node.attrib)
+	if mention_type.lower()[:2] == 'np':
+		mention_node = tree.find(".//node[@cat='np'][@begin='" + begin + "'][@end='" + end + "']")
+		head_node = mention_node.find("./node[@rel='hd']")
+		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
+		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
+		new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
+	if mention_type == 'Name': # Add last part of names as headword
+		new_ment.head_begin = len(new_ment.tokenList) - 1
+		new_ment.head_end = len(new_ment.tokenList)
+		new_ment.headWords = new_ment.tokenList[-1:]
+	if mention_type == 'noun':
+		new_ment.head_begin = 0
+		new_ment.head_end = 1
+		new_ment.headWords = [new_ment.tokenList[0]]
+	return new_ment
 
-# remove duplicate mentions
-def remove_duplicates(mention_id_list, mention_dict):
-	remove_ids = []
-	for i in range(len(mention_id_list)): #sentnum, begin and end
-		this_sentNum = mention_dict[mention_id_list[i]].sentNum
-		this_begin = mention_dict[mention_id_list[i]].begin
-		this_end = mention_dict[mention_id_list[i]].end
-		for j in range(i+1, len(mention_id_list)):
-			if (this_sentNum == mention_dict[mention_id_list[j]].sentNum and 
-				this_begin == mention_dict[mention_id_list[j]].begin and 
-				this_end == mention_dict[mention_id_list[j]].end):
-				remove_ids.append(mention_id_list[i])
-				break
-	for remove_id in remove_ids:
-		mention_id_list.remove(remove_id)
-		del mention_dict[remove_id]
-	return mention_id_list, mention_dict
+# Stitch multi-word name mentions together
+def stitch_names(node_list, tree, sentNum):
+	node_list.sort(key=lambda node: int(node.attrib['begin']))
+	added = [False] * len(node_list)
+	mentions = []
+	for beg_idx in range(len(node_list)):
+		if not added[beg_idx]:
+			added[beg_idx] = True
+			beg_val = int(node_list[beg_idx].attrib['begin'])
+			end_val = int(node_list[beg_idx].attrib['end'])
+			for next_idx in range(beg_idx + 1, len(node_list)):
+				if int(node_list[next_idx].attrib['begin']) == end_val:
+					end_val += 1
+					added[next_idx] = True
+				else:
+					break
+			mentions.append(make_mention(beg_val, end_val, tree, 'name', sentNum))
+	return mentions
 
 # Sort mentions in list by sentNum, begin, end
 def sort_mentions(mention_id_list, mention_dict):
 	return sorted(mention_id_list, key = lambda x: (mention_dict[x].sentNum, mention_dict[x].begin, mention_dict[x].end))	
+
+def add_mention(mention_list, new_mention):
+	for old_mention in mention_list:
+		if old_mention.begin == new_mention.begin and old_mention.end == new_mention.end and old_mention.sentNum == new_mention.sentNum:
+			return mention_list
+	mention_list.append(new_mention)
+	return mention_list 
+	
+def add_mention2(mention_list, new_mention):
+	for old_mention in mention_list:
+		if old_mention.begin == new_mention.begin and old_mention.end == new_mention.end and old_mention.sentNum == new_mention.sentNum:
+			return mention_list
+	print 'MENTION ADDED'
+
+	mention_list.append(new_mention)
+	return mention_list 
 	
 # Creates a cluster for each mention, fills in features
 def initialize_clusters(mention_dict):

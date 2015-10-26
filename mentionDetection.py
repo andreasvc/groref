@@ -5,39 +5,11 @@
 
 from utils import *
 
-# Helper for mentionDetection()
-def make_mention(begin, end, tree, mention_type, sentNum):
-	global mentionID
-	new_ment = Mention(mentionID)
-	mentionID += 1
-	new_ment.type = mention_type
-	new_ment.begin = int(begin)
-	new_ment.end = int(end)
-	new_ment.numTokens = new_ment.end - new_ment.begin
-	new_ment.sentNum = sentNum
-	for node in tree.findall(".//node[@word]"):
-		if int(node.attrib['begin']) >= int(begin) and int(node.attrib['end']) <= int(end):
-			new_ment.tokenList.append(node.attrib["word"])
-			new_ment.tokenAttribs.append(node.attrib)
-	if mention_type.lower()[:2] == 'np':
-		mention_node = tree.find(".//node[@cat='np'][@begin='" + begin + "'][@end='" + end + "']")
-		head_node = mention_node.find("./node[@rel='hd']")
-		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
-		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
-		new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
-	if mention_type == 'Name': # Add last part of names as headword
-		new_ment.head_begin = len(new_ment.tokenList) - 1
-		new_ment.head_end = len(new_ment.tokenList)
-		new_ment.headWords = new_ment.tokenList[-1:]
-	if mention_type == 'noun':
-		new_ment.head_begin = 0
-		new_ment.head_end = 1
-		new_ment.headWords = [new_ment.tokenList[0]]
-	return new_ment
+
+
 	
 # Mention detection sieve, selects all NPs, pronouns, names		
 def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict):
-#	global mentionID, sentenceDict
 	mention_id_list = []
 	mention_dict = {}
 	for tree in tree_list:
@@ -52,32 +24,49 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 			len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
 			if mention_node.attrib['rel'] in np_rels and len_ment < 7: 
 				name = 'np_' + mention_node.attrib['rel']
-				mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum))
+				new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum)
+				add_mention(mention_list, new_mention)
+				
 		
 		mwu_rels = ['obj1','su','cnj'] #hd 14/65 
 		for mention_node in tree.findall(".//node[@cat='mwu']"):
 			len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
 			if mention_node.attrib['rel'] in mwu_rels:# and len_ment < 3: 
 				name = 'mwu_' + mention_node.attrib['rel']
-				mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum))
+				new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum)
+				add_mention(mention_list, new_mention)
 
 		for mention_node in tree.findall(".//node"):
 			if 'cat' not in mention_node.attrib and mention_node.attrib['rel'] == 'su':
-				mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'su', sentNum))
+				new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'su', sentNum)
+				add_mention(mention_list, new_mention)
 		
 		for mention_node in tree.findall(".//node[@word][@ntype='soort'][@rel='obj1']"):
-			mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'noun', sentNum))
+			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'noun', sentNum)
+			add_mention(mention_list, new_mention)
 	
 		for mention_node in tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']"):
-			mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'Pronoun', sentNum))
+			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'Pronoun', sentNum)
+			add_mention(mention_list, new_mention)
 
-		# Take all name elements, some of which might be parts of same name. Those are stitched together later.
-		for mention_node in tree.findall(".//node[@pos='name']"):
-			mention_list.append(make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'Name', sentNum))
+		for new_mention in stitch_names(tree.findall(".//node[@pos='name']"), tree, sentNum):
+			mention_list = add_mention(mention_list, new_mention)
 
-
-		#TODO, look at children nodes, vooral bij relaties met lage precisie!
-		
+		"""
+		np_rels = ['obj1','su','app','cnj','body','sat','predc'] 
+		for mention_node in tree.findall(".//node[@cat='np']"):
+			len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
+			if mention_node.attrib['rel'] in np_rels and len_ment > 4:
+				rem_cands = tree.findall(".//node[@end='" + mention_node.attrib['end'] + "'][@rel='mod']") + tree.findall(".//node[@end='" + mention_node.attrib['end'] + "'][@cat='pp']")
+				
+				for rem_cand in rem_cands:
+					name = 'broken_np' + mention_node.attrib['rel']
+					new_mention = make_mention(mention_node.attrib['begin'], rem_cand.attrib['begin'], tree, name, sentNum)
+					add_mention(mention_list, new_mention)
+					
+					#mention = mention_list[len(mention_list)-1]
+					#print mention.begin, mention.end
+		"""
 		"""	
 		for mention_node in tree.findall(".//node[@cat='np']"):
 			new_ment = make_mention(mention_node, 'NP', sentNum)
@@ -105,14 +94,8 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 			print 'MWU:  %d' % (len(tree.findall(".//node[@cat='mwu']")))
 			print 'DU:   %d' % (len(tree.findall(".//node[@cat='du']")))
 			print 'PRON: %d' % (len(tree.findall(".//node[@pdtype='pron']") + tree.findall(".//node[@frame='determiner(pron)']")))
-	# Stitch together split name-type mentions
-	mention_id_list, mention_dict = stitch_names(mention_id_list, mention_dict)
-	#remove duplicates:
-	bef_dup = len(mention_id_list)	
-	mention_id_list, mention_dict = remove_duplicates(mention_id_list, mention_dict)
 	# Sort list properly
 	mention_id_list = sort_mentions(mention_id_list, mention_dict)
 	if verbosity == 'high':
 		print 'found %d unique mentions' % (len(mention_id_list))
-		print 'and %d duplicates (which are removed)' % (bef_dup - len(mention_id_list))
 	return mention_id_list, mention_dict	
