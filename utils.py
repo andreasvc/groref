@@ -162,7 +162,7 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
 	elif mention_type.lower() == 'su': # Deal with su's in a hacky way
 		mention_node = tree.find(".//node[@begin='" + begin + "'][@end='" + end + "']")
-		if mention_node:
+		if mention_node is not None:
 			head_node = mention_node.find("./node[@rel='hd']")
 			if head_node:
 				new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
@@ -222,13 +222,14 @@ def add_mention(mention_list, new_mention):
 	return mention_list 
 	
 # Creates a cluster for each mention, fills in features
-def initialize_clusters(mention_dict):
+def initialize_clusters(mention_dict, mention_id_list):
 	cluster_id_list = []
 	cluster_dict = {}
-	for mention_id, mention in mention_dict.iteritems():
+	for mention_id in mention_id_list:
+		mention = mention_dict[mention_id]
 		new_cluster = Cluster(mention.ID) # Initialize with same ID as initial mention
 		new_cluster.mentionList.append(mention.ID)
-		mention.clusterID = new_cluster.ID
+		mention_dict[mention_id].clusterID = new_cluster.ID
 		cluster_dict[new_cluster.ID] = new_cluster
 		cluster_id_list.append(new_cluster.ID)
 	return cluster_dict, cluster_id_list, mention_dict
