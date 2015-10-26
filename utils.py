@@ -200,15 +200,6 @@ def add_mention(mention_list, new_mention):
 	mention_list.append(new_mention)
 	return mention_list 
 	
-def add_mention2(mention_list, new_mention):
-	for old_mention in mention_list:
-		if old_mention.begin == new_mention.begin and old_mention.end == new_mention.end and old_mention.sentNum == new_mention.sentNum:
-			return mention_list
-	print 'MENTION ADDED'
-
-	mention_list.append(new_mention)
-	return mention_list 
-	
 # Creates a cluster for each mention, fills in features
 def initialize_clusters(mention_dict):
 	cluster_id_list = []

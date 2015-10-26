@@ -52,21 +52,24 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 		for new_mention in stitch_names(tree.findall(".//node[@pos='name']"), tree, sentNum):
 			mention_list = add_mention(mention_list, new_mention)
 
-		"""
 		np_rels = ['obj1','su','app','cnj','body','sat','predc'] 
 		for mention_node in tree.findall(".//node[@cat='np']"):
 			len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
 			if mention_node.attrib['rel'] in np_rels and len_ment > 4:
-				rem_cands = tree.findall(".//node[@end='" + mention_node.attrib['end'] + "'][@rel='mod']") + tree.findall(".//node[@end='" + mention_node.attrib['end'] + "'][@cat='pp']")
 				
-				for rem_cand in rem_cands:
+				rem_cand = tree.find(".//node[@end='" + mention_node.attrib['end'] + "'][@rel='mod']") 
+				if rem_cand != None and int(rem_cand.attrib['begin']) > int(mention_node.attrib['begin']):
 					name = 'broken_np' + mention_node.attrib['rel']
 					new_mention = make_mention(mention_node.attrib['begin'], rem_cand.attrib['begin'], tree, name, sentNum)
 					add_mention(mention_list, new_mention)
-					
-					#mention = mention_list[len(mention_list)-1]
-					#print mention.begin, mention.end
-		"""
+				
+				rem_cand2 = tree.find(".//node[@end='" + mention_node.attrib['end'] + "'][@cat='pp']")
+				if rem_cand2 != None and int(rem_cand2.attrib['begin']) > int(mention_node.attrib['begin']):
+					name = 'broken_np' + mention_node.attrib['rel']
+					new_mention = make_mention(mention_node.attrib['begin'], rem_cand2.attrib['begin'], tree, name, sentNum)
+					add_mention(mention_list, new_mention)
+									
+
 		"""	
 		for mention_node in tree.findall(".//node[@cat='np']"):
 			new_ment = make_mention(mention_node, 'NP', sentNum)
