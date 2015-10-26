@@ -34,32 +34,38 @@ def main(input_file, output_file, doc_tags, verbosity):
 		print_mentions_inline(sentenceDict, mention_id_list, mention_dict)
 		print 'MENTION DETECTION OUTPUT VS. GOLD STANDARD:'
 		print_mention_analysis_inline(conll_list, sentenceDict, mention_id_list, mention_dict)								
-	cluster_dict, cluster_id_list, mention_dict = initialize_clusters(mention_dict)
+	cluster_dict, cluster_id_list, mention_dict = initialize_clusters(mention_dict, mention_id_list)
 	## APPLY SIEVES HERE
-	## string matching sieve(s)
+	## string matching sieve(s) (sieve 2, sieve 3)
 	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
 		sieveStringMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity)
 	if verbosity == 'high':
 		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
-	## strictest head matching sieve	
+	## strictest head matching sieve (sieve 5)	
 	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
 		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 3, verbosity)
 	if verbosity == 'high':
 		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
-	## more relaxed head matching sieve
+	## more relaxed head matching sieve (sieve 6)
 	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
 		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 2, verbosity)
 	if verbosity == 'high':		
 		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
-	## most relaxed head matching sieve
+	## even more relaxed head matching sieve (sieve 7)
 	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
 		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 1, verbosity)
 	if verbosity == 'high':		
-		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes		
+		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
+	## most relaxed head matching sieve (sieve 9)
+	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
+	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 0, verbosity)
+	if verbosity == 'high':		
+		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes			
 	## Generate output
 	generate_conll(input_file, output_file, doc_tags, sentenceDict, mention_dict)
 

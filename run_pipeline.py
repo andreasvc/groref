@@ -6,9 +6,9 @@ a conll-formatted file or directory containing conll-formatted files. Expects
 Alpino parses to be present already. """
 
 import argparse, os, re, subprocess, datetime
-
 import preprocess_clin_data
 import coreference_resolution
+from utils import *
 
 def processDocument(filename, verbosity):
 	''' Do preprocessing, coreference resolution and evaluation for a single 
