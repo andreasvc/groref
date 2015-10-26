@@ -6,7 +6,7 @@ from utils import *
 def sieveStringMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity):
 	mention_ids_per_sentence = get_mention_id_list_per_sentence(mention_id_list, mention_dict)
 	if verbosity == 'high':
-		print 'Doing exact + relaxed stringmatching'
+		print 'Doing exact + relaxed string matching...'
 	for cluster_id in cluster_id_list[:]:
 		ExactEntityMatch = False
 		RelaxedEntityMatch = False

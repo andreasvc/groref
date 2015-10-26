@@ -10,6 +10,7 @@ from utils import *
 from mentionDetection import mentionDetection
 from sieveDummy import sieveDummy
 from sieveHeadMatch import sieveHeadMatch
+from sieveStringMatch import sieveStringMatch
 
 def main(input_file, output_file, doc_tags, verbosity):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses
@@ -35,6 +36,12 @@ def main(input_file, output_file, doc_tags, verbosity):
 		print_mention_analysis_inline(conll_list, sentenceDict, mention_id_list, mention_dict)								
 	cluster_dict, cluster_id_list, mention_dict = initialize_clusters(mention_dict)
 	## APPLY SIEVES HERE
+	## String matching sieve(s)
+	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
+	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+		sieveStringMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity)
+	if verbosity == 'high':
+		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## strictest head matching sieve	
 	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
