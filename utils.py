@@ -160,14 +160,35 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
 		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
 		new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
-	if mention_type == 'name': # Add last part of names as headword
+	elif mention_type.lower() == 'su': # Deal with su's in a hacky way
+		mention_node = tree.find(".//node[@begin='" + begin + "'][@end='" + end + "']")
+		if mention_node:
+			head_node = mention_node.find("./node[@rel='hd']")
+			if head_node:
+				new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
+				new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
+				new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
+			else:
+				new_ment.head_begin = len(new_ment.tokenList) - 1
+				new_ment.head_end = len(new_ment.tokenList)
+				new_ment.headWords = new_ment.tokenList[-1:]
+		else:
+			new_ment.head_begin = len(new_ment.tokenList) - 1
+			new_ment.head_end = len(new_ment.tokenList)
+			new_ment.headWords = new_ment.tokenList[-1:]
+	elif mention_type.lower() == 'name' or mention_type.lower()[:3] == 'mwu': # Add last part of names as headword
 		new_ment.head_begin = len(new_ment.tokenList) - 1
 		new_ment.head_end = len(new_ment.tokenList)
 		new_ment.headWords = new_ment.tokenList[-1:]
-	if mention_type == 'noun':
+	elif mention_type.lower() == 'noun':
 		new_ment.head_begin = 0
 		new_ment.head_end = 1
 		new_ment.headWords = [new_ment.tokenList[0]]
+	else: # Backup option
+		if mention_type.lower() != 'pronoun':
+			new_ment.head_begin = len(new_ment.tokenList) - 1
+			new_ment.head_end = len(new_ment.tokenList)
+			new_ment.headWords = new_ment.tokenList[-1:]
 	return new_ment
 
 # Stitch multi-word name mentions together
