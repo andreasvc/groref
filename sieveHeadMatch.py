@@ -76,7 +76,7 @@ def sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list,
 								mention_dict, cluster_dict, cluster_id_list)
 							madeLink = True					
 					elif strictness == 1:
-						if entityHeadMatch:
+						if entityHeadMatch and compModsOnly:
 							if verbosity == 'high':						
 								print 'Linking clusters %d and %d' % (ment_id, anaphor.ID)												
 							cluster_dict, cluster_id_list = mergeClustersByMentionIDs(ment_id, anaphor.ID, \

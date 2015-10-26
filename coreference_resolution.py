@@ -36,7 +36,7 @@ def main(input_file, output_file, doc_tags, verbosity):
 		print_mention_analysis_inline(conll_list, sentenceDict, mention_id_list, mention_dict)								
 	cluster_dict, cluster_id_list, mention_dict = initialize_clusters(mention_dict)
 	## APPLY SIEVES HERE
-	## String matching sieve(s)
+	## string matching sieve(s)
 	old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
 		sieveStringMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity)
