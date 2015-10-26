@@ -5,9 +5,6 @@
 
 from utils import *
 
-
-
-	
 # Mention detection sieve, selects all NPs, pronouns, names		
 def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict):
 	mention_id_list = []
@@ -27,7 +24,6 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 				new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum)
 				add_mention(mention_list, new_mention)
 				
-		
 		mwu_rels = ['obj1','su','cnj'] #hd 14/65 
 		for mention_node in tree.findall(".//node[@cat='mwu']"):
 			len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])

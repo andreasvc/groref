@@ -160,7 +160,7 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
 		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
 		new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
-	if mention_type == 'Name': # Add last part of names as headword
+	if mention_type == 'name': # Add last part of names as headword
 		new_ment.head_begin = len(new_ment.tokenList) - 1
 		new_ment.head_end = len(new_ment.tokenList)
 		new_ment.headWords = new_ment.tokenList[-1:]
