@@ -65,7 +65,7 @@ def main(input_file, output_file, doc_tags, verbosity):
 	mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
 		sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 0, verbosity)
 	if verbosity == 'high':		
-		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes			
+		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## Generate output
 	generate_conll(input_file, output_file, doc_tags, sentenceDict, mention_dict)
 

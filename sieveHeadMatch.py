@@ -96,8 +96,8 @@ def sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list,
 								mention_dict, cluster_dict, cluster_id_list)
 							madeLink = True
 					elif strictness == 0:
-						if relaxedHeadMatch and wordInclusion and not IwithinI:
-#						if relaxedHeadMatch and wordInclusion and bothNE: # Make it slightly more restrictive or not?
+#						if relaxedHeadMatch and wordInclusion and not IwithinI:
+						if relaxedHeadMatch and wordInclusion and bothNE: # Make it slightly more restrictive or not?
 							if verbosity == 'high':						
 								print 'Linking clusters %d and %d' % (ment_id, anaphor.ID)
 							cluster_dict, cluster_id_list = mergeClustersByMentionIDs(candidate_mention_id, anaphor.ID, \

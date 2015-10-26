@@ -164,7 +164,7 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		mention_node = tree.find(".//node[@begin='" + begin + "'][@end='" + end + "']")
 		if mention_node is not None:
 			head_node = mention_node.find("./node[@rel='hd']")
-			if head_node:
+			if head_node is not None:
 				new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
 				new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
 				new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
