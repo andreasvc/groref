@@ -33,7 +33,9 @@ def main(input_file, output_file, doc_tags, verbosity):
 		print 'OUR MENTION OUTPUT:'
 		print_mentions_inline(sentenceDict, mention_id_list, mention_dict)
 		print 'MENTION DETECTION OUTPUT VS. GOLD STANDARD:'
-		print_mention_analysis_inline(conll_list, sentenceDict, mention_id_list, mention_dict)								
+		print_mention_analysis_inline(conll_list, sentenceDict, mention_id_list, mention_dict)		
+		print 'GOLD STANDARD:'
+		print_gold_mentions(conll_list, sentenceDict)								
 	cluster_dict, cluster_id_list, mention_dict = initialize_clusters(mention_dict, mention_id_list)
 	## APPLY SIEVES HERE
 	## string matching sieve(s) (sieve 2, sieve 3)
