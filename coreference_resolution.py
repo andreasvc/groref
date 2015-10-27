@@ -5,7 +5,7 @@
 Based on the Stanford Coreference Resolution system. Requires CoNLL-formatted
 input data and Alpino pars in xml as input, gives CoNLL-formatted output. """
 
-import argparse, copy
+import argparse, copy, subprocess
 from utils import *
 from mentionDetection import mentionDetection
 from sieveDummy import sieveDummy
@@ -69,8 +69,8 @@ def main(input_file, output_file, doc_tags, verbosity):
 	if verbosity == 'high':		
 		print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## Generate output
-	generate_conll(input_file, output_file, doc_tags, sentenceDict, mention_dict)
-
+	generate_conll(input_file, output_file + '_final', doc_tags, sentenceDict, mention_dict)	
+	
 if __name__ == '__main__':
 	# Parse input arguments
 	parser = argparse.ArgumentParser()

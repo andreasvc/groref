@@ -27,10 +27,10 @@ def processDocument(filename, verbosity):
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
 			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity)
-			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename, "none"], stdout = scores_file)
+			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename + '_final', "none"], stdout = scores_file)
 		else:
 			coreference_resolution.main(filename, output_filename, True, verbosity)
-			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
+			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename + '_final', "none"], stdout = scores_file)
 		
 def processDirectory(dirname, verbosity):
 	'''Do preprocessing, coreference resolution and evaluation for all 
@@ -126,10 +126,7 @@ if __name__ == '__main__':
 	# Put output in timestamped sub-folder of results/
 	timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 	print 'Timestamp for this run is: %s' % timestamp
-	if not 'results' in os.listdir('./'):
-	    os.system('mkdir results/')
-	if not timestamp in os.listdir('results/'):
-		os.system('mkdir results/' + timestamp)
+	os.system('mkdir -p results/' + timestamp)
 	if os.path.isdir(args.target):
 		args.target += '/'
 		processDirectory(args.target, args.verbosity)
