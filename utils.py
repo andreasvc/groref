@@ -12,6 +12,9 @@ stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een',
 # First available mentionID
 mentionID = 0 
 
+# List of implemented sieves
+allSieves = [2, 3, 5, 6, 7, 9]
+
 ### CLASSES ### 
 
 # Class for 'mention'-objects
