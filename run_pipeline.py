@@ -10,12 +10,13 @@ import preprocess_clin_data
 import coreference_resolution
 from utils import *
 
-def processDocument(filename, verbosity):
+def processDocument(filename, verbosity, sieveList):
 	''' Do preprocessing, coreference resolution and evaluation for a single 
 	document.
 	'''
 	global timestamp
-	print 'processing ' + filename + '...'
+	if verbosity != 'none':
+		print 'processing ' + filename + '...'
 	output_filename = 'results/' + timestamp + '/' + filename.split('/')[-1] + '.coref'
 	scores_filename = output_filename + '.scores'
 	if re.search('coref_ne', filename):
@@ -26,22 +27,22 @@ def processDocument(filename, verbosity):
 		preprocess_clin_data.preprocess_file(filename)
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
-			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity)
+			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity, sieveList)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename + '_final', "none"], stdout = scores_file)
 		else:
-			coreference_resolution.main(filename, output_filename, True, verbosity)
+			coreference_resolution.main(filename, output_filename, True, verbosity, sieveList)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename + '_final', "none"], stdout = scores_file)
 		
-def processDirectory(dirname, verbosity):
+def processDirectory(dirname, verbosity, sieveList):
 	'''Do preprocessing, coreference resolution and evaluation for all 
 	documents in a directory.
 	'''
 	for filename in os.listdir(dirname):
 		if os.path.isfile(dirname + filename):
 			if re.search('.xml.coref_ne$', filename) or re.search('.xml.conll$', filename):
-				processDocument(dirname + filename, verbosity)
+				processDocument(dirname + filename, verbosity, sieveList)
 				
-def postProcessScores(scores_dir, verbosity):
+def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 	''' Aggregates and formats evaluation scores of one or more documents,
 	outputs to 'scores_overall'-file
 	'''
@@ -100,15 +101,18 @@ def postProcessScores(scores_dir, verbosity):
 		if verbosity == 'high':
 			print '#########################################\nSCORES:'
 		else:
-			print 'SCORES:'
+			if not onlyTotal:
+				print 'SCORES:'
 		header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBCUB-r/p/f1\t\tCEAFM-r/p/f1\t\tCEAFE-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
-		print header
+		if not onlyTotal:
+			print header
 		out_file.write(header + '\n')
 		for document in scores:
 			docName = document + (20 - len(document)) * ' '
 			a = scores[document]
 			scorestring = '%s\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % (docName,  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
-			print scorestring
+			if not onlyTotal:
+				print scorestring
 			out_file.write(scorestring + '\n')
 		if verbosity == 'high':
 			print 'OVERALL:'
@@ -121,7 +125,8 @@ if __name__ == '__main__':
 	# Parse input arguments
 	parser = argparse.ArgumentParser()
 	parser.add_argument('target', type=str, help='Path to a file or directory, in .conll format, for which to do coreference resolution.')
-	parser.add_argument( '-v', '--verbosity', type = str, help = 'Verbosity of output, can be either "high" or "low", default is "high"', default = 'high')
+	parser.add_argument('-v', '--verbosity', type = str, help = 'Verbosity of output, can be either "high" or "low", default is "high"', default = 'high')
+	parser.add_argument('-s', '--sieve', help = 'Given this flag, scores after each sieve are reported', dest = 'per_sieve', action = 'store_true')
 	args = parser.parse_args()
 	# Put output in timestamped sub-folder of results/
 	timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
@@ -129,13 +134,25 @@ if __name__ == '__main__':
 	os.system('mkdir -p results/' + timestamp)
 	if os.path.isdir(args.target):
 		args.target += '/'
-		processDirectory(args.target, args.verbosity)
+		if args.per_sieve:
+			for i in range(0, len(allSieves) + 1):
+				processDirectory(args.target, 'none', allSieves[:i])
+				print 'using these sieves: ' + str(allSieves[:i])
+				postProcessScores('results/' + timestamp, 'low', True)				
+		else:
+			processDirectory(args.target, args.verbosity, range(0, 20)) # Give range(0,20) as sieveList, so that all sieves are applied
 	elif os.path.isfile(args.target):
-		processDocument(args.target, args.verbosity)
+		if args.per_sieve:
+			for i in range(0, len(allSieves)):
+				processDocument(args.target, 'none', allSieves[:i+1])
+				print 'using these sieves: ' + str(allSieves[:i+1])
+				postProcessScores('results/' + timestamp, 'low', True)
+		else:
+			processDocument(args.target, args.verbosity, range(0, 20))
 	else:
 		print 'Incorrect input file or directory'
 		raise SystemExit
-	postProcessScores('results/' + timestamp, args.verbosity)
+	if not args.per_sieve:
+		postProcessScores('results/' + timestamp, args.verbosity)
 	print 'Timestamp for this run was: %s' % timestamp
-
 	
