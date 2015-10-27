@@ -12,6 +12,9 @@ stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een',
 # First available mentionID
 mentionID = 0 
 
+# List of implemented sieves
+allSieves = [2, 5, 6, 7, 9]
+
 ### CLASSES ### 
 
 # Class for 'mention'-objects
@@ -189,6 +192,8 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 			new_ment.head_begin = len(new_ment.tokenList) - 1
 			new_ment.head_end = len(new_ment.tokenList)
 			new_ment.headWords = new_ment.tokenList[-1:]
+	# Make all head words lower case or not? Yes, because it works, but I don't know why, since precision goes up and recall down
+	new_ment.headWords = [headWord.lower() for headWord in new_ment.headWords]
 	return new_ment
 
 # Stitch multi-word name mentions together
@@ -364,3 +369,30 @@ def colour_text(text, colour):
 def print_all_mentions_ordered(mention_id_list, mention_dict):
 	for mention_id in mention_id_list:
 		print mention_dict[mention_id].__dict__
+		
+### SCORING HELPERS ###
+
+# Takes a scorer-output file, returns a dict with the scores
+def process_conll_scorer_file(scorer_filename):
+	scores = {'muc' : [], 'bcub' : [], 'ceafm' : [], 'ceafe' : [], 'blanc' : [], 'conll' : [], 'md' : []}
+	metric = ''
+	for metric in scores:
+		scores[metric] = [0, 1, 0, 0, 1, 0, 0]
+	with open(scorer_filename, 'r') as scores_file:
+		for line in scores_file:
+			if re.search('^METRIC', line):
+				metric = re.split(' ', line)[-1][:-2] # Extract metric name
+			if scores['md'] == [0, 1, 0, 0, 1, 0, 0]: # Avoid filling entry 5 times
+				if re.search('^Identification', line):
+					values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+					scores['md'] = values[0:6] + values[7:] # At index 6 is the '1' from 'F1', so ignore
+			if metric == 'blanc':
+				if re.search('^BLANC', line):
+					values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+					scores[metric] = values[0:6] + values[7:]
+			else:
+				if re.search('^Coreference:', line):
+					values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+					scores[metric] = values[0:6] + values[7:]
+	scores['conll'] = [(scores['muc'][6] + scores['bcub'][6] + scores['ceafe'][6]) / 3] # Calculate CoNLL-F1
+	return scores
