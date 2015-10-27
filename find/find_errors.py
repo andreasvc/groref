@@ -2,17 +2,20 @@ import os, re, pickle, sys
 import xml.etree.ElementTree as ET
 
 class Mention:
-        def __init(self):
-                self.begin = 0
-                self.end = 0
-                self.ID = 0
-                self.filename = ''
+	def __init__(self):
+		self.begin = 0
+		self.end = 0
+		self.ID = 0
+		self.filename = ''
 		self.parsefile = ''
+		self.tokenList = []
+		self.tokenAttribs = []
+
 atr = []
 word_errors = 0
 subtree_errors = 0
 nontree_errors = 0
-def find_attributes(mention, types, query):
+def find_attributes(mention):
 	global word_errors, subtree_errors, nontree_errors
 	global atr
 	tree = ET.parse(mention.parsefile)
@@ -23,18 +26,13 @@ def find_attributes(mention, types, query):
 		subtree_errors += 1
 	else:
 		nontree_errors += 1
-	#for subtree in subtrees:
-	#	if 'word' in attributes and 1 in types:
-	#        elif 2 in types:
-
-	if len(subtrees) == 0 and 3 in types:
-		#find begin word
-		subtrees = tree.findall('.//node[@begin="' + str(mention.begin) + '"]')
-		for subtree in subtrees:
-			if int(subtree.attrib['end']) > mention.end:
-				for subsubtree in tree.findall('.//node[@begin="' + str(mention.end) + '"][@end="' + subtree.attrib['end'] + '"]'):
-					atr.append(subsubtree.attrib)
-					print(subtree.attrib['cat'], int(subtree.attrib['end']) - int(subtree.attrib['begin']))
+	for subtree in subtrees:
+		for subsubtree in subtree.findall('./node'):
+			if 'pos' in subsubtree.attrib:
+				sys.stdout.write('p_' + subsubtree.attrib['pos'] + ' ')
+			if 'cat' in subsubtree.attrib:
+				sys.stdout.write('c_' + subsubtree.attrib['cat'] + ' ')
+	sys.stdout.write('\n')
 
 def found(mention, mentionList):
 	for mentionItr in mentionList:
@@ -42,10 +40,13 @@ def found(mention, mentionList):
 			return True
 	return False
 
-def find_errors(mentions_gold, mentions_own, types, query):
-	for mention in mentions_gold: #TODO, other way around for precision
-		if not found(mention, mentions_own):
-			  find_attributes(mention, types, query)
+def find_errors(mentions_gold, mentions_own):
+	for mention in mentions_own: # other way around for recall
+		if not found(mention, mentions_gold):
+			  find_attributes(mention)
+	print '---------------------------------'
+	print mention.parsefile
+
 
 
 def find_end(data, wordIdx, data_point, data_point_idx):
@@ -95,17 +96,22 @@ def find_mentions(filename, co_file):
 		                        new_ment.ID = int(re.sub("\D", "", data_point))
 	        	                new_ment.filename = co_file
 					new_ment.parsefile = '../clinDevData/'+co_file[:co_file.find('_')] + '/' + str(i+1) + '.xml'
+					tree = ET.parse(new_ment.parsefile)
+					for node in tree.findall(".//node[@word]"):
+						if int(node.attrib['begin']) >= new_ment.begin and int(node.attrib['end']) <= new_ment.end:
+							new_ment.tokenList.append(node.attrib["word"])
+							new_ment.tokenAttribs.append(node.attrib)
                 	                mentions.append(new_ment)
 	return mentions
 
-def get_errors(types, query):
+def get_errors():
 	gold_dir = '../clinDevData/'
 	own_dir = '../results/res/'
 	for co_file in os.listdir(gold_dir):
         	if co_file.endswith('_ne') :
 			mentions_gold = find_mentions(gold_dir + co_file, co_file)
 			mentions_own = find_mentions(own_dir + co_file + '.coref', co_file)
-			find_errors(mentions_gold, mentions_own, types, query)
+			find_errors(mentions_gold, mentions_own)
 	print word_errors
 	print subtree_errors
 	print nontree_errors
