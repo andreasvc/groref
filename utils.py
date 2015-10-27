@@ -192,6 +192,8 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 			new_ment.head_begin = len(new_ment.tokenList) - 1
 			new_ment.head_end = len(new_ment.tokenList)
 			new_ment.headWords = new_ment.tokenList[-1:]
+	# Make all head words lower case or not? Yes, because it works, but I don't know why, since precision goes up and recall down
+	new_ment.headWords = [headWord.lower() for headWord in new_ment.headWords]
 	return new_ment
 
 # Stitch multi-word name mentions together
