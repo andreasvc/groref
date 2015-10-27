@@ -297,6 +297,25 @@ def print_mention_analysis_inline(conll_list, sentenceDict, mention_id_list, men
 				sys.stdout.write(gold_close * colour_text(']', 'green') + ' ')								
 		print ''
 		
+# Human-readable printing of gold standard mentions
+def print_gold_mentions(conll_list, sentenceDict):
+	doc_token_id = -1
+	for sentNum in sentenceDict:
+		sentLength = len(sentenceDict[sentNum].split(' '))
+		closingBrackets = '' # Print closing brackets for mention that close at end of sentence
+		for idx, token in enumerate(sentenceDict[sentNum].split(' ')):
+			gold_open = 0
+			gold_close = 0
+			doc_token_id += 1
+			
+			gold_open = len(re.findall('\(', conll_list[doc_token_id][-1]))
+			gold_close = len(re.findall('\)', conll_list[doc_token_id][-1]))
+			
+			sys.stdout.write(gold_open * colour_text('[', 'yellow'))
+			print colour_text(token.encode('utf-8'), 'white'),		
+			sys.stdout.write(gold_close * colour_text(']', 'yellow') + ' ')								
+		print ''	
+		
 # Human-readable printing of which mentions are clusterd by a given sieve
 # Pre-sieve cluster IDs are in light blue, post-sieve cluster IDs (if changed) are in green
 def print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict):
