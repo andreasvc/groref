@@ -16,6 +16,7 @@ def findNP(tree, sentNum):
 			name = 'np_' + mention_node.attrib['rel']
 			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum)
 			add_mention(mention_list, new_mention)
+
 # 08.64/69.23/15.36 
 def findMWU(tree, sentNum):
 	global mention_list
@@ -74,6 +75,7 @@ def findNP2(tree, sentNum):
 				new_mention = make_mention(mention_node.attrib['begin'], rem_cand2.attrib['begin'], tree, name, sentNum)
 				add_mention(mention_list, new_mention)
 
+
 # Mention detection sieve, selects all NPs, pronouns, names		
 def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict):
 	global mention_list
@@ -98,11 +100,7 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 			for mention in mention_list:
 				mention_id_list.append(mention.ID)
 				mention_dict[mention.ID] = mention
-	for mention in mention_list:
-		if verbosity == 'high':
-			print mention.begin, mention.end, mention.ID
-	if verbosity == 'high':
-		print mention_id_list
+				
 	# Sort list properly
 	mention_id_list = sort_mentions(mention_id_list, mention_dict)
 	if verbosity == 'high':
