@@ -153,12 +153,12 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 	new_ment.end = int(end)
 	new_ment.numTokens = new_ment.end - new_ment.begin
 	new_ment.sentNum = sentNum
-	for node in tree.findall(".//node[@word]"):
-		if int(node.attrib['begin']) >= int(begin) and int(node.attrib['end']) <= int(end):
-			new_ment.tokenList.append(node.attrib["word"])
-			new_ment.tokenAttribs.append(node.attrib)
+	for i in range(new_ment.begin, new_ment.end ):
+		node = tree.find(".//node[@word][@begin='" + str(i) + "']")
+		new_ment.tokenList.append(node.attrib["word"])
+		new_ment.tokenAttribs.append(node.attrib)
 	if mention_type.lower()[:2] == 'np':
-		mention_node = tree.find(".//node[@cat='np'][@begin='" + begin + "'][@end='" + end + "']")
+		mention_node = tree.find(".//node[@cat='np'][@begin='" + str(begin) + "'][@end='" + str(end) + "']")
 		head_node = mention_node.find("./node[@rel='hd']")
 		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
 		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin

@@ -15,7 +15,25 @@ def findNP(tree, sentNum):
 		if mention_node.attrib['rel'] in np_rels and len_ment < 7: 
 			name = 'np_' + mention_node.attrib['rel']
 			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum)
-			add_mention(mention_list, new_mention)
+			if ',' in new_mention.tokenList:
+				if new_mention.tokenList[1] == ',' and len(new_mention.tokenList) > 3:
+					add_mention(mention_list, new_mention)
+				#TODO, edit for mw locations, and rm from findName 
+				elif (len(new_mention.tokenList) == 3 and 
+						new_mention.tokenList[1] == ',' and
+					'neclass' in new_mention.tokenAttribs[0] and
+					new_mention.tokenAttribs[0]['neclass'] == 'LOC'):
+					add_mention(mention_list, new_mention)
+					new_mention1 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'comma_np', sentNum)
+					add_mention(mention_list, new_mention)
+				else:
+					new_mention1 = make_mention(new_mention.begin, new_mention.begin + new_mention.tokenList.index(','), tree, 'comma_np', sentNum)
+					new_mention2 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'comma_np', sentNum)
+					add_mention(mention_list, new_mention1)
+					add_mention(mention_list, new_mention2)
+			else:
+				add_mention(mention_list, new_mention)
+
 
 # 08.64/69.23/15.36 
 def findMWU(tree, sentNum):
