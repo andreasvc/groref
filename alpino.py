@@ -1,6 +1,10 @@
 import os
 import sys
 
+def esc_squares(word):
+	word = word.replace('[','\[')
+	return word.replace(']','\]')
+
 def parse(conllFile, tokenIdx, nameCut):
     tmpFile = open('tmp', 'w')
     for line in open(conllFile, 'r'):
@@ -8,7 +12,7 @@ def parse(conllFile, tokenIdx, nameCut):
             pass
         else:
             if len(line.split('\t')) > 1:
-                tmpFile.write(line.split('\t')[tokenIdx] + ' ')
+                tmpFile.write(esc_squares(line.split('\t')[tokenIdx] + ' '))
             else:
                 tmpFile.write('\n\n')
     tmpFile.close()
