@@ -46,16 +46,16 @@
                 <node begin="21" end="22" frame="preposition(in,[])" id="36" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
                 <node begin="22" cat="np" end="28" id="37" rel="obj1">
                   <node begin="22" end="23" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="38" lcat="np" lemma="associatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="associatie" sense="associatie" word="associatie"/>
-                  <node begin="23" cat="pp" end="26" id="39" rel="mod">
+                  <node begin="23" cat="pp" end="28" id="39" rel="mod">
                     <node begin="23" end="24" frame="preposition(met,[mee,[en,al]])" id="40" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
-                    <node begin="24" cat="np" end="26" id="41" rel="obj1">
+                    <node begin="24" cat="np" end="28" id="41" rel="obj1">
                       <node begin="24" end="25" frame="determiner(de)" id="42" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
-                      <node begin="25" end="26" frame="proper_name(sg)" genus="zijd" getal="ev" graad="basis" id="43" lcat="np" lemma="iTunes" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iTunes" sense="iTunes" word="iTunes"/>
+                      <node begin="25" cat="mwu" end="28" id="43" mwu_root="iTunes Music Store" mwu_sense="iTunes Music Store" rel="hd">
+                        <node begin="25" end="26" frame="proper_name(both)" id="44" lcat="np" lemma="iTunes" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iTunes" sense="iTunes" spectype="deeleigen" word="iTunes"/>
+                        <node begin="26" end="27" frame="proper_name(both)" id="45" lcat="np" lemma="Music" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Music" sense="Music" spectype="deeleigen" word="Music"/>
+                        <node begin="27" end="28" frame="proper_name(both)" id="46" lcat="np" lemma="Store" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Store" sense="Store" spectype="deeleigen" word="Store"/>
+                      </node>
                     </node>
-                  </node>
-                  <node begin="26" cat="mwu" end="28" id="44" mwu_root="Music Store" mwu_sense="Music Store" rel="app">
-                    <node begin="26" end="27" frame="proper_name(both)" id="45" lcat="np" lemma="Music" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Music" sense="Music" spectype="deeleigen" word="Music"/>
-                    <node begin="27" end="28" frame="proper_name(both)" id="46" lcat="np" lemma="Store" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Store" sense="Store" spectype="deeleigen" word="Store"/>
                   </node>
                 </node>
               </node>
@@ -74,6 +74,6 @@
   </node>
   <sentence>Rechter Martin Mann heeft aangegeven dat hij een iPod draagbare muziekspeler heeft , die door Apple Computer wordt gemaakt en verkocht in associatie met de iTunes Music Store .</sentence>
   <comments>
-    <comment>Q#6|Rechter Martin Mann heeft aangegeven dat hij een iPod draagbare muziekspeler heeft , die door Apple Computer wordt gemaakt en verkocht in associatie met de iTunes Music Store .|1|8|4.136716202259994</comment>
+    <comment>Q#6|Rechter Martin Mann heeft aangegeven dat hij een iPod draagbare muziekspeler heeft , die door Apple Computer wordt gemaakt en verkocht in associatie met de iTunes Music Store .|1|8|2.8733977632999936</comment>
   </comments>
 </alpino_ds>

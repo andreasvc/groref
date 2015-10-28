@@ -17,9 +17,9 @@
         <node begin="8" end="9" frame="particle(terug)" id="13" lcat="part" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" sense="terug" word="terug"/>
         <node begin="9" cat="pp" end="12" id="14" rel="pc">
           <node begin="9" end="10" frame="preposition(aan,[vooraf])" id="15" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
-          <node begin="10" cat="mwu" end="12" id="16" mwu_root="iPhone_4_eigenaar" mwu_sense="iPhone_4_eigenaar" rel="obj1">
-            <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="17" lcat="np" lemma="iPhone" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="iPhone" sense="iPhone" word="iPhone"/>
-            <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="18" lcat="np" lemma="4-eigenaren" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="4-eigenaren" sense="4-eigenaren" word="4-eigenaren"/>
+          <node begin="10" cat="mwu" end="12" id="16" mwu_root="iPhone 4-eigenaren" mwu_sense="iPhone 4-eigenaren" rel="obj1">
+            <node begin="10" end="11" frame="proper_name(both)" id="17" lcat="np" lemma="iPhone" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iPhone" sense="iPhone" spectype="deeleigen" word="iPhone"/>
+            <node begin="11" end="12" frame="proper_name(both)" id="18" lcat="np" lemma="4-eigenaren" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="4-eigenaren" sense="4-eigenaren" spectype="deeleigen" word="4-eigenaren"/>
           </node>
         </node>
       </node>
@@ -27,6 +27,6 @@
   </node>
   <sentence>Apple biedt gratis hoesjes aan en geeft geld terug aan iPhone 4-eigenaren</sentence>
   <comments>
-    <comment>Q#1|Apple biedt gratis hoesjes aan en geeft geld terug aan iPhone 4-eigenaren|1|1|-0.6525488098800045</comment>
+    <comment>Q#1|Apple biedt gratis hoesjes aan en geeft geld terug aan iPhone 4-eigenaren|1|1|-0.7823644582800025</comment>
   </comments>
 </alpino_ds>

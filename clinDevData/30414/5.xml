@@ -29,7 +29,7 @@
                 <node begin="12" cat="conj" end="27" id="24" rel="body">
                   <node begin="12" cat="ssub" end="15" id="25" rel="cnj">
                     <node begin="12" end="13" id="26" index="2" rel="su"/>
-                    <node begin="13" end="14" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="iLife" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="iLife" sense="iLife" word="iLife"/>
+                    <node begin="13" end="14" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="iLife" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="iLife" sense="iLife" word="iLife"/>
                     <node begin="14" end="15" frame="verb(hebben,sg_heeft,transitive_ndev)" id="28" infl="sg_heeft" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present" word="heeft" wvorm="pv"/>
                   </node>
                   <node begin="15" conjtype="neven" end="16" frame="conj(en)" id="29" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
@@ -65,6 +65,6 @@
   </node>
   <sentence>Deze nieuwe computerlijnen zijn ontworpen voor de meest recente collectie Mac-software , die iLife heeft en internetpublicatiesoftware toevoegt aan de geavanceerde grafische , video en audio tools .</sentence>
   <comments>
-    <comment>Q#5|Deze nieuwe computerlijnen zijn ontworpen voor de meest recente collectie Mac-software , die iLife heeft en internetpublicatiesoftware toevoegt aan de geavanceerde grafische , video en audio tools .|1|1|1.520297923519998</comment>
+    <comment>Q#5|Deze nieuwe computerlijnen zijn ontworpen voor de meest recente collectie Mac-software , die iLife heeft en internetpublicatiesoftware toevoegt aan de geavanceerde grafische , video en audio tools .|1|1|2.1715529235199997</comment>
   </comments>
 </alpino_ds>

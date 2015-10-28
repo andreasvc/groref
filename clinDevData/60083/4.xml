@@ -84,17 +84,19 @@
             <node begin="36" end="37" frame="preposition(op,[af,na])" id="63" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
             <node begin="37" cat="np" end="40" id="64" rel="obj1">
               <node begin="37" end="38" frame="determiner(de)" id="65" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
-              <node begin="38" end="39" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" id="66" lcat="np" lemma="iTunes" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="mod" rnum="sg" root="iTunes" sense="iTunes" word="iTunes"/>
-              <node begin="39" end="40" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="67" lcat="np" lemma="muziek_service" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="muziek_service" sense="muziek_service" word="muziekservice"/>
+              <node begin="38" cat="mwu" end="40" id="66" mwu_root="iTunes muziekservice" mwu_sense="iTunes muziekservice" rel="hd">
+                <node begin="38" end="39" frame="proper_name(both)" id="67" lcat="np" lemma="iTunes" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iTunes" sense="iTunes" spectype="deeleigen" word="iTunes"/>
+                <node begin="39" end="40" frame="proper_name(both)" id="68" lcat="np" lemma="muziekservice" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="muziekservice" sense="muziekservice" spectype="deeleigen" word="muziekservice"/>
+              </node>
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node begin="40" end="41" frame="punct(punt)" id="68" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="40" end="41" frame="punct(punt)" id="69" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
   </node>
   <sentence>Volgens de nieuwe overeenkomst is Apple Inc. de eigenaar van alle Apple handelsmerken , waarvan er een aantal in licentie aan Apple Corps wordt gegeven , en blijft Apple Inc. de naam en het logo gebruiken op de iTunes muziekservice .</sentence>
   <comments>
-    <comment>Q#4|Volgens de nieuwe overeenkomst is Apple Inc. de eigenaar van alle Apple handelsmerken , waarvan er een aantal in licentie aan Apple Corps wordt gegeven , en blijft Apple Inc. de naam en het logo gebruiken op de iTunes muziekservice .|1|1|-9.044088399400014</comment>
+    <comment>Q#4|Volgens de nieuwe overeenkomst is Apple Inc. de eigenaar van alle Apple handelsmerken , waarvan er een aantal in licentie aan Apple Corps wordt gegeven , en blijft Apple Inc. de naam en het logo gebruiken op de iTunes muziekservice .|1|1|-9.084236914160016</comment>
   </comments>
 </alpino_ds>

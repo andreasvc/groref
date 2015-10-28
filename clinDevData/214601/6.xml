@@ -13,7 +13,7 @@
           <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
           <node begin="7" cat="np" end="9" id="11" rel="obj1">
             <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="12" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
-            <node begin="8" end="9" frame="noun(both,both,both)" gen="both" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="iOS" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="iOS" sense="iOS" word="iOS"/>
+            <node begin="8" end="9" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="iOS" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="iOS" sense="iOS" word="iOS"/>
           </node>
         </node>
       </node>
@@ -39,6 +39,6 @@
   </node>
   <sentence>Apple is van plan meer functionaliteit van het iOS mobiele besturingssysteem over te zetten naar the Mac OS X.</sentence>
   <comments>
-    <comment>Q#6|Apple is van plan meer functionaliteit van het iOS mobiele besturingssysteem over te zetten naar the Mac OS X.|1|6|7.141176932479998</comment>
+    <comment>Q#6|Apple is van plan meer functionaliteit van het iOS mobiele besturingssysteem over te zetten naar the Mac OS X.|1|6|7.671856932479998</comment>
   </comments>
 </alpino_ds>
