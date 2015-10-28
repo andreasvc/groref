@@ -99,8 +99,10 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 				mention_id_list.append(mention.ID)
 				mention_dict[mention.ID] = mention
 	for mention in mention_list:
-		print mention.begin, mention.end, mention.ID
-	print mention_id_list
+		if verbosity == 'high':
+			print mention.begin, mention.end, mention.ID
+	if verbosity == 'high':
+		print mention_id_list
 	# Sort list properly
 	mention_id_list = sort_mentions(mention_id_list, mention_dict)
 	if verbosity == 'high':
