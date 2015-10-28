@@ -24,11 +24,11 @@ def findNP(tree, sentNum):
 					'neclass' in new_mention.tokenAttribs[0] and
 					new_mention.tokenAttribs[0]['neclass'] == 'LOC'):
 					add_mention(mention_list, new_mention)
-					new_mention1 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'comma_np', sentNum)
+					new_mention1 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'np_comma', sentNum)
 					add_mention(mention_list, new_mention)
 				else:
-					new_mention1 = make_mention(new_mention.begin, new_mention.begin + new_mention.tokenList.index(','), tree, 'comma_np', sentNum)
-					new_mention2 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'comma_np', sentNum)
+					new_mention1 = make_mention(new_mention.begin, new_mention.begin + new_mention.tokenList.index(','), tree, 'np_comma', sentNum)
+					new_mention2 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'np_comma', sentNum)
 					add_mention(mention_list, new_mention1)
 					add_mention(mention_list, new_mention2)
 			else:

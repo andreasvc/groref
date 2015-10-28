@@ -158,11 +158,25 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		new_ment.tokenList.append(node.attrib["word"])
 		new_ment.tokenAttribs.append(node.attrib)
 	if mention_type.lower()[:2] == 'np':
-		mention_node = tree.find(".//node[@cat='np'][@begin='" + str(begin) + "'][@end='" + str(end) + "']")
-		head_node = mention_node.find("./node[@rel='hd']")
-		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
-		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
-		new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
+		if mention_type.lower() == 'np_comma':
+			headRange = []
+			for i in range(len(new_ment.tokenAttribs)):
+				if 'rel' in new_ment.tokenAttribs[i] and new_ment.tokenAttribs[i]['rel'] == 'hd':
+					headRange.append(i)
+			if len (headRange) == 0:
+				new_ment.head_begin = new_ment.end - 1
+				new_ment.head_end = new_ment.end
+				new_ment.headWords = [new_ment.tokenList[-1]]
+			else:
+				new_ment.head_begin = headRange[0]
+				new_ment.head_end = headRange[-1] + 1
+				new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
+		else:
+			mention_node = tree.find(".//node[@cat='np'][@begin='" + str(begin) + "'][@end='" + str(end) + "']")
+			head_node = mention_node.find("./node[@rel='hd']")
+			new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
+			new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
+			new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
 	elif mention_type.lower() == 'su': # Deal with su's in a hacky way
 		mention_node = tree.find(".//node[@begin='" + begin + "'][@end='" + end + "']")
 		if mention_node is not None:
