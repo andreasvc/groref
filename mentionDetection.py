@@ -118,6 +118,7 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 			for mention in mention_list:
 				mention_id_list.append(mention.ID)
 				mention_dict[mention.ID] = mention
+				
 	# Sort list properly
 	mention_id_list = sort_mentions(mention_id_list, mention_dict)
 	if verbosity == 'high':
