@@ -33,12 +33,12 @@ class Mention:
 		self.head_end = 0
 		self.headWords = []
 		self.tokenAttribs = [] # List of dictionaries containing alpino output for each token/node
+		# All features can have value 'unknown' when no value can be extracted
 		self.number = '' # Mention number, from {'singular', 'plural', 'both'}
 		self.gender = '' # Mention gender, from {'male', 'female', 'neuter'}
 		self.person = '' # Pronoun-mention person, from {'1', '2', '3'}
 		self.animacy = '' # Mention animacy, from {'animate', 'inanimate', 'organization'}
-		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}
-		
+		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}	
 		
 # Class for 'cluster'-objects
 class Cluster:
@@ -203,6 +203,10 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		new_ment.head_begin = len(new_ment.tokenList) - 1
 		new_ment.head_end = len(new_ment.tokenList)
 		new_ment.headWords = new_ment.tokenList[-1:]
+		if re.search('^[0-9]+$', new_ment.tokenList[-1]): # Head cannot just be numbers
+			new_ment.head_begin = len(new_ment.tokenList) - 2
+			new_ment.head_end = len(new_ment.tokenList) - 1
+			new_ment.headWords = new_ment.tokenList[-2:-1]
 	elif mention_type.lower() == 'noun':
 		new_ment.head_begin = 0
 		new_ment.head_end = 1
@@ -214,7 +218,18 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 			new_ment.headWords = new_ment.tokenList[-1:]
 	# Make all head words lower case or not? Yes, because it works, but I don't know why, since precision goes up and recall down
 	new_ment.headWords = [headWord.lower() for headWord in new_ment.headWords]
+	new_ment = add_mention_features(new_ment) # Add features for pronoun resolution
 	return new_ment
+	
+# Add features (number, gender, animacy, NEtype, person) to a mention
+def add_mention_features(mention):
+	print mention.__dict__
+	# Base mention features on attributes of headwords
+	for headWord in mention.headWords:
+		pass
+	print mention.__dict__
+	raise SystemExit
+	return mention
 
 # Stitch multi-word name mentions together
 def stitch_names(node_list, tree, sentNum):
