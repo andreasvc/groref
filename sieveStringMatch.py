@@ -19,10 +19,10 @@ def sieveStringMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_lis
 		for token in anaphor.tokenList:
 			if len(anaphor.headWords) > 0:
 				if token == anaphor.headWords[0]:
-					anaphor_relaxedtokenlist.append(token)
+					anaphor_relaxedtokenlist.append(token.lower())
 					break
 				else:
-					anaphor_relaxedtokenlist.append(token)
+					anaphor_relaxedtokenlist.append(token.lower())
 		for sent_id in range(anaphor.sentNum, 0, -1): # Cycle through sentences backwards, but through mentions within a sentence forwards
 			if madeLink:
 				break						
@@ -42,10 +42,10 @@ def sieveStringMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_lis
 						for token in mention_dict[ment_id].tokenList:
 							if len(mention_dict[ment_id].headWords) > 0:
 								if token == mention_dict[ment_id].headWords[0]:
-									ment_relaxedtokenlist.append(token)
+									ment_relaxedtokenlist.append(token.lower())
 									break
 								else:
-									ment_relaxedtokenlist.append(token)
+									ment_relaxedtokenlist.append(token.lower())
 						if len(ment_relaxedtokenlist) > 0:
 							if ment_relaxedtokenlist == anaphor_relaxedtokenlist:
 								RelaxedEntityMatch = True			

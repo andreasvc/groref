@@ -3,3 +3,5 @@ DATE/SYSTEM		MENTION DETECTION R/P/F1	MUC R/P/F1			CONLL F1	Comment
 Baseline:		xx.xx/xx.xx/xx.xx			xx.xx/xx.xx/xx.xx	xx.xx	
 22/10/2015		68.00/52.93/59.52			26.39/46.57/33.69	35.96		Only relaxed head matching sieve
 23/10/2015		68.00/52.93/59.52			26.39/47.03/33.81	36.12		With 3 head-matching sieves
+30/10/2015		69.60/52.92/60.12			26.94/44.70/33.62	36.34		With relaxed and exact string match, improved Alpino handling of iXxxx, improved head-matching
+30/10/2015		69.60/52.92/60.12			27.50/45.21/34.20	36.62		Relaxed string match is now case-insensitive for non-names
