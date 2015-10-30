@@ -230,10 +230,8 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 			
 # Add features (number, gender, animacy, NEtype, person) to a mention
 def add_mention_features(mention):
-	print mention.__dict__
 	# Base mention features on attributes of first headword
 	attribs = mention.tokenAttribs[mention.head_begin]
-#	print attribs
 	''' Extract number attribute '''
 	try:
 		if 'num' not in attribs and 'rnum' in attribs:
@@ -272,7 +270,6 @@ def add_mention_features(mention):
 		mention.person = attribs['persoon'][0]
 		if attribs['persoon'] == 'persoon':
 			mention.person = 'unknown'
-	''' Extract animacy attribute '''
 	''' Extract named-entity-type attribute '''
 	if 'neclass' in attribs:
 		if attribs['neclass'] == 'LOC':
@@ -289,8 +286,21 @@ def add_mention_features(mention):
 			mention.NEtype = 'unknown'
 	if mention.type.lower() == 'name' and not mention.NEtype:
 		mention.NEtype = 'unknown'	
-	print mention.__dict__
-#	raise SystemExit
+	''' Extract animacy attribute '''
+	if mention.NEtype == 'person':
+		mention.animacy = 'animate'	
+	elif mention.NEtype == 'organization':
+		mention.animacy = 'organization'
+	elif mention.NEtype:
+		mention.animacy = 'inanimate'
+	if mention.type.lower() == 'pronoun':
+		if attribs['vwtype'] == 'vb':
+			mention.animacy = 'inanimate'
+		else:
+			mention.animacy = 'animate'	
+	if not mention.animacy:
+		'''fancy animacy classification here, or not?'''
+		pass
 	return mention
 
 # Stitch multi-word name mentions together
