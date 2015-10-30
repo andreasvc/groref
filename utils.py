@@ -3,7 +3,7 @@
 import colorama as c
 import re, sys, os
 import xml.etree.ElementTree as ET
-
+from time import sleep
 ### GLOBAL VARIABLES ###
 
 # List of Dutch Stop words (http://www.ranks.nl/stopwords/dutch)
@@ -35,7 +35,7 @@ class Mention:
 		self.tokenAttribs = [] # List of dictionaries containing alpino output for each token/node
 		# All features can have value 'unknown' when no value can be extracted
 		self.number = '' # Mention number, from {'singular', 'plural', 'both'}
-		self.gender = '' # Mention gender, from {'male', 'female', 'neuter'}
+		self.gender = '' # Mention gender, from {'male', 'female', 'neuter', 'nonneuter'} 
 		self.person = '' # Pronoun-mention person, from {'1', '2', '3'}
 		self.animacy = '' # Mention animacy, from {'animate', 'inanimate', 'organization'}
 		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}	
@@ -230,7 +230,7 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 			
 # Add features (number, gender, animacy, NEtype, person) to a mention
 def add_mention_features(mention):
-#	print mention.__dict__
+	print mention.__dict__
 	# Base mention features on attributes of first headword
 	attribs = mention.tokenAttribs[mention.head_begin]
 #	print attribs
@@ -254,7 +254,20 @@ def add_mention_features(mention):
 	except KeyError:
 		mention.number = 'unknown'
 	''' Extract gender attribute '''
-#	print mention.__dict__
+	if 'genus' in attribs:
+		if attribs['genus'] == 'masc':
+			mention.gender = 'male'
+		elif attribs['genus'] == 'onz':
+			mention.gender = 'neuter'
+		elif attribs['genus'] == 'zijd':
+			mention.gender = 'nonneuter'
+	if 'neclass' in attribs:
+		if attribs['neclass'] == 'PER':
+			'''separate gender classification for persons'''
+			pass
+	if not mention.gender:
+		mention.gender = 'unknown'
+	print mention.__dict__
 #	raise SystemExit
 	return mention
 
