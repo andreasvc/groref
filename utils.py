@@ -267,6 +267,13 @@ def add_mention_features(mention):
 			pass
 	if not mention.gender:
 		mention.gender = 'unknown'
+	''' Extract person attribute for pronouns '''
+	if mention.type.lower() == 'pronoun':
+		mention.person = attribs['persoon'][0]
+		if attribs['persoon'] == 'persoon':
+			mention.person = 'unknown'
+	''' Extract animacy attribute '''
+		
 	print mention.__dict__
 #	raise SystemExit
 	return mention
