@@ -273,7 +273,22 @@ def add_mention_features(mention):
 		if attribs['persoon'] == 'persoon':
 			mention.person = 'unknown'
 	''' Extract animacy attribute '''
-		
+	''' Extract named-entity-type attribute '''
+	if 'neclass' in attribs:
+		if attribs['neclass'] == 'LOC':
+			mention.NEtype = 'location'
+		elif attribs['neclass'] == 'ORG':
+			mention.NEtype = 'organization'
+		elif attribs['neclass'] == 'PER':
+			mention.NEtype = 'person'
+		elif attribs['neclass'] == 'MISC':
+			mention.NEtype = 'misc'
+		elif attribs['neclass'] == 'year':
+			mention.NEtype = 'year'
+		else:
+			mention.NEtype = 'unknown'
+	if mention.type.lower() == 'name' and not mention.NEtype:
+		mention.NEtype = 'unknown'	
 	print mention.__dict__
 #	raise SystemExit
 	return mention
