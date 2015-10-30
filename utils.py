@@ -33,6 +33,12 @@ class Mention:
 		self.head_end = 0
 		self.headWords = []
 		self.tokenAttribs = [] # List of dictionaries containing alpino output for each token/node
+		self.number = '' # Mention number, from {'singular', 'plural', 'both'}
+		self.gender = '' # Mention gender, from {'male', 'female', 'neuter'}
+		self.person = '' # Pronoun-mention person, from {'1', '2', '3'}
+		self.animacy = '' # Mention animacy, from {'animate', 'inanimate', 'organization'}
+		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}
+		
 		
 # Class for 'cluster'-objects
 class Cluster:
