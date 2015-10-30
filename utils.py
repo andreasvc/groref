@@ -170,8 +170,8 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 				if 'rel' in new_ment.tokenAttribs[i] and new_ment.tokenAttribs[i]['rel'] == 'hd':
 					headRange.append(i)
 			if len (headRange) == 0:
-				new_ment.head_begin = new_ment.end - 1
-				new_ment.head_end = new_ment.end
+				new_ment.head_begin = new_ment.end - 1 - new_ment.begin
+				new_ment.head_end = new_ment.end - new_ment.begin
 				new_ment.headWords = [new_ment.tokenList[-1]]
 			else:
 				new_ment.head_begin = headRange[0]
@@ -203,7 +203,7 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		new_ment.head_begin = len(new_ment.tokenList) - 1
 		new_ment.head_end = len(new_ment.tokenList)
 		new_ment.headWords = new_ment.tokenList[-1:]
-		if re.search('^[0-9]+$', new_ment.tokenList[-1]): # Head cannot just be numbers
+		if not re.search('[a-zA-Z]', new_ment.tokenList[-1]): # Head cannot just be numbers, need to contain letters
 			new_ment.head_begin = len(new_ment.tokenList) - 2
 			new_ment.head_end = len(new_ment.tokenList) - 1
 			new_ment.headWords = new_ment.tokenList[-2:-1]
@@ -221,14 +221,41 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 	new_ment = add_mention_features(new_ment) # Add features for pronoun resolution
 	return new_ment
 	
+	'''	# All features can have value 'unknown' when no value can be extracted
+		self.number = '' # Mention number, from {'singular', 'plural', 'both'}
+		self.gender = '' # Mention gender, from {'male', 'female', 'neuter'}
+		self.person = '' # Pronoun-mention person, from {'1', '2', '3'}
+		self.animacy = '' # Mention animacy, from {'animate', 'inanimate', 'organization'}
+		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}	'''
+			
 # Add features (number, gender, animacy, NEtype, person) to a mention
 def add_mention_features(mention):
-	print mention.__dict__
-	# Base mention features on attributes of headwords
-	for headWord in mention.headWords:
-		pass
-	print mention.__dict__
-	raise SystemExit
+#	print mention.__dict__
+	# Base mention features on attributes of first headword
+	attribs = mention.tokenAttribs[mention.head_begin]
+#	print attribs
+	''' Extract number attribute '''
+	try:
+		if 'num' not in attribs and 'rnum' in attribs:
+			attribs['num'] = attribs['rnum']
+		if 'num' not in attribs and 'rnum' not in attribs and 'getal' in attribs:
+			attribs['num'] = attribs['getal']
+		if attribs['num'] in ['sg', 'ev']:
+			mention.number = 'singular'
+		elif attribs['num'] in ['pl', 'mv']:
+			mention.number = 'plural'
+		elif attribs['num'] == 'both':
+			mention.number = 'both'
+		else:
+			mention.number = 'unknown'
+		if 'neclass' in attribs:
+			if attribs['neclass'] == 'ORG':
+				mention.number = 'both'
+	except KeyError:
+		mention.number = 'unknown'
+	''' Extract gender attribute '''
+#	print mention.__dict__
+#	raise SystemExit
 	return mention
 
 # Stitch multi-word name mentions together
