@@ -73,6 +73,13 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 			sieveHeadMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 0, verbosity)
 		if verbosity == 'high':		
 			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
+	## pronoun resolution sieve (sieve 10)
+	if 10 in sieveList:
+		old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
+		mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+			sievePronounResolution(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 0, verbosity)
+		if verbosity == 'high':		
+			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## Generate output
 	generate_conll(input_file, output_file + '_final', doc_tags, sentenceDict, mention_dict)	
 	
