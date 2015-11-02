@@ -45,15 +45,22 @@ def sievePronounResolution(mention_id_list, mention_dict, cluster_dict, cluster_
 						matchNER = False
 						cluster_mention = mention_dict[ment_id]
 #						print cluster_mention.tokenList, cluster_mention.type, cluster_mention.number, cluster_mention.gender, cluster_mention.animacy, cluster_mention.NEtype
-						if cluster_mention.number == anaphor.number:
+						if cluster_mention.number == anaphor.number or anaphor.number == 'unknown':
 							matchNumber = True
-						if cluster_mention.gender == anaphor.gender:
+						if cluster_mention.gender == anaphor.gender or anaphor.gender == 'unknown':
 							matchGender = True
 						if anaphor.animacy == 'animate':
 							if cluster_mention.NEtype == 'person' or cluster_mention.NEtype == 'misc':
 								matchNER = True
+							if cluster_mention.NEtype == '' or cluster_mention.NEtype == 'unknown':
+								matchNER = True
+						else:
+							if cluster_mention.NEtype != 'person':
+								matchNER = True
+							if cluster_mention.NEtype == '' or cluster_mention.NEtype == 'unknown':
+								matchNER = True								
 						if cluster_mention.type.lower() == 'pronoun':
-							if cluster_mention.person == anaphor.person:
+							if cluster_mention.person == anaphor.person or anaphor.person == 'unknown':
 								matchPerson = True
 							if matchNumber and matchGender and matchPerson and matchNER:
 								madeLink = True

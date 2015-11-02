@@ -289,9 +289,12 @@ def add_mention_features(mention, ngdata):
 		mention.gender = 'unknown'
 	''' Extract person attribute for pronouns '''
 	if mention.type.lower() == 'pronoun':
-		mention.person = attribs['persoon'][0]
-		if attribs['persoon'] == 'persoon':
-			mention.person = 'unknown'
+		try:
+			mention.person = attribs['persoon'][0]
+			if attribs['persoon'] == 'persoon':
+				mention.person = 'unknown'
+		except KeyError:
+			mention.persoon = 'unknown'
 	''' Extract named-entity-type attribute '''
 	if 'neclass' in attribs:
 		if attribs['neclass'] == 'LOC':
