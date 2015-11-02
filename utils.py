@@ -346,6 +346,13 @@ def initialize_clusters(mention_dict, mention_id_list):
 		cluster_id_list.append(new_cluster.ID)
 	return cluster_dict, cluster_id_list, mention_dict
 	
+# Reads in noun phrase number-gender data
+def read_number_gender_data(filename):
+	ngdata = {} # Format: {NP: [masc, fem, neuter, plural]}
+	for line in open(filename, 'r'):
+		split_line = line.strip().split('\t')
+		ngdata[split_line[0]] = split_line[1:]
+	
 ### MENTION PRINTING ###
 	
 # Human-readable printing of the output of the mention detection sieve	

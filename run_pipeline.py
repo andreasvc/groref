@@ -131,6 +131,11 @@ if __name__ == '__main__':
 	# Put output in timestamped sub-folder of results/
 	timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 	print 'Timestamp for this run is: %s' % timestamp
+	if args.verbosity == 'high':
+		print 'Reading in number-gender data...'	
+	ngdata = read_number_gender_data('ngdata') # Read in number-gender data
+	if args.verbosity == 'high':
+		print 'Done!'
 	os.system('mkdir -p results/' + timestamp)
 	if os.path.isdir(args.target):
 		args.target += '/'
