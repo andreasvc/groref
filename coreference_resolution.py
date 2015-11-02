@@ -11,6 +11,7 @@ from mentionDetection import mentionDetection
 from sieveDummy import sieveDummy
 from sieveHeadMatch import sieveHeadMatch
 from sieveStringMatch import sieveStringMatch
+from sievePronounResolution import sievePronounResolution
 
 def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses
@@ -77,7 +78,7 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 	if 10 in sieveList:
 		old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 		mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
-			sievePronounResolution(mention_id_list, mention_dict, cluster_dict, cluster_id_list, 0, verbosity)
+			sievePronounResolution(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity)
 		if verbosity == 'high':		
 			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## Generate output
