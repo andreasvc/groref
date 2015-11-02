@@ -150,7 +150,7 @@ def get_mention_id_list_per_sentence(mention_id_list, mention_dict):
 	
 ### MENTION DETECTION HELPERS ###
 # Helper for mentionDetection()
-def make_mention(begin, end, tree, mention_type, sentNum):
+def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
 	global mentionID
 	new_ment = Mention(mentionID)
 	mentionID += 1
@@ -218,7 +218,7 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 			new_ment.headWords = new_ment.tokenList[-1:]
 	# Make all head words lower case or not? Yes, because it works, but I don't know why, since precision goes up and recall down
 	new_ment.headWords = [headWord.lower() for headWord in new_ment.headWords]
-	new_ment = add_mention_features(new_ment) # Add features for pronoun resolution
+	new_ment = add_mention_features(new_ment, ngdata) # Add features for pronoun resolution
 	return new_ment
 	
 	'''	# All features can have value 'unknown' when no value can be extracted
@@ -229,7 +229,7 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}	'''
 			
 # Add features (number, gender, animacy, NEtype, person) to a mention
-def add_mention_features(mention):
+def add_mention_features(mention, ngdata):
 	# Base mention features on attributes of first headword
 	attribs = mention.tokenAttribs[mention.head_begin]
 	''' Extract number attribute '''
@@ -304,7 +304,7 @@ def add_mention_features(mention):
 	return mention
 
 # Stitch multi-word name mentions together
-def stitch_names(node_list, tree, sentNum):
+def stitch_names(node_list, tree, sentNum, ngdata):
 	node_list.sort(key=lambda node: int(node.attrib['begin']))
 	added = [False] * len(node_list)
 	mentions = []
@@ -319,7 +319,7 @@ def stitch_names(node_list, tree, sentNum):
 					added[next_idx] = True
 				else:
 					break
-			mentions.append(make_mention(beg_val, end_val, tree, 'name', sentNum))
+			mentions.append(make_mention(beg_val, end_val, tree, 'name', sentNum, ngdata))
 	return mentions
 
 # Sort mentions in list by sentNum, begin, end

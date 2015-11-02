@@ -12,7 +12,7 @@ from sieveDummy import sieveDummy
 from sieveHeadMatch import sieveHeadMatch
 from sieveStringMatch import sieveStringMatch
 
-def main(input_file, output_file, doc_tags, verbosity, sieveList):
+def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses
 	# Read input files
 	try:
@@ -28,7 +28,7 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList):
 	## mention_id_list contains list of mention IDs in right order, for traversing in sieves
 	## mention_dict contains the actual mentions, format: {id: Mention}
 	## cluster_dict contains all clusters, in a dict
-	mention_id_list, mention_dict = mentionDetection(conll_list, xml_tree_list, input_file, verbosity, sentenceDict)
+	mention_id_list, mention_dict = mentionDetection(conll_list, xml_tree_list, input_file, verbosity, sentenceDict, ngdata)
 	if verbosity == 'high':
 		print 'OUR MENTION OUTPUT:'
 		print_mentions_inline(sentenceDict, mention_id_list, mention_dict)
