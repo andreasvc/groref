@@ -220,14 +220,7 @@ def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
 	new_ment.headWords = [headWord.lower() for headWord in new_ment.headWords]
 	new_ment = add_mention_features(new_ment, ngdata) # Add features for pronoun resolution
 	return new_ment
-	
-	'''	# All features can have value 'unknown' when no value can be extracted
-		self.number = '' # Mention number, from {'singular', 'plural', 'both'}
-		self.gender = '' # Mention gender, from {'male', 'female', 'neuter'}
-		self.person = '' # Pronoun-mention person, from {'1', '2', '3'}
-		self.animacy = '' # Mention animacy, from {'animate', 'inanimate', 'organization'}
-		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}	'''
-			
+				
 # Add features (number, gender, animacy, NEtype, person) to a mention
 def add_mention_features(mention, ngdata):
 	# Base mention features on attributes of first headword
@@ -259,10 +252,35 @@ def add_mention_features(mention, ngdata):
 			mention.gender = 'neuter'
 		elif attribs['genus'] == 'zijd':
 			mention.gender = 'nonneuter'
-	if 'neclass' in attribs:
-		if attribs['neclass'] == 'PER':
-			'''separate gender classification for persons'''
-			pass
+	if 'neclass' in attribs or mention.type.lower() == 'name':
+		'''separate gender classification for NEs (mentions with NE heads)'''
+		lowered_token_list = [token.lower() for token in mention.tokenList]
+		gender_data = [0, 0, 0, 0]
+		try:
+			gender_data = [a + b for a, b in zip(gender_data, ngdata[' '.join(lowered_token_list)])]
+		except KeyError:
+			try: # If not found exactly, try with only headwords
+				lowered_head_list = [head.lower() for head in mention.headWords]
+				gender_data = [a + b for a, b in zip(gender_data, ngdata[' '.join(lowered_head_list)])]
+			except KeyError: # If still not found, sum all things starting and ending with the individual head words
+				try:
+					for lowered_head in lowered_head_list:
+						gender_data = [a + b for a, b in zip(gender_data, ngdata[lowered_head + ' !'])]
+						gender_data = [a + b for a, b in zip(gender_data, ngdata['! ' + lowered_head])]
+				except KeyError: # If still nothing, give up
+					gender_data = [0, 0, 0, 0]
+		# If more than a third of total counts in either column, classify as such
+		if gender_data[0] > sum(gender_data)/3:
+			mention.gender = 'male'
+		elif gender_data[1] > sum(gender_data)/3:
+			mention.gender = 'female'
+		elif gender_data[0] > sum(gender_data)/3 and gender_data[1] > sum(gender_data)/3:
+			mention.gender = 'nonneuter'
+		elif gender_data[2] > sum(gender_data)/3:
+			mention.gender = 'neuter'
+		elif gender_data[3] > sum(gender_data)/3:							
+			mention.number = 'plural'
+			mention.gender = 'neuter'
 	if not mention.gender:
 		mention.gender = 'unknown'
 	''' Extract person attribute for pronouns '''
@@ -351,7 +369,8 @@ def read_number_gender_data(filename):
 	ngdata = {} # Format: {NP: [masc, fem, neuter, plural]}
 	for line in open(filename, 'r'):
 		split_line = line.strip().split('\t')
-		ngdata[split_line[0]] = split_line[1:]
+		ngdata[split_line[0]] = [int(x) for x in split_line[1].split(' ')]
+	return ngdata
 	
 ### MENTION PRINTING ###
 	
