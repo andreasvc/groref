@@ -163,6 +163,10 @@ def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
 		node = tree.find(".//node[@word][@begin='" + str(i) + "']")
 		new_ment.tokenList.append(node.attrib["word"])
 		new_ment.tokenAttribs.append(node.attrib)
+	# Extract additional pronouns
+	if len(new_ment.tokenAttribs) == 1:
+		if 'pronoun' in new_ment.tokenAttribs[0]['frame'].lower():
+			new_ment.type = 'pronoun'
 	if mention_type.lower()[:2] == 'np':
 		if mention_type.lower() == 'np_comma':
 			headRange = []
