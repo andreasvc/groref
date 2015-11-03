@@ -13,7 +13,7 @@ stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een',
 mentionID = 0 
 
 # List of implemented sieves
-allSieves = [1, 2, 5, 6, 7, 9, 10]
+allSieves = [1,2, 4, 5, 6, 7, 9, 10]
 
 ### CLASSES ### 
 
@@ -40,7 +40,7 @@ class Mention:
 		self.person = '' # Pronoun-mention person, from {'1', '2', '3'}
 		self.animacy = '' # Mention animacy, from {'animate', 'inanimate', 'organization'}
 		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}	
-		
+		self.pron_type = ''#relative pronouns
 		
 # Class for 'cluster'-objects
 class Cluster:
@@ -294,8 +294,10 @@ def add_mention_features(mention, ngdata):
 	if mention.type.lower() == 'pronoun':
 		try:
 			mention.person = attribs['persoon'][0]
+			mention.pron_type = attribs['vwtype']
 			if attribs['persoon'] == 'persoon':
 				mention.person = 'unknown'
+			
 		except KeyError:
 			mention.persoon = 'unknown'
 	''' Extract named-entity-type attribute '''

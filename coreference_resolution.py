@@ -11,6 +11,7 @@ from mentionDetection import mentionDetection
 from sieveDummy import sieveDummy
 from sieveSpeakerIdentification import sieveSpeakerIdentification
 from sieveHeadMatch import sieveHeadMatch
+from sievePreciseConstructs import sievePreciseConstructs
 from sieveStringMatch import sieveStringMatch
 from sievePronounResolution import sievePronounResolution
 
@@ -40,7 +41,7 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 		print_gold_mentions(conll_list, sentenceDict)								
 	cluster_dict, cluster_id_list, mention_dict = initialize_clusters(mention_dict, mention_id_list)
 	## APPLY SIEVES HERE
-	## speaker identification:
+	## speaker identification (sieve 1):
 	if 1 in sieveList:
 		old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 		mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
@@ -52,6 +53,13 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 		old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 		mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
 			sieveStringMatch(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity)
+		if verbosity == 'high':
+			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes	
+	## Precise Constructs (sieve 4)
+	if 4 in sieveList:
+		old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
+		mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+			sievePreciseConstructs(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity)
 		if verbosity == 'high':
 			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## strictest head matching sieve (sieve 5)	
