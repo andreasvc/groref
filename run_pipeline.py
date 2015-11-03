@@ -10,7 +10,7 @@ import preprocess_clin_data
 import coreference_resolution
 from utils import *
 
-def processDocument(filename, verbosity, sieveList):
+def processDocument(filename, verbosity, sieveList, ngdata):
 	''' Do preprocessing, coreference resolution and evaluation for a single 
 	document.
 	'''
@@ -27,20 +27,20 @@ def processDocument(filename, verbosity, sieveList):
 		preprocess_clin_data.preprocess_file(filename)
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
-			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity, sieveList)
+			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity, sieveList, ngdata)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename + '_final', "none"], stdout = scores_file)
 		else:
-			coreference_resolution.main(filename, output_filename, True, verbosity, sieveList)
+			coreference_resolution.main(filename, output_filename, True, verbosity, sieveList, ngdata)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename + '_final', "none"], stdout = scores_file)
 		
-def processDirectory(dirname, verbosity, sieveList):
+def processDirectory(dirname, verbosity, sieveList, ngdata):
 	'''Do preprocessing, coreference resolution and evaluation for all 
 	documents in a directory.
 	'''
 	for filename in os.listdir(dirname):
 		if os.path.isfile(dirname + filename):
 			if re.search('.xml.coref_ne$', filename) or re.search('.xml.conll$', filename):
-				processDocument(dirname + filename, verbosity, sieveList)
+				processDocument(dirname + filename, verbosity, sieveList, ngdata)
 				
 def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 	''' Aggregates and formats evaluation scores of one or more documents,
@@ -131,24 +131,29 @@ if __name__ == '__main__':
 	# Put output in timestamped sub-folder of results/
 	timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 	print 'Timestamp for this run is: %s' % timestamp
+	if args.verbosity == 'high':
+		print 'Reading in number-gender data...'	
+	ngdata = read_number_gender_data('ngdata') # Read in number-gender data
+	if args.verbosity == 'high':
+		print 'Done!'
 	os.system('mkdir -p results/' + timestamp)
 	if os.path.isdir(args.target):
 		args.target += '/'
 		if args.per_sieve:
 			for i in range(0, len(allSieves) + 1):
-				processDirectory(args.target, 'none', allSieves[:i])
+				processDirectory(args.target, 'none', allSieves[:i], ngdata)
 				print 'using these sieves: ' + str(allSieves[:i])
 				postProcessScores('results/' + timestamp, 'low', True)				
 		else:
-			processDirectory(args.target, args.verbosity, range(0, 20)) # Give range(0,20) as sieveList, so that all sieves are applied
+			processDirectory(args.target, args.verbosity, range(0, 20), ngdata) # Give range(0,20) as sieveList, so that all sieves are applied
 	elif os.path.isfile(args.target):
 		if args.per_sieve:
 			for i in range(0, len(allSieves)):
-				processDocument(args.target, 'none', allSieves[:i+1])
+				processDocument(args.target, 'none', allSieves[:i+1], ngdata)
 				print 'using these sieves: ' + str(allSieves[:i+1])
 				postProcessScores('results/' + timestamp, 'low', True)
 		else:
-			processDocument(args.target, args.verbosity, range(0, 20))
+			processDocument(args.target, args.verbosity, range(0, 20), ngdata)
 	else:
 		print 'Incorrect input file or directory'
 		raise SystemExit

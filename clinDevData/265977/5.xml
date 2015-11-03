@@ -16,9 +16,9 @@
           <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="demonstratie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="demonstratie" sense="demonstratie" word="demonstratie"/>
           <node begin="6" cat="pp" end="9" id="13" rel="mod">
             <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
-            <node begin="7" cat="np" end="9" id="15" rel="obj1">
-              <node begin="7" end="8" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="iOS" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iOS" sense="iOS" word="iOS"/>
-              <node begin="8" end="9" frame="number(hoofd(pl_num))" id="17" infl="pl_num" lcat="detp" lemma="5" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="5" sense="5" special="hoofd" word="5"/>
+            <node begin="7" cat="mwu" end="9" id="15" mwu_root="iOS 5" mwu_sense="iOS 5" rel="obj1">
+              <node begin="7" end="8" frame="proper_name(both,'ORG')" id="16" lcat="np" lemma="iOS" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iOS" sense="iOS" spectype="deeleigen" word="iOS"/>
+              <node begin="8" end="9" frame="proper_name(both,'ORG')" id="17" lcat="np" lemma="5" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="5" sense="5" spectype="deeleigen" word="5"/>
             </node>
           </node>
         </node>
@@ -52,6 +52,6 @@
   </node>
   <sentence>Het bedrijf gaf ook een demonstratie van iOS 5 , een nieuwe versie van het besturingssysteem voor iPhones , iPod Touches en iPads .</sentence>
   <comments>
-    <comment>Q#5|Het bedrijf gaf ook een demonstratie van iOS 5 , een nieuwe versie van het besturingssysteem voor iPhones , iPod Touches en iPads .|1|1|-4.501633198140011</comment>
+    <comment>Q#5|Het bedrijf gaf ook een demonstratie van iOS 5 , een nieuwe versie van het besturingssysteem voor iPhones , iPod Touches en iPads .|1|1|-5.393341751820005</comment>
   </comments>
 </alpino_ds>

@@ -17,9 +17,9 @@
         <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,ninv(np_pc_pp(tot),part_np_pc_pp(om,tot)))" id="12" infl="psp" lcat="ppart" lemma="om_dopen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="doop_om" sc="part_np_pc_pp(om,tot)" sense="doop_om-tot" word="omgedoopt" wvorm="vd"/>
         <node begin="6" cat="pp" end="9" id="13" rel="pc">
           <node begin="6" end="7" frame="preposition(tot,[toe,[aan,toe]])" id="14" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
-          <node begin="7" cat="np" end="9" id="15" rel="obj1">
-            <node begin="7" end="8" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" id="16" lcat="np" lemma="iTunes" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="mod" rnum="sg" root="iTunes" sense="iTunes" word="iTunes"/>
-            <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="store" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="store" sense="store" word="Store"/>
+          <node begin="7" cat="mwu" end="9" id="15" mwu_root="iTunes Store" mwu_sense="iTunes Store" rel="obj1">
+            <node begin="7" end="8" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="iTunes" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iTunes" sense="iTunes" spectype="deeleigen" word="iTunes"/>
+            <node begin="8" end="9" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="Store" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Store" sense="Store" spectype="deeleigen" word="Store"/>
           </node>
         </node>
         <node begin="9" cat="cp" end="21" id="18" rel="mod">
@@ -52,6 +52,6 @@
   </node>
   <sentence>De winkel werd in 2006 omgedoopt tot iTunes Store omdat Apple toen naast muziek ook andere media introduceerde , waaronder films .</sentence>
   <comments>
-    <comment>Q#6|De winkel werd in 2006 omgedoopt tot iTunes Store omdat Apple toen naast muziek ook andere media introduceerde , waaronder films .|1|1|-1.652840357660003</comment>
+    <comment>Q#6|De winkel werd in 2006 omgedoopt tot iTunes Store omdat Apple toen naast muziek ook andere media introduceerde , waaronder films .|1|1|-2.394938734920006</comment>
   </comments>
 </alpino_ds>

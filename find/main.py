@@ -1,10 +1,6 @@
 import find_errors
 import count_nodes
 
-def query(node):
-	return node.findall('@node[cat="np"]')
-
-
 def create_dict(data):
 	feats_dict = {}
 	for word in data:
@@ -29,12 +25,10 @@ def clean_attribs(atr_dict):
     del attributes['root']
 """
 if __name__ == '__main__':
-	errors = find_errors.get_errors([3], query)
+	errors = find_errors.get_errors()
 	err_dict = create_dict(errors)
-	for featName in sorted(err_dict, key=err_dict.get):
-		print featName, err_dict[featName]
 	"""
-	all_counts = count_nodes.get_total_counts(query)
+	all_counts = count_nodes.get_total_counts()
 	all_dict = create_dict(all_counts)
 
 	results = []
@@ -47,16 +41,3 @@ if __name__ == '__main__':
 	print(len(errors))
 	print(len(all_counts))
 	"""
-"""
-			parent = tree.find('.//node[@id="' + subtree.attrib['id'] + '"]..')
-			if 'cat' in parent.attrib:
-				sys.stdout.write(parent.attrib['cat'] + '\t')
-			for child in parent.findall('./node'):
-				if 'pos' in child.attrib:
-					sys.stdout.write(child.attrib['pos'] + ' ' + str(child.attrib['id'] == subtree.attrib['id']) + '\t')
-				elif 'cat' in child.attrib:
-					sys.stdout.write('CAT: ' + child.attrib['cat'])
-				else:
-					sys.stdout.write('REL: ' + child.attrib['rel'])
-			sys.stdout.write('\n')
-"""

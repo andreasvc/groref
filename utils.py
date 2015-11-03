@@ -3,7 +3,7 @@
 import colorama as c
 import re, sys, os
 import xml.etree.ElementTree as ET
-
+from time import sleep
 ### GLOBAL VARIABLES ###
 
 # List of Dutch Stop words (http://www.ranks.nl/stopwords/dutch)
@@ -13,7 +13,7 @@ stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een',
 mentionID = 0 
 
 # List of implemented sieves
-allSieves = [2, 5, 6, 7, 9]
+allSieves = [2, 5, 6, 7, 9, 10]
 
 ### CLASSES ### 
 
@@ -33,6 +33,12 @@ class Mention:
 		self.head_end = 0
 		self.headWords = []
 		self.tokenAttribs = [] # List of dictionaries containing alpino output for each token/node
+		# All features can have value 'unknown' when no value can be extracted
+		self.number = '' # Mention number, from {'singular', 'plural', 'both'}
+		self.gender = '' # Mention gender, from {'male', 'female', 'neuter', 'nonneuter'} 
+		self.person = '' # Pronoun-mention person, from {'1', '2', '3'}
+		self.animacy = '' # Mention animacy, from {'animate', 'inanimate', 'organization'}
+		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}	
 		
 # Class for 'cluster'-objects
 class Cluster:
@@ -144,7 +150,7 @@ def get_mention_id_list_per_sentence(mention_id_list, mention_dict):
 	
 ### MENTION DETECTION HELPERS ###
 # Helper for mentionDetection()
-def make_mention(begin, end, tree, mention_type, sentNum):
+def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
 	global mentionID
 	new_ment = Mention(mentionID)
 	mentionID += 1
@@ -153,16 +159,34 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 	new_ment.end = int(end)
 	new_ment.numTokens = new_ment.end - new_ment.begin
 	new_ment.sentNum = sentNum
-	for node in tree.findall(".//node[@word]"):
-		if int(node.attrib['begin']) >= int(begin) and int(node.attrib['end']) <= int(end):
-			new_ment.tokenList.append(node.attrib["word"])
-			new_ment.tokenAttribs.append(node.attrib)
+	for i in range(new_ment.begin, new_ment.end ):
+		node = tree.find(".//node[@word][@begin='" + str(i) + "']")
+		new_ment.tokenList.append(node.attrib["word"])
+		new_ment.tokenAttribs.append(node.attrib)
+	# Extract additional pronouns
+	if len(new_ment.tokenAttribs) == 1:
+		if 'pronoun' in new_ment.tokenAttribs[0]['frame'].lower():
+			new_ment.type = 'pronoun'
 	if mention_type.lower()[:2] == 'np':
-		mention_node = tree.find(".//node[@cat='np'][@begin='" + begin + "'][@end='" + end + "']")
-		head_node = mention_node.find("./node[@rel='hd']")
-		new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
-		new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
-		new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
+		if mention_type.lower() == 'np_comma':
+			headRange = []
+			for i in range(len(new_ment.tokenAttribs)):
+				if 'rel' in new_ment.tokenAttribs[i] and new_ment.tokenAttribs[i]['rel'] == 'hd':
+					headRange.append(i)
+			if len (headRange) == 0:
+				new_ment.head_begin = new_ment.end - 1 - new_ment.begin
+				new_ment.head_end = new_ment.end - new_ment.begin
+				new_ment.headWords = [new_ment.tokenList[-1]]
+			else:
+				new_ment.head_begin = headRange[0]
+				new_ment.head_end = headRange[-1] + 1
+				new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
+		else:
+			mention_node = tree.find(".//node[@cat='np'][@begin='" + str(begin) + "'][@end='" + str(end) + "']")
+			head_node = mention_node.find("./node[@rel='hd']")
+			new_ment.head_begin = int(head_node.attrib['begin']) - new_ment.begin
+			new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
+			new_ment.headWords = new_ment.tokenList[new_ment.head_begin:new_ment.head_end]
 	elif mention_type.lower() == 'su': # Deal with su's in a hacky way
 		mention_node = tree.find(".//node[@begin='" + begin + "'][@end='" + end + "']")
 		if mention_node is not None:
@@ -183,6 +207,10 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 		new_ment.head_begin = len(new_ment.tokenList) - 1
 		new_ment.head_end = len(new_ment.tokenList)
 		new_ment.headWords = new_ment.tokenList[-1:]
+		if not re.search('[a-zA-Z]', new_ment.tokenList[-1]): # Head cannot just be numbers, need to contain letters
+			new_ment.head_begin = len(new_ment.tokenList) - 2
+			new_ment.head_end = len(new_ment.tokenList) - 1
+			new_ment.headWords = new_ment.tokenList[-2:-1]
 	elif mention_type.lower() == 'noun':
 		new_ment.head_begin = 0
 		new_ment.head_end = 1
@@ -194,10 +222,114 @@ def make_mention(begin, end, tree, mention_type, sentNum):
 			new_ment.headWords = new_ment.tokenList[-1:]
 	# Make all head words lower case or not? Yes, because it works, but I don't know why, since precision goes up and recall down
 	new_ment.headWords = [headWord.lower() for headWord in new_ment.headWords]
+	new_ment = add_mention_features(new_ment, ngdata) # Add features for pronoun resolution
 	return new_ment
+				
+# Add features (number, gender, animacy, NEtype, person) to a mention
+def add_mention_features(mention, ngdata):
+	# Base mention features on attributes of first headword
+	attribs = mention.tokenAttribs[mention.head_begin]
+	''' Extract number attribute '''
+	try:
+		if 'num' not in attribs and 'rnum' in attribs:
+			attribs['num'] = attribs['rnum']
+		if 'num' not in attribs and 'rnum' not in attribs and 'getal' in attribs:
+			attribs['num'] = attribs['getal']
+		if attribs['num'] in ['sg', 'ev']:
+			mention.number = 'singular'
+		elif attribs['num'] in ['pl', 'mv']:
+			mention.number = 'plural'
+		elif attribs['num'] == 'both':
+			mention.number = 'both'
+		else:
+			mention.number = 'unknown'
+		if 'neclass' in attribs:
+			if attribs['neclass'] == 'ORG':
+				mention.number = 'both'
+	except KeyError:
+		mention.number = 'unknown'
+	''' Extract gender attribute '''
+	if 'genus' in attribs:
+		if attribs['genus'] == 'masc':
+			mention.gender = 'male'
+		elif attribs['genus'] == 'onz':
+			mention.gender = 'neuter'
+		elif attribs['genus'] == 'zijd':
+			mention.gender = 'nonneuter'
+	if 'neclass' in attribs or mention.type.lower() == 'name':
+		'''separate gender classification for NEs (mentions with NE heads)'''
+		lowered_token_list = [token.lower() for token in mention.tokenList]
+		gender_data = [0, 0, 0, 0]
+		try:
+			gender_data = [a + b for a, b in zip(gender_data, ngdata[' '.join(lowered_token_list)])]
+		except KeyError:
+			try: # If not found exactly, try with only headwords
+				lowered_head_list = [head.lower() for head in mention.headWords]
+				gender_data = [a + b for a, b in zip(gender_data, ngdata[' '.join(lowered_head_list)])]
+			except KeyError: # If still not found, sum all things starting and ending with the individual head words
+				try:
+					for lowered_head in lowered_head_list:
+						gender_data = [a + b for a, b in zip(gender_data, ngdata[lowered_head + ' !'])]
+						gender_data = [a + b for a, b in zip(gender_data, ngdata['! ' + lowered_head])]
+				except KeyError: # If still nothing, give up
+					gender_data = [0, 0, 0, 0]
+		# If more than a third of total counts in either column, classify as such
+		if gender_data[0] > sum(gender_data)/3:
+			mention.gender = 'male'
+		elif gender_data[1] > sum(gender_data)/3:
+			mention.gender = 'female'
+		elif gender_data[0] > sum(gender_data)/3 and gender_data[1] > sum(gender_data)/3:
+			mention.gender = 'nonneuter'
+		elif gender_data[2] > sum(gender_data)/3:
+			mention.gender = 'neuter'
+		elif gender_data[3] > sum(gender_data)/3:							
+			mention.number = 'plural'
+			mention.gender = 'neuter'
+	if not mention.gender:
+		mention.gender = 'unknown'
+	''' Extract person attribute for pronouns '''
+	if mention.type.lower() == 'pronoun':
+		try:
+			mention.person = attribs['persoon'][0]
+			if attribs['persoon'] == 'persoon':
+				mention.person = 'unknown'
+		except KeyError:
+			mention.persoon = 'unknown'
+	''' Extract named-entity-type attribute '''
+	if 'neclass' in attribs:
+		if attribs['neclass'] == 'LOC':
+			mention.NEtype = 'location'
+		elif attribs['neclass'] == 'ORG':
+			mention.NEtype = 'organization'
+		elif attribs['neclass'] == 'PER':
+			mention.NEtype = 'person'
+		elif attribs['neclass'] == 'MISC':
+			mention.NEtype = 'misc'
+		elif attribs['neclass'] == 'year':
+			mention.NEtype = 'year'
+		else:
+			mention.NEtype = 'unknown'
+	if mention.type.lower() == 'name' and not mention.NEtype:
+		mention.NEtype = 'unknown'	
+	''' Extract animacy attribute '''
+	if mention.NEtype == 'person':
+		mention.animacy = 'animate'	
+	elif mention.NEtype == 'organization':
+		mention.animacy = 'organization'
+	elif mention.NEtype:
+		mention.animacy = 'inanimate'
+	if mention.type.lower() == 'pronoun':
+		if attribs['vwtype'] == 'vb':
+			mention.animacy = 'inanimate'
+		else:
+			mention.animacy = 'animate'	
+	if not mention.animacy:
+		'''fancy animacy classification here, or not?'''
+		pass
+	return mention
 
 # Stitch multi-word name mentions together
-def stitch_names(node_list, tree, sentNum):
+def stitch_names(node_list, tree, sentNum, ngdata):
 	node_list.sort(key=lambda node: int(node.attrib['begin']))
 	added = [False] * len(node_list)
 	mentions = []
@@ -212,7 +344,7 @@ def stitch_names(node_list, tree, sentNum):
 					added[next_idx] = True
 				else:
 					break
-			mentions.append(make_mention(beg_val, end_val, tree, 'name', sentNum))
+			mentions.append(make_mention(beg_val, end_val, tree, 'name', sentNum, ngdata))
 	return mentions
 
 # Sort mentions in list by sentNum, begin, end
@@ -238,6 +370,14 @@ def initialize_clusters(mention_dict, mention_id_list):
 		cluster_dict[new_cluster.ID] = new_cluster
 		cluster_id_list.append(new_cluster.ID)
 	return cluster_dict, cluster_id_list, mention_dict
+	
+# Reads in noun phrase number-gender data
+def read_number_gender_data(filename):
+	ngdata = {} # Format: {NP: [masc, fem, neuter, plural]}
+	for line in open(filename, 'r'):
+		split_line = line.strip().split('\t')
+		ngdata[split_line[0]] = [int(x) for x in split_line[1].split(' ')]
+	return ngdata
 	
 ### MENTION PRINTING ###
 	
