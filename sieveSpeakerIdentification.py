@@ -57,6 +57,8 @@ def rang_recursive(rang, lst):
 					
 def sieveSpeakerIdentification(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity):
 	mention_ids_per_sentence = get_mention_id_list_per_sentence(mention_id_list, mention_dict)
+	if verbosity == 'high':
+		print 'Speaker identification...'
 	for cluster_id in cluster_id_list[:]:
 		madeLink = False
 		'''Initialize linking constraints here'''
@@ -89,10 +91,11 @@ def sieveSpeakerIdentification(mention_id_list, mention_dict, cluster_dict, clus
 							at = node.attrib
 							if 'frame' in at:
 								if at['frame'] == 'punct(aanhaal_both)':
+									Quote = True
 						if mention_dict[ment_id].type in su_list:
 							Subject = True							
 						if Subject and Quote:							
-							ana = []
+							anaphorlist = []
 							quote =	quote_range(anaphor_root)
 							sub_verb = find_sub(root)
 							for subj in mention_dict[ment_id].tokenAttribs:
@@ -106,9 +109,9 @@ def sieveSpeakerIdentification(mention_id_list, mention_dict, cluster_dict, clus
 											for node in anaphor_root.iter('node'):
 												at = node.attrib
 												if int(at['begin']) in range(q[0], q[1]) and 'pos' in at and at['pos'] == 'pron':
-														ana.append(at)
+														anaphorlist.append(at)
 							for attrib in anaphor.tokenAttribs:
-								for pron in ana:
+								for pron in anaphorlist:
 									if attrib['id'] == pron['id']:
 										if attrib['root'] in I:
 											madeLink = True

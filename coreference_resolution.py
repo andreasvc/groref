@@ -9,6 +9,7 @@ import argparse, copy, subprocess
 from utils import *
 from mentionDetection import mentionDetection
 from sieveDummy import sieveDummy
+from sieveSpeakerIdentification import sieveSpeakerIdentification
 from sieveHeadMatch import sieveHeadMatch
 from sieveStringMatch import sieveStringMatch
 from sievePronounResolution import sievePronounResolution
@@ -39,7 +40,14 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 		print_gold_mentions(conll_list, sentenceDict)								
 	cluster_dict, cluster_id_list, mention_dict = initialize_clusters(mention_dict, mention_id_list)
 	## APPLY SIEVES HERE
-	## string matching sieve(s) (sieve 2, sieve 3)
+	## speaker identification:
+	if 1 in sieveList:
+		old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
+		mention_id_list, mention_dict, cluster_dict, cluster_id_list = \
+			sieveSpeakerIdentification(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity)
+		if verbosity == 'high':
+			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
+	## string matching sieve(s) (sieve 2, sieve 3)	
 	if 2 in sieveList:
 		old_mention_dict = copy.deepcopy(mention_dict) # Store to print changes afterwards
 		mention_id_list, mention_dict, cluster_dict, cluster_id_list = \

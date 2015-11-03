@@ -13,7 +13,7 @@ stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit', 'een',
 mentionID = 0 
 
 # List of implemented sieves
-allSieves = [2, 5, 6, 7, 9, 10]
+allSieves = [1, 2, 5, 6, 7, 9, 10]
 
 ### CLASSES ### 
 
@@ -33,12 +33,14 @@ class Mention:
 		self.head_end = 0
 		self.headWords = []
 		self.tokenAttribs = [] # List of dictionaries containing alpino output for each token/node
+		self.tree = ''
 		# All features can have value 'unknown' when no value can be extracted
 		self.number = '' # Mention number, from {'singular', 'plural', 'both'}
 		self.gender = '' # Mention gender, from {'male', 'female', 'neuter', 'nonneuter'} 
 		self.person = '' # Pronoun-mention person, from {'1', '2', '3'}
 		self.animacy = '' # Mention animacy, from {'animate', 'inanimate', 'organization'}
 		self.NEtype = '' # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}	
+		
 		
 # Class for 'cluster'-objects
 class Cluster:
@@ -159,6 +161,7 @@ def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
 	new_ment.end = int(end)
 	new_ment.numTokens = new_ment.end - new_ment.begin
 	new_ment.sentNum = sentNum
+	new_ment.tree = tree
 	for i in range(new_ment.begin, new_ment.end ):
 		node = tree.find(".//node[@word][@begin='" + str(i) + "']")
 		new_ment.tokenList.append(node.attrib["word"])
