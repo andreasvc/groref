@@ -1,10 +1,19 @@
 import find_errors
 import count_nodes
 
+def clean_attrib(attrib, atr_dict):
+    if attrib in atr_dict:
+        del atr_dict[attrib]
+
+def clean_attribs(attributes):
+    for atr in ['begin', 'end', 'id', 'sense', 'word', 'lemma', 'root', 'mwu_sense', 'mwu_root']:
+        clean_attrib(atr, attributes)
+    return attributes
+
 def create_dict(data):
 	feats_dict = {}
 	for word in data:
-		for attrib in word:
+		for attrib in clean_attribs(word):
 			featName = attrib + '_' + word[attrib]
 			if word[attrib].find('(') > 0:
 				featName = attrib + '_' + word[attrib][:word[attrib].find('(')]
@@ -14,19 +23,11 @@ def create_dict(data):
 				feats_dict[featName] = 1
 	return feats_dict
 
-"""
-def clean_attribs(atr_dict):
-    del attributes['begin']
-    del attributes['end']
-    del attributes['id']
-    del attributes['sense']
-    del attributes['word']
-    del attributes['lemma']
-    del attributes['root']
-"""
 if __name__ == '__main__':
-	errors = find_errors.get_errors()
+	errors = find_errors.get_errors('../results/2015-11-04_15-57-02/')
 	err_dict = create_dict(errors)
+        for feature in sorted(err_dict, key=lambda l:err_dict[l]):
+            print feature, err_dict[feature]
 	"""
 	all_counts = count_nodes.get_total_counts()
 	all_dict = create_dict(all_counts)

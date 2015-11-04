@@ -26,28 +26,21 @@ def find_attributes(mention):
 		subtree_errors += 1
 	else:
 		nontree_errors += 1
-	for subtree in subtrees:
-		for subsubtree in subtree.findall('./node'):
-			if 'pos' in subsubtree.attrib:
-				sys.stdout.write('p_' + subsubtree.attrib['pos'] + ' ')
-			if 'cat' in subsubtree.attrib:
-				sys.stdout.write('c_' + subsubtree.attrib['cat'] + ' ')
-	sys.stdout.write('\n')
+	print mention.tokenList
+	print mention.parsefile
+		
 
 def found(mention, mentionList):
+	
 	for mentionItr in mentionList:
 		if mention.parsefile == mentionItr.parsefile and mention.begin == mentionItr.begin and mention.end == mentionItr.end:
 			return True
 	return False
 
 def find_errors(mentions_gold, mentions_own):
-	for mention in mentions_own: # other way around for recall
+	for mention in mentions_own: # other way around for recall/precision
 		if not found(mention, mentions_gold):
-			  find_attributes(mention)
-	print '---------------------------------'
-	print mention.parsefile
-
-
+			find_attributes(mention)
 
 def find_end(data, wordIdx, data_point, data_point_idx):
         data_point = data_point[1:]
@@ -104,9 +97,8 @@ def find_mentions(filename, co_file):
                 	                mentions.append(new_ment)
 	return mentions
 
-def get_errors():
+def get_errors(own_dir):
 	gold_dir = '../clinDevData/'
-	own_dir = '../results/res/'
 	for co_file in os.listdir(gold_dir):
         	if co_file.endswith('_ne') :
 			mentions_gold = find_mentions(gold_dir + co_file, co_file)

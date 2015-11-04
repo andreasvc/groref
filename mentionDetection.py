@@ -38,19 +38,31 @@ def findNP(tree, sentNum, ngdata):
 # 08.64/69.23/15.36 
 def findMWU(tree, sentNum, ngdata):
 	global mention_list
-	mwu_rels = ['obj1','su','cnj'] #hd 14/65 
+	mwu_rels = ['obj1','su','cnj', 'hd'] #hd 14/65 
 	for mention_node in tree.findall(".//node[@cat='mwu']"):
 		len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
-		if mention_node.attrib['rel'] in mwu_rels:# and len_ment < 3: 
+		if mention_node.attrib['rel'] in mwu_rels: 
 			name = 'mwu_' + mention_node.attrib['rel']
 			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum, ngdata)
 			add_mention(mention_list, new_mention)
 
+def findMWU2(tree, sentNum, ngdata):
+	global mention_list
+	mwu_rels = ['obj1','su','cnj', 'hd'] #hd 14/65 
+	for mention_node in tree.findall(".//node[@cat='mwu']"):
+		len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
+		if mention_node.attrib['rel'] in mwu_rels: 
+			prevDet = tree.find(".//node[@pos='det'][@end='" + mention_node.attrib['begin'] + "']")
+			if prevDet != None:
+				name = 'mwu_' + mention_node.attrib['rel']
+				new_mention = make_mention(int(mention_node.attrib['begin']) - 1, mention_node.attrib['end'], tree, name, sentNum, ngdata)
+				add_mention(mention_list, new_mention)
+
 # 14.72/65.71/24.05
 def findSubj(tree, sentNum, ngdata):
 	global mention_list
-	for mention_node in tree.findall(".//node"): #TODO, refactor
-		if 'cat' not in mention_node.attrib and mention_node.attrib['rel'] == 'su':
+	for mention_node in tree.findall(".//node[@rel='su']"):
+		if 'cat' not in mention_node.attrib:
 			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'su', sentNum, ngdata)
 			add_mention(mention_list, new_mention)	
 
@@ -74,26 +86,28 @@ def findName(tree, sentNum, ngdata):
 	for new_mention in stitch_names(tree.findall(".//node[@pos='name']"), tree, sentNum, ngdata):
 		add_mention(mention_list, new_mention)
 
+def allWordsHaveAlpha(wordList):
+	for word in wordList:
+		if not any(c.isalpha() for c in word):
+			return False
+	return True
+
 # 02.08/10.74/03.49
 def findNP2(tree, sentNum, ngdata):
 	global mention_list
 	np_rels = ['obj1','su','app','cnj','body','sat','predc'] 
 	for mention_node in tree.findall(".//node[@cat='np']"):
 		len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
-		if mention_node.attrib['rel'] in np_rels and len_ment > 4:	
-			rem_cand = tree.find(".//node[@end='" + mention_node.attrib['end'] + "'][@rel='mod']") 
-			if rem_cand != None and int(rem_cand.attrib['begin']) > int(mention_node.attrib['begin']):
-				name = 'broken_np' + mention_node.attrib['rel']
-				new_mention = make_mention(mention_node.attrib['begin'], rem_cand.attrib['begin'], tree, name, sentNum, ngdata)
-				add_mention(mention_list, new_mention)
-		
-			rem_cand2 = tree.find(".//node[@end='" + mention_node.attrib['end'] + "'][@cat='pp']")
-			if rem_cand2 != None and int(rem_cand2.attrib['begin']) > int(mention_node.attrib['begin']):
-				name = 'broken_np' + mention_node.attrib['rel']
-				new_mention = make_mention(mention_node.attrib['begin'], rem_cand2.attrib['begin'], tree, name, sentNum, ngdata)
-				add_mention(mention_list, new_mention)
+		if mention_node.attrib['rel'] in np_rels and len_ment > 4:#and len_ment < 10:
+			for die in tree.findall(".//node[@word='die']"):
+				if (int(die.attrib['begin']) > int(mention_node.attrib['begin']) and
+					int(die.attrib['end']) < int(mention_node.attrib['end'])):
+					new_mention = make_mention(mention_node.attrib['begin'], die.attrib['begin'], tree, 'die_np', sentNum, ngdata)
+					if allWordsHaveAlpha(new_mention.tokenList):
+						add_mention(mention_list, new_mention)
+					
 
-
+	
 # Mention detection sieve, selects all NPs, pronouns, names		
 def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict, ngdata):
 	global mention_list
@@ -105,14 +119,16 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 		sentNum = tree.find('comments').find('comment').text
 		sentNum = int(re.findall('#[0-9]+', sentNum)[0][1:])
 		sentenceDict[int(sentNum)] = tree.find('sentence').text
+		sentenceList = tree.find('sentence').text.split(' ')
 		
 		findNP(tree, sentNum, ngdata)
-		findMWU(tree, sentNum, ngdata)
+		#findMWU(tree, sentNum, ngdata)
+		findMWU2(tree, sentNum, ngdata)
 		findSubj(tree, sentNum, ngdata)
 		findObj(tree, sentNum, ngdata)
 		findPron(tree, sentNum, ngdata)
 		findName(tree, sentNum, ngdata)
-		#findNP2(tree, sentNum, ngdata)
+		findNP2(tree, sentNum, ngdata)
 		
 		if len(tree.findall('.//node')) > 2: 
 			for mention in mention_list:
