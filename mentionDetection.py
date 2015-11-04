@@ -99,11 +99,13 @@ def findNP2(tree, sentNum, ngdata):
 	for mention_node in tree.findall(".//node[@cat='np']"):
 		len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
 		if mention_node.attrib['rel'] in np_rels and len_ment > 4:#and len_ment < 10:
-			for die in tree.findall(".//node[@word='die']"):
+			for die in tree.findall(".//node[@vwtype='betr']"): #@word='die' werkt beter
 				if (int(die.attrib['begin']) > int(mention_node.attrib['begin']) and
 					int(die.attrib['end']) < int(mention_node.attrib['end'])):
 					new_mention = make_mention(mention_node.attrib['begin'], die.attrib['begin'], tree, 'die_np', sentNum, ngdata)
 					if allWordsHaveAlpha(new_mention.tokenList):
+						print die.attrib['word']
+						#print die.attrib
 						add_mention(mention_list, new_mention)
 					
 
