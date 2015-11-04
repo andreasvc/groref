@@ -24,7 +24,7 @@ def create_dict(data):
 	return feats_dict
 
 if __name__ == '__main__':
-	errors = find_errors.get_errors('../results/2015-11-04_14-17-11/')
+	errors = find_errors.get_errors('../results/2015-11-04_15-57-02/')
 	err_dict = create_dict(errors)
         for feature in sorted(err_dict, key=lambda l:err_dict[l]):
             print feature, err_dict[feature]

@@ -26,8 +26,8 @@ def find_attributes(mention):
 		subtree_errors += 1
 	else:
 		nontree_errors += 1
-		print mention.tokenList
-		print mention.parsefile
+	print mention.tokenList
+	print mention.parsefile
 		
 
 def found(mention, mentionList):
@@ -38,8 +38,8 @@ def found(mention, mentionList):
 	return False
 
 def find_errors(mentions_gold, mentions_own):
-	for mention in mentions_gold: # other way around for recall
-		if not found(mention, mentions_own):
+	for mention in mentions_own: # other way around for recall/precision
+		if not found(mention, mentions_gold):
 			find_attributes(mention)
 
 def find_end(data, wordIdx, data_point, data_point_idx):
