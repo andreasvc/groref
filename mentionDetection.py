@@ -38,7 +38,7 @@ def findNP(tree, sentNum, ngdata):
 # 08.64/69.23/15.36 
 def findMWU(tree, sentNum, ngdata):
 	global mention_list
-	mwu_rels = ['obj1','su','cnj'] #hd 14/65 
+	mwu_rels = ['obj1','su','cnj', 'hd'] #hd 14/65 
 	for mention_node in tree.findall(".//node[@cat='mwu']"):
 		len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
 		if mention_node.attrib['rel'] in mwu_rels:# and len_ment < 3: 
@@ -46,11 +46,23 @@ def findMWU(tree, sentNum, ngdata):
 			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum, ngdata)
 			add_mention(mention_list, new_mention)
 
+def findMWU2(tree, sentNum, ngdata):
+	global mention_list
+	mwu_rels = ['obj1','su','cnj', 'hd'] #hd 14/65 
+	for mention_node in tree.findall(".//node[@cat='mwu']"):
+		len_ment = int(mention_node.attrib['end']) - int(mention_node.attrib['begin'])
+		if mention_node.attrib['rel'] in mwu_rels:# and len_ment < 3: 
+			prevDet = tree.find(".//node[@pos='det'][@end='" + mention_node.attrib['begin'] + "']")
+			if prevDet != None:
+				name = 'mwu_' + mention_node.attrib['rel']
+				new_mention = make_mention(int(mention_node.attrib['begin']) - 1, mention_node.attrib['end'], tree, name, sentNum, ngdata)
+				add_mention(mention_list, new_mention)
+
 # 14.72/65.71/24.05
 def findSubj(tree, sentNum, ngdata):
 	global mention_list
-	for mention_node in tree.findall(".//node"): #TODO, refactor
-		if 'cat' not in mention_node.attrib and mention_node.attrib['rel'] == 'su':
+	for mention_node in tree.findall(".//node[@rel='su']"):
+		if 'cat' not in mention_node.attrib:
 			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, 'su', sentNum, ngdata)
 			add_mention(mention_list, new_mention)	
 
@@ -93,7 +105,12 @@ def findNP2(tree, sentNum, ngdata):
 				new_mention = make_mention(mention_node.attrib['begin'], rem_cand2.attrib['begin'], tree, name, sentNum, ngdata)
 				add_mention(mention_list, new_mention)
 
+def findNP3(word_list, sentNum, ngdata):
+	global mention_list
+	# vind alle opeenvolgende woorden met een hoofdletter
+	# voeg lidwoord ervoor toe
 
+	
 # Mention detection sieve, selects all NPs, pronouns, names		
 def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict, ngdata):
 	global mention_list
@@ -105,14 +122,18 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 		sentNum = tree.find('comments').find('comment').text
 		sentNum = int(re.findall('#[0-9]+', sentNum)[0][1:])
 		sentenceDict[int(sentNum)] = tree.find('sentence').text
+		sentenceList = tree.find('sentence').text.split(' ')
+		print sentenceList
 		
 		findNP(tree, sentNum, ngdata)
-		findMWU(tree, sentNum, ngdata)
+		#findMWU(tree, sentNum, ngdata)
+		findMWU2(tree, sentNum, ngdata)
 		findSubj(tree, sentNum, ngdata)
 		findObj(tree, sentNum, ngdata)
 		findPron(tree, sentNum, ngdata)
 		findName(tree, sentNum, ngdata)
 		#findNP2(tree, sentNum, ngdata)
+		findNP3(sentenceList, sentNum, ngdata)
 		
 		if len(tree.findall('.//node')) > 2: 
 			for mention in mention_list:
