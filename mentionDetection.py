@@ -120,7 +120,6 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 		sentNum = int(re.findall('#[0-9]+', sentNum)[0][1:])
 		sentenceDict[int(sentNum)] = tree.find('sentence').text
 		sentenceList = tree.find('sentence').text.split(' ')
-		print sentenceList
 		
 		findNP(tree, sentNum, ngdata)
 		#findMWU(tree, sentNum, ngdata)
