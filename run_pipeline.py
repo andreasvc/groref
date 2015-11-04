@@ -28,10 +28,10 @@ def processDocument(filename, verbosity, sieveList, ngdata):
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
 			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity, sieveList, ngdata)
-			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename + '_final', "none"], stdout = scores_file)
+			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename, "none"], stdout = scores_file)
 		else:
 			coreference_resolution.main(filename, output_filename, True, verbosity, sieveList, ngdata)
-			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename + '_final', "none"], stdout = scores_file)
+			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
 		
 def processDirectory(dirname, verbosity, sieveList, ngdata):
 	'''Do preprocessing, coreference resolution and evaluation for all 
