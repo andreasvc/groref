@@ -8,15 +8,58 @@ def Acronyms(tokenlist):
 	for token in tokenlist:
 		ac.append(token[0])
 	return ''.join(ac)
+	
+def get_rel_pron(root, pron):
+	relative_pron = []
+	for node in root.iter('node'):
+		at = node.attrib
+		if 'cat' in at and at['cat'] == 'np':
+			for child in node:
+				if 'rel' in child.attrib and child.attrib['rel'] == 'mod':
+					for c in child:
+						ca = c.attrib
+						if 'vwtype' in ca and ca['vwtype'] == 'betr' and ca['id'] == pron['id']:
+							for child in node:
+								if 'rel' in child.attrib and child.attrib['rel'] == 'hd':
+									rel_pron = (child.attrib, ca)
+									relative_pron.append(rel_pron)
+	return relative_pron
 
+def appositive(root):
+	ment = []
+	app = []
+	cnj = False
+	for node in root.iter('node'):
+		at = node.attrib
+		if 'cat' in at and at['cat'] == 'np' and at['rel'] != 'app':
+			for child in node:
+				if 'rel' in child.attrib and child.attrib['rel'] == 'app' and 'root' not in child.attrib and 'mwu_root' not in child.attrib:
+					for h in node:
+						if 'root' in h.attrib:
+							ment.append(h.attrib['id'])
+						if 'mwu_root' in h.attrib:
+							ment.append(h.attrib['id'])
+							for node in h:
+								if 'rel' in node.attrib and node.attrib['rel'] == 'mwp':									
+									ment.append(node.attrib['id'])
+					for c in child.iter('node'):
+						if 'root' in c.attrib:
+							app.append(c.attrib['id'])
+						if 'mwu_root' in c.attrib:
+							app.append(c.attrib['id'])
+							
+						if 'rel' in c.attrib and at['rel'] == 'cnj':
+							cnj = True
+	if not cnj:
+		return ment, app	
+		
+			
 '''Precise Constructs'''
 def sievePreciseConstructs(mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity):
 	mention_ids_per_sentence = get_mention_id_list_per_sentence(mention_id_list, mention_dict)
 	if verbosity == 'high':
 		print 'Applying Precise Constructs...'
 	for cluster_id in cluster_id_list[:]:
-		ExactEntityMatch = False
-		RelaxedEntityMatch = False
 		madeLink = False
 		if madeLink:
 			continue
@@ -33,26 +76,43 @@ def sievePreciseConstructs(mention_id_list, mention_dict, cluster_dict, cluster_
 						break
 					candidate_cluster = cluster_dict[mention_dict[candidate_mention_id].clusterID]		
 					for ment_id in candidate_cluster.mentionList:
+						root = mention_dict[ment_id].tree.getroot()
+						#print mention_dict[ment_id].tokenAttribs, mention_dict[anaphor.ID].headWords, mention_dict[anaphor.ID].tokenAttribs	
+						
 						'''Appositive'''
 						#link two mentions if they are in an appositive contstructions
-						#third children of a parent NP whose expansion begins with (NP, NP) when there is not a conjunction in the expansion
+						#third children of a parent NP whose expansion begins with (NP, NP) when there is not a conjunction in the expansion	
+						appos = appositive(root)
+						if appos:
+							for ids in mention_dict[ment_id].tokenAttribs:
+								for ana_ids in mention_dict[ment_id].tokenAttribs:
+									if ids['id'] in appos[0] and ana_ids['id'] in appos[1]:
+											madeLink = True
+											print mention_dict[ment_id].tokenList, mention_dict[anaphor.ID].tokenList, appos						
 						
 						'''Predicate nominative'''
 						#Two mentions (nominal or pronominal) are in a copulative subject-object relation
+	
 						
-						'''Relative Pronoun'''
+						'''Role appositive'''
+				
+						
+						'''Relative Pronoun'''					
 						#mention is a relative pronoun that modifies the head of the antecedent NP
-						#print mention_dict[anaphor.ID].type, mention_dict[anaphor.ID].headWords
 						if  mention_dict[anaphor.ID].pron_type == 'betr':
-							madeLink = True
-							#print mention_dict[ment_id].tokenAttribs, mention_dict[anaphor.ID].headWords, mention_dict[anaphor.ID].tokenAttribs
+							rp = get_rel_pron(root, mention_dict[anaphor.ID].tokenAttribs[0])
+							if len(rp) > 0:
+								for at in mention_dict[ment_id].tokenAttribs:
+									if rp[0][0]['id'] == at['id']:
+										madeLink = True
+												
 						'''Acronym'''
 						#Both mentions are tagged as NNP and one of them is an acronym of the other
 						mention_acr = Acronyms(mention_dict[ment_id].tokenList) 
 						anaphor_acr = Acronyms(mention_dict[anaphor.ID].tokenList)
 						if mention_dict[ment_id].type == 'name' and mention_dict[anaphor.ID].type =='name':						
 							if mention_acr in mention_dict[anaphor.ID].tokenList or anaphor_acr in mention_dict[ment_id].tokenList:
-								madeLink = True					
+								madeLink = True										
 						'''Demonym'''
 						#One of the mentions is a demonym of the other
 						if len(mention_dict[ment_id].tokenList) == 1:
