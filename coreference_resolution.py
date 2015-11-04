@@ -98,7 +98,7 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 		if verbosity == 'high':		
 			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## Generate output
-	generate_conll(input_file, output_file + '_final', doc_tags, sentenceDict, mention_dict)	
+	generate_conll(input_file, output_file, doc_tags, sentenceDict, mention_dict)	
 	
 if __name__ == '__main__':
 	# Parse input arguments
