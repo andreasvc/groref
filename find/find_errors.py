@@ -11,25 +11,26 @@ class Mention:
 		self.tokenList = []
 		self.tokenAttribs = []
 
-atr = []
+atr_err = []
+atr_cor = []
 word_errors = 0
 subtree_errors = 0
 nontree_errors = 0
-def find_attributes(mention):
+def find_attributes(mention, atr):
 	global word_errors, subtree_errors, nontree_errors
-	global atr
 	tree = ET.parse(mention.parsefile)
 	subtrees = tree.findall('.//node[@begin="' + str(mention.begin) + '"][@end="' + str(mention.end) + '"]')
 	if int(mention.end) - int(mention.begin) == 1:
 		word_errors += 1
 	elif len(subtrees) > 0:
 		subtree_errors += 1
+		atr.append(subtrees[0].attrib)
 	else:
 		nontree_errors += 1
 	print mention.tokenList
 	print mention.parsefile
-		
 
+	
 def found(mention, mentionList):
 	
 	for mentionItr in mentionList:
@@ -40,7 +41,9 @@ def found(mention, mentionList):
 def find_errors(mentions_gold, mentions_own):
 	for mention in mentions_own: # other way around for recall/precision
 		if not found(mention, mentions_gold):
-			find_attributes(mention)
+			find_attributes(mention, atr_err)
+		else:
+			find_attributes(mention, atr_cor)
 
 def find_end(data, wordIdx, data_point, data_point_idx):
         data_point = data_point[1:]
@@ -102,7 +105,7 @@ def get_errors(own_dir):
 	for co_file in os.listdir(gold_dir):
         	if co_file.endswith('_ne') :
 			mentions_gold = find_mentions(gold_dir + co_file, co_file)
-			mentions_own = find_mentions(own_dir + co_file + '.coref', co_file)
+			mentions_own = find_mentions(own_dir + co_file, co_file)
 			find_errors(mentions_gold, mentions_own)
 	print word_errors
 	print subtree_errors
@@ -110,4 +113,4 @@ def get_errors(own_dir):
 	print word_errors + subtree_errors + nontree_errors
 
 
-	return(atr)
+	return atr_err, atr_cor
