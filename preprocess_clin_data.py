@@ -23,7 +23,7 @@ def preprocess_file(filename):
 				output_file.write(docName + '\t' + '0\t'*4) # Add in document name and dummy columns
 			else:
 				sentence_counter += 1
-			if sentence_counter == 7: # Officially 5 sentences, but first 6 because of  '9	06-Mar-08	_' kind of stuff
+			if sentence_counter == 6: # Officially 5 sentences, but first 6 because of  '9	06-Mar-08	_' kind of stuff
 				break
 			output_file.write('\t'.join(line.split('\t')[1:]))
 		if not line.strip():
