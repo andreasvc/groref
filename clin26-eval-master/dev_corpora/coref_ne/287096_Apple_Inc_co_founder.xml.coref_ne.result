@@ -11,25 +11,19 @@ Entity 6: (76,81)
 Entity 7: (90,90)
 ====> (287096_Apple_Inc_co_founder.xml.coref_ne);:
 File (287096_Apple_Inc_co_founder.xml.coref_ne);:
-Entity 0: (0,5)
-Entity 1: (2,5)
-Entity 2: (8,9) (28,29)
-Entity 3: (11,12)
-Entity 4: (22,23)
-Entity 5: (31,32)
-Entity 6: (34,38)
-Entity 7: (37,38)
-Entity 8: (44,44) (51,51) (90,90)
-Entity 9: (47,49)
-Entity 10: (49,49) (92,92)
-Entity 11: (57,57)
-Entity 12: (67,68)
-Entity 13: (71,73)
-Entity 14: (74,74)
-Entity 15: (76,81)
-Entity 16: (82,87)
-Entity 17: (87,87)
-Entity 18: (100,103)
+Entity 0: (2,5) (0,5) (11,12) (22,23) (49,49) (47,49) (92,92)
+Entity 1: (8,9) (28,29)
+Entity 2: (31,32)
+Entity 3: (34,38)
+Entity 4: (37,38)
+Entity 5: (44,44) (51,51) (90,90)
+Entity 6: (57,57)
+Entity 7: (67,68)
+Entity 8: (71,73) (74,74)
+Entity 9: (76,81)
+Entity 10: (82,87)
+Entity 11: (87,87)
+Entity 12: (100,103)
 :
 Total key mentions: 19
 Total response mentions: 23
@@ -43,9 +37,9 @@ Identification of Mentions: Recall: (14 / 19) 73.68%	Precision: (14 / 23) 60.86%
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (1 / 36) 2.77%	Precision: (1 / 5) 20%	F1: 4.87%
+Coreference links: Recall: (3 / 36) 8.33%	Precision: (3 / 26) 11.53%	F1: 9.67%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (73 / 135) 54.07%	Precision: (73 / 248) 29.43%	F1: 38.12%
+Non-coreference links: Recall: (69 / 135) 51.11%	Precision: (69 / 227) 30.39%	F1: 38.12%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.284259259259259 / 1) 28.42%	Precision: (0.247177419354839 / 1) 24.71%	F1: 21.49%
+BLANC: Recall: (0.297222222222222 / 1) 29.72%	Precision: (0.209674686546933 / 1) 20.96%	F1: 23.89%
 --------------------------------------------------------------------------

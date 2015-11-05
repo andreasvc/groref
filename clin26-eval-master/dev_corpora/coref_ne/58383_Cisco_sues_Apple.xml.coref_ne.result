@@ -9,25 +9,22 @@ Entity 4: (49,50)
 Entity 5: (84,87)
 ====> (58383_Cisco_sues_Apple.xml.coref_ne);:
 File (58383_Cisco_sues_Apple.xml.coref_ne);:
-Entity 0: (0,0) (52,52) (91,91) (110,110)
+Entity 0: (0,0) (52,52) (47,52) (91,91) (110,110)
 Entity 1: (2,2)
-Entity 2: (5,5)
-Entity 3: (8,9)
+Entity 2: (5,5) (72,75) (114,115)
+Entity 3: (8,9) (75,75)
 Entity 4: (23,24)
 Entity 5: (27,28) (99,100)
 Entity 6: (36,36)
-Entity 7: (47,52)
-Entity 8: (49,50)
-Entity 9: (65,66)
-Entity 10: (72,75) (114,115)
-Entity 11: (75,75)
-Entity 12: (86,86)
-Entity 13: (86,87)
-Entity 14: (102,102)
-Entity 15: (102,106)
-Entity 16: (105,106)
-Entity 17: (113,113)
-Entity 18: (125,127)
+Entity 7: (49,50)
+Entity 8: (65,66)
+Entity 9: (86,86)
+Entity 10: (86,87)
+Entity 11: (102,102)
+Entity 12: (102,106)
+Entity 13: (105,106)
+Entity 14: (113,113)
+Entity 15: (125,127)
 :
 Total key mentions: 24
 Total response mentions: 24
@@ -41,9 +38,9 @@ Identification of Mentions: Recall: (14 / 24) 58.33%	Precision: (14 / 24) 58.33%
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (4 / 58) 6.89%	Precision: (4 / 8) 50%	F1: 12.12%
+Coreference links: Recall: (5 / 58) 8.62%	Precision: (5 / 15) 33.33%	F1: 13.69%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (72 / 218) 33.02%	Precision: (72 / 268) 26.86%	F1: 29.62%
+Non-coreference links: Recall: (72 / 218) 33.02%	Precision: (72 / 261) 27.58%	F1: 30.06%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.199620373299589 / 1) 19.96%	Precision: (0.384328358208955 / 1) 38.43%	F1: 20.87%
+BLANC: Recall: (0.208241062954761 / 1) 20.82%	Precision: (0.304597701149425 / 1) 30.45%	F1: 21.88%
 --------------------------------------------------------------------------

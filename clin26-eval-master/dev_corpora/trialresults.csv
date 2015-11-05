@@ -1,5 +1,5 @@
 dev_corpora	trial
-Date	Thu Nov 05 14:23:00 CET 2015
+Date	Thu Nov 05 16:55:13 CET 2015
 
 Nr. of result files	30
 MENTIONS (key mentions=663)
@@ -15,26 +15,26 @@ MENTIONS (key mentions=663)
 REFERENCE (BLANC)
 # reference links	7388.0
 # response reference links	17088.0
-# correct reference links	3204.0
- recall	43.367623172712506%
- precision	18.75%
- f1	26.180748488315086%
+# correct reference links	3143.0
+ recall	42.54195993502978%
+ precision	18.393024344569287%
+ f1	25.68230102958%
 
 COREFERENCE
 # key coreference links	1096.0
-# response coreference links	288.0
-# correct coreference links	143.0
- recall	13.047445255474452%
- precision	49.65277777777778%
- f1	20.664739884393065%
+# response coreference links	1216.0
+# correct coreference links	256.0
+ recall	23.357664233576642%
+ precision	21.05263157894737%
+ f1	22.145328719723185%
 
 NOREFERENCE
 # key non-coreference links	6292.0
-# response non-coreference links	16800.0
-# correct non-coreference links	3061.0
- recall	48.64907819453274%
- precision	18.220238095238095%
- f1	26.511345920665164%
+# response non-coreference links	15872.0
+# correct non-coreference links	2887.0
+ recall	45.883661792752704%
+ precision	18.189264112903224%
+ f1	26.051254286229927%
 
 
 Macro average over all result files reported by the coref scorer:
@@ -44,7 +44,7 @@ precision	47.032999999999994%
 f1	56.124333333333325%
 
 Macro average blanc
-recall	32.21033333333333%
-precision	33.93300000000001%
-f1	23.874333333333333%
+recall	35.57866666666667%
+precision	21.43133333333333%
+f1	23.685000000000002%
 

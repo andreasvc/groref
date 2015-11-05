@@ -11,31 +11,23 @@ Entity 6: (54,55) (57,62)
 Entity 7: (100,100)
 ====> (89284_Apple_to_lower_UK_iTunes_prices.xml.coref_ne);:
 File (89284_Apple_to_lower_UK_iTunes_prices.xml.coref_ne);:
-Entity 0: (0,0) (26,26) (35,35) (49,49) (90,90)
-Entity 1: (2,3)
-Entity 2: (3,3) (19,19)
-Entity 3: (5,5)
-Entity 4: (7,9)
-Entity 5: (11,12)
-Entity 6: (13,13)
-Entity 7: (22,26)
-Entity 8: (29,31)
-Entity 9: (30,31)
-Entity 10: (40,41)
-Entity 11: (43,44)
-Entity 12: (54,55)
-Entity 13: (57,62)
-Entity 14: (62,62)
-Entity 15: (66,69)
-Entity 16: (67,69)
-Entity 17: (71,73)
-Entity 18: (80,81)
-Entity 19: (87,88)
-Entity 20: (93,93)
-Entity 21: (95,97)
-Entity 22: (99,100)
-Entity 23: (106,108)
-Entity 24: (109,113)
+Entity 0: (0,0) (26,26) (35,35) (49,49) (67,69) (66,69) (71,73) (87,88) (90,90)
+Entity 1: (3,3) (2,3) (19,19) (22,26)
+Entity 2: (5,5)
+Entity 3: (7,9) (13,13)
+Entity 4: (11,12)
+Entity 5: (30,31) (29,31)
+Entity 6: (40,41)
+Entity 7: (43,44)
+Entity 8: (54,55)
+Entity 9: (57,62)
+Entity 10: (62,62)
+Entity 11: (80,81)
+Entity 12: (93,93)
+Entity 13: (95,97)
+Entity 14: (99,100)
+Entity 15: (106,108)
+Entity 16: (109,113)
 :
 Total key mentions: 25
 Total response mentions: 30
@@ -49,9 +41,9 @@ Identification of Mentions: Recall: (19 / 25) 76%	Precision: (19 / 30) 63.33%	F1
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (10 / 54) 18.51%	Precision: (10 / 11) 90.9%	F1: 30.76%
+Coreference links: Recall: (14 / 54) 25.92%	Precision: (14 / 44) 31.81%	F1: 28.57%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (133 / 246) 54.06%	Precision: (133 / 424) 31.36%	F1: 39.7%
+Non-coreference links: Recall: (118 / 246) 47.96%	Precision: (118 / 391) 30.17%	F1: 37.04%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.362917795844625 / 1) 36.29%	Precision: (0.611385077186964 / 1) 61.13%	F1: 35.23%
+BLANC: Recall: (0.369467028003613 / 1) 36.94%	Precision: (0.309986049755871 / 1) 30.99%	F1: 32.81%
 --------------------------------------------------------------------------

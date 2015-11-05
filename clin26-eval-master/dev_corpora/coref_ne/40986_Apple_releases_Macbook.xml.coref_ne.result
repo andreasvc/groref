@@ -14,36 +14,21 @@ Entity 9: (81,84)
 Entity 10: (89,92)
 ====> (40986_Apple_releases_Macbook.xml.coref_ne);:
 File (40986_Apple_releases_Macbook.xml.coref_ne);:
-Entity 0: (0,0)
-Entity 1: (2,2) (44,44)
-Entity 2: (4,5)
-Entity 3: (12,12) (105,105)
-Entity 4: (13,17)
-Entity 5: (14,17)
-Entity 6: (20,20)
-Entity 7: (22,23)
-Entity 8: (26,26)
-Entity 9: (28,30)
-Entity 10: (35,39)
-Entity 11: (43,44)
-Entity 12: (48,49)
-Entity 13: (52,53)
-Entity 14: (55,56)
-Entity 15: (56,56)
-Entity 16: (60,61)
-Entity 17: (70,71)
-Entity 18: (71,71)
-Entity 19: (75,76)
-Entity 20: (78,78)
-Entity 21: (83,84)
-Entity 22: (84,84) (92,92)
-Entity 23: (87,87)
-Entity 24: (87,92)
-Entity 25: (100,104)
-Entity 26: (103,104)
-Entity 27: (111,112)
-Entity 28: (114,116)
-Entity 29: (115,116)
+Entity 0: (0,0) (2,2) (4,5) (44,44) (43,44)
+Entity 1: (12,12) (105,105)
+Entity 2: (14,17) (13,17) (56,56) (55,56)
+Entity 3: (20,20)
+Entity 4: (22,23)
+Entity 5: (26,26)
+Entity 6: (28,30)
+Entity 7: (35,39)
+Entity 8: (48,49)
+Entity 9: (52,53)
+Entity 10: (60,61)
+Entity 11: (71,71) (70,71) (78,78) (84,84) (83,84) (87,87) (92,92) (87,92)
+Entity 12: (75,76)
+Entity 13: (103,104) (100,104) (115,116) (114,116)
+Entity 14: (111,112)
 :
 Total key mentions: 18
 Total response mentions: 33
@@ -57,9 +42,9 @@ Identification of Mentions: Recall: (8 / 18) 44.44%	Precision: (8 / 33) 24.24%	F
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (0 / 14) 0%	Precision: (0 / 3) 0%	F1: 0%
+Coreference links: Recall: (2 / 14) 14.28%	Precision: (2 / 51) 3.92%	F1: 6.15%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (23 / 139) 16.54%	Precision: (23 / 525) 4.38%	F1: 6.92%
+Non-coreference links: Recall: (19 / 139) 13.66%	Precision: (19 / 477) 3.98%	F1: 6.16%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.0827338129496403 / 1) 8.27%	Precision: (0.0219047619047619 / 1) 2.19%	F1: 3.46%
+BLANC: Recall: (0.139773895169579 / 1) 13.97%	Precision: (0.0395239856949069 / 1) 3.95%	F1: 6.16%
 --------------------------------------------------------------------------

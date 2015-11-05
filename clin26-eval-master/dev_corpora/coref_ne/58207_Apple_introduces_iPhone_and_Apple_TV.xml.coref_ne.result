@@ -14,32 +14,25 @@ Entity 9: (88,88)
 Entity 10: (93,93)
 ====> (58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne);:
 File (58207_Apple_introduces_iPhone_and_Apple_TV.xml.coref_ne);:
-Entity 0: (0,0) (4,4) (29,29) (53,53)
+Entity 0: (0,0) (4,4) (7,8) (29,29) (53,53)
 Entity 1: (4,5)
-Entity 2: (7,8)
-Entity 3: (11,13)
-Entity 4: (15,20)
-Entity 5: (15,17)
-Entity 6: (16,17)
-Entity 7: (19,20)
-Entity 8: (22,23) (95,96)
-Entity 9: (26,29)
-Entity 10: (30,33)
-Entity 11: (37,38)
-Entity 12: (47,48)
-Entity 13: (50,53)
-Entity 14: (55,55)
-Entity 15: (61,66)
-Entity 16: (64,66)
-Entity 17: (71,74)
-Entity 18: (72,74)
-Entity 19: (76,93)
-Entity 20: (84,88)
-Entity 21: (88,88)
-Entity 22: (93,93)
-Entity 23: (104,106)
-Entity 24: (109,109)
-Entity 25: (112,114)
+Entity 2: (11,13) (22,23) (30,33) (95,96)
+Entity 3: (15,20)
+Entity 4: (16,17) (15,17)
+Entity 5: (19,20)
+Entity 6: (26,29)
+Entity 7: (37,38) (47,48) (50,53)
+Entity 8: (55,55)
+Entity 9: (61,66)
+Entity 10: (64,66)
+Entity 11: (72,74) (71,74)
+Entity 12: (76,93)
+Entity 13: (84,88)
+Entity 14: (88,88)
+Entity 15: (93,93)
+Entity 16: (104,106)
+Entity 17: (109,109)
+Entity 18: (112,114)
 :
 Total key mentions: 20
 Total response mentions: 30
@@ -53,9 +46,9 @@ Identification of Mentions: Recall: (17 / 20) 85%	Precision: (17 / 30) 56.66%	F1
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (1 / 25) 4%	Precision: (1 / 7) 14.28%	F1: 6.25%
+Coreference links: Recall: (7 / 25) 28%	Precision: (7 / 21) 33.33%	F1: 30.43%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (122 / 165) 73.93%	Precision: (122 / 428) 28.5%	F1: 41.14%
+Non-coreference links: Recall: (120 / 165) 72.72%	Precision: (120 / 414) 28.98%	F1: 41.45%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.38969696969697 / 1) 38.96%	Precision: (0.213951935914553 / 1) 21.39%	F1: 23.69%
+BLANC: Recall: (0.503636363636364 / 1) 50.36%	Precision: (0.311594202898551 / 1) 31.15%	F1: 35.94%
 --------------------------------------------------------------------------

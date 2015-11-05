@@ -51,51 +51,66 @@ def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 	for filename in os.listdir(scores_dir):
 		if os.path.isfile(scores_dir + '/' + filename) and re.search('.scores$', filename):
 			docName = filename.split('_')[0]
-			scores[docName] = {'muc' : [], 'bcub' : [], 'ceafm' : [], 'ceafe' : [], 'blanc' : [], 'conll' : [], 'md' : []}
-			for metric in scores[docName]:
-				scores[docName][metric] = [0, 1, 0, 0, 1, 0, 0]
-			with open(scores_dir + '/' + filename, 'r') as scores_file:
-				for line in scores_file:
-					if re.search('^METRIC', line):
-						metric = re.split(' ', line)[-1][:-2] # Extract metric name
-					if scores[docName]['md'] == [0, 1, 0, 0, 1, 0, 0]: # Avoid filling entry 5 times
-						if re.search('^Identification', line):
-							values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
-							scores[docName]['md'] = values[0:6] + values[7:] # At index 6 is the '1' from 'F1', so ignore
-					if metric == 'blanc':
-						if re.search('^BLANC', line):
-							values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
-							scores[docName][metric] = values[0:6] + values[7:]
-					else:
-						if re.search('^Coreference:', line):
-							values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
-							scores[docName][metric] = values[0:6] + values[7:]
-			scores[docName]['conll'] = [(scores[docName]['muc'][6] + scores[docName]['bcub'][6] + scores[docName]['ceafe'][6]) / 3] # Calculate CoNLL-F1
-	# Calculate across-document scores
-	totals = {'muc' : [], 'bcub' : [], 'ceafm' : [], 'ceafe' : [], 'blanc' : [], 'md' : []}
+			scores[docName] = process_conll_scorer_file(scores_dir + '/' + filename)
+#			scores[docName] = {'muc' : [], 'bcub' : [], 'ceafm' : [], 'ceafe' : [], 'blanc' : [], 'conll' : [], 'md' : []}
+#			for metric in scores[docName]:
+#				scores[docName][metric] = [0, 1, 0, 0, 1, 0, 0]
+#			with open(scores_dir + '/' + filename, 'r') as scores_file:
+#				for line in scores_file:
+#					if re.search('^METRIC', line):
+#						metric = re.split(' ', line)[-1][:-2] # Extract metric name
+#					if scores[docName]['md'] == [0, 1, 0, 0, 1, 0, 0]: # Avoid filling entry 5 times
+#						if re.search('^Identification', line):
+#							values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+#							scores[docName]['md'] = values[0:6] + values[7:] # At index 6 is the '1' from 'F1', so ignore
+#					if metric == 'blanc':
+#						if re.search('^BLANC', line):
+#							values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+#							scores[docName][metric] = values[0:6] + values[7:]
+#					else:
+#						if re.search('^Coreference:', line):
+#							values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+#							scores[docName][metric] = values[0:6] + values[7:]
+#			scores[docName]['conll'] = [(scores[docName]['muc'][6] + scores[docName]['bcub'][6] + scores[docName]['ceafe'][6]) / 3] # Calculate CoNLL-F1
+#	# Calculate across-document scores
+	totals = {'muc' : [], 'bcub' : [], 'ceafm' : [], 'ceafe' : [], 'blanc' : [], 'md' : [], 'blanc-special' : []}
 	for metric in totals:
 		totals[metric] = [0, 0, 0, 0, 0, 0, 0]
 	for document in scores: # Sum all documents' values
 		for metric in scores[document]:
-			if metric != 'conll':
+			if metric != 'conll' and metric != 'blanc-special':
+				totals[metric] = [val1 + val2 for val1, val2 in zip(totals[metric], scores[document][metric])]
+			if metric == 'blanc-special':
 				totals[metric] = [val1 + val2 for val1, val2 in zip(totals[metric], scores[document][metric])]
 	for metric in totals:
-		try:
-			totals[metric][2] = totals[metric][0] / totals[metric][1] * 100
-		except ZeroDivisionError:
-			totals[metric][2] = 0
-		try:
-			totals[metric][5] = totals[metric][3] / totals[metric][4] * 100
-		except ZeroDivisionError:
-			totals[metric][5] = 0
-		try:
-			totals[metric][6] = 2 * totals[metric][2] * totals[metric][5] / (totals[metric][2] + totals[metric][5])
-		except ZeroDivisionError:
-			totals[metric][6] = 0
+		if metric != 'blanc-special':
+			try:
+				totals[metric][2] = totals[metric][0] / totals[metric][1] * 100
+			except ZeroDivisionError:
+				totals[metric][2] = 0
+			try:
+				totals[metric][5] = totals[metric][3] / totals[metric][4] * 100
+			except ZeroDivisionError:
+				totals[metric][5] = 0
+			try:
+				totals[metric][6] = 2 * totals[metric][2] * totals[metric][5] / (totals[metric][2] + totals[metric][5])
+			except ZeroDivisionError:
+				totals[metric][6] = 0
 	totals['conll'] = [(totals['muc'][6] + totals['bcub'][6] + totals['ceafe'][6] ) / 3]
-	
+	coref_recall = totals['blanc-special'][0] / totals['blanc-special'][1]
+	coref_precision = totals['blanc-special'][0] / totals['blanc-special'][2]
+	non_recall = totals['blanc-special'][3] / totals['blanc-special'][4]
+	non_precision = totals['blanc-special'][3] / totals['blanc-special'][5]
+	coref_f = 2*coref_recall*coref_precision/(coref_recall+coref_precision)
+	non_f = 2*non_recall*non_precision/(non_recall+non_precision)
+	blanc_recall = (coref_recall+non_recall)/2
+	blanc_precision = (coref_precision+non_precision)/2
+	blanc_f = (coref_f + non_f)/2
+	totals['blanc'][2] = blanc_recall*100
+	totals['blanc'][5] = blanc_precision*100
+	totals['blanc'][6] = blanc_f*100
 	print scores
-	print totals
+	print totals['blanc-special']
 	# Print scores to screen and file
 	with open(scores_dir + '/' + 'scores_overall', 'w') as out_file:
 		if verbosity == 'high':
@@ -143,6 +158,7 @@ if __name__ == '__main__':
 	if os.path.isdir(args.target):
 		args.target += '/'
 		if args.per_sieve:
+			print '\t\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
 			for i in range(0, len(allSieves) + 1):
 				processDirectory(args.target, 'none', allSieves[:i], ngdata)
 				print 'using these sieves: ' + str(allSieves[:i])
@@ -151,6 +167,7 @@ if __name__ == '__main__':
 			processDirectory(args.target, args.verbosity, range(0, 20), ngdata) # Give range(0,20) as sieveList, so that all sieves are applied
 	elif os.path.isfile(args.target):
 		if args.per_sieve:
+			print '\t\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
 			for i in range(0, len(allSieves)):
 				processDocument(args.target, 'none', allSieves[:i+1], ngdata)
 				print 'using these sieves: ' + str(allSieves[:i+1])

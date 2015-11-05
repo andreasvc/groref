@@ -15,38 +15,32 @@ Entity 10: (74,74) (82,83)
 Entity 11: (88,89) (93,93)
 ====> (10450_Apple_Computer_CEO.xml.coref_ne);:
 File (10450_Apple_Computer_CEO.xml.coref_ne);:
-Entity 0: (0,4)
+Entity 0: (3,4) (0,4) (12,14) (17,18)
 Entity 1: (0,1) (12,13)
-Entity 2: (3,4) (17,18)
-Entity 3: (7,10) (25,25)
-Entity 4: (9,10)
-Entity 5: (12,14)
-Entity 6: (16,18)
-Entity 7: (22,22)
-Entity 8: (27,31)
-Entity 9: (28,31)
-Entity 10: (36,36)
-Entity 11: (40,42)
-Entity 12: (41,42)
-Entity 13: (44,45)
-Entity 14: (47,47)
-Entity 15: (49,49)
-Entity 16: (51,54)
-Entity 17: (54,54)
-Entity 18: (56,56)
-Entity 19: (61,61)
-Entity 20: (61,62)
-Entity 21: (64,66)
-Entity 22: (70,70)
-Entity 23: (74,74)
-Entity 24: (76,77)
-Entity 25: (82,83)
-Entity 26: (88,89)
-Entity 27: (89,89)
-Entity 28: (92,92)
-Entity 29: (93,93)
-Entity 30: (97,99)
-Entity 31: (109,111)
+Entity 2: (7,10) (25,25)
+Entity 3: (9,10) (28,31) (27,31)
+Entity 4: (16,18)
+Entity 5: (22,22)
+Entity 6: (36,36)
+Entity 7: (41,42) (40,42)
+Entity 8: (44,45)
+Entity 9: (47,47)
+Entity 10: (49,49)
+Entity 11: (51,54)
+Entity 12: (54,54)
+Entity 13: (56,56)
+Entity 14: (61,61)
+Entity 15: (61,62)
+Entity 16: (64,66)
+Entity 17: (70,70)
+Entity 18: (74,74)
+Entity 19: (76,77)
+Entity 20: (82,83)
+Entity 21: (89,89) (88,89)
+Entity 22: (92,92)
+Entity 23: (93,93)
+Entity 24: (97,99)
+Entity 25: (109,111)
 :
 Total key mentions: 24
 Total response mentions: 35
@@ -60,9 +54,9 @@ Identification of Mentions: Recall: (18 / 24) 75%	Precision: (18 / 35) 51.42%	F1
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (2 / 36) 5.55%	Precision: (2 / 3) 66.66%	F1: 10.25%
+Coreference links: Recall: (4 / 36) 11.11%	Precision: (4 / 13) 30.76%	F1: 16.32%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (138 / 240) 57.5%	Precision: (138 / 592) 23.31%	F1: 33.17%
+Non-coreference links: Recall: (137 / 240) 57.08%	Precision: (137 / 582) 23.53%	F1: 33.33%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.315277777777778 / 1) 31.52%	Precision: (0.449887387387387 / 1) 44.98%	F1: 21.71%
+BLANC: Recall: (0.340972222222222 / 1) 34.09%	Precision: (0.271543748347872 / 1) 27.15%	F1: 24.82%
 --------------------------------------------------------------------------

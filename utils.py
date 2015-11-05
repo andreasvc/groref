@@ -14,7 +14,7 @@ mentionID = 0
 
 # List of implemented sieves
 allSieves = [1,2, 4, 5, 6, 7, 9, 10]
-#allSieves = [1,2]
+#allSieves = [1,2,10]
 
 ### CLASSES ### 
 
@@ -526,7 +526,7 @@ def print_all_mentions_ordered(mention_id_list, mention_dict):
 
 # Takes a scorer-output file, returns a dict with the scores
 def process_conll_scorer_file(scorer_filename):
-	scores = {'muc' : [], 'bcub' : [], 'ceafm' : [], 'ceafe' : [], 'blanc' : [], 'conll' : [], 'md' : []}
+	scores = {'muc' : [], 'bcub' : [], 'ceafm' : [], 'ceafe' : [], 'blanc' : [], 'conll' : [], 'md' : [], 'blanc-special' : []}
 	metric = ''
 	for metric in scores:
 		scores[metric] = [0, 1, 0, 0, 1, 0, 0]
@@ -538,15 +538,29 @@ def process_conll_scorer_file(scorer_filename):
 				if re.search('^Identification', line):
 					values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
 					scores['md'] = values[0:6] + values[7:] # At index 6 is the '1' from 'F1', so ignore
-			if metric == 'blanc':
+			if metric == 'blanc': # Treat specially
+				if re.search('^Coreference links', line):
+					values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+					scores['blanc-special'][0] = values[0]
+					scores['blanc-special'][1] = values[1]
+					scores['blanc-special'][2] = values[4]
+				if re.search('Non-', line):
+					values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+					scores['blanc-special'][3] = values[0]
+					scores['blanc-special'][4] = values[1]
+					scores['blanc-special'][5] = values[4]
 				if re.search('^BLANC', line):
 					values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
+#					scores[metric][2] = values[2]
+#					scores[metric][5] = values[5]
+#					scores[metric][6] = values[7]
 					scores[metric] = values[0:6] + values[7:]
 			else:
 				if re.search('^Coreference:', line):
 					values = [float(value) for value in re.findall('[0-9]+\.?[0-9]*', line)]
 					scores[metric] = values[0:6] + values[7:]
 	scores['conll'] = [(scores['muc'][6] + scores['bcub'][6] + scores['ceafe'][6]) / 3] # Calculate CoNLL-F1
+#	print scores
 	return scores
 	
 # 

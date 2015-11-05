@@ -14,33 +14,21 @@ Entity 9: (106,109)
 ====> (23973_Apple_introduces_new_iPod_with_video_playback_capabilities.xml.coref_ne);:
 File (23973_Apple_introduces_new_iPod_with_video_playback_capabilities.xml.coref_ne);:
 Entity 0: (0,0) (16,16) (34,34)
-Entity 1: (2,7)
-Entity 2: (2,3)
-Entity 3: (4,4) (20,20)
-Entity 4: (5,5)
-Entity 5: (17,19)
-Entity 6: (21,21) (104,109)
-Entity 7: (25,27)
-Entity 8: (29,32)
-Entity 9: (30,32)
-Entity 10: (34,37)
-Entity 11: (36,37)
-Entity 12: (42,42)
-Entity 13: (53,58)
-Entity 14: (56,58)
-Entity 15: (64,65)
-Entity 16: (67,69)
-Entity 17: (74,77)
-Entity 18: (81,81) (87,87)
-Entity 19: (87,89)
-Entity 20: (95,99)
-Entity 21: (98,99)
-Entity 22: (101,102)
-Entity 23: (106,109)
-Entity 24: (113,117)
-Entity 25: (116,117)
-Entity 26: (119,123)
-Entity 27: (122,123)
+Entity 1: (2,3) (4,4) (2,7) (17,19) (20,20) (56,58) (67,69) (95,99) (113,117)
+Entity 2: (5,5)
+Entity 3: (21,21) (104,109)
+Entity 4: (25,27)
+Entity 5: (30,32) (29,32)
+Entity 6: (36,37) (34,37)
+Entity 7: (42,42)
+Entity 8: (53,58)
+Entity 9: (64,65)
+Entity 10: (74,77) (98,99) (116,117)
+Entity 11: (81,81) (87,87)
+Entity 12: (87,89)
+Entity 13: (101,102) (122,123)
+Entity 14: (106,109)
+Entity 15: (119,123)
 :
 Total key mentions: 22
 Total response mentions: 33
@@ -54,9 +42,9 @@ Identification of Mentions: Recall: (16 / 22) 72.72%	Precision: (16 / 33) 48.48%
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (3 / 25) 12%	Precision: (3 / 6) 50%	F1: 19.35%
+Coreference links: Recall: (8 / 25) 32%	Precision: (8 / 47) 17.02%	F1: 22.22%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (111 / 206) 53.88%	Precision: (111 / 522) 21.26%	F1: 30.49%
+Non-coreference links: Recall: (105 / 206) 50.97%	Precision: (105 / 481) 21.82%	F1: 30.56%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.329417475728155 / 1) 32.94%	Precision: (0.35632183908046 / 1) 35.63%	F1: 24.92%
+BLANC: Recall: (0.414854368932039 / 1) 41.48%	Precision: (0.194253992126333 / 1) 19.42%	F1: 26.39%
 --------------------------------------------------------------------------

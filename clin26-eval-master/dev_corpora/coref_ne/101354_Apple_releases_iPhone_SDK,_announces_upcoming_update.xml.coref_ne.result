@@ -14,32 +14,22 @@ Entity 9: (72,72) (95,96) (99,99)
 Entity 10: (92,96)
 ====> (101354_Apple_releases_iPhone_SDK,_announces_upcoming_update.xml.coref_ne);:
 File (101354_Apple_releases_iPhone_SDK,_announces_upcoming_update.xml.coref_ne);:
-Entity 0: (0,0) (18,18) (107,107)
-Entity 1: (2,3)
-Entity 2: (6,6)
-Entity 3: (13,16)
-Entity 4: (16,16)
-Entity 5: (21,24)
-Entity 6: (26,26)
-Entity 7: (29,33)
-Entity 8: (31,33)
-Entity 9: (37,40) (66,69)
-Entity 10: (38,40) (67,69)
-Entity 11: (43,44)
-Entity 12: (46,47)
-Entity 13: (48,48)
-Entity 14: (51,52)
-Entity 15: (57,60)
-Entity 16: (58,60)
-Entity 17: (63,69)
-Entity 18: (71,72)
-Entity 19: (74,75) (113,114)
-Entity 20: (78,79)
-Entity 21: (90,90)
-Entity 22: (92,96)
-Entity 23: (95,96)
-Entity 24: (99,99) (111,111)
-Entity 25: (103,104)
+Entity 0: (0,0) (2,3) (18,18) (26,26) (43,44) (51,52) (74,75) (107,107) (113,114)
+Entity 1: (6,6)
+Entity 2: (13,16)
+Entity 3: (16,16)
+Entity 4: (21,24)
+Entity 5: (31,33) (29,33)
+Entity 6: (38,40) (37,40) (67,69) (66,69)
+Entity 7: (46,47)
+Entity 8: (48,48)
+Entity 9: (58,60) (57,60) (103,104)
+Entity 10: (63,69)
+Entity 11: (71,72) (95,96)
+Entity 12: (78,79)
+Entity 13: (90,90)
+Entity 14: (92,96)
+Entity 15: (99,99) (111,111)
 :
 Total key mentions: 22
 Total response mentions: 32
@@ -53,9 +43,9 @@ Identification of Mentions: Recall: (16 / 22) 72.72%	Precision: (16 / 32) 50%	F1
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (2 / 15) 13.33%	Precision: (2 / 7) 28.57%	F1: 18.18%
+Coreference links: Recall: (3 / 15) 20%	Precision: (3 / 48) 6.25%	F1: 9.52%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (113 / 216) 52.31%	Precision: (113 / 489) 23.1%	F1: 32.05%
+Non-coreference links: Recall: (105 / 216) 48.61%	Precision: (105 / 448) 23.43%	F1: 31.62%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.328240740740741 / 1) 32.82%	Precision: (0.258399065147531 / 1) 25.83%	F1: 25.11%
+BLANC: Recall: (0.343055555555556 / 1) 34.3%	Precision: (0.1484375 / 1) 14.84%	F1: 20.57%
 --------------------------------------------------------------------------
