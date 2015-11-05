@@ -1,0 +1,61 @@
+version: 8.01 /home/p268448/clin26/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (191597_Apple_swamped_by_iPhone.xml.coref_ne);:
+File (191597_Apple_swamped_by_iPhone.xml.coref_ne);:
+Entity 0: (0,0) (22,22) (45,45) (72,72)
+Entity 1: (3,4) (15,19)
+Entity 2: (11,11) (33,34)
+Entity 3: (24,26)
+Entity 4: (30,31)
+Entity 5: (40,45)
+Entity 6: (47,47) (49,49)
+Entity 7: (55,55)
+Entity 8: (64,66)
+Entity 9: (68,69) (94,94)
+Entity 10: (73,74)
+Entity 11: (77,78)
+====> (191597_Apple_swamped_by_iPhone.xml.coref_ne);:
+File (191597_Apple_swamped_by_iPhone.xml.coref_ne);:
+Entity 0: (0,0) (22,22) (45,45) (72,72) (108,108)
+Entity 1: (3,3)
+Entity 2: (11,11) (49,49) (94,94)
+Entity 3: (18,19)
+Entity 4: (24,26) (110,112)
+Entity 5: (30,31)
+Entity 6: (33,34)
+Entity 7: (37,37)
+Entity 8: (40,45)
+Entity 9: (47,47)
+Entity 10: (49,51)
+Entity 11: (55,55)
+Entity 12: (58,59)
+Entity 13: (64,66)
+Entity 14: (65,66)
+Entity 15: (68,69)
+Entity 16: (73,74)
+Entity 17: (85,87)
+Entity 18: (94,95)
+Entity 19: (98,99)
+Entity 20: (100,102)
+Entity 21: (107,112)
+Entity 22: (113,113)
+Entity 23: (116,121)
+Entity 24: (119,121)
+:
+Total key mentions: 19
+Total response mentions: 32
+Strictly correct identified mentions: 16
+Partially correct identified mentions: 0
+No identified: 3
+Invented: 16
+
+====== TOTALS =======
+Identification of Mentions: Recall: (16 / 19) 84.21%	Precision: (16 / 32) 50%	F1: 62.74%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (6 / 10) 60%	Precision: (6 / 14) 42.85%	F1: 50%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (108 / 161) 67.08%	Precision: (108 / 482) 22.4%	F1: 33.59%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.635403726708075 / 1) 63.54%	Precision: (0.326318909306461 / 1) 32.63%	F1: 41.79%
+--------------------------------------------------------------------------

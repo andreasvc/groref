@@ -1,0 +1,71 @@
+version: 8.01 /home/p268448/clin26/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (103623_Apples_iTunes_replaces.xml.coref_ne);:
+File (103623_Apples_iTunes_replaces.xml.coref_ne);:
+Entity 0: (0,0) (8,13) (25,30) (81,83) (86,87) (101,103) (115,121)
+Entity 1: (2,2) (29,30) (38,39) (40,46) (146,146) (158,163)
+Entity 2: (4,6) (32,34)
+Entity 3: (45,46) (108,108) (132,132) (162,163)
+Entity 4: (52,52) (105,106)
+Entity 5: (60,62) (64,65) (98,98)
+Entity 6: (75,77) (90,95)
+Entity 7: (110,111) (107,111)
+Entity 8: (124,125)
+Entity 9: (137,138) (131,138)
+Entity 10: (142,146)
+====> (103623_Apples_iTunes_replaces.xml.coref_ne);:
+File (103623_Apples_iTunes_replaces.xml.coref_ne);:
+Entity 0: (0,0) (82,82) (102,102)
+Entity 1: (0,2)
+Entity 2: (2,2) (146,146)
+Entity 3: (4,6)
+Entity 4: (6,6) (34,34) (153,153)
+Entity 5: (8,13) (158,163)
+Entity 6: (11,13) (161,163)
+Entity 7: (12,13) (162,163)
+Entity 8: (21,22)
+Entity 9: (25,27)
+Entity 10: (26,27)
+Entity 11: (29,32)
+Entity 12: (38,39) (64,65)
+Entity 13: (44,46)
+Entity 14: (45,46)
+Entity 15: (49,49)
+Entity 16: (52,52)
+Entity 17: (53,53)
+Entity 18: (60,62)
+Entity 19: (69,70)
+Entity 20: (73,77)
+Entity 21: (81,83) (101,103)
+Entity 22: (86,87)
+Entity 23: (90,95)
+Entity 24: (93,95)
+Entity 25: (98,98)
+Entity 26: (105,106)
+Entity 27: (107,111)
+Entity 28: (110,111)
+Entity 29: (116,121)
+Entity 30: (124,125)
+Entity 31: (126,126)
+Entity 32: (137,138)
+Entity 33: (142,143)
+Entity 34: (144,144)
+Entity 35: (151,151)
+:
+Total key mentions: 32
+Total response mentions: 46
+Strictly correct identified mentions: 22
+Partially correct identified mentions: 0
+No identified: 10
+Invented: 24
+
+====== TOTALS =======
+Identification of Mentions: Recall: (22 / 32) 68.75%	Precision: (22 / 46) 47.82%	F1: 56.41%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (2 / 50) 4%	Precision: (2 / 12) 16.66%	F1: 6.45%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (207 / 446) 46.41%	Precision: (207 / 1023) 20.23%	F1: 28.18%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.252062780269058 / 1) 25.2%	Precision: (0.184506353861193 / 1) 18.45%	F1: 17.31%
+--------------------------------------------------------------------------

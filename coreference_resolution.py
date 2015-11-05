@@ -15,7 +15,7 @@ from sievePreciseConstructs import sievePreciseConstructs
 from sieveStringMatch import sieveStringMatch
 from sievePronounResolution import sievePronounResolution
 
-def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
+def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}, scorer = 'clin'):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses
 	# Read input files
 	try:
@@ -98,7 +98,7 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}):
 		if verbosity == 'high':		
 			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## Generate output
-	generate_conll(input_file, output_file, doc_tags, sentenceDict, mention_dict)	
+	generate_conll(input_file, output_file, doc_tags, sentenceDict, mention_dict, scorer)	
 	
 if __name__ == '__main__':
 	# Parse input arguments

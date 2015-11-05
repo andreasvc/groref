@@ -1,0 +1,65 @@
+version: 8.01 /home/p268448/clin26/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (40986_Apple_releases_Macbook.xml.coref_ne);:
+File (40986_Apple_releases_Macbook.xml.coref_ne);:
+Entity 0: (0,0) (4,5)
+Entity 1: (2,2) (8,10) (12,12) (14,14) (43,44)
+Entity 2: (16,17) (55,56) (70,71)
+Entity 3: (25,26)
+Entity 4: (28,30)
+Entity 5: (35,36)
+Entity 6: (48,53)
+Entity 7: (60,68)
+Entity 8: (60,65)
+Entity 9: (81,84)
+Entity 10: (89,92)
+====> (40986_Apple_releases_Macbook.xml.coref_ne);:
+File (40986_Apple_releases_Macbook.xml.coref_ne);:
+Entity 0: (0,0)
+Entity 1: (2,2) (44,44)
+Entity 2: (4,5)
+Entity 3: (12,12) (105,105)
+Entity 4: (13,17)
+Entity 5: (14,17)
+Entity 6: (20,20)
+Entity 7: (22,23)
+Entity 8: (26,26)
+Entity 9: (28,30)
+Entity 10: (35,39)
+Entity 11: (43,44)
+Entity 12: (48,49)
+Entity 13: (52,53)
+Entity 14: (55,56)
+Entity 15: (56,56)
+Entity 16: (60,61)
+Entity 17: (70,71)
+Entity 18: (71,71)
+Entity 19: (75,76)
+Entity 20: (78,78)
+Entity 21: (83,84)
+Entity 22: (84,84) (92,92)
+Entity 23: (87,87)
+Entity 24: (87,92)
+Entity 25: (100,104)
+Entity 26: (103,104)
+Entity 27: (111,112)
+Entity 28: (114,116)
+Entity 29: (115,116)
+:
+Total key mentions: 18
+Total response mentions: 33
+Strictly correct identified mentions: 8
+Partially correct identified mentions: 0
+No identified: 10
+Invented: 25
+
+====== TOTALS =======
+Identification of Mentions: Recall: (8 / 18) 44.44%	Precision: (8 / 33) 24.24%	F1: 31.37%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (0 / 14) 0%	Precision: (0 / 3) 0%	F1: 0%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (23 / 139) 16.54%	Precision: (23 / 525) 4.38%	F1: 6.92%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.0827338129496403 / 1) 8.27%	Precision: (0.0219047619047619 / 1) 2.19%	F1: 3.46%
+--------------------------------------------------------------------------

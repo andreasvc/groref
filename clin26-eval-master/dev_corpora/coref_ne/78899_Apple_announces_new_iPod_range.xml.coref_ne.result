@@ -1,0 +1,61 @@
+version: 8.01 /home/p268448/clin26/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (78899_Apple_announces_new_iPod_range.xml.coref_ne);:
+File (78899_Apple_announces_new_iPod_range.xml.coref_ne);:
+Entity 0: (0,0) (6,6) (15,15)
+Entity 1: (2,3) (18,23)
+Entity 2: (6,9)
+Entity 3: (27,29) (55,57)
+Entity 4: (27,31) (76,78)
+Entity 5: (27,33)
+Entity 6: (36,39) (42,49)
+Entity 7: (51,57)
+Entity 8: (60,60)
+Entity 9: (71,74)
+Entity 10: (90,90)
+====> (78899_Apple_announces_new_iPod_range.xml.coref_ne);:
+File (78899_Apple_announces_new_iPod_range.xml.coref_ne);:
+Entity 0: (0,0) (6,6) (15,15)
+Entity 1: (2,3)
+Entity 2: (8,10)
+Entity 3: (21,23)
+Entity 4: (27,29) (55,57)
+Entity 5: (28,29)
+Entity 6: (31,31)
+Entity 7: (33,33)
+Entity 8: (36,39)
+Entity 9: (39,39)
+Entity 10: (45,49)
+Entity 11: (48,49)
+Entity 12: (57,57)
+Entity 13: (59,60)
+Entity 14: (63,65)
+Entity 15: (63,68)
+Entity 16: (71,74)
+Entity 17: (76,78)
+Entity 18: (77,78)
+Entity 19: (90,90)
+Entity 20: (93,97) (114,118)
+Entity 21: (96,97)
+Entity 22: (111,111)
+Entity 23: (111,112)
+Entity 24: (117,118)
+Entity 25: (122,123)
+:
+Total key mentions: 17
+Total response mentions: 30
+Strictly correct identified mentions: 10
+Partially correct identified mentions: 0
+No identified: 7
+Invented: 20
+
+====== TOTALS =======
+Identification of Mentions: Recall: (10 / 17) 58.82%	Precision: (10 / 30) 33.33%	F1: 42.55%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (4 / 7) 57.14%	Precision: (4 / 5) 80%	F1: 66.66%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (41 / 129) 31.78%	Precision: (41 / 430) 9.53%	F1: 14.66%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.444629014396456 / 1) 44.46%	Precision: (0.447674418604651 / 1) 44.76%	F1: 40.66%
+--------------------------------------------------------------------------
