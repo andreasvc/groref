@@ -97,20 +97,36 @@ def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 			except ZeroDivisionError:
 				totals[metric][6] = 0
 	totals['conll'] = [(totals['muc'][6] + totals['bcub'][6] + totals['ceafe'][6] ) / 3]
+
 	coref_recall = totals['blanc-special'][0] / totals['blanc-special'][1]
-	coref_precision = totals['blanc-special'][0] / totals['blanc-special'][2]
+	try:
+		coref_precision = totals['blanc-special'][0] / totals['blanc-special'][2]
+	except ZeroDivisionError:
+		coref_precision = 0
 	non_recall = totals['blanc-special'][3] / totals['blanc-special'][4]
-	non_precision = totals['blanc-special'][3] / totals['blanc-special'][5]
-	coref_f = 2*coref_recall*coref_precision/(coref_recall+coref_precision)
-	non_f = 2*non_recall*non_precision/(non_recall+non_precision)
+	try:
+		non_precision = totals['blanc-special'][3] / totals['blanc-special'][5]
+	except ZeroDivisionError:
+		non_precision = 0
+	try:
+		coref_f = 2*coref_recall*coref_precision/(coref_recall+coref_precision)
+	except ZeroDivisionError:
+		coref_f = 0
+	try:
+		non_f = 2*non_recall*non_precision/(non_recall+non_precision)
+	except ZeroDivisionError:
+		non_f = 0		
+#	print coref_recall, coref_precision, coref_f
+#	print non_recall, non_precision, non_f
 	blanc_recall = (coref_recall+non_recall)/2
 	blanc_precision = (coref_precision+non_precision)/2
 	blanc_f = (coref_f + non_f)/2
 	totals['blanc'][2] = blanc_recall*100
 	totals['blanc'][5] = blanc_precision*100
 	totals['blanc'][6] = blanc_f*100
-	print scores
-	print totals['blanc-special']
+	
+#	print scores
+#	print totals['blanc-special']
 	# Print scores to screen and file
 	with open(scores_dir + '/' + 'scores_overall', 'w') as out_file:
 		if verbosity == 'high':
