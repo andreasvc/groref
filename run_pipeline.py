@@ -103,21 +103,24 @@ def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 		else:
 			if not onlyTotal:
 				print 'SCORES:'
-		header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBCUB-r/p/f1\t\tCEAFM-r/p/f1\t\tCEAFE-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
+#		header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBCUB-r/p/f1\t\tCEAFM-r/p/f1\t\tCEAFE-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
+		header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
 		if not onlyTotal:
 			print header
 		out_file.write(header + '\n')
 		for document in scores:
 			docName = document + (20 - len(document)) * ' '
 			a = scores[document]
-			scorestring = '%s\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % (docName,  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
+#			scorestring = '%s\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % (docName,  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
+			scorestring = '%s\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % (docName,  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
 			if not onlyTotal:
 				print scorestring
 			out_file.write(scorestring + '\n')
 		if verbosity == 'high':
 			print 'OVERALL:'
 		a = totals
-		scorestring = '%s\t\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
+#		scorestring = '%s\t\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])	
+		scorestring = '%s\t\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
 		print scorestring
 		out_file.write(scorestring)
 	
