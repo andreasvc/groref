@@ -1,0 +1,53 @@
+version: 8.01 /home/p268448/clin26/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (279494_Apple_executive_Steve.xml.coref_ne);:
+File (279494_Apple_executive_Steve.xml.coref_ne);:
+Entity 0: (0,0) (13,13) (24,25) (55,55) (90,90)
+Entity 1: (2,3) (0,3) (7,8) (10,13) (22,22) (22,25) (37,37) (42,43) (58,58) (65,65) (77,77) (83,83) (88,90) (92,92) (117,117)
+Entity 2: (27,31) (33,34) (40,40)
+Entity 3: (47,55)
+Entity 4: (50,55) (93,93)
+====> (279494_Apple_executive_Steve.xml.coref_ne);:
+File (279494_Apple_executive_Steve.xml.coref_ne);:
+Entity 0: (0,0) (13,13) (55,55) (90,90)
+Entity 1: (0,3)
+Entity 2: (2,3) (7,8)
+Entity 3: (7,13)
+Entity 4: (10,13)
+Entity 5: (17,17)
+Entity 6: (22,25)
+Entity 7: (24,25)
+Entity 8: (29,31)
+Entity 9: (33,34)
+Entity 10: (37,37) (117,117)
+Entity 11: (50,55) (124,127)
+Entity 12: (53,55) (127,127)
+Entity 13: (58,58) (120,120)
+Entity 14: (59,59)
+Entity 15: (65,65) (77,77) (92,92)
+Entity 16: (83,83)
+Entity 17: (83,84)
+Entity 18: (83,86)
+Entity 19: (88,90)
+Entity 20: (93,93)
+Entity 21: (106,107)
+Entity 22: (114,115)
+Entity 23: (122,127)
+:
+Total key mentions: 26
+Total response mentions: 34
+Strictly correct identified mentions: 21
+Partially correct identified mentions: 0
+No identified: 5
+Invented: 13
+
+====== TOTALS =======
+Identification of Mentions: Recall: (21 / 26) 80.76%	Precision: (21 / 34) 61.76%	F1: 70%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (11 / 119) 9.24%	Precision: (11 / 14) 78.57%	F1: 16.54%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (121 / 206) 58.73%	Precision: (121 / 547) 22.12%	F1: 32.13%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.339907807783307 / 1) 33.99%	Precision: (0.50346043353356 / 1) 50.34%	F1: 24.33%
+--------------------------------------------------------------------------

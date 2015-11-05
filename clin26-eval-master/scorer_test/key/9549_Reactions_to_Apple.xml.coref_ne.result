@@ -1,0 +1,29 @@
+version: 8.01 /home/p268448/clin26/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (9549_Reactions_to_Apple.xml.coref_ne);:
+File (9549_Reactions_to_Apple.xml.coref_ne);:
+Entity 0: (0,6)
+Entity 1: (2,6)
+Entity 2: (6,6)
+====> (9549_Reactions_to_Apple.xml.coref_ne);:
+File (9549_Reactions_to_Apple.xml.coref_ne);:
+Entity 0: (2,4)
+Entity 1: (6,6)
+:
+Total key mentions: 3
+Total response mentions: 2
+Strictly correct identified mentions: 1
+Partially correct identified mentions: 0
+No identified: 2
+Invented: 1
+
+====== TOTALS =======
+Identification of Mentions: Recall: (1 / 3) 33.33%	Precision: (1 / 2) 50%	F1: 40%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (0 / 0) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (0 / 3) 0%	Precision: (0 / 1) 0%	F1: 0%
+--------------------------------------------------------------------------
+BLANC: Recall: (0 / 1) 0%	Precision: (0 / 1) 0%	F1: 0%
+--------------------------------------------------------------------------

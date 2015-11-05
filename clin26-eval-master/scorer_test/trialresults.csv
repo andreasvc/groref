@@ -1,0 +1,50 @@
+scorer_test	trial
+Date	Thu Nov 05 11:56:12 CET 2015
+
+Nr. of result files	1
+MENTIONS (key mentions=3)
+# response mentions	2
+# missed mentions	2
+# invented mentions	1
+# strictly correct identified mentions	1
+# partially correct identified mentions	0
+ recall	33.333333333333336%
+ precision	50.0%
+ f1	40.0%
+
+REFERENCE (BLANC)
+# reference links	3.0
+# response reference links	1.0
+# correct reference links	0.0
+ recall	0.0%
+ precision	0.0%
+ f1	NaN%
+
+COREFERENCE
+# key coreference links	0.0
+# response coreference links	0.0
+# correct coreference links	0.0
+ recall	NaN%
+ precision	NaN%
+ f1	NaN%
+
+NOREFERENCE
+# key non-coreference links	3.0
+# response non-coreference links	1.0
+# correct non-coreference links	0.0
+ recall	0.0%
+ precision	0.0%
+ f1	NaN%
+
+
+Macro average over all result files reported by the coref scorer:
+Macro average identification of Mentions
+recall	33.33%
+precision	50.0%
+f1	40.0%
+
+Macro average blanc
+recall	0.0%
+precision	0.0%
+f1	0.0%
+

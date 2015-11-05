@@ -1,0 +1,56 @@
+version: 8.01 /home/p268448/clin26/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (190956_Apple_unveils_iPhone_4.xml.coref_ne);:
+File (190956_Apple_unveils_iPhone_4.xml.coref_ne);:
+Entity 0: (0,0) (37,37)
+Entity 1: (2,3) (27,29) (59,61) (56,61) (73,75) (107,110)
+Entity 2: (5,6) (31,35) (31,39)
+Entity 3: (23,25) (81,81) (90,90) (95,95) (98,98) (113,113)
+Entity 4: (37,39)
+Entity 5: (51,52)
+Entity 6: (64,65)
+====> (190956_Apple_unveils_iPhone_4.xml.coref_ne);:
+File (190956_Apple_unveils_iPhone_4.xml.coref_ne);:
+Entity 0: (0,0) (37,37) (95,95) (98,98)
+Entity 1: (2,3) (28,29) (74,75)
+Entity 2: (5,6) (33,34)
+Entity 3: (8,11)
+Entity 4: (14,18)
+Entity 5: (15,18)
+Entity 6: (20,20)
+Entity 7: (23,25)
+Entity 8: (24,25)
+Entity 9: (27,29) (73,75)
+Entity 10: (41,41)
+Entity 11: (51,52)
+Entity 12: (56,61)
+Entity 13: (59,61)
+Entity 14: (64,65)
+Entity 15: (77,79)
+Entity 16: (81,81) (113,113)
+Entity 17: (83,87)
+Entity 18: (86,87)
+Entity 19: (90,90)
+Entity 20: (99,99)
+Entity 21: (108,110)
+Entity 22: (121,121)
+Entity 23: (122,122)
+Entity 24: (124,126)
+:
+Total key mentions: 20
+Total response mentions: 33
+Strictly correct identified mentions: 16
+Partially correct identified mentions: 0
+No identified: 4
+Invented: 17
+
+====== TOTALS =======
+Identification of Mentions: Recall: (16 / 20) 80%	Precision: (16 / 33) 48.48%	F1: 60.37%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (4 / 34) 11.76%	Precision: (4 / 12) 33.33%	F1: 17.39%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (90 / 156) 57.69%	Precision: (90 / 516) 17.44%	F1: 26.78%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.347285067873303 / 1) 34.72%	Precision: (0.253875968992248 / 1) 25.38%	F1: 22.08%
+--------------------------------------------------------------------------

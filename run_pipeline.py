@@ -17,7 +17,7 @@ def processDocument(filename, verbosity, sieveList, ngdata):
 	global timestamp
 	if verbosity != 'none':
 		print 'processing ' + filename + '...'
-	output_filename = 'results/' + timestamp + '/' + filename.split('/')[-1] + '.coref'
+	output_filename = 'results/' + timestamp + '/' + filename.split('/')[-1] #+ '.coref'
 	scores_filename = output_filename + '.scores'
 	if re.search('coref_ne', filename):
 		isClinData = True
@@ -127,6 +127,7 @@ if __name__ == '__main__':
 	parser.add_argument('target', type=str, help='Path to a file or directory, in .conll format, for which to do coreference resolution.')
 	parser.add_argument('-v', '--verbosity', type = str, help = 'Verbosity of output, can be either "high" or "low", default is "high"', default = 'high')
 	parser.add_argument('-s', '--sieve', help = 'Given this flag, scores after each sieve are reported', dest = 'per_sieve', action = 'store_true')
+	parser.add_argument('-c', '--conll', help = 'Given this flag, CoNLL scorer is used', dest = 'conll', action = 'store_true')
 	args = parser.parse_args()
 	# Put output in timestamped sub-folder of results/
 	timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
@@ -157,7 +158,12 @@ if __name__ == '__main__':
 	else:
 		print 'Incorrect input file or directory'
 		raise SystemExit
-	if not args.per_sieve:
+	if not args.per_sieve and args.conll:
 		postProcessScores('results/' + timestamp, args.verbosity)
+	os.chdir('clin26-eval-master')
+	with open('../results/' + timestamp + '/blanc_scores', 'w') as blanc_scores:
+		subprocess.call(["bash", "score_coref.sh", "coref_ne", "dev_corpora/coref_ne", "../results/" + timestamp, "blanc"], stdout = blanc_scores)
+	os.chdir('../')
+	scores = process_and_print_clin_scorer_file('results/' + timestamp + '/blanc_scores')
 	print 'Timestamp for this run was: %s' % timestamp
 	

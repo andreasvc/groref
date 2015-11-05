@@ -14,6 +14,7 @@ mentionID = 0
 
 # List of implemented sieves
 allSieves = [1,2, 4, 5, 6, 7, 9, 10]
+#allSieves = [1,2]
 
 ### CLASSES ### 
 
@@ -90,11 +91,17 @@ def read_xml_parse_files(fname):
 	return xml_tree_list
 	
 # Creates conll-formatted output with the clustering information
-def generate_conll(docName, output_filename, doc_tags, sentenceDict, mention_dict):
+def generate_conll(docName, output_filename, doc_tags, sentenceDict, mention_dict, scorer):
 	output_file = open(output_filename, 'w')
-	docName = docName.split('/')[-1].split('_')[0]
+	if scorer == 'clin':
+		docName = docName.split('/')[-1][:-10]
+	else:
+		docName = docName.split('/')[-1].split('_')[0]
 	if doc_tags:
-		output_file.write('#begin document (' + docName + '); part 000\n')
+		if scorer == 'clin':
+			output_file.write('#begin document (' + docName + ');\n') #  part 000
+		else:	
+			output_file.write('#begin document (' + docName + '); part 000\n')	
 	for key in sorted(sentenceDict.keys()): # Cycle through sentences
 		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
 			corefLabel = ''
@@ -541,3 +548,48 @@ def process_conll_scorer_file(scorer_filename):
 					scores[metric] = values[0:6] + values[7:]
 	scores['conll'] = [(scores['muc'][6] + scores['bcub'][6] + scores['ceafe'][6]) / 3] # Calculate CoNLL-F1
 	return scores
+	
+# 
+def process_and_print_clin_scorer_file(scorer_filename):
+	idx = 0
+	for line in open(scorer_filename, 'r'):
+		idx += 1
+		line = line.strip()
+		if 'MENTIONS (key mentions' in line:
+			print '\nNumber of mentions in gold standard: %s' % (line.split('=')[-1][:-1])
+		if '# response mentions' in line:
+			response_mentions = line.split('\t')[-1]
+		if '# missed mentions'  in line:
+			missed_mentions = line.split('\t')[-1]
+		if 'invented mentions' in line:
+			invented_mentions = line.split('\t')[-1]
+		if 'strictly correct' in line:
+			print 'Number of mentions in our output: %s,' % response_mentions,
+			print 'of which %s correct, %s missed and %s extra.' % (line.split('\t')[-1], missed_mentions, invented_mentions)
+		if 'BLANC' in line:
+			print 'BLANC scoring showed the following results:'
+		if 'key coreference' in line:
+			key_coref = line.split('\t')[-1][:-2]
+		if 'response coreference' in line:
+			response_coref = line.split('\t')[-1][:-2]
+		if 'correct coreference' in line:
+			correct_coref = line.split('\t')[-1][:-2]
+			print 'Number of coreference links in the gold standard: %s' % (key_coref)
+			print 'We made %s coreference links, of which %s were correct, and %d were wrong\n' % (response_coref, correct_coref, int(response_coref) - int(correct_coref))
+		if 'Macro average id' in line:
+			print 'Macro average scores of mention detection are as follows:'
+		if 'Macro average blanc' in line:
+			print 'Macro average BLANC scores are as follows:'
+		if 'recall' in line:
+			recall = line.split('\t')[-1][:4]
+		if 'precision' in line:
+			precision = line.split('\t')[-1][:4]
+		if 'f1' in line:
+			f1 = line.split('\t')[-1][:4]
+			if idx < 30 or idx > 47:
+				print 'A recall of %05.2f, a precision of %05.2f and a F1 of %05.2f\n' % (float(recall), float(precision), float(f1))
+
+
+
+
+	
