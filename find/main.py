@@ -23,11 +23,25 @@ def create_dict(data):
 				feats_dict[featName] = 1
 	return feats_dict
 
+def compareDicts(err_dict, cor_dict):
+	results = {}
+	for attrib in err_dict:
+		total = err_dict[attrib]
+		if attrib in cor_dict:
+			total += cor_dict[attrib]
+		score = 1.0 - err_dict[attrib]/float(total)
+		results[attrib] = score
+	for attrib in sorted(results, key=lambda l:results[l]):
+		if attrib in cor_dict:
+			print attrib, results[attrib], err_dict[attrib], cor_dict[attrib] + err_dict[attrib]
+		else:
+			print attrib, results[attrib], err_dict[attrib]
+			
 if __name__ == '__main__':
-	errors = find_errors.get_errors('../results/2015-11-04_15-57-02/')
-	err_dict = create_dict(errors)
-        for feature in sorted(err_dict, key=lambda l:err_dict[l]):
-            print feature, err_dict[feature]
+	atr_err, atr_cor = find_errors.get_errors('../results/2015-11-05_16-12-57/')
+	err_dict = create_dict(atr_err)
+	cor_dict = create_dict(atr_cor)
+	compareDicts(err_dict, cor_dict)
 	"""
 	all_counts = count_nodes.get_total_counts()
 	all_dict = create_dict(all_counts)
