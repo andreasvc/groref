@@ -29,7 +29,7 @@ def compareDicts(err_dict, cor_dict):
 		total = err_dict[attrib]
 		if attrib in cor_dict:
 			total += cor_dict[attrib]
-		score = 1.0 - err_dict[attrib]/float(total)
+		score = err_dict[attrib]/float(total)
 		results[attrib] = score
 	for attrib in sorted(results, key=lambda l:results[l]):
 		if attrib in cor_dict:

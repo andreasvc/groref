@@ -24,7 +24,8 @@ def find_attributes(mention, atr):
 		word_errors += 1
 	elif len(subtrees) > 0:
 		subtree_errors += 1
-		atr.append(subtrees[0].attrib)
+		firstChild = subtrees[0].find('.//node[@word]')
+		atr.append(firstChild.attrib)
 	else:
 		nontree_errors += 1
 	print mention.tokenList
