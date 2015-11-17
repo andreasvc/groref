@@ -97,20 +97,36 @@ def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 			except ZeroDivisionError:
 				totals[metric][6] = 0
 	totals['conll'] = [(totals['muc'][6] + totals['bcub'][6] + totals['ceafe'][6] ) / 3]
+
 	coref_recall = totals['blanc-special'][0] / totals['blanc-special'][1]
-	coref_precision = totals['blanc-special'][0] / totals['blanc-special'][2]
+	try:
+		coref_precision = totals['blanc-special'][0] / totals['blanc-special'][2]
+	except ZeroDivisionError:
+		coref_precision = 0
 	non_recall = totals['blanc-special'][3] / totals['blanc-special'][4]
-	non_precision = totals['blanc-special'][3] / totals['blanc-special'][5]
-	coref_f = 2*coref_recall*coref_precision/(coref_recall+coref_precision)
-	non_f = 2*non_recall*non_precision/(non_recall+non_precision)
+	try:
+		non_precision = totals['blanc-special'][3] / totals['blanc-special'][5]
+	except ZeroDivisionError:
+		non_precision = 0
+	try:
+		coref_f = 2*coref_recall*coref_precision/(coref_recall+coref_precision)
+	except ZeroDivisionError:
+		coref_f = 0
+	try:
+		non_f = 2*non_recall*non_precision/(non_recall+non_precision)
+	except ZeroDivisionError:
+		non_f = 0		
+#	print coref_recall, coref_precision, coref_f
+#	print non_recall, non_precision, non_f
 	blanc_recall = (coref_recall+non_recall)/2
 	blanc_precision = (coref_precision+non_precision)/2
 	blanc_f = (coref_f + non_f)/2
 	totals['blanc'][2] = blanc_recall*100
 	totals['blanc'][5] = blanc_precision*100
 	totals['blanc'][6] = blanc_f*100
-	print scores
-	print totals['blanc-special']
+	
+#	print scores
+#	print totals['blanc-special']
 	# Print scores to screen and file
 	with open(scores_dir + '/' + 'scores_overall', 'w') as out_file:
 		if verbosity == 'high':
@@ -119,15 +135,33 @@ def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 			if not onlyTotal:
 				print 'SCORES:'
 #		header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBCUB-r/p/f1\t\tCEAFM-r/p/f1\t\tCEAFE-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
-		header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
+		header = 'document name\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tBLANC-coref\t\tBLANC-non-ref\t\tCONLL-f1'
 		if not onlyTotal:
 			print header
 		out_file.write(header + '\n')
 		for document in scores:
-			docName = document + (20 - len(document)) * ' '
+			docName = document + (16 - len(document)) * ' '
 			a = scores[document]
+			doc_coref_recall = a['blanc-special'][0] / a['blanc-special'][1]
+			try:
+				doc_coref_precision = a['blanc-special'][0] / a['blanc-special'][2]
+			except ZeroDivisionError:
+				doc_coref_precision = 0
+			doc_non_recall = a['blanc-special'][3] / a['blanc-special'][4]
+			try:
+				doc_non_precision = a['blanc-special'][3] / a['blanc-special'][5]
+			except ZeroDivisionError:
+				doc_non_precision = 0
+			try:
+				doc_coref_f = 2*doc_coref_recall*doc_coref_precision/(doc_coref_recall+doc_coref_precision)
+			except ZeroDivisionError:
+				doc_coref_f = 0
+			try:
+				doc_non_f = 2*doc_non_recall*non_precision/(doc_non_recall+doc_non_precision)
+			except ZeroDivisionError:
+				doc_non_f = 0				
 #			scorestring = '%s\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % (docName,  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
-			scorestring = '%s\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % (docName,  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
+			scorestring = '%s%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % (docName,  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], doc_coref_recall*100, doc_coref_precision*100, doc_coref_f*100, doc_non_recall*100, doc_non_precision*100, doc_non_f*100, a['conll'][0])
 			if not onlyTotal:
 				print scorestring
 			out_file.write(scorestring + '\n')
@@ -135,7 +169,7 @@ def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 			print 'OVERALL:'
 		a = totals
 #		scorestring = '%s\t\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])	
-		scorestring = '%s\t\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
+		scorestring = '%s\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], coref_recall*100, coref_precision*100, coref_f*100, non_recall*100, non_precision*100, non_f*100, a['conll'][0])
 		print scorestring
 		out_file.write(scorestring)
 	
@@ -158,7 +192,7 @@ if __name__ == '__main__':
 	if os.path.isdir(args.target):
 		args.target += '/'
 		if args.per_sieve:
-			print '\t\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
+			print '\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tBLANC-coref\t\tBLANC-non-ref\t\tCONLL-f1'
 			for i in range(0, len(allSieves) + 1):
 				processDirectory(args.target, 'none', allSieves[:i], ngdata)
 				print 'using these sieves: ' + str(allSieves[:i])
@@ -167,7 +201,7 @@ if __name__ == '__main__':
 			processDirectory(args.target, args.verbosity, range(0, 20), ngdata) # Give range(0,20) as sieveList, so that all sieves are applied
 	elif os.path.isfile(args.target):
 		if args.per_sieve:
-			print '\t\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
+			print '\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tBLANC-coref\t\tBLANC-non-ref\t\tCONLL-f1'
 			for i in range(0, len(allSieves)):
 				processDocument(args.target, 'none', allSieves[:i+1], ngdata)
 				print 'using these sieves: ' + str(allSieves[:i+1])
