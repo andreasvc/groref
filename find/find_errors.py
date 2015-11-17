@@ -25,7 +25,13 @@ def find_attributes(mention, atr):
 	elif len(subtrees) > 0:
 		subtree_errors += 1
 		firstChild = subtrees[0].find('.//node[@word]')
-		atr.append(firstChild.attrib)
+		lastChild = subtrees[len(subtrees)-1].find('.//node[@word]')
+		if (lastChild == None):
+			lastChild = subtrees[len(subtrees)-2].find('.//node[@word]')
+		if (lastChild != None):
+			atr.append(lastChild.attrib)
+		else:
+			print ("None")
 	else:
 		nontree_errors += 1
 	print mention.tokenList

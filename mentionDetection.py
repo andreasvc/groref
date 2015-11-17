@@ -12,8 +12,27 @@ def allWordsHaveAlpha(wordList):
 			return False
 	return True
 
+
+def handleComma(new_mention, tree, sentNum, ngdata):
+	global mention_list
+	if new_mention.tokenList[1] == ',' and len(new_mention.tokenList) > 3:
+		add_mention(mention_list, new_mention)
+	elif (len(new_mention.tokenList) == 3 and 
+			new_mention.tokenList[1] == ',' and
+			'neclass' in new_mention.tokenAttribs[0] and
+			new_mention.tokenAttribs[0]['neclass'] == 'LOC'):
+		add_mention(mention_list, new_mention)
+		new_mention1 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'np_comma', sentNum, ngdata)
+		add_mention(mention_list, new_mention)
+	else:
+		new_mention1 = make_mention(new_mention.begin, new_mention.begin + new_mention.tokenList.index(','), tree, 'np_comma', sentNum, ngdata)
+		new_mention2 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'np_comma', sentNum, ngdata)
+		add_mention(mention_list, new_mention1)
+		add_mention(mention_list, new_mention2)
+
 # 28.96/50.84/36.90
 # 27.36/52.94/36.08 na allWordsHaveAlpha
+# 24.80/58.00/34/80 na extra if for firstChild
 def findNP(tree, sentNum, ngdata):
 	global mention_list
 	np_rels = ['su', 'app','body','sat','predc', 'obj1', 'cnj'] 
@@ -22,23 +41,22 @@ def findNP(tree, sentNum, ngdata):
 		if mention_node.attrib['rel'] in np_rels and len_ment < 7: 
 			name = 'np_' + mention_node.attrib['rel']
 			new_mention = make_mention(mention_node.attrib['begin'], mention_node.attrib['end'], tree, name, sentNum, ngdata)
-			if ',' in new_mention.tokenList:
-				if new_mention.tokenList[1] == ',' and len(new_mention.tokenList) > 3:
-					add_mention(mention_list, new_mention)
-				elif (len(new_mention.tokenList) == 3 and 
-						new_mention.tokenList[1] == ',' and
-					'neclass' in new_mention.tokenAttribs[0] and
-					new_mention.tokenAttribs[0]['neclass'] == 'LOC'):
-					add_mention(mention_list, new_mention)
-					new_mention1 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'np_comma', sentNum, ngdata)
-					add_mention(mention_list, new_mention)
-				else:
-					new_mention1 = make_mention(new_mention.begin, new_mention.begin + new_mention.tokenList.index(','), tree, 'np_comma', sentNum, ngdata)
-					new_mention2 = make_mention(new_mention.tokenList.index(',') + new_mention.begin + 1, new_mention.end, tree, 'np_comma', sentNum, ngdata)
-					add_mention(mention_list, new_mention1)
-					add_mention(mention_list, new_mention2)
+			subtrees = tree.findall('.//node[@begin="' + str(new_mention.begin) + '"][@end="' + str(new_mention.end) + '"]')
+			firstChild = subtrees[0].find('.//node[@word]')
+			if ('pron' in firstChild.attrib and
+			firstChild.attrib['pron'] == 'true') or (
+			'buiging' in firstChild.attrib and 
+			firstChild.attrib['buiging'] == 'zonder') or(
+			'pos' in firstChild.attrib and 
+			firstChild.attrib['pos'] == 'num') or(
+			'index' in firstChild.attrib) or (
+			'sc' in firstChild.attrib):
+				pass
+			elif ',' in new_mention.tokenList:
+				handleComma(new_mention, tree, sentNum, ngdata)
 			elif allWordsHaveAlpha(new_mention.tokenList):
 				add_mention(mention_list, new_mention)
+				
 
 
 # 11.04/42.33/17.51 

@@ -38,7 +38,7 @@ def compareDicts(err_dict, cor_dict):
 			print attrib, results[attrib], err_dict[attrib]
 			
 if __name__ == '__main__':
-	atr_err, atr_cor = find_errors.get_errors('../results/2015-11-05_16-12-57/')
+	atr_err, atr_cor = find_errors.get_errors('../results/2015-11-17_15-52-52/')
 	err_dict = create_dict(atr_err)
 	cor_dict = create_dict(atr_cor)
 	compareDicts(err_dict, cor_dict)
