@@ -33,8 +33,8 @@ def sievePreciseConstructs(mention_id_list, mention_dict, cluster_dict, cluster_
 						if appos:
 							for ids in mention_dict[ment_id].tokenAttribs:
 								for ana_ids in mention_dict[anaphor.ID].tokenAttribs:
-									if (ids['id'], ids['root'])  in appos[0] and (ana_ids['id'], ana_ids['root']) in appos[1]:
-											madeLink = True					
+									if (ids['id'], ids['root'])  in appos[0] and (ana_ids['id'], ana_ids['root']) in appos[1] and len(mention_dict[anaphor.ID].tokenList) > 2:
+											madeLink = True				
 						'''Predicate nominative'''
 						#Two mentions (nominal or pronominal) are in a copulative subject-object relation
 						pred = pred_nom(root)
@@ -44,16 +44,17 @@ def sievePreciseConstructs(mention_id_list, mention_dict, cluster_dict, cluster_
 									if (ids['id'], ids['root'])  in pred[0] and (ana_ids['id'], ana_ids['root']) in pred[1]:
 											madeLink = True		
 						'''Role appositive'''
-						if mention_dict[anaphor.ID].NEtype == 'person': #and  mention_dict[ment_id].animacy == 'animate':# and mention_dict[anaphor.ID].gender != 'neuter':
-							hw = mention_dict[ment_id].headWords + mention_dict[anaphor.ID].tokenList
-							h =  mention_dict[ment_id].headWords	
-							t = []			
-							for hw in mention_dict[anaphor.ID].tokenList:
-								h.append(hw.lower())
-							for tk in mention_dict[ment_id].tokenList:
-								t.append(tk.lower())
-							if h == t:
-								madeLink == True
+						#if mention_dict[anaphor.ID].NEtype == 'person' and  mention_dict[ment_id].animacy == 'animate':# and mention_dict[anaphor.ID].gender != 'neuter':
+						#	hw = mention_dict[ment_id].headWords + mention_dict[anaphor.ID].tokenList
+						#	h =  mention_dict[ment_id].headWords	
+						#	t = []			
+						#	for hw in mention_dict[anaphor.ID].tokenList:
+						#		h.append(hw.lower())
+						#	for tk in mention_dict[ment_id].tokenList:
+						#		t.append(tk.lower())
+						#	if h == t:
+						#		madeLink == True
+						#		print "Role Appositive"
 						'''Relative Pronoun'''					
 						#mention is a relative pronoun that modifies the head of the antecedent NP
 						if  mention_dict[anaphor.ID].pron_type == 'betr':
@@ -61,8 +62,7 @@ def sievePreciseConstructs(mention_id_list, mention_dict, cluster_dict, cluster_
 							if len(rp) > 0:
 								for at in mention_dict[ment_id].tokenAttribs:
 									if rp[0][0]['id'] == at['id']:
-										madeLink = True
-												
+										madeLink = True				
 						'''Acronym'''
 						#Both mentions are tagged as NNP and one of them is an acronym of the other
 						mention_acr = Acronyms(mention_dict[ment_id].tokenList) 
@@ -84,8 +84,7 @@ def sievePreciseConstructs(mention_id_list, mention_dict, cluster_dict, cluster_
 							if verbosity == 'high':						
 								print 'Linking clusters %d and %d' % (ment_id, anaphor.ID)							
 							cluster_dict, cluster_id_list = mergeClustersByMentionIDs(ment_id, anaphor.ID, \
-								mention_dict, cluster_dict, cluster_id_list)	
-							madeLink = True					
+								mention_dict, cluster_dict, cluster_id_list)					
 						if madeLink:
 							break
 	return mention_id_list, mention_dict, cluster_dict, cluster_id_list
