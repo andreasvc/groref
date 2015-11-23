@@ -331,7 +331,7 @@ def add_mention_features(mention, ngdata):
 	elif mention.NEtype:
 		mention.animacy = 'inanimate'
 	if mention.type.lower() == 'pronoun':
-		if attribs['vwtype'] == 'vb':
+		if 'vwtype' in attribs and attribs['vwtype'] == 'vb':
 			mention.animacy = 'inanimate'
 		else:
 			mention.animacy = 'animate'	

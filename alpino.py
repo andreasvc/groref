@@ -19,7 +19,8 @@ def parse(conllFile, tokenIdx, nameCut):
     tmpFile.close()
     
     folder = conllFile[:conllFile.find('_')]
-    shutil.rmtree(folder)
+    if os.path.exists(folder):
+        shutil.rmtree(folder)
     print(folder)
     os.mkdir(folder)
     
@@ -33,5 +34,8 @@ def runAlpino(working, tokenIdx, nameCut):
 
 if __name__ == '__main__':
     #runAlpino('DCOI/conll/', 6, 30)
-    runAlpino('clinDevData/', 2, 21)
+    #runAlpino('clinDevData/', 2, 21)
+    runAlpino('clinTestData/boeing/corefne/', 2, 21)
+    #runAlpino('clinTestData/gm/corefne/', 2, 21)
+    #runAlpino('clinTestData/stock/corefne/', 2, 21)
 
