@@ -16,42 +16,40 @@ Entity 11: (104,107)
 Entity 12: (136,140) (143,144)
 ====> (127576_Apple_launches_new.xml.coref_ne);:
 File (127576_Apple_launches_new.xml.coref_ne);:
-Entity 0: (0,0) (7,8) (131,131)
-Entity 1: (2,5)
-Entity 2: (12,13) (11,13) (19,19) (19,20) (15,20) (49,50) (54,56) (89,90) (92,92)
-Entity 3: (24,26)
-Entity 4: (32,34)
-Entity 5: (36,37)
-Entity 6: (44,45)
-Entity 7: (47,50)
-Entity 8: (63,64)
-Entity 9: (75,76)
-Entity 10: (80,80) (142,142)
-Entity 11: (81,81)
-Entity 12: (85,90)
-Entity 13: (92,93)
-Entity 14: (99,101) (117,118)
-Entity 15: (109,109)
-Entity 16: (127,129) (143,144)
-Entity 17: (140,140)
-Entity 18: (148,152)
-Entity 19: (150,151)
+Entity 0: (0,0)
+Entity 1: (2,5) (49,50) (89,90)
+Entity 2: (7,8)
+Entity 3: (12,13) (11,13) (15,20) (54,56)
+Entity 4: (19,19)
+Entity 5: (24,26)
+Entity 6: (32,34)
+Entity 7: (36,37)
+Entity 8: (44,45)
+Entity 9: (47,50)
+Entity 10: (63,64)
+Entity 11: (75,76)
+Entity 12: (80,80)
+Entity 13: (81,81)
+Entity 14: (85,90)
+Entity 15: (92,92)
+Entity 16: (99,101) (117,118)
+Entity 17: (109,109)
 :
 Total key mentions: 29
-Total response mentions: 33
-Strictly correct identified mentions: 23
+Total response mentions: 24
+Strictly correct identified mentions: 20
 Partially correct identified mentions: 0
-No identified: 6
-Invented: 10
+No identified: 9
+Invented: 4
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (23 / 29) 79.31%	Precision: (23 / 33) 69.69%	F1: 74.19%
+Identification of Mentions: Recall: (20 / 29) 68.96%	Precision: (20 / 24) 83.33%	F1: 75.47%
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (10 / 51) 19.6%	Precision: (10 / 42) 23.8%	F1: 21.5%
+Coreference links: Recall: (5 / 51) 9.8%	Precision: (5 / 10) 50%	F1: 16.39%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (188 / 355) 52.95%	Precision: (188 / 486) 38.68%	F1: 44.7%
+Non-coreference links: Recall: (151 / 355) 42.53%	Precision: (151 / 266) 56.76%	F1: 48.63%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.362827948080641 / 1) 36.28%	Precision: (0.312463256907701 / 1) 31.24%	F1: 33.1%
+BLANC: Recall: (0.261695664181165 / 1) 26.16%	Precision: (0.533834586466165 / 1) 53.38%	F1: 32.51%
 --------------------------------------------------------------------------

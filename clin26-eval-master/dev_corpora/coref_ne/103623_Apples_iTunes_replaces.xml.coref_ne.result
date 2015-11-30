@@ -15,43 +15,40 @@ Entity 10: (142,146)
 ====> (103623_Apples_iTunes_replaces.xml.coref_ne);:
 File (103623_Apples_iTunes_replaces.xml.coref_ne);:
 Entity 0: (0,0) (0,2) (82,82) (102,102)
-Entity 1: (2,2) (146,146)
-Entity 2: (6,6) (4,6) (29,32) (34,34) (151,151) (153,153)
-Entity 3: (8,13) (116,121) (158,163)
-Entity 4: (12,13) (11,13) (162,163) (161,163)
+Entity 1: (2,2)
+Entity 2: (6,6) (34,34)
+Entity 3: (8,13)
+Entity 4: (12,13) (11,13)
 Entity 5: (21,22)
 Entity 6: (26,27) (25,27)
-Entity 7: (38,39) (64,65)
-Entity 8: (45,46) (44,46)
-Entity 9: (49,49)
-Entity 10: (52,52) (53,53) (105,106)
-Entity 11: (60,62)
-Entity 12: (69,70)
-Entity 13: (73,77)
+Entity 7: (29,32)
+Entity 8: (38,39) (64,65)
+Entity 9: (45,46) (44,46)
+Entity 10: (49,49)
+Entity 11: (52,52) (53,53) (105,106)
+Entity 12: (60,62)
+Entity 13: (69,70)
 Entity 14: (81,83) (86,87) (101,103)
-Entity 15: (90,95)
-Entity 16: (93,95)
-Entity 17: (98,98)
-Entity 18: (110,111) (107,111)
-Entity 19: (124,125) (126,126) (137,138)
-Entity 20: (142,143)
-Entity 21: (144,144)
+Entity 15: (93,95)
+Entity 16: (98,98)
+Entity 17: (107,111)
+Entity 18: (110,111)
 :
 Total key mentions: 32
-Total response mentions: 46
-Strictly correct identified mentions: 22
+Total response mentions: 31
+Strictly correct identified mentions: 15
 Partially correct identified mentions: 0
-No identified: 10
-Invented: 24
+No identified: 17
+Invented: 16
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (22 / 32) 68.75%	Precision: (22 / 46) 47.82%	F1: 56.41%
+Identification of Mentions: Recall: (15 / 32) 46.87%	Precision: (15 / 31) 48.38%	F1: 47.61%
 --------------------------------------------------------------------------
 
 Coreference:
-Coreference links: Recall: (6 / 50) 12%	Precision: (6 / 44) 13.63%	F1: 12.76%
+Coreference links: Recall: (4 / 50) 8%	Precision: (4 / 17) 23.52%	F1: 11.94%
 --------------------------------------------------------------------------
-Non-coreference links: Recall: (206 / 446) 46.18%	Precision: (206 / 991) 20.78%	F1: 28.67%
+Non-coreference links: Recall: (88 / 446) 19.73%	Precision: (88 / 448) 19.64%	F1: 19.68%
 --------------------------------------------------------------------------
-BLANC: Recall: (0.290941704035874 / 1) 29.09%	Precision: (0.172117236950738 / 1) 17.21%	F1: 20.71%
+BLANC: Recall: (0.138654708520179 / 1) 13.86%	Precision: (0.215861344537815 / 1) 21.58%	F1: 15.81%
 --------------------------------------------------------------------------
