@@ -101,10 +101,12 @@ def generate_conll(docName, output_filename, doc_tags, sentenceDict, mention_dic
 		if scorer == 'clin':
 			output_file.write('#begin document (' + docName + ');\n') #  part 000
 		else:	
-			output_file.write('#begin document (' + docName + '); part 000\n')	
+			output_file.write('#begin document (' + docName + '); part 000\n')
+	doc_token_id = 0	
 	for key in sorted(sentenceDict.keys()): # Cycle through sentences
 		for token_idx, token in enumerate(sentenceDict[key].split(' ')): # Cycle through words in sentences
 			corefLabel = ''
+			doc_token_id += 1
 			for mention_id, mention in mention_dict.iteritems(): # Check all mentions, to see whether token is part of mention
 				if mention.sentNum == key:
 					if token_idx == mention.begin: # Start of mention, print a bracket
@@ -120,8 +122,7 @@ def generate_conll(docName, output_filename, doc_tags, sentenceDict, mention_dic
 						corefLabel += ')'
 			if not corefLabel: # Tokens outside of mentions get a dash
 				corefLabel = '-'
-			output_file.write(docName + '\t' + str(key) + '\t' + '0\t' + '0\t' + '0\t' +
-			'0\t' + token.encode('utf-8') + '\t' + corefLabel + '\n')
+			output_file.write(docName + '\t' + str(doc_token_id) + '\t' + token.encode('utf-8') + '\t' + corefLabel + '\n')
 		output_file.write('\n')
 	if doc_tags:
 		output_file.write('#end document')	
