@@ -1,43 +1,5 @@
 dev_corpora	trial
-<<<<<<< HEAD
-Date	Mon Nov 23 14:42:58 CET 2015
-
-Nr. of result files	30
-MENTIONS (key mentions=663)
-# response mentions	768
-# missed mentions	229
-# invented mentions	334
-# strictly correct identified mentions	434
-# partially correct identified mentions	0
- recall	65.46003016591251%
- precision	56.510416666666664%
- f1	60.65688329839273%
-
-REFERENCE (BLANC)
-# reference links	7388.0
-# response reference links	9876.0
-# correct reference links	2718.0
- recall	36.78938819707634%
- precision	27.521263669501824%
- f1	31.48748841519926%
-
-COREFERENCE
-# key coreference links	1096.0
-# response coreference links	471.0
-# correct coreference links	179.0
- recall	16.33211678832117%
- precision	38.004246284501065%
- f1	22.84620293554563%
-
-NOREFERENCE
-# key non-coreference links	6292.0
-# response non-coreference links	9405.0
-# correct non-coreference links	2539.0
- recall	40.35282898919262%
- precision	26.996278575225944%
- f1	32.35013059820348%
-=======
-Date	Mon Nov 30 12:18:43 CET 2015
+Date	Mon Nov 30 18:07:08 CET 2015
 
 Nr. of result files	30
 MENTIONS (key mentions=0)
@@ -73,21 +35,10 @@ NOREFERENCE
  recall	NaN%
  precision	NaN%
  f1	NaN%
->>>>>>> 9687c2962fda0a1059051dd7ccd3814cd0c76c26
 
 
 Macro average over all result files reported by the coref scorer:
 Macro average identification of Mentions
-<<<<<<< HEAD
-recall	65.74933333333334%
-precision	56.914333333333325%
-f1	60.534333333333315%
-
-Macro average blanc
-recall	30.00033333333332%
-precision	33.58%
-f1	27.356333333333335%
-=======
 recall	0.0%
 precision	0.0%
 f1	0.0%
@@ -96,5 +47,4 @@ Macro average blanc
 recall	0.0%
 precision	0.0%
 f1	0.0%
->>>>>>> 9687c2962fda0a1059051dd7ccd3814cd0c76c26
 
