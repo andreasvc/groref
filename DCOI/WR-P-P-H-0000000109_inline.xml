@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="corea_corpus.xsl" type="text/xsl"?>
-<toplevel>
-  <sentence alpsent="WR-P-P-H-0000000109.p.1.s.1.xml"><markable head="ROTTERDAM" id="markable_1">ROTTERDAM</markable> -</sentence>
-  <sentence alpsent="WR-P-P-H-0000000109.p.1.s.2.xml"><markable head="woningen" id="markable_2">Vier woningen in <markable head="Rotterdam-Zuid" id="markable_3">Rotterdam-Zuid</markable></markable> zijn in <markable head="nacht" id="markable_4">de nacht van <markable head="zaterdag" id="markable_5">zaterdag</markable> op <markable head="zondag" id="markable_6">zondag</markable></markable> verwoest door <markable head="brand" id="markable_7">een grote brand</markable> .</sentence>
-  <sentence alpsent="WR-P-P-H-0000000109.p.1.s.3.xml">Volgens <markable head="woordvoerder" id="markable_8">een woordvoerder van <markable head="politie" id="markable_9">de politie</markable></markable> raakte <markable head="niemand" id="markable_10">niemand</markable> gewond door <markable head="vlammen" id="markable_11">de vlammen</markable> .</sentence>
-</toplevel>

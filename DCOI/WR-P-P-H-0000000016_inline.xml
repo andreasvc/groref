@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="corea_corpus.xsl" type="text/xsl"?>
-<toplevel>
-  <sentence alpsent="WR-P-P-H-0000000016.p.1.s.1.xml"><markable head="toronto" id="markable_1">TORONTO</markable> -</sentence>
-  <sentence alpsent="WR-P-P-H-0000000016.p.1.s.2.xml"><markable head="cricketteam" id="markable_2">Het Nederlands cricketteam</markable> heeft <markable head="openingswedstrijd" id="markable_3">de openingswedstrijd in <markable head="icc trophy" id="markable_4">de ICC Trophy</markable> , <markable head="wk" id="markable_5" level="reference" mod="no" ref="markable_4" time="none" type="pred">het WK voor <markable head="b-landen" id="markable_6">B-landen</markable></markable></markable> , winnend afgesloten .</sentence>
-  <sentence alpsent="WR-P-P-H-0000000016.p.1.s.3.xml"><markable head="verenigde arabische emiraten" id="markable_7">De Verenigde Arabische Emiraten</markable> werden met <markable head="runs" id="markable_8">90 runs</markable> <markable head="verschil" id="markable_9">verschil</markable> verslagen .</sentence>
-  <sentence alpsent="WR-P-P-H-0000000016.p.1.s.4.xml"><markable head="tegenstander" id="markable_10" level="reference" mod="no" ref="markable_7" time="none" type="ident">De tegenstander</markable> had halverwege nog <markable head="papieren" id="markable_11">de beste papieren</markable> en gooide <markable head="nederland" id="markable_12" level="reference" mod="no" ref="markable_2" time="none" type="ident">Nederland</markable> uit voor <markable head="runs" id="markable_13">slechts 144 runs</markable> .</sentence>
-</toplevel>
