@@ -1,3 +1,8 @@
+# This assumes that Alpino is installed
+# On LWP this can be done by 
+# export ALPINO_HOME=/net/aps/64/src/Alpino
+# PATH=/net/aps/64/bin:$PATH
+
 import os
 import sys
 import shutil
