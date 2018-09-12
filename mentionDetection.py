@@ -128,18 +128,17 @@ def findNP2(tree, sentNum, ngdata):
 
 	
 # Mention detection sieve, selects all NPs, pronouns, names		
-def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict, ngdata):
+def mentionDetection(conll_list, tree_list, verbosity, sentenceDict, ngdata):
 	global mention_list
 
 	mention_id_list = []
 	mention_dict = {}
+	sentNum = 1
 	for tree in tree_list:
 		mention_list = []
-		sentNum = tree.find('comments').find('comment').text
-		sentNum = int(re.findall('#[0-9]+', sentNum)[0][1:])
-		sentenceDict[int(sentNum)] = tree.find('sentence').text
+		sentenceDict[sentNum] = tree.find('sentence').text
 		sentenceList = tree.find('sentence').text.split(' ')
-		
+
 		findNP(tree, sentNum, ngdata)
 		#findMWU(tree, sentNum, ngdata)
 		findMWU2(tree, sentNum, ngdata)
@@ -148,16 +147,15 @@ def mentionDetection(conll_list, tree_list, docFilename, verbosity, sentenceDict
 		findPron(tree, sentNum, ngdata)
 		findName(tree, sentNum, ngdata)
 		findNP2(tree, sentNum, ngdata)
-		
+
 		if len(tree.findall('.//node')) > 2: 
 			for mention in mention_list:
 				mention_id_list.append(mention.ID)
 				mention_dict[mention.ID] = mention
-				
+		sentNum += 1
+
 	# Sort list properly
 	mention_id_list = sort_mentions(mention_id_list, mention_dict)
 	if verbosity == 'high':
 		print 'found %d unique mentions' % (len(mention_id_list))
 	return mention_id_list, mention_dict
-
-

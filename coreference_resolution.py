@@ -7,6 +7,7 @@ input data and Alpino pars in xml as input, gives CoNLL-formatted output. """
 
 import argparse, copy, subprocess
 from utils import *
+import utils
 from mentionDetection import mentionDetection
 from sieveDummy import sieveDummy
 from sieveSpeakerIdentification import sieveSpeakerIdentification
@@ -15,14 +16,16 @@ from sievePreciseConstructs import sievePreciseConstructs
 from sieveStringMatch import sieveStringMatch
 from sievePronounResolution import sievePronounResolution
 
-def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}, scorer = 'clin'):
+def main(conll_file, parses_dir, output_file, doc_tags, verbosity, sieveList,
+		ngdata = {}, scorer='clin'):
 	num_sentences = 9999 # Maximum number of sentences for which to read in parses
 	# Read input files
 	try:
-		conll_list, num_sentences = read_conll_file(input_file)
+		conll_list, num_sentences = read_conll_file(conll_file)
 	except IOError:
-		print 'CoNLL input file not found: %s' % (input_file)
-	xml_tree_list = read_xml_parse_files(input_file)[:num_sentences]
+		print 'CoNLL input file not found: %s' % (conll_file)
+		conll_list = []
+	xml_tree_list = read_xml_parse_files(parses_dir)[:num_sentences]
 	if verbosity == 'high':
 		print 'Number of sentences found: %d' % (num_sentences)
 		print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
@@ -31,10 +34,11 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}, s
 	## mention_id_list contains list of mention IDs in right order, for traversing in sieves
 	## mention_dict contains the actual mentions, format: {id: Mention}
 	## cluster_dict contains all clusters, in a dict
-	mention_id_list, mention_dict = mentionDetection(conll_list, xml_tree_list, input_file, verbosity, sentenceDict, ngdata)
+	mention_id_list, mention_dict = mentionDetection(conll_list, xml_tree_list, verbosity, sentenceDict, ngdata)
 	if verbosity == 'high':
 		print 'OUR MENTION OUTPUT:'
 		print_mentions_inline(sentenceDict, mention_id_list, mention_dict)
+	if verbosity == 'high' and conll_list:
 		print 'MENTION DETECTION OUTPUT VS. GOLD STANDARD:'
 		print_mention_analysis_inline(conll_list, sentenceDict, mention_id_list, mention_dict)		
 		print 'GOLD STANDARD:'
@@ -98,14 +102,17 @@ def main(input_file, output_file, doc_tags, verbosity, sieveList, ngdata = {}, s
 		if verbosity == 'high':		
 			print_linked_mentions(old_mention_dict, mention_id_list, mention_dict, sentenceDict) # Print changes
 	## Generate output
-	generate_conll(input_file, output_file, doc_tags, sentenceDict, mention_dict, scorer)	
+	generate_conll(conll_file, output_file, doc_tags, sentenceDict, mention_dict, scorer)
 	
 if __name__ == '__main__':
 	# Parse input arguments
 	parser = argparse.ArgumentParser()
-	parser.add_argument('input_file', type=str, help='Path to a file, in .conll format, to be resolved')
+	parser.add_argument('input_file', type=str, help='Path to a directory with Alpino parses')
 	parser.add_argument('output_file', type = str, help = 'The path of where the output should go, e.g. WR77.xml.coref')
 	parser.add_argument('--docTags', help = 'If this flag is given, a begin and end document is printed at first and last line of output', dest = 'doc_tags', action = 'store_true')
+	parser.add_argument('--verbose', help='If this flag is given, enable verbose output', dest='verbose', action='store_true')
 	args = parser.parse_args()
-	main(args.input_file, args.output_file, args.doc_tags, verbosity)
+	main(args.input_file + '.conll', args.input_file,
+			args.output_file, args.doc_tags,
+			'high' if args.verbose else 'none', utils.allSieves)
 

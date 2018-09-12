@@ -2,6 +2,7 @@
 
 import colorama as c
 import re, sys, os
+import glob
 import xml.etree.ElementTree as ET
 from time import sleep
 ### GLOBAL VARIABLES ###
@@ -66,37 +67,25 @@ def read_conll_file(fname):
 	return conll_list, num_sentences
 	
 # Read in xml-files containing parses for sentences in document, return list of per-sentence XML trees
-def read_xml_parse_files(fname):
+def read_xml_parse_files(dir_name):
 	xml_tree_list = []
-	dir_name = '/'.join(fname.split('/')[0:-1]) + '/' + fname.split('/')[-1].split('_')[0] + '/'
-	xml_file_list = os.listdir(dir_name)
-	delete_list = []
-	for i in range (len(xml_file_list)):
-		if not xml_file_list[i].endswith('.xml'):
-			delete_list.append(i)
-	for i in range (len(delete_list)):
-		backwards = delete_list[(len(delete_list)-1)-i]
-		del xml_file_list[backwards]
+	xml_file_list = glob.glob(os.path.join(dir_name, '*.xml'))
+
 	# Sort list of filenames naturally (by number, not by alphabet)
-	xml_file_list = [xml_file[:-4] for xml_file in xml_file_list]
-	xml_file_list.sort(key=int)
-	xml_file_list = [xml_file + '.xml' for xml_file in xml_file_list]
+	xml_file_list.sort(key=lambda x: tuple(map(int, re.findall(r'\d+', x))))
 	for xml_file in xml_file_list:
-		if re.search('[0-9].xml', xml_file):
-			try:
-				tree = ET.parse(dir_name + xml_file)
-			except IOError:
-				print 'Parse file not found: %s' % (xml_file)
-		xml_tree_list.append(tree)
+		try:
+			tree = ET.parse(xml_file)
+		except IOError:
+			raise IOError('Could not read parse file: %s' % (xml_file))
+		else:
+			xml_tree_list.append(tree)
 	return xml_tree_list
 	
 # Creates conll-formatted output with the clustering information
 def generate_conll(docName, output_filename, doc_tags, sentenceDict, mention_dict, scorer):
 	output_file = open(output_filename, 'w')
-	if scorer == 'clin':
-		docName = docName.split('/')[-1][:-10]
-	else:
-		docName = docName.split('/')[-1].split('_')[0]
+	docName = os.path.basename(docName.rsplit('.', 1)[0])
 	if doc_tags:
 		if scorer == 'clin':
 			output_file.write('#begin document (' + docName + ');\n') #  part 000

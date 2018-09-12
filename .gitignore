@@ -1,4 +1,6 @@
 results
+trialresults.csv
+*.result
 *.pyc
 *~
 *.swp

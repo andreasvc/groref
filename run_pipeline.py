@@ -16,7 +16,7 @@ def processDocument(filename, verbosity, sieveList, ngdata):
 	'''
 	global timestamp
 	if verbosity != 'none':
-		print 'processing ' + filename + '...'
+		print 'processing', filename, '...'
 	output_filename = 'results/' + timestamp + '/' + filename.split('/')[-1] #+ '.coref'
 	scores_filename = output_filename + '.scores'
 	if re.search('coref_ne', filename):
@@ -27,10 +27,16 @@ def processDocument(filename, verbosity, sieveList, ngdata):
 		preprocess_clin_data.preprocess_file(filename)
 	with open(scores_filename, 'w') as scores_file:
 		if isClinData:
-			coreference_resolution.main(filename + '.forscorer', output_filename, True, verbosity, sieveList, ngdata)
+			coreference_resolution.main(
+					filename + '.forscorer',
+					filename.split('_')[0],
+					output_filename, True, verbosity, sieveList, ngdata)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename + '.forscorer', output_filename, "none"], stdout = scores_file)
 		else:
-			coreference_resolution.main(filename, output_filename, True, verbosity, sieveList, ngdata)
+			coreference_resolution.main(
+					filename,
+					filename.split('_')[0],
+					output_filename, True, verbosity, sieveList, ngdata)
 			subprocess.call(["conll_scorer/scorer.pl", "all", filename, output_filename, "none"], stdout = scores_file)
 		
 def processDirectory(dirname, verbosity, sieveList, ngdata):
@@ -38,9 +44,9 @@ def processDirectory(dirname, verbosity, sieveList, ngdata):
 	documents in a directory.
 	'''
 	for filename in os.listdir(dirname):
-		if os.path.isfile(dirname + filename):
+		if os.path.isfile(os.path.join(dirname, filename)):
 			if re.search('.xml.coref_ne$', filename) or re.search('.xml.conll$', filename):
-				processDocument(dirname + filename, verbosity, sieveList, ngdata)
+				processDocument(os.path.join(dirname, filename), verbosity, sieveList, ngdata)
 				
 def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 	''' Aggregates and formats evaluation scores of one or more documents,
@@ -49,12 +55,12 @@ def postProcessScores(scores_dir, verbosity, onlyTotal = False):
 	scores = {} # Format: {doc_name: {metric: [Pkey, Ppred, P, Rkey, Rpred, R, F1]} }
 	metric = ''
 	for filename in os.listdir(scores_dir):
-		if os.path.isfile(scores_dir + '/' + filename) and re.search('.scores$', filename):
+		if os.path.isfile(os.path.join(scores_dir, filename)) and re.search('.scores$', filename):
 			docName = filename.split('_')[0]
 			scores[docName] = {'muc' : [], 'bcub' : [], 'ceafm' : [], 'ceafe' : [], 'blanc' : [], 'conll' : [], 'md' : []}
 			for metric in scores[docName]:
 				scores[docName][metric] = [0, 1, 0, 0, 1, 0, 0]
-			with open(scores_dir + '/' + filename, 'r') as scores_file:
+			with open(os.path.join(scores_dir, filename), 'r') as scores_file:
 				for line in scores_file:
 					if re.search('^METRIC', line):
 						metric = re.split(' ', line)[-1][:-2] # Extract metric name
@@ -142,7 +148,8 @@ if __name__ == '__main__':
 		print 'Done!'
 	os.system('mkdir -p results/' + timestamp)
 	if os.path.isdir(args.target):
-		args.target += '/'
+		if not args.target.endswith('/'):
+			args.target += '/'
 		if args.per_sieve:
 			for i in range(0, len(allSieves) + 1):
 				processDirectory(args.target, 'none', allSieves[:i], ngdata)
