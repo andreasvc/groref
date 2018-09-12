@@ -1,64 +1,21 @@
 #!/usr/bin/env python
 
 import colorama as c
-import re, sys, os
+import re
+import sys
+import os
 import glob
 import xml.etree.ElementTree as ET
 from time import sleep
 
-### GLOBAL VARIABLES ###
+# GLOBAL VARIABLES
 
 # List of Dutch Stop words (http://www.ranks.nl/stopwords/dutch)
-stopWords = [
-    'aan',
-    'af',
-    'al',
-    'als',
-    'bij',
-    'dan',
-    'dat',
-    'die',
-    'dit',
-    'een',
-    'en',
-    'er',
-    'had',
-    'heb',
-    'hem',
-    'het',
-    'hij',
-    'hoe',
-    'hun',
-    'ik ',
-    'in',
-    'is',
-    'je',
-    'kan',
-    'me',
-    'men',
-    'met',
-    'mij',
-    'nog',
-    'nu',
-    'of',
-    'ons',
-    'ook',
-    'te',
-    'tot',
-    'uit',
-    'van',
-    'was ',
-    'wat',
-    'we',
-    'wel',
-    'wij',
-    'zal',
-    'ze',
-    'zei',
-    'zij',
-    'zo',
-    'zou',
-]
+stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit',
+        'een', 'en', 'er', 'had', 'heb', 'hem', 'het', 'hij', 'hoe', 'hun',
+        'ik', 'in', 'is', 'je', 'kan', 'me', 'men', 'met', 'mij', 'nog', 'nu',
+        'of', 'ons', 'ook', 'te', 'tot', 'uit', 'van', 'was ', 'wat', 'we',
+        'wel', 'wij', 'zal', 'ze', 'zei', 'zij', 'zo', 'zou']
 
 # First available mentionID
 mentionID = 0
@@ -67,16 +24,17 @@ mentionID = 0
 allSieves = [1, 2, 4, 5, 6, 7, 9, 10]
 # allSieves = [1,2,10]
 
-### CLASSES ###
+# CLASSES
+
 
 # Class for 'mention'-objects
 class Mention:
     'Class of mentions, containing features, IDs, links, etc.'
 
     def __init__(self, mentionID):
-        self.ID = (
-            mentionID
-        )  # ID can be used for mention ordering, but then ID assignment needs to be more intelligent/different
+        # ID can be used for mention ordering, but then ID assignment needs to
+        # be more intelligent/different
+        self.ID = mentionID
         self.sentNum = 0
         self.tokenList = []
         self.numTokens = 0
@@ -87,35 +45,36 @@ class Mention:
         self.head_begin = 0  # Token ID of first head word, within tokenList
         self.head_end = 0
         self.headWords = []
-        self.tokenAttribs = []  # List of dictionaries containing alpino output for each token/node
+        # List of dictionaries containing alpino output for each token/node
+        self.tokenAttribs = []
         self.tree = ''
         # All features can have value 'unknown' when no value can be extracted
         self.number = ''  # Mention number, from {'singular', 'plural', 'both'}
-        self.gender = (
-            ''
-        )  # Mention gender, from {'male', 'female', 'neuter', 'nonneuter'}
+        # Mention gender, from {'male', 'female', 'neuter', 'nonneuter'}
+        self.gender = ''
         self.person = ''  # Pronoun-mention person, from {'1', '2', '3'}
         self.animacy = (
             ''
         )  # Mention animacy, from {'animate', 'inanimate', 'organization'}
-        self.NEtype = (
-            ''
-        )  # Named-entity mention type, from {'location', 'person', 'organization', 'misc', 'year'}
+        # Named-entity mention type, from {'location', 'person',
+        # 'organization', 'misc', 'year'}
+        self.NEtype = ''
         self.pron_type = ''  # relative pronouns
 
 
 # Class for 'cluster'-objects
 class Cluster:
-    'Class of clusters, which contain features, an ID and a list of member-mentions-IDs'
-
+    """Class of clusters, which contain features, an ID and a list of
+    member-mentions-IDs."""
     def __init__(self, clusterID):
         self.ID = clusterID
         self.mentionList = []
 
 
-### READING AND WRITING ###
+# READING AND WRITING
 
-# Read in conll file, return list of lists containing a single word + annotation
+# Read in conll file, return list of lists containing a single
+# word + annotation
 def read_conll_file(fname):
     conll_list = []
     num_sentences = 0
@@ -133,7 +92,8 @@ def read_conll_file(fname):
     return conll_list, num_sentences
 
 
-# Read in xml-files containing parses for sentences in document, return list of per-sentence XML trees
+# Read in xml-files containing parses for sentences in document, return list of
+# per-sentence XML trees
 def read_xml_parse_files(dir_name):
     xml_tree_list = []
     xml_file_list = glob.glob(os.path.join(dir_name, '*.xml'))
@@ -158,9 +118,7 @@ def generate_conll(
     docName = os.path.basename(docName.rsplit('.', 1)[0])
     if doc_tags:
         if scorer == 'clin':
-            output_file.write(
-                '#begin document (' + docName + ');\n'
-            )  #  part 000
+            output_file.write('#begin document (' + docName + ');\n')
         else:
             output_file.write('#begin document (' + docName + '); part 000\n')
     doc_token_id = 0
@@ -209,9 +167,10 @@ def generate_conll(
         output_file.write('#end document')
 
 
-### COREFERENCE SIEVE HELPERS ###
+# COREFERENCE SIEVE HELPERS
 
-# Function that takes two mention ids, and merges the clusters they are part of, returns cluster dict and cluster_id_list
+# Function that takes two mention ids, and merges the clusters they are part
+# of, returns cluster dict and cluster_id_list
 def mergeClustersByMentionIDs(
     idx1, idx2, mention_dict, cluster_dict, cluster_id_list
 ):
@@ -246,7 +205,7 @@ def get_mention_id_list_per_sentence(mention_id_list, mention_dict):
     return mention_ids_per_sentence
 
 
-### MENTION DETECTION HELPERS ###
+# MENTION DETECTION HELPERS
 # Helper for mentionDetection()
 def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
     global mentionID
@@ -283,8 +242,7 @@ def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
                 new_ment.head_begin = headRange[0]
                 new_ment.head_end = headRange[-1] + 1
                 new_ment.headWords = new_ment.tokenList[
-                    new_ment.head_begin : new_ment.head_end
-                ]
+                    new_ment.head_begin:new_ment.head_end]
         else:
             mention_node = tree.find(
                 ".//node[@cat='np'][@begin='"
@@ -299,8 +257,7 @@ def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
             )
             new_ment.head_end = int(head_node.attrib['end']) - new_ment.begin
             new_ment.headWords = new_ment.tokenList[
-                new_ment.head_begin : new_ment.head_end
-            ]
+                new_ment.head_begin:new_ment.head_end]
     elif mention_type.lower() == 'su':  # Deal with su's in a hacky way
         mention_node = tree.find(
             ".//node[@begin='" + begin + "'][@end='" + end + "']"
@@ -315,8 +272,7 @@ def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
                     int(head_node.attrib['end']) - new_ment.begin
                 )
                 new_ment.headWords = new_ment.tokenList[
-                    new_ment.head_begin : new_ment.head_end
-                ]
+                    new_ment.head_begin:new_ment.head_end]
             else:
                 new_ment.head_begin = len(new_ment.tokenList) - 1
                 new_ment.head_end = len(new_ment.tokenList)
@@ -346,7 +302,8 @@ def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
             new_ment.head_begin = len(new_ment.tokenList) - 1
             new_ment.head_end = len(new_ment.tokenList)
             new_ment.headWords = new_ment.tokenList[-1:]
-            # Make all head words lower case or not? Yes, because it works, but I don't know why, since precision goes up and recall down
+            # Make all head words lower case or not? Yes, because it works, but
+            # I don't know why, since precision goes up and recall down
     new_ment.headWords = [headWord.lower() for headWord in new_ment.headWords]
     new_ment = add_mention_features(
         new_ment, ngdata
@@ -402,14 +359,17 @@ def add_mention_features(mention, ngdata):
             ]
         except KeyError:
             try:  # If not found exactly, try with only headwords
-                lowered_head_list = [head.lower() for head in mention.headWords]
+                lowered_head_list = [
+                        head.lower() for head in mention.headWords]
                 gender_data = [
                     a + b
                     for a, b in zip(
                         gender_data, ngdata[' '.join(lowered_head_list)]
                     )
                 ]
-            except KeyError:  # If still not found, sum all things starting and ending with the individual head words
+            # If still not found, sum all things starting and ending with the
+            # individual head words
+            except KeyError:
                 try:
                     for lowered_head in lowered_head_list:
                         gender_data = [
@@ -426,7 +386,8 @@ def add_mention_features(mention, ngdata):
                         ]
                 except KeyError:  # If still nothing, give up
                     gender_data = [0, 0, 0, 0]
-                    # If more than a third of total counts in either column, classify as such
+                    # If more than a third of total counts in either column,
+                    # classify as such
         if gender_data[0] > sum(gender_data) / 3:
             mention.gender = 'male'
         elif gender_data[1] > sum(gender_data) / 3:
@@ -443,7 +404,7 @@ def add_mention_features(mention, ngdata):
             mention.gender = 'neuter'
     if not mention.gender:
         mention.gender = 'unknown'
-    ''' Extract person attribute for pronouns '''
+    # Extract person attribute for pronouns
     if mention.type.lower() == 'pronoun':
         try:
             mention.person = attribs['persoon'][0]
@@ -453,7 +414,7 @@ def add_mention_features(mention, ngdata):
 
         except KeyError:
             mention.persoon = 'unknown'
-    ''' Extract named-entity-type attribute '''
+    # Extract named-entity-type attribute
     if 'neclass' in attribs:
         if attribs['neclass'] == 'LOC':
             mention.NEtype = 'location'
@@ -558,7 +519,7 @@ def read_number_gender_data(filename):
     return ngdata
 
 
-### MENTION PRINTING ###
+# MENTION PRINTING
 
 # Human-readable printing of the output of the mention detection sieve
 def print_mentions_inline(sentenceDict, mention_id_list, mention_dict):
@@ -582,9 +543,10 @@ def print_mentions_inline(sentenceDict, mention_id_list, mention_dict):
         print ''
 
 
-# Human-readable printing of a comparison between the output of the mention detection sieve	and the 'gold' standard
-# Green brackets are correct, gold/orange brackets are mention boundaries only found in the gold standard, and
-# red brackets are only found in our output
+# Human-readable printing of a comparison between the output of the mention
+# detection sieve and the 'gold' standard.
+# Green brackets are correct, gold/orange brackets are mention boundaries only
+# found in the gold standard, and red brackets are only found in our output.
 def print_mention_analysis_inline(
     conll_list, sentenceDict, mention_id_list, mention_dict
 ):
@@ -609,8 +571,8 @@ def print_mention_analysis_inline(
                         resp_close += 1
                     elif idx + 1 == sentLength and mention.end == sentLength:
                         resp_close += 1
-            gold_open = len(re.findall('\(', conll_list[doc_token_id][-1]))
-            gold_close = len(re.findall('\)', conll_list[doc_token_id][-1]))
+            gold_open = len(re.findall(r'\(', conll_list[doc_token_id][-1]))
+            gold_close = len(re.findall(r'\)', conll_list[doc_token_id][-1]))
             if gold_open >= resp_open:
                 sys.stdout.write(
                     (gold_open - resp_open) * colour_text('[', 'yellow')
@@ -650,8 +612,8 @@ def print_gold_mentions(conll_list, sentenceDict):
             gold_close = 0
             doc_token_id += 1
 
-            gold_open = len(re.findall('\(', conll_list[doc_token_id][-1]))
-            gold_close = len(re.findall('\)', conll_list[doc_token_id][-1]))
+            gold_open = len(re.findall(r'\(', conll_list[doc_token_id][-1]))
+            gold_close = len(re.findall(r'\)', conll_list[doc_token_id][-1]))
 
             sys.stdout.write(gold_open * colour_text('[', 'yellow'))
             print colour_text(token.encode('utf-8'), 'white'),
@@ -659,11 +621,11 @@ def print_gold_mentions(conll_list, sentenceDict):
         print ''
 
 
-# Human-readable printing of which mentions are clusterd by a given sieve
-# Pre-sieve cluster IDs are in light blue, post-sieve cluster IDs (if changed) are in green
+# Human-readable printing of which mentions are clusterd by a given sieve.
+# Pre-sieve cluster IDs are in light blue, post-sieve cluster IDs (if changed)
+# are in green.
 def print_linked_mentions(
-    old_mention_dict, mention_id_list, mention_dict, sentenceDict
-):
+        old_mention_dict, mention_id_list, mention_dict, sentenceDict):
     linkings = {}
     for mention_id in mention_id_list:
         if (
@@ -722,7 +684,7 @@ def print_all_mentions_ordered(mention_id_list, mention_dict):
         print mention_dict[mention_id].__dict__
 
 
-### SCORING HELPERS ###
+# SCORING HELPERS
 
 # Takes a scorer-output file, returns a dict with the scores
 def process_conll_scorer_file(scorer_filename):
@@ -743,55 +705,37 @@ def process_conll_scorer_file(scorer_filename):
         for line in scores_file:
             if re.search('^METRIC', line):
                 metric = re.split(' ', line)[-1][:-2]  # Extract metric name
-            if scores['md'] == [
-                0,
-                1,
-                0,
-                0,
-                1,
-                0,
-                0,
-            ]:  # Avoid filling entry 5 times
+            # Avoid filling entry 5 times
+            if scores['md'] == [0, 1, 0, 0, 1, 0, 0, ]:
                 if re.search('^Identification', line):
-                    values = [
-                        float(value)
-                        for value in re.findall('[0-9]+\.?[0-9]*', line)
-                    ]
-                    scores['md'] = (
-                        values[0:6] + values[7:]
-                    )  # At index 6 is the '1' from 'F1', so ignore
+                    values = [float(value) for value
+                            in re.findall(r'[0-9]+\.?[0-9]*', line)]
+                    # At index 6 is the '1' from 'F1', so ignore
+                    scores['md'] = values[0:6] + values[7:]
             if metric == 'blanc':  # Treat specially
                 if re.search('^Coreference links', line):
-                    values = [
-                        float(value)
-                        for value in re.findall('[0-9]+\.?[0-9]*', line)
-                    ]
+                    values = [float(value) for value
+                            in re.findall(r'[0-9]+\.?[0-9]*', line)]
                     scores['blanc-special'][0] = values[0]
                     scores['blanc-special'][1] = values[1]
                     scores['blanc-special'][2] = values[4]
                 if re.search('Non-', line):
-                    values = [
-                        float(value)
-                        for value in re.findall('[0-9]+\.?[0-9]*', line)
-                    ]
+                    values = [float(value) for value
+                            in re.findall(r'[0-9]+\.?[0-9]*', line)]
                     scores['blanc-special'][3] = values[0]
                     scores['blanc-special'][4] = values[1]
                     scores['blanc-special'][5] = values[4]
                 if re.search('^BLANC', line):
-                    values = [
-                        float(value)
-                        for value in re.findall('[0-9]+\.?[0-9]*', line)
-                    ]
+                    values = [float(value) for value
+                            in re.findall(r'[0-9]+\.?[0-9]*', line)]
                     # 					scores[metric][2] = values[2]
                     # 					scores[metric][5] = values[5]
                     # 					scores[metric][6] = values[7]
                     scores[metric] = values[0:6] + values[7:]
             else:
                 if re.search('^Coreference:', line):
-                    values = [
-                        float(value)
-                        for value in re.findall('[0-9]+\.?[0-9]*', line)
-                    ]
+                    values = [float(value) for value
+                            in re.findall(r'[0-9]+\.?[0-9]*', line)]
                     scores[metric] = values[0:6] + values[7:]
     scores['conll'] = [
         (scores['muc'][6] + scores['bcub'][6] + scores['ceafe'][6]) / 3
@@ -800,7 +744,6 @@ def process_conll_scorer_file(scorer_filename):
     return scores
 
 
-#
 def process_and_print_clin_scorer_file(scorer_filename):
     idx = 0
     for line in open(scorer_filename, 'r'):
@@ -808,8 +751,7 @@ def process_and_print_clin_scorer_file(scorer_filename):
         line = line.strip()
         if 'MENTIONS (key mentions' in line:
             print '\nNumber of mentions in gold standard: %s' % (
-                line.split('=')[-1][:-1]
-            )
+                line.split('=')[-1][:-1])
         if '# response mentions' in line:
             response_mentions = line.split('\t')[-1]
         if '# missed mentions' in line:
@@ -821,8 +763,7 @@ def process_and_print_clin_scorer_file(scorer_filename):
             print 'of which %s correct, %s missed and %s extra.' % (
                 line.split('\t')[-1],
                 missed_mentions,
-                invented_mentions,
-            )
+                invented_mentions)
         if 'BLANC' in line:
             print 'BLANC scoring showed the following results:'
         if 'key coreference' in line:
@@ -834,11 +775,10 @@ def process_and_print_clin_scorer_file(scorer_filename):
             print 'Number of coreference links in the gold standard: %s' % (
                 key_coref
             )
-            print 'We made %s coreference links, of which %s were correct, and %d were wrong\n' % (
-                response_coref,
-                correct_coref,
-                int(response_coref) - int(correct_coref),
-            )
+            print('We made %s coreference links, of which %s were correct, '
+                    'and %d were wrong\n' % (
+                    response_coref, correct_coref,
+                    int(response_coref) - int(correct_coref)))
         if 'Macro average id' in line:
             print 'Macro average scores of mention detection are as follows:'
         if 'Macro average blanc' in line:
@@ -850,8 +790,6 @@ def process_and_print_clin_scorer_file(scorer_filename):
         if 'f1' in line:
             f1 = line.split('\t')[-1][:4]
             if idx < 30 or idx > 47:
-                print 'A recall of %05.2f, a precision of %05.2f and a F1 of %05.2f\n' % (
-                    float(recall),
-                    float(precision),
-                    float(f1),
-                )
+                print('A recall of %05.2f, a precision of %05.2f '
+                        'and an F1 of %05.2f\n' % (
+                        float(recall), float(precision), float(f1)))
