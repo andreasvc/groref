@@ -13,7 +13,7 @@ def sievePreciseConstructs(
         mention_id_list, mention_dict
     )
     if verbosity == 'high':
-        print 'Applying Precise Constructs...'
+        print('Applying Precise Constructs...')
     for cluster_id in cluster_id_list[:]:
         madeLink = False
         if madeLink:
@@ -129,10 +129,10 @@ def sievePreciseConstructs(
                                     madeLink = True
                         if madeLink:
                             if verbosity == 'high':
-                                print 'Linking clusters %d and %d' % (
+                                print('Linking clusters %d and %d' % (
                                     ment_id,
                                     anaphor.ID,
-                                )
+                                ))
                             cluster_dict, cluster_id_list = mergeClustersByMentionIDs(
                                 ment_id,
                                 anaphor.ID,

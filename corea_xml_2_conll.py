@@ -150,7 +150,7 @@ if __name__ == '__main__':
             try:  # Empty file in there causes trouble
                 tree = ET.parse(args.input_dir + '/' + filename)
             except:
-                print 'Processing error'
+                print('Processing error')
                 continue
             root = tree.getroot()
             # Create output file and writer
@@ -215,7 +215,7 @@ if __name__ == '__main__':
                             doc_sentence_id,
                             sentence_token_id,
                             doc_token_id,
-                            token[0].encode('utf-8'),
+                            token[0],
                         ]
                         + token[1:]
                     )
@@ -223,4 +223,4 @@ if __name__ == '__main__':
             if args.doc_tags:
                 conll_writer.writerow(['#end document'])
             conll_file.close()
-    print 'Done!'
+    print('Done!')

@@ -12,7 +12,7 @@ def sieveStringMatch(
         mention_id_list, mention_dict
     )
     if verbosity == 'high':
-        print 'Doing exact + relaxed string matching...'
+        print('Doing exact + relaxed string matching...')
     for cluster_id in cluster_id_list[:]:
         ExactEntityMatch = False
         RelaxedEntityMatch = False
@@ -68,10 +68,10 @@ def sieveStringMatch(
                                 RelaxedEntityMatch = True
                         if ExactEntityMatch or RelaxedEntityMatch:
                             if verbosity == 'high':
-                                print 'Linking clusters %d and %d' % (
+                                print('Linking clusters %d and %d' % (
                                     ment_id,
                                     anaphor.ID,
-                                )
+                                ))
                             cluster_dict, cluster_id_list = mergeClustersByMentionIDs(
                                 ment_id,
                                 anaphor.ID,

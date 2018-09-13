@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import colorama as c
+import colorama
 import re
 import sys
 import os
@@ -114,7 +114,7 @@ def read_xml_parse_files(dir_name):
 def generate_conll(
     docName, output_filename, doc_tags, sentenceDict, mention_dict, scorer
 ):
-    output_file = open(output_filename, 'w')
+    output_file = open(output_filename, 'w', encoding='utf8')
     docName = os.path.basename(docName.rsplit('.', 1)[0])
     if doc_tags:
         if scorer == 'clin':
@@ -132,7 +132,7 @@ def generate_conll(
                 mention_id,
                 mention,
             ) in (
-                mention_dict.iteritems()
+                iter(mention_dict.items())
             ):  # Check all mentions, to see whether token is part of mention
                 if mention.sentNum == key:
                     if (
@@ -157,7 +157,7 @@ def generate_conll(
                 + '\t'
                 + str(doc_token_id)
                 + '\t'
-                + token.encode('utf-8')
+                + token
                 + '\t'
                 + corefLabel
                 + '\n'
@@ -185,7 +185,7 @@ def mergeClustersByMentionIDs(
     # Put all mentions of cluster2 in cluster1
     for mentionID in cluster2.mentionList:
         cluster_dict[mention1.clusterID].mentionList.append(mentionID)
-        for mention_id, mention in mention_dict.iteritems():
+        for mention_id, mention in mention_dict.items():
             if mention.ID == mentionID:
                 mention.clusterID = cluster1.ID
     del cluster_dict[cluster2.ID]
@@ -513,7 +513,8 @@ def initialize_clusters(mention_dict, mention_id_list):
 # Reads in noun phrase number-gender data
 def read_number_gender_data(filename):
     ngdata = {}  # Format: {NP: [masc, fem, neuter, plural]}
-    for line in open(filename, 'r'):
+    for line in open(filename, 'r', encoding='utf8',
+            errors='ignore'):  # FIXME: investigate
         split_line = line.strip().split('\t')
         ngdata[split_line[0]] = [int(x) for x in split_line[1].split(' ')]
     return ngdata
@@ -533,14 +534,14 @@ def print_mentions_inline(sentenceDict, mention_id_list, mention_dict):
                 mention = mention_dict[mention_id]
                 if mention.sentNum == sentNum:
                     if mention.begin == idx:
-                        print colour_text('[', 'red'),
+                        print(colour_text('[', 'red'), end=' ')
                     if mention.end == idx:
-                        print colour_text(']', 'red'),
+                        print(colour_text(']', 'red'), end=' ')
                     if idx + 1 == sentLength and mention.end == sentLength:
                         closingBrackets += '] '
-            print colour_text(token.encode('utf-8'), 'white'),
-            print colour_text(closingBrackets, 'red'),
-        print ''
+            print(colour_text(token, 'white'), end=' ')
+            print(colour_text(closingBrackets, 'red'), end=' ')
+        print('')
 
 
 # Human-readable printing of a comparison between the output of the mention
@@ -584,7 +585,7 @@ def print_mention_analysis_inline(
                 )
                 sys.stdout.write(gold_open * colour_text('[', 'green'))
 
-            print colour_text(token.encode('utf-8'), 'white'),
+            print(colour_text(token, 'white'), end=' ')
 
             if gold_close >= resp_close:
                 sys.stdout.write(
@@ -596,7 +597,7 @@ def print_mention_analysis_inline(
                     (resp_close - gold_close) * colour_text(']', 'red')
                 )
                 sys.stdout.write(gold_close * colour_text(']', 'green') + ' ')
-        print ''
+        print('')
 
 
 # Human-readable printing of gold standard mentions
@@ -616,9 +617,9 @@ def print_gold_mentions(conll_list, sentenceDict):
             gold_close = len(re.findall(r'\)', conll_list[doc_token_id][-1]))
 
             sys.stdout.write(gold_open * colour_text('[', 'yellow'))
-            print colour_text(token.encode('utf-8'), 'white'),
+            print(colour_text(token, 'white'), end=' ')
             sys.stdout.write(gold_close * colour_text(']', 'yellow') + ' ')
-        print ''
+        print('')
 
 
 # Human-readable printing of which mentions are clusterd by a given sieve.
@@ -645,43 +646,44 @@ def print_linked_mentions(
                 mention = old_mention_dict[mention_id]
                 if mention.sentNum == sentNum:
                     if mention.begin == idx:
-                        print colour_text('[', 'red'),
+                        print(colour_text('[', 'red'), end=' ')
                         if mention.clusterID in linkings:
-                            print colour_text(str(mention.clusterID), 'cyan'),
-                            print colour_text(
-                                str(linkings[mention.clusterID]), 'green'
-                            ),
+                            print(colour_text(str(mention.clusterID), 'cyan'),
+                                    colour_text(
+                                    str(linkings[mention.clusterID]), 'green'),
+                                    end=' ')
                         else:
-                            print colour_text(str(mention.clusterID), 'cyan'),
+                            print(colour_text(str(mention.clusterID), 'cyan'),
+                                    end=' ')
                     if mention.end == idx:
-                        print colour_text(']', 'red'),
+                        print(colour_text(']', 'red'), end=' ')
                     if idx + 1 == sentLength and mention.end == sentLength:
                         closingBrackets += '] '
-            print colour_text(token.encode('utf-8'), 'white'),
-            print colour_text(closingBrackets, 'red'),
-        print ''
+            print(colour_text(token, 'white'), end=' ')
+            print(colour_text(closingBrackets, 'red'), end=' ')
+        print('')
 
 
 # Returns coloured text
 def colour_text(text, colour):
     if colour.lower() == 'red':
-        return c.Fore.RED + text + c.Fore.RESET
+        return colorama.Fore.RED + text + colorama.Fore.RESET
     elif colour.lower() == 'blue':
-        return c.Fore.BLUE + text + c.Fore.RESET
+        return colorama.Fore.BLUE + text + colorama.Fore.RESET
     elif colour.lower() == 'green':
-        return c.Fore.GREEN + text + c.Fore.RESET
+        return colorama.Fore.GREEN + text + colorama.Fore.RESET
     elif colour.lower() == 'white':
-        return c.Fore.WHITE + text + c.Fore.RESET
+        return colorama.Fore.WHITE + text + colorama.Fore.RESET
     elif colour.lower() == 'yellow':
-        return c.Fore.YELLOW + text + c.Fore.RESET
+        return colorama.Fore.YELLOW + text + colorama.Fore.RESET
     elif colour.lower() == 'cyan':
-        return c.Fore.CYAN + text + c.Fore.RESET
+        return colorama.Fore.CYAN + text + colorama.Fore.RESET
 
 
 # Prints all mentions and attributes in order
 def print_all_mentions_ordered(mention_id_list, mention_dict):
     for mention_id in mention_id_list:
-        print mention_dict[mention_id].__dict__
+        print(mention_dict[mention_id].__dict__)
 
 
 # SCORING HELPERS
@@ -750,8 +752,8 @@ def process_and_print_clin_scorer_file(scorer_filename):
         idx += 1
         line = line.strip()
         if 'MENTIONS (key mentions' in line:
-            print '\nNumber of mentions in gold standard: %s' % (
-                line.split('=')[-1][:-1])
+            print('\nNumber of mentions in gold standard: %s' % (
+                line.split('=')[-1][:-1]))
         if '# response mentions' in line:
             response_mentions = line.split('\t')[-1]
         if '# missed mentions' in line:
@@ -759,30 +761,30 @@ def process_and_print_clin_scorer_file(scorer_filename):
         if 'invented mentions' in line:
             invented_mentions = line.split('\t')[-1]
         if 'strictly correct' in line:
-            print 'Number of mentions in our output: %s,' % response_mentions,
-            print 'of which %s correct, %s missed and %s extra.' % (
+            print('Number of mentions in our output: %s,' % response_mentions,
+                'of which %s correct, %s missed and %s extra.' % (
                 line.split('\t')[-1],
                 missed_mentions,
-                invented_mentions)
+                invented_mentions))
         if 'BLANC' in line:
-            print 'BLANC scoring showed the following results:'
+            print('BLANC scoring showed the following results:')
         if 'key coreference' in line:
             key_coref = line.split('\t')[-1][:-2]
         if 'response coreference' in line:
             response_coref = line.split('\t')[-1][:-2]
         if 'correct coreference' in line:
             correct_coref = line.split('\t')[-1][:-2]
-            print 'Number of coreference links in the gold standard: %s' % (
+            print('Number of coreference links in the gold standard: %s' % (
                 key_coref
-            )
-            print('We made %s coreference links, of which %s were correct, '
+            ))
+            print(('We made %s coreference links, of which %s were correct, '
                     'and %d were wrong\n' % (
                     response_coref, correct_coref,
-                    int(response_coref) - int(correct_coref)))
+                    int(response_coref) - int(correct_coref))))
         if 'Macro average id' in line:
-            print 'Macro average scores of mention detection are as follows:'
+            print('Macro average scores of mention detection are as follows:')
         if 'Macro average blanc' in line:
-            print 'Macro average BLANC scores are as follows:'
+            print('Macro average BLANC scores are as follows:')
         if 'recall' in line:
             recall = line.split('\t')[-1][:4]
         if 'precision' in line:
@@ -790,6 +792,6 @@ def process_and_print_clin_scorer_file(scorer_filename):
         if 'f1' in line:
             f1 = line.split('\t')[-1][:4]
             if idx < 30 or idx > 47:
-                print('A recall of %05.2f, a precision of %05.2f '
+                print(('A recall of %05.2f, a precision of %05.2f '
                         'and an F1 of %05.2f\n' % (
-                        float(recall), float(precision), float(f1)))
+                        float(recall), float(precision), float(f1))))

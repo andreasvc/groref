@@ -9,7 +9,7 @@ def sievePronounResolution(
     mention_id_list, mention_dict, cluster_dict, cluster_id_list, verbosity
 ):
     if verbosity == 'high':
-        print 'Doing pronoun resolution...'
+        print('Doing pronoun resolution...')
     mention_ids_per_sentence = get_mention_id_list_per_sentence(
         mention_id_list, mention_dict
     )
@@ -106,10 +106,10 @@ def sievePronounResolution(
                                 madeLink = True
                         if madeLink:
                             if verbosity == 'high':
-                                print 'Linking clusters %d and %d' % (
+                                print('Linking clusters %d and %d' % (
                                     ment_id,
                                     anaphor.ID,
-                                )
+                                ))
                                 cluster_dict, cluster_id_list = mergeClustersByMentionIDs(
                                     candidate_mention_id,
                                     anaphor.ID,

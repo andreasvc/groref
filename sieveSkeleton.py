@@ -10,7 +10,7 @@ def sieveSkeleton(mention_id_list, mention_dict, cluster_dict, cluster_id_list):
         mention_id_list, mention_dict
     )
     for cluster_id in cluster_id_list[:]:
-        print 'looking at cluster: %d' % cluster_id
+        print('looking at cluster: %d' % cluster_id)
         '''Initialize linking constraints here'''
 
         if madeLink:
@@ -40,9 +40,9 @@ def sieveSkeleton(mention_id_list, mention_dict, cluster_dict, cluster_id_list):
                     for ment_id in candidate_cluster.mentionList:
                         '''Check things against other mentions in the candidate cluster here, if necessary'''
                         if madeLink:
-                            print 'Linking clusters %d and %d' % (
+                            print('Linking clusters %d and %d' % (
                                 ment_id,
                                 anaphor.ID,
-                            )
+                            ))
                             break
     return mention_id_list, mention_dict, cluster_dict, cluster_id_list

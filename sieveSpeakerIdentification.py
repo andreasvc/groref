@@ -131,7 +131,7 @@ def sieveSpeakerIdentification(
         mention_id_list, mention_dict
     )
     if verbosity == 'high':
-        print 'Speaker identification...'
+        print('Speaker identification...')
     for cluster_id in cluster_id_list[:]:
         madeLink = False
         '''Initialize linking constraints here'''
@@ -197,10 +197,10 @@ def sieveSpeakerIdentification(
                         '''Check things against other mentions in the candidate cluster here, if necessary'''
                         if madeLink:
                             if verbosity == 'high':
-                                print 'Linking clusters %d and %d' % (
+                                print('Linking clusters %d and %d' % (
                                     ment_id,
                                     anaphor.ID,
-                                )
+                                ))
                             cluster_dict, cluster_id_list = mergeClustersByMentionIDs(
                                 ment_id,
                                 anaphor.ID,

@@ -17,7 +17,7 @@ def processDocument(filename, verbosity, sieveList, ngdata):
 	'''
     global timestamp
     if verbosity != 'none':
-        print 'processing', filename, '...'
+        print('processing', filename, '...')
     output_filename = (
         'results/' + timestamp + '/' + filename.split('/')[-1]
     )  # + '.coref'
@@ -202,14 +202,14 @@ def postProcessScores(scores_dir, verbosity, onlyTotal=False):
     # Print scores to screen and file
     with open(scores_dir + '/' + 'scores_overall', 'w') as out_file:
         if verbosity == 'high':
-            print '#########################################\nSCORES:'
+            print('#########################################\nSCORES:')
         else:
             if not onlyTotal:
-                print 'SCORES:'
+                print('SCORES:')
         # 		header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBCUB-r/p/f1\t\tCEAFM-r/p/f1\t\tCEAFE-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
         header = 'document name\t\tMD-r/p/f1\t\tMUC-r/p/f1\t\tBLANC-r/p/f1\t\tCONLL-f1'
         if not onlyTotal:
-            print header
+            print(header)
         out_file.write(header + '\n')
         for document in scores:
             docName = document + (20 - len(document)) * ' '
@@ -232,10 +232,10 @@ def postProcessScores(scores_dir, verbosity, onlyTotal=False):
                 )
             )
             if not onlyTotal:
-                print scorestring
+                print(scorestring)
             out_file.write(scorestring + '\n')
         if verbosity == 'high':
-            print 'OVERALL:'
+            print('OVERALL:')
         a = totals
         # 		scorestring = '%s\t\t\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f/%05.2f/%05.2f\t%05.2f' % ('TOTAL',  a['md'][2],  a['md'][5],  a['md'][6], a['muc'][2], a['muc'][5], a['muc'][6], a['bcub'][2], a['bcub'][5], a['bcub'][6], a['ceafm'][2], a['ceafm'][5], a['ceafm'][6], a['ceafe'][2], a['ceafe'][5], a['ceafe'][6], a['blanc'][2], a['blanc'][5], a['blanc'][6], a['conll'][0])
         scorestring = (
@@ -254,7 +254,7 @@ def postProcessScores(scores_dir, verbosity, onlyTotal=False):
                 a['conll'][0],
             )
         )
-        print scorestring
+        print(scorestring)
         out_file.write(scorestring)
 
 
@@ -290,12 +290,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
     # Put output in timestamped sub-folder of results/
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    print 'Timestamp for this run is: %s' % timestamp
+    print('Timestamp for this run is: %s' % timestamp)
     if args.verbosity == 'high':
-        print 'Reading in number-gender data...'
+        print('Reading in number-gender data...')
     ngdata = read_number_gender_data('ngdata')  # Read in number-gender data
     if args.verbosity == 'high':
-        print 'Done!'
+        print('Done!')
     os.system('mkdir -p results/' + timestamp)
     if os.path.isdir(args.target):
         if not args.target.endswith('/'):
@@ -303,22 +303,22 @@ if __name__ == '__main__':
         if args.per_sieve:
             for i in range(0, len(allSieves) + 1):
                 processDirectory(args.target, 'none', allSieves[:i], ngdata)
-                print 'using these sieves: ' + str(allSieves[:i])
+                print('using these sieves: ' + str(allSieves[:i]))
                 postProcessScores('results/' + timestamp, 'low', True)
         else:
             processDirectory(
-                args.target, args.verbosity, range(0, 20), ngdata
+                args.target, args.verbosity, list(range(0, 20)), ngdata
             )  # Give range(0,20) as sieveList, so that all sieves are applied
     elif os.path.isfile(args.target):
         if args.per_sieve:
             for i in range(0, len(allSieves)):
                 processDocument(args.target, 'none', allSieves[: i + 1], ngdata)
-                print 'using these sieves: ' + str(allSieves[: i + 1])
+                print('using these sieves: ' + str(allSieves[: i + 1]))
                 postProcessScores('results/' + timestamp, 'low', True)
         else:
-            processDocument(args.target, args.verbosity, range(0, 20), ngdata)
+            processDocument(args.target, args.verbosity, list(range(0, 20)), ngdata)
     else:
-        print 'Incorrect input file or directory'
+        print('Incorrect input file or directory')
         raise SystemExit
     if not args.per_sieve and args.conll:
         postProcessScores('results/' + timestamp, args.verbosity)
@@ -339,4 +339,4 @@ if __name__ == '__main__':
     scores = process_and_print_clin_scorer_file(
         'results/' + timestamp + '/blanc_scores'
     )
-    print 'Timestamp for this run was: %s' % timestamp
+    print('Timestamp for this run was: %s' % timestamp)

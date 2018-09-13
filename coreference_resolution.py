@@ -36,12 +36,12 @@ def main(
     try:
         conll_list, num_sentences = read_conll_file(conll_file)
     except IOError:
-        print 'CoNLL input file not found: %s' % (conll_file)
+        print('CoNLL input file not found: %s' % (conll_file))
         conll_list = []
     xml_tree_list = read_xml_parse_files(parses_dir)[:num_sentences]
     if verbosity == 'high':
-        print 'Number of sentences found: %d' % (num_sentences)
-        print 'Number of xml parse trees used: %d' % (len(xml_tree_list))
+        print('Number of sentences found: %d' % (num_sentences))
+        print('Number of xml parse trees used: %d' % (len(xml_tree_list)))
     sentenceDict = {}  # Initialize dictionary containing sentence strings
     # Do mention detection, give back 3 global variables:
     # mention_id_list contains list of mention IDs in right order,
@@ -52,14 +52,14 @@ def main(
         conll_list, xml_tree_list, verbosity, sentenceDict, ngdata
     )
     if verbosity == 'high':
-        print 'OUR MENTION OUTPUT:'
+        print('OUR MENTION OUTPUT:')
         print_mentions_inline(sentenceDict, mention_id_list, mention_dict)
     if verbosity == 'high' and conll_list:
-        print 'MENTION DETECTION OUTPUT VS. GOLD STANDARD:'
+        print('MENTION DETECTION OUTPUT VS. GOLD STANDARD:')
         print_mention_analysis_inline(
             conll_list, sentenceDict, mention_id_list, mention_dict
         )
-        print 'GOLD STANDARD:'
+        print('GOLD STANDARD:')
         print_gold_mentions(conll_list, sentenceDict)
     cluster_dict, cluster_id_list, mention_dict = initialize_clusters(
         mention_dict, mention_id_list

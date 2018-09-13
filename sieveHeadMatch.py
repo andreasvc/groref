@@ -18,7 +18,7 @@ def sieveHeadMatch(
         mention_id_list, mention_dict
     )
     if verbosity == 'high':
-        print 'Doing head-matching with strictness %d...' % strictness
+        print('Doing head-matching with strictness %d...' % strictness)
     for cluster_id in cluster_id_list[:]:
         # Initialize linking constraints here
         entityHeadMatch = False
@@ -112,10 +112,10 @@ def sieveHeadMatch(
                     if strictness == 3:
                         if entityHeadMatch and wordInclusion and compModsOnly:
                             if verbosity == 'high':
-                                print 'Linking clusters %d and %d' % (
+                                print('Linking clusters %d and %d' % (
                                     candidate_cluster.ID,
                                     anaphor.clusterID,
-                                )
+                                ))
                             cluster_dict, cluster_id_list = mergeClustersByMentionIDs(
                                 candidate_mention_id,
                                 anaphor.ID,
@@ -127,10 +127,10 @@ def sieveHeadMatch(
                     elif strictness == 2:
                         if entityHeadMatch and wordInclusion:
                             if verbosity == 'high':
-                                print 'Linking clusters %d and %d' % (
+                                print('Linking clusters %d and %d' % (
                                     candidate_cluster.ID,
                                     anaphor.clusterID,
-                                )
+                                ))
                             cluster_dict, cluster_id_list = mergeClustersByMentionIDs(
                                 candidate_mention_id,
                                 anaphor.ID,
@@ -142,10 +142,10 @@ def sieveHeadMatch(
                     elif strictness == 1:
                         if entityHeadMatch and compModsOnly:
                             if verbosity == 'high':
-                                print 'Linking clusters %d and %d' % (
+                                print('Linking clusters %d and %d' % (
                                     candidate_cluster.ID,
                                     anaphor.clusterID,
-                                )
+                                ))
                             cluster_dict, cluster_id_list = mergeClustersByMentionIDs(
                                 candidate_mention_id,
                                 anaphor.ID,
@@ -160,10 +160,10 @@ def sieveHeadMatch(
                             relaxedHeadMatch and wordInclusion and bothNE
                         ):  # Make it slightly more restrictive or not?
                             if verbosity == 'high':
-                                print 'Linking clusters %d and %d' % (
+                                print('Linking clusters %d and %d' % (
                                     ment_id,
                                     anaphor.ID,
-                                )
+                                ))
                             cluster_dict, cluster_id_list = mergeClustersByMentionIDs(
                                 candidate_mention_id,
                                 anaphor.ID,

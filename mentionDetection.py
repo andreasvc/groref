@@ -273,5 +273,5 @@ def mentionDetection(conll_list, tree_list, verbosity, sentenceDict, ngdata):
         # Sort list properly
     mention_id_list = sort_mentions(mention_id_list, mention_dict)
     if verbosity == 'high':
-        print 'found %d unique mentions' % (len(mention_id_list))
+        print('found %d unique mentions' % (len(mention_id_list)))
     return mention_id_list, mention_dict
