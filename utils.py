@@ -512,8 +512,7 @@ def initialize_clusters(mention_dict, mention_id_list):
 # Reads in noun phrase number-gender data
 def read_number_gender_data(filename):
     ngdata = {}  # Format: {NP: [masc, fem, neuter, plural]}
-    for line in open(filename, 'r', encoding='utf8',
-            errors='ignore'):  # FIXME: investigate
+    for line in open(filename, 'r', encoding='utf8'):
         split_line = line.strip().split('\t')
         ngdata[split_line[0]] = [int(x) for x in split_line[1].split(' ')]
     return ngdata
