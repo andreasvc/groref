@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from utils import *
+from utils import get_mention_id_list_per_sentence
 
 '''Skeleton sieve that cycles through anaphora and candidate mentions in the right order'''
 
@@ -12,7 +12,7 @@ def sieveSkeleton(mention_id_list, mention_dict, cluster_dict, cluster_id_list):
     for cluster_id in cluster_id_list[:]:
         print('looking at cluster: %d' % cluster_id)
         '''Initialize linking constraints here'''
-
+        madeLink = False
         if madeLink:
             continue
         cluster = cluster_dict[cluster_id]

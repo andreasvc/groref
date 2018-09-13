@@ -4,7 +4,6 @@
 # PATH=/net/aps/64/bin:$PATH
 
 import os
-import sys
 import shutil
 
 

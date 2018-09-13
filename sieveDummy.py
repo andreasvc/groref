@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from utils import *
+from utils import mergeClustersByMentionIDs
 
 '''Dummy sieve that links each second mention to the preceding mention, for testing purposes (output/evaluation)'''
 

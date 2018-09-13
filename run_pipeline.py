@@ -8,7 +8,8 @@ Alpino parses to be present already. """
 import argparse, os, re, subprocess, datetime
 import preprocess_clin_data
 import coreference_resolution
-from utils import *
+from utils import (read_number_gender_data, process_and_print_clin_scorer_file,
+        allSieves)
 
 
 def processDocument(filename, verbosity, sieveList, ngdata):
@@ -336,7 +337,6 @@ if __name__ == '__main__':
             stdout=blanc_scores,
         )
     os.chdir('../')
-    scores = process_and_print_clin_scorer_file(
-        'results/' + timestamp + '/blanc_scores'
-    )
+    process_and_print_clin_scorer_file(os.path.join(
+            'results', timestamp, 'blanc_scores'))
     print('Timestamp for this run was: %s' % timestamp)

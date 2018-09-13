@@ -8,7 +8,8 @@ Alpino parses to be present already. """
 import argparse, os, re, subprocess, datetime
 import preprocess_clin_data
 import coreference_resolution
-from utils import *
+from utils import (process_conll_scorer_file, read_number_gender_data,
+        allSieves)
 
 
 def processDocument(filename, verbosity, sieveList, ngdata):

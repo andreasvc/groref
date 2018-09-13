@@ -7,11 +7,11 @@ input data and Alpino parses in xml as input, gives CoNLL-formatted output. """
 
 import argparse
 import copy
-import subprocess
-from utils import *
-import utils
+from utils import (read_conll_file, read_xml_parse_files,
+        generate_conll, allSieves, initialize_clusters,
+        print_mentions_inline, print_mention_analysis_inline,
+        print_gold_mentions, print_linked_mentions)
 from mentionDetection import mentionDetection
-from sieveDummy import sieveDummy
 from sieveSpeakerIdentification import sieveSpeakerIdentification
 from sieveHeadMatch import sieveHeadMatch
 from sievePreciseConstructs import sievePreciseConstructs
@@ -218,4 +218,4 @@ if __name__ == '__main__':
             args.output_file,
             args.doc_tags,
             'high' if args.verbose else 'none',
-            utils.allSieves)
+            allSieves)

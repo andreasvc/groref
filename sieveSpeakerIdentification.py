@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from utils import *
+from utils import mergeClustersByMentionIDs, get_mention_id_list_per_sentence
 
 '''This sieve matches speakers to compatible pronouns,
 using shallow discourse understanding to handle quotations and conversation

@@ -3,7 +3,7 @@
 
 '''Mention detection sieve of the coreference resolution system'''
 
-from utils import *
+from utils import add_mention, make_mention, stitch_names, sort_mentions
 
 mention_list = []
 
@@ -142,7 +142,7 @@ def findMWU2(tree, sentNum, ngdata):
                 + mention_node.attrib['begin']
                 + "']"
             )
-            if prevDet != None:
+            if prevDet is not None:
                 name = 'mwu_' + mention_node.attrib['rel']
                 new_mention = make_mention(
                     int(mention_node.attrib['begin']) - 1,

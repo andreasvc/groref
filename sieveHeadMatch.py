@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-from utils import *
+from utils import (mergeClustersByMentionIDs, get_mention_id_list_per_sentence,
+        stopWords)
 
 '''General head-matching sieve, value for strictness determines how many constraints are applied
 strictness 3 = sieve 5, strictness 2 = sieve 6 and strictness 1 = sieve 7'''

@@ -6,7 +6,6 @@ import sys
 import os
 import glob
 import xml.etree.ElementTree as ET
-from time import sleep
 
 # GLOBAL VARIABLES
 
