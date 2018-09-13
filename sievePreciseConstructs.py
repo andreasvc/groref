@@ -1,9 +1,7 @@
-#!/usr/bin/env python
+'''Precise Constructs'''
 
 from utils import mergeClustersByMentionIDs, get_mention_id_list_per_sentence
 from demonyms import Demo
-
-'''Precise Constructs'''
 
 
 def sievePreciseConstructs(

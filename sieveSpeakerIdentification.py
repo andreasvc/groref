@@ -1,15 +1,13 @@
-#!/usr/bin/env python
-
-from utils import mergeClustersByMentionIDs, get_mention_id_list_per_sentence
-
 '''This sieve matches speakers to compatible pronouns,
 using shallow discourse understanding to handle quotations and conversation
-transcripts. 
+transcripts.
 
 We begin by identifying speakers within text. In non-conversational text, we use a simple heuristic that searches
 for the subjects of reporting verbs (e.g., say) in the same sentence or neighboring
 sentences to a quotation. In conversational text, speaker information is provided in the
 data set.'''
+
+from utils import mergeClustersByMentionIDs, get_mention_id_list_per_sentence
 
 replist = [
     'begin',

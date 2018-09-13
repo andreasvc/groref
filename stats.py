@@ -1,4 +1,5 @@
-import os, re
+import os
+import re
 
 # TODO bug when (190|(190
 

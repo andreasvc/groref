@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 # -*- coding: utf8 -*-
-
 """
 Script for converting the COREA data in xml format to the conll-format output, preserving all annotation, etc.
 Conll-format: http://conll.cemantix.org/2011/data.html

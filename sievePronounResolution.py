@@ -1,8 +1,6 @@
-#!/usr/bin/env python
+'''Pronoun resolution sieve'''
 
 from utils import mergeClustersByMentionIDs, get_mention_id_list_per_sentence
-
-'''Pronoun resolution sieve'''
 
 
 def sievePronounResolution(

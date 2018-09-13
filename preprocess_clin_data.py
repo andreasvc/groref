@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 # -*- coding: utf8 -*-
-
 """ Script for simple conversion of CLIN data to a format
 that can be used by the scorer. I.e., adding document tags
 and columns. """

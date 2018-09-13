@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 # -*- coding: utf8 -*-
-
 """ Pipeline script that does coreference resolution and evaluation, given
 a conll-formatted file or directory containing conll-formatted files. Expects
 Alpino parses to be present already. """

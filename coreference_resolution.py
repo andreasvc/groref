@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 # -*- coding: utf8 -*-
-
 """ Entity coreference resolution system for the CLIN26 Shared Task.
 Based on the Stanford Coreference Resolution system. Requires CoNLL-formatted
 input data and Alpino parses in xml as input, gives CoNLL-formatted output. """
@@ -43,14 +41,15 @@ def main(
         print('Number of sentences found: %d' % (num_sentences))
         print('Number of xml parse trees used: %d' % (len(xml_tree_list)))
     sentenceDict = {}  # Initialize dictionary containing sentence strings
-    # Do mention detection, give back 3 global variables:
+    # Do mention detection, give back 3 variables:
     # mention_id_list contains list of mention IDs in right order,
     #   for traversing in sieves.
     # mention_dict contains the actual mentions, format: {id: Mention}
     # cluster_dict contains all clusters, in a dict
+    mention_list = []
     mention_id_list, mention_dict = mentionDetection(
-        conll_list, xml_tree_list, verbosity, sentenceDict, ngdata
-    )
+            conll_list, xml_tree_list, verbosity, sentenceDict, ngdata,
+            mention_list)
     if verbosity == 'high':
         print('OUR MENTION OUTPUT:')
         print_mentions_inline(sentenceDict, mention_id_list, mention_dict)

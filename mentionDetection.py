@@ -1,11 +1,8 @@
-#!/usr/bin/env python
 # -*- coding: utf8 -*-
-
 '''Mention detection sieve of the coreference resolution system'''
 
+from itertools import count
 from utils import add_mention, make_mention, stitch_names, sort_mentions
-
-mention_list = []
 
 
 def allWordsHaveAlpha(wordList):
@@ -15,8 +12,7 @@ def allWordsHaveAlpha(wordList):
     return True
 
 
-def handleComma(new_mention, tree, sentNum, ngdata):
-    global mention_list
+def handleComma(new_mention, tree, sentNum, ngdata, mention_list, mentionID):
     if new_mention.tokenList[1] == ',' and len(new_mention.tokenList) > 3:
         add_mention(mention_list, new_mention)
     elif (
@@ -32,6 +28,7 @@ def handleComma(new_mention, tree, sentNum, ngdata):
             tree,
             'np_comma',
             sentNum,
+            next(mentionID),
             ngdata,
         )
         add_mention(mention_list, new_mention)
@@ -42,6 +39,7 @@ def handleComma(new_mention, tree, sentNum, ngdata):
             tree,
             'np_comma',
             sentNum,
+            next(mentionID),
             ngdata,
         )
         new_mention2 = make_mention(
@@ -50,6 +48,7 @@ def handleComma(new_mention, tree, sentNum, ngdata):
             tree,
             'np_comma',
             sentNum,
+            next(mentionID),
             ngdata,
         )
         add_mention(mention_list, new_mention1)
@@ -59,8 +58,7 @@ def handleComma(new_mention, tree, sentNum, ngdata):
 # 28.96/50.84/36.90
 # 27.36/52.94/36.08 na allWordsHaveAlpha
 # 24.80/58.00/34/80 na extra if for firstChild
-def findNP(tree, sentNum, ngdata):
-    global mention_list
+def findNP(tree, sentNum, ngdata, mention_list, mentionID):
     np_rels = ['su', 'app', 'body', 'sat', 'predc', 'obj1', 'cnj']
     for mention_node in tree.findall(".//node[@cat='np']"):
         len_ment = int(mention_node.attrib['end']) - int(
@@ -74,6 +72,7 @@ def findNP(tree, sentNum, ngdata):
                 tree,
                 name,
                 sentNum,
+                next(mentionID),
                 ngdata,
             )
             subtrees = tree.findall(
@@ -102,14 +101,15 @@ def findNP(tree, sentNum, ngdata):
             ):
                 pass
             elif ',' in new_mention.tokenList:
-                handleComma(new_mention, tree, sentNum, ngdata)
+                handleComma(
+                        new_mention, tree, sentNum, ngdata,
+                        mention_list, mentionID)
             elif allWordsHaveAlpha(new_mention.tokenList):
                 add_mention(mention_list, new_mention)
 
 
 # 11.04/42.33/17.51
-def findMWU(tree, sentNum, ngdata):
-    global mention_list
+def findMWU(tree, sentNum, ngdata, mention_list, mentionID):
     mwu_rels = ['obj1', 'su', 'cnj', 'hd']  # hd 14/65
     for mention_node in tree.findall(".//node[@cat='mwu']"):
         len_ment = int(mention_node.attrib['end']) - int(
@@ -123,14 +123,14 @@ def findMWU(tree, sentNum, ngdata):
                 tree,
                 name,
                 sentNum,
+                next(mentionID),
                 ngdata,
             )
             add_mention(mention_list, new_mention)
 
 
 # 04.32/65.85/08.11
-def findMWU2(tree, sentNum, ngdata):
-    global mention_list
+def findMWU2(tree, sentNum, ngdata, mention_list, mentionID):
     mwu_rels = ['obj1', 'su', 'cnj', 'hd']  # hd 14/65
     for mention_node in tree.findall(".//node[@cat='mwu']"):
         len_ment = int(mention_node.attrib['end']) - int(
@@ -150,14 +150,14 @@ def findMWU2(tree, sentNum, ngdata):
                     tree,
                     name,
                     sentNum,
+                    next(mentionID),
                     ngdata,
                 )
                 add_mention(mention_list, new_mention)
 
 
 # 14.56/65.00/23.79
-def findSubj(tree, sentNum, ngdata):
-    global mention_list
+def findSubj(tree, sentNum, ngdata, mention_list, mentionID):
     for mention_node in tree.findall(".//node[@rel='su']"):
         if 'cat' not in mention_node.attrib:
             new_mention = make_mention(
@@ -166,14 +166,14 @@ def findSubj(tree, sentNum, ngdata):
                 tree,
                 'su',
                 sentNum,
+                next(mentionID),
                 ngdata,
             )
             add_mention(mention_list, new_mention)
 
 
 # 04.00/54.35/07.45
-def findObj(tree, sentNum, ngdata):
-    global mention_list
+def findObj(tree, sentNum, ngdata, mention_list, mentionID):
     for mention_node in tree.findall(
         ".//node[@word][@ntype='soort'][@rel='obj1']"
     ):
@@ -183,14 +183,14 @@ def findObj(tree, sentNum, ngdata):
             tree,
             'noun',
             sentNum,
+            next(mentionID),
             ngdata,
         )
         add_mention(mention_list, new_mention)
 
 
 # 07.84/51.58/13.61
-def findPron(tree, sentNum, ngdata):
-    global mention_list
+def findPron(tree, sentNum, ngdata, mention_list, mentionID):
     for mention_node in tree.findall(".//node[@pdtype='pron']") + tree.findall(
         ".//node[@frame='determiner(pron)']"
     ):
@@ -200,23 +200,22 @@ def findPron(tree, sentNum, ngdata):
             tree,
             'Pronoun',
             sentNum,
+            next(mentionID),
             ngdata,
         )
         add_mention(mention_list, new_mention)
 
 
 # 28.16/59.46/38.22
-def findName(tree, sentNum, ngdata):
-    global mention_list
+def findName(tree, sentNum, ngdata, mention_list, mentionID):
     for new_mention in stitch_names(
-        tree.findall(".//node[@pos='name']"), tree, sentNum, ngdata
-    ):
+            tree.findall(".//node[@pos='name']"),
+            tree, sentNum, mentionID, ngdata):
         add_mention(mention_list, new_mention)
 
 
 # 00.80/50.00/01.57
-def findNP2(tree, sentNum, ngdata):
-    global mention_list
+def findNP2(tree, sentNum, ngdata, mention_list, mentionID):
     np_rels = ['obj1', 'su', 'app', 'cnj', 'body', 'sat', 'predc']
     for mention_node in tree.findall(".//node[@cat='np']"):
         len_ment = int(mention_node.attrib['end']) - int(
@@ -237,6 +236,7 @@ def findNP2(tree, sentNum, ngdata):
                         tree,
                         'die_np',
                         sentNum,
+                        next(mentionID),
                         ngdata,
                     )
                     if allWordsHaveAlpha(new_mention.tokenList):
@@ -244,25 +244,25 @@ def findNP2(tree, sentNum, ngdata):
 
 
 # Mention detection sieve, selects all NPs, pronouns, names
-def mentionDetection(conll_list, tree_list, verbosity, sentenceDict, ngdata):
-    global mention_list
-
+def mentionDetection(conll_list, tree_list, verbosity, sentenceDict, ngdata,
+        mention_list):
     mention_id_list = []
     mention_dict = {}
     sentNum = 1
+    mentionID = count()
     for tree in tree_list:
         mention_list = []
         sentenceDict[sentNum] = tree.find('sentence').text
         sentenceList = tree.find('sentence').text.split(' ')
 
-        findNP(tree, sentNum, ngdata)
-        # findMWU(tree, sentNum, ngdata)
-        findMWU2(tree, sentNum, ngdata)
-        findSubj(tree, sentNum, ngdata)
-        findObj(tree, sentNum, ngdata)
-        findPron(tree, sentNum, ngdata)
-        findName(tree, sentNum, ngdata)
-        findNP2(tree, sentNum, ngdata)
+        findNP(tree, sentNum, ngdata, mention_list, mentionID)
+        # findMWU(tree, sentNum, ngdata, mention_list, mentionID)
+        findMWU2(tree, sentNum, ngdata, mention_list, mentionID)
+        findSubj(tree, sentNum, ngdata, mention_list, mentionID)
+        findObj(tree, sentNum, ngdata, mention_list, mentionID)
+        findPron(tree, sentNum, ngdata, mention_list, mentionID)
+        findName(tree, sentNum, ngdata, mention_list, mentionID)
+        findNP2(tree, sentNum, ngdata, mention_list, mentionID)
 
         if len(tree.findall('.//node')) > 2:
             for mention in mention_list:

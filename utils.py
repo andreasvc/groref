@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import colorama
 import re
 import sys
@@ -16,12 +14,9 @@ stopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'die', 'dit',
         'of', 'ons', 'ook', 'te', 'tot', 'uit', 'van', 'was ', 'wat', 'we',
         'wel', 'wij', 'zal', 'ze', 'zei', 'zij', 'zo', 'zou']
 
-# First available mentionID
-mentionID = 0
-
 # List of implemented sieves
 allSieves = [1, 2, 4, 5, 6, 7, 9, 10]
-# allSieves = [1,2,10]
+# allSieves = [1, 2, 10]
 
 # CLASSES
 
@@ -206,10 +201,8 @@ def get_mention_id_list_per_sentence(mention_id_list, mention_dict):
 
 # MENTION DETECTION HELPERS
 # Helper for mentionDetection()
-def make_mention(begin, end, tree, mention_type, sentNum, ngdata):
-    global mentionID
+def make_mention(begin, end, tree, mention_type, sentNum, mentionID, ngdata):
     new_ment = Mention(mentionID)
-    mentionID += 1
     new_ment.type = mention_type
     new_ment.begin = int(begin)
     new_ment.end = int(end)
@@ -448,7 +441,7 @@ def add_mention_features(mention, ngdata):
 
 
 # Stitch multi-word name mentions together
-def stitch_names(node_list, tree, sentNum, ngdata):
+def stitch_names(node_list, tree, sentNum, mentionID, ngdata):
     node_list.sort(key=lambda node: int(node.attrib['begin']))
     added = [False] * len(node_list)
     mentions = []
@@ -463,9 +456,9 @@ def stitch_names(node_list, tree, sentNum, ngdata):
                     added[next_idx] = True
                 else:
                     break
-            mentions.append(
-                make_mention(beg_val, end_val, tree, 'name', sentNum, ngdata)
-            )
+            mentions.append(make_mention(
+                    beg_val, end_val, tree, 'name', sentNum, next(mentionID),
+                    ngdata))
     return mentions
 
 

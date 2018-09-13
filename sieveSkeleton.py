@@ -1,8 +1,6 @@
-#!/usr/bin/env python
+'''Skeleton sieve that cycles through anaphora and candidate mentions in the right order'''
 
 from utils import get_mention_id_list_per_sentence
-
-'''Skeleton sieve that cycles through anaphora and candidate mentions in the right order'''
 
 
 def sieveSkeleton(mention_id_list, mention_dict, cluster_dict, cluster_id_list):

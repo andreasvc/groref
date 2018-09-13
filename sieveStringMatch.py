@@ -1,8 +1,6 @@
-#!/usr/bin/env python
+'''links two mentions only if they contain exactly the same extent text, including modifiers and determiners'''
 
 from utils import get_mention_id_list_per_sentence, mergeClustersByMentionIDs
-
-'''links two mentions only if they contain exactly the same extent text, including modifiers and determiners'''
 
 
 def sieveStringMatch(
