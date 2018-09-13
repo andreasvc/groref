@@ -1,6 +1,7 @@
 # -*- coding: utf8 -*-
-'''Mention detection sieve of the coreference resolution system'''
+"""Mention detection sieve of the coreference resolution system"""
 
+from __future__ import absolute_import
 from itertools import count
 from utils import add_mention, make_mention, stitch_names, sort_mentions
 
@@ -112,9 +113,6 @@ def findNP(tree, sentNum, ngdata, mention_list, mentionID):
 def findMWU(tree, sentNum, ngdata, mention_list, mentionID):
     mwu_rels = ['obj1', 'su', 'cnj', 'hd']  # hd 14/65
     for mention_node in tree.findall(".//node[@cat='mwu']"):
-        len_ment = int(mention_node.attrib['end']) - int(
-            mention_node.attrib['begin']
-        )
         if mention_node.attrib['rel'] in mwu_rels:
             name = 'mwu_' + mention_node.attrib['rel']
             new_mention = make_mention(
@@ -133,9 +131,6 @@ def findMWU(tree, sentNum, ngdata, mention_list, mentionID):
 def findMWU2(tree, sentNum, ngdata, mention_list, mentionID):
     mwu_rels = ['obj1', 'su', 'cnj', 'hd']  # hd 14/65
     for mention_node in tree.findall(".//node[@cat='mwu']"):
-        len_ment = int(mention_node.attrib['end']) - int(
-            mention_node.attrib['begin']
-        )
         if mention_node.attrib['rel'] in mwu_rels:
             prevDet = tree.find(
                 ".//node[@pos='det'][@end='"
@@ -218,18 +213,16 @@ def findName(tree, sentNum, ngdata, mention_list, mentionID):
 def findNP2(tree, sentNum, ngdata, mention_list, mentionID):
     np_rels = ['obj1', 'su', 'app', 'cnj', 'body', 'sat', 'predc']
     for mention_node in tree.findall(".//node[@cat='np']"):
-        len_ment = int(mention_node.attrib['end']) - int(
-            mention_node.attrib['begin']
-        )
-        if (
-            mention_node.attrib['rel'] in np_rels and len_ment > 4
-        ):  # and len_ment < 10:
+        len_ment = (int(mention_node.attrib['end'])
+                - int(mention_node.attrib['begin']))
+        if (mention_node.attrib['rel'] in np_rels
+                and len_ment > 4):  # and len_ment < 10:
             for die in tree.findall(
-                ".//node[@word='die']"
-            ):  # @word='die' werkt beter
-                if int(die.attrib['begin']) > int(
-                    mention_node.attrib['begin']
-                ) and int(die.attrib['end']) < int(mention_node.attrib['end']):
+                    ".//node[@word='die']"):  # @word='die' werkt beter
+                if (int(die.attrib['begin'])
+                        > int(mention_node.attrib['begin'])
+                        and int(die.attrib['end'])
+                        < int(mention_node.attrib['end'])):
                     new_mention = make_mention(
                         mention_node.attrib['begin'],
                         die.attrib['begin'],
@@ -237,14 +230,13 @@ def findNP2(tree, sentNum, ngdata, mention_list, mentionID):
                         'die_np',
                         sentNum,
                         next(mentionID),
-                        ngdata,
-                    )
+                        ngdata)
                     if allWordsHaveAlpha(new_mention.tokenList):
                         add_mention(mention_list, new_mention)
 
 
 # Mention detection sieve, selects all NPs, pronouns, names
-def mentionDetection(conll_list, tree_list, verbosity, sentenceDict, ngdata,
+def mentionDetection(tree_list, verbosity, sentenceDict, ngdata,
         mention_list):
     mention_id_list = []
     mention_dict = {}
@@ -253,7 +245,6 @@ def mentionDetection(conll_list, tree_list, verbosity, sentenceDict, ngdata,
     for tree in tree_list:
         mention_list = []
         sentenceDict[sentNum] = tree.find('sentence').text
-        sentenceList = tree.find('sentence').text.split(' ')
 
         findNP(tree, sentNum, ngdata, mention_list, mentionID)
         # findMWU(tree, sentNum, ngdata, mention_list, mentionID)

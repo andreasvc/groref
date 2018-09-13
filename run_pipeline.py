@@ -3,18 +3,21 @@
 a conll-formatted file or directory containing conll-formatted files. Expects
 Alpino parses to be present already. """
 
-import argparse, os, re, subprocess, datetime
+from __future__ import absolute_import, division
+import os
+import re
+import argparse
+import datetime
+import subprocess
 import preprocess_clin_data
 import coreference_resolution
 from utils import (read_number_gender_data, process_and_print_clin_scorer_file,
         allSieves)
 
 
-def processDocument(filename, verbosity, sieveList, ngdata):
-    ''' Do preprocessing, coreference resolution and evaluation for a single 
-	document.
-	'''
-    global timestamp
+def processDocument(filename, verbosity, sieveList, ngdata, timestamp):
+    """Do preprocessing, coreference resolution and evaluation for a single
+    document."""
     if verbosity != 'none':
         print('processing', filename, '...')
     output_filename = (
@@ -70,10 +73,9 @@ def processDocument(filename, verbosity, sieveList, ngdata):
             )
 
 
-def processDirectory(dirname, verbosity, sieveList, ngdata):
-    '''Do preprocessing, coreference resolution and evaluation for all 
-	documents in a directory.
-	'''
+def processDirectory(dirname, verbosity, sieveList, ngdata, timestamp):
+    """Do preprocessing, coreference resolution and evaluation for all
+    documents in a directory."""
     for filename in os.listdir(dirname):
         if os.path.isfile(os.path.join(dirname, filename)):
             if re.search('.xml.coref_ne$', filename) or re.search(
@@ -84,14 +86,15 @@ def processDirectory(dirname, verbosity, sieveList, ngdata):
                     verbosity,
                     sieveList,
                     ngdata,
-                )
+                    timestamp)
 
 
 def postProcessScores(scores_dir, verbosity, onlyTotal=False):
     ''' Aggregates and formats evaluation scores of one or more documents,
 	outputs to 'scores_overall'-file
 	'''
-    scores = {}  # Format: {doc_name: {metric: [Pkey, Ppred, P, Rkey, Rpred, R, F1]} }
+    # Format: {doc_name: {metric: [Pkey, Ppred, P, Rkey, Rpred, R, F1]} }
+    scores = {}
     metric = ''
     for filename in os.listdir(scores_dir):
         if os.path.isfile(os.path.join(scores_dir, filename)) and re.search(
@@ -125,26 +128,20 @@ def postProcessScores(scores_dir, verbosity, onlyTotal=False):
                         0,
                     ]:  # Avoid filling entry 5 times
                         if re.search('^Identification', line):
-                            values = [
-                                float(value)
-                                for value in re.findall('[0-9]+\.?[0-9]*', line)
-                            ]
+                            values = [float(value) for value
+                                    in re.findall(r'[0-9]+\.?[0-9]*', line)]
                             scores[docName]['md'] = (
                                 values[0:6] + values[7:]
                             )  # At index 6 is the '1' from 'F1', so ignore
                     if metric == 'blanc':
                         if re.search('^BLANC', line):
-                            values = [
-                                float(value)
-                                for value in re.findall('[0-9]+\.?[0-9]*', line)
-                            ]
+                            values = [float(value) for value
+                                    in re.findall(r'[0-9]+\.?[0-9]*', line)]
                             scores[docName][metric] = values[0:6] + values[7:]
                     else:
                         if re.search('^Coreference:', line):
-                            values = [
-                                float(value)
-                                for value in re.findall('[0-9]+\.?[0-9]*', line)
-                            ]
+                            values = [float(value) for value
+                                    in re.findall(r'[0-9]+\.?[0-9]*', line)]
                             scores[docName][metric] = values[0:6] + values[7:]
             scores[docName]['conll'] = [
                 (
@@ -257,35 +254,33 @@ def postProcessScores(scores_dir, verbosity, onlyTotal=False):
         out_file.write(scorestring)
 
 
-if __name__ == '__main__':
+def main():
     # Parse input arguments
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        'target',
-        type=str,
-        help='Path to a file or directory, in .conll format, for which to do coreference resolution.',
-    )
+            'target',
+            type=str,
+            help='Path to a file or directory, in .conll format, '
+                'for which to do coreference resolution.')
     parser.add_argument(
-        '-v',
-        '--verbosity',
-        type=str,
-        help='Verbosity of output, can be either "high" or "low", default is "high"',
-        default='high',
-    )
+            '-v',
+            '--verbosity',
+            type=str,
+            help='Verbosity of output, can be either "high" or "low", '
+                'default is "high"',
+            default='high')
     parser.add_argument(
-        '-s',
-        '--sieve',
-        help='Given this flag, scores after each sieve are reported',
-        dest='per_sieve',
-        action='store_true',
-    )
+            '-s',
+            '--sieve',
+            help='Given this flag, scores after each sieve are reported',
+            dest='per_sieve',
+            action='store_true')
     parser.add_argument(
-        '-c',
-        '--conll',
-        help='Given this flag, CoNLL scorer is used',
-        dest='conll',
-        action='store_true',
-    )
+            '-c',
+            '--conll',
+            help='Given this flag, CoNLL scorer is used',
+            dest='conll',
+            action='store_true')
     args = parser.parse_args()
     # Put output in timestamped sub-folder of results/
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
@@ -301,40 +296,43 @@ if __name__ == '__main__':
             args.target += '/'
         if args.per_sieve:
             for i in range(0, len(allSieves) + 1):
-                processDirectory(args.target, 'none', allSieves[:i], ngdata)
+                processDirectory(
+                        args.target, 'none', allSieves[:i], ngdata, timestamp)
                 print('using these sieves: ' + str(allSieves[:i]))
                 postProcessScores('results/' + timestamp, 'low', True)
         else:
+            # Give range(0,20) as sieveList, so that all sieves are applied
             processDirectory(
-                args.target, args.verbosity, list(range(0, 20)), ngdata
-            )  # Give range(0,20) as sieveList, so that all sieves are applied
+                    args.target, args.verbosity, list(range(0, 20)), ngdata,
+                    timestamp)
     elif os.path.isfile(args.target):
         if args.per_sieve:
             for i in range(0, len(allSieves)):
-                processDocument(args.target, 'none', allSieves[: i + 1], ngdata)
+                processDocument(
+                        args.target, 'none', allSieves[: i + 1], ngdata,
+                        timestamp)
                 print('using these sieves: ' + str(allSieves[: i + 1]))
                 postProcessScores('results/' + timestamp, 'low', True)
         else:
-            processDocument(args.target, args.verbosity, list(range(0, 20)), ngdata)
+            processDocument(
+                    args.target, args.verbosity, list(range(0, 20)), ngdata,
+                    timestamp)
     else:
         print('Incorrect input file or directory')
         raise SystemExit
     if not args.per_sieve and args.conll:
         postProcessScores('results/' + timestamp, args.verbosity)
     os.chdir('clin26-eval-master')
-    with open('../results/' + timestamp + '/blanc_scores', 'w') as blanc_scores:
+    with open('../results/%s/blanc_scores' % timestamp, 'w') as blanc_scores:
         subprocess.call(
-            [
-                "bash",
-                "score_coref.sh",
-                "coref_ne",
-                "dev_corpora/coref_ne",
-                "../results/" + timestamp,
-                "blanc",
-            ],
-            stdout=blanc_scores,
-        )
+            ['bash', 'score_coref.sh', 'coref_ne', 'dev_corpora/coref_ne',
+                '../results/' + timestamp, 'blanc'],
+            stdout=blanc_scores)
     os.chdir('../')
     process_and_print_clin_scorer_file(os.path.join(
             'results', timestamp, 'blanc_scores'))
     print('Timestamp for this run was: %s' % timestamp)
+
+
+if __name__ == '__main__':
+    main()

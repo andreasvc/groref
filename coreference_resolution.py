@@ -3,6 +3,7 @@
 Based on the Stanford Coreference Resolution system. Requires CoNLL-formatted
 input data and Alpino parses in xml as input, gives CoNLL-formatted output. """
 
+from __future__ import absolute_import
 import argparse
 import copy
 from utils import (read_conll_file, read_xml_parse_files,
@@ -24,7 +25,7 @@ def main(
     doc_tags,
     verbosity,
     sieveList,
-    ngdata={},
+    ngdata=None,
     scorer='clin',
 ):
     # Maximum number of sentences for which to read in parses
@@ -48,8 +49,7 @@ def main(
     # cluster_dict contains all clusters, in a dict
     mention_list = []
     mention_id_list, mention_dict = mentionDetection(
-            conll_list, xml_tree_list, verbosity, sentenceDict, ngdata,
-            mention_list)
+            xml_tree_list, verbosity, sentenceDict, ngdata or {}, mention_list)
     if verbosity == 'high':
         print('OUR MENTION OUTPUT:')
         print_mentions_inline(sentenceDict, mention_id_list, mention_dict)

@@ -8,8 +8,8 @@ import shutil
 
 
 def esc_squares(word):
-    word = word.replace('[', '\[')
-    return word.replace(']', '\]')
+    word = word.replace('[', r'\[')
+    return word.replace(']', r'\]')
 
 
 def parse(conllFile, tokenIdx, nameCut):

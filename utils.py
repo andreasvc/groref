@@ -307,7 +307,7 @@ def make_mention(begin, end, tree, mention_type, sentNum, mentionID, ngdata):
 def add_mention_features(mention, ngdata):
     # Base mention features on attributes of first headword
     attribs = mention.tokenAttribs[mention.head_begin]
-    ''' Extract number attribute '''
+    # Extract number attribute
     try:
         if 'num' not in attribs and 'rnum' in attribs:
             attribs['num'] = attribs['rnum']
@@ -330,7 +330,7 @@ def add_mention_features(mention, ngdata):
                 mention.number = 'both'
     except KeyError:
         mention.number = 'unknown'
-    ''' Extract gender attribute '''
+    # Extract gender attribute
     if 'genus' in attribs:
         if attribs['genus'] == 'masc':
             mention.gender = 'male'
@@ -339,7 +339,7 @@ def add_mention_features(mention, ngdata):
         elif attribs['genus'] == 'zijd':
             mention.gender = 'nonneuter'
     if 'neclass' in attribs or mention.type.lower() == 'name':
-        '''separate gender classification for NEs (mentions with NE heads)'''
+        # separate gender classification for NEs (mentions with NE heads)
         lowered_token_list = [token.lower() for token in mention.tokenList]
         gender_data = [0, 0, 0, 0]
         try:
@@ -422,7 +422,7 @@ def add_mention_features(mention, ngdata):
             mention.NEtype = 'unknown'
     if mention.type.lower() == 'name' and not mention.NEtype:
         mention.NEtype = 'unknown'
-    ''' Extract animacy attribute '''
+    # Extract animacy attribute
     if mention.NEtype == 'person':
         mention.animacy = 'animate'
     elif mention.NEtype == 'organization':
@@ -435,7 +435,7 @@ def add_mention_features(mention, ngdata):
         else:
             mention.animacy = 'animate'
     if not mention.animacy:
-        '''fancy animacy classification here, or not?'''
+        # fancy animacy classification here, or not?
         pass
     return mention
 
