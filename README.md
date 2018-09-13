@@ -3,14 +3,14 @@ Deterministic Rule-Based Coreference Resolution for Dutch
 
 To evaluate the system on development data:
 
-$ python3 run_pipeline.py clinDevData/
+	$ python3 run_pipeline.py clinDevData/
 
-Alpino should be used first, see alpino.py
+Alpino should be used first, see `alpino.py`.
 
 
 To run the system on a directory of Alpino parse trees:
 
-$ python3 coreference_resolution.py parses/ output.coref
+	$ python3 coreference_resolution.py parses/ output.coref
 
 
 References
