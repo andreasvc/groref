@@ -63,6 +63,11 @@ def postProcessTokenArray(tokenArray, coreferential_ids, no_inner=False):
                 # have same id, that of first mention of the coreference
                 # cluster
                 if mention_id in coreferential_ids:
+                    if (coreferential_ids.get(coreferential_ids[mention_id])
+                            == mention_id):
+                        # raise ValueError('coref cycle')
+                        print('coref cycle')
+                        coreferential_ids.pop(mention_id)
                     while mention_id in coreferential_ids:
                         # Keep this to check for closing bracket
                         original_mention_ids.append(mention_id)
@@ -104,28 +109,21 @@ def main():
     # Parse input argument
     parser = argparse.ArgumentParser()
     parser.add_argument(
-            'input_dir',
-            type=str,
+            'input_dir', type=str,
             help='Path to a directory containing XML-files '
                 'with COREA corpus data')
     parser.add_argument(
-            '--noInner',
+            '--noInner', dest='no_inner', action='store_true',
             help='If this flag is given, corefIDs are only printed for first '
-                'and last word of mention',
-            dest='no_inner',
-            action='store_true')
+                'and last word of mention')
     parser.add_argument(
-            '--docTags',
+            '--docTags', dest='doc_tags', action='store_true',
             help='If this flag is given, a begin and end document is printed '
-                'at first and last line of output',
-            dest='doc_tags',
-            action='store_true')
+                'at first and last line of output')
     parser.add_argument(
-            '--printHeader',
+            '--printHeader', dest='print_header', action='store_true',
             help='If this flag is provided, a header is printed '
-                'with column names',
-            dest='print_header',
-            action='store_true')
+                'with column names')
     args = parser.parse_args()
 
     # Create output dir
