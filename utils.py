@@ -104,10 +104,34 @@ def read_xml_parse_files(dir_name):
     return xml_tree_list
 
 
+def generatelabels(sentenceDict, mention_dict):
+    output = [[''] * len(sentenceDict[n].split(' '))
+            for n in sorted(sentenceDict)]
+    for mention_id in sorted(mention_dict):
+        mention = mention_dict[mention_id]
+        for n in range(mention.begin, mention.end):
+            corefLabel = output[mention.sentNum - 1][n]
+            # Start of mention, print a bracket
+            if n == mention.begin:
+                if corefLabel:
+                    corefLabel += '|'
+                corefLabel += '('
+            if corefLabel:
+                if corefLabel[-1] != '(':
+                    corefLabel += '|'
+            corefLabel += str(mention.clusterID)
+            # End of mention, print a bracket
+            if n + 1 == mention.end:
+                corefLabel += ')'
+            output[mention.sentNum - 1][n] = corefLabel
+    return [[a or '-' for a in coreflabels]
+            for n, coreflabels in enumerate(output, 1)]
+
+
 # Creates conll-formatted output with the clustering information
 def generate_conll(
-    docName, output_filename, doc_tags, sentenceDict, mention_dict, scorer
-):
+        docName, output_filename, doc_tags, sentenceDict, mention_dict,
+        scorer):
     output_file = open(output_filename, 'w', encoding='utf8')
     docName = os.path.basename(docName.rsplit('.', 1)[0])
     if doc_tags:
@@ -116,46 +140,16 @@ def generate_conll(
         else:
             output_file.write('#begin document (' + docName + '); part 000\n')
     doc_token_id = 0
-    for key in sorted(sentenceDict.keys()):  # Cycle through sentences
-        for token_idx, token in enumerate(
-            sentenceDict[key].split(' ')
-        ):  # Cycle through words in sentences
-            corefLabel = ''
+    output = generatelabels(sentenceDict, mention_dict)
+    for key, coreflabels in zip(sorted(sentenceDict), output):
+        for token, corefLabel in zip(
+                sentenceDict[key].split(' '), coreflabels):
             doc_token_id += 1
-            for (
-                mention_id,
-                mention,
-            ) in (
-                iter(mention_dict.items())
-            ):  # Check all mentions, to see whether token is part of mention
-                if mention.sentNum == key:
-                    if (
-                        token_idx == mention.begin
-                    ):  # Start of mention, print a bracket
-                        if corefLabel:
-                            corefLabel += '|'
-                        corefLabel += '('
-                    if token_idx >= mention.begin and token_idx < mention.end:
-                        if corefLabel:
-                            if corefLabel[-1] != '(':
-                                corefLabel += '|'
-                        corefLabel += str(mention.clusterID)
-                    if (
-                        token_idx + 1 == mention.end
-                    ):  # End of mention, print a bracket
-                        corefLabel += ')'
-            if not corefLabel:  # Tokens outside of mentions get a dash
-                corefLabel = '-'
-            output_file.write(
-                docName
-                + '\t'
-                + str(doc_token_id)
-                + '\t'
-                + token
-                + '\t'
-                + corefLabel
-                + '\n'
-            )
+            output_file.write('\t'.join((
+                    docName,
+                    str(doc_token_id),
+                    token,
+                    (corefLabel or '-'))) + '\n')
         output_file.write('\n')
     if doc_tags:
         output_file.write('#end document')
@@ -166,22 +160,18 @@ def generate_conll(
 # Function that takes two mention ids, and merges the clusters they are part
 # of, returns cluster dict and cluster_id_list
 def mergeClustersByMentionIDs(
-    idx1, idx2, mention_dict, cluster_dict, cluster_id_list
-):
+        idx1, idx2, mention_dict, cluster_dict, cluster_id_list):
     mention1 = mention_dict[idx1]
     mention2 = mention_dict[idx2]
-    if (
-        mention1.clusterID == mention2.clusterID
-    ):  # Cannot merge if mentions are part of same cluster
+    # Cannot merge if mentions are part of same cluster
+    if mention1.clusterID == mention2.clusterID:
         return
     cluster1 = cluster_dict[mention1.clusterID]
     cluster2 = cluster_dict[mention2.clusterID]
     # Put all mentions of cluster2 in cluster1
     for mentionID in cluster2.mentionList:
         cluster_dict[mention1.clusterID].mentionList.append(mentionID)
-        for mention_id, mention in mention_dict.items():
-            if mention.ID == mentionID:
-                mention.clusterID = cluster1.ID
+        mention_dict[mentionID].clusterID = cluster1.ID
     del cluster_dict[cluster2.ID]
     cluster_id_list.remove(cluster2.ID)
     return cluster_dict, cluster_id_list

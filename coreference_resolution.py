@@ -18,29 +18,8 @@ from sieveStringMatch import sieveStringMatch
 from sievePronounResolution import sievePronounResolution
 
 
-def main(
-    conll_file,
-    parses_dir,
-    output_file,
-    doc_tags,
-    verbosity,
-    sieveList,
-    ngdata=None,
-    scorer='clin',
-):
-    # Maximum number of sentences for which to read in parses
-    num_sentences = 9999
-
-    # Read input files
-    try:
-        conll_list, num_sentences = read_conll_file(conll_file)
-    except IOError:
-        print('CoNLL input file not found: %s' % (conll_file))
-        conll_list = []
-    xml_tree_list = read_xml_parse_files(parses_dir)[:num_sentences]
-    if verbosity == 'high':
-        print('Number of sentences found: %d' % (num_sentences))
-        print('Number of xml parse trees used: %d' % (len(xml_tree_list)))
+def runsieves(xml_tree_list, sieveList, verbosity,
+        ngdata=None, conll_list=None):
     sentenceDict = {}  # Initialize dictionary containing sentence strings
     # Do mention detection, give back 3 variables:
     # mention_id_list contains list of mention IDs in right order,
@@ -56,13 +35,11 @@ def main(
     if verbosity == 'high' and conll_list:
         print('MENTION DETECTION OUTPUT VS. GOLD STANDARD:')
         print_mention_analysis_inline(
-            conll_list, sentenceDict, mention_id_list, mention_dict
-        )
+            conll_list, sentenceDict, mention_id_list, mention_dict)
         print('GOLD STANDARD:')
         print_gold_mentions(conll_list, sentenceDict)
     cluster_dict, cluster_id_list, mention_dict = initialize_clusters(
-        mention_dict, mention_id_list
-    )
+        mention_dict, mention_id_list)
     # APPLY SIEVES HERE
     # speaker identification (sieve 1):
     if 1 in sieveList:
@@ -188,6 +165,29 @@ def main(
             print_linked_mentions(
                     old_mention_dict, mention_id_list, mention_dict,
                     sentenceDict)
+    return sentenceDict, mention_dict
+
+
+def main(
+        conll_file, parses_dir, output_file, doc_tags, verbosity, sieveList,
+        ngdata=None, scorer='clin'):
+    # Maximum number of sentences for which to read in parses
+    num_sentences = 9999
+
+    # Read input files
+    try:
+        conll_list, num_sentences = read_conll_file(conll_file)
+    except IOError:
+        print('CoNLL input file not found: %s' % (conll_file))
+        conll_list = []
+    xml_tree_list = read_xml_parse_files(parses_dir)[:num_sentences]
+    if verbosity == 'high':
+        print('Number of sentences found: %d' % (num_sentences))
+        print('Number of xml parse trees used: %d' % (len(xml_tree_list)))
+
+    sentenceDict, mention_dict = runsieves(
+            xml_tree_list, sieveList, verbosity,
+            ngdata=ngdata, conll_list=conll_list)
     # Generate output
     generate_conll(
             conll_file, output_file, doc_tags, sentenceDict, mention_dict,
